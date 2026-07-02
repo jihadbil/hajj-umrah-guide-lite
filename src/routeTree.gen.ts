@@ -9,8 +9,32 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as UmrahRouteImport } from './routes/umrah'
+import { Route as TipsRouteImport } from './routes/tips'
+import { Route as HajjRouteImport } from './routes/hajj'
+import { Route as DuasRouteImport } from './routes/duas'
 import { Route as IndexRouteImport } from './routes/index'
 
+const UmrahRoute = UmrahRouteImport.update({
+  id: '/umrah',
+  path: '/umrah',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TipsRoute = TipsRouteImport.update({
+  id: '/tips',
+  path: '/tips',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HajjRoute = HajjRouteImport.update({
+  id: '/hajj',
+  path: '/hajj',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DuasRoute = DuasRouteImport.update({
+  id: '/duas',
+  path: '/duas',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -19,28 +43,72 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/duas': typeof DuasRoute
+  '/hajj': typeof HajjRoute
+  '/tips': typeof TipsRoute
+  '/umrah': typeof UmrahRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/duas': typeof DuasRoute
+  '/hajj': typeof HajjRoute
+  '/tips': typeof TipsRoute
+  '/umrah': typeof UmrahRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/duas': typeof DuasRoute
+  '/hajj': typeof HajjRoute
+  '/tips': typeof TipsRoute
+  '/umrah': typeof UmrahRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/duas' | '/hajj' | '/tips' | '/umrah'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to: '/' | '/duas' | '/hajj' | '/tips' | '/umrah'
+  id: '__root__' | '/' | '/duas' | '/hajj' | '/tips' | '/umrah'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  DuasRoute: typeof DuasRoute
+  HajjRoute: typeof HajjRoute
+  TipsRoute: typeof TipsRoute
+  UmrahRoute: typeof UmrahRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/umrah': {
+      id: '/umrah'
+      path: '/umrah'
+      fullPath: '/umrah'
+      preLoaderRoute: typeof UmrahRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/tips': {
+      id: '/tips'
+      path: '/tips'
+      fullPath: '/tips'
+      preLoaderRoute: typeof TipsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/hajj': {
+      id: '/hajj'
+      path: '/hajj'
+      fullPath: '/hajj'
+      preLoaderRoute: typeof HajjRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/duas': {
+      id: '/duas'
+      path: '/duas'
+      fullPath: '/duas'
+      preLoaderRoute: typeof DuasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -53,17 +121,11 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  DuasRoute: DuasRoute,
+  HajjRoute: HajjRoute,
+  TipsRoute: TipsRoute,
+  UmrahRoute: UmrahRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}

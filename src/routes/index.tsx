@@ -4,103 +4,217 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "دليل الحاج والمعتمر — الرحلة الروحانية المباركة" },
-      { name: "description", content: "دليلك الشامل لأداء مناسك الحج والعمرة، مع الأدعية والأذكار والنصائح خطوة بخطوة." },
+      { title: "مرشد — دليل الحاج والمعتمر" },
+      { name: "description", content: "دليلك الإرشادي الشامل لأداء الحج والعمرة بسهولة وطمأنينة." },
     ],
   }),
 });
 
-const sections = [
-  { to: "/hajj", title: "مناسك الحج", desc: "خطوات الحج مرتّبة من الإحرام إلى طواف الوداع.", icon: "🕋" },
-  { to: "/umrah", title: "مناسك العمرة", desc: "الطواف والسعي والتقصير بالترتيب الصحيح.", icon: "🌙" },
-  { to: "/duas", title: "الأدعية والأذكار", desc: "أدعية مأثورة لكل موقف من مواقف الرحلة.", icon: "📿" },
-  { to: "/tips", title: "نصائح الرحلة", desc: "إرشادات صحية وتنظيمية لرحلة ميسّرة.", icon: "🧭" },
-] as const;
+const quickCards = [
+  { to: "/hajj", icon: "🗺️", label: "خريطة المشاعر", desc: "أماكن المناسك" },
+  { to: "/duas", icon: "❓", label: "أسئلة شائعة", desc: "إجابات متكاملة" },
+  { to: "/tips", icon: "📋", label: "مقالات توجيهية", desc: "معلومات نافعة" },
+  { to: "/duas", icon: "🤲", label: "الأدعية والأذكار", desc: "أدعية مأثورة" },
+  { to: "/hajj", icon: "🕋", label: "شرح المناسك", desc: "خطوة بخطوة" },
+];
 
-const stats = [
-  { n: "٥", l: "أركان الحج" },
-  { n: "٤", l: "أركان العمرة" },
-  { n: "٧", l: "أشواط الطواف" },
-  { n: "٧", l: "أشواط السعي" },
+const articles = [
+  {
+    to: "/hajj",
+    img: "/article1.png",
+    category: "المناسك",
+    title: "أحكام شاملة في العمرة",
+    desc: "تعرّف على أحكام العمرة من البداية إلى النهاية بأسلوب مبسّط.",
+    reads: "١٢٤",
+  },
+  {
+    to: "/duas",
+    img: "/article2.png",
+    category: "الأدعية",
+    title: "أدعية العمرة المستحبة",
+    desc: "مجموعة مختارة من الأدعية المستحبة في كل مرحلة من مراحل العمرة.",
+    reads: "٨٩",
+  },
+  {
+    to: "/umrah",
+    img: "/article3.png",
+    category: "الفقه",
+    title: "الفرق بين العمرة والحج",
+    desc: "شرح مفصّل للفوارق الجوهرية بين فريضتَي الحج والعمرة.",
+    reads: "٢١٥",
+  },
+];
+
+const quickGuide = [
+  { step: "الإحرام من الميقات" },
+  { step: "الطواف حول الكعبة" },
+  { step: "السعي بين الصفا والمروة" },
+  { step: "الحلق أو التقصير" },
+  { step: "التحلل من الإحرام" },
 ];
 
 function Index() {
   return (
     <div>
       {/* Hero */}
-      <section className="relative overflow-hidden">
-        <div className="mx-auto max-w-6xl px-4 py-20 md:py-28">
-          <div className="mx-auto max-w-3xl text-center">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/20 bg-primary-soft px-4 py-1.5 text-xs font-medium text-primary">
-              <span>﷽</span>
-              <span>بسم الله نبدأ رحلتنا المباركة</span>
-            </div>
-            <h1 className="font-display text-4xl font-bold leading-tight text-foreground md:text-6xl">
-              دليلك <span className="text-gradient-primary">الشامل</span> لأداء
-              <br />
-              مناسك الحج والعمرة
+      <section
+        className="relative min-h-[480px] flex items-center overflow-hidden"
+        style={{
+          backgroundImage:
+            "url(/kaaba.png)",
+          backgroundSize: "cover",
+          backgroundPosition: "center center",
+        }}
+      >
+        {/* Overlay — dark on the right (RTL start), fades to transparent on left */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to left, rgba(15,45,28,0.92) 0%, rgba(15,45,28,0.75) 45%, rgba(0,0,0,0.15) 100%)",
+          }}
+        />
+
+        <div className="relative mx-auto w-full max-w-7xl px-4 py-20 flex justify-end">
+          <div className="max-w-md text-right">
+            <p className="mb-3 text-sm font-medium text-white/70">دليل إرشادي شامل</p>
+            <h1 className="font-display text-4xl font-bold leading-snug text-white md:text-5xl">
+              مرشد
             </h1>
-            <p className="mt-6 text-lg text-muted-foreground md:text-xl">
-              كل ما تحتاجه في رحلتك الروحانية: خطوات المناسك، الأدعية المأثورة، الأذكار اليومية، ونصائح عملية — كل ذلك بترتيب واضح وبسيط.
+            <p className="mt-3 text-base text-white/80 leading-relaxed md:text-lg">
+              دليل إرشادي شامل لأداء العمرة والحج
+              <br />
+              بسهولة وطمأنينة
             </p>
-            <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <Link to="/hajj" className="rounded-full bg-gradient-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-soft transition-transform hover:scale-105">
+            <div className="mt-8 flex flex-wrap gap-3 justify-end">
+              <Link
+                to="/hajj"
+                className="inline-flex items-center gap-2 rounded-md px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                style={{ backgroundColor: "#2D6A4F" }}
+              >
                 ابدأ بمناسك الحج
               </Link>
-              <Link to="/duas" className="rounded-full border border-primary/30 bg-background px-6 py-3 text-sm font-semibold text-primary transition-colors hover:bg-primary-soft">
-                الأدعية والأذكار
+              <Link
+                to="/umrah"
+                className="inline-flex items-center gap-2 rounded-md border border-white/30 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/20"
+              >
+                استكشف الدليل
               </Link>
             </div>
           </div>
+        </div>
+      </section>
 
-          {/* Stats */}
-          <div className="mx-auto mt-16 grid max-w-3xl grid-cols-2 gap-3 md:grid-cols-4">
-            {stats.map((s) => (
-              <div key={s.l} className="rounded-2xl border border-border/60 bg-card/80 p-5 text-center shadow-soft backdrop-blur">
-                <div className="font-display text-3xl font-bold text-primary">{s.n}</div>
-                <div className="mt-1 text-xs text-muted-foreground">{s.l}</div>
-              </div>
+      {/* Quick access cards */}
+      <section className="bg-white shadow-sm">
+        <div className="mx-auto max-w-7xl px-4">
+          <div className="grid grid-cols-2 divide-x divide-x-reverse divide-border md:grid-cols-5">
+            {quickCards.map((c) => (
+              <Link
+                key={c.label}
+                to={c.to}
+                className="group flex flex-col items-center gap-2 px-4 py-5 text-center transition-colors hover:bg-primary-soft"
+              >
+                <span className="text-2xl">{c.icon}</span>
+                <div>
+                  <div className="text-sm font-semibold text-foreground group-hover:text-primary">
+                    {c.label}
+                  </div>
+                  <div className="text-xs text-muted-foreground">{c.desc}</div>
+                </div>
+              </Link>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Sections grid */}
-      <section className="mx-auto max-w-6xl px-4 py-12">
-        <div className="mb-10 text-center">
-          <h2 className="font-display text-3xl font-bold md:text-4xl">ماذا يقدّم لك الدليل؟</h2>
-          <p className="mt-3 text-muted-foreground">أقسام مرتّبة تسير معك خطوة بخطوة في رحلتك</p>
-        </div>
-        <div className="grid gap-5 md:grid-cols-2">
-          {sections.map((s) => (
-            <Link
-              key={s.to}
-              to={s.to}
-              className="group relative overflow-hidden rounded-3xl border border-border/60 bg-card p-8 shadow-soft transition-all hover:-translate-y-1 hover:border-primary/40"
-            >
-              <div className="absolute -left-8 -top-8 h-32 w-32 rounded-full bg-primary-soft transition-transform group-hover:scale-125" />
-              <div className="relative">
-                <div className="text-4xl">{s.icon}</div>
-                <h3 className="mt-4 font-display text-2xl font-bold text-foreground">{s.title}</h3>
-                <p className="mt-2 text-sm text-muted-foreground">{s.desc}</p>
-                <div className="mt-6 inline-flex items-center gap-1 text-sm font-semibold text-primary">
-                  <span>اعرف المزيد</span>
-                  <span className="transition-transform group-hover:-translate-x-1">←</span>
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
-      </section>
+      {/* Main content */}
+      <section className="mx-auto max-w-7xl px-4 py-10">
+        <div className="flex flex-col gap-8 lg:flex-row">
+          {/* Articles */}
+          <div className="flex-1 min-w-0">
+            <div className="mb-6 flex items-center justify-between">
+              <h2 className="font-display text-2xl font-bold text-foreground">مقالات مختارة</h2>
+              <Link to="/hajj" className="text-sm font-medium text-primary hover:underline">
+                عرض جميع المقالات ←
+              </Link>
+            </div>
+            <div className="grid gap-5 sm:grid-cols-3">
+              {articles.map((a) => (
+                <Link
+                  key={a.title}
+                  to={a.to}
+                  className="group overflow-hidden rounded-xl border border-border bg-card shadow-card transition-shadow hover:shadow-soft"
+                >
+                  <div className="aspect-[16/9] overflow-hidden bg-muted">
+                    <img
+                      src={a.img}
+                      alt={a.title}
+                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src =
+                          "https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=600&q=80";
+                      }}
+                    />
+                  </div>
+                  <div className="p-4">
+                    <span className="inline-block rounded-full bg-primary-soft px-2.5 py-0.5 text-xs font-medium text-primary">
+                      {a.category}
+                    </span>
+                    <h3 className="mt-2 font-display text-base font-bold text-foreground leading-snug group-hover:text-primary transition-colors">
+                      {a.title}
+                    </h3>
+                    <p className="mt-1.5 text-xs text-muted-foreground line-clamp-2">{a.desc}</p>
+                    <div className="mt-3 flex items-center gap-1 text-xs text-muted-foreground">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                      <span>{a.reads} قراءة</span>
+                    </div>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
 
-      {/* Verse */}
-      <section className="mx-auto max-w-4xl px-4 py-16">
-        <div className="rounded-3xl border border-primary/20 bg-gradient-soft p-10 text-center shadow-soft">
-          <div className="mb-3 text-xs font-medium uppercase tracking-widest text-primary">آية كريمة</div>
-          <p className="font-display text-2xl leading-loose text-foreground md:text-3xl">
-            ﴿ وَأَذِّن فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا وَعَلَىٰ كُلِّ ضَامِرٍ يَأْتِينَ مِن كُلِّ فَجٍّ عَمِيقٍ ﴾
-          </p>
-          <div className="mt-4 text-sm text-muted-foreground">سورة الحج — الآية ٢٧</div>
+          {/* Quick guide sidebar */}
+          <aside className="w-full lg:w-72 shrink-0">
+            <div className="rounded-xl border border-border bg-card shadow-card overflow-hidden">
+              <div className="px-5 py-4" style={{ backgroundColor: "#1B4332" }}>
+                <h3 className="font-display text-lg font-bold text-white">دليل سريع</h3>
+                <p className="text-xs text-white/60 mt-0.5">خطوات العمرة المختصرة</p>
+              </div>
+              <div className="divide-y divide-border">
+                {quickGuide.map((item, i) => (
+                  <div key={item.step} className="flex items-center gap-3 px-5 py-3.5">
+                    <div
+                      className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white"
+                      style={{ backgroundColor: "#2D6A4F" }}
+                    >
+                      {i + 1}
+                    </div>
+                    <span className="text-sm text-foreground">{item.step}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="px-5 py-4">
+                <Link
+                  to="/umrah"
+                  className="block w-full rounded-lg py-2.5 text-center text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                  style={{ backgroundColor: "#2D6A4F" }}
+                >
+                  عرض دليل العمرة كاملاً
+                </Link>
+              </div>
+            </div>
+
+            {/* Verse card */}
+            <div className="mt-5 rounded-xl border border-primary/20 bg-primary-soft p-5 text-center">
+              <div className="mb-2 text-xs font-medium text-primary">آية كريمة</div>
+              <p className="font-display text-sm leading-loose text-foreground">
+                ﴿ وَأَذِّن فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا ﴾
+              </p>
+              <div className="mt-2 text-xs text-muted-foreground">سورة الحج — الآية ٢٧</div>
+            </div>
+          </aside>
         </div>
       </section>
     </div>

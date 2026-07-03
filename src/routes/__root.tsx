@@ -7,7 +7,7 @@ import {
   HeadContent,
   Scripts,
 } from "@tanstack/react-router";
-import { useEffect, type ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
@@ -67,16 +67,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "دليل الحاج والمعتمر — مناسك، أدعية وأذكار" },
+      { title: "مرشد — دليل الحاج والمعتمر" },
       { name: "description", content: "دليل شامل للحجاج والمعتمرين: خطوات الحج والعمرة، الأدعية، الأذكار، ونصائح الرحلة المباركة." },
-      { property: "og:title", content: "دليل الحاج والمعتمر — مناسك، أدعية وأذكار" },
+      { property: "og:title", content: "مرشد — دليل الحاج والمعتمر" },
       { property: "og:description", content: "دليل شامل للحجاج والمعتمرين: خطوات الحج والعمرة، الأدعية، الأذكار، ونصائح الرحلة المباركة." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "دليل الحاج والمعتمر — مناسك، أدعية وأذكار" },
-      { name: "twitter:description", content: "دليل شامل للحجاج والمعتمرين: خطوات الحج والعمرة، الأدعية، الأذكار، ونصائح الرحلة المباركة." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/867ee37b-46c7-4d2b-a872-192d42cfe107/id-preview-47179760--e8274ceb-edaf-4a7b-a2ce-ba2ba37dddf3.lovable.app-1783034691218.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/867ee37b-46c7-4d2b-a872-192d42cfe107/id-preview-47179760--e8274ceb-edaf-4a7b-a2ce-ba2ba37dddf3.lovable.app-1783034691218.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
@@ -108,61 +103,102 @@ function RootShell({ children }: { children: ReactNode }) {
 
 const navLinks = [
   { to: "/", label: "الرئيسية" },
-  { to: "/hajj", label: "مناسك الحج" },
-  { to: "/umrah", label: "مناسك العمرة" },
-  { to: "/duas", label: "الأدعية والأذكار" },
+  { to: "/hajj", label: "المناسك" },
+  { to: "/duas", label: "الأدعية" },
+  { to: "/umrah", label: "العمرة" },
   { to: "/tips", label: "نصائح الرحلة" },
 ] as const;
 
 function Header() {
+  const [mobileOpen, setMobileOpen] = useState(false);
+
   return (
-    <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur-md">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
-        <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-primary text-primary-foreground shadow-soft">
-            <span className="text-lg">ﷲ</span>
+    <header className="sticky top-0 z-40" style={{ backgroundColor: "#1B4332" }}>
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
+        {/* Logo */}
+        <Link to="/" className="flex items-center gap-2.5">
+          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/15 text-white text-xl">
+            🕌
           </div>
           <div className="leading-tight">
-            <div className="font-display text-lg font-bold text-primary">دليل الحاج والمعتمر</div>
-            <div className="text-xs text-muted-foreground">مناسك • أدعية • أذكار</div>
+            <div className="text-lg font-bold text-white" style={{ fontFamily: "Amiri, serif" }}>مرشد</div>
+            <div className="text-[10px] text-white/60">دليل الحاج والمعتمر</div>
           </div>
         </Link>
-        <nav className="hidden gap-1 md:flex">
+
+        {/* Desktop nav */}
+        <nav className="hidden items-center gap-1 md:flex">
           {navLinks.map((l) => (
             <Link
               key={l.to}
               to={l.to}
-              className="rounded-full px-4 py-2 text-sm font-medium text-foreground/70 transition-colors hover:bg-primary-soft hover:text-primary"
-              activeProps={{ className: "bg-primary text-primary-foreground hover:bg-primary hover:text-primary-foreground" }}
+              className="rounded-md px-3 py-1.5 text-sm font-medium text-white/80 transition-colors hover:bg-white/10 hover:text-white"
+              activeProps={{ className: "bg-white/15 text-white" }}
+              activeOptions={{ exact: l.to === "/" }}
             >
               {l.label}
             </Link>
           ))}
         </nav>
-      </div>
-      <nav className="flex gap-1 overflow-x-auto border-t border-border/50 px-4 py-2 md:hidden">
-        {navLinks.map((l) => (
-          <Link
-            key={l.to}
-            to={l.to}
-            className="whitespace-nowrap rounded-full px-3 py-1.5 text-xs font-medium text-foreground/70 hover:bg-primary-soft"
-            activeProps={{ className: "bg-primary text-primary-foreground" }}
+
+        {/* Right icons */}
+        <div className="flex items-center gap-2">
+          <button className="flex h-8 w-8 items-center justify-center rounded-md text-white/70 hover:bg-white/10 hover:text-white transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+            </svg>
+          </button>
+          <button
+            className="flex h-8 w-8 items-center justify-center rounded-md text-white/70 hover:bg-white/10 hover:text-white transition-colors md:hidden"
+            onClick={() => setMobileOpen(!mobileOpen)}
           >
-            {l.label}
-          </Link>
-        ))}
-      </nav>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="18" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile menu */}
+      {mobileOpen && (
+        <nav className="border-t border-white/10 px-4 pb-3 md:hidden" style={{ backgroundColor: "#1B4332" }}>
+          {navLinks.map((l) => (
+            <Link
+              key={l.to}
+              to={l.to}
+              className="block rounded-md px-3 py-2 text-sm font-medium text-white/80 hover:bg-white/10 hover:text-white"
+              activeProps={{ className: "bg-white/15 text-white" }}
+              activeOptions={{ exact: l.to === "/" }}
+              onClick={() => setMobileOpen(false)}
+            >
+              {l.label}
+            </Link>
+          ))}
+        </nav>
+      )}
     </header>
   );
 }
 
 function Footer() {
   return (
-    <footer className="mt-24 border-t border-border/60 bg-primary-soft/40">
-      <div className="mx-auto max-w-6xl px-4 py-10 text-center">
-        <div className="font-display text-lg font-bold text-primary">دليل الحاج والمعتمر</div>
-        <p className="mt-2 text-sm text-muted-foreground">تقبّل الله منّا ومنكم صالح الأعمال</p>
-        <p className="mt-4 text-xs text-muted-foreground">© {new Date().getFullYear()} — جميع الحقوق محفوظة</p>
+    <footer className="mt-16 border-t border-border" style={{ backgroundColor: "#1B4332" }}>
+      <div className="mx-auto max-w-7xl px-4 py-10">
+        <div className="flex flex-col items-center gap-4 text-center">
+          <div className="flex items-center gap-2">
+            <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/15 text-white text-base">🕌</div>
+            <span className="text-lg font-bold text-white" style={{ fontFamily: "Amiri, serif" }}>مرشد</span>
+          </div>
+          <p className="text-sm text-white/60">تقبّل الله منّا ومنكم صالح الأعمال</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            {navLinks.map((l) => (
+              <Link key={l.to} to={l.to} className="text-xs text-white/50 hover:text-white/80 transition-colors">
+                {l.label}
+              </Link>
+            ))}
+          </div>
+          <p className="text-xs text-white/40">© {new Date().getFullYear()} مرشد — جميع الحقوق محفوظة</p>
+        </div>
       </div>
     </footer>
   );

@@ -1,0 +1,26 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "U27X6_g1yRMw5McosCcOJ"
+uri = "file://public/kaaba.png"
+type = "image"
+title = "kaaba mecca hero"
+
+[[generated]]
+id = "836sEX0VX_csD-CqRXrbp"
+uri = "file://public/article1.png"
+type = "image"
+title = "tawaf pilgrims article"
+
+[[generated]]
+id = "ysOosUWcgShHfcSPVJsSI"
+uri = "file://public/article2.png"
+type = "image"
+title = "dua prayer article"
+
+[[generated]]
+id = "M-TLsgMmGn2whUoqA4i7a"
+uri = "file://public/article3.png"
+type = "image"
+title = "zamzam well article"

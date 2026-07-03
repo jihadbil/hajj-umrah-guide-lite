@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { umrahJourneySteps } from "@/lib/umrahJourney";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -45,13 +46,6 @@ const articles = [
   },
 ];
 
-const quickGuide = [
-  { step: "الإحرام من الميقات" },
-  { step: "الطواف حول الكعبة" },
-  { step: "السعي بين الصفا والمروة" },
-  { step: "الحلق أو التقصير" },
-  { step: "التحلل من الإحرام" },
-];
 
 function Index() {
   return (
@@ -183,15 +177,19 @@ function Index() {
                 <p className="text-xs text-white/60 mt-0.5">خطوات العمرة المختصرة</p>
               </div>
               <div className="divide-y divide-border">
-                {quickGuide.map((item, i) => (
-                  <div key={item.step} className="flex items-center gap-3 px-5 py-3.5">
+                {umrahJourneySteps.map((step) => (
+                  <div key={step.id} className="flex items-center gap-3 px-5 py-3.5">
                     <div
                       className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white"
                       style={{ backgroundColor: "#2D6A4F" }}
                     >
-                      {i + 1}
+                      {step.id}
                     </div>
-                    <span className="text-sm text-foreground">{item.step}</span>
+                    <div className="flex-1 min-w-0">
+                      <div className="text-sm font-medium text-foreground">{step.title}</div>
+                      <div className="text-xs text-muted-foreground truncate">{step.subtitle}</div>
+                    </div>
+                    <span className="text-base">{step.icon}</span>
                   </div>
                 ))}
               </div>

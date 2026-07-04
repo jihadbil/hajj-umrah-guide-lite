@@ -100,8 +100,8 @@ function Index() {
       </section>
 
       {/* Quick access cards */}
-      <section className="bg-white shadow-sm">
-        <div className="mx-auto max-w-7xl px-4">
+      <section className="px-4 -mt-6 relative z-10">
+        <div className="mx-auto max-w-5xl overflow-hidden rounded-2xl bg-white shadow-md">
           <div className="grid grid-cols-2 divide-x divide-x-reverse divide-border md:grid-cols-5">
             {quickCards.map((c) => (
               <Link

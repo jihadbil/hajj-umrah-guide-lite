@@ -67,10 +67,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "مرشد — دليل الحاج والمعتمر" },
-      { name: "description", content: "دليل شامل للحجاج والمعتمرين: خطوات الحج والعمرة، الأدعية، الأذكار، ونصائح الرحلة المباركة." },
-      { property: "og:title", content: "مرشد — دليل الحاج والمعتمر" },
-      { property: "og:description", content: "دليل شامل للحجاج والمعتمرين: خطوات الحج والعمرة، الأدعية، الأذكار، ونصائح الرحلة المباركة." },
+      { title: "مرشد — دليل المعتمر" },
+      { name: "description", content: "دليل شامل للمعتمرين: رحلة العمرة خطوة بخطوة، الأركان والواجبات، المحظورات، الأخطاء الشائعة، والأدعية." },
+      { property: "og:title", content: "مرشد — دليل المعتمر" },
+      { property: "og:description", content: "دليل شامل للمعتمرين: رحلة العمرة خطوة بخطوة، الأركان والواجبات، المحظورات، الأخطاء الشائعة، والأدعية." },
       { property: "og:type", content: "website" },
     ],
     links: [
@@ -103,10 +103,11 @@ function RootShell({ children }: { children: ReactNode }) {
 
 const navLinks = [
   { to: "/", label: "الرئيسية" },
-  { to: "/hajj", label: "المناسك" },
+  { to: "/umrah", label: "رحلة العمرة" },
+  { to: "/hajj", label: "الأركان والواجبات" },
+  { to: "/prohibitions", label: "المحظورات" },
+  { to: "/mistakes", label: "الأخطاء الشائعة" },
   { to: "/duas", label: "الأدعية" },
-  { to: "/umrah", label: "العمرة" },
-  { to: "/tips", label: "نصائح الرحلة" },
 ] as const;
 
 function Header() {

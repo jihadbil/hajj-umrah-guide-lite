@@ -104,7 +104,6 @@ function RootShell({ children }: { children: ReactNode }) {
 const navLinks = [
   { to: "/", label: "الرئيسية" },
   { to: "/umrah", label: "رحلة العمرة" },
-  { to: "/hajj", label: "الأركان والواجبات" },
   { to: "/prohibitions", label: "المحظورات" },
   { to: "/mistakes", label: "الأخطاء الشائعة" },
   { to: "/duas", label: "الأدعية" },
@@ -123,7 +122,7 @@ function Header() {
           </div>
           <div className="leading-tight">
             <div className="text-lg font-bold text-white" style={{ fontFamily: "Amiri, serif" }}>مرشد</div>
-            <div className="text-[10px] text-white/60">دليل الحاج والمعتمر</div>
+            <div className="text-[10px] text-white/60">دليل المعتمر</div>
           </div>
         </Link>
 

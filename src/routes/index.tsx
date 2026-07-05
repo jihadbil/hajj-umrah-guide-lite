@@ -5,27 +5,26 @@ export const Route = createFileRoute("/")({
   component: Index,
   head: () => ({
     meta: [
-      { title: "مرشد — دليل الحاج والمعتمر" },
-      { name: "description", content: "دليلك الإرشادي الشامل لأداء الحج والعمرة بسهولة وطمأنينة." },
+      { title: "مرشد — دليل المعتمر" },
+      { name: "description", content: "دليلك الإرشادي الشامل لأداء العمرة بسهولة وطمأنينة." },
     ],
   }),
 });
 
 const quickCards = [
-  { to: "/umrah", icon: "🕋", label: "رحلة العمرة", desc: "خطوة بخطوة" },
-  { to: "/hajj", icon: "📖", label: "الأركان والواجبات", desc: "أحكام العمرة" },
-  { to: "/prohibitions", icon: "🚫", label: "محظورات الإحرام", desc: "ما يجب اجتنابه" },
-  { to: "/mistakes", icon: "⚠️", label: "الأخطاء الشائعة", desc: "تجنّب الأخطاء" },
-  { to: "/duas", icon: "🤲", label: "الأدعية والأذكار", desc: "أدعية مأثورة" },
+  { to: "/umrah",        icon: "🕋", label: "رحلة العمرة",       desc: "خطوة بخطوة" },
+  { to: "/prohibitions", icon: "🚫", label: "محظورات الإحرام",   desc: "ما يجب اجتنابه" },
+  { to: "/mistakes",     icon: "⚠️", label: "الأخطاء الشائعة",  desc: "تجنّب الأخطاء" },
+  { to: "/duas",         icon: "🤲", label: "الأدعية والأذكار",  desc: "أدعية مأثورة" },
 ];
 
 const articles = [
   {
-    to: "/hajj",
+    to: "/umrah",
     img: "/article1.png",
-    category: "الأحكام",
-    title: "أركان العمرة الثلاثة",
-    desc: "الإحرام والطواف والسعي — الأعمال التي لا تصح العمرة إلا بها، مع الأدلة من الكتاب والسنة.",
+    category: "رحلة العمرة",
+    title: "رحلة العمرة خطوة بخطوة",
+    desc: "دليل تفصيلي من الاستعداد للإحرام إلى الطواف والسعي والتقصير — مع المستحبات والأدعية في كل خطوة.",
     reads: "١٢٤",
   },
   {
@@ -46,7 +45,6 @@ const articles = [
   },
 ];
 
-
 function Index() {
   return (
     <div>
@@ -54,13 +52,11 @@ function Index() {
       <section
         className="relative min-h-[480px] flex items-center overflow-hidden"
         style={{
-          backgroundImage:
-            "url(/kaaba.png)",
+          backgroundImage: "url(/kaaba.png)",
           backgroundSize: "cover",
           backgroundPosition: "center center",
         }}
       >
-        {/* Overlay — dark on the right (RTL start), fades to transparent on left */}
         <div
           className="absolute inset-0"
           style={{
@@ -68,31 +64,30 @@ function Index() {
               "linear-gradient(to left, rgba(15,45,28,0.92) 0%, rgba(15,45,28,0.75) 45%, rgba(0,0,0,0.15) 100%)",
           }}
         />
-
         <div className="relative mx-auto w-full max-w-7xl px-4 py-20 flex justify-end">
           <div className="max-w-md text-right">
-            <p className="mb-3 text-sm font-medium text-white/70">دليل إرشادي شامل</p>
+            <p className="mb-3 text-sm font-medium text-white/70">دليل المعتمر</p>
             <h1 className="font-display text-4xl font-bold leading-snug text-white md:text-5xl">
               مرشد
             </h1>
             <p className="mt-3 text-base text-white/80 leading-relaxed md:text-lg">
-              دليل إرشادي شامل لأداء العمرة والحج
+              دليلك الإرشادي الشامل لأداء العمرة
               <br />
               بسهولة وطمأنينة
             </p>
             <div className="mt-8 flex flex-wrap gap-3 justify-end">
               <Link
-                to="/hajj"
+                to="/umrah"
                 className="inline-flex items-center gap-2 rounded-md px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
                 style={{ backgroundColor: "#2D6A4F" }}
               >
-                ابدأ بمناسك الحج
+                ابدأ رحلة العمرة
               </Link>
               <Link
-                to="/umrah"
+                to="/duas"
                 className="inline-flex items-center gap-2 rounded-md border border-white/30 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/20"
               >
-                استكشف الدليل
+                الأدعية والأذكار
               </Link>
             </div>
           </div>
@@ -101,8 +96,8 @@ function Index() {
 
       {/* Quick access cards */}
       <section className="px-4 -mt-6 relative z-10">
-        <div className="mx-auto max-w-5xl overflow-hidden rounded-2xl bg-white shadow-md">
-          <div className="grid grid-cols-2 divide-x divide-x-reverse divide-border md:grid-cols-5">
+        <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl bg-white shadow-md">
+          <div className="grid grid-cols-2 divide-x divide-x-reverse divide-border md:grid-cols-4">
             {quickCards.map((c) => (
               <Link
                 key={c.label}
@@ -129,8 +124,8 @@ function Index() {
           <div className="flex-1 min-w-0">
             <div className="mb-6 flex items-center justify-between">
               <h2 className="font-display text-2xl font-bold text-foreground">مقالات مختارة</h2>
-              <Link to="/hajj" className="text-sm font-medium text-primary hover:underline">
-                عرض جميع المقالات ←
+              <Link to="/umrah" className="text-sm font-medium text-primary hover:underline">
+                دليل العمرة كاملاً ←
               </Link>
             </div>
             <div className="grid gap-5 sm:grid-cols-3">
@@ -208,9 +203,9 @@ function Index() {
             <div className="mt-5 rounded-xl border border-primary/20 bg-primary-soft p-5 text-center">
               <div className="mb-2 text-xs font-medium text-primary">آية كريمة</div>
               <p className="font-display text-sm leading-loose text-foreground">
-                ﴿ وَأَذِّن فِي النَّاسِ بِالْحَجِّ يَأْتُوكَ رِجَالًا ﴾
+                ﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾
               </p>
-              <div className="mt-2 text-xs text-muted-foreground">سورة الحج — الآية ٢٧</div>
+              <div className="mt-2 text-xs text-muted-foreground">سورة البقرة — الآية ١٩٦</div>
             </div>
           </aside>
         </div>

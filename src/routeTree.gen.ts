@@ -13,7 +13,6 @@ import { Route as UmrahRouteImport } from './routes/umrah'
 import { Route as TipsRouteImport } from './routes/tips'
 import { Route as ProhibitionsRouteImport } from './routes/prohibitions'
 import { Route as MistakesRouteImport } from './routes/mistakes'
-import { Route as HajjRouteImport } from './routes/hajj'
 import { Route as DuasRouteImport } from './routes/duas'
 import { Route as IndexRouteImport } from './routes/index'
 
@@ -37,11 +36,6 @@ const MistakesRoute = MistakesRouteImport.update({
   path: '/mistakes',
   getParentRoute: () => rootRouteImport,
 } as any)
-const HajjRoute = HajjRouteImport.update({
-  id: '/hajj',
-  path: '/hajj',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const DuasRoute = DuasRouteImport.update({
   id: '/duas',
   path: '/duas',
@@ -56,7 +50,6 @@ const IndexRoute = IndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/duas': typeof DuasRoute
-  '/hajj': typeof HajjRoute
   '/mistakes': typeof MistakesRoute
   '/prohibitions': typeof ProhibitionsRoute
   '/tips': typeof TipsRoute
@@ -65,7 +58,6 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/duas': typeof DuasRoute
-  '/hajj': typeof HajjRoute
   '/mistakes': typeof MistakesRoute
   '/prohibitions': typeof ProhibitionsRoute
   '/tips': typeof TipsRoute
@@ -75,7 +67,6 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/duas': typeof DuasRoute
-  '/hajj': typeof HajjRoute
   '/mistakes': typeof MistakesRoute
   '/prohibitions': typeof ProhibitionsRoute
   '/tips': typeof TipsRoute
@@ -83,16 +74,13 @@ export interface FileRoutesById {
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    '/' | '/duas' | '/hajj' | '/mistakes' | '/prohibitions' | '/tips' | '/umrah'
+  fullPaths: '/' | '/duas' | '/mistakes' | '/prohibitions' | '/tips' | '/umrah'
   fileRoutesByTo: FileRoutesByTo
-  to:
-    '/' | '/duas' | '/hajj' | '/mistakes' | '/prohibitions' | '/tips' | '/umrah'
+  to: '/' | '/duas' | '/mistakes' | '/prohibitions' | '/tips' | '/umrah'
   id:
     | '__root__'
     | '/'
     | '/duas'
-    | '/hajj'
     | '/mistakes'
     | '/prohibitions'
     | '/tips'
@@ -102,7 +90,6 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   DuasRoute: typeof DuasRoute
-  HajjRoute: typeof HajjRoute
   MistakesRoute: typeof MistakesRoute
   ProhibitionsRoute: typeof ProhibitionsRoute
   TipsRoute: typeof TipsRoute
@@ -139,13 +126,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MistakesRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/hajj': {
-      id: '/hajj'
-      path: '/hajj'
-      fullPath: '/hajj'
-      preLoaderRoute: typeof HajjRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/duas': {
       id: '/duas'
       path: '/duas'
@@ -166,7 +146,6 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   DuasRoute: DuasRoute,
-  HajjRoute: HajjRoute,
   MistakesRoute: MistakesRoute,
   ProhibitionsRoute: ProhibitionsRoute,
   TipsRoute: TipsRoute,

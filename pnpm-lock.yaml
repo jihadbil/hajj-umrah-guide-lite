@@ -201,9 +201,6 @@ importers:
       globals:
         specifier: ^15.15.0
         version: 15.15.0
-      nitro:
-        specifier: 3.0.260603-beta
-        version: 3.0.260603-beta(chokidar@5.0.0)(jiti@1.21.7)(vite@8.1.3(@types/node@22.20.0)(jiti@1.21.7))
       prettier:
         specifier: ^3.7.3
         version: 3.9.4
@@ -5097,7 +5094,8 @@ snapshots:
 
   concat-map@0.0.1: {}
 
-  consola@3.4.2: {}
+  consola@3.4.2:
+    optional: true
 
   convert-source-map@2.0.0: {}
 
@@ -5112,6 +5110,7 @@ snapshots:
   crossws@0.4.9(srvx@0.11.21):
     optionalDependencies:
       srvx: 0.11.21
+    optional: true
 
   cssesc@3.0.0: {}
 
@@ -5159,7 +5158,8 @@ snapshots:
 
   date-fns@4.4.0: {}
 
-  db0@0.3.4: {}
+  db0@0.3.4:
+    optional: true
 
   debug@4.4.3:
     dependencies:
@@ -5209,6 +5209,7 @@ snapshots:
       exsolve: 1.1.0
       httpxy: 0.5.4
       srvx: 0.11.21
+    optional: true
 
   es-errors@1.3.0: {}
 
@@ -5426,6 +5427,7 @@ snapshots:
       srvx: 0.11.21
     optionalDependencies:
       crossws: 0.4.9(srvx@0.11.21)
+    optional: true
 
   has-flag@4.0.0: {}
 
@@ -5433,9 +5435,11 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hookable@6.1.1: {}
+  hookable@6.1.1:
+    optional: true
 
-  httpxy@0.5.4: {}
+  httpxy@0.5.4:
+    optional: true
 
   ignore@5.3.2: {}
 
@@ -5622,7 +5626,8 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  nf3@0.3.19: {}
+  nf3@0.3.19:
+    optional: true
 
   nitro@3.0.260603-beta(chokidar@5.0.0)(jiti@1.21.7)(vite@8.1.3(@types/node@22.20.0)(jiti@1.21.7)):
     dependencies:
@@ -5674,6 +5679,7 @@ snapshots:
       - sqlite3
       - uploadthing
       - wrangler
+    optional: true
 
   node-releases@2.0.50: {}
 
@@ -5686,10 +5692,13 @@ snapshots:
   ocache@0.1.5:
     dependencies:
       ohash: 2.0.11
+    optional: true
 
-  ofetch@2.0.0-alpha.3: {}
+  ofetch@2.0.0-alpha.3:
+    optional: true
 
-  ohash@2.0.11: {}
+  ohash@2.0.11:
+    optional: true
 
   optionator@0.9.4:
     dependencies:
@@ -6096,6 +6105,7 @@ snapshots:
   unenv@2.0.0-rc.24:
     dependencies:
       pathe: 2.0.3
+    optional: true
 
   unplugin@3.3.0(rolldown@1.1.4)(vite@8.1.3(@types/node@22.20.0)(jiti@1.21.7)):
     dependencies:
@@ -6111,6 +6121,7 @@ snapshots:
       chokidar: 5.0.0
       db0: 0.3.4
       ofetch: 2.0.0-alpha.3
+    optional: true
 
   update-browserslist-db@1.2.3(browserslist@4.28.4):
     dependencies:

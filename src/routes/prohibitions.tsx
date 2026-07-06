@@ -1,6 +1,11 @@
+// ===================================================
+// prohibitions.tsx — صفحة محظورات الإحرام
+// ===================================================
+
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHeader } from "@/components/PageHeader";
 
+// تعريف مسار الصفحة وبيانات SEO
 export const Route = createFileRoute("/prohibitions")({
   component: ProhibitionsPage,
   head: () => ({
@@ -11,6 +16,8 @@ export const Route = createFileRoute("/prohibitions")({
   }),
 });
 
+// ---- قائمة المحظورات التسعة ----
+// كل محظور يحتوي على: رقم، عنوان، أيقونة، شرح، دليل (اختياري)، استثناء (اختياري)
 const prohibitions = [
   {
     n: "١",
@@ -86,6 +93,7 @@ const prohibitions = [
   },
 ];
 
+// ---- الأسئلة الشائعة حول محظورات الإحرام ----
 const faqs = [
   {
     q: "هل يجوز استخدام الصابون أو الشامبو؟",
@@ -109,9 +117,11 @@ const faqs = [
   },
 ];
 
+// ---- مكوّن صفحة المحظورات ----
 function ProhibitionsPage() {
   return (
     <div>
+      {/* رأس الصفحة */}
       <PageHeader
         eyebrow="أحكام الإحرام"
         title="محظورات الإحرام"
@@ -120,6 +130,7 @@ function ProhibitionsPage() {
 
       <div className="mx-auto max-w-4xl px-4 py-12">
 
+        {/* تنبيه فقهي مهم يظهر في أعلى الصفحة */}
         <div className="mb-8 rounded-2xl border border-amber-200 bg-amber-50 p-5">
           <div className="flex items-start gap-3">
             <span className="text-2xl mt-0.5">⚠️</span>
@@ -132,29 +143,38 @@ function ProhibitionsPage() {
           </div>
         </div>
 
-        {/* Prohibitions list */}
+        {/* قائمة المحظورات التسعة */}
         <div className="grid gap-4 mb-12">
           {prohibitions.map((p) => (
             <div key={p.n} className="rounded-2xl border border-border bg-card p-5 shadow-soft">
               <div className="flex items-start gap-4">
+                {/* رقم المحظور */}
                 <div
                   className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-bold text-white text-sm"
                   style={{ backgroundColor: "#1B4332" }}
                 >
                   {p.n}
                 </div>
+
                 <div className="flex-1 min-w-0">
+                  {/* عنوان المحظور وأيقونته */}
                   <div className="flex items-center gap-2 mb-2">
                     <span className="text-xl">{p.icon}</span>
                     <h3 className="font-display text-lg font-bold text-foreground">{p.title}</h3>
                   </div>
+
+                  {/* شرح المحظور */}
                   <p className="text-sm text-foreground/80 leading-relaxed">{p.body}</p>
+
+                  {/* الدليل الشرعي — يظهر فقط إن وُجد */}
                   {p.daleel && (
                     <div className="mt-3 rounded-xl bg-primary-soft border border-primary/20 p-3">
                       <div className="text-xs font-semibold text-primary mb-1">الدليل</div>
                       <p className="font-display text-sm leading-loose text-foreground">{p.daleel}</p>
                     </div>
                   )}
+
+                  {/* الاستثناء أو التنبيه — يظهر فقط إن وُجد */}
                   {p.note && (
                     <div className="mt-3 rounded-xl bg-blue-50 border border-blue-100 p-3 text-xs text-blue-800 leading-relaxed">
                       <span className="font-semibold">💡 استثناء: </span>{p.note}
@@ -166,7 +186,7 @@ function ProhibitionsPage() {
           ))}
         </div>
 
-        {/* FAQ */}
+        {/* قسم الأسئلة الشائعة */}
         <div>
           <div className="mb-6 flex items-center gap-3">
             <div className="h-px flex-1 bg-border" />
@@ -178,6 +198,7 @@ function ProhibitionsPage() {
             {faqs.map((f) => (
               <div key={f.q} className="rounded-xl border border-border bg-card p-5">
                 <div className="flex items-start gap-3">
+                  {/* أيقونة علامة الاستفهام */}
                   <span
                     className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white mt-0.5"
                     style={{ backgroundColor: "#2D6A4F" }}
@@ -185,7 +206,9 @@ function ProhibitionsPage() {
                     ؟
                   </span>
                   <div>
+                    {/* السؤال */}
                     <div className="font-semibold text-foreground text-sm mb-1.5">{f.q}</div>
+                    {/* الجواب */}
                     <div className="text-sm text-foreground/70 leading-relaxed">{f.a}</div>
                   </div>
                 </div>

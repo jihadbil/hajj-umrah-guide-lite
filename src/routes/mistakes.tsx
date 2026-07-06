@@ -1,6 +1,11 @@
+// ===================================================
+// mistakes.tsx — صفحة الأخطاء الشائعة في العمرة
+// ===================================================
+
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHeader } from "@/components/PageHeader";
 
+// تعريف مسار الصفحة وبيانات SEO
 export const Route = createFileRoute("/mistakes")({
   component: MistakesPage,
   head: () => ({
@@ -11,21 +16,27 @@ export const Route = createFileRoute("/mistakes")({
   }),
 });
 
+// ---- أنواع البيانات ----
+
+// خطأ شائع: يحتوي على عنوان + الخطأ + الصواب + دليل اختياري
 interface Mistake {
   title: string;
-  wrong: string;
-  right: string;
-  daleel?: string;
+  wrong: string;  // الخطأ الشائع
+  right: string;  // الصواب الشرعي
+  daleel?: string; // الدليل من القرآن أو السنة
 }
 
+// مجموعة من الأخطاء تندرج تحت موضوع واحد
 interface MistakeGroup {
-  category: string;
-  icon: string;
-  color: string;
+  category: string; // اسم الفئة
+  icon: string;     // أيقونة إيموجي
+  color: string;    // لون مميز للفئة (hex)
   mistakes: Mistake[];
 }
 
+// ---- بيانات الأخطاء مصنّفة في خمس مجموعات ----
 const mistakeGroups: MistakeGroup[] = [
+  // --- مجموعة ١: أخطاء الإحرام ---
   {
     category: "أخطاء الإحرام",
     icon: "🧎",
@@ -44,12 +55,14 @@ const mistakeGroups: MistakeGroup[] = [
       },
       {
         title: "ترك التلبية أو الانشغال عنها",
-        wrong: "يترك بعض المعتمرين التلبية بعد الإحرام أو ينشغلون عنها بالحديث وهاتف.",
+        wrong: "يترك بعض المعتمرين التلبية بعد الإحرام أو ينشغلون عنها بالحديث والهاتف.",
         right: "يُستحب الإكثار من التلبية حتى يبدأ الطواف.",
         daleel: "ثبت أن النبي ﷺ لبّى من حين أحرم حتى شرع في الطواف — متفق عليه.",
       },
     ],
   },
+
+  // --- مجموعة ٢: أخطاء الطواف ---
   {
     category: "أخطاء الطواف",
     icon: "🌀",
@@ -83,6 +96,8 @@ const mistakeGroups: MistakeGroup[] = [
       },
     ],
   },
+
+  // --- مجموعة ٣: أخطاء السعي ---
   {
     category: "أخطاء السعي",
     icon: "🏃",
@@ -105,6 +120,8 @@ const mistakeGroups: MistakeGroup[] = [
       },
     ],
   },
+
+  // --- مجموعة ٤: أخطاء الحلق والتقصير ---
   {
     category: "أخطاء الحلق والتقصير",
     icon: "✂️",
@@ -124,6 +141,8 @@ const mistakeGroups: MistakeGroup[] = [
       },
     ],
   },
+
+  // --- مجموعة ٥: أخطاء عامة ---
   {
     category: "أخطاء عامة",
     icon: "⚠️",
@@ -148,9 +167,11 @@ const mistakeGroups: MistakeGroup[] = [
   },
 ];
 
+// ---- مكوّن صفحة الأخطاء الشائعة ----
 function MistakesPage() {
   return (
     <div>
+      {/* رأس الصفحة */}
       <PageHeader
         eyebrow="التنبيهات والإرشادات"
         title="الأخطاء الشائعة في العمرة"
@@ -159,6 +180,7 @@ function MistakesPage() {
 
       <div className="mx-auto max-w-4xl px-4 py-12 space-y-10">
 
+        {/* اقتباس تحفيزي في أعلى الصفحة */}
         <div className="rounded-2xl border border-primary/20 bg-primary-soft p-5 text-center">
           <p className="text-sm text-foreground/80 leading-relaxed">
             قال عبد الله بن مسعود رضي الله عنه: <span className="font-display font-bold text-primary">«اتّبعوا ولا تبتدعوا فقد كُفيتم».</span>
@@ -167,8 +189,10 @@ function MistakesPage() {
           </p>
         </div>
 
+        {/* عرض مجموعات الأخطاء — كل مجموعة في قسم مستقل */}
         {mistakeGroups.map((group) => (
           <section key={group.category}>
+            {/* رأس المجموعة: أيقونة + اسم الفئة */}
             <div className="mb-5 flex items-center gap-3">
               <div
                 className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-lg text-white"
@@ -179,9 +203,11 @@ function MistakesPage() {
               <h2 className="font-display text-xl font-bold text-foreground">{group.category}</h2>
             </div>
 
+            {/* قائمة أخطاء المجموعة */}
             <div className="grid gap-4">
               {group.mistakes.map((m, i) => (
                 <div key={i} className="rounded-2xl border border-border bg-card p-5 shadow-soft">
+                  {/* عنوان الخطأ مع رقم تسلسلي */}
                   <h3 className="font-semibold text-foreground mb-3 flex items-center gap-2">
                     <span
                       className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-white text-xs font-bold"
@@ -191,15 +217,20 @@ function MistakesPage() {
                     </span>
                     {m.title}
                   </h3>
+
                   <div className="space-y-2">
+                    {/* صندوق الخطأ — خلفية حمراء */}
                     <div className="flex items-start gap-2.5 rounded-xl bg-red-50 border border-red-100 p-3">
                       <span className="text-red-500 mt-0.5 shrink-0 text-sm font-bold">✗</span>
                       <p className="text-sm text-red-800 leading-relaxed">{m.wrong}</p>
                     </div>
+
+                    {/* صندوق الصواب — خلفية خضراء */}
                     <div className="flex items-start gap-2.5 rounded-xl bg-green-50 border border-green-100 p-3">
                       <span className="text-green-600 mt-0.5 shrink-0 text-sm font-bold">✓</span>
                       <div>
                         <p className="text-sm text-green-800 leading-relaxed">{m.right}</p>
+                        {/* الدليل — يظهر فقط إن وُجد */}
                         {m.daleel && (
                           <p className="mt-1.5 text-xs text-green-700 italic">{m.daleel}</p>
                         )}

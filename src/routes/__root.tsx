@@ -104,7 +104,10 @@ function RootShell({ children }: { children: ReactNode }) {
 const navLinks = [
   { to: "/", label: "الرئيسية" },
   { to: "/umrah", label: "رحلة العمرة" },
+  { to: "/arkaan", label: "الأركان" },
+  { to: "/wajibaat", label: "الواجبات والسنن" },
   { to: "/prohibitions", label: "المحظورات" },
+  { to: "/fidya", label: "الفدية" },
   { to: "/mistakes", label: "الأخطاء الشائعة" },
   { to: "/duas", label: "الأدعية" },
 ] as const;

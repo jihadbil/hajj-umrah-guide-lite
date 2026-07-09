@@ -9,13 +9,21 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as WajibaatRouteImport } from './routes/wajibaat'
 import { Route as UmrahRouteImport } from './routes/umrah'
 import { Route as TipsRouteImport } from './routes/tips'
 import { Route as ProhibitionsRouteImport } from './routes/prohibitions'
 import { Route as MistakesRouteImport } from './routes/mistakes'
+import { Route as FidyaRouteImport } from './routes/fidya'
 import { Route as DuasRouteImport } from './routes/duas'
+import { Route as ArkaanRouteImport } from './routes/arkaan'
 import { Route as IndexRouteImport } from './routes/index'
 
+const WajibaatRoute = WajibaatRouteImport.update({
+  id: '/wajibaat',
+  path: '/wajibaat',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const UmrahRoute = UmrahRouteImport.update({
   id: '/umrah',
   path: '/umrah',
@@ -36,9 +44,19 @@ const MistakesRoute = MistakesRouteImport.update({
   path: '/mistakes',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FidyaRoute = FidyaRouteImport.update({
+  id: '/fidya',
+  path: '/fidya',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DuasRoute = DuasRouteImport.update({
   id: '/duas',
   path: '/duas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ArkaanRoute = ArkaanRouteImport.update({
+  id: '/arkaan',
+  path: '/arkaan',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -49,55 +67,95 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/arkaan': typeof ArkaanRoute
   '/duas': typeof DuasRoute
+  '/fidya': typeof FidyaRoute
   '/mistakes': typeof MistakesRoute
   '/prohibitions': typeof ProhibitionsRoute
   '/tips': typeof TipsRoute
   '/umrah': typeof UmrahRoute
+  '/wajibaat': typeof WajibaatRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/arkaan': typeof ArkaanRoute
   '/duas': typeof DuasRoute
+  '/fidya': typeof FidyaRoute
   '/mistakes': typeof MistakesRoute
   '/prohibitions': typeof ProhibitionsRoute
   '/tips': typeof TipsRoute
   '/umrah': typeof UmrahRoute
+  '/wajibaat': typeof WajibaatRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/arkaan': typeof ArkaanRoute
   '/duas': typeof DuasRoute
+  '/fidya': typeof FidyaRoute
   '/mistakes': typeof MistakesRoute
   '/prohibitions': typeof ProhibitionsRoute
   '/tips': typeof TipsRoute
   '/umrah': typeof UmrahRoute
+  '/wajibaat': typeof WajibaatRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/duas' | '/mistakes' | '/prohibitions' | '/tips' | '/umrah'
-  fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/duas' | '/mistakes' | '/prohibitions' | '/tips' | '/umrah'
-  id:
-    | '__root__'
+  fullPaths:
     | '/'
+    | '/arkaan'
     | '/duas'
+    | '/fidya'
     | '/mistakes'
     | '/prohibitions'
     | '/tips'
     | '/umrah'
+    | '/wajibaat'
+  fileRoutesByTo: FileRoutesByTo
+  to:
+    | '/'
+    | '/arkaan'
+    | '/duas'
+    | '/fidya'
+    | '/mistakes'
+    | '/prohibitions'
+    | '/tips'
+    | '/umrah'
+    | '/wajibaat'
+  id:
+    | '__root__'
+    | '/'
+    | '/arkaan'
+    | '/duas'
+    | '/fidya'
+    | '/mistakes'
+    | '/prohibitions'
+    | '/tips'
+    | '/umrah'
+    | '/wajibaat'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  ArkaanRoute: typeof ArkaanRoute
   DuasRoute: typeof DuasRoute
+  FidyaRoute: typeof FidyaRoute
   MistakesRoute: typeof MistakesRoute
   ProhibitionsRoute: typeof ProhibitionsRoute
   TipsRoute: typeof TipsRoute
   UmrahRoute: typeof UmrahRoute
+  WajibaatRoute: typeof WajibaatRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/wajibaat': {
+      id: '/wajibaat'
+      path: '/wajibaat'
+      fullPath: '/wajibaat'
+      preLoaderRoute: typeof WajibaatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/umrah': {
       id: '/umrah'
       path: '/umrah'
@@ -126,11 +184,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MistakesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/fidya': {
+      id: '/fidya'
+      path: '/fidya'
+      fullPath: '/fidya'
+      preLoaderRoute: typeof FidyaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/duas': {
       id: '/duas'
       path: '/duas'
       fullPath: '/duas'
       preLoaderRoute: typeof DuasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/arkaan': {
+      id: '/arkaan'
+      path: '/arkaan'
+      fullPath: '/arkaan'
+      preLoaderRoute: typeof ArkaanRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -145,11 +217,14 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  ArkaanRoute: ArkaanRoute,
   DuasRoute: DuasRoute,
+  FidyaRoute: FidyaRoute,
   MistakesRoute: MistakesRoute,
   ProhibitionsRoute: ProhibitionsRoute,
   TipsRoute: TipsRoute,
   UmrahRoute: UmrahRoute,
+  WajibaatRoute: WajibaatRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

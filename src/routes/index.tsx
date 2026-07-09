@@ -12,10 +12,13 @@ export const Route = createFileRoute("/")({
 });
 
 const quickCards = [
-  { to: "/umrah",        icon: "🕋", label: "رحلة العمرة",       desc: "خطوة بخطوة" },
-  { to: "/prohibitions", icon: "🚫", label: "محظورات الإحرام",   desc: "ما يجب اجتنابه" },
-  { to: "/mistakes",     icon: "⚠️", label: "الأخطاء الشائعة",  desc: "تجنّب الأخطاء" },
-  { to: "/duas",         icon: "🤲", label: "الأدعية والأذكار",  desc: "أدعية مأثورة" },
+  { to: "/umrah",        icon: "🕋", label: "رحلة العمرة",        desc: "خطوة بخطوة" },
+  { to: "/arkaan",       icon: "🏛️", label: "أركان العمرة",       desc: "المستحبات والمكروهات" },
+  { to: "/wajibaat",     icon: "📋", label: "الواجبات والسنن",    desc: "الفرائض والمستحبات" },
+  { to: "/prohibitions", icon: "🚫", label: "محظورات الإحرام",    desc: "ما يجب اجتنابه" },
+  { to: "/fidya",        icon: "⚖️", label: "أحكام الفدية",       desc: "متى تجب وكيف تُؤدى" },
+  { to: "/mistakes",     icon: "⚠️", label: "الأخطاء الشائعة",   desc: "تجنّب الأخطاء" },
+  { to: "/duas",         icon: "🤲", label: "الأدعية والأذكار",   desc: "أدعية مأثورة" },
 ];
 
 const articles = [

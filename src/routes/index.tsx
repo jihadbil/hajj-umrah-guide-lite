@@ -19,6 +19,8 @@ const quickCards = [
   { to: "/fidya",        icon: "⚖️", label: "أحكام الفدية",       desc: "متى تجب وكيف تُؤدى" },
   { to: "/mistakes",     icon: "⚠️", label: "الأخطاء الشائعة",   desc: "تجنّب الأخطاء" },
   { to: "/duas",         icon: "🤲", label: "الأدعية والأذكار",   desc: "أدعية مأثورة" },
+  { to: "/attractions",  icon: "🕌", label: "المزارات",           desc: "معالم مكة والمدينة" },
+  { to: "/hotels",       icon: "🏨", label: "الفنادق والمرشدين",  desc: "أماكن الإقامة والمرافقة" },
 ];
 
 const articles = [

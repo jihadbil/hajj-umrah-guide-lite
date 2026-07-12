@@ -11,6 +11,7 @@ import { useEffect, useState, type ReactNode } from "react";
 
 import appCss from "../styles.css?url";
 import { reportLovableError } from "../lib/lovable-error-reporting";
+import { Ticker } from "@/components/Ticker";
 
 function NotFoundComponent() {
   return (
@@ -110,6 +111,8 @@ const navLinks = [
   { to: "/fidya", label: "الفدية" },
   { to: "/mistakes", label: "الأخطاء الشائعة" },
   { to: "/duas", label: "الأدعية" },
+  { to: "/attractions", label: "المزارات" },
+  { to: "/hotels", label: "الفنادق والمرشدين" },
 ] as const;
 
 function Header() {
@@ -213,6 +216,7 @@ function RootComponent() {
     <QueryClientProvider client={queryClient}>
       <div className="flex min-h-screen flex-col">
         <Header />
+        <Ticker />
         <main className="flex-1">
           <Outlet />
         </main>

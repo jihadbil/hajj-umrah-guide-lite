@@ -14,8 +14,10 @@ import { Route as UmrahRouteImport } from './routes/umrah'
 import { Route as TipsRouteImport } from './routes/tips'
 import { Route as ProhibitionsRouteImport } from './routes/prohibitions'
 import { Route as MistakesRouteImport } from './routes/mistakes'
+import { Route as HotelsRouteImport } from './routes/hotels'
 import { Route as FidyaRouteImport } from './routes/fidya'
 import { Route as DuasRouteImport } from './routes/duas'
+import { Route as AttractionsRouteImport } from './routes/attractions'
 import { Route as ArkaanRouteImport } from './routes/arkaan'
 import { Route as IndexRouteImport } from './routes/index'
 
@@ -44,6 +46,11 @@ const MistakesRoute = MistakesRouteImport.update({
   path: '/mistakes',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HotelsRoute = HotelsRouteImport.update({
+  id: '/hotels',
+  path: '/hotels',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const FidyaRoute = FidyaRouteImport.update({
   id: '/fidya',
   path: '/fidya',
@@ -52,6 +59,11 @@ const FidyaRoute = FidyaRouteImport.update({
 const DuasRoute = DuasRouteImport.update({
   id: '/duas',
   path: '/duas',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AttractionsRoute = AttractionsRouteImport.update({
+  id: '/attractions',
+  path: '/attractions',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ArkaanRoute = ArkaanRouteImport.update({
@@ -68,8 +80,10 @@ const IndexRoute = IndexRouteImport.update({
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/arkaan': typeof ArkaanRoute
+  '/attractions': typeof AttractionsRoute
   '/duas': typeof DuasRoute
   '/fidya': typeof FidyaRoute
+  '/hotels': typeof HotelsRoute
   '/mistakes': typeof MistakesRoute
   '/prohibitions': typeof ProhibitionsRoute
   '/tips': typeof TipsRoute
@@ -79,8 +93,10 @@ export interface FileRoutesByFullPath {
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/arkaan': typeof ArkaanRoute
+  '/attractions': typeof AttractionsRoute
   '/duas': typeof DuasRoute
   '/fidya': typeof FidyaRoute
+  '/hotels': typeof HotelsRoute
   '/mistakes': typeof MistakesRoute
   '/prohibitions': typeof ProhibitionsRoute
   '/tips': typeof TipsRoute
@@ -91,8 +107,10 @@ export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/arkaan': typeof ArkaanRoute
+  '/attractions': typeof AttractionsRoute
   '/duas': typeof DuasRoute
   '/fidya': typeof FidyaRoute
+  '/hotels': typeof HotelsRoute
   '/mistakes': typeof MistakesRoute
   '/prohibitions': typeof ProhibitionsRoute
   '/tips': typeof TipsRoute
@@ -104,8 +122,10 @@ export interface FileRouteTypes {
   fullPaths:
     | '/'
     | '/arkaan'
+    | '/attractions'
     | '/duas'
     | '/fidya'
+    | '/hotels'
     | '/mistakes'
     | '/prohibitions'
     | '/tips'
@@ -115,8 +135,10 @@ export interface FileRouteTypes {
   to:
     | '/'
     | '/arkaan'
+    | '/attractions'
     | '/duas'
     | '/fidya'
+    | '/hotels'
     | '/mistakes'
     | '/prohibitions'
     | '/tips'
@@ -126,8 +148,10 @@ export interface FileRouteTypes {
     | '__root__'
     | '/'
     | '/arkaan'
+    | '/attractions'
     | '/duas'
     | '/fidya'
+    | '/hotels'
     | '/mistakes'
     | '/prohibitions'
     | '/tips'
@@ -138,8 +162,10 @@ export interface FileRouteTypes {
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   ArkaanRoute: typeof ArkaanRoute
+  AttractionsRoute: typeof AttractionsRoute
   DuasRoute: typeof DuasRoute
   FidyaRoute: typeof FidyaRoute
+  HotelsRoute: typeof HotelsRoute
   MistakesRoute: typeof MistakesRoute
   ProhibitionsRoute: typeof ProhibitionsRoute
   TipsRoute: typeof TipsRoute
@@ -184,6 +210,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MistakesRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/hotels': {
+      id: '/hotels'
+      path: '/hotels'
+      fullPath: '/hotels'
+      preLoaderRoute: typeof HotelsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/fidya': {
       id: '/fidya'
       path: '/fidya'
@@ -196,6 +229,13 @@ declare module '@tanstack/react-router' {
       path: '/duas'
       fullPath: '/duas'
       preLoaderRoute: typeof DuasRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/attractions': {
+      id: '/attractions'
+      path: '/attractions'
+      fullPath: '/attractions'
+      preLoaderRoute: typeof AttractionsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/arkaan': {
@@ -218,8 +258,10 @@ declare module '@tanstack/react-router' {
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   ArkaanRoute: ArkaanRoute,
+  AttractionsRoute: AttractionsRoute,
   DuasRoute: DuasRoute,
   FidyaRoute: FidyaRoute,
+  HotelsRoute: HotelsRoute,
   MistakesRoute: MistakesRoute,
   ProhibitionsRoute: ProhibitionsRoute,
   TipsRoute: TipsRoute,

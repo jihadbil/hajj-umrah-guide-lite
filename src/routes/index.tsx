@@ -1,5 +1,7 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { useState } from "react";
 import { umrahJourneySteps } from "@/lib/umrahJourney";
+import { PrayerTimes } from "@/components/PrayerTimes";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -19,6 +21,7 @@ const quickCards = [
   { to: "/fidya",        icon: "⚖️", label: "أحكام الفدية",       desc: "متى تجب وكيف تُؤدى" },
   { to: "/mistakes",     icon: "⚠️", label: "الأخطاء الشائعة",   desc: "تجنّب الأخطاء" },
   { to: "/duas",         icon: "🤲", label: "الأدعية والأذكار",   desc: "أدعية مأثورة" },
+  { to: "/tips",         icon: "🧳", label: "حقيبة المعتمر",     desc: "قائمة التجهيزات والنصائح" },
   { to: "/attractions",  icon: "🕌", label: "المزارات",           desc: "معالم مكة والمدينة" },
   { to: "/hotels",       icon: "🏨", label: "الفنادق والمرشدين",  desc: "أماكن الإقامة والمرافقة" },
 ];
@@ -50,71 +53,216 @@ const articles = [
   },
 ];
 
+function InteractiveStepper() {
+  const [active, setActive] = useState(1);
+  const current = umrahJourneySteps.find((s) => s.id === active) || umrahJourneySteps[0];
+
+  return (
+    <div className="rounded-3xl border border-border bg-card shadow-soft p-6 md:p-8 bg-islamic-pattern animate-fade-in-up mt-12 relative overflow-hidden">
+      {/* Decorative background dome shape */}
+      <div className="absolute -top-12 -left-12 text-9xl opacity-5 select-none font-display text-gold pointer-events-none hidden md:block">🕌</div>
+      
+      <div className="text-center mb-8 relative z-10">
+        <span className="inline-flex items-center gap-1.5 rounded-full bg-gold/10 border border-gold/20 px-3 py-1 text-xs font-bold text-gold">
+          🗺️ خارطة الطريق التفاعلية
+        </span>
+        <h2 className="font-display text-2xl font-bold text-foreground mt-2.5 md:text-3xl">مسار العمرة خطوة بخطوة</h2>
+        <p className="text-sm text-muted-foreground mt-1.5 max-w-md mx-auto">تتبع المناسك والخطوات بالتفصيل وتعرف على الأدعية والأعمال المستحبة في كل مرحلة.</p>
+      </div>
+      
+      {/* Step Navigation Track */}
+      <div className="relative mb-10 overflow-x-auto pb-4 pt-2 px-4 scrollbar-none">
+        {/* Progress Line */}
+        <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-border -translate-y-1/2 hidden md:block" />
+        <div 
+          className="absolute top-1/2 right-0 h-0.5 bg-gradient-to-l from-primary to-gold -translate-y-1/2 hidden md:block transition-all duration-500" 
+          style={{ width: `${((active - 1) / (umrahJourneySteps.length - 1)) * 100}%` }}
+        />
+        
+        {/* Step Buttons */}
+        <div className="relative flex justify-between gap-6 md:gap-2 min-w-[750px] md:min-w-0">
+          {umrahJourneySteps.map((step) => {
+            const isCompleted = step.id < active;
+            const isActive = step.id === active;
+            return (
+              <button
+                key={step.id}
+                onClick={() => setActive(step.id)}
+                className="group flex flex-col items-center focus:outline-none transition-transform duration-300 active:scale-95"
+              >
+                {/* Outer Ring */}
+                <div 
+                  className={`flex h-12 w-12 items-center justify-center rounded-2xl border-2 transition-all duration-300 shadow-md ${
+                    isActive 
+                      ? "bg-[#1B4332] border-[#C5A85C] text-white scale-110 ring-4 ring-[#1B4332]/10" 
+                      : isCompleted 
+                      ? "bg-primary border-primary text-white" 
+                      : "bg-card border-border text-muted-foreground group-hover:border-primary/50 group-hover:text-primary group-hover:bg-primary-soft/30"
+                  }`}
+                >
+                  <span className="text-lg transition-transform duration-300 group-hover:scale-110">{step.icon}</span>
+                </div>
+                <span className={`mt-2 text-xs font-bold ${isActive ? "text-[#1B4332]" : "text-muted-foreground"}`}>
+                  الخطوة {step.id}
+                </span>
+                <span className={`text-[10px] hidden md:block max-w-[80px] text-center truncate ${isActive ? "text-foreground font-semibold" : "text-muted-foreground/60"}`}>
+                  {step.title}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+      
+      {/* Selected Step Card Details */}
+      <div className="grid gap-6 md:grid-cols-12 items-stretch rounded-2xl border border-primary/10 bg-primary-soft/45 p-5 md:p-6 transition-all duration-500">
+        {/* Step Info */}
+        <div className="md:col-span-8 flex flex-col justify-between text-right">
+          <div>
+            <div className="flex items-center gap-3.5 mb-3.5">
+              <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-gradient-primary text-white text-xl shadow-soft">
+                {current.icon}
+              </div>
+              <div>
+                <span className="text-[10px] font-bold text-gold">الخطوة {current.id} من {umrahJourneySteps.length}</span>
+                <h3 className="font-display text-xl font-bold text-foreground leading-none mt-0.5">{current.title}</h3>
+              </div>
+            </div>
+            <p className="text-sm text-foreground/80 leading-relaxed mb-4">{current.intro}</p>
+            
+            {/* Top recommended previews */}
+            {current.recommended.length > 0 && (
+              <div className="mt-4">
+                <span className="text-xs font-bold text-primary block mb-2.5">💡 أهم السنن والمستحبات:</span>
+                <div className="grid gap-2.5 sm:grid-cols-2">
+                  {current.recommended.slice(0, 2).map((rec, idx) => (
+                    <div key={idx} className="flex items-start gap-2 text-xs text-foreground/75 bg-card/70 backdrop-blur-sm rounded-xl p-2.5 border border-border/30 shadow-sm">
+                      <span className="text-emerald-500 font-bold mt-0.5">✓</span>
+                      <span className="leading-relaxed">{rec}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+          </div>
+          
+          <div className="mt-6 flex justify-end">
+            <Link
+              to="/umrah"
+              className="inline-flex items-center gap-2 rounded-xl bg-[#1B4332] text-white px-5 py-2.5 text-xs font-bold hover:bg-[#14342A] hover:shadow-soft hover:translate-x-[-2px] transition-all"
+            >
+              <span>عرض الدليل الكامل والسنن والأخطاء</span>
+              <span>←</span>
+            </Link>
+          </div>
+        </div>
+        
+        {/* Step Quote / Supplication Preview */}
+        <div className="md:col-span-4 border-r border-primary/10 pr-0 md:pr-6 flex flex-col justify-center mt-5 md:mt-0">
+          <div className="rounded-xl bg-card border border-primary/15 p-4 flex flex-col gap-2 relative overflow-hidden h-full justify-between shadow-sm">
+            <span className="text-[10px] font-bold text-gold block border-b border-border/50 pb-2">🤲 من أدعية هذه المرحلة:</span>
+            {current.duas.length > 0 ? (
+              <div className="my-auto py-3">
+                <p className="font-display text-base leading-relaxed text-center text-foreground font-semibold">
+                  {current.duas[0].arabic}
+                </p>
+                {current.duas[0].source && (
+                  <span className="block text-[10px] text-muted-foreground text-left mt-2.5">— {current.duas[0].title}</span>
+                )}
+              </div>
+            ) : (
+              <p className="text-xs text-muted-foreground my-auto text-center leading-relaxed">تخير من الدعاء ما شئت من خيري الدنيا والآخرة وأكثر من الاستغفار.</p>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function Index() {
   return (
     <div>
       {/* Hero */}
       <section
-        className="relative min-h-[480px] flex items-center overflow-hidden"
+        className="relative min-h-[520px] flex items-center overflow-hidden pb-16"
         style={{
           backgroundImage: "url(/kaaba.png)",
           backgroundSize: "cover",
           backgroundPosition: "center center",
         }}
       >
+        {/* Dark rich Islamic gradient overlay */}
         <div
-          className="absolute inset-0"
+          className="absolute inset-0 z-0"
           style={{
             background:
-              "linear-gradient(to left, rgba(15,45,28,0.92) 0%, rgba(15,45,28,0.75) 45%, rgba(0,0,0,0.15) 100%)",
+              "linear-gradient(to left, rgba(15,45,28,0.95) 0%, rgba(20,52,42,0.85) 50%, rgba(0,0,0,0.2) 100%)",
           }}
         />
-        <div className="relative mx-auto w-full max-w-7xl px-4 py-20 flex justify-end">
-          <div className="max-w-md text-right">
-            <p className="mb-3 text-sm font-medium text-white/70">دليل المعتمر</p>
-            <h1 className="font-display text-4xl font-bold leading-snug text-white md:text-5xl">
-              مرشد
+        
+        {/* Glowing floating calligraphic motif in background */}
+        <div className="absolute top-1/4 left-1/4 text-[200px] opacity-5 select-none font-display text-gold pointer-events-none hidden lg:block animate-float">
+          🕌
+        </div>
+
+        <div className="relative z-10 mx-auto w-full max-w-7xl px-4 py-24 flex justify-start">
+          <div className="max-w-xl text-right animate-fade-in-up w-full">
+            <div className="inline-flex items-center gap-1.5 rounded-full bg-gold/15 border border-gold/30 px-3.5 py-1 text-xs font-semibold text-gold mb-4 shadow-sm">
+              ✨ بوابتك الإرشادية لبيت الله العتيق
+            </div>
+            <h1 className="font-display text-6xl font-extrabold leading-tight text-white md:text-7xl">
+              مُـرْشِـد
             </h1>
-            <p className="mt-3 text-base text-white/80 leading-relaxed md:text-lg">
-              دليلك الإرشادي الشامل لأداء العمرة
-              <br />
-              بسهولة وطمأنينة
+            <p className="mt-4 text-lg text-white/90 leading-relaxed md:text-xl font-display">
+              دليلك الإرشادي والتفاعلي الشامل لأداء مناسك العمرة والزيارة بكل طمأنينة ويسر، وفق الهدي النبوي الشريف.
             </p>
-            <div className="mt-8 flex flex-wrap gap-3 justify-end">
+            <div className="mt-10 flex flex-wrap gap-4 justify-start">
               <Link
                 to="/umrah"
-                className="inline-flex items-center gap-2 rounded-md px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-                style={{ backgroundColor: "#2D6A4F" }}
+                className="inline-flex items-center gap-2 rounded-xl bg-gradient-gold text-[#14342A] px-6 py-3 text-sm font-bold shadow-lg transition-all duration-300 hover:scale-[1.03] hover:shadow-gold/25"
               >
-                ابدأ رحلة العمرة
+                <span>🕋</span>
+                <span>ابدأ رحلة العمرة</span>
               </Link>
               <Link
                 to="/duas"
-                className="inline-flex items-center gap-2 rounded-md border border-white/30 bg-white/10 px-5 py-2.5 text-sm font-semibold text-white backdrop-blur transition-colors hover:bg-white/20"
+                className="inline-flex items-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3 text-sm font-semibold text-white backdrop-blur-md transition-all duration-300 hover:bg-white/10 hover:border-white/30"
               >
-                الأدعية والأذكار
+                <span>🤲</span>
+                <span>الأدعية والأذكار</span>
               </Link>
             </div>
           </div>
         </div>
+
+        {/* Curved Islamic SVG Divider */}
+        <div className="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-[0]">
+          <svg className="relative block w-full h-[50px] md:h-[70px]" viewBox="0 0 1200 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0,60 C300,100 900,20 1200,80 L1200,120 L0,120 Z" fill="oklch(0.72 0.14 85 / 0.08)"></path>
+            <path d="M0,80 C300,120 900,40 1200,100 L1200,120 L0,120 Z" fill="var(--background)"></path>
+          </svg>
+        </div>
       </section>
 
       {/* Quick access cards */}
-      <section className="px-4 -mt-6 relative z-10">
-        <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl bg-white shadow-md">
-          <div className="grid grid-cols-2 divide-x divide-x-reverse divide-border md:grid-cols-4">
+      <section className="px-4 -mt-10 relative z-10">
+        <div className="mx-auto max-w-6xl rounded-3xl bg-white/70 backdrop-blur-md border border-white/20 p-5 shadow-xl">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-9 gap-3">
             {quickCards.map((c) => (
               <Link
                 key={c.label}
                 to={c.to}
-                className="group flex flex-col items-center gap-2 px-4 py-5 text-center transition-colors hover:bg-primary-soft"
+                className="group flex flex-col items-center justify-between gap-2.5 rounded-2xl border border-border/30 bg-white/95 p-3.5 text-center shadow-sm transition-all duration-300 hover:border-gold/30 hover:shadow-soft hover:-translate-y-1"
               >
-                <span className="text-2xl">{c.icon}</span>
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-primary-soft text-2xl transition-all duration-300 group-hover:scale-110 group-hover:bg-gold/15 shadow-sm">
+                  {c.icon}
+                </div>
                 <div>
-                  <div className="text-sm font-semibold text-foreground group-hover:text-primary">
+                  <div className="text-xs font-bold text-foreground group-hover:text-primary transition-colors">
                     {c.label}
                   </div>
-                  <div className="text-xs text-muted-foreground">{c.desc}</div>
+                  <div className="text-[10px] text-muted-foreground mt-0.5 group-hover:text-muted-foreground/80 leading-tight">{c.desc}</div>
                 </div>
               </Link>
             ))}
@@ -122,46 +270,56 @@ function Index() {
         </div>
       </section>
 
+      {/* Interactive Stepper Section */}
+      <section className="mx-auto max-w-7xl px-4 mt-8">
+        <InteractiveStepper />
+      </section>
+
       {/* Main content */}
-      <section className="mx-auto max-w-7xl px-4 py-10">
-        <div className="flex flex-col gap-8 lg:flex-row">
+      <section className="mx-auto max-w-7xl px-4 py-16">
+        <div className="flex flex-col gap-10 lg:flex-row">
           {/* Articles */}
           <div className="flex-1 min-w-0">
             <div className="mb-6 flex items-center justify-between">
               <h2 className="font-display text-2xl font-bold text-foreground">مقالات مختارة</h2>
-              <Link to="/umrah" className="text-sm font-medium text-primary hover:underline">
-                دليل العمرة كاملاً ←
+              <Link to="/umrah" className="text-sm font-semibold text-primary hover:underline flex items-center gap-1">
+                <span>دليل العمرة كاملاً</span>
+                <span>←</span>
               </Link>
             </div>
-            <div className="grid gap-5 sm:grid-cols-3">
+            <div className="grid gap-6 sm:grid-cols-3">
               {articles.map((a) => (
                 <Link
                   key={a.title}
                   to={a.to}
-                  className="group overflow-hidden rounded-xl border border-border bg-card shadow-card transition-shadow hover:shadow-soft"
+                  className="group overflow-hidden rounded-2xl border border-border/60 bg-card shadow-card transition-all duration-300 hover:shadow-soft hover:border-primary/20"
                 >
-                  <div className="aspect-[16/9] overflow-hidden bg-muted">
+                  <div className="aspect-[16/9] overflow-hidden bg-muted relative">
                     <img
                       src={a.img}
                       alt={a.title}
-                      className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                       onError={(e) => {
                         (e.target as HTMLImageElement).src =
                           "https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=600&q=80";
                       }}
                     />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
-                  <div className="p-4">
-                    <span className="inline-block rounded-full bg-primary-soft px-2.5 py-0.5 text-xs font-medium text-primary">
+                  <div className="p-5">
+                    <span className="inline-block rounded-full bg-primary-soft px-3 py-0.5 text-[10px] font-bold text-primary border border-primary/10">
                       {a.category}
                     </span>
-                    <h3 className="mt-2 font-display text-base font-bold text-foreground leading-snug group-hover:text-primary transition-colors">
+                    <h3 className="mt-2.5 font-display text-base font-bold text-foreground leading-snug group-hover:text-primary transition-colors">
                       {a.title}
                     </h3>
-                    <p className="mt-1.5 text-xs text-muted-foreground line-clamp-2">{a.desc}</p>
-                    <div className="mt-3 flex items-center gap-1 text-xs text-muted-foreground">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
-                      <span>{a.reads} قراءة</span>
+                    <p className="mt-1.5 text-xs text-muted-foreground line-clamp-2 leading-relaxed">{a.desc}</p>
+                    <div className="mt-4 pt-3 border-t border-border/40 flex items-center justify-between text-[10px] text-muted-foreground">
+                      <div className="flex items-center gap-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
+                        <span>{a.reads} قراءة</span>
+                      </div>
+                      <span className="text-primary/70 font-semibold group-hover:text-primary">اقرأ المزيد ←</span>
                     </div>
                   </div>
                 </Link>
@@ -170,47 +328,51 @@ function Index() {
           </div>
 
           {/* Quick guide sidebar */}
-          <aside className="w-full lg:w-72 shrink-0">
-            <div className="rounded-xl border border-border bg-card shadow-card overflow-hidden">
-              <div className="px-5 py-4" style={{ backgroundColor: "#1B4332" }}>
+          <aside className="w-full lg:w-80 shrink-0">
+            <div className="rounded-2xl border border-border/60 bg-card shadow-card overflow-hidden">
+              <div className="px-5 py-4.5 bg-[#1B4332] bg-islamic-pattern text-right relative border-b border-[#C5A85C]/20">
                 <h3 className="font-display text-lg font-bold text-white">دليل سريع</h3>
-                <p className="text-xs text-white/60 mt-0.5">خطوات العمرة المختصرة</p>
+                <p className="text-xs text-white/60 mt-0.5">خطوات مناسك العمرة مرتبة وميسرة</p>
               </div>
-              <div className="divide-y divide-border">
+              <div className="divide-y divide-border/40">
                 {umrahJourneySteps.map((step) => (
-                  <div key={step.id} className="flex items-center gap-3 px-5 py-3.5">
+                  <div key={step.id} className="flex items-center gap-3 px-5 py-3.5 hover:bg-primary-soft/10 transition-colors">
                     <div
-                      className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white"
+                      className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white shadow-sm"
                       style={{ backgroundColor: "#2D6A4F" }}
                     >
                       {step.id}
                     </div>
-                    <div className="flex-1 min-w-0">
-                      <div className="text-sm font-medium text-foreground">{step.title}</div>
-                      <div className="text-xs text-muted-foreground truncate">{step.subtitle}</div>
+                    <div className="flex-1 min-w-0 text-right">
+                      <div className="text-sm font-semibold text-foreground leading-none">{step.title}</div>
+                      <div className="text-[10px] text-muted-foreground truncate mt-1">{step.subtitle}</div>
                     </div>
                     <span className="text-base">{step.icon}</span>
                   </div>
                 ))}
               </div>
-              <div className="px-5 py-4">
+              <div className="px-5 py-4.5 bg-muted/20 border-t border-border/40">
                 <Link
                   to="/umrah"
-                  className="block w-full rounded-lg py-2.5 text-center text-sm font-semibold text-white transition-opacity hover:opacity-90"
-                  style={{ backgroundColor: "#2D6A4F" }}
+                  className="block w-full rounded-xl py-2.5 text-center text-xs font-bold text-white transition-all bg-[#2D6A4F] hover:bg-[#1B4332] hover:shadow-soft"
                 >
                   عرض دليل العمرة كاملاً
                 </Link>
               </div>
             </div>
 
+            {/* Prayer Times Widget */}
+            <div className="mt-6">
+              <PrayerTimes />
+            </div>
+
             {/* Verse card */}
-            <div className="mt-5 rounded-xl border border-primary/20 bg-primary-soft p-5 text-center">
-              <div className="mb-2 text-xs font-medium text-primary">آية كريمة</div>
-              <p className="font-display text-sm leading-loose text-foreground">
+            <div className="mt-6 rounded-2xl border border-primary/15 bg-primary-soft/30 p-5 text-center relative overflow-hidden bg-islamic-pattern">
+              <div className="mb-2 text-[10px] font-bold text-primary uppercase tracking-wide">آية كريمة</div>
+              <p className="font-display text-base leading-loose text-foreground font-semibold">
                 ﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾
               </p>
-              <div className="mt-2 text-xs text-muted-foreground">سورة البقرة — الآية ١٩٦</div>
+              <div className="mt-2 text-[10px] text-muted-foreground">سورة البقرة — الآية ١٩٦</div>
             </div>
           </aside>
         </div>

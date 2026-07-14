@@ -168,35 +168,35 @@ function RuknCard({ rukn }: { rukn: Rukn }) {
   ];
 
   return (
-    <div className="rounded-2xl border border-border bg-card shadow-soft overflow-hidden">
+    <div className="group rounded-3xl border border-border/60 bg-card shadow-soft overflow-hidden hover:shadow-md hover:border-primary/20 transition-all duration-300">
       {/* رأس الركن */}
-      <div className="p-5 text-white" style={{ backgroundColor: "#1B4332" }}>
+      <div className="p-6 text-white bg-[#1B4332] bg-islamic-pattern relative border-b border-[oklch(0.72_0.14_85)]/20 shadow-inner">
         <div className="flex items-start gap-4">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-white/20 text-2xl">
+          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-white/10 text-2xl border border-white/5 shadow-soft transition-transform duration-300 group-hover:scale-105">
             {rukn.icon}
           </div>
           <div className="flex-1 min-w-0">
-            <div className="text-xs font-medium text-white/60 mb-0.5">الركن {rukn.arabicNum}</div>
-            <h2 className="font-display text-xl font-bold text-white">{rukn.title}</h2>
+            <div className="text-xs font-bold text-gold/80 mb-0.5">الركن {rukn.arabicNum}</div>
+            <h2 className="font-display text-xl font-bold text-white tracking-wide">{rukn.title}</h2>
             <p className="mt-1 text-sm text-white/80 leading-relaxed">{rukn.definition}</p>
           </div>
         </div>
         {/* الحكم */}
-        <div className="mt-3 rounded-xl bg-white/10 px-4 py-2 text-xs text-white/90">
-          <span className="font-bold text-white">الحكم: </span>{rukn.ruling}
+        <div className="mt-4 rounded-xl bg-white/10 px-4 py-2.5 text-xs text-white/90 border border-white/5">
+          <span className="font-bold text-gold">الحكم: </span>{rukn.ruling}
         </div>
       </div>
 
       {/* تبويبات */}
-      <div className="flex border-b border-border bg-muted/30">
+      <div className="flex border-b border-border/40 bg-muted/40 p-1">
         {tabs.map((tab) => (
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`flex flex-1 items-center justify-center gap-1.5 py-3 text-sm font-medium transition-all border-b-2 ${
+            className={`flex flex-1 items-center justify-center gap-1.5 py-3 text-sm font-semibold transition-all duration-300 rounded-xl ${
               activeTab === tab.id
-                ? "border-primary text-primary bg-card"
-                : "border-transparent text-muted-foreground hover:text-foreground"
+                ? "text-primary bg-card shadow-sm font-bold border-b-2 border-[#1B4332]"
+                : "text-muted-foreground hover:text-foreground hover:bg-card/50"
             }`}
           >
             <span className="text-base leading-none hidden sm:inline">{tab.icon}</span>
@@ -206,22 +206,19 @@ function RuknCard({ rukn }: { rukn: Rukn }) {
       </div>
 
       {/* محتوى التبويب */}
-      <div className="p-5">
+      <div className="p-6">
         {activeTab === "details" && (
-          <ul className="space-y-3">
+          <ul className="space-y-3.5 pr-1">
             {rukn.details.map((item, i) => (
               <li key={i} className="flex items-start gap-3 text-sm text-foreground/80 leading-relaxed">
-                <span
-                  className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-white text-xs font-bold"
-                  style={{ backgroundColor: "#2D6A4F" }}
-                >
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-gradient-gold-green text-white text-[10px] font-bold shadow-sm border border-white/5">
                   {i + 1}
                 </span>
-                {item}
+                <span>{item}</span>
               </li>
             ))}
             {rukn.note && (
-              <li className="mt-4 rounded-xl border border-amber-200 bg-amber-50 p-3 text-sm text-amber-800 leading-relaxed">
+              <li className="mt-5 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm text-amber-800 leading-relaxed shadow-sm">
                 <span className="font-bold">💡 تنبيه: </span>{rukn.note}
               </li>
             )}
@@ -229,28 +226,28 @@ function RuknCard({ rukn }: { rukn: Rukn }) {
         )}
 
         {activeTab === "mustahabb" && (
-          <div className="flex flex-col gap-2">
-            <div className="rounded-xl border border-emerald-200 bg-emerald-50 p-3 mb-1">
-              <p className="text-xs text-emerald-800">يُثاب فاعلها اقتداءً بالنبي ﷺ، ولا يأثم تاركها.</p>
+          <div className="flex flex-col gap-2.5">
+            <div className="rounded-xl border border-emerald-100 bg-emerald-50/60 p-3 mb-1">
+              <p className="text-xs text-emerald-800 font-medium">يُثاب فاعلها اقتداءً بالنبي ﷺ، ولا يأثم تاركها.</p>
             </div>
             {rukn.mustahabb.map((item, i) => (
-              <div key={i} className="flex items-start gap-3 rounded-xl border border-emerald-100 bg-white p-3">
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-500 text-white text-xs font-bold">{i + 1}</span>
-                <p className="text-sm text-foreground/80 leading-relaxed">{item}</p>
+              <div key={i} className="flex items-start gap-3 rounded-xl border border-emerald-100/50 bg-white p-3.5 shadow-sm hover:shadow-soft transition-all duration-300">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-500 text-white text-[10px] font-bold border border-white/5">{i + 1}</span>
+                <p className="text-sm text-foreground/85 leading-relaxed">{item}</p>
               </div>
             ))}
           </div>
         )}
 
         {activeTab === "makrooh" && (
-          <div className="flex flex-col gap-2">
-            <div className="rounded-xl border border-amber-200 bg-amber-50 p-3 mb-1">
-              <p className="text-xs text-amber-800">أمور يُنصح بتجنبها لأنها تُنقص الأجر أو تُنافي كمال العبادة.</p>
+          <div className="flex flex-col gap-2.5">
+            <div className="rounded-xl border border-amber-100 bg-amber-50/60 p-3 mb-1">
+              <p className="text-xs text-amber-800 font-medium">أمور يُنصح بتجنبها لأنها تُنقص الأجر أو تُنافي كمال العبادة.</p>
             </div>
             {rukn.makrooh.map((item, i) => (
-              <div key={i} className="flex items-start gap-3 rounded-xl border border-amber-100 bg-white p-3">
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-amber-400 text-white text-xs font-bold">!</span>
-                <p className="text-sm text-foreground/80 leading-relaxed">{item}</p>
+              <div key={i} className="flex items-start gap-3 rounded-xl border border-amber-100/50 bg-white p-3.5 shadow-sm hover:shadow-soft transition-all duration-300">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-amber-400 text-white text-[10px] font-bold border border-white/5">!</span>
+                <p className="text-sm text-foreground/85 leading-relaxed">{item}</p>
               </div>
             ))}
           </div>
@@ -270,35 +267,46 @@ function ArkaanPage() {
         description="الأركان هي الأعمال الأساسية التي تُقوم عليها العمرة، ولا تصح إلا بها جميعًا."
       />
 
-      <div className="mx-auto max-w-4xl px-4 py-10 space-y-6">
+      <div className="mx-auto max-w-4xl px-4 py-12 space-y-8">
 
         {/* مقدمة */}
-        <div className="rounded-2xl border border-primary/20 bg-primary-soft p-5">
-          <h2 className="font-display text-lg font-bold text-primary mb-2">ما الفرق بين الركن والواجب والسنة؟</h2>
-          <div className="grid gap-3 sm:grid-cols-3 text-sm">
-            <div className="rounded-xl bg-white border border-border p-3">
-              <div className="font-bold text-foreground mb-1">🔴 الركن</div>
-              <p className="text-foreground/70 leading-relaxed text-xs">ما لا تصح العمرة إلا به، ومن تركه بقي في إحرامه حتى يأتي به.</p>
+        <div className="rounded-3xl border border-primary/10 bg-primary-soft/45 p-6 shadow-soft bg-islamic-pattern">
+          <h2 className="font-display text-xl font-bold text-primary mb-3.5">ما الفرق بين الركن والواجب والسنة؟</h2>
+          <div className="grid gap-4 sm:grid-cols-3 text-sm">
+            <div className="rounded-2xl bg-white border border-border/40 p-4 shadow-sm hover:shadow-soft transition-shadow duration-300">
+              <div className="font-bold text-[#dc2626] mb-1.5 flex items-center gap-1.5">
+                <span className="text-xs">🔴</span>
+                <span>الركن</span>
+              </div>
+              <p className="text-foreground/75 leading-relaxed text-xs">ما لا تصح العمرة إلا به، ومن تركه بقي في إحرامه حتى يأتي به.</p>
             </div>
-            <div className="rounded-xl bg-white border border-border p-3">
-              <div className="font-bold text-foreground mb-1">🟡 الواجب</div>
-              <p className="text-foreground/70 leading-relaxed text-xs">ما يجب فعله، ومن تركه أثم وعليه دم عند الجمهور، لكن عمرته صحيحة.</p>
+            <div className="rounded-2xl bg-white border border-border/40 p-4 shadow-sm hover:shadow-soft transition-shadow duration-300">
+              <div className="font-bold text-[#b45309] mb-1.5 flex items-center gap-1.5">
+                <span className="text-xs">🟡</span>
+                <span>الواجب</span>
+              </div>
+              <p className="text-foreground/75 leading-relaxed text-xs">ما يجب فعله، ومن تركه أثم وعليه دم عند الجمهور، لكن عمرته صحيحة.</p>
             </div>
-            <div className="rounded-xl bg-white border border-border p-3">
-              <div className="font-bold text-foreground mb-1">🟢 السنة</div>
-              <p className="text-foreground/70 leading-relaxed text-xs">ما يُستحب فعله اقتداءً بالنبي ﷺ، ولا يُلزَم به، ولا يترتب على تركه شيء.</p>
+            <div className="rounded-2xl bg-white border border-border/40 p-4 shadow-sm hover:shadow-soft transition-shadow duration-300">
+              <div className="font-bold text-primary mb-1.5 flex items-center gap-1.5">
+                <span className="text-xs">🟢</span>
+                <span>السنة</span>
+              </div>
+              <p className="text-foreground/75 leading-relaxed text-xs">ما يُستحب فعله اقتداءً بالنبي ﷺ، ولا يُلزَم به، ولا يترتب على تركه شيء.</p>
             </div>
           </div>
         </div>
 
         {/* الأركان */}
-        {arkaan.map((rukn) => (
-          <RuknCard key={rukn.id} rukn={rukn} />
-        ))}
+        <div className="grid gap-6">
+          {arkaan.map((rukn) => (
+            <RuknCard key={rukn.id} rukn={rukn} />
+          ))}
+        </div>
 
         {/* آية ختامية */}
-        <div className="rounded-2xl border border-primary/20 bg-primary-soft p-5 text-center">
-          <p className="font-display text-lg leading-loose text-foreground">
+        <div className="rounded-3xl border border-primary/10 bg-primary-soft/40 p-6 text-center relative overflow-hidden bg-islamic-pattern">
+          <p className="font-display text-xl leading-loose text-foreground font-semibold">
             ﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾
           </p>
           <div className="mt-2 text-xs text-muted-foreground">سورة البقرة — الآية ١٩٦</div>

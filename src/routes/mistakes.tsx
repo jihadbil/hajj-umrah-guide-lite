@@ -190,58 +190,69 @@ function MistakesPage() {
         </div>
 
         {/* عرض مجموعات الأخطاء — كل مجموعة في قسم مستقل */}
-        {mistakeGroups.map((group) => (
-          <section key={group.category}>
-            {/* رأس المجموعة: أيقونة + اسم الفئة */}
-            <div className="mb-5 flex items-center gap-3">
-              <div
-                className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl text-lg text-white"
-                style={{ backgroundColor: group.color }}
-              >
-                {group.icon}
+        <div className="grid gap-8">
+          {mistakeGroups.map((group) => (
+            <section key={group.category} className="space-y-4">
+              {/* رأس المجموعة: أيقونة + اسم الفئة */}
+              <div className="mb-4 flex items-center gap-3 pr-1">
+                <div
+                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl text-xl text-white shadow-soft border border-white/5"
+                  style={{ 
+                    backgroundColor: group.color,
+                    backgroundImage: `linear-gradient(135deg, ${group.color} 0%, rgba(20,52,42,0.9) 100%)`
+                  }}
+                >
+                  {group.icon}
+                </div>
+                <h2 className="font-display text-xl font-bold text-foreground">{group.category}</h2>
               </div>
-              <h2 className="font-display text-xl font-bold text-foreground">{group.category}</h2>
-            </div>
 
-            {/* قائمة أخطاء المجموعة */}
-            <div className="grid gap-4">
-              {group.mistakes.map((m, i) => (
-                <div key={i} className="rounded-2xl border border-border bg-card p-5 shadow-soft">
-                  {/* عنوان الخطأ مع رقم تسلسلي */}
-                  <h3 className="font-semibold text-foreground mb-3 flex items-center gap-2">
-                    <span
-                      className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-white text-xs font-bold"
-                      style={{ backgroundColor: group.color }}
-                    >
-                      {i + 1}
-                    </span>
-                    {m.title}
-                  </h3>
+              {/* قائمة أخطاء المجموعة */}
+              <div className="grid gap-5">
+                {group.mistakes.map((m, i) => (
+                  <div key={i} className="group rounded-3xl border border-border/60 bg-card p-6 shadow-soft hover:shadow-md hover:border-primary/25 transition-all duration-300 relative overflow-hidden bg-islamic-pattern text-right">
+                    {/* Floating decoration */}
+                    <div className="absolute -top-6 -left-6 text-7xl opacity-5 select-none font-display text-gold pointer-events-none group-hover:scale-110 transition-transform duration-500">⚠️</div>
+                    
+                    {/* عنوان الخطأ مع رقم تسلسلي */}
+                    <h3 className="font-bold text-foreground text-base mb-4 flex items-center gap-2.5">
+                      <span
+                        className="flex h-5.5 w-5.5 shrink-0 items-center justify-center rounded-full text-white text-[10px] font-bold shadow-sm border border-white/5"
+                        style={{ 
+                          backgroundColor: group.color,
+                          backgroundImage: `linear-gradient(135deg, ${group.color} 0%, rgba(20,52,42,0.95) 100%)`
+                        }}
+                      >
+                        {i + 1}
+                      </span>
+                      <span>{m.title}</span>
+                    </h3>
 
-                  <div className="space-y-2">
-                    {/* صندوق الخطأ — خلفية حمراء */}
-                    <div className="flex items-start gap-2.5 rounded-xl bg-red-50 border border-red-100 p-3">
-                      <span className="text-red-500 mt-0.5 shrink-0 text-sm font-bold">✗</span>
-                      <p className="text-sm text-red-800 leading-relaxed">{m.wrong}</p>
-                    </div>
+                    <div className="space-y-3">
+                      {/* صندوق الخطأ — خلفية حمراء */}
+                      <div className="flex items-start gap-3 rounded-2xl bg-red-50/70 border border-red-100 p-4 shadow-sm">
+                        <span className="text-red-500 mt-0.5 shrink-0 text-base font-bold">✗</span>
+                        <p className="text-sm text-red-800 leading-relaxed font-medium">{m.wrong}</p>
+                      </div>
 
-                    {/* صندوق الصواب — خلفية خضراء */}
-                    <div className="flex items-start gap-2.5 rounded-xl bg-green-50 border border-green-100 p-3">
-                      <span className="text-green-600 mt-0.5 shrink-0 text-sm font-bold">✓</span>
-                      <div>
-                        <p className="text-sm text-green-800 leading-relaxed">{m.right}</p>
-                        {/* الدليل — يظهر فقط إن وُجد */}
-                        {m.daleel && (
-                          <p className="mt-1.5 text-xs text-green-700 italic">{m.daleel}</p>
-                        )}
+                      {/* صندوق الصواب — خلفية خضراء */}
+                      <div className="flex items-start gap-3 rounded-2xl bg-green-50/70 border border-green-100 p-4 shadow-sm">
+                        <span className="text-emerald-600 mt-0.5 shrink-0 text-base font-bold">✓</span>
+                        <div className="text-right">
+                          <p className="text-sm text-emerald-900 leading-relaxed font-medium">{m.right}</p>
+                          {/* الدليل — يظهر فقط إن وُجد */}
+                          {m.daleel && (
+                            <p className="mt-2 text-xs text-emerald-800/80 font-semibold bg-emerald-100/40 rounded-lg p-2.5 border border-emerald-200/20 inline-block font-display leading-loose">{m.daleel}</p>
+                          )}
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
-          </section>
-        ))}
+                ))}
+              </div>
+            </section>
+          ))}
+        </div>
 
       </div>
     </div>

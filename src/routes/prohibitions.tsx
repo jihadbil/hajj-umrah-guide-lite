@@ -131,12 +131,12 @@ function ProhibitionsPage() {
       <div className="mx-auto max-w-4xl px-4 py-12">
 
         {/* تنبيه فقهي مهم يظهر في أعلى الصفحة */}
-        <div className="mb-8 rounded-2xl border border-amber-200 bg-amber-50 p-5">
-          <div className="flex items-start gap-3">
-            <span className="text-2xl mt-0.5">⚠️</span>
+        <div className="mb-8 rounded-3xl border border-amber-250 bg-amber-50/70 p-5 md:p-6 shadow-soft relative overflow-hidden">
+          <div className="flex items-start gap-3.5 relative z-10">
+            <span className="text-2xl mt-0.5 animate-gold-pulse">⚠️</span>
             <div>
-              <h3 className="font-display font-bold text-amber-900 mb-1">تنبيه فقهي مهم</h3>
-              <p className="text-sm text-amber-800 leading-relaxed">
+              <h3 className="font-display font-bold text-amber-900 text-base mb-1.5">تنبيه فقهي مهم للمعتمر</h3>
+              <p className="text-sm text-amber-800 leading-relaxed font-medium">
                 من ارتكب محظورًا من محظورات الإحرام متعمدًا، عالمًا بالحكم، مختارًا، فإنه يأثم، ويترتب على بعض المحظورات فدية بحسب نوعها. أما من وقع في المحظور نسيانًا أو جهلًا أو إكراهًا فهذه المسألة فيها تفصيل يختلف باختلاف نوع المحظور.
               </p>
             </div>
@@ -144,23 +144,23 @@ function ProhibitionsPage() {
         </div>
 
         {/* قائمة المحظورات التسعة */}
-        <div className="grid gap-4 mb-12">
+        <div className="grid gap-5 mb-14">
           {prohibitions.map((p) => (
-            <div key={p.n} className="rounded-2xl border border-border bg-card p-5 shadow-soft">
+            <div key={p.n} className="group rounded-3xl border border-border/60 bg-card p-6 shadow-soft hover:shadow-md hover:border-primary/25 transition-all duration-300 relative overflow-hidden bg-islamic-pattern">
+              {/* Subtle background floating icon */}
+              <div className="absolute -top-6 -left-6 text-7xl opacity-5 select-none font-display text-gold pointer-events-none group-hover:scale-110 transition-transform duration-500">{p.icon}</div>
+              
               <div className="flex items-start gap-4">
                 {/* رقم المحظور */}
-                <div
-                  className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl font-bold text-white text-sm"
-                  style={{ backgroundColor: "#1B4332" }}
-                >
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-gradient-gold-green font-display text-lg font-bold text-white shadow-soft border border-white/10">
                   {p.n}
                 </div>
 
-                <div className="flex-1 min-w-0">
+                <div className="flex-1 min-w-0 text-right">
                   {/* عنوان المحظور وأيقونته */}
                   <div className="flex items-center gap-2 mb-2">
-                    <span className="text-xl">{p.icon}</span>
-                    <h3 className="font-display text-lg font-bold text-foreground">{p.title}</h3>
+                    <span className="text-xl transition-transform duration-300 group-hover:scale-110">{p.icon}</span>
+                    <h3 className="font-display text-lg font-bold text-foreground tracking-wide leading-none">{p.title}</h3>
                   </div>
 
                   {/* شرح المحظور */}
@@ -168,16 +168,16 @@ function ProhibitionsPage() {
 
                   {/* الدليل الشرعي — يظهر فقط إن وُجد */}
                   {p.daleel && (
-                    <div className="mt-3 rounded-xl bg-primary-soft border border-primary/20 p-3">
-                      <div className="text-xs font-semibold text-primary mb-1">الدليل</div>
-                      <p className="font-display text-sm leading-loose text-foreground">{p.daleel}</p>
+                    <div className="mt-3.5 rounded-xl bg-primary-soft/40 border border-primary/10 p-4">
+                      <div className="text-[10px] font-bold text-primary mb-1.5 uppercase">الدليل الشرعي</div>
+                      <p className="font-display text-sm leading-loose text-foreground font-semibold">{p.daleel}</p>
                     </div>
                   )}
 
                   {/* الاستثناء أو التنبيه — يظهر فقط إن وُجد */}
                   {p.note && (
-                    <div className="mt-3 rounded-xl bg-blue-50 border border-blue-100 p-3 text-xs text-blue-800 leading-relaxed">
-                      <span className="font-semibold">💡 استثناء: </span>{p.note}
+                    <div className="mt-3.5 rounded-xl bg-blue-50/70 border border-blue-100 p-3.5 text-xs text-blue-800 leading-relaxed shadow-sm">
+                      <span className="font-bold">💡 استثناء وتنبيه: </span>{p.note}
                     </div>
                   )}
                 </div>
@@ -188,28 +188,25 @@ function ProhibitionsPage() {
 
         {/* قسم الأسئلة الشائعة */}
         <div>
-          <div className="mb-6 flex items-center gap-3">
+          <div className="mb-8 flex items-center gap-3">
             <div className="h-px flex-1 bg-border" />
-            <h2 className="font-display text-xl font-bold text-foreground px-2">أسئلة شائعة</h2>
+            <h2 className="font-display text-xl font-bold text-foreground px-2">أسئلة شائعة وتنبيهات</h2>
             <div className="h-px flex-1 bg-border" />
           </div>
 
-          <div className="grid gap-3">
+          <div className="grid gap-4">
             {faqs.map((f) => (
-              <div key={f.q} className="rounded-xl border border-border bg-card p-5">
+              <div key={f.q} className="rounded-2xl border border-border bg-card p-5 shadow-soft hover:border-gold/20 transition-all duration-300 bg-islamic-pattern">
                 <div className="flex items-start gap-3">
                   {/* أيقونة علامة الاستفهام */}
-                  <span
-                    className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white mt-0.5"
-                    style={{ backgroundColor: "#2D6A4F" }}
-                  >
+                  <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-gradient-gold-green text-white text-[10px] font-bold border border-white/5 mt-0.5 shadow-sm">
                     ؟
                   </span>
-                  <div>
+                  <div className="text-right">
                     {/* السؤال */}
-                    <div className="font-semibold text-foreground text-sm mb-1.5">{f.q}</div>
+                    <div className="font-bold text-foreground text-sm mb-1.5">{f.q}</div>
                     {/* الجواب */}
-                    <div className="text-sm text-foreground/70 leading-relaxed">{f.a}</div>
+                    <div className="text-sm text-foreground/75 leading-relaxed">{f.a}</div>
                   </div>
                 </div>
               </div>

@@ -27,14 +27,14 @@ function StarRating({ rating }: { rating: number }) {
 
 function HotelCard({ h }: { h: (typeof hotels)[number] }) {
   return (
-    <article className="overflow-hidden rounded-2xl border border-border/60 bg-card shadow-card transition-shadow hover:shadow-soft">
+    <article className="group overflow-hidden rounded-3xl border border-border/60 bg-card shadow-card transition-all duration-300 hover:shadow-soft hover:border-primary/20 relative bg-islamic-pattern">
       <div
-        className="flex h-32 items-center justify-center text-5xl"
+        className="flex h-32 items-center justify-center text-5xl bg-gradient-soft border-b border-border/40 group-hover:scale-[1.01] transition-transform duration-300 relative overflow-hidden"
         style={{ background: "linear-gradient(135deg, oklch(0.95 0.035 155), oklch(0.9 0.05 155))" }}
       >
         {h.image}
       </div>
-      <div className="p-5">
+      <div className="p-5 text-right">
         <div className="mb-1 flex items-start justify-between gap-2">
           <h3 className="font-display text-lg font-bold text-foreground leading-snug">{h.name}</h3>
           <StarRating rating={h.rating} />
@@ -42,21 +42,20 @@ function HotelCard({ h }: { h: (typeof hotels)[number] }) {
         <div className="mb-3 text-xs text-muted-foreground">
           {h.city} · {h.distance} · {h.reviews.toLocaleString("ar")} تقييم
         </div>
-        <div className="mb-4 flex flex-wrap gap-1.5">
+        <div className="mb-4 flex flex-wrap gap-1.5 justify-start">
           {h.amenities.map((a) => (
-            <span key={a} className="rounded-full bg-primary-soft px-2.5 py-0.5 text-[11px] font-medium text-primary">
+            <span key={a} className="rounded-xl bg-primary-soft/40 px-2.5 py-1 text-[10px] font-bold text-primary border border-primary/5">
               {a}
             </span>
           ))}
         </div>
-        <div className="flex items-center justify-between border-t border-border/60 pt-3">
+        <div className="flex items-center justify-between border-t border-border/40 pt-4 mt-2">
           <div>
-            <div className="text-xs text-muted-foreground">يبدأ من</div>
-            <div className="font-display text-base font-bold text-primary">{h.price} / الليلة</div>
+            <div className="text-[10px] text-muted-foreground">يبدأ من</div>
+            <div className="font-display text-base font-bold text-[#1B4332]">{h.price} / الليلة</div>
           </div>
           <button
-            className="rounded-md px-4 py-2 text-xs font-semibold text-white transition-opacity hover:opacity-90"
-            style={{ backgroundColor: "#2D6A4F" }}
+            className="rounded-xl px-4.5 py-2.5 text-xs font-bold text-white bg-[#1B4332] hover:bg-[#14342A] hover:shadow-soft transition-all duration-300 active:scale-95 shadow-sm"
           >
             عرض التفاصيل
           </button>
@@ -68,30 +67,30 @@ function HotelCard({ h }: { h: (typeof hotels)[number] }) {
 
 function GuideCard({ g }: { g: (typeof guides)[number] }) {
   return (
-    <article className="flex items-center gap-4 rounded-2xl border border-border/60 bg-card p-5 shadow-card transition-shadow hover:shadow-soft">
-      <div
-        className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full text-3xl"
-        style={{ backgroundColor: "#E9F3EC" }}
-      >
+    <article className="group flex items-center gap-4 rounded-3xl border border-border/60 bg-card p-5 shadow-card hover:shadow-soft hover:border-primary/20 transition-all duration-300 bg-islamic-pattern relative overflow-hidden">
+      {/* Subtle guide emoji in background */}
+      <div className="absolute -top-6 -left-6 text-7xl opacity-5 select-none font-display text-gold pointer-events-none group-hover:scale-110 transition-transform duration-500">{g.avatar}</div>
+      
+      <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl bg-gradient-gold-green text-3xl shadow-soft border border-white/5 group-hover:scale-105 transition-transform duration-300">
         {g.avatar}
       </div>
-      <div className="min-w-0 flex-1">
-        <div className="flex items-center gap-2">
-          <h3 className="truncate font-display text-base font-bold text-foreground">{g.name}</h3>
+      <div className="min-w-0 flex-1 text-right relative z-10">
+        <div className="flex items-center gap-2 justify-start mb-0.5">
+          <h3 className="truncate font-display text-base font-bold text-foreground leading-snug">{g.name}</h3>
           {g.licensed && (
-            <span className="shrink-0 rounded-full bg-primary/10 px-2 py-0.5 text-[10px] font-medium text-primary">
+            <span className="shrink-0 rounded-full bg-primary/10 px-2.5 py-0.5 text-[9px] font-bold text-primary border border-primary/5">
               مرشد معتمد ✓
             </span>
           )}
         </div>
-        <div className="mt-0.5 text-xs text-muted-foreground">
+        <div className="text-[11px] text-muted-foreground">
           {g.city} · خبرة {g.experience} سنوات
         </div>
         <p className="mt-1 text-xs text-foreground/80 truncate">{g.specialty}</p>
-        <div className="mt-2 flex flex-wrap items-center gap-3">
+        <div className="mt-2 flex flex-wrap items-center gap-3 justify-start">
           <StarRating rating={g.rating} />
-          <span className="text-xs text-muted-foreground">({g.reviews} تقييم)</span>
-          <span className="text-xs text-muted-foreground">اللغات: {g.languages.join("، ")}</span>
+          <span className="text-[10px] text-muted-foreground">({g.reviews} تقييم)</span>
+          <span className="text-[10px] text-muted-foreground border-r border-border pr-2.5">اللغات: {g.languages.join("، ")}</span>
         </div>
       </div>
     </article>

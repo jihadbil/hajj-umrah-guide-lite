@@ -168,27 +168,27 @@ const makrohaat = [
 function WajibaatTab() {
   return (
     <div className="flex flex-col gap-5">
-      <div className="rounded-2xl border border-red-100 bg-red-50 p-4">
-        <p className="text-sm text-red-800 leading-relaxed">
+      <div className="rounded-2xl border border-red-100 bg-red-50/60 p-4">
+        <p className="text-sm text-red-800 leading-relaxed font-medium">
           الواجبات هي الأعمال التي أوجبها الشرع في العمرة، ومن تركها أثم وعليه دم (ذبح شاة) عند جمهور الفقهاء، غير أن العمرة تصح مع الإثم — بخلاف الأركان التي لا تصح العمرة إلا بها.
         </p>
       </div>
       {wajibaat.map((w, i) => (
-        <div key={i} className="rounded-2xl border border-border bg-card p-5 shadow-soft">
-          <div className="flex items-start gap-3 mb-3">
-            <span className="text-2xl">{w.icon}</span>
-            <h3 className="font-display text-lg font-bold text-foreground">{w.title}</h3>
+        <div key={i} className="group rounded-3xl border border-border/60 bg-card p-6 shadow-soft hover:shadow-md hover:border-primary/20 transition-all duration-300 relative overflow-hidden bg-islamic-pattern">
+          <div className="flex items-start gap-3.5 mb-3.5">
+            <span className="text-2xl transition-transform duration-300 group-hover:scale-110">{w.icon}</span>
+            <h3 className="font-display text-lg font-bold text-foreground leading-tight">{w.title}</h3>
           </div>
-          <p className="text-sm text-foreground/80 leading-relaxed mb-3">{w.body}</p>
+          <p className="text-sm text-foreground/80 leading-relaxed mb-4">{w.body}</p>
           {w.daleel && (
-            <div className="rounded-xl bg-primary-soft border border-primary/20 p-3 mb-3">
-              <div className="text-xs font-semibold text-primary mb-1">الدليل</div>
-              <p className="font-display text-sm leading-loose text-foreground">{w.daleel}</p>
+            <div className="rounded-xl bg-primary-soft/40 border border-primary/10 p-4 mb-4">
+              <div className="text-[10px] font-bold text-primary mb-1.5 uppercase">الدليل الشرعي</div>
+              <p className="font-display text-sm leading-loose text-foreground font-semibold">{w.daleel}</p>
             </div>
           )}
-          <div className="rounded-xl bg-amber-50 border border-amber-200 p-3">
-            <div className="text-xs font-semibold text-amber-800 mb-1">⚠️ الحكم عند الترك</div>
-            <p className="text-xs text-amber-800 leading-relaxed">{w.consequence}</p>
+          <div className="rounded-xl bg-amber-50/80 border border-amber-100 p-4">
+            <div className="text-[10px] font-bold text-amber-800 mb-1.5 uppercase">⚠️ الحكم عند الترك</div>
+            <p className="text-xs text-amber-850 leading-relaxed font-medium">{w.consequence}</p>
           </div>
         </div>
       ))}
@@ -199,24 +199,21 @@ function WajibaatTab() {
 function SunanTab() {
   return (
     <div className="flex flex-col gap-6">
-      <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4">
-        <p className="text-sm text-emerald-800 leading-relaxed">
+      <div className="rounded-2xl border border-emerald-100 bg-emerald-50/60 p-4">
+        <p className="text-sm text-emerald-800 leading-relaxed font-medium">
           السنن هي ما فعله النبي ﷺ أو أقره، يُثاب فاعلها ولا يأثم تاركها. والحرص عليها يُكمل العمرة ويرفع الأجر.
         </p>
       </div>
       {sunanGroups.map((group) => (
-        <section key={group.title}>
-          <div className="mb-3 flex items-center gap-2">
+        <section key={group.title} className="space-y-3.5">
+          <div className="mb-2 flex items-center gap-2 pr-1">
             <span className="text-xl">{group.icon}</span>
             <h3 className="font-display text-lg font-bold text-foreground">{group.title}</h3>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-3">
             {group.items.map((item, i) => (
-              <div key={i} className="flex items-start gap-3 rounded-xl border border-emerald-100 bg-white p-3 shadow-soft">
-                <span
-                  className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-white text-xs font-bold"
-                  style={{ backgroundColor: "#2D6A4F" }}
-                >
+              <div key={i} className="flex items-start gap-3 rounded-2xl border border-emerald-100/50 bg-white p-4 shadow-sm hover:shadow-soft hover:border-emerald-200/50 transition-all duration-300">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-500 text-white text-[10px] font-bold border border-white/5 shadow-sm">
                   {i + 1}
                 </span>
                 <p className="text-sm text-foreground/80 leading-relaxed">{item}</p>
@@ -232,21 +229,21 @@ function SunanTab() {
 function MustahabbatTab() {
   return (
     <div className="flex flex-col gap-6">
-      <div className="rounded-2xl border border-blue-100 bg-blue-50 p-4">
-        <p className="text-sm text-blue-800 leading-relaxed">
+      <div className="rounded-2xl border border-blue-100 bg-blue-50/60 p-4">
+        <p className="text-sm text-blue-800 leading-relaxed font-medium">
           المستحبات أعمال يُحب الله فعلها وتزيد في الأجر والقرب منه، وهي أشمل من السنن لتشمل ما وردت به نصوص عامة من الكتاب والسنة.
         </p>
       </div>
       {mustahabbat.map((group) => (
-        <section key={group.category}>
-          <div className="mb-3 flex items-center gap-2">
+        <section key={group.category} className="space-y-3.5">
+          <div className="mb-2 flex items-center gap-2 pr-1">
             <span className="text-xl">{group.icon}</span>
             <h3 className="font-display text-lg font-bold text-foreground">{group.category}</h3>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-3">
             {group.items.map((item, i) => (
-              <div key={i} className="flex items-start gap-3 rounded-xl border border-blue-100 bg-white p-3 shadow-soft">
-                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-400" />
+              <div key={i} className="flex items-start gap-3 rounded-2xl border border-blue-100/50 bg-white p-4 shadow-sm hover:shadow-soft hover:border-blue-200/50 transition-all duration-300">
+                <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-blue-500 shadow-sm" />
                 <p className="text-sm text-foreground/80 leading-relaxed">{item}</p>
               </div>
             ))}
@@ -260,21 +257,21 @@ function MustahabbatTab() {
 function MakrohaatTab() {
   return (
     <div className="flex flex-col gap-6">
-      <div className="rounded-2xl border border-amber-200 bg-amber-50 p-4">
-        <p className="text-sm text-amber-800 leading-relaxed">
+      <div className="rounded-2xl border border-amber-100 bg-amber-50/60 p-4">
+        <p className="text-sm text-amber-800 leading-relaxed font-medium">
           المكروهات أمور يُنصح بتجنبها لأنها تُنقص الأجر أو تُنافي كمال العبادة، دون أن تبلغ حد التحريم.
         </p>
       </div>
       {makrohaat.map((group) => (
-        <section key={group.category}>
-          <div className="mb-3 flex items-center gap-2">
+        <section key={group.category} className="space-y-3.5">
+          <div className="mb-2 flex items-center gap-2 pr-1">
             <span className="text-xl">{group.icon}</span>
             <h3 className="font-display text-lg font-bold text-foreground">{group.category}</h3>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-3">
             {group.items.map((item, i) => (
-              <div key={i} className="flex items-start gap-3 rounded-xl border border-amber-100 bg-white p-3 shadow-soft">
-                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-amber-400 text-white text-xs font-bold">!</span>
+              <div key={i} className="flex items-start gap-3 rounded-2xl border border-amber-100/50 bg-white p-4 shadow-sm hover:shadow-soft hover:border-amber-200/50 transition-all duration-300">
+                <span className="mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-amber-400 text-white text-[10px] font-bold border border-white/5 shadow-sm">!</span>
                 <p className="text-sm text-foreground/80 leading-relaxed">{item}</p>
               </div>
             ))}
@@ -297,30 +294,32 @@ function WajibaatPage() {
         description="كل ما يحتاجه المعتمر من الناحية الفقهية: الواجبات التي يأثم بتركها، والسنن التي يُثاب على فعلها، والمكروهات التي ينبغي اجتنابها."
       />
 
-      <div className="mx-auto max-w-4xl px-4 py-10">
+      <div className="mx-auto max-w-4xl px-4 py-12">
         {/* شريط التبويبات */}
-        <div className="mb-6 flex rounded-2xl border border-border bg-card shadow-soft overflow-hidden">
+        <div className="mb-8 grid grid-cols-2 sm:grid-cols-4 gap-2 rounded-2xl border border-border/60 bg-muted/40 p-1.5 shadow-soft">
           {TABS.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
-              className={`flex flex-1 flex-col items-center gap-1 py-3 px-2 text-center text-sm font-medium transition-all border-b-2 ${
+              className={`flex flex-col items-center gap-1 py-3 px-2 text-center rounded-xl transition-all duration-300 ${
                 activeTab === tab.id
-                  ? "border-primary text-primary bg-primary-soft"
-                  : "border-transparent text-muted-foreground hover:text-foreground hover:bg-muted"
+                  ? "bg-[#1B4332] text-white shadow-md font-bold scale-[1.02] border-b-2 border-gold"
+                  : "text-muted-foreground hover:text-foreground hover:bg-card/50"
               }`}
             >
               <span className="text-xl leading-none">{tab.icon}</span>
-              <span className="text-xs">{tab.label}</span>
+              <span className="text-[11px] mt-0.5">{tab.label}</span>
             </button>
           ))}
         </div>
 
         {/* محتوى التبويب */}
-        {activeTab === "wajibaat"    && <WajibaatTab />}
-        {activeTab === "sunan"       && <SunanTab />}
-        {activeTab === "mustahabbat" && <MustahabbatTab />}
-        {activeTab === "makrohaat"   && <MakrohaatTab />}
+        <div className="animate-fade-in-up">
+          {activeTab === "wajibaat"    && <WajibaatTab />}
+          {activeTab === "sunan"       && <SunanTab />}
+          {activeTab === "mustahabbat" && <MustahabbatTab />}
+          {activeTab === "makrohaat"   && <MakrohaatTab />}
+        </div>
       </div>
     </div>
   );

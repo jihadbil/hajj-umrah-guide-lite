@@ -77,6 +77,7 @@ const navLinks = [
   { to: "/tips", label: "حقيبة المعتمر" },
   { to: "/attractions", label: "المزارات" },
   { to: "/hotels", label: "الفنادق والمرشدين" },
+  { to: "/fazah", label: "فزعة" },
 ] as const;
 
 function Header() {
@@ -175,7 +176,8 @@ function Header() {
                      l.to === "/mistakes" ? "⚠️" : 
                      l.to === "/duas" ? "🤲" : 
                      l.to === "/tips" ? "🧳" : 
-                     l.to === "/attractions" ? "🕌" : "🏨"}
+                     l.to === "/attractions" ? "🕌" :
+                     l.to === "/hotels" ? "🏨" : "🆘"}
                   </span>
                   <span>{l.label}</span>
                 </Link>

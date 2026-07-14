@@ -3,7 +3,7 @@
 // ===================================================
 
 import { useState } from "react";
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageHeader } from "@/components/PageHeader";
 import { attractions } from "@/lib/attractions";
 
@@ -53,8 +53,10 @@ function AttractionsPage() {
         {/* الشبكة */}
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((a) => (
-            <article
+            <Link
               key={a.id}
+              to="/attractions/$attractionId"
+              params={{ attractionId: String(a.id) }}
               className="group flex flex-col rounded-3xl border border-border/60 bg-card p-6 shadow-card hover:shadow-soft hover:border-primary/20 transition-all duration-300 relative overflow-hidden bg-islamic-pattern"
             >
               {/* Subtle background floating icon */}
@@ -73,7 +75,10 @@ function AttractionsPage() {
               <div className="rounded-xl bg-primary-soft/40 border border-primary/10 px-4 py-3 text-xs leading-relaxed text-primary mt-auto shadow-inner text-right relative z-10">
                 💡 {a.tip}
               </div>
-            </article>
+              <span className="mt-4 self-end text-xs font-bold text-primary group-hover:text-gold transition-colors relative z-10">
+                عرض التفاصيل ←
+              </span>
+            </Link>
           ))}
         </div>
       </div>

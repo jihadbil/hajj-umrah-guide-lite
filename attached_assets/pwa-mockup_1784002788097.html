@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مرشد — PWA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;900&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E2321; --ink-2:#123A37; --ink-3:#164843;
+    --gold:#B9873C; --gold-light:#D9B36C;
+    --teal:#1F6F6B; --teal-light:#3E9C96;
+    --sand:#F1E9D8; --sand-2:#E7DBC0; --cream:#FAF6EC;
+    --text-dark:#1B2422; --text-light:#F5EFE0; --muted:#6E7A72;
+    --clay:#B15A46;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{
+    background:var(--cream); color:var(--text-dark);
+    font-family:'Tajawal', sans-serif; line-height:1.6;
+    padding:60px 20px 100px;
+  }
+  h1,h2,.display{font-family:'Aref Ruqaa', serif; font-weight:700;}
+  .mono{font-family:'IBM Plex Mono', monospace;}
+
+  .intro{max-width:660px; margin:0 auto 60px; text-align:center;}
+  .eyebrow{
+    display:inline-block; font-size:13px; font-weight:700; color:var(--teal);
+    background:rgba(31,111,107,.1); padding:6px 16px; border-radius:999px; margin-bottom:18px;
+  }
+  .intro h1{font-size:32px; color:var(--ink); margin-bottom:14px;}
+  .intro p{color:var(--muted); font-size:15px;}
+
+  .flow{
+    max-width:1300px; margin:0 auto;
+    display:flex; align-items:flex-start; justify-content:center;
+    gap:30px; flex-wrap:wrap;
+  }
+  .stage{display:flex; flex-direction:column; align-items:center; width:280px;}
+  .stage-label{
+    font-size:12.5px; font-weight:700; color:var(--gold); margin-bottom:16px;
+    display:flex; align-items:center; gap:8px; text-align:center;
+  }
+  .stage-num{
+    width:22px; height:22px; border-radius:50%; background:var(--ink);
+    color:var(--text-light); font-size:11px; display:flex; align-items:center; justify-content:center;
+    font-weight:700; flex-shrink:0;
+  }
+  .arrow{align-self:center; margin-top:130px; color:var(--sand-2); font-size:26px;}
+  @media (max-width:1140px){.arrow{display:none;}}
+
+  .phone{
+    width:280px; height:590px; background:var(--ink); border-radius:36px;
+    padding:11px; box-shadow:0 30px 60px -20px rgba(14,35,33,.35); position:relative;
+  }
+  .screen{
+    width:100%; height:100%; border-radius:26px; overflow:hidden;
+    background:var(--cream); position:relative; display:flex; flex-direction:column;
+  }
+  .notch{
+    position:absolute; top:11px; left:50%; transform:translateX(-50%);
+    width:74px; height:16px; background:var(--ink); border-radius:12px; z-index:6;
+  }
+
+  /* ---- Stage 1: browser with install prompt ---- */
+  .browser-bar{
+    background:#fff; border-bottom:1px solid var(--sand-2); padding:26px 14px 8px;
+    display:flex; align-items:center; gap:8px;
+  }
+  .url-pill{
+    flex:1; background:var(--sand); border-radius:999px; padding:7px 12px;
+    font-size:11px; color:var(--muted); display:flex; align-items:center; gap:6px;
+  }
+  .lock{font-size:10px;}
+  .site-body{flex:1; background:var(--ink); position:relative; overflow:hidden;}
+  .site-hero{
+    padding:40px 20px; text-align:center; color:var(--text-light);
+  }
+  .mini-mark{position:relative; width:30px; height:30px; margin:0 auto 14px; color:var(--gold);}
+  .ring{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); border:1.5px solid currentColor; border-radius:50%; opacity:.5;}
+  .mini-mark .ring:nth-child(1){width:30px; height:30px;}
+  .mini-mark .ring:nth-child(2){width:16px; height:16px;}
+  .site-hero h2{font-size:19px; margin-bottom:8px;}
+  .site-hero p{font-size:11.5px; color:#B9C6C1;}
+
+  .install-toast{
+    position:absolute; bottom:14px; left:12px; right:12px; background:#fff;
+    border-radius:16px; padding:14px; box-shadow:0 12px 28px -8px rgba(0,0,0,.35);
+    display:flex; gap:12px; align-items:center; animation:slideUp .5s ease;
+  }
+  @keyframes slideUp{from{transform:translateY(30px); opacity:0;} to{transform:translateY(0); opacity:1;}}
+  .install-icon{
+    width:40px; height:40px; border-radius:11px; background:var(--ink);
+    display:flex; align-items:center; justify-content:center; flex-shrink:0; position:relative; color:var(--gold);
+  }
+  .install-icon .ring:nth-child(1){width:18px; height:18px;}
+  .install-icon .ring:nth-child(2){width:9px; height:9px;}
+  .install-text{flex:1;}
+  .install-text .t1{font-size:12px; font-weight:700; color:var(--ink);}
+  .install-text .t2{font-size:10.5px; color:var(--muted);}
+  .install-btn{
+    background:var(--gold); color:#1B1204; border:none; padding:8px 14px;
+    border-radius:999px; font-size:11px; font-weight:700; white-space:nowrap; cursor:pointer;
+  }
+
+  /* ---- Stage 2: home screen ---- */
+  .home-screen{
+    background:linear-gradient(160deg, #cfd9d2, #e9e2cf);
+    flex:1; padding:50px 18px 20px; display:grid; grid-template-columns:repeat(4,1fr); gap:18px 10px;
+  }
+  .app-icon{display:flex; flex-direction:column; align-items:center; gap:6px;}
+  .icon-box{
+    width:46px; height:46px; border-radius:13px; background:rgba(255,255,255,.55);
+  }
+  .icon-label{font-size:9px; color:var(--ink); font-weight:500;}
+  .murshid-icon{
+    background:linear-gradient(150deg, var(--ink-3), var(--ink)); position:relative;
+    display:flex; align-items:center; justify-content:center; color:var(--gold);
+    box-shadow:0 6px 14px -4px rgba(14,35,33,.5); animation:pop .6s ease;
+  }
+  @keyframes pop{0%{transform:scale(.4); opacity:0;} 70%{transform:scale(1.12);} 100%{transform:scale(1); opacity:1;}}
+  .murshid-icon .ring:nth-child(1){width:20px; height:20px;}
+  .murshid-icon .ring:nth-child(2){width:11px; height:11px;}
+  .home-caption{
+    grid-column:1/-1; text-align:center; margin-top:6px; font-size:10.5px; color:var(--ink-2);
+    background:rgba(255,255,255,.6); padding:8px; border-radius:10px; font-weight:600;
+  }
+
+  /* ---- Stage 3: standalone app open ---- */
+  .app-status{
+    background:var(--ink); color:var(--text-light); font-size:9px; text-align:center;
+    padding:6px 0 26px; letter-spacing:.05em;
+  }
+  .app-nav{
+    background:#fff; border-bottom:1px solid var(--sand-2); padding:12px 16px;
+    display:flex; align-items:center; gap:8px;
+  }
+  .app-nav .mini-mark{margin:0; width:20px; height:20px;}
+  .app-nav .mini-mark .ring:nth-child(1){width:20px; height:20px;}
+  .app-nav .mini-mark .ring:nth-child(2){width:11px; height:11px;}
+  .app-nav .brandname{font-family:'Aref Ruqaa', serif; font-size:16px; color:var(--ink);}
+  .offline-pill{
+    margin-right:auto; font-size:9.5px; font-weight:700; color:var(--teal);
+    background:rgba(31,111,107,.12); padding:4px 9px; border-radius:999px;
+    display:flex; align-items:center; gap:5px;
+  }
+  .dot-live{width:6px; height:6px; border-radius:50%; background:var(--teal);}
+  .app-content{flex:1; padding:16px; background:var(--cream); overflow:hidden;}
+  .quick-card{
+    background:#fff; border:1px solid var(--sand-2); border-radius:14px; padding:14px; margin-bottom:12px;
+  }
+  .quick-card .qt{font-size:12px; font-weight:700; color:var(--ink); margin-bottom:4px;}
+  .quick-card .qs{font-size:10.5px; color:var(--muted);}
+  .cached-note{
+    display:flex; align-items:center; gap:6px; font-size:10px; color:var(--muted);
+    margin-top:10px; justify-content:center;
+  }
+
+  /* ---- Stage 4: lock screen notification ---- */
+  .lock-screen{
+    flex:1; background:
+      radial-gradient(circle at 50% 20%, #1c4744, var(--ink) 60%);
+    padding:60px 16px 20px; color:var(--text-light); position:relative;
+  }
+  .lock-time{text-align:center; margin-bottom:26px;}
+  .lock-time .time{font-size:44px; font-weight:300;}
+  .lock-time .date{font-size:12px; color:#B9C6C1; margin-top:4px;}
+  .notif{
+    background:rgba(245,239,224,.12); backdrop-filter:blur(6px); border-radius:16px;
+    padding:12px 14px; display:flex; gap:10px; animation:dropIn .5s ease;
+  }
+  @keyframes dropIn{from{transform:translateY(-16px); opacity:0;} to{transform:translateY(0); opacity:1;}}
+  .notif-icon{
+    width:30px; height:30px; border-radius:9px; background:var(--gold); flex-shrink:0;
+    display:flex; align-items:center; justify-content:center; color:#1B1204; position:relative;
+  }
+  .notif-icon .ring:nth-child(1){width:14px; height:14px; border-color:#1B1204;}
+  .notif-icon .ring:nth-child(2){width:7px; height:7px; border-color:#1B1204;}
+  .notif-body .nt1{font-size:11.5px; font-weight:700; display:flex; justify-content:space-between;}
+  .notif-body .nt2{font-size:11px; color:#D8CFBB; margin-top:3px;}
+  .notif2{margin-top:10px; opacity:.55; transform:scale(.97);}
+
+  .caption{text-align:center; font-size:12.5px; color:var(--muted); margin-top:16px; max-width:270px;}
+
+  .compare{max-width:900px; margin:80px auto 0; background:#fff; border:1px solid var(--sand-2); border-radius:18px; padding:28px 30px;}
+  .compare h3{font-family:'Aref Ruqaa',serif; font-size:22px; color:var(--ink); margin-bottom:16px;}
+  .compare-grid{display:flex; gap:20px; flex-wrap:wrap;}
+  .compare-col{flex:1; min-width:220px;}
+  .compare-col .label{font-size:12px; font-weight:700; color:var(--teal); margin-bottom:10px;}
+  .compare-col li{font-size:13px; color:var(--ink-2); margin-bottom:8px; list-style:none; padding-right:18px; position:relative;}
+  .compare-col li::before{content:"✓"; position:absolute; right:0; color:var(--teal); font-weight:700;}
+</style>
+</head>
+<body>
+
+<div class="intro">
+  <span class="eyebrow">تصميم مبدئي · Progressive Web App</span>
+  <h1>موقع يتصرف كتطبيق، دون أن يكون تطبيقًا</h1>
+  <p>نفس موقع "مرشد" الذي بنيناه، لكن مع طبقة PWA فوقه: أيقونة على الشاشة الرئيسية، فتح بلا شريط متصفح، وإشعارات تصل حتى وشاشة الجوال مقفلة.</p>
+</div>
+
+<div class="flow">
+
+  <div class="stage">
+    <div class="stage-label"><span class="stage-num">١</span> يزور الموقع فتظهر دعوة للتثبيت</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <div class="browser-bar">
+          <div class="url-pill"><span class="lock">🔒</span> murshid.sa</div>
+        </div>
+        <div class="site-body">
+          <div class="site-hero">
+            <div class="mini-mark"><div class="ring"></div><div class="ring"></div></div>
+            <h2>مرشد</h2>
+            <p>رفيقك من أول الإحرام إلى آخر الطواف</p>
+          </div>
+          <div class="install-toast">
+            <div class="install-icon"><div class="ring"></div><div class="ring"></div></div>
+            <div class="install-text">
+              <div class="t1">ثبّت تطبيق مرشد</div>
+              <div class="t2">وصول أسرع + إشعارات الفزعة</div>
+            </div>
+            <button class="install-btn">تثبيت</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">←</div>
+
+  <div class="stage">
+    <div class="stage-label"><span class="stage-num">٢</span> تُضاف أيقونته للشاشة الرئيسية</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <div class="home-screen">
+          <div class="app-icon"><div class="icon-box"></div><div class="icon-label">الكاميرا</div></div>
+          <div class="app-icon"><div class="icon-box"></div><div class="icon-label">الرسائل</div></div>
+          <div class="app-icon"><div class="icon-box"></div><div class="icon-label">الخرائط</div></div>
+          <div class="app-icon"><div class="icon-box"></div><div class="icon-label">الإعدادات</div></div>
+
+          <div class="app-icon">
+            <div class="icon-box murshid-icon"><div class="ring"></div><div class="ring"></div></div>
+            <div class="icon-label">مرشد</div>
+          </div>
+          <div class="app-icon"><div class="icon-box"></div><div class="icon-label">الطقس</div></div>
+          <div class="app-icon"><div class="icon-box"></div><div class="icon-label">الملاحظات</div></div>
+          <div class="app-icon"><div class="icon-box"></div><div class="icon-label">المتجر</div></div>
+
+          <div class="home-caption">أيقونة مرشد أصبحت بجانب باقي التطبيقات — دون تحميل من أي متجر</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">←</div>
+
+  <div class="stage">
+    <div class="stage-label"><span class="stage-num">٣</span> يفتح بلا شريط متصفح، ويعمل جزئيًا بلا نت</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <div class="app-status">مرشد · وضع التطبيق</div>
+        <div class="app-nav">
+          <div class="mini-mark"><div class="ring"></div><div class="ring"></div></div>
+          <span class="brandname">مرشد</span>
+          <span class="offline-pill"><span class="dot-live"></span> متصل</span>
+        </div>
+        <div class="app-content">
+          <div class="quick-card">
+            <div class="qt">بطاقة الفزعة</div>
+            <div class="qs">محفوظة على جهازك — تعمل حتى بدون إنترنت</div>
+          </div>
+          <div class="quick-card">
+            <div class="qt">أقرب مرشد متاح</div>
+            <div class="qs">3 مرشدين على بعد أقل من 5 دقائق</div>
+          </div>
+          <div class="quick-card">
+            <div class="qt">فندقك: أنوار الحرم</div>
+            <div class="qs">80م من الحرم · نقل الساعة 5:30</div>
+          </div>
+          <div class="cached-note">↻ آخر تحديث محفوظ محليًا قبل 4 دقائق</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="arrow">←</div>
+
+  <div class="stage">
+    <div class="stage-label"><span class="stage-num">٤</span> تصل الإشعارات حتى والشاشة مقفلة</div>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <div class="lock-screen">
+          <div class="lock-time">
+            <div class="time mono">٩:٤٢</div>
+            <div class="date">السبت، ١١ يوليو</div>
+          </div>
+          <div class="notif">
+            <div class="notif-icon"><div class="ring"></div><div class="ring"></div></div>
+            <div class="notif-body">
+              <div class="nt1"><span>مرشد · فزعة</span><span style="font-weight:400; color:#B9C6C1;">الآن</span></div>
+              <div class="nt2">تم تفعيل فزعة قريبة منك — خالد الحربي يحتاج مساعدة على بعد 40م</div>
+            </div>
+          </div>
+          <div class="notif notif2">
+            <div class="notif-icon"><div class="ring"></div><div class="ring"></div></div>
+            <div class="notif-body">
+              <div class="nt1"><span>مرشد</span><span style="font-weight:400; color:#B9C6C1;">قبل 5د</span></div>
+              <div class="nt2">قائد المجموعة أكّد وصوله — الحالة آمنة الآن</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div style="text-align:center;">
+  <p class="caption" style="margin:36px auto 0;">هذه أربع لقطات لنفس الموقع — لا يوجد تطبيق منفصل تم تحميله من أي متجر.</p>
+</div>
+
+<div class="compare">
+  <h3>ما الذي يتغيّر فعليًا خلف الكواليس؟</h3>
+  <div class="compare-grid">
+    <div class="compare-col">
+      <div class="label">يبقى كما هو</div>
+      <ul>
+        <li>نفس الكود، نفس الموقع</li>
+        <li>لا حاجة لمتجر تطبيقات (App Store / Google Play)</li>
+        <li>تحديثات فورية للجميع دون "تحديث النسخة"</li>
+        <li>رابط واحد يعمل على أي جهاز</li>
+      </ul>
+    </div>
+    <div class="compare-col">
+      <div class="label">يُضاف عليه</div>
+      <ul>
+        <li>ملف Manifest يعرّف اسم التطبيق وأيقونته</li>
+        <li>Service Worker يخزّن الصفحات المهمة للعمل بلا نت</li>
+        <li>دعم إشعارات الدفع (قوي على أندرويد، محدود على آيفون حاليًا)</li>
+        <li>واجهة بلا شريط متصفح عند الفتح من الأيقونة</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

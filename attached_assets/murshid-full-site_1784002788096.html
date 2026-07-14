@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مرشد — دليلك الشامل في العمرة</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;900&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0E2321; --ink-2:#123A37; --ink-3:#164843;
+    --gold:#B9873C; --gold-light:#D9B36C;
+    --teal:#1F6F6B;
+    --sand:#F1E9D8; --sand-2:#E7DBC0; --cream:#FAF6EC;
+    --text-dark:#1B2422; --text-light:#F5EFE0; --muted:#6E7A72;
+    --clay:#B15A46;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{background:var(--cream); color:var(--text-dark); font-family:'Tajawal', sans-serif; line-height:1.6; overflow-x:hidden;}
+  h1,h2,h3,.display{font-family:'Aref Ruqaa', serif; font-weight:700;}
+  .mono{font-family:'IBM Plex Mono', monospace;}
+  a{color:inherit; text-decoration:none;}
+  .wrap{max-width:1180px; margin:0 auto; padding:0 24px;}
+
+  .ring{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); border:1.5px solid currentColor; border-radius:50%; opacity:.5;}
+  .mark{position:relative; width:26px; height:26px; color:var(--gold); flex-shrink:0;}
+  .mark .ring:nth-child(1){width:26px; height:26px;}
+  .mark .ring:nth-child(2){width:14px; height:14px;}
+
+  /* ---------- Nav ---------- */
+  header{position:sticky; top:0; z-index:80; background:rgba(250,246,236,.9); backdrop-filter:blur(10px); border-bottom:1px solid var(--sand-2);}
+  .navbar{display:flex; align-items:center; justify-content:space-between; padding:16px 24px;}
+  .brand{display:flex; align-items:center; gap:10px;}
+  .brand-name{font-family:'Aref Ruqaa', serif; font-size:24px; color:var(--ink);}
+  nav.links{display:flex; gap:26px; font-weight:500; font-size:14.5px; color:var(--ink-2);}
+  @media (max-width:760px){nav.links{display:none;}}
+
+  .btn{display:inline-flex; align-items:center; gap:8px; padding:12px 22px; border-radius:999px; font-weight:700; font-size:14px; cursor:pointer; border:none; transition:transform .2s ease;}
+  .btn:hover{transform:translateY(-2px);}
+  .btn-gold{background:var(--gold); color:#1B1204;}
+  .btn-outline{background:transparent; border:1px solid var(--sand-2); color:var(--ink-2);}
+  .btn-dark{background:var(--ink); color:var(--text-light);}
+
+  /* ---------- Hero ---------- */
+  .hero{background:radial-gradient(120% 140% at 50% -10%, var(--ink-3), var(--ink) 60%); color:var(--text-light); padding:70px 24px 60px; text-align:center; position:relative; overflow:hidden;}
+  .hero-rings{position:absolute; top:50%; left:50%; transform:translate(-50%,-45%); width:1px; height:1px; color:var(--gold-light);}
+  .hero-rings .ring{animation:pulse 6s ease-in-out infinite;}
+  .hero-rings .ring:nth-child(1){width:260px; height:260px;}
+  .hero-rings .ring:nth-child(2){width:420px; height:420px; animation-delay:.6s;}
+  .hero-rings .ring:nth-child(3){width:580px; height:580px; animation-delay:1.2s;}
+  @keyframes pulse{0%,100%{opacity:.12;} 50%{opacity:.28;}}
+  .hero-inner{position:relative; max-width:560px; margin:0 auto;}
+  .eyebrow{font-size:13px; color:var(--gold-light); font-weight:700; margin-bottom:14px;}
+  .hero h1{font-size:32px; margin-bottom:12px; line-height:1.4;}
+  .hero p{color:#D8CFBB; font-size:14.5px; margin-bottom:26px;}
+  .hero-ctas{display:flex; gap:12px; justify-content:center; flex-wrap:wrap;}
+
+  /* ---------- shared section head ---------- */
+  .section{padding:80px 24px;}
+  .section-tag{display:inline-block; font-size:13px; font-weight:700; color:var(--teal); background:rgba(31,111,107,.1); padding:6px 14px; border-radius:999px; margin-bottom:14px;}
+  .section h2{font-size:32px; color:var(--ink); margin-bottom:10px;}
+  .section .sub{color:var(--muted); font-size:15px; max-width:520px; margin-bottom:32px;}
+
+  /* ---------- Icon grid (site sections) ---------- */
+  .icon-grid{display:grid; grid-template-columns:repeat(4, 1fr); gap:16px;}
+  @media (max-width:760px){.icon-grid{grid-template-columns:repeat(3,1fr);}}
+  @media (max-width:480px){.icon-grid{grid-template-columns:repeat(2,1fr);}}
+  .icon-card{background:#fff; border:1px solid var(--sand-2); border-radius:16px; padding:22px 14px; text-align:center; cursor:pointer; transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;}
+  .icon-card:hover{transform:translateY(-3px); box-shadow:0 16px 30px -14px rgba(14,35,33,.25); border-color:var(--gold);}
+  .icon-glyph{width:52px; height:52px; margin:0 auto 12px; border-radius:14px; background:var(--sand); display:flex; align-items:center; justify-content:center; font-size:22px;}
+  .icon-card .name{font-size:13.5px; font-weight:700; color:var(--ink);}
+  .icon-card .desc{font-size:11px; color:var(--muted); margin-top:3px;}
+  .icon-card.pwa{background:linear-gradient(150deg, var(--ink-3), var(--ink)); border-color:var(--ink); position:relative;}
+  .icon-card.pwa .name{color:var(--text-light);} .icon-card.pwa .desc{color:#B9C6C1;}
+  .icon-card.pwa .icon-glyph{background:rgba(245,239,224,.12);}
+  .badge{position:absolute; top:8px; left:8px; background:var(--gold); color:#1B1204; font-size:9.5px; font-weight:700; padding:3px 8px; border-radius:999px;}
+
+  /* ---------- Filter chips ---------- */
+  .chips{display:flex; gap:10px; flex-wrap:wrap; margin-bottom:32px;}
+  .chip{padding:9px 18px; border-radius:999px; border:1px solid var(--sand-2); background:#fff; font-size:14px; font-weight:500; cursor:pointer; color:var(--ink-2); transition:all .2s ease;}
+  .chip.active{background:var(--ink); border-color:var(--ink); color:var(--text-light);}
+  .chip:hover:not(.active){border-color:var(--gold); color:var(--gold);}
+
+  /* ---------- Mentor grid ---------- */
+  .grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:22px;}
+  @media (max-width:920px){.grid{grid-template-columns:repeat(2,1fr);}}
+  @media (max-width:640px){.grid{grid-template-columns:1fr;}}
+  .mentor-card, .hotel-card{background:#fff; border:1px solid var(--sand-2); border-radius:18px; transition:transform .25s ease, box-shadow .25s ease;}
+  .mentor-card{padding:22px;}
+  .mentor-card:hover, .hotel-card:hover{transform:translateY(-4px); box-shadow:0 18px 40px -20px rgba(14,35,33,.25);}
+  .mentor-top{display:flex; align-items:center; gap:14px; margin-bottom:16px;}
+  .avatar{width:54px; height:54px; border-radius:50%; background:linear-gradient(135deg, var(--sand-2), var(--sand)); display:flex; align-items:center; justify-content:center; font-family:'Aref Ruqaa', serif; font-size:20px; color:var(--ink-2); position:relative; flex-shrink:0;}
+  .status-dot{position:absolute; bottom:1px; left:1px; width:12px; height:12px; border-radius:50%; border:2px solid #fff;}
+  .status-dot.now{background:var(--teal);} .status-dot.soon{background:var(--gold);} .status-dot.off{background:#C9C1AE;}
+  .mentor-name, .hotel-name{font-weight:700; font-size:16px; color:var(--ink);}
+  .mentor-role{font-size:13px; color:var(--muted);}
+  .mentor-meta{display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px;}
+  .tag{font-size:12px; padding:4px 10px; border-radius:999px; background:var(--sand); color:var(--ink-2); font-weight:500;}
+  .mentor-foot, .hotel-foot{display:flex; align-items:center; justify-content:space-between;}
+  .rating{font-size:13px; color:var(--gold); font-weight:700;}
+  .status-text{font-size:12.5px; color:var(--muted); margin-bottom:14px;}
+  .btn-small{padding:9px 16px; border-radius:999px; font-size:13px; font-weight:700; background:var(--ink); color:var(--text-light); border:none; cursor:pointer; transition:background .2s ease;}
+  .btn-small:hover{background:var(--teal);}
+
+  /* ---------- Hotels ---------- */
+  .hotels-bg{background:var(--sand);}
+  .filter-bar{display:flex; gap:14px; flex-wrap:wrap; align-items:center; background:#fff; border:1px solid var(--sand-2); border-radius:16px; padding:16px 20px; margin-bottom:32px;}
+  select, .sort{border:1px solid var(--sand-2); background:var(--cream); border-radius:10px; padding:9px 14px; font-family:'Tajawal',sans-serif; font-size:14px; color:var(--ink-2);}
+  .filter-bar .spacer{flex:1;}
+  .hotel-img{height:150px; background:linear-gradient(135deg, var(--ink-3), var(--ink)); position:relative;}
+  .hotel-img .rings-badge{position:absolute; bottom:12px; right:12px; background:rgba(250,246,236,.94); border-radius:999px; padding:6px 12px; font-size:12.5px; font-weight:700; display:flex; align-items:center; gap:8px; color:var(--ink-2);}
+  .mini-rings{position:relative; width:16px; height:16px; color:var(--gold);}
+  .mini-rings .ring{opacity:.6;} .mini-rings .ring:nth-child(1){width:16px; height:16px;} .mini-rings .ring:nth-child(2){width:9px; height:9px;}
+  .hotel-body{padding:20px;}
+  .hotel-top{display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:8px;}
+  .hotel-price{font-size:13px; color:var(--gold); font-weight:700; white-space:nowrap;}
+  .hotel-rating{font-size:12.5px; color:var(--muted); margin-bottom:14px;}
+  .amenities{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:16px;}
+  .amenity{display:flex; align-items:center; gap:6px; font-size:12px; color:var(--ink-2); background:var(--sand); padding:5px 10px; border-radius:8px;}
+  .btn-ghost{background:transparent; border:1px solid var(--sand-2); color:var(--ink-2); padding:9px 16px; border-radius:999px; font-size:13px; font-weight:700; cursor:pointer;}
+  .btn-ghost:hover{border-color:var(--gold); color:var(--gold);}
+
+  /* ---------- sticky fazaa fab + toast ---------- */
+  .help-fab{position:fixed; bottom:26px; left:26px; z-index:60; background:var(--gold); color:#1B1204; border:none; padding:16px 22px; border-radius:999px; font-weight:700; font-size:14.5px; display:flex; align-items:center; gap:10px; cursor:pointer; box-shadow:0 14px 30px -10px rgba(185,135,60,.55);}
+  .dot-pulse{width:9px; height:9px; border-radius:50%; background:#1B1204; animation:blink 1.4s ease-in-out infinite;}
+  @keyframes blink{0%,100%{opacity:1;} 50%{opacity:.25;}}
+  .toast{position:fixed; bottom:26px; left:26px; z-index:70; background:var(--ink); color:var(--text-light); padding:16px 22px; border-radius:14px; font-size:14px; display:flex; align-items:center; gap:12px; transform:translateY(120%); transition:transform .35s ease; box-shadow:0 20px 40px -12px rgba(0,0,0,.4);}
+  .toast.show{transform:translateY(0);}
+
+  /* ---------- PWA phone overlay ---------- */
+  .pwa-overlay{position:fixed; inset:0; background:rgba(8,25,24,.6); backdrop-filter:blur(4px); display:flex; align-items:center; justify-content:center; z-index:200; opacity:0; pointer-events:none; transition:opacity .3s ease; padding:20px;}
+  .pwa-overlay.show{opacity:1; pointer-events:auto;}
+  .phone{width:300px; height:620px; background:var(--ink); border-radius:38px; padding:12px; box-shadow:0 40px 80px -20px rgba(0,0,0,.5); position:relative; transform:scale(.9) translateY(20px); transition:transform .35s ease;}
+  .pwa-overlay.show .phone{transform:scale(1) translateY(0);}
+  .notch{position:absolute; top:12px; left:50%; transform:translateX(-50%); width:78px; height:17px; background:var(--ink); border-radius:12px; z-index:6;}
+  .screen{width:100%; height:100%; border-radius:28px; overflow:hidden; background:var(--cream); display:flex; flex-direction:column; position:relative;}
+  .app-status{background:var(--ink); color:var(--text-light); font-size:9px; text-align:center; padding:6px 0 26px; letter-spacing:.05em;}
+  .app-nav{background:#fff; border-bottom:1px solid var(--sand-2); padding:12px 16px; display:flex; align-items:center; gap:10px;}
+  .app-nav .mark{width:20px; height:20px;} .app-nav .mark .ring:nth-child(1){width:20px; height:20px;} .app-nav .mark .ring:nth-child(2){width:11px; height:11px;}
+  .app-nav .brandname{font-family:'Aref Ruqaa', serif; font-size:16px; color:var(--ink);}
+  .offline-pill{margin-right:auto; font-size:9.5px; font-weight:700; color:var(--teal); background:rgba(31,111,107,.12); padding:4px 9px; border-radius:999px; display:flex; align-items:center; gap:5px;}
+  .dot-live{width:6px; height:6px; border-radius:50%; background:var(--teal);}
+  .back-btn{width:26px; height:26px; border-radius:50%; border:1px solid var(--sand-2); background:var(--cream); font-size:13px; cursor:pointer; display:none; align-items:center; justify-content:center; color:var(--ink-2);}
+  .app-nav.has-back .back-btn{display:flex;}
+
+  .app-view{display:none; flex:1; overflow-y:auto;}
+  .app-view.active{display:flex; flex-direction:column;}
+
+  /* app grid view */
+  #view-grid{padding:16px;}
+  .app-content-title{font-size:11.5px; color:var(--muted); margin-bottom:10px; font-weight:600;}
+  .app-grid{display:grid; grid-template-columns:repeat(3, 1fr); gap:10px;}
+  .app-icon-card{background:#fff; border:1px solid var(--sand-2); border-radius:14px; padding:12px 6px; text-align:center; cursor:pointer; transition:transform .15s ease;}
+  .app-icon-card:active{transform:scale(.94);}
+  .app-icon-card.highlight{border-color:var(--gold); box-shadow:0 0 0 2px rgba(185,135,60,.15);}
+  .app-glyph{width:34px; height:34px; margin:0 auto 8px; border-radius:10px; background:var(--sand); display:flex; align-items:center; justify-content:center; font-size:16px;}
+  .app-icon-card .an{font-size:10.5px; font-weight:700; color:var(--ink);}
+  .fazaa-strip{margin-top:16px; background:linear-gradient(120deg, var(--ink-3), var(--ink)); border-radius:14px; padding:14px; color:var(--text-light); display:flex; align-items:center; gap:10px; cursor:pointer;}
+  .fazaa-strip .mark{color:var(--gold-light);}
+  .fazaa-strip .ft{font-size:11.5px; font-weight:700;}
+  .fazaa-strip .fs{font-size:10px; color:#B9C6C1;}
+
+  /* card view */
+  #view-card{background:radial-gradient(120% 100% at 50% 0%, var(--ink-3), var(--ink) 60%); align-items:flex-start; justify-content:flex-start; padding:26px 20px 20px;}
+  .card-title{font-size:11.5px; color:var(--gold-light); letter-spacing:.06em; margin-bottom:16px; text-align:center; width:100%;}
+  .fazaa-card{width:100%; background:var(--cream); border-radius:18px; padding:0; color:var(--text-dark); position:relative; cursor:pointer; box-shadow:0 16px 34px -10px rgba(0,0,0,.45); transition:transform .5s ease; transform-style:preserve-3d;}
+  .fazaa-card.flipped{transform:rotateY(180deg);}
+  .card-face{backface-visibility:hidden;}
+  .card-face.front{padding:16px 18px 14px;}
+  .card-face.back{position:absolute; inset:0; padding:22px 20px; transform:rotateY(180deg); display:flex; flex-direction:column; align-items:center; justify-content:center; background:var(--cream); border-radius:18px;}
+
+  .card-strip{height:5px; margin:-16px -18px 14px; background:linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 45%, var(--teal) 100%); border-radius:18px 18px 0 0;}
+  .card-top{display:flex; align-items:center; gap:8px; margin-bottom:14px;}
+  .card-mark{position:relative; width:20px; height:20px; color:var(--gold);}
+  .card-mark .ring:nth-child(1){width:20px; height:20px;} .card-mark .ring:nth-child(2){width:11px; height:11px;}
+  .card-brand{font-family:'Aref Ruqaa', serif; font-size:15px; color:var(--ink);}
+  .card-serial{margin-right:auto; font-size:9.5px; color:var(--muted); background:var(--sand); padding:3px 8px; border-radius:999px; font-family:'IBM Plex Mono', monospace;}
+
+  .card-person{display:flex; align-items:center; gap:12px; margin-bottom:14px; padding-bottom:14px; border-bottom:1px dashed var(--sand-2);}
+  .card-photo{width:46px; height:46px; border-radius:12px; background:linear-gradient(135deg, var(--sand-2), var(--sand)); display:flex; align-items:center; justify-content:center; font-size:18px; color:var(--ink-2); flex-shrink:0; font-family:'Aref Ruqaa', serif;}
+  .card-name{font-weight:700; font-size:17px; color:var(--ink); margin-bottom:2px;}
+  .card-sub{font-size:11.5px; color:var(--muted);}
+
+  .card-details{display:grid; grid-template-columns:1fr 1fr; gap:10px 14px; margin-bottom:12px;}
+  .detail{display:flex; flex-direction:column; gap:2px;}
+  .detail .dl{font-size:9.5px; color:var(--muted); font-weight:500;}
+  .detail .dv{font-size:12px; font-weight:700; color:var(--ink-2);}
+  .detail .dv.accent{color:var(--clay);}
+
+  .card-note{background:rgba(177,90,70,.1); color:var(--clay); font-size:11px; padding:8px 10px; border-radius:8px; font-weight:600; margin-bottom:10px; display:flex; align-items:center; gap:6px;}
+  .card-foot-hint{font-size:10px; color:var(--muted); text-align:center;}
+
+  .qr-box{width:148px; height:148px; margin:0 auto 14px; background:#fff; border-radius:14px; display:flex; align-items:center; justify-content:center; border:1px solid var(--sand-2);}
+  .qr-mock{width:116px; height:116px; background:repeating-linear-gradient(0deg, var(--ink) 0 6px, transparent 6px 12px), repeating-linear-gradient(90deg, var(--ink) 0 6px, transparent 6px 12px); background-blend-mode:multiply; opacity:.88; border-radius:4px;}
+  .qr-hint{font-size:11.5px; color:var(--ink-2); font-weight:600; text-align:center; margin-bottom:4px;}
+  .qr-serial{font-size:10px; color:var(--muted); font-family:'IBM Plex Mono', monospace; margin-bottom:14px;}
+  .card-hint{font-size:11.5px; color:#B9C6C1; text-align:center; margin-top:14px;}
+  .card-next{margin-top:16px; width:100%;}
+  .qr-issuer{font-size:9.5px; color:var(--muted); text-align:center; max-width:180px;}
+
+  /* scan view */
+  #view-scan{background:#081918; align-items:center; justify-content:center; position:relative;}
+  .scan-top{position:absolute; top:34px; right:0; left:0; text-align:center; color:var(--text-light); z-index:3;}
+  .scan-top .t1{font-size:14px; font-weight:700;} .scan-top .t2{font-size:12px; color:#9FAEA8; margin-top:4px;}
+  .viewfinder{width:200px; height:200px; position:relative;}
+  .corner{position:absolute; width:34px; height:34px; border-color:var(--gold-light); border-style:solid;}
+  .corner.tl{top:0; left:0; border-width:3px 0 0 3px; border-top-left-radius:12px;}
+  .corner.tr{top:0; right:0; border-width:3px 3px 0 0; border-top-right-radius:12px;}
+  .corner.bl{bottom:0; left:0; border-width:0 0 3px 3px; border-bottom-left-radius:12px;}
+  .corner.br{bottom:0; right:0; border-width:0 3px 3px 0; border-bottom-right-radius:12px;}
+  .scan-line{position:absolute; right:6px; left:6px; height:2px; background:var(--gold-light); box-shadow:0 0 10px var(--gold-light); animation:scanmove 2.2s ease-in-out infinite;}
+  @keyframes scanmove{0%{top:8px;} 50%{top:190px;} 100%{top:8px;}}
+  .scan-btn-wrap{position:absolute; bottom:34px; right:0; left:0; display:flex; justify-content:center; z-index:4;}
+
+  /* result view */
+  #view-result{padding:22px 20px 20px;}
+  .result-status{display:flex; align-items:center; gap:10px; background:rgba(31,111,107,.12); color:var(--teal); padding:10px 14px; border-radius:12px; font-size:12.5px; font-weight:700; margin-bottom:16px;}
+  .status-rings{position:relative; width:16px; height:16px;}
+  .status-rings .ring{border-color:var(--teal); animation:pulse2 1.6s ease-in-out infinite;}
+  .status-rings .ring:nth-child(1){width:16px; height:16px;} .status-rings .ring:nth-child(2){width:8px; height:8px; animation-delay:.3s;}
+  @keyframes pulse2{0%,100%{opacity:.3;} 50%{opacity:.9;}}
+  .result-person{display:flex; align-items:center; gap:12px; margin-bottom:16px;}
+  .result-avatar{width:48px; height:48px; border-radius:50%; background:var(--sand-2); display:flex; align-items:center; justify-content:center; font-family:'Aref Ruqaa', serif; font-size:18px; color:var(--ink-2); flex-shrink:0;}
+  .result-name{font-weight:700; font-size:15px; color:var(--ink);}
+  .result-meta{font-size:12px; color:var(--muted);}
+  .note-alert{background:rgba(177,90,70,.1); color:var(--clay); font-size:12px; font-weight:600; padding:9px 12px; border-radius:10px; margin-bottom:14px;}
+  .info-list{background:#fff; border:1px solid var(--sand-2); border-radius:14px; padding:12px 16px; margin-bottom:14px;}
+  .info-row{display:flex; justify-content:space-between; font-size:12.5px; padding:7px 0;}
+  .info-row + .info-row{border-top:1px solid var(--sand);}
+  .info-row span:first-child{color:var(--muted);} .info-row span:last-child{font-weight:700; color:var(--ink-2);}
+  .notify-chain{margin-bottom:16px;}
+  .notify-item{display:flex; align-items:center; gap:10px; font-size:12.5px; color:var(--ink-2); padding:4px 0;}
+  .notify-check{width:16px; height:16px; border-radius:50%; background:var(--teal); color:#fff; font-size:10px; display:flex; align-items:center; justify-content:center; flex-shrink:0;}
+  .result-actions{margin-top:auto; display:flex; flex-direction:column; gap:8px;}
+  .btn-full{width:100%; justify-content:center;}
+  .btn-ghost2{background:transparent; border:1px solid var(--sand-2); color:var(--ink-2);}
+
+  .pwa-close{position:absolute; top:-14px; left:-14px; width:34px; height:34px; border-radius:50%; background:#fff; color:var(--ink); border:none; font-size:16px; cursor:pointer; box-shadow:0 6px 16px -4px rgba(0,0,0,.3); z-index:10;}
+  .flow-note{text-align:center; color:var(--text-light); font-size:12px; margin-top:14px; max-width:280px; opacity:.75;}
+
+  footer{background:var(--ink); color:var(--text-light); padding:44px 24px; text-align:center;}
+  footer .brand-name{color:var(--text-light);}
+  footer p{color:#9FAEA8; font-size:13px; margin-top:8px;}
+
+  @media (max-width:640px){.hero h1{font-size:26px;} .section{padding:56px 18px;}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <div class="brand">
+      <div class="mark"><div class="ring"></div><div class="ring"></div></div>
+      <span class="brand-name">مرشد</span>
+    </div>
+    <nav class="links">
+      <a href="#sections">الأقسام</a>
+      <a href="#guide">المرشد</a>
+      <a href="#hotels">الفنادق</a>
+    </nav>
+    <a href="#" class="btn btn-gold" style="padding:10px 20px; font-size:13.5px;">دخول</a>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-rings"><div class="ring"></div><div class="ring"></div><div class="ring"></div></div>
+  <div class="hero-inner">
+    <div class="eyebrow">مرشد · رفيقك في العمرة</div>
+    <h1>كل خطوة نحو الحرم، لها من يرافقك فيها</h1>
+    <p>الأركان والواجبات والمستحبات، المرشد والفنادق، وتطبيق يرافقك أينما كنت.</p>
+    <div class="hero-ctas">
+      <a href="#guide" class="btn btn-gold">اطلب مرشدًا الآن</a>
+      <a href="#sections" class="btn btn-outline" style="color:var(--text-light); border-color:rgba(245,239,224,.35);">تصفّح الأقسام</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ أقسام الموقع ============ -->
+<section id="sections" class="section">
+  <div class="wrap">
+    <span class="section-tag">أقسام الموقع</span>
+    <h2>كل ما تحتاجه، في مكان واحد</h2>
+    <p class="sub">اختر القسم الذي تحتاجه الآن</p>
+
+    <div class="icon-grid">
+      <div class="icon-card"><div class="icon-glyph">🕋</div><div class="name">أركان العمرة</div><div class="desc">الإحرام، الطواف، السعي، الحلق</div></div>
+      <div class="icon-card"><div class="icon-glyph">✅</div><div class="name">الواجبات</div><div class="desc">ما يلزم فعله وحكم تركه</div></div>
+      <div class="icon-card"><div class="icon-glyph">✨</div><div class="name">المستحبات</div><div class="desc">سنن وآداب تزيد الأجر</div></div>
+      <div class="icon-card"><div class="icon-glyph">🚫</div><div class="name">المحظورات</div><div class="desc">ما يُمنع منه المحرم</div></div>
+      <div class="icon-card"><div class="icon-glyph">🗺️</div><div class="name">خطوات العمرة</div><div class="desc">دليل مرتّب خطوة بخطوة</div></div>
+      <a href="#guide" class="icon-card"><div class="icon-glyph">🧭</div><div class="name">المرشد</div><div class="desc">تواصل مع مرشدين موثوقين</div></a>
+      <a href="#hotels" class="icon-card"><div class="icon-glyph">🏨</div><div class="name">الفنادق</div><div class="desc">إقامة قريبة من الحرم</div></a>
+      <div class="icon-card pwa" onclick="openPWA('grid')">
+        <span class="badge">PWA</span>
+        <div class="icon-glyph"><span style="position:relative; width:22px; height:22px; display:inline-block; color:var(--gold-light);"><span class="ring" style="width:22px;height:22px;"></span><span class="ring" style="width:12px;height:12px;"></span></span></div>
+        <div class="name">ثبّت تطبيق مرشد</div>
+        <div class="desc">وصول أسرع + إشعارات الفزعة</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ المرشد ============ -->
+<section id="guide" class="section">
+  <div class="wrap">
+    <span class="section-tag">المرشد</span>
+    <h2>مرشدون بجانبك، لا خلفك</h2>
+    <p class="sub">اختر مرشدًا حسب لغته وتخصصه، أو اطلب أقرب مرشد متاح فورًا عند الحاجة الطارئة.</p>
+
+    <div class="chips">
+      <div class="chip active">الكل</div>
+      <div class="chip">مرشد شرعي</div>
+      <div class="chip">مرشد ميداني</div>
+      <div class="chip">مترجم</div>
+      <div class="chip">متاح الآن</div>
+    </div>
+
+    <div class="grid">
+      <div class="mentor-card">
+        <div class="mentor-top"><div class="avatar">أغ<div class="status-dot now"></div></div>
+          <div><div class="mentor-name">أحمد الغامدي</div><div class="mentor-role">مرشد شرعي — مكة المكرمة</div></div></div>
+        <div class="mentor-meta"><span class="tag">عربي</span><span class="tag">إنجليزي</span><span class="tag">أحكام العمرة</span></div>
+        <div class="status-text">🟢 متاح الآن</div>
+        <div class="mentor-foot"><span class="rating">★ 4.9</span><button class="btn-small">تواصل الآن</button></div>
+      </div>
+      <div class="mentor-card">
+        <div class="mentor-top"><div class="avatar">فع<div class="status-dot soon"></div></div>
+          <div><div class="mentor-name">فاطمة العتيبي</div><div class="mentor-role">مرشدة ميدانية — للمعتمرات</div></div></div>
+        <div class="mentor-meta"><span class="tag">عربي</span><span class="tag">أردو</span><span class="tag">مرافقة نساء</span></div>
+        <div class="status-text">🟡 متاحة خلال ساعة</div>
+        <div class="mentor-foot"><span class="rating">★ 4.8</span><button class="btn-small">تواصل الآن</button></div>
+      </div>
+      <div class="mentor-card">
+        <div class="mentor-top"><div class="avatar">ير<div class="status-dot now"></div></div>
+          <div><div class="mentor-name">يوسف رحمن</div><div class="mentor-role">مترجم ميداني — المدينة المنورة</div></div></div>
+        <div class="mentor-meta"><span class="tag">إندونيسي</span><span class="tag">عربي</span><span class="tag">ترجمة فورية</span></div>
+        <div class="status-text">🟢 متاح الآن</div>
+        <div class="mentor-foot"><span class="rating">★ 5.0</span><button class="btn-small">تواصل الآن</button></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ الفنادق ============ -->
+<section id="hotels" class="section hotels-bg">
+  <div class="wrap">
+    <span class="section-tag">الفنادق</span>
+    <h2>إقامة تليق بقصدك</h2>
+    <p class="sub">قارن بين الفنادق حسب قربها من الحرم، وخدماتها التي تناسب رحلتك.</p>
+
+    <div class="filter-bar">
+      <select><option>القرب من الحرم</option><option>أقل من 100م</option><option>100–300م</option></select>
+      <select><option>السعر</option><option>اقتصادي</option><option>فاخر</option></select>
+      <div class="spacer"></div>
+      <span class="sort">الترتيب: الأقرب للحرم ↓</span>
+    </div>
+
+    <div class="grid">
+      <div class="hotel-card">
+        <div class="hotel-img"><div class="rings-badge"><span class="mini-rings"><span class="ring"></span><span class="ring"></span></span>80م من الحرم</div></div>
+        <div class="hotel-body">
+          <div class="hotel-top"><div class="hotel-name">فندق أنوار الحرم</div><div class="hotel-price">950 ر.س / ليلة</div></div>
+          <div class="hotel-rating">★ 4.5 · مكة المكرمة</div>
+          <div class="amenities"><span class="amenity">🚐 نقل مجاني</span><span class="amenity">🍽️ إفطار</span><span class="amenity">🕌 تنبيه الفجر</span></div>
+          <div class="hotel-foot"><button class="btn-ghost">التفاصيل</button><button class="btn-small">احجز الآن</button></div>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <div class="hotel-img"><div class="rings-badge"><span class="mini-rings"><span class="ring"></span><span class="ring"></span></span>120م من الحرم</div></div>
+        <div class="hotel-body">
+          <div class="hotel-top"><div class="hotel-name">برج الساعة — فيرمونت مكة</div><div class="hotel-price">1800 ر.س / ليلة</div></div>
+          <div class="hotel-rating">★ 4.8 · مكة المكرمة</div>
+          <div class="amenities"><span class="amenity">🚐 نقل خاص</span><span class="amenity">👨‍👩‍👧 غرف عائلية</span></div>
+          <div class="hotel-foot"><button class="btn-ghost">التفاصيل</button><button class="btn-small">احجز الآن</button></div>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <div class="hotel-img"><div class="rings-badge"><span class="mini-rings"><span class="ring"></span><span class="ring"></span></span>150م من المسجد النبوي</div></div>
+        <div class="hotel-body">
+          <div class="hotel-top"><div class="hotel-name">سويس أوتيل المدينة</div><div class="hotel-price">700 ر.س / ليلة</div></div>
+          <div class="hotel-rating">★ 4.6 · المدينة المنورة</div>
+          <div class="amenities"><span class="amenity">🧳 تخزين الأمتعة</span><span class="amenity">🍽️ إفطار</span></div>
+          <div class="hotel-foot"><button class="btn-ghost">التفاصيل</button><button class="btn-small">احجز الآن</button></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="brand-name" style="font-size:22px;">مرشد</div>
+  <p>رفيقك من أول الإحرام إلى آخر الطواف</p>
+</footer>
+
+<!-- sticky fazaa fab -->
+<button class="help-fab" onclick="openPWA('card')">
+  <span class="dot-pulse"></span>
+  طلب مساعدة فورية
+</button>
+
+<!-- ============ PWA phone overlay (multi-view) ============ -->
+<div class="pwa-overlay" id="pwaOverlay">
+  <div style="position:relative;">
+    <button class="pwa-close" onclick="closePWA()">✕</button>
+    <div class="phone">
+      <div class="notch"></div>
+      <div class="screen">
+        <div class="app-status">مرشد · وضع التطبيق</div>
+        <div class="app-nav" id="appNav">
+          <button class="back-btn" onclick="switchView('grid')">→</button>
+          <div class="mark"><div class="ring"></div><div class="ring"></div></div>
+          <span class="brandname" id="navTitle">مرشد</span>
+          <span class="offline-pill" id="offlinePill"><span class="dot-live"></span> متصل</span>
+        </div>
+
+        <!-- grid view -->
+        <div class="app-view active" id="view-grid">
+          <div class="app-content-title">أقسام الموقع، الآن كأيقونات تطبيق</div>
+          <div class="app-grid">
+            <div class="app-icon-card"><div class="app-glyph">🕋</div><div class="an">الأركان</div></div>
+            <div class="app-icon-card"><div class="app-glyph">✅</div><div class="an">الواجبات</div></div>
+            <div class="app-icon-card"><div class="app-glyph">✨</div><div class="an">المستحبات</div></div>
+            <div class="app-icon-card"><div class="app-glyph">🚫</div><div class="an">المحظورات</div></div>
+            <div class="app-icon-card"><div class="app-glyph">🗺️</div><div class="an">الخطوات</div></div>
+            <div class="app-icon-card"><div class="app-glyph">🧭</div><div class="an">المرشد</div></div>
+            <div class="app-icon-card"><div class="app-glyph">🏨</div><div class="an">الفنادق</div></div>
+            <div class="app-icon-card highlight" onclick="switchView('card')"><div class="app-glyph">🆘</div><div class="an">بطاقة الفزعة</div></div>
+            <div class="app-icon-card"><div class="app-glyph">⚙️</div><div class="an">الإعدادات</div></div>
+          </div>
+          <div class="fazaa-strip" onclick="switchView('card')">
+            <div class="mark"><div class="ring"></div><div class="ring"></div></div>
+            <div><div class="ft">بطاقتك محفوظة على الجهاز</div><div class="fs">تعمل حتى بدون إنترنت — اضغط لعرضها</div></div>
+          </div>
+        </div>
+
+        <!-- card view -->
+        <div class="app-view" id="view-card" style="display:none;">
+          <div class="card-title">بطاقة الفزعة الخاصة بك — اضغط عليها لعرض الرمز</div>
+          <div class="fazaa-card" id="fazaaCard" onclick="this.classList.toggle('flipped')">
+            <div class="card-face front">
+              <div class="card-strip"></div>
+              <div class="card-top">
+                <div class="card-mark"><div class="ring"></div><div class="ring"></div></div>
+                <span class="card-brand">مرشد · بطاقة الفزعة</span>
+                <span class="card-serial">#F-284719</span>
+              </div>
+
+              <div class="card-person">
+                <div class="card-photo">خح</div>
+                <div>
+                  <div class="card-name">خالد الحربي</div>
+                  <div class="card-sub">معتمر · المجموعة الثالثة</div>
+                </div>
+              </div>
+
+              <div class="card-details">
+                <div class="detail"><span class="dl">الجنسية</span><span class="dv">سعودي</span></div>
+                <div class="detail"><span class="dl">رقم الهوية</span><span class="dv mono">10XXXXXXXX</span></div>
+                <div class="detail"><span class="dl">فصيلة الدم</span><span class="dv accent">O+</span></div>
+                <div class="detail"><span class="dl">قائد المجموعة</span><span class="dv mono">05X XXX 214</span></div>
+                <div class="detail"><span class="dl">الفندق</span><span class="dv">أنوار الحرم</span></div>
+                <div class="detail"><span class="dl">رقم الغرفة</span><span class="dv">1204</span></div>
+              </div>
+
+              <div class="card-note">⚠ حالة صحية: ضغط الدم — يحمل دواءه معه</div>
+              <div class="card-foot-hint">اضغط على البطاقة لعرض رمز QR ↺</div>
+            </div>
+            <div class="card-face back">
+              <div class="qr-box"><div class="qr-mock"></div></div>
+              <div class="qr-hint">امسح هذا الرمز عند الحاجة</div>
+              <div class="qr-serial">#F-284719</div>
+              <div class="qr-issuer">بطاقة صادرة إلكترونيًا عبر تطبيق مرشد</div>
+            </div>
+          </div>
+          <button class="btn btn-gold card-next" onclick="switchView('scan')">محاكاة: مرشد يمسح الرمز ←</button>
+          <p class="card-hint">(الشاشة التالية تُمثّل جهاز المرشد وليس جهازك)</p>
+        </div>
+
+        <!-- scan view -->
+        <div class="app-view" id="view-scan" style="display:none;">
+          <div class="scan-top"><div class="t1">فزعة سريعة</div><div class="t2">وجّه الكاميرا نحو رمز البطاقة</div></div>
+          <div class="viewfinder">
+            <div class="corner tl"></div><div class="corner tr"></div><div class="corner bl"></div><div class="corner br"></div>
+            <div class="scan-line"></div>
+          </div>
+          <div class="scan-btn-wrap"><button class="btn btn-gold" onclick="switchView('result')">تم المسح — عرض البيانات</button></div>
+        </div>
+
+        <!-- result view -->
+        <div class="app-view" id="view-result" style="display:none;">
+          <div class="result-status"><span class="status-rings"><span class="ring"></span><span class="ring"></span></span> تم تفعيل الفزعة بنجاح</div>
+          <div class="result-person">
+            <div class="result-avatar">خح</div>
+            <div><div class="result-name">خالد الحربي</div><div class="result-meta">معتمر · المجموعة الثالثة</div></div>
+          </div>
+          <div class="note-alert">⚠ ملاحظة صحية: يعاني من ضغط الدم — يحمل دواءه معه</div>
+          <div class="info-list">
+            <div class="info-row"><span>فصيلة الدم</span><span>O+</span></div>
+            <div class="info-row"><span>الجنسية</span><span>سعودي</span></div>
+            <div class="info-row"><span>الفندق / الغرفة</span><span>أنوار الحرم — 1204</span></div>
+            <div class="info-row"><span>آخر تحديث للموقع</span><span>الآن</span></div>
+          </div>
+          <div class="notify-chain">
+            <div class="notify-item"><span class="notify-check">✓</span> إشعار قائد المجموعة</div>
+            <div class="notify-item"><span class="notify-check">✓</span> إرسال الموقع الحالي</div>
+            <div class="notify-item"><span class="notify-check">✓</span> تنبيه استقبال الفندق</div>
+          </div>
+          <div class="result-actions">
+            <button class="btn btn-gold btn-full">اتصال بقائد المجموعة</button>
+            <button class="btn btn-ghost2 btn-full" onclick="switchView('grid')">رجوع للرئيسية</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <p class="flow-note">تطبيق واحد: نفس أقسام الموقع، وبطاقة الفزعة، ومحاكاة مسح المرشد — كل ذلك دون مغادرة الصفحة.</p>
+  </div>
+</div>
+
+<div class="toast" id="toast">
+  <span class="mini-rings"><span class="ring"></span><span class="ring"></span></span>
+  <span>جارٍ البحث عن أقرب مرشد متاح لك الآن...</span>
+</div>
+
+<script>
+  document.querySelectorAll('.chips .chip').forEach(chip=>{
+    chip.addEventListener('click', ()=>{
+      chip.parentElement.querySelectorAll('.chip').forEach(c=>c.classList.remove('active'));
+      chip.classList.add('active');
+    });
+  });
+
+  const titles = {grid:'مرشد', card:'بطاقة الفزعة', scan:'مسح الرمز', result:'تفعيل الفزعة'};
+
+  function switchView(name){
+    document.querySelectorAll('.app-view').forEach(v=>{ v.style.display='none'; v.classList.remove('active'); });
+    const target = document.getElementById('view-'+name);
+    target.style.display='flex'; target.classList.add('active');
+    document.getElementById('navTitle').textContent = titles[name];
+    const nav = document.getElementById('appNav');
+    const pill = document.getElementById('offlinePill');
+    if(name==='grid'){ nav.classList.remove('has-back'); pill.style.display='flex'; }
+    else{ nav.classList.add('has-back'); pill.style.display='none'; }
+  }
+
+  function openPWA(startView){
+    document.getElementById('pwaOverlay').classList.add('show');
+    switchView(startView || 'grid');
+  }
+  function closePWA(){
+    document.getElementById('pwaOverlay').classList.remove('show');
+  }
+  document.getElementById('pwaOverlay').addEventListener('click', (e)=>{
+    if(e.target.id === 'pwaOverlay') closePWA();
+  });
+
+  document.querySelector('.help-fab').addEventListener('click', ()=>{
+    const toast = document.getElementById('toast');
+    toast.classList.add('show');
+    setTimeout(()=> toast.classList.remove('show'), 2500);
+  });
+</script>
+
+</body>
+</html>

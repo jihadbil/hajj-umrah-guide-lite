@@ -2,9 +2,31 @@
 // hotels.tsx — صفحة الفنادق والمرشدين
 // ===================================================
 
-import { createFileRoute } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { PageHeader } from "@/components/PageHeader";
 import { hotels, guides } from "@/lib/hotelsGuides";
+
+function FazahBanner() {
+  return (
+    <Link
+      to="/fazah"
+      className="group mx-auto flex max-w-6xl flex-col items-center gap-4 rounded-3xl border border-gold/30 bg-[#1B4332] bg-islamic-pattern-dark px-6 py-6 text-center shadow-soft transition-all duration-300 hover:shadow-gold/10 md:flex-row md:text-right relative overflow-hidden"
+    >
+      <div className="absolute -top-6 -left-6 text-8xl opacity-10 select-none pointer-events-none">🆘</div>
+      <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl bg-gold/15 border border-gold/30 text-3xl relative z-10">
+        🆘
+      </div>
+      <div className="flex-1 relative z-10">
+        <div className="text-xs font-bold text-gold mb-1">جديد — شبكة الإغاثة اللامركزية</div>
+        <h3 className="font-display text-lg font-bold text-white md:text-xl">خدمة فزعة: بطاقة تربط كل معتمر بأقرب مرشد أو استقبال فندق</h3>
+        <p className="mt-1 text-xs text-white/60 md:text-sm">تعرّف على كيفية عمل بطاقة الاستجابة السريعة وسلسلة التنبيه الفوري عند الطوارئ.</p>
+      </div>
+      <span className="relative z-10 shrink-0 rounded-xl bg-gold px-5 py-2.5 text-xs font-bold text-[#14342A] group-hover:bg-white transition-colors">
+        تعرّف على فزعة ←
+      </span>
+    </Link>
+  );
+}
 
 export const Route = createFileRoute("/hotels")({
   component: HotelsPage,
@@ -27,7 +49,11 @@ function StarRating({ rating }: { rating: number }) {
 
 function HotelCard({ h }: { h: (typeof hotels)[number] }) {
   return (
-    <article className="group overflow-hidden rounded-3xl border border-border/60 bg-card shadow-card transition-all duration-300 hover:shadow-soft hover:border-primary/20 relative bg-islamic-pattern">
+    <Link
+      to="/hotels/$hotelId"
+      params={{ hotelId: String(h.id) }}
+      className="group overflow-hidden rounded-3xl border border-border/60 bg-card shadow-card transition-all duration-300 hover:shadow-soft hover:border-primary/20 relative bg-islamic-pattern block"
+    >
       <div
         className="flex h-32 items-center justify-center text-5xl bg-gradient-soft border-b border-border/40 group-hover:scale-[1.01] transition-transform duration-300 relative overflow-hidden"
         style={{ background: "linear-gradient(135deg, oklch(0.95 0.035 155), oklch(0.9 0.05 155))" }}
@@ -54,14 +80,14 @@ function HotelCard({ h }: { h: (typeof hotels)[number] }) {
             <div className="text-[10px] text-muted-foreground">يبدأ من</div>
             <div className="font-display text-base font-bold text-[#1B4332]">{h.price} / الليلة</div>
           </div>
-          <button
-            className="rounded-xl px-4.5 py-2.5 text-xs font-bold text-white bg-[#1B4332] hover:bg-[#14342A] hover:shadow-soft transition-all duration-300 active:scale-95 shadow-sm"
+          <span
+            className="rounded-xl px-4.5 py-2.5 text-xs font-bold text-white bg-[#1B4332] group-hover:bg-[#14342A] group-hover:shadow-soft transition-all duration-300 shadow-sm inline-block"
           >
             عرض التفاصيل
-          </button>
+          </span>
         </div>
       </div>
-    </article>
+    </Link>
   );
 }
 
@@ -110,6 +136,10 @@ function HotelsPage() {
         <div className="rounded-xl border border-gold/30 bg-[oklch(0.97_0.03_85)] px-4 py-3 text-xs text-foreground/80 md:text-sm">
           ⚠️ هذه بيانات تجريبية لأغراض العرض فقط، وسيتم استبدالها ببيانات حقيقية ومحدثة عند توفرها.
         </div>
+      </div>
+
+      <div className="mx-auto max-w-6xl px-4 py-4">
+        <FazahBanner />
       </div>
 
       {/* الفنادق */}

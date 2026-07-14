@@ -16,10 +16,13 @@ import { Route as ProhibitionsRouteImport } from './routes/prohibitions'
 import { Route as MistakesRouteImport } from './routes/mistakes'
 import { Route as HotelsRouteImport } from './routes/hotels'
 import { Route as FidyaRouteImport } from './routes/fidya'
+import { Route as FazahRouteImport } from './routes/fazah'
 import { Route as DuasRouteImport } from './routes/duas'
 import { Route as AttractionsRouteImport } from './routes/attractions'
 import { Route as ArkaanRouteImport } from './routes/arkaan'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as HotelsHotelIdRouteImport } from './routes/hotels_.$hotelId'
+import { Route as AttractionsAttractionIdRouteImport } from './routes/attractions_.$attractionId'
 
 const WajibaatRoute = WajibaatRouteImport.update({
   id: '/wajibaat',
@@ -56,6 +59,11 @@ const FidyaRoute = FidyaRouteImport.update({
   path: '/fidya',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FazahRoute = FazahRouteImport.update({
+  id: '/fazah',
+  path: '/fazah',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DuasRoute = DuasRouteImport.update({
   id: '/duas',
   path: '/duas',
@@ -76,12 +84,23 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const HotelsHotelIdRoute = HotelsHotelIdRouteImport.update({
+  id: '/hotels_/$hotelId',
+  path: '/hotels/$hotelId',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AttractionsAttractionIdRoute = AttractionsAttractionIdRouteImport.update({
+  id: '/attractions_/$attractionId',
+  path: '/attractions/$attractionId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/arkaan': typeof ArkaanRoute
   '/attractions': typeof AttractionsRoute
   '/duas': typeof DuasRoute
+  '/fazah': typeof FazahRoute
   '/fidya': typeof FidyaRoute
   '/hotels': typeof HotelsRoute
   '/mistakes': typeof MistakesRoute
@@ -89,12 +108,15 @@ export interface FileRoutesByFullPath {
   '/tips': typeof TipsRoute
   '/umrah': typeof UmrahRoute
   '/wajibaat': typeof WajibaatRoute
+  '/attractions/$attractionId': typeof AttractionsAttractionIdRoute
+  '/hotels/$hotelId': typeof HotelsHotelIdRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/arkaan': typeof ArkaanRoute
   '/attractions': typeof AttractionsRoute
   '/duas': typeof DuasRoute
+  '/fazah': typeof FazahRoute
   '/fidya': typeof FidyaRoute
   '/hotels': typeof HotelsRoute
   '/mistakes': typeof MistakesRoute
@@ -102,6 +124,8 @@ export interface FileRoutesByTo {
   '/tips': typeof TipsRoute
   '/umrah': typeof UmrahRoute
   '/wajibaat': typeof WajibaatRoute
+  '/attractions/$attractionId': typeof AttractionsAttractionIdRoute
+  '/hotels/$hotelId': typeof HotelsHotelIdRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -109,6 +133,7 @@ export interface FileRoutesById {
   '/arkaan': typeof ArkaanRoute
   '/attractions': typeof AttractionsRoute
   '/duas': typeof DuasRoute
+  '/fazah': typeof FazahRoute
   '/fidya': typeof FidyaRoute
   '/hotels': typeof HotelsRoute
   '/mistakes': typeof MistakesRoute
@@ -116,6 +141,8 @@ export interface FileRoutesById {
   '/tips': typeof TipsRoute
   '/umrah': typeof UmrahRoute
   '/wajibaat': typeof WajibaatRoute
+  '/attractions_/$attractionId': typeof AttractionsAttractionIdRoute
+  '/hotels_/$hotelId': typeof HotelsHotelIdRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -124,6 +151,7 @@ export interface FileRouteTypes {
     | '/arkaan'
     | '/attractions'
     | '/duas'
+    | '/fazah'
     | '/fidya'
     | '/hotels'
     | '/mistakes'
@@ -131,12 +159,15 @@ export interface FileRouteTypes {
     | '/tips'
     | '/umrah'
     | '/wajibaat'
+    | '/attractions/$attractionId'
+    | '/hotels/$hotelId'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/arkaan'
     | '/attractions'
     | '/duas'
+    | '/fazah'
     | '/fidya'
     | '/hotels'
     | '/mistakes'
@@ -144,12 +175,15 @@ export interface FileRouteTypes {
     | '/tips'
     | '/umrah'
     | '/wajibaat'
+    | '/attractions/$attractionId'
+    | '/hotels/$hotelId'
   id:
     | '__root__'
     | '/'
     | '/arkaan'
     | '/attractions'
     | '/duas'
+    | '/fazah'
     | '/fidya'
     | '/hotels'
     | '/mistakes'
@@ -157,6 +191,8 @@ export interface FileRouteTypes {
     | '/tips'
     | '/umrah'
     | '/wajibaat'
+    | '/attractions_/$attractionId'
+    | '/hotels_/$hotelId'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -164,6 +200,7 @@ export interface RootRouteChildren {
   ArkaanRoute: typeof ArkaanRoute
   AttractionsRoute: typeof AttractionsRoute
   DuasRoute: typeof DuasRoute
+  FazahRoute: typeof FazahRoute
   FidyaRoute: typeof FidyaRoute
   HotelsRoute: typeof HotelsRoute
   MistakesRoute: typeof MistakesRoute
@@ -171,6 +208,8 @@ export interface RootRouteChildren {
   TipsRoute: typeof TipsRoute
   UmrahRoute: typeof UmrahRoute
   WajibaatRoute: typeof WajibaatRoute
+  AttractionsAttractionIdRoute: typeof AttractionsAttractionIdRoute
+  HotelsHotelIdRoute: typeof HotelsHotelIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -224,6 +263,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FidyaRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/fazah': {
+      id: '/fazah'
+      path: '/fazah'
+      fullPath: '/fazah'
+      preLoaderRoute: typeof FazahRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/duas': {
       id: '/duas'
       path: '/duas'
@@ -252,6 +298,20 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/hotels_/$hotelId': {
+      id: '/hotels_/$hotelId'
+      path: '/hotels/$hotelId'
+      fullPath: '/hotels/$hotelId'
+      preLoaderRoute: typeof HotelsHotelIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/attractions_/$attractionId': {
+      id: '/attractions_/$attractionId'
+      path: '/attractions/$attractionId'
+      fullPath: '/attractions/$attractionId'
+      preLoaderRoute: typeof AttractionsAttractionIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -260,6 +320,7 @@ const rootRouteChildren: RootRouteChildren = {
   ArkaanRoute: ArkaanRoute,
   AttractionsRoute: AttractionsRoute,
   DuasRoute: DuasRoute,
+  FazahRoute: FazahRoute,
   FidyaRoute: FidyaRoute,
   HotelsRoute: HotelsRoute,
   MistakesRoute: MistakesRoute,
@@ -267,6 +328,8 @@ const rootRouteChildren: RootRouteChildren = {
   TipsRoute: TipsRoute,
   UmrahRoute: UmrahRoute,
   WajibaatRoute: WajibaatRoute,
+  AttractionsAttractionIdRoute: AttractionsAttractionIdRoute,
+  HotelsHotelIdRoute: HotelsHotelIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

@@ -24,6 +24,7 @@ const quickCards = [
   { to: "/tips",         icon: "🧳", label: "حقيبة المعتمر",     desc: "قائمة التجهيزات والنصائح" },
   { to: "/attractions",  icon: "🕌", label: "المزارات",           desc: "معالم مكة والمدينة" },
   { to: "/hotels",       icon: "🏨", label: "الفنادق والمرشدين",  desc: "أماكن الإقامة والمرافقة" },
+  { to: "/fazah",        icon: "🆘", label: "فزعة",               desc: "شبكة الإغاثة اللامركزية" },
 ];
 
 const articles = [

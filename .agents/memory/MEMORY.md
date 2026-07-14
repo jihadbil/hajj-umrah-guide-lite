@@ -1,0 +1,1 @@
+- [TanStack Router flat dynamic detail routes](tanstack-router-flat-routes.md) — file `x.$id.tsx` nests under existing `x.tsx`; use `x_.$id.tsx` for a sibling route.

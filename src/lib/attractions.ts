@@ -13,7 +13,8 @@ export interface Attraction {
   history: string;        // نبذة تاريخية موسّعة عن المعلم
   howToVisit: string;     // كيفية الوصول وآداب الزيارة
   bestTime: string;       // أفضل وقت للزيارة
-  gallery: string[];      // إيموجي بديل عن الصور الحقيقية لعرض معرض الصور
+  image: string;          // مسار الصورة الرئيسية الحقيقية
+  gallery: string[];      // مسارات صور حقيقية إضافية لمعرض الصور
 }
 
 export const attractions: Attraction[] = [
@@ -28,7 +29,8 @@ export const attractions: Attraction[] = [
     history: "في غار حراء أعلى جبل النور تعبّد النبي ﷺ قبل البعثة، وفيه نزل عليه الوحي لأول مرة بقوله تعالى: ﴿اقْرَأْ بِاسْمِ رَبِّكَ الَّذِي خَلَقَ﴾، لتبدأ بذلك رسالة الإسلام.",
     howToVisit: "يصعد الزوار سلمًا حجريًا شديد الانحدار يستغرق نحو ساعة إلى ساعة ونصف، وينصح باصطحاب ماء كافٍ وتجنب أوقات الظهيرة الحارة.",
     bestTime: "الصباح الباكر أو بعد العصر لتجنب حرارة الشمس وازدحام السلم الضيق.",
-    gallery: ["⛰️", "🕳️", "🌄"],
+    image: "/images/attractions/a1-1.jpg",
+    gallery: ["/images/attractions/a1-1.jpg", "/images/attractions/a1-2.jpg", "/images/attractions/a1-3.jpg"],
   },
   {
     id: 2,
@@ -41,7 +43,8 @@ export const attractions: Attraction[] = [
     history: "في غار ثور اختبأ النبي ﷺ وصاحبه أبو بكر الصديق رضي الله عنه ثلاث ليالٍ أثناء الهجرة إلى المدينة، وفيه نزلت آية ﴿ثَانِيَ اثْنَيْنِ إِذْ هُمَا فِي الْغَارِ﴾.",
     howToVisit: "تستغرق رحلة الصعود من ٣ إلى ٤ ساعات ذهابًا وإيابًا عبر مسار جبلي وعر، وتتطلب لياقة بدنية جيدة وأحذية مناسبة للتسلق.",
     bestTime: "قبل شروق الشمس لتفادي الحر الشديد ولإدراك مشهد الغروب من القمة.",
-    gallery: ["🕳️", "⛰️", "🏔️"],
+    image: "/images/attractions/a2-1.jpg",
+    gallery: ["/images/attractions/a2-1.jpg", "/images/attractions/a2-2.webp", "/images/attractions/a2-3.jpg"],
   },
   {
     id: 3,
@@ -54,7 +57,8 @@ export const attractions: Attraction[] = [
     history: "أحرم منه النبي ﷺ بعمرته عند رجوعه من غزوة حنين بعد قسمة الغنائم، وسُمي بالجعرانة نسبة إلى الموضع الذي وقف فيه.",
     howToVisit: "يوجد بالمسجد مصلى ومرافق وضوء واسعة لاستقبال المعتمرين القادمين للإحرام منه، ويسهل الوصول إليه بالسيارة أو الحافلات المخصصة.",
     bestTime: "أي وقت من اليوم، مع تفضيل الصباح الباكر لتفادي الازدحام وقت الذروة.",
-    gallery: ["🕌", "🚪", "🧭"],
+    image: "/images/attractions/a3-1.jpg",
+    gallery: ["/images/attractions/a3-1.jpg", "/images/attractions/a3-2.webp", "/images/attractions/a3-3.jpg"],
   },
   {
     id: 4,
@@ -67,7 +71,8 @@ export const attractions: Attraction[] = [
     history: "سمي بمسجد عائشة لأن النبي ﷺ أمر عبد الرحمن بن أبي بكر أن يُعمر أخته عائشة رضي الله عنها من هذا الموضع بعد حجة الوداع.",
     howToVisit: "المسجد مجهز بمواقف سيارات واسعة ومرافق لتيسير الإحرام، ويقصده آلاف المعتمرين يوميًا خاصة في المواسم.",
     bestTime: "يُفضّل تجنّب أوقات الذروة مساءً في مواسم الزحام كرمضان وموسم الحج.",
-    gallery: ["🕌", "🧴", "🚗"],
+    image: "/images/attractions/a4-1.jpg",
+    gallery: ["/images/attractions/a4-1.jpg", "/images/attractions/a4-2.jpg", "/images/attractions/a4-3.jpg"],
   },
   {
     id: 5,
@@ -80,7 +85,8 @@ export const attractions: Attraction[] = [
     history: "يوثق المتحف مراحل عمارة الحرمين الشريفين منذ العهد النبوي وحتى التوسعات السعودية الحديثة، ويضم قطعًا أثرية نادرة من كسوة الكعبة وأبوابها القديمة.",
     howToVisit: "الدخول مجاني في الغالب، ويستغرق التجول فيه ساعة إلى ساعتين، ويناسب جميع أفراد الأسرة.",
     bestTime: "بعد صلاة الفجر أو بين الصلوات حين يكون الحرم أقل ازدحامًا.",
-    gallery: ["🏛️", "📜", "🕋"],
+    image: "/images/attractions/a5-1.jpg",
+    gallery: ["/images/attractions/a5-1.jpg", "/images/attractions/a5-2.jpg", "/images/attractions/a5-3.jpg"],
   },
   {
     id: 6,
@@ -93,7 +99,8 @@ export const attractions: Attraction[] = [
     history: "بناه النبي ﷺ بنفسه عند هجرته إلى المدينة، وتوسّع عبر العصور حتى صار تحفة معمارية تضم الروضة الشريفة التي قال عنها ﷺ: «ما بين بيتي ومنبري روضة من رياض الجنة».",
     howToVisit: "يُحجز موعد لزيارة الروضة الشريفة عبر تطبيق نُسك للتنظيم، وتراعى آداب الزيارة من هدوء وسكينة وعدم المزاحمة.",
     bestTime: "بعد صلاة الفجر مباشرة أو بعد العشاء حين يقل الزحام نسبيًا.",
-    gallery: ["🕌", "🌙", "🕊️"],
+    image: "/images/attractions/a6-1.jpg",
+    gallery: ["/images/attractions/a6-1.jpg", "/images/attractions/a6-2.jpg", "/images/attractions/a6-3.jpg"],
   },
   {
     id: 7,
@@ -106,7 +113,8 @@ export const attractions: Attraction[] = [
     history: "أول مسجد أُسس على التقوى في تاريخ الإسلام، بناه النبي ﷺ فور وصوله إلى قباء مهاجرًا، وشارك في بنائه بيده الشريفة.",
     howToVisit: "يسهل الوصول إليه بالحافلات المخصصة أو سيارات الأجرة من المسجد النبوي، ويتسع لأعداد كبيرة من المصلين.",
     bestTime: "يوم السبت تأسيًا بفعل النبي ﷺ الذي كان يزوره كل سبت راكبًا وماشيًا.",
-    gallery: ["🕌", "🚶", "🕊️"],
+    image: "/images/attractions/a7-1.jpg",
+    gallery: ["/images/attractions/a7-1.jpg", "/images/attractions/a7-2.jpg", "/images/attractions/a7-3.jpg"],
   },
   {
     id: 8,
@@ -119,7 +127,8 @@ export const attractions: Attraction[] = [
     history: "بينما كان النبي ﷺ يصلي الظهر بأصحابه في هذا المسجد، جاءه الوحي بالتحول من استقبال بيت المقدس إلى الكعبة المشرفة، فاستدار في صلاته ومن خلفه المصلون.",
     howToVisit: "يضم المسجد قبلتين ظاهرتين تعكسان الحادثة التاريخية، وهو مقصد شائع لزوار المدينة المنورة.",
     bestTime: "أي وقت خلال النهار، ويفضل تجنب أوقات الصلاة المباشرة لأخذ وقت كافٍ في التأمل والتصوير.",
-    gallery: ["🕌", "🧭", "📍"],
+    image: "/images/attractions/a8-1.jpg",
+    gallery: ["/images/attractions/a8-1.jpg", "/images/attractions/a8-2.jpg", "/images/attractions/a8-3.jpg"],
   },
   {
     id: 9,
@@ -132,7 +141,8 @@ export const attractions: Attraction[] = [
     history: "شهد جبل أحد إحدى أعظم غزوات المسلمين، واستشهد فيها سبعون من الصحابة على رأسهم سيد الشهداء حمزة بن عبد المطلب رضي الله عنه.",
     howToVisit: "يمكن الوقوف عند سفح الجبل ومقبرة الشهداء المجاورة له، مع الالتزام بآداب زيارة القبور من دعاء وسلام دون رفع صوت.",
     bestTime: "العصر أو قبيل المغرب حين تلطف درجة الحرارة.",
-    gallery: ["⛰️", "🌾", "🕊️"],
+    image: "/images/attractions/a9-1.jpg",
+    gallery: ["/images/attractions/a9-1.jpg", "/images/attractions/a9-2.jpg", "/images/attractions/a9-3.jpg"],
   },
   {
     id: 10,
@@ -145,6 +155,7 @@ export const attractions: Attraction[] = [
     history: "دُفن في البقيع عدد كبير من الصحابة وآل بيت النبي ﷺ، وكان صلى الله عليه وسلم يزورها ويدعو لأهلها بالمغفرة والرحمة.",
     howToVisit: "الدخول مقيد بأوقات محددة وغالبًا للرجال دون النساء، وينبغي الالتزام بالهدوء والوقار أثناء الزيارة.",
     bestTime: "بعد صلاة الفجر عندما تُفتح أبوابه غالبًا لفترة قصيرة.",
-    gallery: ["🌿", "🕊️", "🌙"],
+    image: "/images/attractions/a10-1.jpg",
+    gallery: ["/images/attractions/a10-1.jpg", "/images/attractions/a10-2.jpg", "/images/attractions/a10-3.jpg"],
   },
 ];

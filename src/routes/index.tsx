@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
 import { umrahJourneySteps } from "@/lib/umrahJourney";
 import { PrayerTimes } from "@/components/PrayerTimes";
+import { HeroSlideshow } from "@/components/HeroSlideshow";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -25,33 +26,6 @@ const quickCards = [
   { to: "/attractions",  icon: "🕌", label: "المزارات",           desc: "معالم مكة والمدينة" },
   { to: "/hotels",       icon: "🏨", label: "الفنادق والمرشدين",  desc: "أماكن الإقامة والمرافقة" },
   { to: "/fazah",        icon: "🆘", label: "فزعة",               desc: "شبكة الإغاثة اللامركزية" },
-];
-
-const articles = [
-  {
-    to: "/umrah",
-    img: "/article1.png",
-    category: "رحلة العمرة",
-    title: "رحلة العمرة خطوة بخطوة",
-    desc: "دليل تفصيلي من الاستعداد للإحرام إلى الطواف والسعي والتقصير — مع المستحبات والأدعية في كل خطوة.",
-    reads: "١٢٤",
-  },
-  {
-    to: "/prohibitions",
-    img: "/article2.png",
-    category: "الإحرام",
-    title: "محظورات الإحرام التسعة",
-    desc: "الأمور التي يمنع منها المحرم بعد دخوله في النسك، مع توضيح الحكم والدليل.",
-    reads: "٢١٥",
-  },
-  {
-    to: "/mistakes",
-    img: "/article3.png",
-    category: "التنبيهات",
-    title: "أخطاء شائعة في العمرة",
-    desc: "أبرز الأخطاء التي يقع فيها كثير من المعتمرين في الإحرام والطواف والسعي والحلق.",
-    reads: "٨٩",
-  },
 ];
 
 function InteractiveStepper() {
@@ -185,23 +159,10 @@ function Index() {
   return (
     <div>
       {/* Hero */}
-      <section
-        className="relative min-h-[520px] flex items-center overflow-hidden pb-16"
-        style={{
-          backgroundImage: "url(/kaaba.png)",
-          backgroundSize: "cover",
-          backgroundPosition: "center center",
-        }}
-      >
-        {/* Dark rich Islamic gradient overlay */}
-        <div
-          className="absolute inset-0 z-0"
-          style={{
-            background:
-              "linear-gradient(to left, rgba(15,45,28,0.95) 0%, rgba(20,52,42,0.85) 50%, rgba(0,0,0,0.2) 100%)",
-          }}
-        />
-        
+      <section className="relative min-h-[520px] flex items-center overflow-hidden pb-16">
+        {/* Auto-rotating photo slideshow with a light overlay */}
+        <HeroSlideshow />
+
         {/* Glowing floating calligraphic motif in background */}
         <div className="absolute top-1/4 left-1/4 text-[200px] opacity-5 select-none font-display text-gold pointer-events-none hidden lg:block animate-float">
           🕌
@@ -276,106 +237,20 @@ function Index() {
         <InteractiveStepper />
       </section>
 
-      {/* Main content */}
+      {/* Prayer times & verse */}
       <section className="mx-auto max-w-7xl px-4 py-16">
-        <div className="flex flex-col gap-10 lg:flex-row">
-          {/* Articles */}
-          <div className="flex-1 min-w-0">
-            <div className="mb-6 flex items-center justify-between">
-              <h2 className="font-display text-2xl font-bold text-foreground">مقالات مختارة</h2>
-              <Link to="/umrah" className="text-sm font-semibold text-primary hover:underline flex items-center gap-1">
-                <span>دليل العمرة كاملاً</span>
-                <span>←</span>
-              </Link>
-            </div>
-            <div className="grid gap-6 sm:grid-cols-3">
-              {articles.map((a) => (
-                <Link
-                  key={a.title}
-                  to={a.to}
-                  className="group overflow-hidden rounded-2xl border border-border/60 bg-card shadow-card transition-all duration-300 hover:shadow-soft hover:border-primary/20"
-                >
-                  <div className="aspect-[16/9] overflow-hidden bg-muted relative">
-                    <img
-                      src={a.img}
-                      alt={a.title}
-                      className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-                      onError={(e) => {
-                        (e.target as HTMLImageElement).src =
-                          "https://images.unsplash.com/photo-1564769662533-4f00a87b4056?w=600&q=80";
-                      }}
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-                  </div>
-                  <div className="p-5">
-                    <span className="inline-block rounded-full bg-primary-soft px-3 py-0.5 text-[10px] font-bold text-primary border border-primary/10">
-                      {a.category}
-                    </span>
-                    <h3 className="mt-2.5 font-display text-base font-bold text-foreground leading-snug group-hover:text-primary transition-colors">
-                      {a.title}
-                    </h3>
-                    <p className="mt-1.5 text-xs text-muted-foreground line-clamp-2 leading-relaxed">{a.desc}</p>
-                    <div className="mt-4 pt-3 border-t border-border/40 flex items-center justify-between text-[10px] text-muted-foreground">
-                      <div className="flex items-center gap-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg>
-                        <span>{a.reads} قراءة</span>
-                      </div>
-                      <span className="text-primary/70 font-semibold group-hover:text-primary">اقرأ المزيد ←</span>
-                    </div>
-                  </div>
-                </Link>
-              ))}
-            </div>
+        <div className="grid gap-6 md:grid-cols-2">
+          {/* Prayer Times Widget */}
+          <PrayerTimes />
+
+          {/* Verse card */}
+          <div className="rounded-2xl border border-primary/15 bg-primary-soft/30 p-6 text-center relative overflow-hidden bg-islamic-pattern flex flex-col items-center justify-center">
+            <div className="mb-2 text-[10px] font-bold text-primary uppercase tracking-wide">آية كريمة</div>
+            <p className="font-display text-xl leading-loose text-foreground font-semibold">
+              ﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾
+            </p>
+            <div className="mt-2 text-[10px] text-muted-foreground">سورة البقرة — الآية ١٩٦</div>
           </div>
-
-          {/* Quick guide sidebar */}
-          <aside className="w-full lg:w-80 shrink-0">
-            <div className="rounded-2xl border border-border/60 bg-card shadow-card overflow-hidden">
-              <div className="px-5 py-4.5 bg-[#1B4332] bg-islamic-pattern text-right relative border-b border-[#C5A85C]/20">
-                <h3 className="font-display text-lg font-bold text-white">دليل سريع</h3>
-                <p className="text-xs text-white/60 mt-0.5">خطوات مناسك العمرة مرتبة وميسرة</p>
-              </div>
-              <div className="divide-y divide-border/40">
-                {umrahJourneySteps.map((step) => (
-                  <div key={step.id} className="flex items-center gap-3 px-5 py-3.5 hover:bg-primary-soft/10 transition-colors">
-                    <div
-                      className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white shadow-sm"
-                      style={{ backgroundColor: "#2D6A4F" }}
-                    >
-                      {step.id}
-                    </div>
-                    <div className="flex-1 min-w-0 text-right">
-                      <div className="text-sm font-semibold text-foreground leading-none">{step.title}</div>
-                      <div className="text-[10px] text-muted-foreground truncate mt-1">{step.subtitle}</div>
-                    </div>
-                    <span className="text-base">{step.icon}</span>
-                  </div>
-                ))}
-              </div>
-              <div className="px-5 py-4.5 bg-muted/20 border-t border-border/40">
-                <Link
-                  to="/umrah"
-                  className="block w-full rounded-xl py-2.5 text-center text-xs font-bold text-white transition-all bg-[#2D6A4F] hover:bg-[#1B4332] hover:shadow-soft"
-                >
-                  عرض دليل العمرة كاملاً
-                </Link>
-              </div>
-            </div>
-
-            {/* Prayer Times Widget */}
-            <div className="mt-6">
-              <PrayerTimes />
-            </div>
-
-            {/* Verse card */}
-            <div className="mt-6 rounded-2xl border border-primary/15 bg-primary-soft/30 p-5 text-center relative overflow-hidden bg-islamic-pattern">
-              <div className="mb-2 text-[10px] font-bold text-primary uppercase tracking-wide">آية كريمة</div>
-              <p className="font-display text-base leading-loose text-foreground font-semibold">
-                ﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾
-              </p>
-              <div className="mt-2 text-[10px] text-muted-foreground">سورة البقرة — الآية ١٩٦</div>
-            </div>
-          </aside>
         </div>
       </section>
     </div>

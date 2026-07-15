@@ -54,11 +54,14 @@ function HotelCard({ h }: { h: (typeof hotels)[number] }) {
       params={{ hotelId: String(h.id) }}
       className="group overflow-hidden rounded-3xl border border-border/60 bg-card shadow-card transition-all duration-300 hover:shadow-soft hover:border-primary/20 relative bg-islamic-pattern block"
     >
-      <div
-        className="flex h-32 items-center justify-center text-5xl bg-gradient-soft border-b border-border/40 group-hover:scale-[1.01] transition-transform duration-300 relative overflow-hidden"
-        style={{ background: "linear-gradient(135deg, oklch(0.95 0.035 155), oklch(0.9 0.05 155))" }}
-      >
-        {h.image}
+      <div className="h-44 overflow-hidden border-b border-border/40 relative">
+        <img
+          src={h.image}
+          alt={h.name}
+          className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          loading="lazy"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/25 to-transparent" />
       </div>
       <div className="p-5 text-right">
         <div className="mb-1 flex items-start justify-between gap-2">

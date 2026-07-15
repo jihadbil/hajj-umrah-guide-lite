@@ -50,8 +50,13 @@ function HotelDetailPage() {
 
   return (
     <div>
-      <div className="relative overflow-hidden border-b border-[oklch(0.72_0.14_85)]/20 bg-[#1B4332] bg-islamic-pattern-dark">
-        <div className="absolute top-4 right-4 text-8xl opacity-5 select-none font-display text-gold pointer-events-none">{hotel.image}</div>
+      <div className="relative overflow-hidden border-b border-[oklch(0.72_0.14_85)]/20">
+        <img
+          src={hotel.image}
+          alt={hotel.name}
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#1B4332]/95 via-[#1B4332]/75 to-[#1B4332]/40" />
         <div className="mx-auto max-w-5xl px-4 py-14 md:py-20 relative z-10 animate-fade-in-up">
           <nav className="mb-5 flex items-center justify-center gap-2 text-xs text-white/50">
             <Link to="/hotels" className="hover:text-gold transition-colors">الفنادق والمرشدين</Link>
@@ -61,9 +66,6 @@ function HotelDetailPage() {
           <div className="text-center">
             <div className="mb-3.5 inline-block rounded-full bg-gold/15 border border-gold/30 px-3.5 py-1 text-xs font-bold text-gold shadow-sm">
               {hotel.city}
-            </div>
-            <div className="mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-gold-green text-4xl shadow-soft border border-white/10">
-              {hotel.image}
             </div>
             <h1 className="font-display text-3xl font-extrabold text-white md:text-5xl tracking-wide">{hotel.name}</h1>
             <p className="mx-auto mt-4 max-w-2xl text-white/70 text-sm leading-relaxed md:text-base">{hotel.description}</p>
@@ -85,15 +87,11 @@ function HotelDetailPage() {
           ⚠️ هذه بيانات تجريبية لأغراض العرض فقط، وسيتم استبدالها ببيانات حقيقية ومحدثة عند توفرها.
         </div>
 
-        {/* معرض صور بديل */}
+        {/* معرض صور */}
         <div className="mb-10 grid grid-cols-3 gap-4">
           {hotel.gallery.map((g, idx) => (
-            <div
-              key={idx}
-              className="flex aspect-square items-center justify-center rounded-3xl border border-border/60 text-6xl shadow-card"
-              style={{ background: "linear-gradient(135deg, oklch(0.95 0.035 155), oklch(0.9 0.05 155))" }}
-            >
-              {g}
+            <div key={idx} className="aspect-square overflow-hidden rounded-3xl border border-border/60 shadow-card">
+              <img src={g} alt={`${hotel.name} ${idx + 1}`} className="h-full w-full object-cover" loading="lazy" />
             </div>
           ))}
         </div>

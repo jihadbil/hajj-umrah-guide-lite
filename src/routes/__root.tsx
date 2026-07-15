@@ -88,8 +88,8 @@ function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2.5 group">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 text-white text-xl shadow-soft transition-all duration-300 group-hover:scale-105 group-hover:bg-white/15 border border-white/5">
-            🕌
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/95 shadow-soft transition-all duration-300 group-hover:scale-105 border border-white/10 p-1">
+            <img src="/images/brand/logo-emblem.png" alt="مرشد" className="h-full w-full object-contain" />
           </div>
           <div className="leading-tight">
             <div className="text-xl font-bold text-white font-display tracking-wide group-hover:text-gold transition-colors">مرشد</div>
@@ -140,7 +140,9 @@ function Header() {
           <nav className="relative z-10 flex h-full w-72 flex-col bg-[#14342A] p-6 shadow-2xl border-l border-white/10 animate-fade-in-up" dir="rtl">
             <div className="flex items-center justify-between mb-8">
               <div className="flex items-center gap-2.5">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/10 text-white text-base">🕌</div>
+                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-white/95 border border-white/10 p-1">
+                  <img src="/images/brand/logo-emblem.png" alt="مرشد" className="h-full w-full object-contain" />
+                </div>
                 <div className="leading-tight">
                   <span className="text-lg font-bold text-white font-display">مرشد</span>
                   <span className="block text-[9px] text-[#C5A85C]">دليل المعتمر</span>
@@ -205,8 +207,8 @@ function Footer() {
           {/* Column 1: Info */}
           <div className="md:col-span-5 flex flex-col gap-4 text-right">
             <div className="flex items-center gap-2.5">
-              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/10 text-white text-lg border border-white/5">
-                🕌
+              <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-white/95 border border-white/10 p-1">
+                <img src="/images/brand/logo-emblem.png" alt="مرشد" className="h-full w-full object-contain" />
               </div>
               <div>
                 <span className="text-xl font-bold text-white font-display">مرشد</span>

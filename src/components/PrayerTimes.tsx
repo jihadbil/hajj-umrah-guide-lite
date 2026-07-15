@@ -185,24 +185,22 @@ export function PrayerTimes() {
         </p>
       </div>
 
-      {/* قائمة أوقات الصلوات */}
-      <div className="divide-y divide-border/40">
+      {/* قائمة أوقات الصلوات - ممتدة أفقياً من اليسار إلى اليمين */}
+      <div dir="ltr" className="grid grid-cols-2 divide-x divide-border/40 sm:grid-cols-3 md:grid-cols-6 md:divide-y-0">
         {prayerList.map((p) => {
           const isActive = nextPrayer.name === p.name;
           return (
             <div
               key={p.key}
-              className={`flex items-center justify-between px-5 py-3 transition-colors ${
-                isActive ? "bg-primary-soft/30 border-r-4 border-gold font-semibold" : "hover:bg-primary-soft/5"
+              className={`flex flex-col items-center justify-center gap-1.5 px-3 py-4 text-center transition-colors border-b border-border/40 md:border-b-0 ${
+                isActive ? "bg-primary-soft/30 border-t-4 border-t-gold font-semibold" : "hover:bg-primary-soft/5"
               }`}
             >
-              <div className="flex items-center gap-3">
-                <span className="text-base">{p.icon}</span>
-                <span className={`text-sm ${isActive ? "text-primary font-bold" : "text-foreground"}`}>
-                  {p.name}
-                </span>
-              </div>
-              <span className={`text-sm ${isActive ? "text-primary font-bold" : "text-muted-foreground"}`}>
+              <span className="text-lg">{p.icon}</span>
+              <span className={`text-sm ${isActive ? "text-primary font-bold" : "text-foreground"}`}>
+                {p.name}
+              </span>
+              <span className={`text-sm font-mono ${isActive ? "text-primary font-bold" : "text-muted-foreground"}`}>
                 {p.info.formatted}
               </span>
             </div>

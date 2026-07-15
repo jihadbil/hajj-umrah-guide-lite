@@ -237,21 +237,9 @@ function Index() {
         <InteractiveStepper />
       </section>
 
-      {/* Prayer times & verse */}
+      {/* Prayer times */}
       <section className="mx-auto max-w-7xl px-4 py-16">
-        <div className="grid gap-6 md:grid-cols-2">
-          {/* Prayer Times Widget */}
-          <PrayerTimes />
-
-          {/* Verse card */}
-          <div className="rounded-2xl border border-primary/15 bg-primary-soft/30 p-6 text-center relative overflow-hidden bg-islamic-pattern flex flex-col items-center justify-center">
-            <div className="mb-2 text-[10px] font-bold text-primary uppercase tracking-wide">آية كريمة</div>
-            <p className="font-display text-xl leading-loose text-foreground font-semibold">
-              ﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾
-            </p>
-            <div className="mt-2 text-[10px] text-muted-foreground">سورة البقرة — الآية ١٩٦</div>
-          </div>
-        </div>
+        <PrayerTimes />
       </section>
     </div>
   );

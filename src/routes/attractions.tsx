@@ -57,9 +57,9 @@ function AttractionsPage() {
               key={a.id}
               to="/attractions/$attractionId"
               params={{ attractionId: String(a.id) }}
-              className="group flex flex-col overflow-hidden rounded-3xl border border-border/60 bg-card shadow-card hover:shadow-soft hover:border-primary/20 transition-all duration-300 sm:flex-row"
+              className="group flex flex-col overflow-hidden rounded-3xl border border-border/60 bg-card shadow-card hover:shadow-soft hover:border-primary/20 transition-all duration-300 sm:h-56 sm:flex-row"
             >
-              <div className="relative h-48 w-full shrink-0 overflow-hidden sm:h-auto sm:w-64">
+              <div className="relative h-48 w-full shrink-0 overflow-hidden sm:h-full sm:w-64">
                 <img
                   src={a.image}
                   alt={a.name}
@@ -71,18 +71,18 @@ function AttractionsPage() {
                 </span>
               </div>
 
-              <div className="flex flex-1 flex-col p-5 text-right">
+              <div className="flex flex-1 flex-col p-5 text-right overflow-hidden">
                 <div className="mb-2 flex flex-wrap items-center justify-end gap-2">
                   <span className="rounded-full bg-primary-soft/50 px-2.5 py-0.5 text-[10px] font-bold text-primary">
                     {a.city}
                   </span>
                   <span className="text-[11px] text-muted-foreground">{a.distance}</span>
                 </div>
-                <h3 className="font-display text-lg font-bold text-foreground leading-snug group-hover:text-primary transition-colors md:text-xl">
+                <h3 className="font-display text-lg font-bold text-foreground leading-snug line-clamp-1 group-hover:text-primary transition-colors md:text-xl">
                   {a.name}
                 </h3>
-                <p className="mt-2 flex-1 text-sm leading-relaxed text-foreground/80">{a.description}</p>
-                <div className="mt-3 rounded-xl bg-primary-soft/40 border border-primary/10 px-4 py-2.5 text-xs leading-relaxed text-primary shadow-inner">
+                <p className="mt-2 flex-1 line-clamp-2 text-sm leading-relaxed text-foreground/80">{a.description}</p>
+                <div className="mt-3 line-clamp-1 rounded-xl bg-primary-soft/40 border border-primary/10 px-4 py-2.5 text-xs leading-relaxed text-primary shadow-inner">
                   💡 {a.tip}
                 </div>
                 <span className="mt-3 self-end text-xs font-bold text-primary group-hover:text-gold transition-colors">

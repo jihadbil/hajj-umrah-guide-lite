@@ -1,0 +1,566 @@
+{
+  "eyebrow": "Umrah Journey",
+  "title": "Step-by-Step Umrah Guide",
+  "description": "Your comprehensive and practical guide to performing the rituals of Umrah in detail, from the very beginning until the final hair shaving or cutting.",
+  "labels": {
+    "recommended": "Recommended",
+    "disliked": "Disliked",
+    "mistakes": "Common Mistakes",
+    "duas": "Supplications & Remembrance",
+    "guide": "Guide",
+    "warningTitle": "Important Notice for the Pilgrim",
+    "nextStep": "Next Step",
+    "stepLabel": "Step {{id}}",
+    "stepOf": "Step {{id}} of {{total}}",
+    "stepsCount": "{{count}} steps"
+  },
+  "banners": {
+    "recommended": "These actions are recommended (Mustahabb) in this phase. Performing them is rewarded in imitation of the Prophet ﷺ, and omitting them is not sinful.",
+    "disliked": "These matters are disliked (Makrooh) or advised to be avoided in this phase because they reduce the reward or contradict the completeness of worship.",
+    "mistakes": "The most prominent common mistakes in this phase, along with the correct practice established by the Prophet ﷺ.",
+    "duas": "Supplications (Duas) and remembrance recommended in this phase — those established in the authentic Sunnah."
+  },
+  "steps": {
+    "step1": {
+      "title": "Before Ihram",
+      "subtitle": "Preparing for the Umrah Journey",
+      "intro": "Before you begin your Umrah, it is recommended to prepare for Ihram so that you enter the state of devotion in the best possible condition. These preparations are among the Sunnahs practiced by the Prophet ﷺ, and they help you perform Umrah with comfort and tranquility.",
+      "sections": [
+        {
+          "heading": "How to Prepare?",
+          "body": "If you are heading to the Miqat, it is recommended to do the following:",
+          "list": [
+            "Take a bath (ghusl) if possible.",
+            "Clean the body, clip the nails, or remove hair that needs to be removed before assuming Ihram.",
+            "Apply perfume to the body (for men only), avoiding placing perfume on the Ihram garments.",
+            "If you cannot take a bath at the Miqat, there is no harm; it is recommended to take a bath when you arrive in Makkah before Tawaf if possible."
+          ]
+        },
+        {
+          "heading": "Ihram Clothing for Men",
+          "body": "A waist-wrapper (izar) and an upper sheet (rida), and it is recommended that they be white and clean."
+        },
+        {
+          "heading": "Ihram Clothing for Women",
+          "body": "She assumes Ihram in her usual clothing, provided it is covering and not attention-seeking. She does not wear a niqab (face veil) or gloves during Ihram, and covers her face from non-mahram men with something other than a niqab if needed."
+        }
+      ],
+      "recommended": [
+        "Bath (ghusl) before Ihram, even if not in a state of major ritual impurity — a stressed Sunnah.",
+        "Clipping nails and removing excess hair before Ihram so as not to be forced to do so afterward.",
+        "Applying perfume to the body for men before Ihram; even if the trace of perfume remains after Ihram, there is no harm.",
+        "Wearing a clean white waist-wrapper (izar) and upper sheet (rida).",
+        "Praying two rak'ahs at the Miqat if there is a mosque."
+      ],
+      "disliked": [
+        "Leaving the bath (ghusl) despite being able to do it before Ihram.",
+        "Neglecting clipping nails and removing hair, then struggling with it later during Ihram.",
+        "Prolonging the wait at the Miqat without preparation after having readied oneself for travel."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Believing that white clothes are obligatory and Umrah is invalid without them.",
+          "right": "Wearing white is recommended, not obligatory, and Umrah is valid in any clean wrapper and sheet."
+        },
+        {
+          "wrong": "Applying perfume directly to the two sheets of Ihram.",
+          "right": "Perfume is applied to the body, not to the sheet, and this must be done before the intention of Ihram."
+        },
+        {
+          "wrong": "Postponing clipping nails or shaving excess hair until after assuming Ihram.",
+          "right": "All of this should be removed before Ihram, because removing it after Ihram is forbidden."
+        },
+        {
+          "wrong": "A woman thinking she needs a specific dress for Ihram.",
+          "right": "A woman assumes Ihram in any covering, usual clothing and avoids the niqab and gloves only."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Intention of Ihram for Umrah",
+          "arabic": "اللَّهُمَّ لَبَّيْكَ عُمْرَةً",
+          "translation": "O Allah, here I am for Umrah.",
+          "source": "It is recommended to utter this when assuming Ihram."
+        },
+        {
+          "title": "Condition (Ishtirat) When Fearing an Obstacle",
+          "arabic": "فَإِنْ حَبَسَنِي حَابِسٌ فَمَحِلِّي حَيْثُ حَبَسْتَنِي",
+          "translation": "But if I am blocked by an obstacle, then my place of exit is where I am blocked.",
+          "source": "Agreed upon — recommended for those who fear an obstacle."
+        }
+      ],
+      "note": "Preparing for Ihram is a recommended Sunnah, not a condition for the validity of Umrah. If you cannot take a bath or wear white, it does not affect the validity of your rituals.",
+      "nextStep": "Ihram"
+    },
+    "step2": {
+      "title": "Ihram",
+      "subtitle": "Beginning of the Rituals",
+      "intro": "You have now arrived at the Miqat, which is the boundary from which Umrah begins. From here, you enter the state of devotion with the intention of Umrah, starting a blessed journey filled with obedience and remembrance.",
+      "sections": [
+        {
+          "heading": "How to Enter Ihram?",
+          "body": "After wearing the Ihram garments and being ready, make the intention for Umrah in your heart, then say: 'Labbayk Umrah' or 'Allahumma Labbayk Umrah'. Once you make the intention and utter it, you have entered Ihram and must begin abiding by its rules until you finish your Umrah."
+        },
+        {
+          "heading": "If You Fear Not Completing Umrah",
+          "body": "If you are ill or fear that an emergency might prevent you from completing the rituals, it is recommended to make a condition when assuming Ihram by saying: 'But if I am blocked by an obstacle, then my place of exit is where I am blocked.' This condition is a Shariah allowance, so if you are prevented from completing the Umrah for an excuse, there is no blame on you."
+        }
+      ],
+      "recommended": [
+        "Starting the Talbiyah immediately after assuming Ihram without delay.",
+        "Facing the Qiblah when making the intention, if possible.",
+        "Uttering the intention of Ihram for Umrah aloud in a low voice.",
+        "Making the condition (Ishtirat) for those who fear an obstacle that would prevent them from completing Umrah."
+      ],
+      "disliked": [
+        "Delaying the Talbiyah after the intention of Ihram without excuse.",
+        "Being preoccupied with conversation or the phone immediately after Ihram before starting the Talbiyah.",
+        "Making the condition when there is no need for it, as it is a license not recommended for the healthy."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Believing that Ihram begins merely by putting on the two sheets.",
+          "right": "Ihram is the intention of entering the rituals; the two sheets are part of its character, not its essence."
+        },
+        {
+          "wrong": "Crossing the Miqat without Ihram and then assuming Ihram after it.",
+          "right": "One must return to the Miqat and assume Ihram from it; otherwise, a sacrifice (dam) is required according to the majority of jurists."
+        },
+        {
+          "wrong": "Making the condition (Ishtirat) absolutely without any need.",
+          "right": "The condition is a Shariah license for those who fear an obstacle, not a Sunnah for everyone."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Talbiyah — Said immediately after Ihram",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "translation": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise, grace, and sovereignty belong to You. You have no partner.",
+          "source": "Agreed upon"
+        },
+        {
+          "title": "Sending blessings upon the Prophet ﷺ after Talbiyah",
+          "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ",
+          "translation": "O Allah, send blessings upon Muhammad and upon the family of Muhammad.",
+          "source": "Recommended to say after Talbiyah"
+        },
+        {
+          "title": "Supplication after Talbiyah and blessings",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ رِضَاكَ وَالْجَنَّةَ، وَأَعُوذُ بِكَ مِنْ سَخَطِكَ وَالنَّارِ",
+          "translation": "O Allah, I ask You for Your pleasure and Paradise, and I seek refuge in You from Your wrath and the Fire.",
+          "source": "Recommended — from the reported supplications"
+        }
+      ],
+      "note": "It is not permissible for anyone intending Umrah to cross the Miqat without assuming Ihram, so make sure to know your Miqat before traveling.",
+      "nextStep": "Talbiyah"
+    },
+    "step3": {
+      "title": "Talbiyah",
+      "subtitle": "Respond to Allah's Call",
+      "intro": "After assuming Ihram for Umrah, you start the Talbiyah, which is one of the greatest symbols of the pilgrimage. It is a declaration of responding to Allah the Almighty and showing monotheism and submission to Him. The Talbiyah remains your companion on the way to the Grand Mosque until you start Tawaf.",
+      "sections": [
+        {
+          "heading": "When to Start and Stop?",
+          "body": "Start the Talbiyah directly after Ihram and say it frequently on your way to Makkah. Continue the Talbiyah until you reach the Grand Mosque. Once you reach the Kaaba and intend to start Tawaf, stop the Talbiyah and begin the first round of Tawaf."
+        },
+        {
+          "heading": "Increase Remembrance and Supplication",
+          "body": "Do not limit yourself to the Talbiyah only; rather, increase your remembrance of Allah and supplicate with whatever good of this world and the Hereafter you wish, as these are blessed times in which to turn to Allah."
+        }
+      ],
+      "recommended": [
+        "Raising the voice with Talbiyah for men moderately — a stressed Sunnah.",
+        "Saying the Talbiyah frequently along the way to the Grand Mosque.",
+        "Renewing the Talbiyah with every change of state: boarding, alighting, ascending, meeting travelers.",
+        "Combining the Talbiyah, sending blessings upon the Prophet ﷺ, and supplication.",
+        "Concluding the Talbiyah upon reaching Makkah and seeing the Kaaba."
+      ],
+      "disliked": [
+        "A woman raising her voice with Talbiyah in front of non-mahram men.",
+        "Being preoccupied with conversation and the phone instead of Talbiyah for long periods.",
+        "Saying the Talbiyah in a very low voice that the person cannot hear himself (for men)."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Believing there is a specific number of times the Talbiyah must be said.",
+          "right": "There is no specific number for the Talbiyah; rather, you say it frequently until you reach the Grand Mosque."
+        },
+        {
+          "wrong": "Adding invented words to the Talbiyah or modifying it.",
+          "right": "The prescribed Talbiyah is what has been established from the Prophet ﷺ, and nothing should be added to it."
+        },
+        {
+          "wrong": "Stopping the Talbiyah before reaching the Grand Mosque without reason.",
+          "right": "The Talbiyah continues until you reach the Kaaba and prepare to start Tawaf."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Talbiyah — Repeated continuously",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "translation": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise, grace, and sovereignty belong to You. You have no partner.",
+          "source": "Agreed upon"
+        },
+        {
+          "title": "Supplication said between Talbiyahs",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ رِضَاكَ وَالْجَنَّةَ",
+          "translation": "O Allah, I ask You for Your pleasure and Paradise.",
+          "source": "Recommended between Talbiyahs"
+        },
+        {
+          "title": "Seeking forgiveness during Talbiyah",
+          "arabic": "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ وَأَتُوبُ إِلَيْهِ",
+          "translation": "I seek the forgiveness of Allah the Almighty and I repent to Him.",
+          "source": "Recommended at all times"
+        }
+      ],
+      "note": "If you are a man, it is Sunnah to raise your voice with Talbiyah moderately without harming those around you. As for women, they recite the Talbiyah in a voice audible only to themselves.",
+      "nextStep": "Entering the Grand Mosque"
+    },
+    "step4": {
+      "title": "Entering the Grand Mosque",
+      "subtitle": "First Encounter with the House of Allah",
+      "intro": "You have arrived at the Grand Mosque, standing before the greatest spot on the face of the earth. Recall the greatness of the place and enter it with tranquility and dignity. Make this moment the start of worship filled with humility and peace.",
+      "sections": [
+        {
+          "heading": "Upon Entering the Mosque",
+          "body": "Enter the Grand Mosque with the right foot, say the supplication for entering the mosque, and then proceed calmly toward the Kaaba."
+        },
+        {
+          "heading": "Upon Seeing the Kaaba",
+          "body": "When your eyes fall upon the Kaaba for the first time, remember that you are in front of the Qiblah of Muslims and the most honorable house built for people to worship Allah. There is no specific supplication established from the Prophet ﷺ upon first seeing the Kaaba, so supplicate to Allah with whatever good of this world and the Hereafter you wish."
+        },
+        {
+          "heading": "Before You Start Tawaf",
+          "body": "If you are still reciting the Talbiyah, stop it when you reach the Kaaba and prepare to start Tawaf, then head toward the Black Stone; from it, the first round of Tawaf begins."
+        }
+      ],
+      "recommended": [
+        "Entering through the Gate of Bani Shaibah (Gate of Peace) following the Prophet ﷺ.",
+        "Entering with the right foot while reciting the supplication for entering the mosque.",
+        "Humility and tranquility upon seeing the Kaaba for the first time and dedicating oneself to supplication.",
+        "Supplicating with whatever one wishes upon seeing the Kaaba, as this is a time of answered prayers.",
+        "Stopping the Talbiyah when preparing for Tawaf."
+      ],
+      "disliked": [
+        "Being preoccupied with photography and live broadcasting immediately upon entering the mosque.",
+        "Hastening and pushing to reach the Kaaba.",
+        "Raising voices and making noise inside the mosque.",
+        "Harming others in order to get closer to the Kaaba."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Reciting a specific supplication upon seeing the Kaaba for the first time, believing it is prescribed.",
+          "right": "No specific supplication has been established from the Prophet ﷺ, and you may supplicate with whatever good you wish."
+        },
+        {
+          "wrong": "Continuing the Talbiyah after reaching the Kaaba and starting Tawaf.",
+          "right": "The Talbiyah stops at the beginning of Tawaf."
+        },
+        {
+          "wrong": "Crowding people to quickly reach the Black Stone.",
+          "right": "Approach calmly; if you cannot reach it, point to it from a distance and say 'Allah is Greatest' (Allah Akbar)."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Supplication for entering the mosque",
+          "arabic": "بِسْمِ اللَّهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ، أَعُوذُ بِاللَّهِ الْعَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+          "translation": "In the name of Allah, and blessings and peace be upon the Messenger of Allah. I seek refuge in Allah the Almighty, in His Noble Face, and His Eternal Power from Satan the outcast. O Allah, open for me the gates of Your mercy.",
+          "source": "Narrated by Muslim"
+        },
+        {
+          "title": "Supplication upon seeing the Kaaba (General)",
+          "arabic": "اللَّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوِ اعْتَمَرَهُ تَشْرِيفًا وَتَكْرِيمًا وَتَعْظِيمًا وَبِرًّا",
+          "translation": "O Allah, increase this House in honor, greatness, nobility, and awe, and increase those who honor and noble it among those who perform Hajj or Umrah in honor, nobility, greatness, and righteousness.",
+          "source": "Reported from the predecessors"
+        }
+      ],
+      "note": "The Grand Mosque may be crowded, so do not try to reach the Kaaba quickly or push people. Remain calm and gentle.",
+      "nextStep": "Tawaf"
+    },
+    "step5": {
+      "title": "Tawaf",
+      "subtitle": "Seven Rounds around the Kaaba",
+      "intro": "After entering the Grand Mosque and arriving at the circumambulation area (Mataf), head toward the Black Stone, as Tawaf begins from it and ends at it in each round. Take a moment to bring intention and humility, then start your Tawaf calmly and peacefully.",
+      "sections": [
+        {
+          "heading": "How to Start Tawaf?",
+          "body": "Stand in line with the Black Stone and keep the Kaaba on your left, then start the first round. Your Tawaf will consist of seven complete rounds starting from the Black Stone and ending at it."
+        },
+        {
+          "heading": "What to Do at the Black Stone?",
+          "body": "If you can reach the Black Stone without hurting anyone, touch it with your right hand and kiss it, saying: 'Bismillah, wallahu Akbar' (In the name of Allah, and Allah is Greatest). If you cannot kiss it, simply point to it with your hand and say: 'Allah is Greatest' (Allah Akbar)."
+        },
+        {
+          "heading": "Idtiba' and Ramal for Men",
+          "body": "It is Sunnah for men in the Tawaf of Umrah to perform Idtiba' — placing the middle of the upper sheet under the right armpit and its two ends over the left shoulder — and to perform Ramal in the first three rounds (walking quickly with short steps), and to walk normally in the remaining four."
+        }
+      ],
+      "recommended": [
+        "Idtiba' throughout the Tawaf for men, returning the sheet to its normal state before the two rak'ahs.",
+        "Ramal in the first three rounds for men.",
+        "Touching the Black Stone or pointing to it at the beginning of each round.",
+        "Touching the Yamani Corner with the hand in each round if possible.",
+        "Increasing remembrance, supplication, and Quran recitation throughout Tawaf.",
+        "Praying two rak'ahs behind the Maqam of Ibrahim after Tawaf.",
+        "Drinking Zamzam water and supplicating after the two rak'ahs of Tawaf."
+      ],
+      "disliked": [
+        "Raising the voice in collective supplication, which disturbs other circumambulators.",
+        "Insisting on crowding to reach the Black Stone when it is congested.",
+        "Being preoccupied with talk and worldly matters during Tawaf.",
+        "Touching other corners of the Kaaba besides the Black Stone and the Yamani Corner."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Starting Tawaf before being in line with the Black Stone or after crossing it.",
+          "right": "Each round starts in line with the Black Stone and ends at it."
+        },
+        {
+          "wrong": "Believing there is a specific supplication for each of the seven rounds.",
+          "right": "It is not established from the Prophet ﷺ to specify each round with a particular supplication, and you may supplicate with whatever you wish."
+        },
+        {
+          "wrong": "Kissing the hand or wiping it after pointing to the Black Stone.",
+          "right": "Pointing only is sufficient, and kissing the hand in this case has not been established from the Prophet ﷺ."
+        },
+        {
+          "wrong": "Touching all four corners of the Kaaba or wiping its walls.",
+          "right": "It was established from the Prophet ﷺ to touch only the Black Stone and the Yamani Corner."
+        },
+        {
+          "wrong": "Crowding and hurting people to reach the Black Stone.",
+          "right": "Touching and kissing is a Sunnah, while harming Muslims is forbidden. Pointing is sufficient during crowding."
+        }
+      ],
+      "duas": [
+        {
+          "title": "When touching or pointing to the Black Stone",
+          "arabic": "بِسْمِ اللَّهِ، وَاللَّهُ أَكْبَرُ",
+          "translation": "In the name of Allah, and Allah is Greatest.",
+          "source": "Narrated by Al-Bukhari"
+        },
+        {
+          "title": "Between the Yamani Corner and the Black Stone — in each round",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "translation": "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.",
+          "source": "Narrated by Abu Dawud and authenticated by scholars"
+        },
+        {
+          "title": "General remembrance said throughout Tawaf",
+          "arabic": "سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ",
+          "translation": "Glory be to Allah, all praise is due to Allah, there is no deity worthy of worship except Allah, and Allah is Greatest.",
+          "source": "Among the best words of remembrance at all times"
+        },
+        {
+          "title": "Supplication for drinking Zamzam water",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا وَاسِعًا، وَشِفَاءً مِنْ كُلِّ دَاءٍ",
+          "translation": "O Allah, I ask You for beneficial knowledge, abundant provision, and healing from every illness.",
+          "source": "Narrated by Al-Hakim — Zamzam water is for whatever it is drunk for"
+        }
+      ],
+      "note": "Before you start Tawaf, make sure that you are in a state of ritual purity (wudu) from minor and major impurity, because Tawaf is not valid without purity.",
+      "nextStep": "Tawaf's Two Rak'ahs and Zamzam"
+    },
+    "step6": {
+      "title": "Tawaf's Two Rak'ahs and Zamzam",
+      "subtitle": "After Completing the Seven Rounds",
+      "intro": "After completing the seven rounds, your Tawaf has ended. Return your sheet to its normal position if you performed Idtiba' during Tawaf, then head to the Maqam of Ibrahim to perform the two rak'ahs of Tawaf, and afterward drink from the blessed Zamzam water.",
+      "sections": [
+        {
+          "heading": "Praying the Two Rak'ahs of Tawaf",
+          "body": "If possible, pray two rak'ahs behind the Maqam of Ibrahim. If you cannot due to crowding, pray them anywhere inside the Grand Mosque, and do not make it difficult for yourself or harm others to reach the Maqam. It is recommended to read: in the first rak'ah after Al-Fatihah: Surah Al-Kafirun, and in the second rak'ah after Al-Fatihah: Surah Al-Ikhlas. If you read other than them, your prayer is correct and there is no harm."
+        },
+        {
+          "heading": "After the Prayer",
+          "body": "If you finish the two rak'ahs and can reach the Black Stone without difficulty or crowding, touch it again, then continue your way to Safa to start the Sa'i."
+        },
+        {
+          "heading": "Drink Zamzam Water",
+          "body": "Before heading to Safa, it is recommended to drink from Zamzam water and ask Allah of His bounty, as it is blessed water that Allah made a mercy for His servants. No specific supplication is established when drinking Zamzam, so pray to Allah for whatever good you wish, recalling his saying ﷺ: 'Zamzam water is for whatever it is drunk for'."
+        }
+      ],
+      "recommended": [
+        "Returning the sheet to its normal state immediately after Tawaf, before praying the two rak'ahs.",
+        "Praying behind the Maqam of Ibrahim if possible without difficulty.",
+        "Reading Surah Al-Kafirun in the first rak'ah and Surah Al-Ikhlas in the second.",
+        "Drinking Zamzam water with a sincere intention and supplicating for the good of this world and the Hereafter.",
+        "Touching the Black Stone after the prayer if possible without harm."
+      ],
+      "disliked": [
+        "Continuing Idtiba' after completing Tawaf, as the Sunnah is to return the sheet before the prayer.",
+        "Believing it is obligatory to pray directly behind the Maqam, thereby hurting people to reach it.",
+        "Crowding people to reach the Maqam or the Black Stone after the prayer."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Believing that the prayer must be directly behind the Maqam of Ibrahim.",
+          "right": "It is sufficient in any part of the Grand Mosque if reaching the Maqam is not possible."
+        },
+        {
+          "wrong": "Continuing Idtiba' during the two rak'ahs of prayer.",
+          "right": "The Sunnah is for the man to return his upper sheet to its normal state before praying the two rak'ahs."
+        },
+        {
+          "wrong": "Leaving the drinking of Zamzam or believing it is not prescribed in this place.",
+          "right": "Drinking Zamzam after Tawaf and its prayer is recommended, and supplication at it is answered."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Supplication when drinking Zamzam water",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا وَاسِعًا، وَشِفَاءً مِنْ كُلِّ دَاءٍ",
+          "translation": "O Allah, I ask You for beneficial knowledge, abundant provision, and healing from every illness.",
+          "source": "Narrated by Al-Hakim — Zamzam water is for whatever it is drunk for"
+        },
+        {
+          "title": "Supplication said after the two rak'ahs of Tawaf",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "translation": "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.",
+          "source": "Al-Baqarah 201 — among the most comprehensive Quranic supplications"
+        }
+      ],
+      "note": "Do not overburden yourself to reach the Maqam of Ibrahim or the Black Stone. Facilitating for Muslims and not hurting them takes precedence over pursuing a Sunnah with hardship.",
+      "nextStep": "Sa'i between Safa and Marwah"
+    },
+    "step7": {
+      "title": "Sa'i between Safa and Marwah",
+      "subtitle": "Seven Rounds — A Pillar of Umrah",
+      "intro": "After finishing Tawaf and its two rak'ahs, it is Sunnah to head toward Safa to start the Sa'i between Safa and Marwah, which is a pillar of Umrah without which it is not valid. The Sa'i is a revival of the memory of Hajar (peace be upon her) when she ran between the two mountains searching for water.",
+      "sections": [
+        {
+          "heading": "Upon Ascending Safa",
+          "body": "When you reach Safa, it is best to ascend it if possible. Then read the words of the Almighty: 'Indeed, Safa and Marwah are among the symbols of Allah.' Then say: 'I begin with that which Allah began with.' Then face the Qiblah, raise your hands, praise Allah, declare His greatness and oneness, and supplicate with whatever you wish. It is recommended to repeat this remembrance three times as established from the Prophet ﷺ."
+        },
+        {
+          "heading": "Heading to Marwah and the Rounds",
+          "body": "After finishing the supplication, descend from Safa heading toward Marwah. When you reach the first green marker, it is Sunnah for men to jog until they reach the second green marker, then return to normal walking until they reach Marwah. Women do not jog; rather, they walk normally throughout the entire Sa'i."
+        },
+        {
+          "heading": "Number of Rounds",
+          "body": "The Sa'i consists of seven rounds: going from Safa to Marwah is one round, and returning from Marwah to Safa is another round. The seventh round ends at Marwah. Upon each arrival at Safa or Marwah, it is recommended to stand, remember Allah, and supplicate as you did at the beginning."
+        }
+      ],
+      "recommended": [
+        "Reading the Quranic verse and the remembrance on Safa and Marwah in each round.",
+        "Jogging between the two green markers for men only.",
+        "Increasing remembrance, supplication, and reciting the Quran throughout the Sa'i.",
+        "Purity during Sa'i — recommended, though it is not a condition.",
+        "Standing on Safa and Marwah, facing the Qiblah, and supplicating in each round."
+      ],
+      "disliked": [
+        "Women jogging between the two green markers.",
+        "Running throughout the entire path instead of moderate jogging between the green markers only.",
+        "Talking about worldly matters and wasting the opportunity for remembrance and supplication.",
+        "Believing it is necessary to ascend to the very top of Safa and Marwah with hardship."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Believing there is a specific supplication for each round.",
+          "right": "No specific supplication was established from the Prophet ﷺ for each round; rather, the Muslim supplicates with whatever they wish."
+        },
+        {
+          "wrong": "Running throughout the entire path of Sa'i, thinking that it is the Sunnah.",
+          "right": "The Sunnah for men is to jog only between the green markers, and walk normally in the rest of the path."
+        },
+        {
+          "wrong": "Women jogging between the two green markers in imitation of men.",
+          "right": "Jogging is a Sunnah for men only, and a woman walks normally in all rounds of Sa'i."
+        },
+        {
+          "wrong": "Believing that Sa'i is invalidated if wudu is broken during it.",
+          "right": "Purity is recommended for Sa'i, and Sa'i is valid without it according to the majority of scholars."
+        },
+        {
+          "wrong": "Starting from Marwah instead of Safa.",
+          "right": "The Sunnah is to start from Safa and conclude at Marwah; a round started from Marwah is not counted."
+        }
+      ],
+      "duas": [
+        {
+          "title": "At Safa and Marwah — Repeated three times",
+          "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ، أَنْجَزَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ",
+          "translation": "There is no deity worthy of worship except Allah alone, without partner. To Him belongs sovereignty and to Him belongs praise, and He is over all things competent. There is no deity worthy of worship except Allah alone; He fulfilled His promise, aided His servant, and defeated the factions alone.",
+          "source": "Narrated by Muslim — said after facing Qiblah"
+        },
+        {
+          "title": "Upon ascending Safa",
+          "arabic": "﴿إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ﴾ أَبْدَأُ بِمَا بَدَأَ اللَّهُ بِهِ",
+          "translation": "\"Indeed, Safa and Marwah are among the symbols of Allah.\" I begin with that which Allah began with.",
+          "source": "Narrated by Muslim from Jabir"
+        },
+        {
+          "title": "General supplication during Sa'i",
+          "arabic": "رَبِّ اغْفِرْ وَارْحَمْ، إِنَّكَ أَنْتَ الْأَعَزُّ الْأَكْرَمُ",
+          "translation": "My Lord, forgive and have mercy, for indeed You are the Most Mighty, the Most Generous.",
+          "source": "Among the recommended supplications during Sa'i"
+        }
+      ],
+      "note": "Sa'i is a pillar of Umrah without which it is not valid, and purity is recommended but not a condition for the validity of Sa'i.",
+      "nextStep": "Shaving or Cutting"
+    },
+    "step8": {
+      "title": "Shaving or Cutting",
+      "subtitle": "Conclusion of Umrah and Exiting Ihram",
+      "intro": "If you have completed seven rounds of Sa'i, the last act of Umrah remains, which is shaving or cutting the hair. By completing this step, your Umrah ends, you exit your Ihram, and what was prohibited because of it becomes permissible. May Allah accept from you.",
+      "sections": [
+        {
+          "heading": "Ruling of Shaving or Cutting",
+          "body": "Shaving or cutting the hair is a duty (Wajib) of Umrah; exiting the state of Ihram is not completed except by one of them."
+        },
+        {
+          "heading": "For Men",
+          "body": "One of two things is prescribed for men: shaving the entire head — which is better and more complete, or cutting all the hair of the head. Scholars have indicated that shaving is better, unless the pilgrim's arrival is close to the Hajj season and they intend Hajj, in which case it is better to cut the hair to shave it during Hajj. Warning: it is not sufficient to cut a few hairs from the front of the head; rather, shaving or cutting must encompass the entire head."
+        },
+        {
+          "heading": "For Women",
+          "body": "Shaving is not prescribed for women; rather, she only cuts her hair. She gathers her hair and cuts about the length of a fingertip (anmlah) from its ends, which is sufficient to complete her rituals."
+        }
+      ],
+      "recommended": [
+        "Complete shaving for men as it is better and more complete, unless close to the Hajj season.",
+        "Ensuring the cutting encompasses all hair of the head, not just one side.",
+        "Hastening to shave or cut immediately after completing Sa'i."
+      ],
+      "disliked": [
+        "Limiting the cut to a few hairs from the front of the head.",
+        "Cutting from one side only, leaving the rest of the head.",
+        "Leaving the Haram area or removing Ihram garments before shaving or cutting."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Limiting the cut to a few hairs from the front of the head.",
+          "right": "Cutting must encompass all the hair of the head, not just a part of it."
+        },
+        {
+          "wrong": "Believing that cutting is always better than shaving.",
+          "right": "Shaving is better for men unless they are going to perform Hajj soon, in which case cutting is better for them."
+        },
+        {
+          "wrong": "A woman shaving her head.",
+          "right": "A woman does not shave her head; she only takes a fingertip length from the ends of her hair."
+        },
+        {
+          "wrong": "Exiting Ihram or changing clothes before shaving or cutting.",
+          "right": "The pilgrim does not exit their Ihram except after shaving or cutting."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Supplication when shaving or cutting",
+          "arabic": "اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ وَالْمُقَصِّرِينَ",
+          "translation": "O Allah, forgive those who shave. O Allah, forgive those who shave. O Allah, forgive those who shave and those who cut [their hair] short.",
+          "source": "Agreed upon — the Prophet's ﷺ supplication for pilgrims, which applies to Umrah performers too"
+        },
+        {
+          "title": "Supplication at the conclusion of Umrah",
+          "arabic": "رَبَّنَا تَقَبَّلْ مِنَّا، إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+          "translation": "Our Lord, accept [this] from us. Indeed, You are the Hearing, the Knowing.",
+          "source": "Al-Baqarah 127 — the supplication of Ibrahim and Ismail (peace be upon them)"
+        }
+      ],
+      "note": "By completing the shaving or cutting, you have performed the acts of Umrah and exited your Ihram. We ask Allah to accept from you, and to make your Umrah accepted, your effort rewarded, and your sins forgiven."
+    }
+  }
+}

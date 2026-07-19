@@ -1,0 +1,21 @@
+{
+  "title": "Horaires des Prières",
+  "makkah_subtitle": "Dans l'enceinte sacrée de la Grande Mosquée",
+  "madinah_subtitle": "Dans l'enceinte sacrée de la Mosquée du Prophète",
+  "makkah": "La Mecque",
+  "madinah": "Médine",
+  "timeLeftText": "Temps restant avant la prière de {{name}}",
+  "timezoneNote": "Les horaires de l'Adhan sont basés sur l'heure locale de l'Arabie Saoudite (GMT +3)",
+  "am_pm": {
+    "am": "AM",
+    "pm": "PM"
+  },
+  "prayers": {
+    "fajr": "Fajr",
+    "sunrise": "Lever",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha"
+  }
+}

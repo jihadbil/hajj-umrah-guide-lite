@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Contact",
+  "title": "Contact",
+  "description": "Nous sommes ravis de recevoir vos avis, questions et remarques qui contribuent à enrichir la plateforme et à la développer pour servir les invités du Tout Miséricordieux.",
+  "channels": {
+    "title": "Canaux de contact direct",
+    "email_title": "E-mail de la plateforme",
+    "email_sub": "Nous répondons généralement dans les 24 heures ouvrables",
+    "support_title": "Assistance technique & religieuse directe",
+    "support_sub": "Disponible tout au long de la saison de l'Umrah",
+    "address_title": "Siège du service",
+    "address_body": "La Mecque — Royaume d'Arabie Saoudite",
+    "quote": "\"Le meilleur des hommes est le plus utile aux hommes\"",
+    "quote_sub": "— Nous nous efforçons toujours d'offrir le meilleur"
+  },
+  "form": {
+    "title": "Envoyer un message à l'équipe",
+    "success_title": "Votre message a été envoyé avec succès !",
+    "success_desc": "Merci de nous avoir contactés. Nous avons bien reçu votre message et notre équipe de développement ou d'assistance religieuse vous répondra dans les plus brefs délais, si Dieu le veut.",
+    "send_another": "Envoyer un autre message",
+    "name": "Nom Complet",
+    "name_placeholder": "Entrez votre nom",
+    "email": "Adresse E-mail",
+    "email_placeholder": "example@mail.com",
+    "subject": "Objet du Message",
+    "subject_options": {
+      "suggestion": "💡 Suggestion de Développement",
+      "bug": "⚠️ Note Technique / Rapport de Bug",
+      "fiqh": "🏛️ Question Jurisprudentielle / Fiqh",
+      "other": "💬 Autre"
+    },
+    "message": "Corps du Message",
+    "message_placeholder": "Écrivez votre message ici en détail...",
+    "submit": "Envoyer le Message",
+    "sending": "Envoi en cours..."
+  }
+}

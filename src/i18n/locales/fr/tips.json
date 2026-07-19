@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Conseils & Directives",
+  "title": "Conseils et Sac du Pèlerin",
+  "description": "Conseils pratiques et directives religieuses, ainsi qu'une liste interactive de préparation pour emporter tous vos bagages en toute sérénité.",
+  "bag": {
+    "title": "Sac de l'Umrah Électronique",
+    "badge": "Outil Interactif",
+    "subtitle": "Préparez vos bagages étape par étape, et nous sauvegarderons votre progression automatiquement.",
+    "resetBtn": "🔄 Réinitialiser la Liste",
+    "progressTitle": "Progression des Bagages",
+    "progressLabel": "{{percent}}% ({{count}} sur {{total}} articles prêts)",
+    "progressCompleted": "🎉 Félicitations ! Votre sac est prêt pour le voyage béni de l'Umrah. Nous demandons à Allah de vous faciliter et d'accepter votre culte.",
+    "categories": {
+      "documents": {
+        "title": "Documents & Papiers Importants",
+        "items": [
+          { "id": "doc-passport", "text": "Passeport et visa d'Umrah (copie imprimée et numérique)" },
+          { "id": "doc-id", "text": "Carte d'identité ou titre de séjour (Iqama)" },
+          { "id": "doc-flights", "text": "Billets d'avion, confirmations d'hôtel et de transport" },
+          { "id": "doc-cash", "text": "Un peu d'espèces et carte bancaire (Mada/Visa)" },
+          { "id": "doc-medical", "text": "Médicaments importants avec vos rapports médicaux" }
+        ]
+      },
+      "worship": {
+        "title": "Ihram & Objets de Culte",
+        "items": [
+          { "id": "worship-ihram", "text": "Vêtements d'Ihram pour homme (deux draps blancs) / habits amples et confortables pour femme" },
+          { "id": "worship-belt", "text": "Ceinture d'Ihram pour homme (avec poches pour carte et argent)" },
+          { "id": "worship-shoes", "text": "Chaussures confortables pour le Tawaf et le Sa'i" },
+          { "id": "worship-duas", "text": "Petit livret d'invocations ou application mobile" },
+          { "id": "worship-clipper", "text": "Petits ciseaux ou rasoir à utiliser lors de la désacralisation" }
+        ]
+      },
+      "hygiene": {
+        "title": "Soins Personnels & Hygiène (Sans Parfum)",
+        "items": [
+          { "id": "care-soap", "text": "Shampoing et savon sans parfum (pour les jours d'Ihram)" },
+          { "id": "care-teeth", "text": "Brosse à dents, dentifrice et miswak" },
+          { "id": "care-vaseline", "text": "Vaseline ou crème pour protéger la peau des irritations dues à la marche" },
+          { "id": "care-umbrella", "text": "Parapluie léger pour se protéger du soleil de La Mecque" },
+          { "id": "care-clipper", "text": "Coupe-ongles pour se préparer avant l'Ihram" }
+        ]
+      },
+      "tech": {
+        "title": "Équipements Techniques & Généraux",
+        "items": [
+          { "id": "tech-phone", "text": "Téléphone portable et chargeurs" },
+          { "id": "tech-powerbank", "text": "Batterie externe pour charger le téléphone à la Mosquée Sacrée" },
+          { "id": "tech-plug", "text": "Adaptateur de prise électrique adapté pour le Royaume" },
+          { "id": "tech-bag", "text": "Sac à dos léger ou sac banane pour ranger chaussures et objets" }
+        ]
+      }
+    }
+  },
+  "tips": {
+    "health": {
+      "title": "Conseils de Santé & d'Organisation",
+      "items": [
+        "Buvez beaucoup d'eau de Zamzam fraîche ou tiède pour éviter la déshydratation et la fatigue.",
+        "Portez des chaussures confortables pour le voyage et reposez-vous entre les rites.",
+        "Portez un masque lors des fortes affluences pour éviter les infections.",
+        "Gardez sur vous une carte d'identification avec les coordonnées du groupe et votre numéro de téléphone.",
+        "Convenez d'un point de rendez-vous précis (comme une porte spécifique) avec votre famille en cas de séparation."
+      ]
+    },
+    "spiritual": {
+      "title": "Directives Spirituelles & Comportementales",
+      "items": [
+        "Purifiez votre intention pour Allah et évitez l'ostentation et la prise excessive de photos durant les rites.",
+        "Faites preuve de bon comportement, de patience et de bienveillance envers les personnes âgées.",
+        "Évitez les propos grossiers, les disputes et les querelles qui gâchent la récompense.",
+        "Profitez des moments bénis comme le dernier tiers de la nuit dans la Mosquée Sacrée.",
+        "Consacrez un moment spécifique pour invoquer en faveur de vos proches et de l'ensemble des musulmans."
+      ]
+    }
+  },
+  "dialog": {
+    "title": "Êtes-vous sûr de vouloir réinitialiser le sac ?",
+    "desc": "Cette action supprimera tous les éléments cochés et recommencera à zéro. Cette action ne peut pas être annulée.",
+    "cancel": "Annuler",
+    "confirm": "Oui, réinitialiser"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Tavsiyeler ve Yönergeler",
+  "title": "Rehberlik ve Umreci Çantası",
+  "description": "Pratik ve şer'i tavsiyeler ile yolculuk ihtiyaçlarınızı gönül rahatlığıyla hazırlayabileceğiniz etkileşimli kontrol listesi.",
+  "bag": {
+    "title": "Elektronik Umreci Çantası",
+    "badge": "Etkileşimli Araç",
+    "subtitle": "Yolculuk ihtiyaçlarınızı adım adım hazırlayın, ilerlemenizi otomatik kaydedelim.",
+    "resetBtn": "🔄 Listeyi Sıfırla",
+    "progressTitle": "Çanta Hazırlık Durumu",
+    "progressLabel": "%{{percent}} ({{total}} öğeden {{count}} tanesi hazır)",
+    "progressCompleted": "🎉 Tebrikler! Çantanız mübarek Umre yolculuğu için tamamen hazır. Allah'tan kolaylık ve kabul dileriz.",
+    "categories": {
+      "documents": {
+        "title": "Önemli Belgeler ve Evraklar",
+        "items": [
+          { "id": "doc-passport", "text": "Pasaport ve Umre vizesi (çıktı ve dijital kopya)" },
+          { "id": "doc-id", "text": "Kimlik kartı veya ikamet kartı (İkame)" },
+          { "id": "doc-flights", "text": "Uçak biletleri, otel ve transfer rezervasyonları" },
+          { "id": "doc-cash", "text": "Az miktarda nakit para ve banka kartı/kredi kartı" },
+          { "id": "doc-medical", "text": "Önemli kişisel ilaçlar ve varsa doktor raporu" }
+        ]
+      },
+      "worship": {
+        "title": "İhram ve İbadet Malzemeleri",
+        "items": [
+          { "id": "worship-ihram", "text": "Erkekler için ihram elbisesi (iki beyaz havlu) / Kadınlar için rahat tesettür kıyafetler" },
+          { "id": "worship-belt", "text": "Erkekler için ihram kemeri (para ve kimlik gözlü)" },
+          { "id": "worship-shoes", "text": "Tavaf ve sa'y için rahat ortopedik ayakkabı" },
+          { "id": "worship-duas", "text": "Küçük dua kitapçığı veya mobil dua uygulaması" },
+          { "id": "worship-clipper", "text": "Tahallül (ihramdan çıkış) için küçük makas veya saç makinesi" }
+        ]
+      },
+      "hygiene": {
+        "title": "Kişisel Bakım ve Temizlik (Kokusuz)",
+        "items": [
+          { "id": "care-soap", "text": "Kokusuz şampuan ve kokusuz sabun (ihramlı günler için)" },
+          { "id": "care-teeth", "text": "Diş fırçası, diş macunu ve misvak" },
+          { "id": "care-vaseline", "text": "Pişikleri önlemek için vazelin veya nemlendirici krem" },
+          { "id": "care-umbrella", "text": "Mekke sıcağından korunmak için hafif güneş şemsiyesi" },
+          { "id": "care-clipper", "text": "İhram öncesi tırnak kesmek için tırnak makası" }
+        ]
+      },
+      "tech": {
+        "title": "Teknolojik ve Genel İhtiyaçlar",
+        "items": [
+          { "id": "tech-phone", "text": "Cep telefonu ve şarj aletleri" },
+          { "id": "tech-powerbank", "text": "Harem-i Şerif'te kullanmak için taşınabilir güç kaynağı (Powerbank)" },
+          { "id": "tech-plug", "text": "Suudi Arabistan'a uygun üçlü priz adaptörü" },
+          { "id": "tech-bag", "text": "Terlik, ayakkabı ve eşyaları koymak için hafif sırt veya bel çantası" }
+        ]
+      }
+    }
+  },
+  "tips": {
+    "health": {
+      "title": "Sağlık ve Organizasyon Tavsiyeleri",
+      "items": [
+        "Dehidrasyon ve halsizlikten kaçınmak için bol bol soğuk ve ılık zemzem suyu için.",
+        "Yolculuk boyunca rahat ayakkabılar giyin ve ibadetler arasında dinlenin.",
+        "Kalabalık ortamlarda enfeksiyonlardan korunmak için maske takın.",
+        "Kaybolmayı önlemek için üzerinizde kafile kartı veya telefon bilgisi bulundurun.",
+        "Ailenizle olası bir ayrılma durumunda net bir buluşma noktası (belirli bir kapı vb.) belirleyin."
+      ]
+    },
+    "spiritual": {
+      "title": "Manevi ve Davranışsal Tavsiyeler",
+      "items": [
+        "Niyetinizi sadece Allah rızası için halis kılın, gösterişten ve ibadet esnasında aşırı fotoğraf çekiminden kaçının.",
+        "Kalabalıkta yaşlılara ve zayıflara karşı sabırlı, yumuşak huylu ve ahlaklı davranın.",
+        "Sevabı yok edecek kötü söz, tartışma ve kavgalardan kesinlikle uzak durun.",
+        "Gecenin son üçte biri gibi kutsal vakitleri Kabe'de ibadetle değerlendirin.",
+        "Aileniz, akrabalarınız ve tüm Müslümanlar için dua etmeye özel vakit ayırın."
+      ]
+    }
+  },
+  "dialog": {
+    "title": "Çantayı sıfırlamak istediğinizden emin misiniz?",
+    "desc": "Bu işlem tüm işaretli öğeleri silecek ve listeyi sıfırlayacaktır. Bu işlem geri alınamaz.",
+    "cancel": "İptal",
+    "confirm": "Evet, Listeyi Sıfırla"
+  }
+}

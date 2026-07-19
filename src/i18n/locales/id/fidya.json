@@ -1,0 +1,117 @@
+{
+  "eyebrow": "Hukum Syariat",
+  "title": "Hukum Fidyah dalam Umrah",
+  "description": "Kapan fidyah wajib dan bagaimana cara membayarnya—bersumber dari Al-Qur'an, Sunnah, dan fatwa para ulama.",
+  "warningTitle": "Pemberitahuan Fikih Penting",
+  "warningBody": "Fidyah adalah salah satu bab haji dan umrah yang paling detail. Jamaah tidak boleh berfatwa sendiri dalam urusan dam (sembelihan) atau fidyah, melainkan harus merujuk kepada ulama atau lembaga fatwa resmi jika mengalami kesulitan.",
+  "labels": {
+    "daleel": "Dalil dari Al-Qur'an dan Sunnah",
+    "note": "💡 Catatan Fikih: ",
+    "warning": "⚠️ Peringatan: ",
+    "faqTitle": "Masalah dan Rincian Penting",
+    "referenceTitle": "Referensi Ilmiah dan Syariat"
+  },
+  "sections": {
+    "sec1": {
+      "title": "Apa yang Dimaksud dengan Fidyah?",
+      "content": [
+        "Fidyah adalah tebusan yang diwajibkan oleh syariat kepada jamaah dalam beberapa keadaan karena meninggalkan kewajiban manasik, atau melakukan larangan ihram, sesuai dengan rincian yang dijelaskan dalam Al-Qur'an dan Sunnah.",
+        "Tidak semua pelanggaran mengharuskan fidyah. Hukum berbeda-beda sesuai jenis pelanggaran dan keadaan jamaah."
+      ],
+      "warning": "Fidyah adalah bab yang sangat detail. Sebaiknya jamaah tidak memutuskan sendiri, melainkan bertanya kepada ahli ilmu."
+    },
+    "sec2": {
+      "title": "Pertama: Meninggalkan Rukun Umrah",
+      "content": [
+        "If a pilgrim leaves a pillar of Umrah—such as Tawaf or Sa'i—Fidya does not compensate for it at all. Rather, they must perform that pillar, because Umrah is not valid without it."
+      ],
+      "list": [
+        "Meninggalkan Tawaf — Umrah tidak sah dan wajib mengerjakannya kembali.",
+        "Meninggalkan Sa'i — Umrah tidak sah dan wajib mengerjakannya kembali."
+      ],
+      "note": "Jamaah tidak bisa bertahallul sampai dia menyelesaikan rukun yang ditinggalkan."
+    },
+    "sec3": {
+      "title": "Kedua: Meninggalkan Wajib Umrah",
+      "content": [
+        "Jika jamaah meninggalkan kewajiban Umrah—seperti ihram dari Miqat atau mencukur/memotong rambut—mayoritas ulama berpendapat bahwa dia wajib membayar dam (menyembelih seekor kambing) jika tidak bisa memperbaikinya."
+      ],
+      "list": [
+        "Melewati Miqat tanpa ihram dan tidak kembali ke sana.",
+        "Meninggalkan mencukur atau memotong rambut."
+      ],
+      "daleel": [
+        "Para ulama berdalil dengan riwayat dari Abdullah bin Abbas r.a. bahwa beliau berkata: 'Barangsiapa meninggalkan sesuatu dari manasiknya atau lupa, maka hendaknya dia menyembelih dam.' — Diriwayatkan oleh Al-Muwatta."
+      ],
+      "note": "Dam adalah menyembelih seekor kambing yang dibagikan kepada fakir miskin di Makkah."
+    },
+    "sec4": {
+      "title": "Ketiga: Fidyah karena Uzhur/Sakit (Fidyat Al-Atha)",
+      "content": [
+        "Jika jamaah terpaksa melakukan larangan ihram karena uzhur—seperti mencukur rambut karena sakit kepala atau kutu—maka hal itu diperbolehkan baginya, dan dia wajib membayar fidyah."
+      ],
+      "daleel": [
+        "Firman Allah Ta'ala: 'Jika ada di antaramu yang sakit atau ada gangguan di kepalanya (lalu dia bercukur), maka wajiblah atasnya membayar fidyah, yaitu berpuasa, bersedekah, atau berkurban.' [Al-Baqarah: 196]",
+        "Nabi ﷺ bersabda kepada Ka'ab bin Ujrah r.a. saat kepalanya dikerubungi kutu: 'Cukurlah rambutmu, berpuasalah tiga hari, atau beri makan enam orang miskin, atau menyembelih seekor kambing.' — Muttafaq 'alaih."
+      ],
+      "options": [
+        { "title": "Menyembelih seekor kambing", "desc": "Dibagikan kepada fakir miskin di tanah haram" },
+        { "title": "Memberi makan enam orang miskin", "desc": "Masing-masing setengah sha' makanan pokok" },
+        { "title": "Berpuasa tiga hari", "desc": "Boleh berturut-turut atau terpisah" }
+      ],
+      "note": "Jamaah bebas memilih salah satu dari tiga pilihan di atas, tanpa harus berurutan."
+    },
+    "sec5": {
+      "title": "Keempat: Melakukan Larangan karena Lupa atau Tidak Tahu",
+      "content": [
+        "Siapa saja yang melakukan larangan ihram karena lupa, tidak tahu hukumnya, atau terpaksa, maka tidak ada dosa baginya.",
+        "Adapun mengenai fidyah, para ulama berbeda pendapat sesuai dengan jenis larangan dan kondisi orang tersebut."
+      ],
+      "daleel": [
+        "Firman Allah Ta'ala: 'Ya Tuhan kami, janganlah Engkau hukum kami jika kami lupa atau kami melakukan kesalahan.' [Al-Baqarah: 286]",
+        "Firman Allah Ta'ala: 'Dan tidak ada dosa atasmu terhadap apa yang kamu khilaf padanya, tetapi (yang ada dosa) apa yang disengaja oleh hatimu.' [Al-Ahzab: 5]"
+      ],
+      "warning": "Syaikh Ibn Baz berpendapat tidak ada fidyah bagi orang yang lupa atau tidak tahu hukumnya. Sebaiknya rujuk ke ulama untuk rinciannya."
+    },
+    "sec6": {
+      "title": "Kelima: Sengaja Melanggar Larangan",
+      "content": [
+        "Siapa saja yang sengaja melakukan larangan ihram padahal dia tahu hukumnya, maka dia berdosa, dan wajib membayar fidyah sesuai jenis larangannya.",
+        "Setiap larangan memiliki hukum fidyah yang berbeda-beda."
+      ],
+      "list": [
+        "Memakai pakaian berjahit bagi laki-laki — fidyah pilihan tiga (kambing / memberi makan / puasa).",
+        "Memakai wewangian — fidyah pilihan tiga.",
+        "Mencukur rambut — fidyah pilihan tiga.",
+        "Jima' (hubungan intim) sebelum tahallul — merusak ibadah menurut mayoritas ulama dan wajib kafarat."
+      ],
+      "warning": "Ini adalah rincian global. Wajib bertanya kepada ulama untuk setiap masalah yang memerlukan dam atau fidyah."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Apakah wajib fidyah bagi yang memakai pakaian berjahit karena lupa?",
+      "a": "Jika lupa atau tidak tahu, tidak ada dosa. Untuk fidyah, ada perbedaan pendapat; Syaikh Ibn Baz memilih tidak ada fidyah bagi yang memiliki uzhur lupa/bodoh."
+    },
+    {
+      "q": "Apakah wajib fidyah bagi yang memakai wewangian karena lupa?",
+      "a": "Jika mereka lupa atau tidak tahu, tidak ada dosa, dan mereka harus membersihkan wewangian tersebut segera setelah ingat."
+    },
+    {
+      "q": "Apakah wajib fidyah bagi yang mencukur rambut karena uzhur medis?",
+      "a": "Ya. Diperbolehkan mencukur karena sakit, namun wajib membayar fidyah pilihan (sembelih kambing, memberi makan 6 orang miskin, atau puasa 3 hari)."
+    },
+    {
+      "q": "Di mana dam disembelih?",
+      "a": "Lebih utama disembelih di Makkah dan dibagikan kepada fakir miskin Makkah. Boleh mewakilkan pembayarannya kepada lembaga terpercaya."
+    }
+  ],
+  "references": [
+    "Al-Qur'an Al-Karim",
+    "Shahih Al-Bukhari & Shahih Muslim",
+    "Al-Muwatta karya Imam Malik bin Anas",
+    "Al-Tahqiq wal-Iydhah oleh Syaikh Ibn Baz",
+    "Fatwa Haji, Umrah & Ziarah oleh Syaikh Ibn Baz",
+    "Al-Syarh Al-Mumti' oleh Syaikh Ibn Utsaimin"
+  ]
+}

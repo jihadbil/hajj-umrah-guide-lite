@@ -1,0 +1,89 @@
+{
+  "eyebrow": "Ketentuan Ihram",
+  "title": "Larangan-Larangan Ihram",
+  "description": "Hal-hal yang dilarang bagi jamaah setelah berniat ihram hingga bertahallul, dilengkapi dengan dalil dan catatan.",
+  "warning_title": "Pemberitahuan Syariat Penting bagi Jamaah",
+  "warning_body": "Siapa saja yang melakukan larangan ihram dengan sengaja, mengetahui hukumnya, dan atas kemauan sendiri, maka dia berdosa, dan sebagian larangan mewajibkan fidyah (tebusan) sesuai jenisnya. Namun jika dilakukan karena lupa, tidak tahu, atau terpaksa, maka terdapat rincian hukum yang berbeda untuk setiap larangan.",
+  "labels": {
+    "daleel": "Dalil Syar'i",
+    "note": "💡 Pengecualian & Peringatan: ",
+    "faqTitle": "Pertanyaan Umum & Catatan"
+  },
+  "items": {
+    "p1": {
+      "n": "1",
+      "title": "Menghilangkan Rambut",
+      "body": "Dilarang sengaja mencukur, mencabut, atau menghilangkan rambut kepala maupun badan, kecuali karena uzur syar'i seperti sakit yang mengharuskan pemotongan rambut.",
+      "daleel": "“Dan jangan kamu mencukur kepalamu, sebelum korban sampai di tempat penyembelihannya.” [Al-Baqarah: 196]",
+      "note": "Jika rambut rontok tanpa sengaja saat wudhu, mandi, atau menyisir, hal itu tidak mengapa."
+    },
+    "p2": {
+      "n": "2",
+      "title": "Memotong Kuku",
+      "body": "Dilarang sengaja memotong kuku tangan maupun kuku kaki sampai bertahallul dari ihram.",
+      "note": "Namun jika kuku patah dan menyakitkan, boleh memotong bagian kuku yang patah saja."
+    },
+    "p3": {
+      "n": "3",
+      "title": "Memakai Wewangian",
+      "body": "Dilarang memakai wewangian setelah ihram pada badan, pakaian, maupun kepala. Termasuk di dalamnya parfum, minyak oud, minyak kesturi, dan dupa wewangian.",
+      "note": "Wewangian yang dipakai sebelum berniat ihram tidak mengapa meskipun sisanya masih tercium setelah berihram; karena Nabi ﷺ memakai wewangian sebelum berihram."
+    },
+    "p4": {
+      "n": "4",
+      "title": "Memakai Pakaian Berjahit (Bagi Laki-laki)",
+      "body": "Dilarang bagi laki-laki memakai pakaian yang dibentuk sesuai lekuk tubuh atau bagian tubuh, seperti kemeja, celana, sorban, jubah bertopi, kaos kaki, dan sepatu tertutup.",
+      "note": "Boleh memakai sandal; jika tidak ada sandal boleh memakai selop. Bagi wanita tidak ada pakaian khusus ihram, mereka memakai pakaian apa saja yang menutup aurat dan tidak menarik perhatian."
+    },
+    "p5": {
+      "n": "5",
+      "title": "Menutup Kepala (Bagi Laki-laki)",
+      "body": "Dilarang bagi laki-laki menutup kepala dengan penutup yang melekat langsung seperti peci, sorban, atau topi.",
+      "note": "Bernaung di bawah payung, atap mobil, atau tenda diperbolehkan; karena tidak termasuk kategori menutup kepala yang dilarang."
+    },
+    "p6": {
+      "n": "6",
+      "title": "Memakai Cadar & Sarung Tangan (Bagi Wanita)",
+      "body": "Wanita dilarang memakai cadar (niqab) atau sarung tangan saat berada dalam keadaan ihram.",
+      "note": "Jika berada di dekat laki-laki non-mahram, dianjurkan baginya untuk menjulurkan jilbab ke wajahnya tanpa memakai cadar."
+    },
+    "p7": {
+      "n": "7",
+      "title": "Akad Nikah",
+      "body": "Tidak boleh bagi orang yang berihram melangsungkan pernikahan untuk dirinya sendiri atau orang lain, dan tidak boleh meminang wanita sampai bertahallul."
+    },
+    "p8": {
+      "n": "8",
+      "title": "Hubungan Suami Istri",
+      "body": "Hubungan suami istri (jima') adalah larangan ihram yang paling besar. Dilarang pula hal-hal yang memicu syahwat seperti bermesraan, mencium, atau menyentuh dengan syahwat."
+    },
+    "p9": {
+      "n": "9",
+      "title": "Berburu Hewan Darat",
+      "body": "Dilarang berburu hewan liar darat yang halal dimakan, membantu perburuan, atau menunjukkan keberadaannya.",
+      "note": "Adapun berburu hewan laut (memancing) diperbolehkan."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Bolehkah menggunakan sabun atau shampoo?",
+      "a": "Boleh menggunakan sabun dan shampoo jika tidak mengandung wewangian parfum. Jika mengandung parfum wewangian, sebaiknya dihindari saat ihram."
+    },
+    {
+      "q": "Bolehkah memakai jam tangan atau kacamata?",
+      "a": "Ya, diperbolehkan memakai jam tangan, kacamata, alat bantu dengar, sabuk, alat pelacak langkah kaki, serta membawa dan menggunakan HP karena bukan termasuk larangan ihram."
+    },
+    {
+      "q": "Bolehkah menggunakan payung?",
+      "a": "Ya, diperbolehkan bernaung di bawah payung, atap mobil, atau payung peneduh di Masjidil Haram, dan itu tidak memengaruhi ihram."
+    },
+    {
+      "q": "Bolehkah mengganti pakaian ihram?",
+      "a": "Boleh bagi jamaah mengganti kain ihramnya jika kotor atau jika membutuhkan kain yang lain, dan kain ihram juga boleh dicuci."
+    },
+    {
+      "q": "Bolehkah mandi saat ihram?",
+      "a": "Boleh bagi orang yang ihram untuk mandi, membasuh kepala, dan berwudhu, asalkan tidak sengaja merontokkan rambut."
+    }
+  ]
+}

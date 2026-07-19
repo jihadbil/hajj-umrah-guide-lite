@@ -1,0 +1,21 @@
+{
+  "title": "Namaz Vakitleri",
+  "makkah_subtitle": "Mescid-i Haram'ın kutsal bağrında",
+  "madinah_subtitle": "Mescid-i Nebevi'nin kutsal bağrında",
+  "makkah": "Mekke",
+  "madinah": "Medine",
+  "timeLeftText": "{{name}} ezanına kalan süre",
+  "timezoneNote": "Ezan vakitleri Suudi Arabistan yerel saatine (GMT +3) göredir",
+  "am_pm": {
+    "am": "ÖÖ",
+    "pm": "ÖS"
+  },
+  "prayers": {
+    "fajr": "İmsak",
+    "sunrise": "Güneş",
+    "dhuhr": "Öğle",
+    "asr": "İkindi",
+    "maghrib": "Akşam",
+    "isha": "Yatsı"
+  }
+}

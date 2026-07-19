@@ -6,10 +6,10 @@ import { useEffect, useState } from "react";
 
 const slides = [
   { src: "/kaaba.png", alt: "الكعبة المشرفة" },
-  { src: "/images/attractions/a6-1.jpg", alt: "المسجد النبوي الشريف" },
-  { src: "/images/attractions/a1-1.jpg", alt: "جبل النور وغار حراء" },
-  { src: "/images/attractions/a8-1.jpg", alt: "مسجد قباء" },
-  { src: "/images/attractions/a4-1.jpg", alt: "مسجد التنعيم" },
+  { src: "/images/attractions/a6/a6-1.jpg", alt: "المسجد النبوي الشريف" },
+  { src: "/images/attractions/a1/a1-1.jpg", alt: "جبل النور وغار حراء" },
+  { src: "/images/attractions/a8/a8-1.jpg", alt: "مسجد قباء" },
+  { src: "/images/attractions/a4/a4-1.jpg", alt: "مسجد التنعيم" },
 ];
 
 const INTERVAL_MS = 5000;

@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge": "Votre guide numérique vers la Maison Antique",
+    "title": "Morshid",
+    "subtitle": "Votre guide complet et interactif pour accomplir les rituels de l'Umrah et des visites en toute sérénité, selon la noble tradition prophétique.",
+    "btnStart": "Commencer l'Umrah",
+    "btnDuas": "Invocations & Douas"
+  },
+  "quickLinks": {
+    "title": "Annuaire des Rites & Services",
+    "subtitle": "Choisissez la section appropriée pour consulter les règles de jurisprudence et les détails du voyage."
+  },
+  "quickCards": {
+    "umrah": { "label": "Voyage d'Umrah", "desc": "Étape par étape" },
+    "arkaan": { "label": "Piliers de l'Umrah", "desc": "Sunnahs et actes déconseillés" },
+    "wajibaat": { "label": "Obligations & Sunnahs", "desc": "Actes obligatoires et recommandés" },
+    "prohibitions": { "label": "Interdictions de l'Ihram", "desc": "Ce qu'il faut éviter" },
+    "fidya": { "label": "Règles de la Fidya", "desc": "Quand est-elle due & comment la payer" },
+    "mistakes": { "label": "Erreurs Courantes", "desc": "Erreurs à éviter" },
+    "duas": { "label": "Invocations", "desc": "Invocations prophétiques" },
+    "tips": { "label": "Sac du Pèlerin", "desc": "Liste de préparation et conseils" },
+    "attractions": { "label": "Sites Historiques", "desc": "Monuments de La Mecque & Médine" },
+    "hotels": { "label": "Hôtels & Guides", "desc": "Hébergement & compagnons de route" },
+    "fazah": { "label": "Fazah Assistance", "desc": "Réseau d'assistance décentralisé" }
+  },
+  "stepper": {
+    "badge": "🗺️ Feuille de Route Interactive",
+    "title": "Parcours de l'Umrah Étape par Étape",
+    "subtitle": "Suivez les rituels et les étapes en détail et découvrez les actes recommandés et les invocations à chaque étape.",
+    "stepLabel": "Étape {{id}}",
+    "stepOf": "Étape {{id}} sur {{total}}",
+    "recommendedLabel": "💡 Sunnahs les Plus Importantes :",
+    "duasLabel": "Invocations de cette étape :",
+    "duasEmpty": "Choisissez les invocations que vous souhaitez parmi les biens d'ici-bas et de l'au-delà, et multipliez les demandes de pardon.",
+    "viewFullBtn": "Voir le Guide Complet, les Sunnahs & les Erreurs"
+  }
+}

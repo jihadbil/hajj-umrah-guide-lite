@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge": "Panduan digital Anda ke Baitullah Al-Haram",
+    "title": "Morshid",
+    "subtitle": "Panduan komprehensif dan interaktif Anda untuk melakukan ritual Umrah dan ziarah dalam ketenangan pikiran penuh, sesuai dengan petunjuk kenabian yang mulia.",
+    "btnStart": "Mulai Perjalanan Umrah",
+    "btnDuas": "Kumpulan Doa & Dzikir"
+  },
+  "quickLinks": {
+    "title": "Direktori Ritual & Layanan",
+    "subtitle": "Pilih bagian yang sesuai untuk menelusuri hukum fiqih dan detail perjalanan."
+  },
+  "quickCards": {
+    "umrah": { "label": "Perjalanan Umrah", "desc": "Langkah demi langkah" },
+    "arkaan": { "label": "Rukun Umrah", "desc": "Sunnah dan makruh" },
+    "wajibaat": { "label": "Wajib & Sunnah", "desc": "Wajib dan yang direkomendasikan" },
+    "prohibitions": { "label": "Larangan Ihram", "desc": "Apa yang harus dihindari" },
+    "fidya": { "label": "Hukum Fidya", "desc": "Kapan jatuh tempo & cara pembayaran" },
+    "mistakes": { "label": "Kesalahan Umum", "desc": "Kesalahan yang harus dihindari" },
+    "duas": { "label": "Kumpulan Doa", "desc": "Doa dari hadits & atsar" },
+    "tips": { "label": "Tas Jamaah", "desc": "Daftar persiapan & tips" },
+    "attractions": { "label": "Tempat Bersejarah", "desc": "Landmark Makkah & Madinah" },
+    "hotels": { "label": "Hotel & Pemandu", "desc": "Akomodasi & teman perjalanan" },
+    "fazah": { "label": "Fazah Relief", "desc": "Jaringan bantuan terdistribusi" }
+  },
+  "stepper": {
+    "badge": "🗺️ Peta Jalan Interaktif",
+    "title": "Alur Umrah Langkah demi Langkah",
+    "subtitle": "Lacak ritual dan langkah secara mendetail serta pelajari amalan yang direkomendasikan dan doa di setiap tahap.",
+    "stepLabel": "Langkah {{id}}",
+    "stepOf": "Langkah {{id}} dari {{total}}",
+    "recommendedLabel": "💡 Sunnah Paling Penting:",
+    "duasLabel": "Doa di tahap ini:",
+    "duasEmpty": "Pilihlah doa apa pun yang Anda inginkan dari kebaikan dunia dan akhirat, serta perbanyaklah istighfar.",
+    "viewFullBtn": "Lihat Panduan Lengkap, Sunnah & Kesalahan"
+  }
+}

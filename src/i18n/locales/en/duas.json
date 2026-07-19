@@ -1,0 +1,75 @@
+{
+  "eyebrow": "Supplications & Remembrance",
+  "title": "Prophetic Supplications for Umrah",
+  "description": "A selected collection of supplications and remembrance established from the Prophet ﷺ for each stage of the journey.",
+  "groups": {
+    "talbiyah": {
+      "title": "The Talbiyah",
+      "items": [
+        {
+          "title": "The Prophet's ﷺ Talbiyah",
+          "arabic": "لبّيك اللهم لبّيك، لبّيك لا شريك لك لبّيك، إنّ الحمد والنعمة لك والملك، لا شريك لك.",
+          "translation": "Here I am, O Allah, here I am. Here I am, You have no partner, here I am. Verily all praise, grace, and sovereignty belong to You. You have no partner.",
+          "source": "Agreed upon"
+        }
+      ]
+    },
+    "tawaf": {
+      "title": "Tawaf Supplications",
+      "items": [
+        {
+          "title": "Beginning of Each Round",
+          "arabic": "بسم الله، والله أكبر، اللهم إيماناً بك، وتصديقاً بكتابك، ووفاءً بعهدك، واتّباعاً لسنّة نبيك محمد ﷺ.",
+          "translation": "In the name of Allah, and Allah is Greatest. O Allah, out of faith in You, belief in Your Book, fulfillment of Your covenant, and in emulation of the Sunnah of Your Prophet Muhammad ﷺ.",
+          "source": "Reported from Ibn Umar"
+        },
+        {
+          "title": "Between the Yamani Corner and the Black Stone",
+          "arabic": "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾",
+          "translation": "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire.",
+          "source": "Al-Baqarah 201"
+        }
+      ]
+    },
+    "sai": {
+      "title": "Sa'i Supplications",
+      "items": [
+        {
+          "title": "Upon Ascending Safa and Marwah",
+          "arabic": "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾ أبدأ بما بدأ الله به.",
+          "translation": "Indeed, Safa and Marwah are among the symbols of Allah. I begin with that which Allah began with.",
+          "source": "Narrated by Muslim"
+        },
+        {
+          "title": "On Safa and Marwah",
+          "arabic": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، لا إله إلا الله وحده، أنجز وعده، ونصر عبده، وهزم الأحزاب وحده.",
+          "translation": "There is no deity worthy of worship except Allah alone, without partner. To Him belongs sovereignty and to Him belongs praise, and He is over all things competent. There is no deity worthy of worship except Allah alone; He fulfilled His promise, aided His servant, and defeated the factions alone.",
+          "source": "Narrated by Muslim"
+        }
+      ]
+    },
+    "general": {
+      "title": "General Remembrance for the Pilgrim",
+      "items": [
+        {
+          "title": "Entering the Mosque",
+          "arabic": "اللهم افتح لي أبواب رحمتك.",
+          "translation": "O Allah, open for me the gates of Your mercy.",
+          "source": "Narrated by Muslim"
+        },
+        {
+          "title": "Seeing the Kaaba",
+          "arabic": "اللهم زد هذا البيت تشريفاً وتعظيماً وتكريماً ومهابة، وزد من شرّفه وكرّمه ممن حجّه أو اعتمره تشريفاً وتكريماً وتعظيماً وبرّاً.",
+          "translation": "O Allah, increase this House in honor, greatness, nobility, and awe, and increase those who honor and noble it among those who perform Hajj or Umrah in honor, nobility, greatness, and righteousness.",
+          "source": "Reported"
+        },
+        {
+          "title": "When Drinking Zamzam Water",
+          "arabic": "اللهم إني أسألك علماً نافعاً، ورزقاً واسعاً، وشفاءً من كل داء.",
+          "translation": "O Allah, I ask You for beneficial knowledge, abundant provision, and healing from every illness.",
+          "source": "Reported from Ibn Abbas"
+        }
+      ]
+    }
+  }
+}

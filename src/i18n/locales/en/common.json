@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "umrah": "Umrah Journey",
+    "sections": "Site Sections",
+    "contact": "Contact Us",
+    "arkaan": "Pillars",
+    "wajibaat": "Duties & Sunnahs",
+    "prohibitions": "Prohibitions",
+    "fidya": "Fidya (Compensation)",
+    "mistakes": "Common Mistakes",
+    "duas": "Supplications",
+    "tips": "Pilgrim's Bag",
+    "attractions": "Historic Sites",
+    "hotels": "Hotels & Guides",
+    "fazah": "Fazah Relief"
+  },
+  "brand": {
+    "name": "Morshid",
+    "subtitle": "Comprehensive Umrah Guide"
+  },
+  "footer": {
+    "description": "An interactive guiding platform aiming to facilitate the rituals of Umrah and visitation step-by-step, clarifying the pillars, duties, and prohibitions based on the Quran and purified Sunnah in a simplified and visually engaging manner.",
+    "sectionsTitle": "Guide Sections",
+    "duaTitle": "Dua & Supplication",
+    "duaText": "\"O Allah, make it an accepted Umrah, a forgiven sin, and a appreciated effort.\"",
+    "duaAccept": "— May Allah accept your worship",
+    "rights": "All rights reserved",
+    "tagline": "Made to serve the guests of the Most Merciful"
+  },
+  "errors": {
+    "404": "404",
+    "pageNotFound": "Page Not Found",
+    "pageNotFoundDesc": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to Home",
+    "errorOccurred": "An Error Occurred",
+    "errorLoadFailed": "Could not load page, please try again.",
+    "tryAgain": "Try Again",
+    "home": "Home"
+  },
+  "theme": {
+    "light": "Activate Light Mode",
+    "dark": "Activate Dark Mode"
+  },
+  "buttons": {
+    "next": "Next",
+    "prev": "Previous",
+    "close": "Close",
+    "submit": "Submit"
+  },
+  "ticker": {
+    "title": "Supplications & Verses",
+    "items": [
+      { "text": "Labbayk Allahumma Labbayk, Labbayka la sharika laka Labbayk, Innal-hamda wan-ni'mata laka wal-mulk, la sharika lak", "source": "Agreed Upon" },
+      { "text": "And complete the Hajj and 'umrah for Allah", "source": "Al-Baqarah: 196" },
+      { "text": "Our Lord, give us in this world [that which is] good and in the Hereafter [that which is] good and protect us from the punishment of the Fire", "source": "Al-Baqarah: 201" },
+      { "text": "An Umrah to another Umrah is an expiation for what is between them, and the accepted Hajj has no reward other than Paradise", "source": "Agreed Upon" },
+      { "text": "O Allah, open for me the gates of Your mercy", "source": "Dua for entering the Mosque" },
+      { "text": "Indeed, as-Safa and al-Marwah are among the symbols of Allah", "source": "Al-Baqarah: 158" },
+      { "text": "O Allah, increase this House in honor, greatness, reverence, and awe", "source": "Athar" },
+      { "text": "O Allah, I ask You for beneficial knowledge, abundant provision, and healing from every illness", "source": "Dua when drinking Zamzam water" },
+      { "text": "There is no deity except Allah alone, with no partner, His is the dominion and His is the praise, and He is over all things competent", "source": "Narrated by Muslim" },
+      { "text": "The pilgrims of Hajj and Umrah are the delegation of Allah, He called them and they answered Him, and they asked Him and He gave them", "source": "Narrated by Ibn Majah" }
+    ]
+  }
+}

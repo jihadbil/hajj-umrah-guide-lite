@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Contact Us",
+  "title": "Contact Us",
+  "description": "We are glad to receive your opinions, inquiries, and notes which contribute to enriching the platform and developing it to serve the guests of the Most Merciful.",
+  "channels": {
+    "title": "Direct Contact Channels",
+    "email_title": "Platform Email",
+    "email_sub": "We usually respond within 24 business hours",
+    "support_title": "Direct Technical & Religious Support",
+    "support_sub": "Available throughout the Umrah season",
+    "address_title": "Headquarters of the Service",
+    "address_body": "Makkah — Kingdom of Saudi Arabia",
+    "quote": "\"The best of people are those who are most beneficial to people\"",
+    "quote_sub": "— We always strive to provide the best"
+  },
+  "form": {
+    "title": "Send a Message to the Team",
+    "success_title": "Your message was sent successfully!",
+    "success_desc": "Thank you for contacting us. We have received your message and our development or religious support team will respond to you as soon as possible, God willing.",
+    "send_another": "Send another message",
+    "name": "Full Name",
+    "name_placeholder": "Enter your name",
+    "email": "Email Address",
+    "email_placeholder": "example@mail.com",
+    "subject": "Message Subject",
+    "subject_options": {
+      "suggestion": "💡 Development Suggestion",
+      "bug": "⚠️ Technical Note / Bug Report",
+      "fiqh": "🏛️ Jurisprudential / Fiqh Inquiry",
+      "other": "💬 Other"
+    },
+    "message": "Message Body",
+    "message_placeholder": "Write your message here in detail...",
+    "submit": "Send Message",
+    "sending": "Sending..."
+  }
+}

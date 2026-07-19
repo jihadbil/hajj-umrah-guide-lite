@@ -1,0 +1,117 @@
+{
+  "eyebrow": "Règles Religieuses",
+  "title": "Règles de la Fidya (Compensation) dans l'Umrah",
+  "description": "Quand la Fidya est-elle obligatoire et comment s'acquitte-t-elle — tiré du Saint Coran, de la Sunnah prophétique et des fatwas des savants.",
+  "warningTitle": "Avis Jurisprudentiel Important",
+  "warningBody": "La Fidya est l'un des chapitres les plus précis du Hajj et de l'Umrah. Le pèlerin ne doit pas émettre de fatwas lui-même sur des questions impliquant un sacrifice ou une rançon, mais doit plutôt se référer aux savants ou aux organismes officiels s'il rencontre des difficultés.",
+  "labels": {
+    "daleel": "Preuve tirée du Coran et de la Sunnah",
+    "note": "💡 Note jurisprudentielle : ",
+    "warning": "⚠️ Avertissement : ",
+    "faqTitle": "Questions et Détails Importants",
+    "referenceTitle": "Références Scientifiques et Religieuses"
+  },
+  "sections": {
+    "sec1": {
+      "title": "Qu'entend-on par Fidya ?",
+      "content": [
+        "La Fidya est ce que la Shariah rend obligatoire pour le pèlerin dans certains cas lorsqu'il délaisse une obligation des rites, ou commet certaines interdictions de l'Ihram, selon les détails expliqués dans le Saint Coran et la Sunnah prophétique.",
+        "Toutes les infractions ne nécessitent pas de Fidya ; les règles varient selon le type d'infraction et la situation du pèlerin. C'est pourquoi la Fidya est considérée comme l'un des domaines les plus précis de la jurisprudence du Hajj et de l'Umrah."
+      ],
+      "warning": "La Fidya est l'un des chapitres les plus précis du Hajj et de l'Umrah. Le pèlerin ne doit pas émettre de fatwas lui-même, mais se référer aux savants."
+    },
+    "sec2": {
+      "title": "Premièrement : Délaisser un Pilier de l'Umrah",
+      "content": [
+        "Si le pèlerin délaisse un pilier de l'Umrah — comme le Tawaf ou le Sa'i — la Fidya ne peut en aucun cas le compenser. Il doit obligatoirement accomplir ce pilier, car l'Umrah n'est pas valide sans lui."
+      ],
+      "list": [
+        "Délaisser le Tawaf — l'Umrah n'est pas valide et il doit l'accomplir.",
+        "Délaisser le Sa'i — l'Umrah n'est pas valide et il doit l'accomplir."
+      ],
+      "note": "Le pèlerin ne se désacralise pas de son Umrah tant qu'il n'accomplit pas les piliers qu'il a délaissés."
+    },
+    "sec3": {
+      "title": "Deuxièmement : Délaisser une Obligation de l'Umrah",
+      "content": [
+        "Si le pèlerin délaisse une obligation de l'Umrah — comme l'Ihram depuis le Miqat ou le rasage/la coupe — la majorité des juristes est d'avis qu'il doit un sacrifice (dam) s'il ne peut pas rattraper l'obligation."
+      ],
+      "list": [
+        "Franchir le Miqat sans Ihram sans y retourner.",
+        "Délaisser le rasage ou la coupe."
+      ],
+      "daleel": [
+        "Les savants se basent sur ce qui a été rapporté par Abdullah ibn Abbas (qu'Allah l'agrée) qui a dit : 'Quiconque oublie une partie de ses rites ou la délaisse, qu'il offre un sacrifice (dam).' — Rapporté par Al-Muwatta."
+      ],
+      "note": "Le sacrifice (dam) consiste à égorger un mouton pour le distribuer aux pauvres de La Mecque."
+    },
+    "sec4": {
+      "title": "Troisièmement : La Fidya de l'Ailment (Fidyat Al-Atha)",
+      "content": [
+        "Si le pèlerin a besoin d'accomplir une interdiction de l'Ihram pour une excuse valable — comme se raser la tête en raison d'une maladie, de poux ou d'une douleur — cela lui est permis, et il doit verser la Fidya de l'Ailment."
+      ],
+      "daleel": [
+        "Allah le Très Haut a dit : 'Quiconque d'entre vous est malade ou souffre d'un mal à la tête (et doit se raser), qu'il se rachète par un jeûne, une aumône ou un sacrifice.' [Al-Baqarah: 196]",
+        "Le Prophète ﷺ a dit à Ka'b ibn Ujrah (qu'Allah l'agrée) lorsque les poux le tourmentaient : 'Rase ta tête, et jeûne trois jours, ou nourris six pauvres, ou sacrifie un mouton.' — Rapporté par Al-Bukhari et Muslim."
+      ],
+      "options": [
+        { "title": "Sacrifier un mouton", "desc": "À distribuer aux pauvres de la zone sacrée" },
+        { "title": "Nourrir six pauvres", "desc": "Chacun recevant un demi-sa' de nourriture" },
+        { "title": "Jeûner trois jours", "desc": "Consécutifs ou séparés" }
+      ],
+      "note": "Le pèlerin peut choisir l'une de ces options selon sa convenance, sans ordre obligatoire."
+    },
+    "sec5": {
+      "title": "Quatrièmement : Commettre une infraction par oubli ou ignorance",
+      "content": [
+        "Quiconque commet une interdiction de l'Ihram par oubli, ignorance ou contrainte ne commet pas de péché.",
+        "Quant à la Fidya, il existe une divergence entre les savants selon la nature de l'interdiction et la situation du pèlerin."
+      ],
+      "daleel": [
+        "Allah le Très Haut a dit : 'Seigneur, ne nous châtie pas s'il nous arrive d'oublier ou de commettre une erreur.' [Al-Baqarah: 286]",
+        "Et Il a dit : 'Nul grief ne vous est fait pour les erreurs involontaires que vous commettez, mais seulement pour ce que vos cœurs ont délibérément conçu.' [Al-Ahzab: 5]"
+      ],
+      "warning": "Cheikh Ibn Baz a opté pour l'absence de Fidya pour celui qui commet l'infraction par oubli ou ignorance. Il convient de se référer aux savants pour les détails."
+    },
+    "sec6": {
+      "title": "Cinquièmement : Commettre délibérément une interdiction",
+      "content": [
+        "Quiconque commet délibérément une interdiction de l'Ihram tout en connaissant la règle commet un péché, et certaines interdictions nécessitent une compensation (fidya) selon leur nature.",
+        "Toutes les interdictions n'ont pas la même règle, elles diffèrent selon leur type."
+      ],
+      "list": [
+        "Porter des vêtements cousus pour les hommes — la Fidya de l'Ailment au choix (mouton / nourriture / jeûne).",
+        "Utiliser du parfum — la Fidya de l'Ailment.",
+        "Se raser les cheveux — la Fidya de l'Ailment.",
+        "Le rapport sexuel avant la désacralisation — annule le rite selon la majorité et nécessite une expiation."
+      ],
+      "warning": "Ceci est un aperçu général. Il est obligatoire de consulter les savants pour toute question impliquant un sacrifice ou une Fidya."
+    }
+  },
+  "faqs": [
+    {
+      "q": "La Fidya est-elle obligatoire pour celui qui porte des vêtements cousus par oubli ?",
+      "a": "S'il les porte par oubli ou ignorance de la règle, il n'y a pas de péché. Quant à la Fidya, il y a divergence ; Cheikh Ibn Baz a opté pour l'absence de Fidya si l'excuse est valide."
+    },
+    {
+      "q": "La Fidya est-elle obligatoire pour celui qui se parfume par oubli ?",
+      "a": "S'il a oublié ou ignoré la règle, il n'y a pas de péché, mais il doit enlever le parfum dès qu'il s'en souvient."
+    },
+    {
+      "q": "La Fidya est-elle obligatoire pour celui qui se rase la tête pour une excuse médicale ?",
+      "a": "Oui. S'il se rase pour une excuse médicale, cela est permis, et il doit verser la Fidya de l'Ailment au choix (mouton, nourriture ou jeûne)."
+    },
+    {
+      "q": "Où s'effectue le sacrifice ?",
+      "a": "Il est préférable de sacrifier à La Mecque et de distribuer aux pauvres de la ville. Certains savants autorisent la délégation."
+    }
+  ],
+  "references": [
+    "Le Saint Coran",
+    "Sahih Al-Bukhari et Sahih Muslim",
+    "Al-Muwatta de l'Imam Malik ibn Anas",
+    "Al-Tahqiq wal-Idayh — Cheikh Ibn Baz",
+    "Fatwas sur le Hajj, l'Umrah et la Visite — Cheikh Ibn Baz",
+    "Al-Sharh Al-Mumti' — Cheikh Ibn Uthaymeen"
+  ]
+}

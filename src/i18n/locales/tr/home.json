@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge": "Kabe'ye giden dijital rehberiniz",
+    "title": "Mürşid",
+    "subtitle": "Umre ibadetlerini ve ziyaretlerini, asil nebevi rehberliğe uygun olarak, tam bir gönül huzuruyla yerine getirmeniz için kapsamlı ve etkileşimli rehberiniz.",
+    "btnStart": "Umre Yolculuğunu Başlat",
+    "btnDuas": "Dualar ve Zikirler"
+  },
+  "quickLinks": {
+    "title": "İbadetler ve Hizmetler Dizini",
+    "subtitle": "Fıkhi hükümleri ve yolculuk detaylarını incelemek için ilgili bölümü seçin."
+  },
+  "quickCards": {
+    "umrah": { "label": "Umre Yolculuğu", "desc": "Adım adım" },
+    "arkaan": { "label": "Umre Rükünleri", "desc": "Sünnetler ve makruhlar" },
+    "wajibaat": { "label": "Vacip & Sünnetler", "desc": "Farzlar ve tavsiye edilenler" },
+    "prohibitions": { "label": "İhram Yasakları", "desc": "Kaçınılması gerekenler" },
+    "fidya": { "label": "Fidye Hükümleri", "desc": "Ne zaman gerekir & nasıl ödenir" },
+    "mistakes": { "label": "Sık Yapılan Hatalar", "desc": "Kaçınılacak hatalar" },
+    "duas": { "label": "Dualar ve Zikirler", "desc": "Sahih dualar" },
+    "tips": { "label": "Umre Çantası", "desc": "Hazırlık listesi ve ipuçları" },
+    "attractions": { "label": "Tarihi Yerler", "desc": "Mekke & Medine mekanları" },
+    "hotels": { "label": "Oteller & Rehberler", "desc": "Konaklama & refakatçiler" },
+    "fazah": { "label": "Fazah İmdat", "desc": "Dağıtık yardım ağı" }
+  },
+  "stepper": {
+    "badge": "🗺️ Etkileşimli Yol Haritası",
+    "title": "Adım Adım Umre Güzergahı",
+    "subtitle": "İbadetleri ve adımları ayrıntılı olarak takip edin ve her aşamada tavsiye edilen amelleri ve duaları öğrenin.",
+    "stepLabel": "Adım {{id}}",
+    "stepOf": "Adım {{id}} / {{total}}",
+    "recommendedLabel": "💡 En Önemli Sünnetler:",
+    "duasLabel": "Bu aşamanın duaları:",
+    "duasEmpty": "Dünya ve ahiret hayrından dilediğiniz duaları seçin ve bol bol istiğfar edin.",
+    "viewFullBtn": "Tam Rehberi, Sünnetleri ve Hataları Görüntüle"
+  }
+}

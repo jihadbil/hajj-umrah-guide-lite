@@ -1,0 +1,325 @@
+{
+  "eyebrow": "Voyage de l'Umrah",
+  "title": "Guide de l'Umrah étape par étape",
+  "description": "Votre guide complet et pratique pour accomplir les rites de l'Umrah en détail, du début jusqu'à la désacralisation finale.",
+  "labels": {
+    "recommended": "Recommandés",
+    "disliked": "Déconseillés",
+    "mistakes": "Erreurs Courantes",
+    "duas": "Invocations & Rappels",
+    "guide": "Guide",
+    "warningTitle": "Avis Important pour le Pèlerin",
+    "nextStep": "Étape Suivante",
+    "stepLabel": "Étape {{id}}",
+    "stepOf": "Étape {{id}} sur {{total}}",
+    "stepsCount": "{{count}} étapes"
+  },
+  "banners": {
+    "recommended": "Ces actes sont recommandés (Mustahabb) dans cette phase. Les accomplir est récompensé en imitation du Prophète ﷺ, et les délaisser n'est pas un péché.",
+    "disliked": "Ces pratiques sont déconseillées (Makrohoat) ou à éviter dans cette phase car elles réduisent la récompense ou nuisent à la perfection du culte.",
+    "mistakes": "Les erreurs courantes à cette étape, accompagnées des pratiques correctes tirées de la Sunnah.",
+    "duas": "Les invocations et formules de rappel recommandées à cette étape selon la Sunnah authentique."
+  },
+  "steps": {
+    "step1": {
+      "title": "Avant l'Ihram",
+      "subtitle": "Préparation au Voyage",
+      "intro": "Avant de commencer votre Umrah, il est recommandé de se préparer à l'Ihram afin d'entrer en état de consécration dans les meilleures conditions.",
+      "sections": [
+        {
+          "heading": "Comment se Préparer ?",
+          "body": "Si vous vous dirigez vers le Miqat, il est recommandé de faire ce qui suit :",
+          "list": [
+            "Faire le bain rituel (ghousl) si possible.",
+            "Nettoyer son corps, se couper les ongles et couper les poils nécessaires avant l'Ihram.",
+            "Appliquer du parfum sur le corps (hommes uniquement), en évitant d'en mettre sur les tissus d'Ihram.",
+            "Si vous ne pouvez pas vous laver au Miqat, il est recommandé de le faire à La Mecque avant le Tawaf."
+          ]
+        },
+        {
+          "heading": "Habit d'Ihram pour l'Homme",
+          "body": "Un pagne (izar) et une pièce supérieure (rida) de couleur blanche et propre."
+        },
+        {
+          "heading": "Habit d'Ihram pour la Femme",
+          "body": "Elle se sacralise dans ses vêtements habituels couvrants. Elle ne porte pas de niqab (voile facial) ni de gants pendant l'Ihram."
+        }
+      ],
+      "recommended": [
+        "Faire le bain rituel (ghousl) avant l'Ihram — Sunnah confirmée.",
+        "Se couper les ongles et se raser avant l'Ihram.",
+        "Se parfumer le corps pour l'homme avant l'intention.",
+        "Porter des tissus blancs et propres.",
+        "Prier deux rak'ahs au Miqat s'il y a une mosquée."
+      ],
+      "disliked": [
+        "Délaisser le bain rituel avant l'Ihram alors qu'on en est capable.",
+        "Négliger la coupe des ongles puis le faire après s'être sacralisé."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Croire que les vêtements blancs sont obligatoires pour la femme.",
+          "right": "La femme peut porter ce qu'elle veut comme couleur du moment que c'est couvrant."
+        },
+        {
+          "wrong": "Mettre du parfum directement sur les draps d'Ihram.",
+          "right": "Le parfum doit être appliqué sur le corps uniquement avant la niyet (intention)."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Intention de l'Ihram pour l'Umrah",
+          "arabic": "اللَّهُمَّ لَبَّيْكَ عُمْرَةً",
+          "translation": "Ô Allah, me voici pour une Umrah.",
+          "source": "Recommandé de le formuler à haute voix lors de l'Ihram."
+        },
+        {
+          "title": "La Condition (Ishtirat)",
+          "arabic": "فَإِنْ حَبَسَنِي حَابِسٌ فَمَحِلِّي حَيْثُ حَبَسْتَنِي",
+          "translation": "Mais si un obstacle me retient, mon lieu de désacralisation sera là où je serai retenu.",
+          "source": "Rapporté par Al-Bukhari & Muslim — pour celui qui craint un empêchement."
+        }
+      ],
+      "note": "La préparation à l'Ihram est une Sunnah recommandée et non une condition de validité de l'Umrah.",
+      "nextStep": "Ihram"
+    },
+    "step2": {
+      "title": "Ihram",
+      "subtitle": "Le Début des Rites",
+      "intro": "Vous êtes arrivé au Miqat. De là, vous entrez en état de consécration rituelle avec l'intention de l'Umrah et commencez à observer ses interdits.",
+      "sections": [
+        {
+          "heading": "Comment entrer en Ihram ?",
+          "body": "Après avoir mis les habits d'Ihram, formulez l'intention dans votre cœur et dites : « Labbayk 'Umrah » ou « Allahumma Labbayk 'Umrah ». Dès lors, les interdictions commencent."
+        }
+      ],
+      "recommended": [
+        "Commencer la Talbiyah immédiatement après la niyet.",
+        "Faire face à la Qiblah au moment de formuler l'intention."
+      ],
+      "disliked": [
+        "Retarder la Talbiyah après avoir formulé l'intention."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Penser que l'Ihram n'est valide que par la prière d'Ihram.",
+          "right": "Il n'y a pas de prière spécifique à l'Ihram, une prière obligatoire ou surérogatoire suffit."
+        }
+      ],
+      "duas": [
+        {
+          "title": "La Talbiyah",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "translation": "Me voici, Ô Allah, me voici. Me voici, Tu n'as aucun associé, me voici. Certes, la louange, le bienfait et la royauté T'appartiennent, Tu n'as aucun associé.",
+          "source": "Rapporté par Al-Bukhari & Muslim"
+        }
+      ],
+      "note": "Ne franchissez pas le Miqat sans être en état d'Ihram.",
+      "nextStep": "Talbiyah"
+    },
+    "step3": {
+      "title": "Talbiyah",
+      "subtitle": "Répondre à l'Appel d'Allah",
+      "intro": "Proclamer la Talbiyah, symbole sublime du monothéisme, tout au long du chemin vers La Mecque.",
+      "sections": [
+        {
+          "heading": "Quand commencer et s'arrêter ?",
+          "body": "Elle est récitée en continu depuis l'Ihram jusqu'à l'arrivée à la Kaaba pour débuter le Tawaf."
+        }
+      ],
+      "recommended": [
+        "Élever modérément la voix pour les hommes.",
+        "Multiplier les évocations et les douas pendant le voyage."
+      ],
+      "disliked": [
+        "Une femme élevant la voix devant des hommes étrangers."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Réciter la Talbiyah en groupe d'une seule voix coordonnée.",
+          "right": "La Sunnah est que chacun récite la Talbiyah individuellement."
+        }
+      ],
+      "duas": [
+        {
+          "title": "La Talbiyah",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "translation": "Me voici, Ô Allah, me voici...",
+          "source": "Rapporté par Al-Bukhari & Muslim"
+        }
+      ],
+      "note": "Les hommes élèvent la voix, les femmes la baissent pour n'être entendues que d'elles-mêmes.",
+      "nextStep": "Entrer à la Mosquée Sacrée"
+    },
+    "step4": {
+      "title": "Entrer à la Mosquée Sacrée",
+      "subtitle": "Première Rencontre avec la Kaaba",
+      "intro": "Entrer dans le lieu le plus saint sur Terre avec calme, humilité et invocations.",
+      "sections": [
+        {
+          "heading": "Adab d'Entrée",
+          "body": "Entrer du pied droit, lire la doua de la mosquée et s'avancer sereinement vers la Kaaba."
+        }
+      ],
+      "recommended": [
+        "Entrer par la Porte de la Paix (Bab السلام) si c'est facile.",
+        "Invoquer Allah sincèrement en voyant la Kaaba pour la première fois."
+      ],
+      "disliked": [
+        "Se filmer ou faire des directs dès l'entrée au détriment de l'humilité."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Croire qu'il y a une doua obligatoire spécifique en voyant la Kaaba.",
+          "right": "Aucune doua n'est obligatoire, demandez ce que vous voulez comme bien ici-bas et dans l'au-delà."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Invocation d'Entrée à la Mosquée",
+          "arabic": "بِسْمِ اللَّهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ، أَعُوذُ بِاللَّهِ الْعَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+          "translation": "Au nom d'Allah, et que la prière et le salut soient sur le Messager d'Allah. Je cherche refuge auprès d'Allah le Très Grand, auprès de Son noble visage et de Son pouvoir éternel contre Satan le banni. Ô Allah, ouvre-moi les portes de Ta miséricorde.",
+          "source": "Rapporté par Muslim"
+        }
+      ],
+      "note": "Ne bousculez personne, respectez la sécurité d'autrui.",
+      "nextStep": "Tawaf"
+    },
+    "step5": {
+      "title": "Tawaf",
+      "subtitle": "7 Tours autour de la Kaaba",
+      "intro": "Le Tawaf commence à la Pierre Noire et se termine à celle-ci, en effectuant 7 tours complets avec la Kaaba à votre gauche.",
+      "sections": [
+        {
+          "heading": "Comment Commencer ?",
+          "body": "S'aligner avec la Pierre Noire, lui faire face et faire un signe de la main droite en disant 'Allahu Akbar'."
+        }
+      ],
+      "recommended": [
+        "Faire l'Idtiba' (épaule droite découverte) pour l'homme pendant le Tawaf.",
+        "Faire le Ramal (petite course) durant les 3 premiers tours pour l'homme.",
+        "Réciter des invocations entre le Coin Yéménite et la Pierre Noire."
+      ],
+      "disliked": [
+        "Essayer d'embrasser ou toucher d'autres coins que la Pierre Noire et le Coin Yéménite."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Se bousculer violemment pour embrasser la Pierre Noire.",
+          "right": "Embrasser est une Sunnah, blesser un musulman est Haram. Le signe de loin suffit largement."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Doua entre le Coin Yéménite et la Pierre Noire",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "translation": "Notre Seigneur, accorde-nous un bel avenir ici-bas, et un bel avenir dans l'au-delà, et préserve-nous du châtiment du Feu.",
+          "source": "Rapporté par Abu Dawud"
+        }
+      ],
+      "note": "Il est obligatoire d'être en état d'ablutions (woudou) pour le Tawaf.",
+      "nextStep": "Prière de Tawaf & Eau de Zamzam"
+    },
+    "step6": {
+      "title": "Prière de Tawaf & Eau de Zamzam",
+      "subtitle": "Après avoir fini le Tawaf",
+      "intro": "Effectuer deux rak'ahs de prière et boire de l'eau bénite de Zamzam.",
+      "sections": [
+        {
+          "heading": "Deux Rak'ahs de Prière",
+          "body": "À faire derrière le Maqam d'Ibrahim si possible, sinon n'importe où dans la mosquée si c'est bondé."
+        }
+      ],
+      "recommended": [
+        "Recouvrir l'épaule droite (fin de l'idtiba') avant de prier.",
+        "Boire de l'eau de Zamzam et invoquer après la prière."
+      ],
+      "disliked": [
+        "Bloquer le passage des gens qui font le Tawaf en insistant pour prier près du Maqam."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Prier avec l'épaule droite découverte (idtiba').",
+          "right": "L'épaule doit être couverte avant de débuter la prière."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Doua en buvant Zamzam",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا وَاسِعًا، وَشِفَاءً مِنْ كُلِّ دَاءٍ",
+          "translation": "Ô Allah, je Te demande une science utile, une subsistance abondante et une guérison contre toute maladie.",
+          "source": "Rapporté par Al-Hakim"
+        }
+      ],
+      "note": "L'eau de Zamzam est bénie, buvez-en en abondance.",
+      "nextStep": "Sa'i entre Safa & Marwah"
+    },
+    "step7": {
+      "title": "Sa'i entre Safa & Marwah",
+      "subtitle": "7 Trajets entre les deux monts",
+      "intro": "Le Sa'i est un pilier de l'Umrah qui débute à Safa et se termine à Marwah en 7 trajets simples.",
+      "sections": [
+        {
+          "heading": "Comment Procéder ?",
+          "body": "Monter sur Safa, faire face à la Qiblah, invoquer, puis marcher vers Marwah. L'homme court légèrement entre les lampes vertes."
+        }
+      ],
+      "recommended": [
+        "Monter sur Safa et Marwah pour invoquer.",
+        "Courir légèrement entre les repères verts (hommes seulement)."
+      ],
+      "disliked": [
+        "Les femmes qui courent entre les repères verts."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Compter un aller-retour Safa-Marwah-Safa comme un seul trajet.",
+          "right": "Safa à Marwah est le 1er trajet, Marwah à Safa est le 2ème."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Zikr à Safa et Marwah",
+          "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ، أَنْجَزَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ",
+          "translation": "Il n'y a de divinité digne d'adoration qu'Allah, Unique, sans associé. À Lui la royauté, à Lui la louange, et Il est Omnipotent. Il n'y a de divinité digne d'adoration qu'Allah, Unique, Il a réalisé Sa promesse, a secouru Son serviteur et a vaincu les coalisés à Lui Seul.",
+          "source": "Rapporté par Muslim"
+        }
+      ],
+      "note": "Les ablutions ne sont pas obligatoires pour le Sa'i, mais fortement recommandées.",
+      "nextStep": "Se Raser ou se Couper les Cheveux"
+    },
+    "step8": {
+      "title": "Se Raser ou se Couper les Cheveux",
+      "subtitle": "La Désacralisation finale de l'Umrah",
+      "intro": "L'étape finale de l'Umrah consiste à se raser la tête (Halk) ou à couper les cheveux (Taqsir) pour se désacraliser.",
+      "sections": [
+        {
+          "heading": "Règles de Coupe",
+          "body": "Pour l'homme, se raser la tête complètement est meilleur, ou couper de manière uniforme. Pour la femme, couper seulement la longueur d'une phalange (environ 2 cm)."
+        }
+      ],
+      "recommended": [
+        "Le rasage complet pour les hommes.",
+        "Couper de façon uniforme sur toute la tête."
+      ],
+      "disliked": [
+        "Retirer les habits d'Ihram avant de s'être rasé ou coupé les cheveux."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Se couper seulement quelques mèches pour l'homme.",
+          "right": "La coupe doit être uniforme sur toute la tête. Se raser est encore meilleur."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Doua pour ceux qui se rasent",
+          "arabic": "اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ وَالْمُقَصِّرِينَ",
+          "translation": "Ô Allah, pardonne à ceux qui se rasent, Ô Allah pardonne à ceux qui se rasent. Ô Allah pardonne à ceux qui se rasent et à ceux qui se coupent les cheveux.",
+          "source": "Rapporté par Al-Bukhari & Muslim"
+        }
+      ],
+      "note": "En accomplissant cette coupe, vous terminez vos rites. Qu'Allah accepte votre Umrah."
+    }
+  }
+}

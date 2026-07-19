@@ -1,0 +1,117 @@
+{
+  "eyebrow": "Peringatan & Panduan",
+  "title": "Kesalahan Umum dalam Umrah",
+  "description": "Kesalahan-kesalahan paling menonjol yang dilakukan jamaah disertai penjelasan yang benar dan dalil syar'i.",
+  "quote": "Abdullah bin Mas'ud r.a. berkata: 'Ikutilah petunjuk dan jangan membuat bid'ah, karena sungguh kalian telah dicukupi.' Semakin jamaah memperhatikan petunjuk Nabi ﷺ, semakin sempurna ibadahnya.",
+  "groups": {
+    "ihram": {
+      "category": "Kesalahan Ihram",
+      "mistakes": [
+        {
+          "title": "Melewati Miqat Tanpa Ihram",
+          "wrong": "Sebagian jamaah melewati Miqat tanpa berihram, lalu baru berihram setelahnya.",
+          "right": "Wajib bagi siapa pun yang berniat Umrah untuk berihram dari Miqat yang dilaluinya.",
+          "daleel": "Nabi ﷺ bersabda: 'Ketentuan itu berlaku bagi penduduk kota-kota tersebut dan orang lain yang melewatinya yang berniat haji dan umrah.' — Muttafaq 'alaih."
+        },
+        {
+          "title": "Menganggap Ihram Hanya Mengenakan Dua Pakaian",
+          "wrong": "Sebagian orang menyangka bahwa ihram hanyalah mengenakan kain sarung dan selendang.",
+          "right": "Ihram adalah niat masuk ke dalam ibadah. Mengenakan pakaian ihram adalah bagian dari adabnya, bukan hakikat ihram itu sendiri."
+        },
+        {
+          "title": "Meninggalkan Talbiyah atau Lalai Darinya",
+          "wrong": "Sebagian jamaah tidak membaca Talbiyah setelah ihram atau malah disibukkan dengan mengobrol dan HP.",
+          "right": "Dianjurkan memperbanyak Talbiyah hingga memulai Tawaf.",
+          "daleel": "Telah tsabit bahwa Nabi ﷺ terus bertalbiyah sejak berihram hingga memulai Tawaf — Muttafaq 'alaih."
+        }
+      ]
+    },
+    "tawaf": {
+      "category": "Kesalahan Tawaf",
+      "mistakes": [
+        {
+          "title": "Memulai Tawaf Sebelum/Sesudah Hajar Aswad",
+          "wrong": "Sebagian jamaah memulai Tawaf sebelum sejajar dengan Hajar Aswad atau setelah melewatinya.",
+          "right": "Setiap putaran harus dimulai tepat sejajar dengan Hajar Aswad dan berakhir di sana."
+        },
+        {
+          "title": "Berdesakan untuk Menyentuh Hajar Aswad",
+          "wrong": "Sebagian jamaah memaksakan diri berdesakan hingga menyakiti sesama muslim.",
+          "right": "Jika mudah menyentuhnya tanpa menyakiti, itu sunnah; jika tidak, cukup beri isyarat dengan tangan dan bertakbir. Menyentuh Hajar Aswad adalah sunnah, menyakiti muslim hukumnya haram."
+        },
+        {
+          "title": "Menganggap Ada Doa Khusus Tiap Putaran",
+          "wrong": "Sebagian jamaah membawa buku doa khusus untuk tiap putaran dan menganggapnya sebagai sunnah.",
+          "right": "Tidak ada dalil sahih dari Nabi ﷺ tentang doa khusus untuk setiap putaran. Jamaah bebas berdoa apa saja atau berzikir dan membaca Al-Qur'an."
+        },
+        {
+          "title": "Mengeraskan Suara Saat Doa Bersama",
+          "wrong": "Sebagian kelompok membaca doa bersama-sama dengan suara keras di belakang pemandu.",
+          "right": "Asalnya setiap jamaah berdoa sendiri-sendiri, karena mengeraskan suara dapat mengganggu kekhusyukan jamaah tawaf yang lain."
+        },
+        {
+          "title": "Mengusap Seluruh Sudut Ka'bah",
+          "wrong": "Sebagian jamaah mengusap semua sudut Ka'bah atau mengusap dindingnya.",
+          "right": "Nabi ﷺ hanya mengusap Hajar Aswad dan Rukun Yamani saja."
+        }
+      ]
+    },
+    "sai": {
+      "category": "Kesalahan Sa'i",
+      "mistakes": [
+        {
+          "title": "Menganggap Wudhu Syarat Sah Sa'i",
+          "wrong": "Sebagian menyangka sa'i tidak sah tanpa berwudhu.",
+          "right": "Suci dari hadas (berwudhu) dianjurkan untuk sa'i, namun sa'i tetap sah tanpanya menurut mayoritas ulama."
+        },
+        {
+          "title": "Wanita Berlari di Antara Dua Lampu Hijau",
+          "wrong": "Sebagian wanita berlari kecil di antara dua lampu hijau seperti yang dilakukan laki-laki.",
+          "right": "Berlari kecil di antara lampu hijau hanya disunnahkan untuk laki-laki. Wanita berjalan seperti biasa di sepanjang jalur Sa'i."
+        },
+        {
+          "title": "Kesalahan Menghitung Putaran",
+          "wrong": "Sebagian orang menganggap jalan bolak-balik (Safa-Marwah-Safa) sebagai satu putaran.",
+          "right": "Safa ke Marwah dihitung 1 putaran, dan Marwah ke Safa dihitung putaran ke-2. Sa'i terdiri dari 7 putaran dimulai di Safa dan berakhir di Marwah."
+        }
+      ]
+    },
+    "halq": {
+      "category": "Kesalahan Mencukur",
+      "mistakes": [
+        {
+          "title": "Memotong Hanya Sedikit Rambut",
+          "wrong": "Sebagian laki-laki hanya memotong beberapa helai rambut di bagian depan dan menganggapnya cukup.",
+          "right": "Memotong rambut yang sah adalah dengan memotongnya secara merata di seluruh kepala.",
+          "daleel": "Ini adalah fatwa Syaikh Ibn Baz dan Syaikh Ibn Utsaimin."
+        },
+        {
+          "title": "Wanita Mencukur Gundul",
+          "wrong": "Sebagian wanita mencukur habis rambutnya karena menganggap itu lebih baik.",
+          "right": "Wanita tidak boleh mencukur gundul, melainkan hanya mengumpulkan rambut dan memotongnya sepanjang ujung jari saja.",
+          "daleel": "Nabi ﷺ bersabda: 'Wanita tidak boleh mencukur gundul, mereka hanya memotong sebagian.' — HR. Abu Dawud."
+        }
+      ]
+    },
+    "general": {
+      "category": "Kesalahan Umum",
+      "mistakes": [
+        {
+          "title": "Sibuk Berfoto dan Rekaman",
+          "wrong": "Sebagian jamaah sibuk berfoto dan melakukan live streaming sehingga mengurangi kekhusyukan ibadah.",
+          "right": "Tujuan utama Umrah adalah kekhusyukan dan menghadap Allah. Berfoto secukupnya saja tanpa mengalihkan hati atau mengganggu orang lain."
+        },
+        {
+          "title": "Menyakiti Sesama Muslim",
+          "wrong": "Sebagian orang saling mendorong, berteriak, memotong barisan, dan mendesak orang tua serta wanita.",
+          "right": "Nabi ﷺ bersabda: 'Seorang muslim adalah orang yang lidah dan tangannya tidak menyakiti muslim lainnya.' — Muttafaq 'alaih."
+        },
+        {
+          "title": "Banyak Mengobrol Urusan Dunia",
+          "wrong": "Sebagian orang banyak berbicara masalah duniawi saat melaksanakan Tawaf dan Sa'i.",
+          "right": "Waktu dan tempat suci ini harus dimanfaatkan untuk taat, berzikir, dan berdoa, jangan disia-siakan dengan mengobrol."
+        }
+      ]
+    }
+  }
+}

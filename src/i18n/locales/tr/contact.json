@@ -1,0 +1,37 @@
+{
+  "eyebrow": "İletişim",
+  "title": "İletişim",
+  "description": "Platformu zenginleştirmeye ve Rahman'ın misafirlerine hizmet etmek için geliştirmeye katkıda bulunacak görüş, soru ve önerilerinizi almaktan memnuniyet duyarız.",
+  "channels": {
+    "title": "Doğrudan İletişim Kanalları",
+    "email_title": "Platform E-postası",
+    "email_sub": "Genellikle 24 iş saati içinde yanıt veriyoruz",
+    "support_title": "Doğrudan Teknik ve Dini Destek",
+    "support_sub": "Umre sezonu boyunca mevcuttur",
+    "address_title": "Hizmet Merkezi",
+    "address_body": "Mekke — Suudi Arabistan Krallığı",
+    "quote": "\"İnsanların en hayırlısı, insanlara en faydalı olanıdır\"",
+    "quote_sub": "— Her zaman en iyisini sunmaya çalışıyoruz"
+  },
+  "form": {
+    "title": "Ekibe Mesaj Gönderin",
+    "success_title": "Mesajınız başarıyla gönderildi!",
+    "success_desc": "Bizimle iletişime geçtiğiniz için teşekkür ederiz. Mesajınızı aldık; geliştirme veya dini destek ekibimiz en kısa sürede size yanıt verecektir, inşallah.",
+    "send_another": "Başka bir mesaj gönder",
+    "name": "Ad Soyad",
+    "name_placeholder": "Adınızı girin",
+    "email": "E-posta Adresi",
+    "email_placeholder": "example@mail.com",
+    "subject": "Mesaj Konusu",
+    "subject_options": {
+      "suggestion": "💡 Geliştirme Önerisi",
+      "bug": "⚠️ Teknik Not / Hata Bildirimi",
+      "fiqh": "🏛️ Fıkhi / Dini Soru",
+      "other": "💬 Diğer"
+    },
+    "message": "Mesaj Metni",
+    "message_placeholder": "Mesajınızı buraya ayrıntılı olarak yazın...",
+    "submit": "Mesaj Gönder",
+    "sending": "Gönderiliyor..."
+  }
+}

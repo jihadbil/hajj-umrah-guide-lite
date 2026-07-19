@@ -1,0 +1,115 @@
+{
+  "eyebrow": "Uyarılar ve Rehberlik",
+  "title": "Umrede Sık Yapılan Hatalar",
+  "description": "Umrecilerin en çok yaptığı hatalar, doğru uygulamalar ve şer'i deliller.",
+  "quote": "Abdullah bin Mesud (r.a.) şöyle demiştir: 'Sünnete uyun, bidat çıkarmayın; zira size bu kadarı yeter.' Umreci sünnete ne kadar bağlı kalırsa ibadeti o kadar kamil olur.",
+  "groups": {
+    "ihram": {
+      "category": "İhram Hataları",
+      "mistakes": [
+        {
+          "title": "Mikatı İhramsız Geçmek",
+          "wrong": "Bazı umreciler mikat sınırını ihrama girmeden geçer, daha sonra ihrama girerler.",
+          "right": "Umre yapmak isteyen kişinin geçtiği mikat sınırından ihrama girmesi vaciptir.",
+          "daleel": "Peygamberimiz ﷺ: 'Bu sınırlar, oralı olanlar ile dışarıdan gelen umre ve hac yolcuları içindir.' — Buhari ve Müslim."
+        },
+        {
+          "title": "İhramı Sadece Elbise Giymek Sanmak",
+          "wrong": "Bazı kimseler ihramın sadece izar ve rida giymekten ibaret olduğunu düşünür.",
+          "right": "İhram, ibadete girme niyetiyle yasaklara tabi olmaktır. Elbise giymek bunun şeklidir, hakikati niyet etmektir."
+        },
+        {
+          "title": "Telbiyeyi Terk Etmek veya İhmal Etmek",
+          "wrong": "Bazı umreciler ihrama girdikten sonra telbiye getirmeyi bırakır veya telefonla konuşmaya dalarlar.",
+          "right": "Tavafa başlayıncaya kadar bol bol telbiye getirmek müstehaptır."
+        }
+      ]
+    },
+    "tawaf": {
+      "category": "Tavaf Hataları",
+      "mistakes": [
+        {
+          "title": "Tavafa Hacerü'l-Esved'den Önce veya Sonra Başlamak",
+          "wrong": "Bazı umreciler tavafa Hacerü'l-Esved hizasına gelmeden veya geçtikten sonra başlarlar.",
+          "right": "Tavafın her şavtı Hacerü'l-Esved hizasından başlar ve orada biter."
+        },
+        {
+          "title": "Hacerü'l-Esved'i Selamlamak İçin İnsanları İtmek",
+          "wrong": "Bazı umreciler öpmek veya dokunmak için insanları ezerek eziyet ederler.",
+          "right": "Mümkünse eziyet etmeden dokunmak sünnettir, aksi halde uzaktan el işaretiyle selamlanır. Selamlamak sünnet, Müslümanı incitmek haramdır."
+        },
+        {
+          "title": "Her Şavt İçin Özel Dua Olduğunu Sanmak",
+          "wrong": "Bazı umreciler ellerindeki kitapçıklardan her şavt için yazılı özel duaları okumayı sünnet sanırlar.",
+          "right": "Peygamberimiz'den ﷺ her şavt için özel bir dua nakledilmemiştir. Kişi dilediği gibi içtenlikle dua eder, Kur'an okur veya zikreder."
+        },
+        {
+          "title": "Toplu Halde Yüksek Sesle Dua Etmek",
+          "wrong": "Grup halinde bir liderin arkasından yüksek sesle topluca dua edilir.",
+          "right": "Doğru olan herkesin kendi kendine dua etmesidir; yüksek sesle toplu dua etmek diğer tavaf edenlerin huşuunu bozar."
+        },
+        {
+          "title": "Kabe'nin Tüm Köşelerini Selamlamak",
+          "wrong": "Bazı umreciler Kabe'nin tüm köşelerini selamlar veya duvarlarına yüz sürerler.",
+          "right": "Peygamberimiz ﷺ sadece Hacerü'l-Esved ve Rükn-i Yemani köşelerini selamlamıştır."
+        }
+      ]
+    },
+    "sai": {
+      "category": "Sa'y Hataları",
+      "mistakes": [
+        {
+          "title": "Sa'y İçin Abdestin Şart Olduğunu Düşünmek",
+          "wrong": "Bazı kimseler abdest olmadan sa'yin geçerli olmayacağını düşünür.",
+          "right": "Sa'y yaparken abdestli olmak müstehaptır ancak abdestsiz yapılan sa'y de çoğunluğa göre geçerlidir."
+        },
+        {
+          "title": "Kadınların İki Yeşil Işık Arasında Koşması",
+          "wrong": "Bazı kadınlar yeşil direkler arasında erkekler gibi hızlı koşarlar.",
+          "right": "Yeşil direkler arasında koşmak (hervele) sadece erkeklere sünnettir. Kadınlar normal yürürler."
+        },
+        {
+          "title": "Şavt Sayısında Hata Yapmak",
+          "wrong": "Bazı kimseler Safa ile Merve arasındaki gidiş-dönüşü tek bir tur sayarlar.",
+          "right": "Safa'dan Merve'ye gidiş 1 tur, Merve'den Safa'ya dönüş 2. turdur. Sa'y Safa'da başlar, Merve'de biter ve toplam 7 turdur."
+        }
+      ]
+    },
+    "halq": {
+      "category": "Tıraş Hataları",
+      "mistakes": [
+        {
+          "title": "Saçın Sadece Bir Kısmından Kesmek",
+          "wrong": "Bazı erkekler başın sadece önünden birkaç tel saç keserek yetinirler.",
+          "right": "Kısaltmanın başın tamamını kapsaması gerekir."
+        },
+        {
+          "title": "Kadının Saçını Tamamen Tıraş Etmesi",
+          "wrong": "Bazı kadınlar daha faziletli olduğunu düşünerek saçlarını tamamen tıraş ederler.",
+          "right": "Kadınlar saçını tamamen tıraş etmez, sadece saç uçlarından bir parmak ucu kadar keserler.",
+          "daleel": "Peygamberimiz ﷺ: 'Kadınlara tıraş olmak yoktur, onlara sadece kısaltmak vardır.' — Ebu Davud."
+        }
+      ]
+    },
+    "general": {
+      "category": "Genel Hatalar",
+      "mistakes": [
+        {
+          "title": "Sürekli Fotoğraf ve Yayınla Meşgul Olmak",
+          "wrong": "Bazı umreciler sürekli fotoğraf çekmek ve canlı yayın yapmaktan ibadete odaklanamazlar.",
+          "right": "Umreden maksat huşudur. Fotoğraf çekimi kalbi meşgul etmeyecek ve başkalarını rahatsız etmeyecek derecede az olmalıdır."
+        },
+        {
+          "title": "Müslümanları İncitmek",
+          "wrong": "Dövüşmek, bağırmak, insanları itmek, yaşlıları ve kadınları sıkıştırmak.",
+          "right": "Peygamberimiz ﷺ: 'Müslüman, diğer Müslümanların elinden ve dilinden güvende olduğu kimsedir.' — Buhari."
+        },
+        {
+          "title": "Tavaf ve Sa'yde Dünya Kelamı Konuşmak",
+          "wrong": "Tavaf ve sa'y yaparken sürekli dünya işlerini konuşmak.",
+          "right": "Buralar zikir, dua ve ibadet yerleridir; boş konuşmalarla feyzi kaçırılmamalıdır."
+        }
+      ]
+    }
+  }
+}

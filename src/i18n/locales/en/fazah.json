@@ -1,0 +1,82 @@
+{
+  "eyebrow": "Fazah Service",
+  "title": "Fazah — Decentralized Pilgrim Relief Network",
+  "description": "Every pilgrim carries a quick response (QR) card that connects them to the nearest guide or hotel reception in moments, without needing a phone or internet on their part.",
+  "demoNotice": "This is an explanatory page for the proposed service concept. The displayed details (pilgrim card and alert simulator) are fully experimental for explanation purposes only.",
+  "why": {
+    "badge": "Why Fazah?",
+    "title": "When a pilgrim needs help, there is no time to waste",
+    "desc": "In the crowd of the Two Holy Mosques, a pilgrim may get lost or experience a health problem away from their group. Fazah is a volunteer network combining certified guides and hotel receptionists, so that any of them can identify any pilgrim carrying the service card and alert their supervisors instantly."
+  },
+  "how": {
+    "title": "How does the service work?",
+    "desc": "Three simple steps connect the pilgrim to the relief network without complexity."
+  },
+  "simulator": {
+    "title": "Scanning & Alert Simulation",
+    "badge": "Demonstration",
+    "idleDesc": "Click the button below to simulate a guide scanning the Fazah card of the mock pilgrim above.",
+    "idleBtn": "Simulate Scanning Card",
+    "doneText": "The group leader and hotel reception have been notified of the pilgrim's current location.",
+    "resetBtn": "Restart Simulation",
+    "chain": {
+      "step1": "Identify pilgrim identity",
+      "step2": "Alert group leader",
+      "step3": "Share current location",
+      "step4": "Notify hotel reception"
+    }
+  },
+  "cardLabels": {
+    "title": "Fazah Card",
+    "pilgrimName": "Pilgrim Name",
+    "hotel": "Hotel",
+    "roomNumber": "Room Number",
+    "groupLeaderPhone": "Group Leader Phone",
+    "bloodType": "Blood Type",
+    "qrDesc": "Any registered guide or hotel receptionist scans this code to display the pilgrim's details and alert the relief network instantly.",
+    "flipQr": "Show QR Code",
+    "flipFront": "Show Front Card"
+  },
+  "sampleCard": {
+    "name": "Abdulrahman Saeed Al-Mutairi",
+    "hotel": "Swissôtel Al Maqam Makkah",
+    "groupLeaderName": "Sheikh Abdullah Al-Harbi",
+    "groupLeaderPhone": "055 444 2211",
+    "roomNumber": "Room 714",
+    "bloodType": "O+",
+    "healthNote": "Hypertension patient, carries medicine in his bag",
+    "language": "Arabic"
+  },
+  "steps": {
+    "s1": {
+      "title": "Personal Fazah Card",
+      "desc": "Every pilgrim receives a card or wristband carrying a printed QR code, without needing a phone or internet. The card contains their name, hotel, room number, group leader's phone, blood type, and health notes."
+    },
+    "s2": {
+      "title": "Scan by any Guide or Receptionist",
+      "desc": "When needed, the nearest certified guide or registered receptionist scans the QR code via their phone camera, immediately displaying the pilgrim's info without needing a special app."
+    },
+    "s3": {
+      "title": "Instant Alert & Help Chain",
+      "desc": "Upon scanning, the network automatically sends an alert to the group leader and emergency contact, sharing the pilgrim's current location and notifying the hotel reception, starting the help chain without delay."
+    }
+  },
+  "benefits": {
+    "b1": {
+      "title": "No Phone or Internet Needed",
+      "desc": "The card works without any device on the pilgrim's side; simply carrying it as a card or wristband is enough."
+    },
+    "b2": {
+      "title": "Distributed Volunteer Network",
+      "desc": "Any guide or receptionist registered in the network can assist the pilgrim wherever they are found."
+    },
+    "b3": {
+      "title": "Critical Health Info When Needed",
+      "desc": "Blood type and health notes reach the first helper in a few seconds."
+    },
+    "b4": {
+      "title": "Ideal for the Elderly & Disabled",
+      "desc": "A simple solution requiring no technical knowledge, suitable for all ages and conditions."
+    }
+  }
+}

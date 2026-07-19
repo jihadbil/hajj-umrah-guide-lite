@@ -1,0 +1,117 @@
+{
+  "eyebrow": "Shariah Rulings",
+  "title": "Rulings of Fidya (Compensation) in Umrah",
+  "description": "When is Fidya obligatory and how is it paid—extracted from the Holy Quran, Prophetic Sunnah, and rulings of scholars.",
+  "warningTitle": "Important Jurisprudential Notice",
+  "warningBody": "Fidya is one of the most precise chapters of Hajj and Umrah. A pilgrim should not issue rulings for themselves in matters involving sacrifice or ransom, but rather refer to scholars or official fatwa channels if they face any difficulty.",
+  "labels": {
+    "daleel": "Evidence from the Quran and Sunnah",
+    "note": "💡 Jurisprudential Note: ",
+    "warning": "⚠️ Warning: ",
+    "faqTitle": "Important Rulings and Details",
+    "referenceTitle": "Scientific and Shariah References"
+  },
+  "sections": {
+    "sec1": {
+      "title": "What is meant by Fidya?",
+      "content": [
+        "Fidya is what the Shariah makes obligatory on a pilgrim in certain cases when they omit a duty of the rituals, or commit some prohibitions of Ihram, according to the details explained in the Holy Quran and the Prophetic Sunnah.",
+        "Not every violation requires Fidya; rather, rulings differ according to the type of violation and the pilgrim's situation. Therefore, Fidya is considered one of the most precise chapters of Hajj and Umrah fiqh."
+      ],
+      "warning": "Fidya is one of the most precise chapters of Hajj and Umrah. A pilgrim should not issue rulings for themselves in matters involving sacrifice or ransom, but rather refer to scholars."
+    },
+    "sec2": {
+      "title": "First: Leaving a Pillar of Umrah",
+      "content": [
+        "If a pilgrim leaves a pillar of Umrah—such as Tawaf or Sa'i—Fidya does not compensate for it at all. Rather, they must perform that pillar, because Umrah is not valid without it."
+      ],
+      "list": [
+        "Leaving Tawaf — Umrah is not valid and they must perform it.",
+        "Leaving Sa'i — Umrah is not valid and they must perform it."
+      ],
+      "note": "The pilgrim does not exit the state of Ihram until they perform the pillars they omitted."
+    },
+    "sec3": {
+      "title": "Second: Leaving a Duty of Umrah",
+      "content": [
+        "If a pilgrim leaves a duty of Umrah—such as assuming Ihram from the Miqat, or shaving/cutting—the majority of jurists hold that a sacrifice (dam) is due if they cannot rectify the duty."
+      ],
+      "list": [
+        "Crossing the Miqat without Ihram without returning to it.",
+        "Leaving shaving or cutting."
+      ],
+      "daleel": [
+        "Scholars cited what was established from Abdullah ibn Abbas (may Allah be pleased with them both) that he said: 'Whoever forgets part of his rituals or leaves it, let him offer a sacrifice.' — Narrated by Al-Muwatta, and accepted by the majority of scholars."
+      ],
+      "note": "The sacrifice (dam) is slaughtering a sheep to be distributed to the poor of Makkah."
+    },
+    "sec4": {
+      "title": "Third: Fidya of Harm (Fidyat Al-Atha)",
+      "content": [
+        "If a person in Ihram needs to commit some prohibitions due to an excuse—such as shaving the head due to illness, lice, or injury—it is permissible for them, and they must offer the Fidya of Harm."
+      ],
+      "daleel": [
+        "Allah the Almighty said: 'And whoever among you is ill or has an ailment of the head, then a ransom of fasting or charity or sacrifice [is required].' [Al-Baqarah: 196]",
+        "It was established that the Prophet ﷺ said to Ka'b ibn Ujrah (may Allah be pleased with him) when lice afflicted him: 'Shave your head, and fast three days, or feed six poor persons, or offer a sheep.' — Agreed upon."
+      ],
+      "options": [
+        { "title": "Offering a sheep", "desc": "To be distributed to the poor of the Haram" },
+        { "title": "Feeding six poor persons", "desc": "Half a sa' of food for each poor person" },
+        { "title": "Fasting three days", "desc": "Consecutive or separate" }
+      ],
+      "note": "The pilgrim can choose any of these options, and there is no binding order."
+    },
+    "sec5": {
+      "title": "Fourth: Committing a Prohibition Out of Forgetfulness or Ignorance",
+      "content": [
+        "Whoever commits a prohibition of Ihram out of forgetfulness, ignorance, or coercion, there is no sin upon them.",
+        "As for the Fidya, there is disagreement among scholars depending on the type of prohibition and the person's situation."
+      ],
+      "daleel": [
+        "Allah the Almighty said: 'Our Lord, do not impose blame upon us if we have forgotten or erred.' [Al-Baqarah: 286]",
+        "And He said: 'And there is no blame upon you for that in which you have erred but only for what your hearts intended.' [Al-Ahzab: 5]"
+      ],
+      "warning": "Sheikh Ibn Baz chose that there is no Fidya on someone who commits a prohibition out of forgetfulness or ignorance. One should refer to scholars for details."
+    },
+    "sec6": {
+      "title": "Fifth: Committing a Prohibition Intentionally",
+      "content": [
+        "Whoever intentionally commits a prohibition of Ihram while knowing the ruling has sinned, and some prohibitions require a ransom (fidya) depending on the type.",
+        "Not all prohibitions have the same ruling, and their rulings differ according to their types."
+      ],
+      "list": [
+        "Wearing tailored clothes for men — the threefold Fidya of Harm (sheep / feeding / fasting).",
+        "Using perfume — the threefold Fidya of Harm.",
+        "Shaving hair — the threefold Fidya of Harm.",
+        "Sexual intercourse before tahallul — invalidates the ritual according to the majority and requires expiation."
+      ],
+      "warning": "This is an overview. You must refer to scholars in every matter involving sacrifice or ransom."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Is Fidya obligatory on someone who wears tailored clothes out of forgetfulness?",
+      "a": "If worn out of forgetfulness or ignorance, there is no sin. As for Fidya, there is disagreement; Sheikh Ibn Baz chose that there is no Fidya if they are excused by forgetfulness or ignorance."
+    },
+    {
+      "q": "Is Fidya obligatory on someone who uses perfume out of forgetfulness?",
+      "a": "If they were forgetful or ignorant, there is no sin, and they should remove the perfume as soon as they remember. As for Fidya, there is disagreement as in the case of tailored clothes."
+    },
+    {
+      "q": "Is Fidya obligatory on someone who shaves their hair due to a Shariah excuse?",
+      "a": "Yes. If they shave due to a Shariah excuse like illness, it is allowed, and they must offer the Fidya of Harm: choose between a sheep, feeding six poor persons, or fasting three days."
+    },
+    {
+      "q": "Where is the sacrifice performed?",
+      "a": "It is best to slaughter the sheep in Makkah and distribute it to its poor. Some scholars allow appointing an agent to do so."
+    }
+  ],
+  "references": [
+    "The Holy Quran",
+    "Sahih Al-Bukhari and Sahih Muslim",
+    "Al-Muwatta of Imam Malik ibn Anas",
+    "Al-Tahqiq wal-Idayh — Sheikh Ibn Baz",
+    "Fatwas of Hajj, Umrah, and Visitation — Sheikh Ibn Baz",
+    "Al-Sharh Al-Mumti' — Sheikh Ibn Uthaymeen"
+  ]
+}

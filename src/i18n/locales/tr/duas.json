@@ -1,0 +1,75 @@
+{
+  "eyebrow": "Dualar ve Zikirler",
+  "title": "Umre İçin Me'sur Dualar",
+  "description": "Peygamber Efendimiz'den ﷺ nakledilen, umre yolculuğunun her durağında okunabilecek seçkin dua ve zikirler.",
+  "groups": {
+    "talbiyah": {
+      "title": "Telbiye",
+      "items": [
+        {
+          "title": "Peygamberimiz'in ﷺ Telbiyesi",
+          "arabic": "لبّيك اللهم لبّيك، لبّيك لا شريك لك لبّيك، إنّ الحمد والنعمة لك والملك، لا شريك لك.",
+          "translation": "Buyur Allah'ım buyur! Buyur, senin hiçbir ortağın yoktur, buyur! Şüphesiz hamd de nimet de mülk de sana aittir. Senin hiçbir ortağın yoktur.",
+          "source": "Muttafaq 'alaih"
+        }
+      ]
+    },
+    "tawf": {
+      "title": "Tavaf Duaları",
+      "items": [
+        {
+          "title": "Her Şavtın Başında",
+          "arabic": "بسم الله، والله أكبر، اللهم إيماناً بك، وتصديقاً بكتابك، ووفاءً بعهدك، واتّباعاً لسنّة نبيك محمد ﷺ.",
+          "translation": "Allah'ın adıyla, Allah en büyüktür. Allah'ım! Sana inanarak, Kitabını tasdik ederek, sana verdiğim söze vefa göstererek ve Peygamberin Muhammed'in ﷺ sünnetine uyarak başlıyorum.",
+          "source": "İbn Ömer'den nakil"
+        },
+        {
+          "title": "Rükn-i Yemani ile Hacerü'l-Esved Arasında",
+          "arabic": "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾",
+          "translation": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi cehennem azabından koru.",
+          "source": "Bakara 201"
+        }
+      ]
+    },
+    "sai": {
+      "title": "Sa'y Duaları",
+      "items": [
+        {
+          "title": "Safa ve Merve'ye Çıkarken",
+          "arabic": "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾ أبدأ بما بدأ الله به.",
+          "translation": "Şüphesiz Safa ve Merve Allah'ın şeairindendir (alametlerindendir). Allah'ın başladığı ile başlıyorum.",
+          "source": "Rapporté par Muslim"
+        },
+        {
+          "title": "Safa ve Merve Üzerinde",
+          "arabic": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، لا إله إلا الله وحده، أنجز وعده، ونصر عبده، وهزم الأحزاب وحده.",
+          "translation": "Allah'tan başka hiçbir ilah yoktur. O tektir, ortağı yoktur. Mülk O'nundur, hamd O'na mahsustur. O her şeye kadirdir. Allah'tan başka hiçbir ilah yoktur. O vaadini yerine getirdi, kuluna yardım etti ve düşman topluluklarını tek başına yenilgiye uğrattı.",
+          "source": "Rapporté par Muslim"
+        }
+      ]
+    },
+    "general": {
+      "title": "Umreci İçin Genel Zikirler",
+      "items": [
+        {
+          "title": "Mescide Girerken",
+          "arabic": "اللهم افتح لي أبواب رحمتك.",
+          "translation": "Allah'ım! Bana rahmet kapılarını aç.",
+          "source": "Rapporté par Muslim"
+        },
+        {
+          "title": "Kabe'yi İlk Görünce",
+          "arabic": "اللهم زد هذا البيت تشريفاً وتعظيماً وتكريماً ومهابة، وزد من شرّفه وكرّمه ممن حجّه أو اعتمره تشريفاً وتكريماً وتعظيماً وبرّاً.",
+          "translation": "Allah'ım! Bu Beyt'in (Kabe'nin) şerefini, azametini, keremini ve heybetini artır. Hac ve umre yaparak onu yüceltenlerin de şerefini, keremini, azametini ve iyiliğini artır.",
+          "source": "Hadis / Eser"
+        },
+        {
+          "title": "Zemzem Suyu İçerken",
+          "arabic": "اللهم إني أسألك علماً نافعاً، ورزقاً واسعاً، وشفاءً من كل داء.",
+          "translation": "Allah'ım! Senden faydalı ilim, bol rızık ve her türlü hastalıktan şifa dilerim.",
+          "source": "İbn Abbas'tan nakil"
+        }
+      ]
+    }
+  }
+}

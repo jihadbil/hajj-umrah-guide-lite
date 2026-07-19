@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Hubungi Kami",
+  "title": "Hubungi Kami",
+  "description": "Kami senang menerima pendapat, pertanyaan, dan catatan Anda yang berkontribusi untuk memperkaya platform dan mengembangankannya untuk melayani tamu Allah.",
+  "channels": {
+    "title": "Saluran Kontak Langsung",
+    "email_title": "Email Platform",
+    "email_sub": "Kami biasanya merespons dalam waktu 24 jam kerja",
+    "support_title": "Dukungan Teknis & Syariah Langsung",
+    "support_sub": "Tersedia sepanjang musim Umrah",
+    "address_title": "Kantor Pusat Layanan",
+    "address_body": "Makkah — Kerajaan Arab Saudi",
+    "quote": "\"Sebaik-baik manusia adalah yang paling bermanfaat bagi manusia\"",
+    "quote_sub": "— Kami selalu berusaha memberikan yang terbaik"
+  },
+  "form": {
+    "title": "Kirim Pesan ke Tim",
+    "success_title": "Pesan Anda berhasil dikirim!",
+    "success_desc": "Terima kasih telah menghubungi kami. Kami telah menerima pesan Anda dan tim pengembang atau tim dukungan syariah kami akan merespons Anda sesegera mungkin, insya Allah.",
+    "send_another": "Kirim pesan lain",
+    "name": "Nama Lengkap",
+    "name_placeholder": "Masukkan nama Anda",
+    "email": "Alamat Email",
+    "email_placeholder": "example@mail.com",
+    "subject": "Subjek Pesan",
+    "subject_options": {
+      "suggestion": "💡 Saran Pengembangan",
+      "bug": "⚠️ Catatan Teknis / Laporan Bug",
+      "fiqh": "🏛️ Pertanyaan Fiqih / Syariah",
+      "other": "💬 Lainnya"
+    },
+    "message": "Isi Pesan",
+    "message_placeholder": "Tulis pesan Anda di sini secara detail...",
+    "submit": "Kirim Pesan",
+    "sending": "Mengirim..."
+  }
+}

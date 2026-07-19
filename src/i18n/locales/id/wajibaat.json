@@ -1,0 +1,140 @@
+{
+  "eyebrow": "Fikih Umrah",
+  "title": "Wajib, Sunnah & Rekomendasi",
+  "description": "Semua yang dibutuhkan jamaah dari aspek fiqih: kewajiban yang berdosa jika ditinggalkan, Sunnah yang berpahala, dan makruh yang harus dihindari.",
+  "tabs": {
+    "wajibaat": "Wajib",
+    "sunan": "Sunnah",
+    "mustahabbat": "Dianjurkan",
+    "makrohaat": "Makruh"
+  },
+  "banners": {
+    "wajibaat": "Wajib adalah amalan yang diharuskan dalam Umrah. Meninggalkannya adalah dosa dan mewajibkan dam (sembelihan seekor kambing) menurut mayoritas ulama, meskipun Umrahnya tetap sah—berbeda dengan Rukun yang tidak sah tanpanya.",
+    "sunan": "Sunnah adalah apa yang dilakukan atau disetujui oleh Nabi ﷺ. Mengerjakannya berpahala dan meninggalkannya tidak berdosa. Mengerjakannya menyempurnakan Umrah dan menambah pahala.",
+    "mustahabbat": "Dianjurkan (Mustahabbat) adalah amalan yang dicintai Allah. Mengerjakannya menambah pahala dan kedekatan dengan-Nya.",
+    "makrohaat": "Makruh adalah perkara yang dianjurkan untuk dihindari karena mengurangi pahala atau mengurangi kesempurnaan ibadah."
+  },
+  "labels": {
+    "daleel": "Dalil Syar'i",
+    "consequence": "Hukum jika Ditinggalkan"
+  },
+  "wajibaat_items": {
+    "miqat": {
+      "title": "Ihram dari Miqat",
+      "body": "Wajib bagi siapa saja yang ingin Umrah untuk berihram dari Miqat yang dilaluinya. Jika melewati Miqat tanpa berihram, wajib kembali ke sana, jika tidak maka wajib membayar dam.",
+      "daleel": "Sabda Nabi ﷺ: 'Ketentuan itu berlaku bagi penduduk kota-kota tersebut dan orang lain yang melewatinya yang berniat haji dan umrah.' — Muttafaq 'alaih.",
+      "consequence": "Siapa saja yang melewati Miqat tanpa ihram dan tidak kembali, dia wajib membayar dam (menyembelih seekor kambing) menurut mayoritas ulama."
+    },
+    "halq": {
+      "title": "Mencukur atau Memotong Rambut",
+      "body": "Mencukur atau memotong rambut adalah wajib dalam Umrah menurut mayoritas ulama, dan merupakan tanda bertahallul. Tidak cukup memotong hanya sebagian kecil rambut.",
+      "daleel": "Firman Allah Ta'ala: '...dengan mencukur rambut kepala dan memotongnya...' [Al-Fath: 27]",
+      "consequence": "Meninggalkan mencukur atau memotong rambut membuat tahallul tidak sah, dan wajib membayar dam menurut sebagian ulama."
+    }
+  },
+  "sunan_items": {
+    "ihram": {
+      "title": "Sunnah Ihram",
+      "items": [
+        "Mandi sebelum ihram",
+        "Mengenakan pakaian ihram putih bersih untuk laki-laki",
+        "Memakai wewangian di badan sebelum ihram",
+        "Shalat dua rakaat di Miqat",
+        "Melafalkan niat ihram dan mulai Talbiyah segera",
+        "Isytirat (syarat halangan)",
+        "Mengeraskan suara Talbiyah bagi laki-laki, lirih bagi wanita"
+      ]
+    },
+    "tawaf": {
+      "title": "Sunnah Tawaf",
+      "items": [
+        "Idhtiba' (bahu kanan terbuka) bagi laki-laki",
+        "Ramal (berlari kecil) di tiga putaran pertama bagi laki-laki",
+        "Mengusap Hajar Aswad atau memberi isyarat dengannya",
+        "Mengusap Rukun Yamani",
+        "Membaca 'Rabbana atina fid-dunya hasanah...' di antara Rukun Yamani & Hajar Aswad",
+        "Shalat dua rakaat di belakang Maqam Ibrahim",
+        "Minum air Zamzam dan berdoa setelahnya"
+      ]
+    },
+    "sai": {
+      "title": "Sunnah Sa'i",
+      "items": [
+        "Mendaki bukit Safa dan Marwah",
+        "Membaca 'Innas-Safa wal-Marwata...' ketika naik Safa",
+        "Menghadap kiblat dan berdoa 3 kali di Safa dan Marwah",
+        "Berlari kecil di antara dua pilar hijau bagi laki-laki",
+        "Suci dari hadas selama Sa'i"
+      ]
+    },
+    "halq": {
+      "title": "Sunnah Mencukur",
+      "items": [
+        "Mencukur habis bagi laki-laki lebih utama daripada memotong sebagian",
+        "Memotong rata dari seluruh bagian kepala",
+        "Segera mencukur setelah menyelesaikan Sa'i"
+      ]
+    }
+  },
+  "mustahabbat_items": {
+    "haram": {
+      "category": "Di Masjidil Haram",
+      "items": [
+        "Masuk melalui Bab السلام (Pintu Salam)",
+        "Masuk dengan kaki kanan dan membaca doa masuk masjid",
+        "Khusyuk saat melihat Ka'bah",
+        "Memperbanyak tawaf sunnah",
+        "Berdiam di Makkah dan memperbanyak shalat di Masjidil Haram"
+      ]
+    },
+    "worship": {
+      "category": "Dalam Ibadah Umum",
+      "items": [
+        "Memperbanyak zikir, membaca Al-Qur'an dan berdoa",
+        "Menghidupkan malam dengan shalat dan zikir",
+        "Bersedekah kepada orang miskin di Makkah",
+        "Mendoakan orang tua dan kaum muslimin",
+        "Berakhlak mulia dan bersabar",
+        "Menjauhi perkataan sia-sia dan perdebatan"
+      ]
+    }
+  },
+  "makrohaat_items": {
+    "ihram": {
+      "category": "Saat Ihram",
+      "items": [
+        "Menunda Talbiyah setelah niat ihram tanpa uzur",
+        "Memakai wewangian di kain ihram setelah niat",
+        "Wanita bersuara keras saat Talbiyah di depan non-mahram",
+        "Disibukkan dengan HP daripada bertalbiyah"
+      ]
+    },
+    "tawaf": {
+      "category": "Saat Tawaf",
+      "items": [
+        "Mengeraskan suara doa bersama hingga mengganggu orang lain",
+        "Memberi isyarat ke Rukun Yamani jika tidak bisa mengusapnya",
+        "Tetap ber-idhtiba' setelah selesai tawaf",
+        "Hanya membaca doa panjang dari buku tanpa kekhusyukan"
+      ]
+    },
+    "sai": {
+      "category": "Saat Sa'i",
+      "items": [
+        "Wanita berlari kecil di antara pilar hijau",
+        "Berlari di sepanjang jalur Sa'i",
+        "Memulai Sa'i dari Marwah sebelum Safa",
+        "Meninggalkan zikir di Safa & Marwah"
+      ]
+    },
+    "general": {
+      "category": "Secara Umum",
+      "items": [
+        "Disibukkan dengan berfoto dan live stream",
+        "Mengganggu orang lain dengan mendorong atau berdesakan",
+        "Banyak berbicara urusan duniawi di tempat suci",
+        "Melalaikan shalat fardhu pada waktunya"
+      ]
+    }
+  }
+}

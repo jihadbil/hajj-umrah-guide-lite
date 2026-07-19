@@ -1,0 +1,140 @@
+{
+  "eyebrow": "Fiqh de l'Umrah",
+  "title": "Obligations, Sunnahs & Actes Recommandés",
+  "description": "Tout ce dont le pèlerin a besoin d'un point de vue jurisprudentiel : les obligations dont le délaissement est péché, les Sunnahs récompensées et les actes déconseillés à éviter.",
+  "tabs": {
+    "wajibaat": "Obligations",
+    "sunan": "Sunnahs",
+    "mustahabbat": "Recommandés",
+    "makrohaat": "Déconseillés"
+  },
+  "banners": {
+    "wajibaat": "Les obligations (Wajibaat) sont les actes ordonnés par la Shariah pour l'Umrah. Le délaissement de l'un d'eux est un péché et nécessite un sacrifice (dam / sacrifice d'un mouton) selon la majorité des juristes, bien que l'Umrah reste valide malgré le péché — contrairement aux piliers, sans lesquels l'Umrah est totalement invalide.",
+    "sunan": "Les Sunnahs sont ce que le Prophète ﷺ a fait ou approuvé. Les accomplir est récompensé, et les délaisser n'est pas un péché. Veiller à les pratiquer complète l'Umrah et augmente la récompense.",
+    "mustahabbat": "Les actes recommandés (Mustahabbat) sont des œuvres que Allah aime. Les accomplir augmente la récompense et la proximité avec Lui. Ils sont plus larges que les Sunnahs, englobant ce qui est encouragé par les textes généraux du Coran et de la Sunnah.",
+    "makrohaat": "Les actes déconseillés (Makrohaat) sont des pratiques qu'il est conseillé d'éviter car elles réduisent la récompense ou nuisent à la perfection de l'adoration, sans toutefois atteindre le niveau de l'interdiction."
+  },
+  "labels": {
+    "daleel": "Preuve Shari'ah",
+    "consequence": "Conséquence du Délaissement"
+  },
+  "wajibaat_items": {
+    "miqat": {
+      "title": "L'Ihram depuis le Miqat",
+      "body": "Il est obligatoire pour quiconque souhaite faire l'Umrah d'entrer en Ihram depuis le Miqat par lequel il passe. Celui qui franchit le Miqat sans Ihram doit y retourner, sinon un sacrifice (dam) devient obligatoire selon la majorité.",
+      "daleel": "Le Prophète ﷺ a dit : 'Ils sont pour eux, et pour quiconque y passe en dehors de leurs habitants, parmi ceux qui veulent accomplir le Hajj et l'Umrah.' — Rapporté par Al-Bukhari et Muslim.",
+      "consequence": "Quiconque franchit le Miqat sans Ihram et n'y retourne pas est tenu d'offrir un sacrifice (égorger un mouton) selon la majorité des savants."
+    },
+    "halq": {
+      "title": "Le Rasage ou la Coupe",
+      "body": "Le rasage ou la coupe des cheveux est une obligation de l'Umrah selon la majorité des juristes, et c'est l'acte qui permet la désacralisation de l'Ihram. Il ne suffit pas de couper seulement une petite partie des cheveux.",
+      "daleel": "Allah le Très Haut a dit : '...ayant rasé vos têtes et coupé vos cheveux...' [Al-Fath: 27]",
+      "consequence": "Celui qui délaisse le rasage ou la coupe ne s'est pas désacralisé de son Ihram, et un sacrifice est requis selon certains savants."
+    }
+  },
+  "sunan_items": {
+    "ihram": {
+      "title": "Sunnahs de l'Ihram",
+      "items": [
+        "Faire les grandes ablutions (ghousl) avant l'Ihram",
+        "Porter un pagne (izar) et une cape (rida) blancs et propres pour les hommes",
+        "Appliquer du parfum sur le corps (pas sur le vêtement) pour les hommes avant l'Ihram",
+        "Prier deux rak'ahs au Miqat s'il y a une mosquée",
+        "Formuler l'intention de l'Ihram pour l'Umrah et commencer la Talbiyah immédiatement",
+        "La condition (Ishtirat) pour celui qui craint un empêchement",
+        "Élever la voix avec la Talbiyah pour les hommes, et la baisser pour les femmes"
+      ]
+    },
+    "tawaf": {
+      "title": "Sunnahs du Tawaf",
+      "items": [
+        "L'Idtiba' pour les hommes pendant le Tawaf de l'Umrah — découvrir l'épaule droite",
+        "Le Ramal pendant les trois premiers tours pour les hommes — marcher à pas rapides",
+        "Toucher la Pierre Noire ou faire un signe vers elle avec le Takbeer au début de chaque tour",
+        "Toucher le Coin Yéménite de la main à chaque tour si possible sans causer de gêne",
+        "Réciter 'Rabbana atina fid-dunya hasanah...' entre le Coin Yéménite et la Pierre Noire",
+        "Prier deux rak'ahs derrière le Maqam d'Ibrahim après le Tawaf",
+        "Boire de l'eau de Zamzam et invoquer après les deux rak'ahs"
+      ]
+    },
+    "sai": {
+      "title": "Sunnahs du Sa'i",
+      "items": [
+        "Monter sur Safa et Marwah en les atteignant",
+        "Réciter 'Innas-Safa wal-Marwata...' en montant sur Safa",
+        "Faire face à la Qiblah et répéter le dhikr et l'invocation trois fois sur Safa et Marwah",
+        "Courir légèrement entre les deux repères verts pour les hommes uniquement",
+        "Être en état de pureté rituelle pendant le Sa'i"
+      ]
+    },
+    "halq": {
+      "title": "Sunnahs du Rasage et de la Coupe",
+      "items": [
+        "Le rasage complet est préférable pour l'homme plutôt que la coupe, sauf s'il souhaite faire le Hajj bientôt",
+        "Couper les cheveux de toutes les parties de la tête, pas seulement d'un côté",
+        "Se hâter de se raser ou de couper court immédiatement après le Sa'i"
+      ]
+    }
+  },
+  "mustahabbat_items": {
+    "haram": {
+      "category": "Dans la Grande Mosquée",
+      "items": [
+        "Entrer par la Porte de Bani Shaibah (Porte de la Paix) en suivant le Prophète ﷺ",
+        "Entrer du pied droit en récitant l'invocation d'entrée à la mosquée",
+        "Ressentir de l'humilité en voyant la Kaaba et se consacrer à l'invocation",
+        "Multiplier les circumambulations bénévoles (Tawaf)",
+        "Séjourner à La Mecque et multiplier les prières dans la Grande Mosquée"
+      ]
+    },
+    "worship": {
+      "category": "Dans l'Adoration en Général",
+      "items": [
+        "Multiplier le dhikr, la récitation et les invocations tout au long du voyage",
+        "Faire vivre la nuit par la prière et le dhikr pendant ces jours bénis",
+        "Faire l'aumône aux pauvres et aux nécessiteux à La Mecque",
+        "Invoquer pour ses parents, ses proches et les musulmans dans les lieux sacrés",
+        "S'orner d'un bon comportement et patienter face aux nuisances",
+        "S'éloigner des paroles futiles, de l'obscénité, des disputes et des affaires mondaines"
+      ]
+    }
+  },
+  "makrohaat_items": {
+    "ihram": {
+      "category": "Pendant l'Ihram",
+      "items": [
+        "Retarder la Talbiyah après l'intention d'Ihram sans excuse",
+        "Mettre du parfum sur les vêtements d'Ihram après avoir formulé l'intention",
+        "Une femme élevant la voix pour la Talbiyah devant des hommes non-mahrams",
+        "S'occuper avec le téléphone et les discussions plutôt que la Talbiyah"
+      ]
+    },
+    "tawaf": {
+      "category": "Pendant le Tawaf",
+      "items": [
+        "Élever la voix pour des invocations collectives, ce qui perturbe les autres",
+        "Faire un signe vers le Coin Yéménite si on ne peut pas le toucher",
+        "Continuer l'Idtiba' après le Tawaf et avant de prier les deux rak'ahs",
+        "S'occuper à mémoriser de longues invocations au détriment de l'humilité"
+      ]
+    },
+    "sai": {
+      "category": "Pendant le Sa'i",
+      "items": [
+        "Les femmes courant légèrement entre les deux repères verts",
+        "Courir sur tout le parcours au lieu de courir uniquement entre les repères",
+        "Commencer par Marwah au lieu de Safa",
+        "Délaisser les invocations sur Safa et Marwah et se contenter de passer"
+      ]
+    },
+    "general": {
+      "category": "En Général",
+      "items": [
+        "S'occuper de la photographie et de la diffusion en direct au détriment de l'humilité",
+        "Nuire aux musulmans en poussant, en bousculant ou en élevant la voix",
+        "Trop parler d'affaires mondaines dans les lieux saints",
+        "Négligence dans l'accomplissement des prières obligatoires à l'heure"
+      ]
+    }
+  }
+}

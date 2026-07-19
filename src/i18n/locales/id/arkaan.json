@@ -1,0 +1,145 @@
+{
+  "eyebrow": "Fikih Umrah",
+  "title": "Rukun-Rukun Umrah",
+  "description": "Rukun adalah amalan mendasar yang mendasari ibadah Umrah, dan tidak sah tanpa melakukan semuanya.",
+  "intro": {
+    "title": "Apa Perbedaan Antara Rukun, Wajib, dan Sunnah?",
+    "rukn_title": "Rukun",
+    "rukn_body": "Sesuatu yang menyebabkan Umrah tidak sah tanpanya, dan orang yang meninggalkannya tetap dalam keadaan ihram sampai dia melakukannya.",
+    "wajib_title": "Wajib",
+    "wajib_body": "Sesuatu yang harus dilakukan; meninggalkannya adalah dosa dan menurut mayoritas ulama mewajibkan sembelihan (dam), tetapi Umrahnya tetap sah.",
+    "sunnah_title": "Sunnah",
+    "sunnah_body": "Sesuatu yang dianjurkan untuk dilakukan mengikuti Nabi ﷺ, tidak mengikat, dan meninggalkannya tidak menimbulkan konsekuensi apa pun."
+  },
+  "tabs": {
+    "details": "Detail",
+    "mustahabb": "Dianjurkan",
+    "makrooh": "Makruh"
+  },
+  "labels": {
+    "ruling": "Hukum: ",
+    "ruknLabel": "Rukun {{num}}",
+    "noteLabel": "💡 Catatan: ",
+    "mustahabbSub": "Mendapat pahala jika dikerjakan mengikuti Nabi ﷺ, dan meninggalkannya bukan dosa.",
+    "makroohSub": "Hal-hal yang dianjurkan untuk dihindari karena mengurangi pahala atau bertentangan dengan kesempurnaan ibadah."
+  },
+  "conclusion": {
+    "verse": "“Dan sempurnakanlah ibadah haji dan 'umrah karena Allah.”",
+    "source": "Surah Al-Baqarah — Ayat 196"
+  },
+  "rukn1": {
+    "arabicNum": "1",
+    "title": "Ihram",
+    "definition": "Niat masuk ke dalam manasik, yang merupakan rukun dimulainya Umrah. Umrah tidak sah kecuali dengan ihram dari Miqat yang ditentukan.",
+    "ruling": "Rukun — Umrah tidak sah tanpanya. Siapa saja yang tidak berihram, maka Umrahnya sama sekali belum dimulai.",
+    "details": [
+      "Ihram dimulai dengan niat. Ketika seseorang berniat masuk Umrah dan mengucapkannya, dia telah masuk dalam manasik.",
+      "Jamaah berihram dari Miqat, dan tidak boleh melewati Miqat tanpa berihram.",
+      "Dianjurkan bagi laki-laki untuk mandi dan mengenakan dua kain putih (izar dan rida) sebelum berihram.",
+      "Wanita berihram dengan pakaian biasa yang menutup aurat, menghindari cadar (niqab) dan sarung tangan.",
+      "Talbiyah dimulai segera setelah ihram dan berlanjut sampai memulai Tawaf."
+    ],
+    "mustahabb": [
+      "Mandi sebelum ihram — sunnah muakkad bahkan jika bukan karena junub.",
+      "Mengenakan kain sarung dan selendang putih yang bersih bagi laki-laki.",
+      "Memakai wewangian di badan (bukan pakaian) bagi laki-laki sebelum ihram; jika bekasnya tersisa setelahnya, tidak mengapa.",
+      "Menghadap kiblat saat membaca Talbiyah jika memungkinkan.",
+      "Mengeraskan suara saat Talbiyah bagi laki-laki secara sedang.",
+      "Isytirat (syarat) bagi yang khawatir ada halangan: 'Jika aku terhalang oleh suatu halangan, maka tempat tahallulku adalah di mana aku terhalang.'",
+      "Memperbanyak membaca Talbiyah dalam perjalanan menuju Masjidil Haram."
+    ],
+    "makrooh": [
+      "Menunda Talbiyah setelah niat ihram tanpa uzur.",
+      "Disibukkan dengan telepon dan percakapan segera setelah ihram sebelum memulai Talbiyah.",
+      "Wanita mengeraskan suara membaca Talbiyah di depan laki-laki non-mahram.",
+      "Mengajukan syarat (isytirat) tanpa kebutuhan, karena itu adalah keringanan yang tidak dianjurkan bagi orang sehat.",
+      "Memakai wewangian di pakaian ihram setelah niat ihram."
+    ],
+    "note": "Ihram is the intention, not just wearing the two sheets of cloth. Whoever wears the waist-wrapper and upper sheet without intending to enter the state of devotion has not assumed Ihram."
+  },
+  "rukn2": {
+    "arabicNum": "2",
+    "title": "Tawaf",
+    "definition": "Mengelilingi Ka'bah yang mulia sebanyak yujuh kali putaran penuh, dimulai dari Hajar Aswad dan berakhir di sana, dengan Ka'bah berada di sebelah kiri jamaah sepanjang waktu.",
+    "ruling": "Rukun — Umrah tidak sah tanpanya. Siapa saja yang meninggalkan Tawaf, Umrahnya belum lengkap dan dia tidak keluar dari ihram sampai melakukannya.",
+    "details": [
+      "Setiap putaran dimulai sejajar dengan Hajar Aswad, dengan mengusap atau memberi isyarat ke arahnya sambil membaca Takbir.",
+      "Ka'bah harus berada di sebelah kiri jamaah dalam semua putaran.",
+      "Tawaf terdiri dari tujuh putaran penuh, dan tawaf di dalam Hijr Ismail tidak sah.",
+      "Syarat tawaf adalah suci dari hadas kecil dan besar.",
+      "Idhtiba' (membuka bahu kanan) dan Ramal (berlari kecil) adalah sunnah bagi laki-laki pada Tawaf Umrah saja."
+    ],
+    "mustahabb": [
+      "Idhtiba' sepanjang tawaf bagi laki-laki — membuka bahu kanan dengan menyilangkan selendang di bawah ketiak kanan.",
+      "Ramal pada tiga putaran pertama bagi laki-laki — berlari kecil dengan langkah pendek dan cepat.",
+      "Mengusap Hajar Aswad atau memberi isyarat sambil membaca Takbir di awal setiap putaran.",
+      "Mengusap Rukun Yamani dengan tangan kanan di setiap putaran jika memungkinkan tanpa menyakiti orang lain.",
+      "Membaca 'Rabbana atina fid-dunya hasanah...' di antara Rukun Yamani dan Hajar Aswad.",
+      "Memperbanyak zikir, doa, dan membaca Al-Qur'an selama tawaf.",
+      "Khusyuk, tenang, dan tidak disibukkan dengan urusan duniawi."
+    ],
+    "makrooh": [
+      "Mengeraskan suara dalam doa bersama di belakang seorang pemandu, karena mengganggu jamaah tawaf lainnya.",
+      "Berdesak-desakan dan menyakiti orang lain untuk mencapai Hajar Aswad atau Rukun Yamani.",
+      "Mengusap semua sudut Ka'bah atau menyentuh dindingnya — sunnahnya hanya mengusap Hajar Aswad dan Rukun Yamani.",
+      "Disibukkan dengan pembicaraan duniawi selama tawaf.",
+      "Memberi isyarat ke Rukun Yamani saat tidak bisa mengusapnya — sunnahnya adalah tidak memberi isyarat.",
+      "Berlari di semua putaran — Ramal hanya pada tiga putaran pertama."
+    ],
+    "note": "Mencium tangan setelah memberi isyarat ke Hajar Aswad tidak diriwayatkan dari Nabi ﷺ; sunnahnya hanya memberi isyarat dengan Takbir."
+  },
+  "rukn3": {
+    "arabicNum": "3",
+    "title": "Sa'i",
+    "definition": "Berjalan sebanyak tujuh kali putaran antara bukit Safa dan bukit Marwah, dimulai dari Safa dan berakhir di Marwah.",
+    "ruling": "Rukun — Umrah tidak sah tanpanya. Siapa saja yang meninggalkan Sa'i, manasiknya belum lengkap dan tidak keluar dari ihram sampai melakukannya.",
+    "details": [
+      "Sa'i terdiri dari tujuh putaran: perjalanan dari Safa ke Marwah dihitung satu putaran, dan kembalinya dihitung satu putaran.",
+      "Sa'i dimulai di Safa dan berakhir di Marwah pada putaran ketujuh.",
+      "Dianjurkan mendaki bukit Safa dan Marwah di setiap putaran jika memungkinkan.",
+      "Suci dari hadas dianjurkan untuk Sa'i, namun bukan syarat sah.",
+      "Berlari kecil (hervele) di antara dua pilar hijau adalah sunnah bagi laki-laki, bukan wanita."
+    ],
+    "mustahabb": [
+      "Membaca ayat 'Innas-Safa wal-Marwata min sha'a'irillah' ketika naik ke Safa.",
+      "Menghadap kiblat di Safa dan Marwah serta mengulang zikir dan doa sebanyak tiga kali.",
+      "Berlari kecil di antara dua pilar hijau bagi laki-laki saja.",
+      "Memperbanyak zikir, doa, dan membaca Al-Qur'an.",
+      "Suci dari hadas — dianjurkan, meskipun Sa'i tetap sah tanpanya.",
+      "Mendaki Safa dan Marwah di setiap putaran jika memungkinkan."
+    ],
+    "makrooh": [
+      "Wanita berlari kecil di antara dua pilar hijau — sunnahnya bagi wanita adalah berjalan biasa.",
+      "Berlari di sepanjang jalur Sa'i — sunnahnya hanya berlari kecil di antara dua pilar hijau.",
+      "Memulai dari Marwah sebelum Safa — sunnahnya memulai dari Safa.",
+      "Disibukkan dengan percakapan dan meninggalkan zikir serta doa.",
+      "Mengharuskan diri dengan doa tertentu untuk setiap putaran — ini tidak diriwayatkan dari Nabi ﷺ."
+    ],
+    "note": "Sa'i sah tanpa wudhu menurut mayoritas ulama, meskipun dalam keadaan suci adalah lebih utama."
+  },
+  "rukn4": {
+    "arabicNum": "4",
+    "title": "Mencukur atau Memotong Rambut",
+    "definition": "Mencukur habis rambut kepala atau memotongnya setelah Sa'i, yang dengannya jamaah menyelesaikan Umrahnya dan terbebas dari ihram.",
+    "ruling": "Wajib menurut mayoritas ulama — meskipun sebagian menganggapnya rukun. Siapa saja yang meninggalkannya tidak keluar dari ihram.",
+    "details": [
+      "Bagi laki-laki: Mencukur habis (Halq) lebih utama, dan memotong sebagian (Taqseer) sudah cukup. Harus mencakup seluruh kepala.",
+      "Bagi wanita: Memotong ujung rambutnya sepanjang kurang lebih satu ruas jari, dan tidak mencukur habis kepalanya.",
+      "Jika waktu Hajj sudah dekat dan ingin berhaji, memotong sebagian adalah lebih baik agar bisa mencukur habis saat Hajj.",
+      "Tidak cukup hanya memotong beberapa helai rambut dari bagian depan kepala saja.",
+      "Dengan mencukur atau memotong rambut, jamaah telah bertahallul dan semua larangan ihram menjadi halal kembali."
+    ],
+    "mustahabb": [
+      "Mencukur habis bagi laki-laki kecuali jika akan berhaji dalam waktu dekat.",
+      "Menyegerakan mencukur atau memotong rambut segera setelah menyelesaikan Sa'i.",
+      "Berdoa setelah mencukur dan memuji Allah atas selesainya ibadah."
+    ],
+    "makrooh": [
+      "Hanya memotong beberapa helai rambut di bagian depan kepala.",
+      "Memotong dari satu sisi saja tanpa merata di seluruh kepala.",
+      "Keluar dari ihram atau mengganti pakaian sebelum mencukur atau memotong rambut.",
+      "Wanita mencukur habis rambut kepalanya."
+    ],
+    "note": "Dengan menyelesaikan mencukur atau memotong rambut, Umrah Anda selesai dan Anda keluar dari ihram. Semoga Allah menerima."
+  }
+}

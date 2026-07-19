@@ -1,0 +1,117 @@
+{
+  "eyebrow": "Şer'i Hükümler",
+  "title": "Umrede Fidye Hükümleri",
+  "description": "Fidye ne zaman gerekir ve nasıl ödenir—Kur'an-ı Kerim, Sünnet ve alimlerin fetvalarından derlenmiştir.",
+  "warningTitle": "Önemli Fıkhi Uyarı",
+  "warningBody": "Fidye konusu hac ve umrenin en detaylı konularından biridir. Umrecinin kurban (dem) veya fidye gerektiren hususlarda kendi kendine fetva vermemesi, mesele anlaşılamadığında şer'i mercilere veya alimlere başvurması gerekir.",
+  "labels": {
+    "daleel": "Kur'an ve Sünnet'ten Deliller",
+    "note": "💡 Fıkhi Not: ",
+    "warning": "⚠️ Uyarı: ",
+    "faqTitle": "Önemli Meseleler ve Detaylar",
+    "referenceTitle": "İlmi ve Şer'i Kaynaklar"
+  },
+  "sections": {
+    "sec1": {
+      "title": "Fidye ile Ne Kastedilir?",
+      "content": [
+        "Fidye, umrede bir vacibin terk edilmesi veya bazı ihram yasaklarının çiğnenmesi durumunda, Kur'an ve Sünnet'te belirtilen detaylar çerçevesinde yapılması zorunlu olan mali veya bedeni ibadettir.",
+        "Her kural ihlali fidye gerektirmez; hükümler ihlalin türüne ve kişinin durumuna göre değişir. Bu nedenle fidye, hac ve umre fıkhının en ince konularından biridir."
+      ],
+      "warning": "Fidye konusu oldukça detaylıdır. Umrecinin kendi kendine hüküm vermemesi, alimlere danışması gerekir."
+    },
+    "sec2": {
+      "title": "Birinci: Umrenin Bir Rükününü Terk Edenler",
+      "content": [
+        "Eğer umreci tavaf veya sa'y gibi umrenin bir rüknünü terk ederse, fidye bunu hiçbir şekilde telafi etmez. O rüknü mutlaka yerine getirmesi gerekir; çünkü umre ancak onunla geçerli olur."
+      ],
+      "list": [
+        "Tavafı terk etmek — Umre geçerli olmaz ve yerine getirilmesi gerekir.",
+        "Sa'yi terk etmek — Umre geçerli olmaz ve yerine getirilmesi gerekir."
+      ],
+      "note": "Umreci terk ettiği rükünleri yerine getirmedikçe ihramdan çıkmış (tahallül etmiş) sayılmaz."
+    },
+    "sec3": {
+      "title": "İkinci: Umrenin Bir Vacibini Terk Edenler",
+      "content": [
+        "Eğer umreci mikattan ihrama girmemek veya saçları tıraş etmemek/kısaltmamak gibi bir vacibi terk ederse ve bunu telafi edememişse, çoğunluğa göre bir ceza kurbanı (dem) kesmesi gerekir."
+      ],
+      "list": [
+        "İhramsız mikat sınırını geçip geri dönmemek.",
+        "Tıraş olmayı veya saçları kısaltmayı terk etmek."
+      ],
+      "daleel": [
+        "Alimler, Abdullah bin Abbas'ın (r.a.) şu sözünü delil alırlar: 'Kim ibadetinden bir şeyi unutursa veya terk ederse kurban (kan) akıtsın.' — Muvatta."
+      ],
+      "note": "Dem, Mekke fakirlerine dağıtılmak üzere bir koyun kesmektir."
+    },
+    "sec4": {
+      "title": "Üçüncü: Eza Fidyesi",
+      "content": [
+        "İhramlı kişi bir mazeret nedeniyle (hastalık, saçta bit vb. sebeplerle saç tıraş etmek gibi) ihram yasaklarından birini yapmak zorunda kalırsa buna izin verilir ve eza fidyesi gerekir."
+      ],
+      "daleel": [
+        "Allah Teala şöyle buyurmuştur: 'İçinizden her kim hasta olur veya başından bir rahatsızlığı bulunursa (tıraş olduğunda) ona oruçtan, sadakadan veya kurbandan bir fidye gerekir.' [Bakara Suresi: 196]",
+        "Peygamberimiz ﷺ başında bitlerin yürüdüğünü gördüğü Ka'b bin Ucre'ye (r.a.) şöyle buyurmuştur: 'Başını tıraş et, üç gün oruç tut veya altı fakiri doyur ya da bir koyun kurban et.' — Buhari ve Müslim."
+      ],
+      "options": [
+        { "title": "Kurban kesmek", "desc": "Harem bölgesi fakirlerine dağıtılır" },
+        { "title": "Altı fakiri doyurmak", "desc": "Her fakire yarım sa' (yaklaşık 1.5 kg) yiyecek" },
+        { "title": "Üç gün oruç tutmak", "desc": "Peş peşe veya ayrı ayrı tutulabilir" }
+      ],
+      "note": "İhramlı kişi bu seçeneklerden dilediğini seçebilir, herhangi bir sıraya uymak zorunda değildir."
+    },
+    "sec5": {
+      "title": "Dördüncü: Unutarak veya Bilmeyerek Yasağı İhlal Edenler",
+      "content": [
+        "İhram yasaklarından birini unutarak, bilmeyerek veya zorlama altında ihlal eden kişiye günah yoktur.",
+        "Ancak fidye gerekip gerekmeyeceği hususunda alimler arasında yasağın türüne göre görüş ayrılığı vardır."
+      ],
+      "daleel": [
+        "Allah Teala şöyle buyurmuştur: 'Rabbimiz! Unutur veya yanılırsak bizi sorumlu tutma.' [Bakara Suresi: 286]",
+        "Allah Teala şöyle buyurmuştur: 'Hataen yaptıklarınızda size bir günah yoktur, fakat kalplerinizin bile bile yöneldiğinde günah vardır.' [Ahzab Suresi: 5]"
+      ],
+      "warning": "Şeyh İbn Baz, unutarak veya bilmeyerek ihlal edene fidye gerekmediği görüşünü tercih etmiştir. Detaylar için alimlere başvurulmalıdır."
+    },
+    "sec6": {
+      "title": "Beşinci: Yasakları Bilerek ve Kasten İhlal Edenler",
+      "content": [
+        "İhram yasaklarından birini kasten ve hükmünü bilerek ihlal eden kişi günahkar olur ve bazı yasaklar fidye gerektirir.",
+        "Tüm yasakların hükmü aynı değildir, türlerine göre değişiklik gösterir."
+      ],
+      "list": [
+        "Erkeklerin dikişli elbise giymesi — Üç seçenekli eza fidyesi gerekir (kurban / doyurma / oruç).",
+        "Koku sürünmek — Eza fidyesi gerekir.",
+        "Saç tıraş etmek — Eza fidyesi gerekir.",
+        "Tahallül öncesi cinsel ilişki — Çoğunluğa göre ibadeti bozar ve keffaret gerektirir."
+      ],
+      "warning": "Bu genel bir açıklamadır. Ceza kurbanı veya fidye gerektiren her özel meselede alimlere danışılmalıdır."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Unutarak dikişli elbise giyene fidye gerekir mi?",
+      "a": "Unutarak veya bilmeyerek giyen günahkar olmaz. Fidye hususunda ihtilaf vardır; Şeyh İbn Baz unutma ve cehalet mazeretiyle fidye gerekmediğini belirtmiştir."
+    },
+    {
+      "q": "Unutarak koku sürünene fidye gerekir mi?",
+      "a": "Unutarak veya bilmeyerek sürene günah yoktur, hatırladığı an kokuyu giderir. Fidye durumu dikişli elbise gibidir."
+    },
+    {
+      "q": "Tıbbi bir mazeretle saçını tıraş edene fidye gerekir mi?",
+      "a": "Evet. Hastalık gibi mazeretle tıraş olmak caizdir ancak eza fidyesi (kurban, 6 fakiri doyurma veya 3 gün oruç) gerekir."
+    },
+    {
+      "q": "Ceza kurbanı nerede kesilir?",
+      "a": "Kurbanın Mekke'de kesilip oranın fakirlerine dağıtılması en faziletli olanıdır. Vekalet vermek de caizdir."
+    }
+  ],
+  "references": [
+    "Kur'an-ı Kerim",
+    "Sahih-i Buhari ve Sahih-i Müslim",
+    "İmam Malik'in Muvatta'ı",
+    "Et-Tahkîk vel-İzâh — Şeyh İbn Baz",
+    "Hac, Umre ve Ziyaret Fetvaları — Şeyh İbn Baz",
+    "Eş-Şerhu'l-Mümti' — Şeyh İbn Useymin"
+  ]
+}

@@ -62,10 +62,17 @@ export function GallerySlideshow({ images, alt }: { images: string[]; alt: strin
             type="button"
             onClick={() => goTo(idx)}
             className={`relative h-16 w-16 shrink-0 overflow-hidden rounded-xl border-2 transition-all ${
-              idx === active ? "border-gold shadow-soft" : "border-transparent opacity-70 hover:opacity-100"
+              idx === active
+                ? "border-gold shadow-soft"
+                : "border-transparent opacity-70 hover:opacity-100"
             }`}
           >
-            <img src={src} alt={`${alt} مصغرة ${idx + 1}`} className="h-full w-full object-cover" loading="lazy" />
+            <img
+              src={src}
+              alt={`${alt} مصغرة ${idx + 1}`}
+              className="h-full w-full object-cover"
+              loading="lazy"
+            />
           </button>
         ))}
       </div>

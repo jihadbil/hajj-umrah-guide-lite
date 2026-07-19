@@ -1,0 +1,118 @@
+{
+  "eyebrow": "Notices & Guidelines",
+  "title": "Common Mistakes in Umrah",
+  "description": "The most prominent mistakes that pilgrims fall into, with the correct practice and Shariah evidence.",
+  "quote": "Abdullah ibn Mas'ud (may Allah be pleased with him) said: 'Follow and do not innovate, for indeed you have been sufficed.' The more eager the pilgrim is to follow the guidance of the Prophet ﷺ, the more complete and closer to acceptance their rituals will be.",
+  "groups": {
+    "ihram": {
+      "category": "Ihram Mistakes",
+      "mistakes": [
+        {
+          "title": "Crossing the Miqat without Ihram",
+          "wrong": "Some pilgrims cross the Miqat without entering Ihram, and then assume Ihram after it.",
+          "right": "Whoever intends Umrah must assume Ihram from the Miqat they pass by.",
+          "daleel": "The Prophet ﷺ said: 'They are for them, and for those who pass by them from other than their people, who intend to perform Hajj and Umrah.' — Agreed upon."
+        },
+        {
+          "title": "Believing Ihram is just wearing the two sheets",
+          "wrong": "Some people think that Ihram is just wearing the waist-wrapper and upper sheet.",
+          "right": "Ihram is the intention of entering the rituals. Wearing the Ihram garments is part of its character, not its essence."
+        },
+        {
+          "title": "Omitting the Talbiyah or being distracted from it",
+          "wrong": "Some pilgrims leave the Talbiyah after Ihram or get distracted from it by talking and phones.",
+          "right": "It is recommended to recite the Talbiyah frequently until starting Tawaf.",
+          "daleel": "It is established that the Prophet ﷺ recited Talbiyah from the time he assumed Ihram until he began Tawaf — Agreed upon."
+        }
+      ]
+    },
+    "tawaf": {
+      "category": "Tawaf Mistakes",
+      "mistakes": [
+        {
+          "title": "Starting Tawaf before or after the Black Stone",
+          "wrong": "Some pilgrims start Tawaf before being in line with the Black Stone or after crossing it.",
+          "right": "Each round starts in line with the Black Stone and ends at it."
+        },
+        {
+          "title": "Crowding people to touch the Black Stone",
+          "wrong": "Some pilgrims push and crowd intensely, causing harm to other Muslims.",
+          "right": "If it is easy to touch it without harm, that is Sunnah; otherwise, point to it and say 'Allah is Greatest'. Reaching the Black Stone is a Sunnah, while harming Muslims is forbidden."
+        },
+        {
+          "title": "Believing there is a specific dua for each round",
+          "wrong": "Some pilgrims carry booklets containing a specific supplication for each round and believe it is Sunnah.",
+          "right": "It is not established from the Prophet ﷺ to specify each round with a particular supplication. A Muslim may supplicate with whatever they wish, and increase remembrance and Quran recitation."
+        },
+        {
+          "title": "Raising voices in collective supplication",
+          "wrong": "Some groups gather on one supplication in a loud voice behind a group leader.",
+          "right": "The default is that each pilgrim supplicates for themselves, because raising voices causes disruption to other circumambulators."
+        },
+        {
+          "title": "Touching all corners of the Kaaba",
+          "wrong": "Some pilgrims touch all corners of the Kaaba or wipe its walls.",
+          "right": "It is established that the Prophet ﷺ touched only the Black Stone and the Yamani Corner.",
+          "daleel": "Narrated by Al-Bukhari and Muslim."
+        }
+      ]
+    },
+    "sai": {
+      "category": "Sa'i Mistakes",
+      "mistakes": [
+        {
+          "title": "Believing that purity is a condition for Sa'i",
+          "wrong": "Some think that Sa'i is invalid without wudu.",
+          "right": "Purity is recommended for Sa'i, but Sa'i is valid without it according to the majority of scholars."
+        },
+        {
+          "title": "Women jogging between the two green markers",
+          "wrong": "Some women jog between the two green markers just like men.",
+          "right": "Jogging between the two green markers is a Sunnah for men only. A woman walks normally throughout the entire Sa'i."
+        },
+        {
+          "title": "Error in the number of rounds",
+          "wrong": "Some people count the going and returning as one round.",
+          "right": "Going from Safa to Marwah is one round, and returning from Marwah to Safa is another. The Sa'i consists of seven rounds, starting at Safa and ending at Marwah."
+        }
+      ]
+    },
+    "halq": {
+      "category": "Shaving & Cutting Mistakes",
+      "mistakes": [
+        {
+          "title": "Cutting a tiny part of the hair",
+          "wrong": "Some pilgrims cut only a few hairs from the front of the head and think it is sufficient.",
+          "right": "The prescribed cutting must encompass all hair of the head.",
+          "daleel": "This is what was ruled by Sheikh Ibn Baz and Sheikh Ibn Uthaymeen."
+        },
+        {
+          "title": "A woman shaving her hair",
+          "wrong": "Some women shave their heads thinking it is better.",
+          "right": "A woman gathers her hair and cuts about a fingertip's length from its ends, and she does not shave her head.",
+          "daleel": "The Prophet ﷺ said: 'There is no shaving for women; rather, they only cut.' — Narrated by Abu Dawud and authenticated by scholars."
+        }
+      ]
+    },
+    "general": {
+      "category": "General Mistakes",
+      "mistakes": [
+        {
+          "title": "Preoccupation with photography",
+          "wrong": "Some pilgrims busy themselves with photography and live streaming more than worship.",
+          "right": "The purpose of Umrah is to achieve humility and turn to Allah, so photography should only be as needed without distracting the heart or harming others."
+        },
+        {
+          "title": "Harming other Muslims",
+          "wrong": "Some fall into pushing, shouting, cutting through lines, and crowding the elderly and women.",
+          "right": "The Prophet ﷺ said: 'A Muslim is the one from whose tongue and hand other Muslims are safe.' — Agreed upon. Harming Muslims is forbidden at all times, let alone in the Sacred House of Allah."
+        },
+        {
+          "title": "Preoccupation with talking during Tawaf and Sa'i",
+          "wrong": "Some talk excessively about worldly matters during Tawaf and Sa'i.",
+          "right": "These are noble places that should be seized for obedience, remembrance, and supplication, and their virtue should not be missed by talking too much."
+        }
+      ]
+    }
+  }
+}

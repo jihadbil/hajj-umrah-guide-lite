@@ -1,0 +1,82 @@
+{
+  "eyebrow": "Service Fazah",
+  "title": "Fazah — Réseau d'Assistance Décentralisé pour le Pèlerin",
+  "description": "Chaque pèlerin porte une carte à réponse rapide (QR) qui le connecte au guide ou à la réception d'hôtel le plus proche en quelques instants, sans avoir besoin de téléphone ni d'Internet de son côté.",
+  "demoNotice": "Ceci est une page de démonstration pour le concept de service proposé. Les détails affichés (carte du pèlerin et simulateur d'alerte) sont purement expérimentaux à but explicatif.",
+  "why": {
+    "badge": "Pourquoi Fazah ?",
+    "title": "Quand un pèlerin a besoin d'aide, il n'y a pas de temps à perdre",
+    "desc": "Au milieu de la foule des Deux Saintes Mosquées, un pèlerin peut se perdre ou faire face à un problème de santé loin de son groupe. Fazah est un réseau bénévole regroupant des guides certifiés et des réceptionnistes d'hôtels, de sorte que n'importe lequel d'entre eux puisse identifier un pèlerin portant la carte de service et alerter immédiatement ses responsables."
+  },
+  "how": {
+    "title": "Comment fonctionne le service ?",
+    "desc": "Trois étapes simples connectent le pèlerin au réseau d'assistance sans complexité."
+  },
+  "simulator": {
+    "title": "Simulation de Scan & d'Alerte",
+    "badge": "Démonstration",
+    "idleDesc": "Cliquez sur le bouton ci-dessous pour simuler un guide scannant la carte Fazah du pèlerin modèle ci-dessus.",
+    "idleBtn": "Simuler le Scan de la Carte",
+    "doneText": "Le responsable de groupe et la réception de l'hôtel ont été informés de la position actuelle du pèlerin.",
+    "resetBtn": "Recommencer la Simulation",
+    "chain": {
+      "step1": "Identifier l'identité du pèlerin",
+      "step2": "Alerter le responsable du groupe",
+      "step3": "Partager la position actuelle",
+      "step4": "Notifier la réception de l'hôtel"
+    }
+  },
+  "cardLabels": {
+    "title": "Carte Fazah",
+    "pilgrimName": "Nom du Pèlerin",
+    "hotel": "Hôtel",
+    "roomNumber": "Numéro de Chambre",
+    "groupLeaderPhone": "Tél. du Responsable",
+    "bloodType": "Groupe Sanguin",
+    "qrDesc": "Tout guide ou réceptionniste d'hôtel enregistré scanne ce code pour afficher les coordonnées du pèlerin et alerter le réseau immédiatement.",
+    "flipQr": "Afficher le Code QR",
+    "flipFront": "Afficher le Recto"
+  },
+  "sampleCard": {
+    "name": "Abdulrahman Saeed Al-Mutairi",
+    "hotel": "Swissôtel Al Maqam Makkah",
+    "groupLeaderName": "Cheikh Abdullah Al-Harbi",
+    "groupLeaderPhone": "055 444 2211",
+    "roomNumber": "Chambre 714",
+    "bloodType": "O+",
+    "healthNote": "Hypertendu, porte ses médicaments dans son sac",
+    "language": "Arabe"
+  },
+  "steps": {
+    "s1": {
+      "title": "Carte Fazah Personnelle",
+      "desc": "Chaque pèlerin reçoit une carte ou un bracelet portant un code QR imprimé, sans avoir besoin de téléphone ni d'Internet de son côté. La carte contient son nom, son hôtel, son numéro de chambre, le téléphone du responsable, son groupe sanguin et ses notes de santé."
+    },
+    "s2": {
+      "title": "Scan par n'importe quel Guide ou Réceptionniste",
+      "desc": "En cas de besoin, le guide certifié ou réceptionniste d'hôtel le plus proche scanne le code QR via son téléphone, affichant immédiatement les informations du pèlerin sans application spécifique."
+    },
+    "s3": {
+      "title": "Alerte Instantanée & Chaîne de Secours",
+      "desc": "Une fois scannée, le réseau envoie une alerte automatique au responsable de groupe et au contact d'urgence, partageant la position GPS actuelle et notifiant la réception de l'hôtel."
+    }
+  },
+  "benefits": {
+    "b1": {
+      "title": "Pas de Téléphone ni d'Internet Requis",
+      "desc": "La carte fonctionne sans aucun appareil côté pèlerin ; il suffit de la porter comme une carte ou un bracelet."
+    },
+    "b2": {
+      "title": "Réseau Distribué de Bénévoles",
+      "desc": "Tout guide ou réceptionniste enregistré dans le réseau peut porter assistance au pèlerin où qu'il se trouve."
+    },
+    "b3": {
+      "title": "Données de Santé Cruciales au Bon Moment",
+      "desc": "Le groupe sanguin et les notes médicales clés parviennent au premier secouriste en quelques secondes."
+    },
+    "b4": {
+      "title": "Idéal pour les Aînés & Personnes Vulnérables",
+      "desc": "Une solution simple ne requérant aucune compétence technique, adaptée à tous les âges."
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "eyebrow": "Tentang Platform Kami",
+  "title": "Tentang Kami",
+  "description": "Pelajari misi dan tujuan Morshid untuk melayani tamu-tamu Allah Yang Maha Penyayang dan memberikan dukungan panduan terintegrasi dalam perjalanan berkah mereka.",
+  "mission": {
+    "badge": "✨ Misi yang Mulia",
+    "title": "Portal Panduan Digital Anda ke Baitullah Al-Haram",
+    "p1": "Platform Morshid didirikan untuk menjadi pendamping digital yang setia bagi setiap jamaah yang melakukan ibadah Haji dan Umrah. Melalui aplikasi kami yang disederhanakan dan menarik secara visual, kami bertujuan untuk memfasilitasi langkah-langkah Umrah dan memperjelas hukum agamanya menggunakan metode modern yang menggabungkan keaslian dan teknologi.",
+    "p2": "Kami bertujuan untuk memungkinkan para tamu Allah untuk melakukan ritual ibadah mereka dengan ketenangan pikiran dan keyakinan penuh, dengan menyediakan peta jalan interaktif, referensi komprehensif untuk doa-doa otentik, peringatan tentang kesalahan umum, dan direktori hotel serta pemandu."
+  },
+  "card": {
+    "title": "Kehormatan Melayani",
+    "quote": "\"Melayani para jamaah dan tamu Allah adalah kehormatan dan tanggung jawab besar yang kami upayakan untuk lakukan dengan tingkat kejujuran dan kesempurnaan tertinggi.\"",
+    "badge1": "✓ Interaktif",
+    "badge2": "✓ Terpercaya",
+    "badge3": "✓ Gratis"
+  },
+  "values": {
+    "title": "Aturan Emas & Nilai-Nilai Kami",
+    "subtitle": "Prinsip-prinsip dan fondasi tempat kami membangun setiap detail dalam panduan ini.",
+    "v1_title": "Kejujuran Ilmiah",
+    "v1_body": "Kami memastikan bahwa semua hukum, Sunnah, dan doa bersumber dari Al-Qur'an dan Sunnah Nabi yang shahih, dengan tinjauan ketat terhadap konten ilmiah dan keagamaan.",
+    "v2_title": "Kemudahan & Kejelasan",
+    "v2_body": "Menyederhanakan istilah-istilah fiqih dan memperjelasnya melalui antarmuka visual interaktif untuk memudahkan pemahaman bagi semua kalangan jamaah dari berbagai usia.",
+    "v3_title": "Inovasi Berkelanjutan",
+    "v3_body": "Memanfaatkan teknologi digital terbaru dan solusi cerdas untuk menyediakan alat bantu selama perjalanan, seperti penghitung tawaf dan tas jamaah interaktif."
+  },
+  "features": {
+    "title": "Apa yang ditawarkan Morshid kepada Anda?",
+    "f1_title": "Alur Perjalanan Interaktif",
+    "f1_body": "Panduan berurutan yang membawa Anda dari niat dan Miqat, melalui Tawaf dan Sa'i, hingga tahallul lengkap (mencukur/memotong rambut).",
+    "f2_title": "Doa-Doa Otentik",
+    "f2_body": "Jendela untuk doa-doa yang mapan dengan pilihan untuk membacanya dalam font besar dan jelas yang nyaman untuk mata.",
+    "f3_title": "Peringatan Kesalahan Umum",
+    "f3_body": "Klarifikasi pelanggaran dan kesalahan yang mungkin terjadi untuk menghindarinya dan melindungi ibadah dari ketidakabsahan.",
+    "f4_title": "Tas Jamaah Interaktif",
+    "f4_body": "Daftar periksa cerdas untuk meninjau semua yang Anda butuhkan sebelum bepergian guna memastikan Anda tidak melupakan hal-hal penting."
+  },
+  "footer": {
+    "text": "Apakah Anda memiliki pertanyaan atau saran untuk meningkatkan platform ini?",
+    "button": "Buka halaman Hubungi Kami"
+  }
+}

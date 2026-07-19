@@ -1,0 +1,145 @@
+{
+  "eyebrow": "Fiqh of Umrah",
+  "title": "Pillars of Umrah",
+  "description": "Pillars are the core actions on which Umrah is built, and it is not valid without performing all of them.",
+  "intro": {
+    "title": "What is the difference between a Pillar, a Duty, and a Sunnah?",
+    "rukn_title": "Pillar (Rukn)",
+    "rukn_body": "What Umrah is not valid without, and whoever leaves it remains in their state of Ihram until they perform it.",
+    "wajib_title": "Obligatory Duty (Wajib)",
+    "wajib_body": "What must be done; leaving it is a sin and requires a sacrifice (dam) according to the majority of scholars, but the Umrah remains valid.",
+    "sunnah_title": "Sunnah",
+    "sunnah_body": "What is recommended to do following the Prophet ﷺ, it is not binding, and leaving it does not entail anything."
+  },
+  "tabs": {
+    "details": "Details",
+    "mustahabb": "Recommended",
+    "makrooh": "Disliked"
+  },
+  "labels": {
+    "ruling": "Ruling: ",
+    "ruknLabel": "Pillar {{num}}",
+    "noteLabel": "💡 Note: ",
+    "mustahabbSub": "Rewards are given for doing it following the Prophet ﷺ, and leaving it is not a sin.",
+    "makroohSub": "Matters recommended to avoid because they reduce reward or contradict the completeness of worship."
+  },
+  "conclusion": {
+    "verse": "“And complete the Hajj and 'Umrah for Allah.”",
+    "source": "Surah Al-Baqarah — Verse 196"
+  },
+  "rukn1": {
+    "arabicNum": "1",
+    "title": "Ihram",
+    "definition": "The intention of entering the state of devotion, which is the pillar with which Umrah begins. Umrah is not valid except with Ihram from the designated Miqat.",
+    "ruling": "Pillar — Umrah is not valid without it. Whoever does not assume Ihram, their Umrah is not initiated at all.",
+    "details": [
+      "Ihram is initiated by intention. When a person intends to enter Umrah and utters it, they enter the state of devotion.",
+      "The pilgrim assumes Ihram from the Miqat, and it is not permissible to cross the Miqat without Ihram.",
+      "It is recommended to take a bath and wear two white pieces of cloth (Izhar and Rida) for men before Ihram.",
+      "Women assume Ihram in their regular covering clothes, avoiding the niqab (face veil) and gloves.",
+      "Talbiyah begins immediately after Ihram and continues until starting the Tawaf."
+    ],
+    "mustahabb": [
+      "Bathing before Ihram — a stressed Sunnah even if not in a state of ritual impurity.",
+      "Wearing a clean white waist-wrapper and upper sheet for men.",
+      "Applying perfume to the body (not the clothes) for men before Ihram; if trace remains after, there is no harm.",
+      "Facing the Qiblah when reciting Talbiyah if possible.",
+      "Raising the voice with Talbiyah for men in a moderate manner.",
+      "Stipulation (Ishtirat) for those who fear an obstacle: 'If an obstacle blocks me, then my place of exit is where I am blocked.'",
+      "Reciting Talbiyah abundantly on the way to the Grand Mosque."
+    ],
+    "makrooh": [
+      "Delaying Talbiyah after the intention of Ihram without excuse.",
+      "Being preoccupied with phone and conversation immediately after Ihram before starting Talbiyah.",
+      "A woman raising her voice with Talbiyah in front of non-mahram men.",
+      "Stipulation without need, as it is a concession not recommended for a healthy person.",
+      "Applying perfume to the Ihram sheets after intending Ihram."
+    ],
+    "note": "Ihram is the intention, not just wearing the two sheets of cloth. Whoever wears the waist-wrapper and upper sheet without intending to enter the state of devotion has not assumed Ihram."
+  },
+  "rukn2": {
+    "arabicNum": "2",
+    "title": "Tawaf",
+    "definition": "Circumambulating the Kaaba seven complete times, starting from the Black Stone and ending at it, keeping the Kaaba to the left of the circumambulator at all times.",
+    "ruling": "Pillar — Umrah is not valid without it. Whoever leaves Tawaf, their Umrah is not complete and they do not exit the state of Ihram until they perform it.",
+    "details": [
+      "Each round begins from the alignment of the Black Stone, which is touched or pointed to with Takbeer.",
+      "The Kaaba must remain to the left of the circumambulator in all rounds.",
+      "Tawaf comprises seven complete rounds, and circumambulating inside Hijr Ismail is not valid.",
+      "Purity from major and minor impurities is required for Tawaf.",
+      "Idtiba' (exposing the right shoulder) and Ramal (jogging) are Sunnah for men in the Tawaf of Umrah only."
+    ],
+    "mustahabb": [
+      "Idtiba' throughout the Tawaf for men — exposing the right shoulder by putting the upper sheet under the right armpit.",
+      "Ramal in the first three rounds for men — jogging with short, quick steps.",
+      "Touching the Black Stone or pointing to it with Takbeer at the beginning of each round.",
+      "Touching the Yamani Corner (Rukn Al-Yamani) with the right hand in each round if possible without causing harm.",
+      "Reciting 'Rabbana atina fid-dunya hasanah...' between the Yamani Corner and the Black Stone.",
+      "Increasing remembrance (dhikr), supplication (dua), and recitation of the Quran throughout Tawaf.",
+      "Humility, tranquility, and not being preoccupied with worldly matters."
+    ],
+    "makrooh": [
+      "Raising the voice in collective supplication behind a leader, which disturbs other circumambulators.",
+      "Crowding and hurting people to reach the Black Stone or the Yamani Corner.",
+      "Touching all corners of the Kaaba or rubbing its walls — the Sunnah is to touch the Black Stone and the Yamani Corner only.",
+      "Being preoccupied with worldly talk during Tawaf.",
+      "Pointing to the Yamani Corner when unable to touch it — the Sunnah is not to point to it.",
+      "Running in all rounds — Ramal is in the first three rounds only."
+    ],
+    "note": "Kissing the hand after pointing to the Black Stone was not established from the Prophet ﷺ; only pointing with Takbeer is Sunnah."
+  },
+  "rukn3": {
+    "arabicNum": "3",
+    "title": "Sa'i",
+    "definition": "Walking seven times between the hills of Safa and Marwah, starting from Safa and ending at Marwah.",
+    "ruling": "Pillar — Umrah is not valid without it. Whoever leaves Sa'i, their rituals are not complete and they do not exit Ihram until they perform it.",
+    "details": [
+      "Sa'i consists of seven rounds: going from Safa to Marwah is one round, and returning is another.",
+      "Sa'i starts at Safa and ends at Marwah in the seventh round.",
+      "It is recommended to ascend Safa and Marwah at each round if possible.",
+      "Ritual purity is recommended for Sa'i, but it is not a condition for its validity.",
+      "Jogging between the two green posts is Sunnah for men, not women."
+    ],
+    "mustahabb": [
+      "Reciting the verse 'Innas-Safa wal-Marwata min sha'a'irillah' when ascending Safa.",
+      "Facing the Qiblah on Safa and Marwah and repeating remembrance and supplication three times.",
+      "Jogging between the two green posts for men only.",
+      "Increasing remembrance, supplication, and reciting what is easy of the Quran.",
+      "Ritual purity — recommended, though Sa'i is valid without it.",
+      "Ascending Safa and Marwah in every round if possible."
+    ],
+    "makrooh": [
+      "Women jogging between the green posts — the Sunnah is to walk normally.",
+      "Running throughout the entire path — the Sunnah is to jog between the green posts only.",
+      "Starting at Marwah before Safa — the Sunnah is to start at Safa.",
+      "Being preoccupied with conversation and leaving remembrance and supplication.",
+      "Restricting oneself to a specific dua for each round — this was not established from the Prophet ﷺ."
+    ],
+    "note": "Sa'i is valid without ritual purity according to the majority of scholars, though purity is better and more complete."
+  },
+  "rukn4": {
+    "arabicNum": "4",
+    "title": "Shaving or Cutting",
+    "definition": "Shaving all head hair or cutting it short after Sa'i, which completes the Umrah and releases the pilgrim from Ihram.",
+    "ruling": "Duty (Wajib) according to the majority of jurists — though some consider it a pillar. Whoever leaves it does not exit Ihram.",
+    "details": [
+      "For men: Shaving (Halq) is better, and cutting short (Taqseer) is sufficient. It must cover the entire head.",
+      "For women: They clip from the ends of their hair approximately a finger-joint's length, and do not shave their heads.",
+      "If Hajj is near and you want to perform Hajj, cutting short is better so you can shave in Hajj.",
+      "It is not sufficient to cut a few hairs from the front of the head only.",
+      "Upon completing shaving or cutting, the pilgrim exits the state of Ihram and all prohibitions are lifted."
+    ],
+    "mustahabb": [
+      "Complete shaving for men unless they want to perform Hajj soon.",
+      "Hastening to shave or cut immediately after completing Sa'i.",
+      "Supplication after shaving and praising Allah for completing the ritual."
+    ],
+    "makrooh": [
+      "Cutting just a few hairs from the front of the head.",
+      "Cutting from one side only without the rest of the head.",
+      "Exiting Ihram or changing clothes before shaving or cutting.",
+      "Women shaving their heads."
+    ],
+    "note": "By completing shaving or cutting, your Umrah is completed and you exit Ihram. We ask Allah to accept."
+  }
+}

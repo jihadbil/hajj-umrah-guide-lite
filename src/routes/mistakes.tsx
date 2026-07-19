@@ -4,6 +4,9 @@
 
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHeader } from "@/components/PageHeader";
+import { LucideIcon } from "@/lib/icons";
+import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 
 // تعريف مسار الصفحة وبيانات SEO
 export const Route = createFileRoute("/mistakes")({
@@ -11,198 +14,83 @@ export const Route = createFileRoute("/mistakes")({
   head: () => ({
     meta: [
       { title: "الأخطاء الشائعة في العمرة — مرشد" },
-      { name: "description", content: "أبرز الأخطاء التي يقع فيها المعتمرون في الإحرام والطواف والسعي والحلق، مع بيان الصواب." },
+      {
+        name: "description",
+        content:
+          "أبرز الأخطاء التي يقع فيها المعتمرون في الإحرام والطواف والسعي والحلق، مع بيان الصواب.",
+      },
     ],
   }),
 });
 
-// ---- أنواع البيانات ----
-
-// خطأ شائع: يحتوي على عنوان + الخطأ + الصواب + دليل اختياري
-interface Mistake {
-  title: string;
-  wrong: string;  // الخطأ الشائع
-  right: string;  // الصواب الشرعي
-  daleel?: string; // الدليل من القرآن أو السنة
-}
-
-// مجموعة من الأخطاء تندرج تحت موضوع واحد
-interface MistakeGroup {
-  category: string; // اسم الفئة
-  icon: string;     // أيقونة إيموجي
-  color: string;    // لون مميز للفئة (hex)
-  mistakes: Mistake[];
-}
-
-// ---- بيانات الأخطاء مصنّفة في خمس مجموعات ----
-const mistakeGroups: MistakeGroup[] = [
-  // --- مجموعة ١: أخطاء الإحرام ---
-  {
-    category: "أخطاء الإحرام",
-    icon: "🧎",
-    color: "#7c3aed",
-    mistakes: [
-      {
-        title: "تجاوز الميقات دون إحرام",
-        wrong: "يتجاوز بعض المعتمرين الميقات دون أن يُحرموا، ثم يُحرمون بعده.",
-        right: "يجب على من أراد العمرة أن يُحرم من الميقات الذي يمر به.",
-        daleel: "قال ﷺ: «هن لهن ولمن أتى عليهن من غير أهلهن ممن أراد الحج والعمرة» — متفق عليه.",
-      },
-      {
-        title: "الاعتقاد بأن الإحرام هو لبس الثوبين فقط",
-        wrong: "يظن بعض الناس أن الإحرام هو مجرد ارتداء الإزار والرداء.",
-        right: "الإحرام هو نية الدخول في النسك. أما لبس ثياب الإحرام فهو من صفته لا حقيقته.",
-      },
-      {
-        title: "ترك التلبية أو الانشغال عنها",
-        wrong: "يترك بعض المعتمرين التلبية بعد الإحرام أو ينشغلون عنها بالحديث والهاتف.",
-        right: "يُستحب الإكثار من التلبية حتى يبدأ الطواف.",
-        daleel: "ثبت أن النبي ﷺ لبّى من حين أحرم حتى شرع في الطواف — متفق عليه.",
-      },
-    ],
-  },
-
-  // --- مجموعة ٢: أخطاء الطواف ---
-  {
-    category: "أخطاء الطواف",
-    icon: "🌀",
-    color: "#0369a1",
-    mistakes: [
-      {
-        title: "بدء الطواف قبل الحجر الأسود أو بعده",
-        wrong: "يبدأ بعض المعتمرين الطواف قبل محاذاة الحجر الأسود أو بعد تجاوزه.",
-        right: "يبدأ كل شوط من محاذاة الحجر الأسود وينتهي إليه.",
-      },
-      {
-        title: "مزاحمة الناس لاستلام الحجر الأسود",
-        wrong: "يشتد بعض المعتمرين في المزاحمة حتى يؤذي المسلمين.",
-        right: "إن تيسر استلامه بلا أذى فذلك سنة، وإلا أشار إليه وكبّر. الوصول إلى الحجر الأسود سنة، وإيذاء المسلمين حرام.",
-      },
-      {
-        title: "الاعتقاد بوجود دعاء لكل شوط",
-        wrong: "يحمل بعض المعتمرين كتيبات خُصصت لكل شوط دعاء معينًا ويظنون أن ذلك سنة.",
-        right: "لم يثبت عن النبي ﷺ تخصيص كل شوط بدعاء معين، وإنما يدعو المسلم بما شاء ويكثر من الذكر وقراءة القرآن.",
-      },
-      {
-        title: "رفع الصوت بالدعاء جماعةً",
-        wrong: "يجتمع بعض الناس على دعاء واحد بصوت مرتفع خلف قائد المجموعة.",
-        right: "الأصل أن يدعو كل معتمر بنفسه؛ لما في رفع الأصوات من التشويش على الطائفين.",
-      },
-      {
-        title: "استلام جميع أركان الكعبة",
-        wrong: "يستلم بعض المعتمرين جميع أركان الكعبة أو يمسحون جدرانها.",
-        right: "ثبت عن النبي ﷺ أنه لم يستلم إلا الحجر الأسود والركن اليماني.",
-        daleel: "رواه البخاري ومسلم.",
-      },
-    ],
-  },
-
-  // --- مجموعة ٣: أخطاء السعي ---
-  {
-    category: "أخطاء السعي",
-    icon: "🏃",
-    color: "#065f46",
-    mistakes: [
-      {
-        title: "الاعتقاد بأن الطهارة شرط لصحة السعي",
-        wrong: "يظن بعضهم أن السعي لا يصح بدون طهارة.",
-        right: "الطهارة مستحبة للسعي، لكن السعي يصح بدونها عند جمهور أهل العلم.",
-      },
-      {
-        title: "إسراع النساء بين العلمين الأخضرين",
-        wrong: "تسرع بعض النساء بين العلمين الأخضرين كما يفعل الرجال.",
-        right: "الإسراع بين العلمين الأخضرين سنة للرجال فقط. أما المرأة فتمشي مشيًا معتادًا في جميع السعي.",
-      },
-      {
-        title: "الخطأ في عدد الأشواط",
-        wrong: "يحسب بعض الناس الذهاب والعودة شوطًا واحدًا.",
-        right: "الذهاب من الصفا إلى المروة شوط، والعودة من المروة إلى الصفا شوط آخر. فالسعي سبعة أشواط تبدأ بالصفا وتنتهي بالمروة.",
-      },
-    ],
-  },
-
-  // --- مجموعة ٤: أخطاء الحلق والتقصير ---
-  {
-    category: "أخطاء الحلق والتقصير",
-    icon: "✂️",
-    color: "#b45309",
-    mistakes: [
-      {
-        title: "قص جزء يسير من الشعر",
-        wrong: "يأخذ بعض المعتمرين شعرات قليلة من مقدمة الرأس ويظنون أن ذلك يكفي.",
-        right: "التقصير المشروع يكون من جميع شعر الرأس.",
-        daleel: "وهو ما أفتى به الشيخان ابن باز وابن عثيمين.",
-      },
-      {
-        title: "حلق المرأة لشعرها",
-        wrong: "تحلق بعض النساء رؤوسهن ظنًا أن ذلك أفضل.",
-        right: "تجمع المرأة شعرها وتأخذ من أطرافه قدر أنملة تقريبًا، ولا تحلق رأسها.",
-        daleel: "قال ﷺ: «ليس على النساء حلق، إنما على النساء التقصير» — رواه سنن أبي داود وصححه أهل العلم.",
-      },
-    ],
-  },
-
-  // --- مجموعة ٥: أخطاء عامة ---
-  {
-    category: "أخطاء عامة",
-    icon: "⚠️",
-    color: "#dc2626",
-    mistakes: [
-      {
-        title: "الانشغال بالتصوير",
-        wrong: "ينشغل بعض المعتمرين بالتصوير ونقل البث المباشر أكثر من انشغالهم بالعبادة.",
-        right: "المقصود من العمرة تحقيق الخشوع والإقبال على الله، فينبغي أن يكون التصوير بقدر الحاجة دون أن يشغل القلب أو يؤذي الآخرين.",
-      },
-      {
-        title: "إيذاء المسلمين",
-        wrong: "يقع بعضهم في الدفع والصياح وشق الصفوف ومزاحمة كبار السن والنساء.",
-        right: "قال ﷺ: «المسلم من سلم المسلمون من لسانه ويده» — متفق عليه. إيذاء المسلمين حرام في كل وقت، فكيف في بيت الله الحرام.",
-      },
-      {
-        title: "الانشغال بالحديث أثناء الطواف والسعي",
-        wrong: "يكثر بعضهم من الكلام في أمور الدنيا أثناء الطواف والسعي.",
-        right: "هذه مواطن شريفة ينبغي اغتنامها بالطاعة والذكر والدعاء، فلا يُفوّت فضلها بكثرة الكلام.",
-      },
-    ],
-  },
-];
+const groupsKeys = [
+  { key: "ihram", icon: "🧎", color: "#7c3aed" },
+  { key: "tawaf", icon: "🌀", color: "#0369a1" },
+  { key: "sai", icon: "🏃", color: "#065f46" },
+  { key: "halq", icon: "✂️", color: "#b45309" },
+  { key: "general", icon: "⚠️", color: "#dc2626" },
+] as const;
 
 // ---- مكوّن صفحة الأخطاء الشائعة ----
 function MistakesPage() {
+  const { t } = useTranslation("mistakes");
+
+  // تحديث عنوان تبويب المتصفح ديناميكياً
+  useEffect(() => {
+    const brandName = t("brand.name", { ns: "common", defaultValue: "مرشد" });
+    document.title = `${t("title")} — ${brandName}`;
+  }, [t]);
+
+  const mistakeGroupsList = groupsKeys.map((group) => {
+    const groupKey = `groups.${group.key}`;
+    const mistakesRaw = t(`${groupKey}.mistakes`, { returnObjects: true }) as any[];
+    
+    const mistakes = Array.isArray(mistakesRaw) ? mistakesRaw.map((m) => ({
+      title: m.title,
+      wrong: m.wrong,
+      right: m.right,
+      daleel: m.daleel || undefined,
+    })) : [];
+
+    return {
+      category: t(`${groupKey}.category`),
+      icon: group.icon,
+      color: group.color,
+      mistakes,
+    };
+  });
+
   return (
     <div>
       {/* رأس الصفحة */}
       <PageHeader
-        eyebrow="التنبيهات والإرشادات"
-        title="الأخطاء الشائعة في العمرة"
-        description="أبرز الأخطاء التي يقع فيها كثير من المعتمرين، مع بيان الصواب والدليل."
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        description={t("description")}
       />
 
-      <div className="mx-auto max-w-4xl px-4 py-12 space-y-10">
-
+      <div className="mx-auto max-w-4xl px-4 py-12 space-y-8">
         {/* اقتباس تحفيزي في أعلى الصفحة */}
         <div className="rounded-2xl border border-primary/20 bg-primary-soft p-5 text-center">
           <p className="text-sm text-foreground/80 leading-relaxed">
-            قال عبد الله بن مسعود رضي الله عنه: <span className="font-display font-bold text-primary">«اتّبعوا ولا تبتدعوا فقد كُفيتم».</span>
-            <br />
-            كلما كان المعتمر أحرص على متابعة هدي النبي ﷺ كان نسكه أكمل وأقرب إلى القبول بإذن الله.
+            {t("quote")}
           </p>
         </div>
 
         {/* عرض مجموعات الأخطاء — كل مجموعة في قسم مستقل */}
         <div className="grid gap-8">
-          {mistakeGroups.map((group) => (
+          {mistakeGroupsList.map((group) => (
             <section key={group.category} className="space-y-4">
               {/* رأس المجموعة: أيقونة + اسم الفئة */}
-              <div className="mb-4 flex items-center gap-3 pr-1">
+              <div className="mb-4 flex items-center gap-3 pr-1 text-right">
                 <div
                   className="flex h-10 w-10 shrink-0 items-center justify-center rounded-2xl text-xl text-white shadow-soft border border-white/5"
-                  style={{ 
+                  style={{
                     backgroundColor: group.color,
-                    backgroundImage: `linear-gradient(135deg, ${group.color} 0%, rgba(20,52,42,0.9) 100%)`
+                    backgroundImage: `linear-gradient(135deg, ${group.color} 0%, rgba(20,52,42,0.9) 100%)`,
                   }}
                 >
-                  {group.icon}
+                  <LucideIcon name={group.icon} size={20} className="text-white" />
                 </div>
                 <h2 className="font-display text-xl font-bold text-foreground">{group.category}</h2>
               </div>
@@ -210,17 +98,22 @@ function MistakesPage() {
               {/* قائمة أخطاء المجموعة */}
               <div className="grid gap-5">
                 {group.mistakes.map((m, i) => (
-                  <div key={i} className="group rounded-3xl border border-border/60 bg-card p-6 shadow-soft hover:shadow-md hover:border-primary/25 transition-all duration-300 relative overflow-hidden bg-islamic-pattern text-right">
+                  <div
+                    key={i}
+                    className="group rounded-3xl border border-border/60 bg-card p-6 shadow-soft hover:shadow-md hover:border-primary/25 transition-all duration-300 relative overflow-hidden bg-islamic-pattern text-right"
+                  >
                     {/* Floating decoration */}
-                    <div className="absolute -top-6 -left-6 text-7xl opacity-5 select-none font-display text-gold pointer-events-none group-hover:scale-110 transition-transform duration-500">⚠️</div>
-                    
+                    <div className="absolute -top-6 -left-6 opacity-5 pointer-events-none group-hover:scale-110 transition-transform duration-500">
+                      <LucideIcon name="⚠️" size={72} className="text-gold" />
+                    </div>
+
                     {/* عنوان الخطأ مع رقم تسلسلي */}
                     <h3 className="font-bold text-foreground text-base mb-4 flex items-center gap-2.5">
                       <span
                         className="flex h-5.5 w-5.5 shrink-0 items-center justify-center rounded-full text-white text-[10px] font-bold shadow-sm border border-white/5"
-                        style={{ 
+                        style={{
                           backgroundColor: group.color,
-                          backgroundImage: `linear-gradient(135deg, ${group.color} 0%, rgba(20,52,42,0.95) 100%)`
+                          backgroundImage: `linear-gradient(135deg, ${group.color} 0%, rgba(20,52,42,0.95) 100%)`,
                         }}
                       >
                         {i + 1}
@@ -230,19 +123,29 @@ function MistakesPage() {
 
                     <div className="space-y-3">
                       {/* صندوق الخطأ — خلفية حمراء */}
-                      <div className="flex items-start gap-3 rounded-2xl bg-red-50/70 border border-red-100 p-4 shadow-sm">
-                        <span className="text-red-500 mt-0.5 shrink-0 text-base font-bold">✗</span>
-                        <p className="text-sm text-red-800 leading-relaxed font-medium">{m.wrong}</p>
+                      <div className="flex items-start gap-3 rounded-2xl bg-error-surface border border-error-border p-4 shadow-sm">
+                        <span className="text-error-foreground mt-0.5 shrink-0 text-base font-bold">
+                          ✗
+                        </span>
+                        <p className="text-sm text-error-foreground leading-relaxed font-medium">
+                          {m.wrong}
+                        </p>
                       </div>
 
-                      {/* صندوق الصواب — خلفية خضراء */}
-                      <div className="flex items-start gap-3 rounded-2xl bg-green-50/70 border border-green-100 p-4 shadow-sm">
-                        <span className="text-emerald-600 mt-0.5 shrink-0 text-base font-bold">✓</span>
+                      {/* صندوق الصواب — خلفية خندراء */}
+                      <div className="flex items-start gap-3 rounded-2xl bg-success-surface border border-success-border p-4 shadow-sm">
+                        <span className="text-success-foreground mt-0.5 shrink-0 text-base font-bold">
+                          ✓
+                        </span>
                         <div className="text-right">
-                          <p className="text-sm text-emerald-900 leading-relaxed font-medium">{m.right}</p>
+                          <p className="text-sm text-success-foreground leading-relaxed font-medium">
+                            {m.right}
+                          </p>
                           {/* الدليل — يظهر فقط إن وُجد */}
                           {m.daleel && (
-                            <p className="mt-2 text-xs text-emerald-800/80 font-semibold bg-emerald-100/40 rounded-lg p-2.5 border border-emerald-200/20 inline-block font-display leading-loose">{m.daleel}</p>
+                            <p className="mt-2 text-xs text-success-foreground/80 font-semibold bg-success-surface/40 rounded-lg p-2.5 border border-success-border/20 inline-block font-serif leading-loose">
+                              {m.daleel}
+                            </p>
                           )}
                         </div>
                       </div>
@@ -253,7 +156,6 @@ function MistakesPage() {
             </section>
           ))}
         </div>
-
       </div>
     </div>
   );

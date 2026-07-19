@@ -1,0 +1,82 @@
+{
+  "eyebrow": "Layanan Fazah",
+  "title": "Fazah — Jaringan Bantuan Jamaah Desentralisasi",
+  "description": "Setiap jamaah membawa kartu respons cepat (QR) yang menghubungkan mereka ke pembimbing terdekat atau resepsionis hotel dalam sekejap, tanpa perlu handphone atau internet.",
+  "demoNotice": "Ini adalah halaman penjelasan untuk konsep layanan yang diusulkan. Detail yang ditampilkan (kartu jamaah dan simulator siaga) sepenuhnya untuk tujuan simulasi saja.",
+  "why": {
+    "badge": "Mengapa Fazah?",
+    "title": "Ketika jamaah membutuhkan bantuan, tidak ada waktu untuk dibuang",
+    "desc": "Di tengah keramaian Dua Masjid Suci, jamaah bisa tersesat atau mengalami gangguan kesehatan jauh dari rombongannya. Fazah adalah jaringan relawan pembimbing resmi dan resepsionis hotel, sehingga siapa pun dari mereka dapat mengidentifikasi jamaah yang membawa kartu layanan dan memberi tahu penanggung jawab rombongan secara instan."
+  },
+  "how": {
+    "title": "Bagaimana cara kerja layanan ini?",
+    "desc": "Tiga langkah mudah menghubungkan jamaah dengan jaringan bantuan tanpa kerumitan."
+  },
+  "simulator": {
+    "title": "Simulasi Pemindaian & Notifikasi",
+    "badge": "Simulasi",
+    "idleDesc": "Klik tombol di bawah untuk menyimulasikan pemandu memindai kartu Fazah dari contoh jamaah di atas.",
+    "idleBtn": "Simulasikan Pemindaian Kartu",
+    "doneText": "Ketua rombongan dan resepsionis hotel telah diberitahu mengenai lokasi jamaah saat ini.",
+    "resetBtn": "Ulangi Simulasi",
+    "chain": {
+      "step1": "Identifikasi identitas jamaah",
+      "step2": "Hubungi ketua rombongan",
+      "step3": "Bagikan lokasi terkini",
+      "step4": "Beri tahu resepsionis hotel"
+    }
+  },
+  "cardLabels": {
+    "title": "Kartu Fazah",
+    "pilgrimName": "Nama Jamaah",
+    "hotel": "Hotel",
+    "roomNumber": "Nomor Kamar",
+    "groupLeaderPhone": "Telepon Ketua Rombongan",
+    "bloodType": "Golongan Darah",
+    "qrDesc": "Pemandu atau resepsionis hotel terdaftar memindai kode ini untuk melihat detail informasi jamaah dan langsung mengirimkan peringatan bantuan.",
+    "flipQr": "Tampilkan Kode QR",
+    "flipFront": "Tampilkan Bagian Depan Kartu"
+  },
+  "sampleCard": {
+    "name": "Abdulrahman Saeed Al-Mutairi",
+    "hotel": "Swissôtel Al Maqam Makkah",
+    "groupLeaderName": "Syekh Abdullah Al-Harbi",
+    "groupLeaderPhone": "055 444 2211",
+    "roomNumber": "Kamar 714",
+    "bloodType": "O+",
+    "healthNote": "Penderita hipertensi, membawa obat di dalam tas",
+    "language": "Arab"
+  },
+  "steps": {
+    "s1": {
+      "title": "Kartu Fazah Pribadi",
+      "desc": "Setiap jamaah menerima kartu atau gelang dengan kode QR tercetak, tanpa membutuhkan handphone atau internet. Kartu berisi nama, hotel, nomor kamar, telepon ketua kelompok, golongan darah, dan catatan kesehatan."
+    },
+    "s2": {
+      "title": "Pindai Oleh Pemandu Atau Resepsionis",
+      "desc": "Bila diperlukan, pemandu resmi terdekat atau resepsionis hotel terdaftar memindai kode QR kartu lewat kamera ponsel, langsung menampilkan data jamaah tanpa butuh aplikasi khusus."
+    },
+    "s3": {
+      "title": "Siaga Instan & Jalur Bantuan",
+      "desc": "Setelah dipindai, jaringan otomatis mengirimkan peringatan kepada ketua rombongan dan nomor darurat, membagikan posisi gps jamaah saat ini serta mengabari resepsionis hotel."
+    }
+  },
+  "benefits": {
+    "b1": {
+      "title": "Tanpa Perlu HP Atau Internet",
+      "desc": "Kartu bekerja tanpa alat apa pun di sisi jamaah; cukup dibawa sebagai kartu atau gelang."
+    },
+    "b2": {
+      "title": "Jaringan Relawan Terdistribusi",
+      "desc": "Setiap pemandu atau staf resepsionis terdaftar dalam jaringan dapat membantu jamaah di mana saja mereka ditemukan."
+    },
+    "b3": {
+      "title": "Info Medis Penting Saat Darurat",
+      "desc": "Golongan darah dan catatan kesehatan penting dapat diakses penolong pertama dalam hitungan detik."
+    },
+    "b4": {
+      "title": "Sangat Cocok Untuk Lansia",
+      "desc": "Solusi sederhana yang tidak membutuhkan keahlian teknologi, cocok untuk segala usia."
+    }
+  }
+}

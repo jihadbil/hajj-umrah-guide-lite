@@ -1,0 +1,75 @@
+{
+  "eyebrow": "Invocations & Rappels",
+  "title": "Invocations Prophétiques pour l'Umrah",
+  "description": "Une sélection d'invocations et de rappels rapportés du Prophète ﷺ pour chaque étape du voyage.",
+  "groups": {
+    "talbiyah": {
+      "title": "La Talbiyah",
+      "items": [
+        {
+          "title": "La Talbiyah du Prophète ﷺ",
+          "arabic": "لبّيك اللهم لبّيك، لبّيك لا شريك لك لبّيك، إنّ الحمد والنعمة لك والملك، لا شريك لك.",
+          "translation": "Me voici, Ô Allah, me voici. Me voici, Tu n'as aucun associé, me voici. Certes, la louange, le bienfait et la royauté T'appartiennent, Tu n'as aucun associé.",
+          "source": "Rapporté par Al-Bukhari & Muslim"
+        }
+      ]
+    },
+    "tawaf": {
+      "title": "Invocations du Tawaf",
+      "items": [
+        {
+          "title": "Au Début de Chaque Tour",
+          "arabic": "بسم الله، والله أكبر، اللهم إيماناً بك، وتصديقاً بكتابك، ووفاءً بعهدك، واتّباعاً لسنّة نبيك محمد ﷺ.",
+          "translation": "Au nom d'Allah, et Allah est le plus Grand. Ô Allah, par foi en Toi, par croyance en Ton Livre, par fidélité à Ton pacte et en suivant la Sunnah de Ton prophète Muhammad ﷺ.",
+          "source": "Rapporté d'Ibn Umar"
+        },
+        {
+          "title": "Entre le Coin Yéménite et la Pierre Noire",
+          "arabic": "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾",
+          "translation": "Notre Seigneur, accorde-nous un bel avenir ici-bas, et un bel avenir dans l'au-delà, et préserve-nous du châtiment du Feu.",
+          "source": "Al-Baqarah 201"
+        }
+      ]
+    },
+    "sai": {
+      "title": "Invocations du Sa'i",
+      "items": [
+        {
+          "title": "En Montant sur Safa et Marwah",
+          "arabic": "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾ أبدأ بما بدأ الله به.",
+          "translation": "Certes, Safa et Marwah sont parmi les rites d'Allah. Je commence par ce par quoi Allah a commencé.",
+          "source": "Rapporté par Muslim"
+        },
+        {
+          "title": "Sur Safa et Marwah",
+          "arabic": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، لا إله إلا الله وحده، أنجز وعده، ونصر عبده، وهزم الأحزاب وحده.",
+          "translation": "Il n'y a de divinité digne d'adoration qu'Allah, Unique, sans associé. À Lui la royauté, à Lui la louange, et Il est Omnipotent. Il n'y a de divinité digne d'adoration qu'Allah, Unique, Il a réalisé Sa promesse, a secouru Son serviteur et a vaincu les coalisés à Lui Seul.",
+          "source": "Rapporté par Muslim"
+        }
+      ]
+    },
+    "general": {
+      "title": "Rappels Généraux pour le Pèlerin",
+      "items": [
+        {
+          "title": "En Entrant à la Mosquée",
+          "arabic": "اللهم افتح لي أبواب رحمتك.",
+          "translation": "Ô Allah, ouvre-moi les portes de Ta miséricorde.",
+          "source": "Rapporté par Muslim"
+        },
+        {
+          "title": "En Voyant la Kaaba",
+          "arabic": "اللهم زد هذا البيت تشريفاً وتعظيماً وتكريماً ومهابة، وزد من شرّفه وكرّمه ممن حجّه أو اعتمره تشريفاً وتكريماً وتعظيماً وبرّاً.",
+          "translation": "Ô Allah, augmente la noblesse, la grandeur, la dévotion et le respect de cette Demeure. Et augmente ceux qui l'honorent parmi les pèlerins du Hajj et de l'Umrah en honneur, noblesse, grandeur et bienfaisance.",
+          "source": "Tradition"
+        },
+        {
+          "title": "En buvant l'eau de Zamzam",
+          "arabic": "اللهم إني أسألك علماً نافعاً، ورزقاً واسعاً، وشفاءً من كل داء.",
+          "translation": "Ô Allah, je Te demande une science utile, une subsistance abondante et une guérison contre toute maladie.",
+          "source": "Rapporté d'Ibn Abbas"
+        }
+      ]
+    }
+  }
+}

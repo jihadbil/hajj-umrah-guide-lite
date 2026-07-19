@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "umrah": "Umre Yolculuğu",
+    "sections": "Kategoriler",
+    "contact": "İletişim",
+    "arkaan": "Rükünler",
+    "wajibaat": "Vacip & Sünnetler",
+    "prohibitions": "Yasaklar",
+    "fidya": "Fidye (Kefaret)",
+    "mistakes": "Sık Yapılan Hatalar",
+    "duas": "Dualar",
+    "tips": "Umre Çantası",
+    "attractions": "Tarihi Yerler",
+    "hotels": "Oteller & Rehberler",
+    "fazah": "Fazah İmdat"
+  },
+  "brand": {
+    "name": "Mürşid",
+    "subtitle": "Kapsamlı Umre Rehberi"
+  },
+  "footer": {
+    "description": "Kuran ve sahih sünnete dayanarak Umre ibadetlerini ve ziyaretlerini adım adım kolaylaştırmayı, rükünleri, vacipleri ve yasakları sade ve görsel olarak ilgi çekici bir şekilde açıklamayı amaçlayan interaktif bir rehber platformu.",
+    "sectionsTitle": "Rehber Kategorileri",
+    "duaTitle": "Dua & Yakarış",
+    "duaText": "\"Allah'ım, burayı kabul edilmiş bir umre, bağışlanmış bir günah ve makbul bir çaba eyle.\"",
+    "duaAccept": "— Allah ibadetlerinizi kabul etsin",
+    "rights": "Tüm hakları saklıdır",
+    "tagline": "Rahman'ın misafirlerine hizmet etmek için yapıldı"
+  },
+  "errors": {
+    "404": "404",
+    "pageNotFound": "Sayfa Bulunamadı",
+    "pageNotFoundDesc": "Aradığınız sayfa mevcut değil veya taşınmış.",
+    "backHome": "Ana Sayfaya Dön",
+    "errorOccurred": "Bir Hata Oluştu",
+    "errorLoadFailed": "Sayfa yüklenemedi, lütfen tekrar deneyin.",
+    "tryAgain": "Tekrar Dene",
+    "home": "Ana Sayfa"
+  },
+  "theme": {
+    "light": "Aydınlık Modu Etkinleştir",
+    "dark": "Karanlık Modu Etkinleştir"
+  },
+  "buttons": {
+    "next": "İleri",
+    "prev": "Geri",
+    "close": "Kapat",
+    "submit": "Gönder"
+  },
+  "ticker": {
+    "title": "Dualar & Ayetler",
+    "items": [
+      { "text": "Labbayk Allahumma Labbayk, Labbayka la sharika laka Labbayk, Innal-hamda wan-ni'mata laka wal-mulk, la sharika lak", "source": "Müttefekun Aleyh" },
+      { "text": "Haccı da umreyi de Allah için tamamlayın", "source": "Bakara: 196" },
+      { "text": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi ateş azabından koru", "source": "Bakara: 201" },
+      { "text": "Bir umre, diğer umreye kadar olan günahlara kefarettir. Kabul olunmuş bir haccın karşılığı ise ancak cennettir", "source": "Müttefekun Aleyh" },
+      { "text": "Allah'ım, bana rahmet kapılarını aç", "source": "Mescide giriş duası" },
+      { "text": "Şüphesiz Safa ile Merve, Allah'ın nişanelerindendir", "source": "Bakara: 158" },
+      { "text": "Allah'ım, bu Evi şeref, azamet, ikram ve heybet yönünden artır", "source": "Eser" },
+      { "text": "Allah'ım, senden faydalı bir ilim, bol rızık ve her türlü hastalıktan şifa diliyorum", "source": "Zemzem içerken yapılan dua" },
+      { "text": "Allah'tan başka ilah yoktur, O tektir, ortağı yoktur. Mülk O'nundur, hamd O'na mahsustur. O her şeye kadirdir", "source": "Müslim" },
+      { "text": "Hacılar ve umre yapanlar Allah'ın elçileridir. O çağırmış, onlar da icabet etmişlerdir; O'ndan istemişler, O da onlara vermiştir", "source": "İbn Mace" }
+    ]
+  }
+}

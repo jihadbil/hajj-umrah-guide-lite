@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang Kami",
+    "umrah": "Perjalanan Umrah",
+    "sections": "Kategori Situs",
+    "contact": "Hubungi Kami",
+    "arkaan": "Rukun",
+    "wajibaat": "Wajib & Sunnah",
+    "prohibitions": "Larangan",
+    "fidya": "Fidya (Kompensasi)",
+    "mistakes": "Kesalahan Umum",
+    "duas": "Kumpulan Doa",
+    "tips": "Tas Peta Jamaah",
+    "attractions": "Tempat Bersejarah",
+    "hotels": "Hotel & Pemandu",
+    "fazah": "Fazah Relief"
+  },
+  "brand": {
+    "name": "Morshid",
+    "subtitle": "Panduan Umrah Komprehensif"
+  },
+  "footer": {
+    "description": "Platform panduan interaktif yang bertujuan untuk memfasilitasi ritual Umrah dan ziarah langkah demi langkah, memperjelas rukun, kewajiban, dan larangan berdasarkan Al-Qur'an dan Sunnah yang disucikan secara sederhana dan menarik secara visual.",
+    "sectionsTitle": "Kategori Panduan",
+    "duaTitle": "Doa & Harapan",
+    "duaText": "\"Ya Allah, jadikanlah ini Umrah yang mabrur, dosa yang diampuni, dan usaha yang diterima.\"",
+    "duaAccept": "— Semoga Allah menerima amal ibadah Anda",
+    "rights": "Hak cipta dilindungi undang-undang",
+    "tagline": "Dibuat untuk melayani para tamu Allah"
+  },
+  "errors": {
+    "404": "404",
+    "pageNotFound": "Halaman Tidak Ditemukan",
+    "pageNotFoundDesc": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+    "backHome": "Kembali ke Beranda",
+    "errorOccurred": "Terjadi Kesalahan",
+    "errorLoadFailed": "Gagal memuat halaman, silakan coba lagi.",
+    "tryAgain": "Coba Lagi",
+    "home": "Beranda"
+  },
+  "theme": {
+    "light": "Aktifkan Mode Terang",
+    "dark": "Aktifkan Mode Gelap"
+  },
+  "buttons": {
+    "next": "Berikutnya",
+    "prev": "Sebelumnya",
+    "close": "Tutup",
+    "submit": "Kirim"
+  },
+  "ticker": {
+    "title": "Doa & Ayat",
+    "items": [
+      { "text": "Labbayk Allahumma Labbayk, Labbayka la sharika laka Labbayk, Innal-hamda wan-ni'mata laka wal-mulk, la sharika lak", "source": "Muttafaq 'Alaih" },
+      { "text": "Dan sempurnakanlah ibadah haji dan umrah karena Allah", "source": "Al-Baqarah: 196" },
+      { "text": "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat dan peliharalah kami dari siksa neraka", "source": "Al-Baqarah: 201" },
+      { "text": "Antara umrah yang satu dengan umrah lainnya adalah penghapus dosa antara keduanya, dan haji yang mabrur tidak ada balasan baginya selain surga", "source": "Muttafaq 'Alaih" },
+      { "text": "Ya Allah, bukakanlah bagiku pintu-pintu rahmat-Mu", "source": "Doa masuk masjid" },
+      { "text": "Sesungguhnya Safa dan Marwah adalah sebagian dari syiar Allah", "source": "Al-Baqarah: 158" },
+      { "text": "Ya Allah, tambahkanlah rumah ini dengan kehormatan, keagungan, kemuliaan, dan wibawa", "source": "Atsar" },
+      { "text": "Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang luas, dan kesembuhan dari segala penyakit", "source": "Doa saat minum air zam-zam" },
+      { "text": "Tidak ada tuhan selain Allah yang Maha Esa, tidak ada sekutu bagi-Nya, milik-Nya segala kerajaan dan milik-Nya segala pujian, dan Dia Maha Kuasa atas segala sesuatu", "source": "Diriwayatkan oleh Muslim" },
+      { "text": "Orang yang berhaji dan berumrah adalah tamu Allah, Allah memanggil mereka lalu mereka menjawab-Nya, dan mereka meminta kepada-Nya lalu Dia memberi mereka", "source": "Diriwayatkan oleh Ibnu Majah" }
+    ]
+  }
+}

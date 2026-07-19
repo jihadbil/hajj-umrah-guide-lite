@@ -1,6 +1,5 @@
 // ===================================================
 // fazah.ts — بيانات ونماذج خدمة "فزعة" لشبكة الإغاثة اللامركزية للمعتمرين
-// ملاحظة: بيانات تجريبية (Placeholder) لأغراض العرض والتوضيح فقط
 // ===================================================
 
 export interface FazahCard {
@@ -15,19 +14,6 @@ export interface FazahCard {
   cardId: string;
 }
 
-// بطاقة نموذجية لمعتمر لغرض العرض التوضيحي فقط
-export const sampleFazahCard: FazahCard = {
-  name: "عبد الرحمن سعيد المطيري",
-  hotel: "فندق سويس أوتيل المقام مكة",
-  groupLeaderName: "الشيخ عبد الله الحربي",
-  groupLeaderPhone: "٠٥٥ ٤٤٤ ٢٢١١",
-  roomNumber: "غرفة ٧١٤",
-  bloodType: "O+",
-  healthNote: "مريض ضغط، يحمل دواءً في حقيبته",
-  language: "العربية",
-  cardId: "FZ-2026-08231",
-};
-
 export interface FazahStep {
   n: number;
   title: string;
@@ -35,55 +21,70 @@ export interface FazahStep {
   icon: string;
 }
 
-export const fazahSteps: FazahStep[] = [
-  {
-    n: 1,
-    title: "بطاقة فزعة شخصية",
-    description:
-      "يحصل كل معتمر على بطاقة أو سوار يحمل رمز استجابة سريعة (QR) مطبوعًا، دون الحاجة لهاتف أو إنترنت من جهته. تحتوي البطاقة على اسمه واسم فندقه ورقم غرفته وهاتف مسؤول مجموعته وفصيلة دمه وملاحظاته الصحية.",
-    icon: "🪪",
-  },
-  {
-    n: 2,
-    title: "المسح من أي مرشد أو موظف استقبال",
-    description:
-      "عند الحاجة، يقوم أقرب مرشد معتمد أو موظف استقبال فندق مسجّل في الشبكة بمسح رمز البطاقة عبر كاميرا هاتفه، فتظهر له بيانات المعتمر فورًا دون الحاجة لتطبيق خاص.",
-    icon: "📷",
-  },
-  {
-    n: 3,
-    title: "تنبيه فوري وسلسلة إغاثة",
-    description:
-      "بمجرد المسح، تُرسل الشبكة تنبيهًا تلقائيًا إلى مسؤول المجموعة وجهة الاتصال في حالات الطوارئ، مع مشاركة الموقع الحالي للمعتمر وإخطار استقبال الفندق، لتبدأ سلسلة المساعدة دون تأخير.",
-    icon: "🚨",
-  },
-];
-
 export interface FazahBenefit {
   title: string;
   description: string;
   icon: string;
 }
 
-export const fazahBenefits: FazahBenefit[] = [
-  {
-    title: "لا حاجة لهاتف أو إنترنت",
-    description: "تعمل البطاقة بدون أي جهاز من طرف المعتمر؛ يكفي حملها كبطاقة أو سوار.",
-    icon: "🔌",
-  },
-  {
-    title: "شبكة موزعة من المتطوعين",
-    description: "أي مرشد أو موظف استقبال مسجّل في الشبكة يمكنه المساعدة أينما وُجد المعتمر.",
-    icon: "🕸️",
-  },
-  {
-    title: "معلومات صحية حساسة وقت الحاجة",
-    description: "فصيلة الدم والملاحظات الصحية تصل لمن يقدّم المساعدة الأولى في ثوانٍ معدودة.",
-    icon: "🩺",
-  },
-  {
-    title: "مناسبة لكبار السن وذوي الاحتياجات الخاصة",
-    description: "حل بسيط لا يتطلب معرفة تقنية، ويصلح لكل الأعمار والحالات.",
-    icon: "🤝",
-  },
-];
+export const getSampleFazahCard = (t: (key: string, options?: any) => any): FazahCard => {
+  return {
+    name: t("sampleCard.name"),
+    hotel: t("sampleCard.hotel"),
+    groupLeaderName: t("sampleCard.groupLeaderName"),
+    groupLeaderPhone: t("sampleCard.groupLeaderPhone"),
+    roomNumber: t("sampleCard.roomNumber"),
+    bloodType: t("sampleCard.bloodType"),
+    healthNote: t("sampleCard.healthNote"),
+    language: t("sampleCard.language"),
+    cardId: "FZ-2026-08231",
+  };
+};
+
+export const getFazahSteps = (t: (key: string, options?: any) => any): FazahStep[] => {
+  return [
+    {
+      n: 1,
+      title: t("steps.s1.title"),
+      description: t("steps.s1.desc"),
+      icon: "🪪",
+    },
+    {
+      n: 2,
+      title: t("steps.s2.title"),
+      description: t("steps.s2.desc"),
+      icon: "📷",
+    },
+    {
+      n: 3,
+      title: t("steps.s3.title"),
+      description: t("steps.s3.desc"),
+      icon: "🚨",
+    },
+  ];
+};
+
+export const getFazahBenefits = (t: (key: string, options?: any) => any): FazahBenefit[] => {
+  return [
+    {
+      title: t("benefits.b1.title"),
+      description: t("benefits.b1.desc"),
+      icon: "🔌",
+    },
+    {
+      title: t("benefits.b2.title"),
+      description: t("benefits.b2.desc"),
+      icon: "🕸️",
+    },
+    {
+      title: t("benefits.b3.title"),
+      description: t("benefits.b3.desc"),
+      icon: "🩺",
+    },
+    {
+      title: t("benefits.b4.title"),
+      description: t("benefits.b4.desc"),
+      icon: "🤝",
+    },
+  ];
+};

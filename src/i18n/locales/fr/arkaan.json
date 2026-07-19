@@ -1,0 +1,145 @@
+{
+  "eyebrow": "Fiqh de l'Umrah",
+  "title": "Piliers de l'Umrah",
+  "description": "Les piliers sont les actions fondamentales sur lesquelles repose l'Umrah, et celle-ci n'est valide qu'en les accomplissant tous.",
+  "intro": {
+    "title": "Quelle est la différence entre un Pilier, une Obligation et une Sunnah ?",
+    "rukn_title": "Pilier (Rukn)",
+    "rukn_body": "Ce sans quoi l'Umrah n'est pas valide, et celui qui le délaisse reste en état d'Ihram jusqu'à ce qu'il l'accomplisse.",
+    "wajib_title": "Obligatory Duty (Wajib)",
+    "wajib_body": "Ce qui doit être fait; le délaisser est un péché et nécessite un sacrifice (dam) selon la majorité, mais l'Umrah reste valide.",
+    "sunnah_title": "Sunnah",
+    "sunnah_body": "Ce qu'il est recommandé de faire en suivant le Prophète ﷺ, ce n'est pas obligatoire, et le délaisser n'entraîne rien."
+  },
+  "tabs": {
+    "details": "Détails",
+    "mustahabb": "Recommandés",
+    "makrooh": "Déconseillés"
+  },
+  "labels": {
+    "ruling": "Règle : ",
+    "ruknLabel": "Pilier {{num}}",
+    "noteLabel": "💡 Attention : ",
+    "mustahabbSub": "Le faire en suivant le Prophète ﷺ est récompensé, et le délaisser n'est pas un péché.",
+    "makroohSub": "Choses qu'il est conseillé d'éviter car elles réduisent la récompense ou nuisent à la perfection de l'adoration."
+  },
+  "conclusion": {
+    "verse": "« Et accomplissez pour Allah le pèlerinage et l'Umrah. »",
+    "source": "Sourate Al-Baqarah — Verset 196"
+  },
+  "rukn1": {
+    "arabicNum": "1",
+    "title": "Ihram",
+    "definition": "L'intention d'entrer dans les rites de dévotion, qui est le pilier par lequel commence l'Umrah. L'Umrah n'est valide qu'avec l'Ihram depuis le Miqat désigné.",
+    "ruling": "Pilier — L'Umrah n'est pas valide sans lui. Pour celui qui n'entre pas en Ihram, son Umrah n'a pas commencé du tout.",
+    "details": [
+      "L'Ihram est initié par l'intention. Lorsque la personne a l'intention d'entrer en Umrah et l'exprime, elle entre dans les rites.",
+      "Le pèlerin entre en Ihram depuis le Miqat, et il n'est pas permis de franchir le Miqat sans Ihram.",
+      "Il est recommandé de se laver et de porter deux pièces de tissu blanc (izar et rida) pour les hommes avant l'Ihram.",
+      "Les femmes entrent en Ihram avec leurs vêtements habituels couvrants, en évitant le niqab (voile facial) et les gants.",
+      "La Talbiyah commence immédiatement après l'Ihram et continue jusqu'au début du Tawaf."
+    ],
+    "mustahabb": [
+      "Se laver avant l'Ihram — une Sunnah fortement recommandée même en l'absence d'impureté rituelle majeure.",
+      "Porter un pagne et une cape blancs propres pour les hommes.",
+      "Appliquer du parfum sur le corps (pas sur les vêtements) pour les hommes avant l'Ihram ; si l'effet persiste après, il n'y a pas de mal.",
+      "Se tourner vers la Qiblah lors de la récitation de la Talbiyah si possible.",
+      "Élever modérément la voix pour la Talbiyah pour les hommes.",
+      "La condition (Ishtirat) pour ceux qui craignent un obstacle : 'Si un obstacle me retient, alors mon lieu de désacralisation sera là où j'ai été retenu.'",
+      "Multiplier la Talbiyah sur le chemin de la Grande Mosquée."
+    ],
+    "makrooh": [
+      "Retarder la Talbiyah après l'intention d'Ihram sans excuse.",
+      "S'occuper avec le téléphone et les conversations immédiatement après l'Ihram avant de commencer la Talbiyah.",
+      "Une femme élevant la voix pour la Talbiyah devant des hommes non-mahrams.",
+      "Poser des conditions (ishtirat) sans besoin, car c'est une concession non recommandée pour une personne en bonne santé.",
+      "Appliquer du parfum sur les tissus d'Ihram après avoir formulé l'intention."
+    ],
+    "note": "L'Ihram est l'intention, pas seulement le fait de porter les deux tissus. Quiconque porte le pagne et la cape sans l'intention d'entrer dans les rites n'est pas en Ihram."
+  },
+  "rukn2": {
+    "arabicNum": "2",
+    "title": "Tawaf",
+    "definition": "Faire le tour de la Kaaba sacrée sept fois complètes, en commençant par la Pierre Noire et en terminant à celle-ci, avec la Kaaba à gauche du pèlerin tout au long du Tawaf.",
+    "ruling": "Pilier — L'Umrah n'est pas valide sans lui. Quiconque délaisse le Tawaf, son Umrah n'est pas complète et il ne se désacralise pas tant qu'il ne l'accomplit pas.",
+    "details": [
+      "Chaque tour commence par l'alignement de la Pierre Noire, qui est touchée ou saluée d'un signe de la main avec le Takbeer.",
+      "La Kaaba doit rester à gauche du pèlerin dans tous les tours.",
+      "Le Tawaf comprend sept tours complets, et le Tawaf à l'intérieur du Hijr Ismail n'est pas valide.",
+      "La pureté rituelle (woudou) est requise pour le Tawaf.",
+      "L'Idtiba' (découvrir l'épaule droite) et le Ramal (marcher à pas rapides) sont une Sunnah pour les hommes lors du Tawaf de l'Umrah uniquement."
+    ],
+    "mustahabb": [
+      "L'Idtiba' tout au long du Tawaf pour les hommes — découvrir l'épaule droite en faisant passer la cape sous l'aisselle droite.",
+      "Le Ramal pendant les trois premiers tours pour les hommes — marcher à pas rapides et serrés.",
+      "Toucher la Pierre Noire ou faire un signe vers elle avec le Takbeer au début de chaque tour.",
+      "Toucher le Coin Yéménite (Rukn Al-Yamani) avec la main droite à chaque tour si possible sans causer de gêne.",
+      "Réciter 'Rabbana atina fid-dunya hasanah...' entre le Coin Yéménite et la Pierre Noire.",
+      "Multiplier les invocations, le dhikr et la lecture du Coran pendant le Tawaf.",
+      "L'humilité, le calme et ne pas se préoccuper des affaires mondaines."
+    ],
+    "makrooh": [
+      "Élever la voix pour des invocations collectives derrière un guide, ce qui perturbe les autres pèlerins.",
+      "Bousculer et nuire aux gens pour atteindre la Pierre Noire ou le Coin Yéménite.",
+      "Toucher tous les coins de la Kaaba ou frotter ses murs — la Sunnah est de toucher la Pierre Noire et le Coin Yéménite uniquement.",
+      "Parler de choses mondaines pendant le Tawaf.",
+      "Faire un signe vers le Coin Yéménite si on ne peut pas le toucher — la Sunnah est de ne pas faire de signe.",
+      "Courir dans tous les tours — le Ramal se fait uniquement dans les trois premiers."
+    ],
+    "note": "Embrasser sa main après avoir fait un signe vers la Pierre Noire n'a pas été établi du Prophète ﷺ ; seul le signe avec le Takbeer est Sunnah."
+  },
+  "rukn3": {
+    "arabicNum": "3",
+    "title": "Sa'i",
+    "definition": "Le parcours de sept trajets entre les collines de Safa et de Marwah, commençant à Safa et se terminant à Marwah.",
+    "ruling": "Pilier — L'Umrah n'est pas valide sans lui. Celui qui délaisse le Sa'i, ses rites ne sont pas complets et il ne se désacralise pas tant qu'il ne l'accomplit pas.",
+    "details": [
+      "Le Sa'i se compose de sept trajets : l'aller de Safa à Marwah est un trajet, le retour en est un autre.",
+      "Le Sa'i commence à Safa et se termine à Marwah au septième trajet.",
+      "Il est recommandé de monter sur Safa et Marwah à chaque trajet si possible.",
+      "La pureté rituelle est recommandée pour le Sa'i, mais elle n'est pas une condition de validité.",
+      "Courir légèrement (hervele) entre les deux repères verts est une Sunnah pour les hommes, pas pour les femmes."
+    ],
+    "mustahabb": [
+      "Réciter le verset 'Innas-Safa wal-Marwata min sha'a'irillah' en montant sur Safa.",
+      "Faire face à la Qiblah sur Safa et Marwah et répéter le dhikr et l'invocation trois fois.",
+      "Courir légèrement entre les repères verts pour les hommes uniquement.",
+      "Multiplier le dhikr, les invocations et lire ce qui est facile du Coran.",
+      "La pureté rituelle — recommandée, bien que le Sa'i soit valide sans elle.",
+      "Monter sur Safa et Marwah à chaque trajet si possible."
+    ],
+    "makrooh": [
+      "Les femmes courant entre les repères verts — la Sunnah pour elles est de marcher normalement.",
+      "Courir tout au long du parcours — la Sunnah est de courir uniquement entre les repères verts.",
+      "Commencer par Marwah avant Safa — la Sunnah est de commencer par Safa.",
+      "S'occuper par la conversation et délaisser le dhikr et les invocations.",
+      "S'imposer une invocation spécifique pour chaque trajet — cela n'a pas été établi du Prophète ﷺ."
+    ],
+    "note": "Le Sa'i est valide sans woudou selon la majorité des savants, mais la pureté est meilleure et plus complète."
+  },
+  "rukn4": {
+    "arabicNum": "4",
+    "title": "Rasage ou Coupe",
+    "definition": "Se raser complètement la tête ou se couper les cheveux après le Sa'i, ce qui complète l'Umrah du pèlerin et le libère de son Ihram.",
+    "ruling": "Obligation (Wajib) selon la majorité des juristes — bien que certains le considèrent comme un pilier. Celui qui le délaisse ne se désacralise pas.",
+    "details": [
+      "Pour l'homme : Le rasage (Halq) est meilleur et plus complet, et la coupe (Taqseer) suffit. Elle doit couper toute la tête.",
+      "Pour la femme : Elle coupe de l'extrémité de ses cheveux la longueur d'une phalange environ, et ne se rase pas la tête.",
+      "Si la saison du Hajj est proche et qu'il veut faire le Hajj, couper court est préférable pour pouvoir se raser lors du Hajj.",
+      "Il ne suffit pas de couper quelques cheveux du devant de la tête uniquement.",
+      "En effectuant le rasage ou la coupe, le pèlerin se désacralise et tout ce qui lui était interdit redevient autorisé."
+    ],
+    "mustahabb": [
+      "Le rasage complet pour l'homme, sauf s'il souhaite faire le Hajj bientôt.",
+      "Se hâter de se raser ou de se couper les cheveux immédiatement après le Sa'i.",
+      "Invoquer après le rasage et louer Allah pour avoir complété le rite."
+    ],
+    "makrooh": [
+      "Se contenter de couper quelques cheveux sur le devant de la tête.",
+      "Couper d'un seul côté sans le reste de la tête.",
+      "Se désacraliser ou enlever les vêtements d'Ihram avant de se raser ou de se couper les cheveux.",
+      "Le rasage de la tête pour les femmes."
+    ],
+    "note": "En complétant le rasage ou la coupe, votre Umrah prend fin et vous vous désacralisez. Nous demandons à Allah l'acceptation."
+  }
+}

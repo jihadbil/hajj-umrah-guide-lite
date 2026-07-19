@@ -1,0 +1,82 @@
+{
+  "eyebrow": "Fazah Hizmeti",
+  "title": "Fazah — Umreci Desantralize Yardım Ağı",
+  "description": "Her umreci, kendisinden internet veya telefona ihtiyaç duymadan, saniyeler içinde en yakın rehber veya otel resepsiyonuna bağlayan hızlı yanıt (QR) kartı taşır.",
+  "demoNotice": "Bu sayfa, önerilen hizmet konseptini açıklayan bir tanıtım sayfasıdır. Gösterilen detaylar (umreci kartı ve uyarı simülatörü) tamamen açıklama amaçlı taslak verilerdir.",
+  "why": {
+    "badge": "Neden Fazah?",
+    "title": "Umrecinin yardıma ihtiyacı olduğunda, kaybedecek zaman yoktur",
+    "desc": "Haremeyni Şerifeyn kalabalığında, bir umreci kaybolabilir veya grubundan uzakta sağlık sorunu yaşayabilir. Fazah; sertifikalı rehberleri ve otel resepsiyonistlerini bir araya getiren gönüllü bir ağdır. Böylece bu ağdaki herhangi biri, kart taşıyan umreciyi hemen tanımlayabilir ve sorumlularına anında haber verebilir."
+  },
+  "how": {
+    "title": "Hizmet Nasıl Çalışır?",
+    "desc": "Üç basit adım, karmaşaya mahal vermeden umreciyi acil yardım ağına bağlar."
+  },
+  "simulator": {
+    "title": "Tarama & Uyarı Simülasyonu",
+    "badge": "Simülasyon",
+    "idleDesc": "Yukarıdaki örnek umrecinin Fazah kartının bir rehber tarafından taranmasını simüle etmek için aşağıdaki butona tıklayın.",
+    "idleBtn": "Kart Taramasını Simüle Et",
+    "doneText": "Umrecinin mevcut konumu grup sorumlusuna ve otel resepsiyonuna başarıyla iletildi.",
+    "resetBtn": "Simülasyonu Yeniden Başlat",
+    "chain": {
+      "step1": "Umreci kimliğini belirleme",
+      "step2": "Grup sorumlusuna uyarı gönderme",
+      "step3": "Mevcut konumu paylaşma",
+      "step4": "Otel resepsiyonunu bilgilendirme"
+    }
+  },
+  "cardLabels": {
+    "title": "Fazah Kartı",
+    "pilgrimName": "Umreci Adı",
+    "hotel": "Otel",
+    "roomNumber": "Oda Numarası",
+    "groupLeaderPhone": "Grup Sorumlusu Telefonu",
+    "bloodType": "Kan Grubu",
+    "qrDesc": "Kayıtlı herhangi bir rehber veya otel resepsiyonisti bu kodu tarayarak umrecinin bilgilerini görüntüler ve acil yardım ağını anında uyarır.",
+    "flipQr": "QR Kodunu Göster",
+    "flipFront": "Kartın Ön Yüzünü Göster"
+  },
+  "sampleCard": {
+    "name": "Abdulrahman Saeed Al-Mutairi",
+    "hotel": "Swissôtel Al Maqam Makkah",
+    "groupLeaderName": "Şeyh Abdullah el-Harbi",
+    "groupLeaderPhone": "055 444 2211",
+    "roomNumber": "Oda 714",
+    "bloodType": "O+",
+    "healthNote": "Tansiyon hastası, çantasında ilaç taşıyor",
+    "language": "Arapça"
+  },
+  "steps": {
+    "s1": {
+      "title": "Kişisel Fazah Kartı",
+      "desc": "Her umreciye basılı bir QR kodu taşıyan kart veya bileklik verilir; kendi cihazına veya internete ihtiyaç duymaz. Kart; adını, otelini, oda numarasını, grup liderinin telefonunu, kan grubunu ve sağlık notlarını içerir."
+    },
+    "s2": {
+      "title": "Rehber Veya Resepsiyonist Tarafından Tarama",
+      "desc": "İhtiyaç anında, en yakın sertifikalı rehber veya sisteme kayıtlı otel resepsiyonisti telefon kamerasıyla kodu taratır ve özel bir uygulamaya gerek kalmadan umrecinin bilgilerini anında görüntüler."
+    },
+    "s3": {
+      "title": "Anında Uyarı Ve Yardım Zinciri",
+      "desc": "Tarama yapıldığı an sistem otomatik olarak grup sorumlusuna ve acil durum kişisine uyarı gönderir, umrecinin gps konumunu paylaşır ve otel resepsiyonunu bilgilendirir."
+    }
+  },
+  "benefits": {
+    "b1": {
+      "title": "Telefon Veya İnternet Gerekmez",
+      "desc": "Kart, umreci tarafında hiçbir teknolojik cihaz gerektirmeden çalışır; sadece kart veya bileklik olarak taşınması yeterlidir."
+    },
+    "b2": {
+      "title": "Dağıtık Gönüllü Ağı",
+      "desc": "Ağa kayıtlı her rehber veya resepsiyon görevlisi, umreci nerede olursa olsun ona yardım eli uzatabilir."
+    },
+    "b3": {
+      "title": "Kritik Sağlık Bilgilerine Anında Erişim",
+      "desc": "Kan grubu ve acil sağlık notları, ilk yardımı sunacak kişiye saniyeler içinde ulaşır."
+    },
+    "b4": {
+      "title": "Yaşlılar İçin Son Derece Uygun",
+      "desc": "Teknolojik bilgi gerektirmeyen, her yaş ve durumdaki kişiye uygun son derece basit bir çözümdür."
+    }
+  }
+}

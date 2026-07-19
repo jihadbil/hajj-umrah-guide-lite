@@ -1,0 +1,145 @@
+{
+  "eyebrow": "Umre Fıkhı",
+  "title": "Umrenin Rükünleri",
+  "description": "Rükünler, Umrenin üzerine inşa edildiği temel amellerdir ve hepsi yerine getirilmedikçe umre geçerli olmaz.",
+  "intro": {
+    "title": "Rükün, Vacip ve Sünnet Arasındaki Fark Nedir?",
+    "rukn_title": "Rükün",
+    "rukn_body": "Umrenin kendisi olmadan geçerli olmadığı şeydir. Bunu terk eden kişi, yerine getirene kadar ihramda kalır.",
+    "wajib_title": "Vacip",
+    "wajib_body": "Yapılması zorunlu olan şeydir; terk edilmesi günah olup çoğunluğa göre kurban (dem) gerektirir, ancak umre geçerlidir.",
+    "sunnah_title": "Sünnet",
+    "sunnah_body": "Peygamberimiz'e ﷺ uyarak yapılması tavsiye edilen şeydir. Zorunlu değildir ve terk edilmesi durumunda bir şey gerekmez."
+  },
+  "tabs": {
+    "details": "Detaylar",
+    "mustahabb": "Müstehaplar",
+    "makrooh": "Mekruhlar"
+  },
+  "labels": {
+    "ruling": "Hüküm: ",
+    "ruknLabel": "Rükün {{num}}",
+    "noteLabel": "💡 Uyarı: ",
+    "mustahabbSub": "Peygamberimiz'e ﷺ uyularak yapılması sevap kazandırır, terk edilmesinde günah yoktur.",
+    "makroohSub": "Sevabı azalttığı veya ibadetin mükemmelliğine aykırı olduğu için kaçınılması tavsiye edilen durumlar."
+  },
+  "conclusion": {
+    "verse": "“Haccı da, umreyi de Allah için tamamlayın.”",
+    "source": "Bakara Suresi — 196. Ayet"
+  },
+  "rukn1": {
+    "arabicNum": "1",
+    "title": "İhram",
+    "definition": "Niyyet edip ibadete girmek. Umrenin başladığı rükündür. Belirlenen mikat sınırından ihrama girmeden umre geçerli olmaz.",
+    "ruling": "Rükün — Umre ihramsız geçerli olmaz. İhrama girmeyenin umresi hiç başlamamış sayılır.",
+    "details": [
+      "İhram niyet ile başlar. Kişi umreye niyet edip bunu diliyle telaffuz ettiğinde ibadete girmiş olur.",
+      "Hacı adayı mikat sınırından ihrama girer. İhramsız mikat sınırını geçmek caiz değildir.",
+      "İhrama girmeden önce erkeklerin boy abdesti alması ve iki beyaz parça örtü (izar ve rida) giymesi sünnettir.",
+      "Kadınlar kendi normal ve örtücü elbiseleriyle ihrama girerler; peçe (nikab) ve eldiven kullanmaktan kaçınırlar.",
+      "Telbiye ihrama girer girmez başlar ve tavafa başlayana kadar devam eder."
+    ],
+    "mustahabb": [
+      "İhramdan önce boy abdesti almak — cünüp olmasa bile müekked bir sünnettir.",
+      "Erkeklerin temiz, beyaz bir izar ve rida giymesi.",
+      "İhramdan önce vücuda koku sürmek (elbiseye değil); ihrama girdikten sonra kokunun izi kalsa bile sakıncası yoktur.",
+      "Mümkünse telbiye getirirken kıbleye dönmek.",
+      "Erkeklerin telbiye getirirken seslerini orta derecede yükseltmesi.",
+      "Engelle karşılaşmaktan korkanlar için şart koşma (iştirat): 'Eğer bir engel beni alıkoyarsa, ihramdan çıkacağım yer o engel ile alıkonulduğum yerdir.'",
+      "Mescid-i Haram yolunda bol bol telbiye getirmek."
+    ],
+    "makrooh": [
+      "İhram niyetinden sonra mazeretsiz olarak telbiyeyi geciktirmek.",
+      "İhrama girdikten sonra telbiyeye başlamadan telefonla veya konuşmayla meşgul olmak.",
+      "Kadınların yabancı erkeklerin yanında telbiye getirirken seslerini yükseltmesi.",
+      "İhtiyaç yokken şart koşmak (iştirat), çünkü bu bir ruhsattır ve sağlıklı kişiye tavsiye edilmez.",
+      "İhram niyetinden sonra ihram örtülerine koku sürmek."
+    ],
+    "note": "İhram sadece iki parça giysiyi giymek değil, niyet etmektir. Niyet etmeden sadece giysileri giyen kişi ihrama girmiş olmaz."
+  },
+  "rukn2": {
+    "arabicNum": "2",
+    "title": "Tavaf",
+    "definition": "Kabe-i Muazzama'nın etrafını, Hacerü'l-Esved'den başlayıp yine orada bitirmek üzere, Kabe her zaman sol tarafta kalacak şekilde yedi kez dönmek.",
+    "ruling": "Rükün — Umre tavafsız geçerli olmaz. Tavafı terk edenin umresi tamamlanmaz ve tavafı yerine getirene kadar ihramdan çıkamaz.",
+    "details": [
+      "Her şavt Hacerü'l-Esved hizasından tekbir getirilerek ve selamlama yapılarak (istilam) başlar.",
+      "Tüm şavtlarda Kabe dönen kişinin sol tarafında kalmalıdır.",
+      "Tavaf yedi tam dönüşten oluşur. Hicr-i İsmail'in içinden geçerek tavaf yapmak geçerli değildir.",
+      "Tavaf için abdestli olmak (büyük ve küçük hadesten temizlik) şarttır.",
+      "Izdıba (sağ omzu açıkta bırakmak) ve remel (hızlı adımlarla çalımlı yürümek) sadece umre tavafında erkekler için sünnettir."
+    ],
+    "mustahabb": [
+      "Erkeklerin tavaf boyunca ızdıba yapması — üst örtüyü sağ koltuk altından geçirip sol omuza atmak.",
+      "Erkeklerin ilk üç şavtta remel yapması — adımları sıklaştırarak hızlı ve çalımlı yürümek.",
+      "Her şavtın başında Hacerü'l-Esved'i selamlamak veya el işaretiyle selamlayıp tekbir getirmek.",
+      "Zarar vermeden mümkünse her şavtta Rükn-i Yemani'yi sağ el ile selamlamak.",
+      "Rükn-i Yemani ile Hacerü'l-Esved arasında 'Rabbena atina fid-dunya hasene...' duasını okumak.",
+      "Tavaf boyunca zikir, dua ve Kur'an okumayı artırmak.",
+      "Huṣu, sükunet içinde olmak ve dünya işleriyle meşgul olmamak."
+    ],
+    "makrooh": [
+      "Grup halinde bir liderin arkasında yüksek sesle dua etmek, bu diğer tavaf edenleri rahatsız eder.",
+      "Hacerü'l-Esved veya Rükn-i Yemani'ye ulaşmak için insanları sıkıştırmak ve onlara zarar vermek.",
+      "Kabe'nin tüm köşelerini selamlamak veya duvarlarını mesh etmek — sünnet olan sadece Hacerü'l-Esved ve Rükn-i Yemani'yi selamlamaktır.",
+      "Tavaf sırasında dünya kelamı ile meşgul olmak.",
+      "Selamlayamayacak durumdayken Rükn-i Yemani'ye el işareti yapmak — sünnet olan el işareti yapmamaktır.",
+      "Tüm şavtlarda koşmak — remel sadece ilk üç şavttadır."
+    ],
+    "note": "Hacerü'l-Esved'i selamladıktan sonra eli öpmek Peygamberimiz'den ﷺ nakledilmemiştir; sadece tekbir ile selamlamak sünnettir."
+  },
+  "rukn3": {
+    "arabicNum": "3",
+    "title": "Sa'y",
+    "definition": "Safa tepesinden başlayıp Merve'de bitirmek üzere, iki tepe arasında yedi kez gidip gelmek.",
+    "ruling": "Rükün — Umre sa'ysiz geçerli olmaz. Sa'yi terk edenin ibadeti tamamlanmaz ve yerine getirene kadar ihramdan çıkamaz.",
+    "details": [
+      "Sa'y yedi şavttan oluşur: Safa'dan Merve'ye gidiş bir şavt, dönüş ise başka bir şavttır.",
+      "Sa'y Safa'dan başlar ve yedinci şavtta Merve'de son bulur.",
+      "Mümkünse her şavtta Safa ve Merve tepelerine çıkmak müstehaptır.",
+      "Sa'y için abdestli olmak müstehaptır ancak geçerlilik şartı değildir.",
+      "İki yeşil ışık (mil-i ahdar) arasında hızlıca koşmak (hervele) sadece erkekler için sünnettir, kadınlar koşmaz."
+    ],
+    "mustahabb": [
+      "Safa tepesine çıkarken 'İnnes-Safa vel-Mervete min şeairillah' ayetini okumak.",
+      "Safa ve Merve tepelerinde kıbleye dönüp üç kez zikir ve dua etmek.",
+      "Sadece erkeklerin iki yeşil direk arasında hervele yapması.",
+      "Bol zikir, dua ve Kur'an okumak.",
+      "Abdestli olmak — abdest almadan da sa'y geçerli olsa da abdestli olmak daha faziletlidir.",
+      "Mümkünse her şavtta Safa ve Merve tepelerine çıkmak."
+    ],
+    "makrooh": [
+      "Kadınların yeşil direkler arasında hervele yapması — sünnet olan normal yürümeleridir.",
+      "Tüm sa'y yolu boyunca koşmak — sünnet olan sadece yeşil direkler arasında koşmaktır.",
+      "Safa'dan önce Merve'den başlamak — sünnet olan Safa'dan başlamaktır.",
+      "Konuşmalarla meşgul olup zikir ve duayı terk etmek.",
+      "Her şavt için belirli bir dua belirlemek — bu Peygamberimiz'den ﷺ nakledilmemiştir."
+    ],
+    "note": "Çoğunluğa göre sa'y abdest olmadan da geçerlidir, ancak abdestli olmak daha faziletli ve mükemmeldir."
+  },
+  "rukn4": {
+    "arabicNum": "4",
+    "title": "Tıraş veya Saç Kısaltma",
+    "definition": "Sa'yden sonra başın saçlarını tamamen tıraş etmek veya kısaltmak. Bununla hacı adayı umresini tamamlar ve ihramdan çıkar.",
+    "ruling": "Vacip — Çoğu fakihe göre vaciptir (bazıları rükün sayar). Bunu yapmayan kişi ihramdan çıkmış sayılmaz.",
+    "details": [
+      "Erkekler için: Tamamen tıraş etmek (halk) daha faziletlidir, kısaltmak (taksir) da yeterlidir. Başın tamamını kapsamalıdır.",
+      "Kadınlar için: Saçlarının uçlarından yaklaşık bir parmak boğumu kadar keserler, başlarını tıraş etmezler.",
+      "Hac mevsimi yakınsa ve hac yapmak istiyorsa, saçını kısaltması daha iyidir, böylece hacda tamamen tıraş edebilir.",
+      "Başın sadece önünden birkaç tel saç kesmek yeterli değildir.",
+      "Tıraş veya kısaltma tamamlandığında ihramdan çıkılır ve ihram yasakları kalkar."
+    ],
+    "mustahabb": [
+      "Hac yakın değilse erkeklerin saçlarını tamamen tıraş etmesi.",
+      "Sa'y biter bitmez hemen tıraş olmaya veya kısaltmaya koşmak.",
+      "Tıraştan sonra dua etmek ve ibadeti tamamlattığı için Allah'a hamd etmek."
+    ],
+    "makrooh": [
+      "Başın önünden sadece birkaç tel kesmekle yetinmek.",
+      "Başın diğer taraflarını bırakıp sadece bir tarafını kısaltmak.",
+      "Tıraş veya kısaltma yapmadan önce ihramdan çıkmak veya elbiseleri giymek.",
+      "Kadınların saçlarını tamamen tıraş etmesi."
+    ],
+    "note": "Tıraş veya kısaltma işlemini tamamladığınızda umreniz biter ve ihramdan çıkarsınız. Allah kabul etsin."
+  }
+}

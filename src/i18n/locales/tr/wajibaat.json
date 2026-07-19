@@ -1,0 +1,140 @@
+{
+  "eyebrow": "Umre Fıkhı",
+  "title": "Vacibler, Sünnetler ve Müstehaplar",
+  "description": "Her umrecinin fıkhi açıdan ihtiyaç duyduğu her şey: terk edilmesinde günah olan vacibler, yapılmasında sevap olan sünnetler ve kaçınılması gereken mekruhlar.",
+  "tabs": {
+    "wajibaat": "Vacibler",
+    "sunan": "Sünnetler",
+    "mustahabbat": "Müstehaplar",
+    "makrohaat": "Mekruhlar"
+  },
+  "banners": {
+    "wajibaat": "Vacibler, dinen umrede yapılması zorunlu olan amellerdir. Terk edilmesi günah olup çoğunluğa göre bir ceza kurbanı (dem) gerektirir. Ancak günah olmakla birlikte umre geçerlidir - rükünlerin aksine, çünkü rükünler olmadan umre geçerli olmaz.",
+    "sunan": "Sünnetler, Peygamberimiz'in ﷺ yaptığı veya onayladığı şeylerdir. Yapan sevap kazanır, terk eden günahkar olmaz. Sünnetlere riayet etmek umreyi tamamlar ve sevabı artırır.",
+    "mustahabbat": "Müstehaplar, Allah'ın sevdiği ve yakınlığı artıran amellerdir. Sünnetlerden daha genel olup Kur'an ve Sünnet'teki genel delillere dayanan amelleri kapsar.",
+    "makrohaat": "Mekruhlar, haram derecesine ulaşmayan ancak sevabı azalttığı veya ibadetin kemaline aykırı olduğu için kaçınılması tavsiye edilen durumlardır."
+  },
+  "labels": {
+    "daleel": "Şer'i Delil",
+    "consequence": "Terk Edildiğinde Hüküm"
+  },
+  "wajibaat_items": {
+    "miqat": {
+      "title": "Mikattan İhrama Girmek",
+      "body": "Umre yapmak isteyen herkesin geçtiği mikat sınırından ihrama girmesi vaciptir. İhramsız mikatı geçen kişinin geri dönmesi gerekir, aksi takdirde ceza kurbanı gerekir.",
+      "daleel": "Peygamberimiz ﷺ şöyle buyurmuştur: 'Bu sınırlar, oralı olanlar ile hac ve umre yapmak isteyip de dışarıdan oraya gelenler içindir.' — Buhari ve Müslim.",
+      "consequence": "Mikatı ihramsız geçen ve geri dönmeyen kişinin çoğunluğa göre bir koyun kesmesi (kurban etmesi) gerekir."
+    },
+    "halq": {
+      "title": "Tıraş veya Kısaltma",
+      "body": "Saçları tamamen tıraş etmek veya kısaltmak vaciptir ve bununla ihramdan çıkılır. Sadece birkaç tel saç kesmek yeterli değildir.",
+      "daleel": "Allah Teala şöyle buyurmuştur: '...saçlarınızı tıraş etmiş ve kısaltmış olarak...' [Fetih Suresi, 27]",
+      "consequence": "Tıraş veya kısaltmayı terk eden ihramdan çıkmış olmaz ve bazı alimlere göre kurban kesmesi gerekir."
+    }
+  },
+  "sunan_items": {
+    "ihram": {
+      "title": "İhramın Sünnetleri",
+      "items": [
+        "İhramdan önce boy abdesti almak",
+        "Erkeklerin temiz beyaz izar ve rida giymesi",
+        "İhramdan önce vücuda koku sürmek",
+        "Mikat yerinde iki rekat namaz kılmak",
+        "İhram niyetini dil ile söyleyip hemen telbiyeye başlamak",
+        "Engelle karşılaşmaktan korkanlar için şart koşmak",
+        "Erkeklerin telbiyede sesi yükseltmesi, kadının ise kısması"
+      ]
+    },
+    "tawaf": {
+      "title": "Tavafın Sünnetleri",
+      "items": [
+        "Erkeklerin tavafta ızdıba yapması (sağ omzu açması)",
+        "Erkeklerin ilk üç şavtta remel yapması (çalımlı yürümesi)",
+        "Hacerü'l-Esved'i tekbir ile selamlamak veya el işaretiyle selamlamak",
+        "Rükn-i Yemani'yi el ile selamlamak",
+        "Rükn-i Yemani ile Hacerü'l-Esved arasında 'Rabbena atina...' duasını okumak",
+        "Tavaftan sonra Makam-ı İbrahim'in arkasında iki rekat namaz kılmak",
+        "Zemzem suyu içmek ve ardından dua etmek"
+      ]
+    },
+    "sai": {
+      "title": "Sa'yin Sünnetleri",
+      "items": [
+        "Safa ve Merve tepelerine çıkmak",
+        "Safa'ya çıkarken 'İnnes-Safa vel-Mervete...' ayetini okumak",
+        "Safa ve Merve üzerinde kıbleye dönüp 3 kez zikir ve dua etmek",
+        "Sadece erkeklerin iki yeşil ışık arasında hervele yapması",
+        "Sa'y sırasında abdestli olmak"
+      ]
+    },
+    "halq": {
+      "title": "Tıraşın Sünnetleri",
+      "items": [
+        "Erkekler için tıraş etmek kısaltmaktan daha faziletlidir",
+        "Saçın başın her tarafından kısaltılması",
+        "Sa'y biter bitmez hemen tıraş olmak"
+      ]
+    }
+  },
+  "mustahabbat_items": {
+    "haram": {
+      "category": "Mescid-i Haram'da",
+      "items": [
+        "Peygamberimiz'e uyarak Selam Kapısı'ndan (Babüsselam) girmek",
+        "Sağ ayakla girip mescit duasını okumak",
+        "Kabe'yi görünce huşu duymak ve duaya yönelmek",
+        "Bol bol nafile tavaf yapmak",
+        "Mekke'de kalmak ve Mescid-i Haram'da namazları kılmak"
+      ]
+    },
+    "worship": {
+      "category": "Genel İbadetlerde",
+      "items": [
+        "Yolculuk boyunca bol bol zikir, dua ve tilavet yapmak",
+        "Bu mübarek günlerde geceleri namaz ve zikirle ihya etmek",
+        "Mekke'deki fakirlere sadaka vermek",
+        "Kutsal mekanlarda anne-baba ve tüm Müslümanlar için dua etmek",
+        "Güzel ahlaklı olmak ve eziyetlere sabretmek",
+        "Dünya kelamından, tartışmalardan ve boş laflardan uzak durmak"
+      ]
+    }
+  },
+  "makrohaat_items": {
+    "ihram": {
+      "category": "İhramda",
+      "items": [
+        "Niyet ettikten sonra mazeretsiz telbiyeyi geciktirmek",
+        "Niyet ettikten sonra ihram örtüsüne koku sürmek",
+        "Kadınların yabancı erkeklerin yanında yüksek sesle telbiye getirmesi",
+        "Telbiye ve zikir yerine telefonla meşgul olmak"
+      ]
+    },
+    "tawaf": {
+      "category": "Tavafta",
+      "items": [
+        "Toplu halde yüksek sesle dua edip diğerlerini rahatsız etmek",
+        "Ulaşılamadığında Rükn-i Yemani'ye el işareti yapmak",
+        "Tavaf bittikten sonra namazdan önce ızdıba halini sürdürmek",
+        "Huşu yerine sürekli kitaptan uzun dualar okumaya odaklanmak"
+      ]
+    },
+    "sai": {
+      "category": "Sa'yde",
+      "items": [
+        "Kadınların yeşil direkler arasında hervele yapması",
+        "Yeşil direkler yerine tüm sa'y yolu boyunca koşmak",
+        "Safa yerine Merve'den başlamak",
+        "Safa ve Merve üzerinde zikri bırakıp sadece yürüyüp geçmek"
+      ]
+    },
+    "general": {
+      "category": "Genel Olarak",
+      "items": [
+        "Huşu yerine sürekli fotoğraf çekmek ve canlı yayın yapmak",
+        "İnsanları iterek, sıkıştırarak ve bağırarak rahatsız etmek",
+        "Mübarek mekanlarda sürekli dünya işlerini konuşmak",
+        "Namazları vaktinde kılma konusunda gevşeklik göstermek"
+      ]
+    }
+  }
+}

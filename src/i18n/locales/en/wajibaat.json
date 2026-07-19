@@ -1,0 +1,140 @@
+{
+  "eyebrow": "Fiqh of Umrah",
+  "title": "Duties, Sunnahs & Recommendations",
+  "description": "Everything the pilgrim needs from a jurisprudential aspect: duties whose omission is sinful, Sunnahs whose performance is rewarded, and disliked acts that should be avoided.",
+  "tabs": {
+    "wajibaat": "Duties",
+    "sunan": "Sunnahs",
+    "mustahabbat": "Recommended",
+    "makrohaat": "Disliked"
+  },
+  "banners": {
+    "wajibaat": "Duties (Wajibaat) are actions ordained by the Shariah in Umrah. Leaving them is a sin and requires a sacrifice (dam/slaughtering a sheep) according to the majority of jurists, although the Umrah remains valid despite the sin—unlike pillars, without which Umrah is completely invalid.",
+    "sunan": "Sunnahs are what the Prophet ﷺ did or approved. Performing them is rewarded and leaving them is not sinful. Being eager to perform them completes the Umrah and increases the reward.",
+    "mustahabbat": "Recommended acts (Mustahabbat) are actions that Allah loves. Doing them increases reward and closeness to Him. They are broader than Sunnahs, encompassing what is recommended by general texts of the Quran and Sunnah.",
+    "makrohoat": "Disliked acts (Makrohaat) are matters recommended to avoid because they reduce reward or contradict the completeness of worship, without reaching the level of prohibition."
+  },
+  "labels": {
+    "daleel": "Shariah Evidence",
+    "consequence": "Consequence of Omission"
+  },
+  "wajibaat_items": {
+    "miqat": {
+      "title": "Ihram from the Miqat",
+      "body": "It is obligatory for anyone intending Umrah to assume Ihram from the Miqat they pass by. Whoever crosses the Miqat without Ihram must return to it, otherwise a sacrifice (dam) becomes obligatory according to the majority of jurists.",
+      "daleel": "The Prophet ﷺ said: 'They are for them, and for those who pass by them from other than their people, who intend to perform Hajj and Umrah.' — Agreed upon.",
+      "consequence": "Whoever crosses the Miqat without Ihram and does not return to it is obliged to offer a sacrifice (slaughtering a sheep) according to the majority of scholars."
+    },
+    "halq": {
+      "title": "Shaving or Cutting",
+      "body": "Shaving or cutting the hair is a duty of Umrah according to the majority of jurists, and it is the act by which the Ihram is ended. It is not sufficient to cut only a small portion of the hair.",
+      "daleel": "Allah the Almighty said: '...shaving your heads and cutting [your hair] short...' [Al-Fath: 27]",
+      "consequence": "Whoever leaves shaving or cutting has not exited their Ihram, and a sacrifice is required according to some scholars."
+    }
+  },
+  "sunan_items": {
+    "ihram": {
+      "title": "Sunnahs of Ihram",
+      "items": [
+        "Taking a bath before Ihram — a stressed Sunnah even if not in a state of ritual impurity.",
+        "Wearing a clean white waist-wrapper (izar) and upper sheet (rida) for men.",
+        "Applying perfume to the body (not the clothes) for men before Ihram.",
+        "Praying two rak'ahs at the Miqat if there is a mosque.",
+        "Uttering the intention of Ihram for Umrah and starting the Talbiyah immediately.",
+        "Stipulation for those who fear an obstacle: 'If an obstacle blocks me, then my place of exit is where I am blocked.'",
+        "Raising the voice with Talbiyah for men, and lowering it for women."
+      ]
+    },
+    "tawaf": {
+      "title": "Sunnahs of Tawaf",
+      "items": [
+        "Idtiba' for men in the Tawaf of Umrah — exposing the right shoulder.",
+        "Ramal in the first three rounds for men — jogging with short, quick steps.",
+        "Touching the Black Stone or pointing to it with Takbeer at the beginning of each round.",
+        "Touching the Yamani Corner with the hand in each round if possible without causing harm.",
+        "Reciting 'Rabbana atina fid-dunya hasanah...' between the Yamani Corner and the Black Stone.",
+        "Praying two rak'ahs behind the Maqam of Ibrahim after Tawaf — it is valid anywhere in the Mosque.",
+        "Drinking Zamzam water and supplicating after the two rak'ahs of Tawaf."
+      ]
+    },
+    "sai": {
+      "title": "Sunnahs of Sa'i",
+      "items": [
+        "Ascending Safa and Marwah upon reaching them.",
+        "Reciting 'Innas-Safa wal-Marwata min sha'a'irillah' when ascending Safa.",
+        "Facing the Qiblah and repeating remembrance, declaration of oneness (tawheed), and supplication three times on Safa and Marwah.",
+        "Jogging between the two green posts for men only.",
+        "Ritual purity during Sa'i — recommended, though Sa'i is valid without it."
+      ]
+    },
+    "halq": {
+      "title": "Sunnahs of Shaving and Cutting",
+      "items": [
+        "Complete shaving is better for men than cutting, unless they intend to perform Hajj soon.",
+        "Cutting from all sides of the head, not just one part.",
+        "Hastening to shave or cut immediately after completing Sa'i."
+      ]
+    }
+  },
+  "mustahabbat_items": {
+    "haram": {
+      "category": "In the Grand Mosque",
+      "items": [
+        "Entering through the Gate of Bani Shaibah (Gate of Peace) following the Prophet ﷺ.",
+        "Entering with the right foot while reciting the supplication for entering the mosque.",
+        "Humility and tranquility upon seeing the Kaaba and dedicating oneself to supplication.",
+        "Increasing voluntary circumambulations (Tawaf).",
+        "Staying in Makkah and increasing prayers in the Grand Mosque."
+      ]
+    },
+    "worship": {
+      "category": "In Worship Generally",
+      "items": [
+        "Increasing remembrance, recitation, and supplication throughout the journey.",
+        "Reviving the night with prayer and remembrance during these blessed days.",
+        "Giving charity to the poor and needy in Makkah.",
+        "Supplicating for parents, relatives, and Muslims in sacred places.",
+        "Adorning oneself with good character and patience over harm.",
+        "Staying away from idle talk, obscenity, arguments, and worldly matters."
+      ]
+    }
+  },
+  "makrohaat_items": {
+    "ihram": {
+      "category": "During Ihram",
+      "items": [
+        "Delaying Talbiyah after the intention of Ihram without excuse.",
+        "Applying perfume to the Ihram clothes after making the intention.",
+        "A woman raising her voice with Talbiyah in front of non-mahram men.",
+        "Being preoccupied with phone and conversation instead of Talbiyah and remembrance."
+      ]
+    },
+    "tawaf": {
+      "category": "During Tawaf",
+      "items": [
+        "Raising the voice in collective supplication, which disturbs other circumambulators.",
+        "Pointing to the Yamani Corner when unable to touch it — the Sunnah is not to point.",
+        "Continuing Idtiba' after completing Tawaf and before praying the two rak'ahs.",
+        "Being preoccupied with memorizing long supplications at the expense of humility and focus."
+      ]
+    },
+    "sai": {
+      "category": "During Sa'i",
+      "items": [
+        "Women jogging between the two green posts.",
+        "Running throughout the entire path instead of moderate jogging between the posts.",
+        "Starting from Marwah instead of Safa.",
+        "Leaving supplication and remembrance on Safa and Marwah and merely walking across."
+      ]
+    },
+    "general": {
+      "category": "Generally",
+      "items": [
+        "Being preoccupied with photography and live broadcasting at the expense of humility.",
+        "Hurting Muslims by pushing, crowding, and raising voices.",
+        "Talking too much about worldly matters in sacred places.",
+        "Negligence in preserving prayers in their times."
+      ]
+    }
+  }
+}

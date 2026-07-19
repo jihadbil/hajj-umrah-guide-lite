@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge": "Your digital guide to the Ancient House",
+    "title": "Morshid",
+    "subtitle": "Your comprehensive guiding and interactive manual to perform the rituals of Umrah and visitation in complete peace of mind, according to the noble prophetic guidance.",
+    "btnStart": "Start Umrah Journey",
+    "btnDuas": "Supplications & Duas"
+  },
+  "quickLinks": {
+    "title": "Rituals & Services Directory",
+    "subtitle": "Choose the appropriate section to browse jurisprudential rulings and journey details."
+  },
+  "quickCards": {
+    "umrah": { "label": "Umrah Journey", "desc": "Step-by-step" },
+    "arkaan": { "label": "Pillars of Umrah", "desc": "Sunnahs and disliked acts" },
+    "wajibaat": { "label": "Duties & Sunnahs", "desc": "Obligatory and recommended acts" },
+    "prohibitions": { "label": "Ihram Prohibitions", "desc": "What should be avoided" },
+    "fidya": { "label": "Rulings of Fidya", "desc": "When is it due and how is it paid" },
+    "mistakes": { "label": "Common Mistakes", "desc": "Mistakes to avoid" },
+    "duas": { "label": "Supplications", "desc": "Prophetic and narrations" },
+    "tips": { "label": "Pilgrim's Bag", "desc": "Preparations checklist and tips" },
+    "attractions": { "label": "Historic Sites", "desc": "Landmarks of Makkah and Madinah" },
+    "hotels": { "label": "Hotels & Guides", "desc": "Accommodations and companions" },
+    "fazah": { "label": "Fazah Relief", "desc": "Decentralized relief network" }
+  },
+  "stepper": {
+    "badge": "🗺️ Interactive Roadmap",
+    "title": "Umrah Path Step-by-Step",
+    "subtitle": "Track the rituals and steps in detail and learn about recommended acts and supplications at each stage.",
+    "stepLabel": "Step {{id}}",
+    "stepOf": "Step {{id}} of {{total}}",
+    "recommendedLabel": "💡 Most Important Sunnahs:",
+    "duasLabel": "Supplications of this stage:",
+    "duasEmpty": "Choose whatever supplications you wish from the good of this life and the hereafter, and increase in seeking forgiveness.",
+    "viewFullBtn": "View Full Guide, Sunnahs & Mistakes"
+  }
+}

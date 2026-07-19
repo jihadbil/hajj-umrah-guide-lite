@@ -1,0 +1,153 @@
+{
+  "eyebrow": "Hotel & Pembimbing",
+  "title": "Akomodasi & Bimbingan Ibadah",
+  "description": "Pilih dari berbagai hotel terdekat dengan Dua Masjid Suci, dan temukan pembimbing bersertifikat untuk mendampingi ibadah Umrah Anda.",
+  "demoNotice": "⚠️ Ini adalah data simulasi untuk keperluan demo. Data ini akan diganti dengan data asli dan terbaru jika sudah tersedia.",
+  "fazahBanner": {
+    "badge": "BARU — Jaringan Bantuan Desentralisasi",
+    "title": "Layanan Fazah: Kartu yang menghubungkan jamaah ke pembimbing terdekat atau resepsionis hotel",
+    "desc": "Pelajari cara kerja kartu QR dan rantai siaga darurat instan saat kondisi darurat.",
+    "btn": "Pelajari Fazah ←"
+  },
+  "sections": {
+    "hotelsTitle": "Hotel Terdekat dengan Dua Masjid Suci",
+    "guidesTitle": "Pembimbing Bersertifikat"
+  },
+  "labels": {
+    "reviewsCount": "{{count}} ulasan",
+    "startFrom": "Mulai dari",
+    "pricePerNight": "{{price}} / malam",
+    "viewDetails": "Lihat Detail",
+    "experienceYears": "Pengalaman {{count}} tahun",
+    "languages": "Bahasa: {{list}}",
+    "licensedGuide": "Pembimbing Resmi ✓",
+    "aboutHotel": "Tentang Hotel",
+    "amenities": "Fasilitas & Layanan",
+    "address": "Alamat",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "contact": "Hubungi",
+    "bookRequest": "Ajukan Pemesanan",
+    "backToAll": "← Kembali ke Semua Hotel",
+    "notFoundTitle": "Hotel Tidak Ditemukan",
+    "notFoundDesc": "Maaf, hotel yang Anda cari tidak ditemukan.",
+    "notFoundBack": "Kembali"
+  },
+  "hotelsItems": {
+    "h1": {
+      "name": "Fairmont Makkah Clock Royal Tower",
+      "city": "Makkah",
+      "distance": "Hanya beberapa langkah dari Haram",
+      "price": "1200 SAR",
+      "amenities": ["Pemandangan Haram", "Berbagai Restoran", "Layanan Antar-Jemput"],
+      "description": "Terletak tepat di samping Masjidil Haram, hotel ikonik ini menawarkan pemandangan panorama Haram dan Ka'bah yang menakjubkan dari sebagian besar kamar dan suite-nya.",
+      "address": "Abraj Al Bait, Ajyad, Makkah",
+      "checkIn": "4:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h2": {
+      "name": "Swissôtel Al Maqam Makkah",
+      "city": "Makkah",
+      "distance": "200 meter dari Haram",
+      "price": "850 SAR",
+      "amenities": ["Sarapan Gratis", "Wi-Fi Gratis", "Mushola Khusus"],
+      "description": "Hotel mewah yang menggabungkan keramahan khas Swiss dengan karakter lokal, hanya beberapa langkah dari halaman Haram melalui koridor khusus tamu.",
+      "address": "Kompleks Abraj Al Bait, Makkah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h3": {
+      "name": "Hilton Suites Makkah",
+      "city": "Makkah",
+      "distance": "400 meter dari Haram",
+      "price": "750 SAR",
+      "amenities": ["Kamar Keluarga", "Dapur Kecil", "Layanan Laundry"],
+      "description": "Pilihan ideal untuk keluarga dengan suite yang luas dan dapur kecil di setiap kamar, serta menyediakan antar-jemput rutin ke Haram sepanjang hari.",
+      "address": "Distrik Ash Shuhada, Makkah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h4": {
+      "name": "Dar Al Tawhid InterContinental Makkah",
+      "city": "Makkah",
+      "distance": "Bersebelahan dengan Haram",
+      "price": "1500 SAR",
+      "amenities": ["Pemandangan Ka'bah", "Layanan Porter/Layanan Pramutamu", "Restoran Mewah"],
+      "description": "Salah satu hotel tertua dan paling prestisius di Makkah, menawarkan pemandangan langsung ke Ka'bah yang suci dari restoran dan kamar suite-nya.",
+      "address": "Ajyad, Makkah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h5": {
+      "name": "Mövenpick Anwar Al Madinah",
+      "city": "Madinah",
+      "distance": "100 meter dari Masjid Nabawi",
+      "price": "650 SAR",
+      "amenities": ["Pemandangan Masjid Nabawi", "Sarapan Prasmanan", "Parkir"],
+      "description": "Terletak di jantung kawasan pusat kota Madinah, langsung menghadap halaman Masjid Nabawi, dengan sarapan prasmanan yang lengkap.",
+      "address": "Kawasan Pusat, Madinah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h6": {
+      "name": "Dar Al Iman InterContinental Madinah",
+      "city": "Madinah",
+      "distance": "50 meter dari Haram Nabawi",
+      "price": "800 SAR",
+      "amenities": ["Jalur Tertutup ke Haram", "Antar-Jemput Bandara", "Kamar Keluarga"],
+      "description": "Terhubung langsung melalui jalur tertutup ke halaman Masjid Nabawi, memudahkan akses ke masjid tanpa terkena terik matahari langsung.",
+      "address": "Kawasan Pusat, Madinah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h7": {
+      "name": "Pullman Zamzam Madinah",
+      "city": "Madinah",
+      "distance": "150 meter dari Masjid Nabawi",
+      "price": "500 SAR",
+      "amenities": ["Restoran Arab & Internasional", "Wi-Fi Gratis", "Pusat Kebugaran"],
+      "description": "Hotel modern dengan harga bersahabat yang menawarkan pemandangan sebagian Masjid Nabawi, dilengkapi pusat kebugaran dan aneka hidangan restoran.",
+      "address": "Kawasan Pusat, Madinah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    }
+  },
+  "guidesItems": {
+    "g1": {
+      "name": "Syekh Abdullah Al-Harbi",
+      "city": "Makkah & Madinah",
+      "specialty": "Bimbingan fikih komprehensif untuk manasik Umrah",
+      "languages": ["Arab", "Inggris"]
+    },
+    "g2": {
+      "name": "Bapak Mohammed Al-Zahrani",
+      "city": "Makkah",
+      "specialty": "Mendampingi kelompok Umrah dan bimbingan Tawaf",
+      "languages": ["Arab", "Inggris", "Urdu"]
+    },
+    "g3": {
+      "name": "Ibu Amal Al-Qahtani",
+      "city": "Makkah",
+      "specialty": "Bimbingan khusus wanita dan keluarga",
+      "languages": ["Arab", "Inggris"]
+    },
+    "g4": {
+      "name": "Syekh Khalid Al-Otaibi",
+      "city": "Madinah",
+      "specialty": "Tur sejarah Masjid Nabawi dan situs bersejarah",
+      "languages": ["Arab", "Prancis"]
+    },
+    "g5": {
+      "name": "Bapak Yusuf Al-Malki",
+      "city": "Makkah & Madinah",
+      "specialty": "Bimbingan untuk rombongan Asia Tenggara",
+      "languages": ["Arab", "Inggris", "Melayu"]
+    },
+    "g6": {
+      "name": "Ibu Hind Al-Dossari",
+      "city": "Madinah",
+      "specialty": "Mendampingi lansia dan jamaah berkebutuhan khusus",
+      "languages": ["Arab", "Inggris"]
+    }
+  }
+}

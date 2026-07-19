@@ -1,0 +1,325 @@
+{
+  "eyebrow": "Umre Rehberi",
+  "title": "Adım Adım Umre Rehberi",
+  "description": "Umre ibadetini başlangıcından ihramdan çıkışa (tahallül) kadar tüm detaylarıyla uygulayabileceğiniz kapsamlı rehber.",
+  "labels": {
+    "recommended": "Müstehaplar",
+    "disliked": "Mekruhlar",
+    "mistakes": "Sık Yapılan Hatalar",
+    "duas": "Dualar ve Zikirler",
+    "guide": "Rehber",
+    "warningTitle": "Umreci İçin Önemli Uyarı",
+    "nextStep": "Sonraki Adım",
+    "stepLabel": "Adım {{id}}",
+    "stepOf": "Adım {{id}} / {{total}}",
+    "stepsCount": "{{count}} Adım"
+  },
+  "banners": {
+    "recommended": "Bu ameller bu aşamada müstehaptır. Yapılması Peygamberimiz'e ﷺ uymak vesilesiyle sevap kazandırır, terk edilmesi ise günah değildir.",
+    "disliked": "Bu durumlar mekruh olup kaçınılması tavsiye edilir çünkü sevabı azaltabilir veya ibadetin kemaline aykırıdır.",
+    "mistakes": "Bu aşamada sıkça yapılan hatalar ve Sünnete uygun doğru uygulamalar.",
+    "duas": "Bu aşamada yapılması müstehap olan sahih dualar ve zikirler."
+  },
+  "steps": {
+    "step1": {
+      "title": "İhram Öncesi",
+      "subtitle": "Umre Yolculuğuna Hazırlık",
+      "intro": "Umrenize başlamadan önce, ihrama en güzel şekilde girmek için hazırlık yapmanız müstehaptır. Bu hazırlıklar Peygamberimiz'in ﷺ sünnetlerindendir.",
+      "sections": [
+        {
+          "heading": "Nasıl Hazırlanmalısınız?",
+          "body": "Mikat sınırına doğru giderken şunları yapmanız müstehaptır:",
+          "list": [
+            "Mümkünse boy abdesti (gusül) almak.",
+            "Tırnakları kesmek, vücut temizliği yapmak ve gerekli tıraşları ihramdan önce tamamlamak.",
+            "Sadece erkekler için vücuda güzel koku sürmek (ihram örtüsüne koku sürülmez).",
+            "Mikatta yıkanmak mümkün olmadıysa, tavaftan önce Mekke'ye varınca yıkanmak müstehaptır."
+          ]
+        },
+        {
+          "heading": "Erkeklerin İhram Kıyafeti",
+          "body": "İki parça temiz beyaz örtü (izar ve rida)."
+        },
+        {
+          "heading": "Kadınların İhram Kıyafeti",
+          "body": "Vücudu örten, dikkat çekmeyen günlük kıyafetleridir. İhramlıyken peçe (nikab) veya eldiven takamazlar."
+        }
+      ],
+      "recommended": [
+        "İhramdan önce boy abdesti almak — müekked sünnet.",
+        "İhramdan önce tırnak kesmek ve kılları temizlemek.",
+        "Erkeklerin ihrama niyet etmeden önce vücutlarına koku sürmesi.",
+        "Temiz beyaz ihram örtüleri giymek.",
+        "Mikat yerinde mescit varsa iki rekat namaz kılmak."
+      ],
+      "disliked": [
+        "Gücü yettiği halde ihramdan önce yıkanmayı terk etmek.",
+        "Hazırlıkları ihmal edip ihramlıyken tırnak/kıl temizlemeye çalışmak."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Kadınlar için beyaz kıyafet giymenin zorunlu olduğunu düşünmek.",
+          "right": "Kadınlar dikkat çekmeyen her renk tesettüre uygun kıyafetle ihrama girebilirler."
+        },
+        {
+          "wrong": "Kokuyu doğrudan ihram örtülerine sıkmak.",
+          "right": "Koku ihram niyetinden önce sadece vücuda sürülmelidir."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Umre İhramı Niyeti",
+          "arabic": "اللَّهُمَّ لَبَّيْكَ عُمْرَةً",
+          "translation": "Allah'ım, senin rızan için umre yapmaya niyet ettim.",
+          "source": "İhrama girerken söylenmesi müstehaptır."
+        },
+        {
+          "title": "Şart Koşma (İştirat)",
+          "arabic": "فَإِنْ حَبَسَنِي حَابِسٌ فَمَحِلِّي حَيْثُ حَبَسْتَنِي",
+          "translation": "Eğer beni bir engel engellerse, ihramdan çıkacağım yer beni engellediğin yerdir.",
+          "source": "Muttafaq 'alaih — engel çıkmasından korkanlar için."
+        }
+      ],
+      "note": "İhrama hazırlık sünnettir, umrenin sıhhat şartı değildir.",
+      "nextStep": "İhram"
+    },
+    "step2": {
+      "title": "İhram",
+      "subtitle": "İbadetin Başlangıcı",
+      "intro": "Mikat sınırına ulaştınız. Buradan itibaren umre niyetiyle ihrama girer ve yasaklara uymaya başlarsınız.",
+      "sections": [
+        {
+          "heading": "İhrama Nasıl Girilir?",
+          "body": "İhram elbiselerini giydikten sonra kalben niyet edin ve dil ile: 'Labbeyk 'Umre' veya 'Allahumma Labbeyk 'Umre' deyin. Niyetle birlikte ihram yasakları başlar."
+        }
+      ],
+      "recommended": [
+        "Niyetten hemen sonra telbiyeye başlamak.",
+        "Niyet ederken mümkünse kıbleye yönelmek."
+      ],
+      "disliked": [
+        "Niyet ettikten sonra telbiyeyi geciktirmek."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "İhrama girmeyi sadece elbise giymek sanmak.",
+          "right": "İhram, ibadete girme niyetiyle yasaklara tabi olmaktır."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Telbiye",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "translation": "Buyur Allah'ım buyur! Buyur, senin hiçbir ortağın yoktur, buyur! Şüphesiz hamd de nimet de mülk de sana aittir. Senin hiçbir ortağın yoktur.",
+          "source": "Muttafaq 'alaih"
+        }
+      ],
+      "note": "Mikat sınırını ihramsız geçmeyin.",
+      "nextStep": "Telbiye"
+    },
+    "step3": {
+      "title": "Telbiye",
+      "subtitle": "Allah'ın Davetine İcabet",
+      "intro": "Mekke yolunda tevhidi haykıran telbiyeyi dillerden düşürmemek gerekir.",
+      "sections": [
+        {
+          "heading": "Ne Zaman Başlar ve Biter?",
+          "body": "İhrama girince başlar, Kabe'yi görüp tavafa başlayıncaya kadar devam eder."
+        }
+      ],
+      "recommended": [
+        "Erkeklerin telbiyede sesi orta derecede yükseltmesi.",
+        "Yol boyunca zikir ve duaları artırmak."
+      ],
+      "disliked": [
+        "Kadınların yabancı erkeklerin yanında yüksek sesle telbiye getirmesi."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Koro halinde tek bir kişinin komutuyla telbiye getirmek.",
+          "right": "Sünnet olan herkesin kendi kendine telbiye getirmesidir."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Telbiye",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "translation": "Buyur Allah'ım buyur...",
+          "source": "Muttafaq 'alaih"
+        }
+      ],
+      "note": "Erkekler sesi yükseltir, kadınlar ise kendi duyacakları kadar fısıldarlar.",
+      "nextStep": "Mescid-i Haram'a Giriş"
+    },
+    "step4": {
+      "title": "Mescid-i Haram'a Giriş",
+      "subtitle": "Kabe ile İlk Buluşma",
+      "intro": "Dünyanın en kutsal mekanına sükunet, huşu ve dualarla adım atılır.",
+      "sections": [
+        {
+          "heading": "Giriş Edebi",
+          "body": "Sağ ayakla girilir, mescit duası okunur ve Kabe'ye doğru sakince yürünür."
+        }
+      ],
+      "recommended": [
+        "Kolaylık varsa Selam Kapısı'ndan (Babüsselam) girmek.",
+        "Kabe'yi ilk görünce içtenlikle dua etmek."
+      ],
+      "disliked": [
+        "Mescid-i Haram'a girer girmez sürekli fotoğraf veya canlı yayınla meşgul olmak."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Kabe'yi görünce okunması zorunlu özel bir dua olduğunu sanmak.",
+          "right": "Belirli bir dua şart değildir, dünya ve ahiret hayrı için dilediğiniz gibi dua edebilirsiniz."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Mescide Giriş Duası",
+          "arabic": "بِسْمِ اللَّهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ، أَعُوذُ بِاللَّهِ الْعَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+          "translation": "Allah'ın adıyla, salat ve selam Rasulullah'ın üzerine olsun. Kovulmuş şeytandan Yüce Allah'a, O'nun kerim vechine ve ezeli otoritesine sığınırım. Allah'ım, bana rahmet kapılarını aç.",
+          "source": "Rapporté par Muslim"
+        }
+      ],
+      "note": "İnsanları itip kakmayın, başkalarının güvenliğine dikkat edin.",
+      "nextStep": "Tavaf"
+    },
+    "step5": {
+      "title": "Tavaf",
+      "subtitle": "Kabe Etrafında 7 Şavt",
+      "intro": "Tavaf, Hacerü'l-Esved hizasından başlayıp Kabe sol tarafa alınarak 7 kez dönmektir.",
+      "sections": [
+        {
+          "heading": "Nasıl Başlanır?",
+          "body": "Hacerü'l-Esved çizgisine gelinir, ona yönelinir ve sağ elle selamlanarak 'Allahu Ekber' denir."
+        }
+      ],
+      "recommended": [
+        "Erkeklerin tavaf boyunca ızdıba yapması (sağ omzu açması).",
+        "İlk 3 şavtta erkeklerin remel yapması (çalımlı yürümesi).",
+        "Rükn-i Yemani ile Hacerü'l-Esved arasında dua okumak."
+      ],
+      "disliked": [
+        "Hacerü'l-Esved ve Rükn-i Yemani dışındaki Kabe köşelerini selamlamak."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Hacerü'l-Esved'i öpmek için başkalarını ezmek.",
+          "right": "Öpmek sünnet, insanlara eziyet etmek haramdır. Uzaktan selamlamak yeterlidir."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Rükn-i Yemani ile Hacerü'l-Esved Arasında Okunacak Dua",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "translation": "Rabbimiz! Bize dünyada da iyilik ver, ahirette de iyilik ver ve bizi cehennem azabından koru.",
+          "source": "Buhari / Ebu Davud"
+        }
+      ],
+      "note": "Tavafın geçerli olması için abdestli olmak şarttır.",
+      "nextStep": "Tavaf Namazı ve Zemzem"
+    },
+    "step6": {
+      "title": "Tavaf Namazı ve Zemzem",
+      "subtitle": "Tavafı Tamamladıktan Sonra",
+      "intro": "Tavaftan sonra iki rekat tavaf namazı kılınır ve bolca zemzem suyu içilir.",
+      "sections": [
+        {
+          "heading": "İki Rekat Namaz",
+          "body": "Mümkünse Makam-ı İbrahim arkasında, yer yoksa Mescid-i Haram'ın herhangi bir yerinde kılınır."
+        }
+      ],
+      "recommended": [
+        "Namazdan önce omzu kapatmak (ızdIbaya son vermek).",
+        "Zemzem içip dünya ve ahiret için dua etmek."
+      ],
+      "disliked": [
+        "Tavaf edenleri engelleyecek şekilde Makam arkasında ısrarla namaz kılmaya çalışmak."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Namaz kılarken omzu açık tutmaya devam etmek.",
+          "right": "Namazdan önce erkeklerin sağ omzunu kapatması sünnettir."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Zemzem İçerken Okunacak Dua",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا وَاسِعًا، وَشِفَاءً مِنْ كُلِّ دَاءٍ",
+          "translation": "Allah'ım, senden faydalı ilim, bol rızık ve her türlü hastalıktan şifa dilerim.",
+          "source": "Hakim"
+        }
+      ],
+      "note": "Zemzem şifa niyetiyle içilir.",
+      "nextStep": "Safa ile Merve Arasında Sa'y"
+    },
+    "step7": {
+      "title": "Safa ile Merve Arasında Sa'y",
+      "subtitle": "Safa ile Merve Tepeleri Arasında 7 Sefer",
+      "intro": "Safa tepesinden başlayıp Merve'de biten 7 turdan oluşan sa'y umrenin rükünlerindendir.",
+      "sections": [
+        {
+          "heading": "Nasıl Yapılır?",
+          "body": "Safa tepesine çıkılır, kıbleye dönüp dua edilir, ardından Merve'ye yürünür. Erkekler yeşil ışıklar arasında hızlı yürür."
+        }
+      ],
+      "recommended": [
+        "Safa ve Merve tepelerine çıkınca kıbleye dönüp dua etmek.",
+        "Sadece erkeklerin yeşil sütunlar arasında hervele yapması."
+      ],
+      "disliked": [
+        "Kadınların yeşil sütunlar arasında koşması veya hızlı yürümesi."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Safa'dan gidip tekrar Safa'ya dönmeyi tek şavt saymak.",
+          "right": "Safa'dan Merve'ye gitmek 1 şavt, Merve'den Safa'ya dönmek 2. şavttır."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Safa ve Merve Üzerinde Zikir",
+          "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ، أَنْجَزَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ",
+          "translation": "Allah'tan başka hiçbir ilah yoktur. O tektir, ortağı yoktur. Mülk O'nundur, hamd O'na mahsustur. O her şeye kadirdir. Allah'tan başka hiçbir ilah yoktur. O vaadini yerine getirdi, kuluna yardım etti ve düşman topluluklarını tek başına yenilgiye uğrattı.",
+          "source": "Muslim"
+        }
+      ],
+      "note": "Sa'yde abdestli olmak şart olmamakla birlikte efdaldir.",
+      "nextStep": "Tıraş Olmak"
+    },
+    "step8": {
+      "title": "Tıraş Olmak",
+      "subtitle": "Tahallül ve Umrenin Tamamlanması",
+      "intro": "Umrenin son adımı saçları tamamen kestirmek (Halk) veya kısaltmaktır (Taksir). Böylece ihramdan çıkılır.",
+      "sections": [
+        {
+          "heading": "Tıraş Hükmü",
+          "body": "Erkekler için tamamen tıraş etmek daha faziletlidir. Kadınlar saçlarının uçlarından parmak ucu kadar (yaklaşık 2 cm) keserler."
+        }
+      ],
+      "recommended": [
+        "Erkeklerin saçını tamamen tıraş etmesi.",
+        "Saçın başın her tarafından eşit kısaltılması."
+      ],
+      "disliked": [
+        "Tıraş olmadan ihram kıyafetlerini çıkarmak."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Erkeklerin saçın sadece küçük bir kısmından kestirmesi.",
+          "right": "Kısaltmanın başın tamamını kapsaması gerekir. Tamamen tıraş etmek en faziletlisidir."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Tıraş Olanlara Dua",
+          "arabic": "اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ وَالْمُقَصِّرِينَ",
+          "translation": "Allah'ım! Saçını tamamen tıraş edenleri bağışla. Allah'ım! Saçını tamamen tıraş edenleri bağışla. Allah'ım! Saçını tamamen tıraş edenleri ve kısaltanları bağışla.",
+          "source": "Muttafaq 'alaih"
+        }
+      ],
+      "note": "Tıraş olmakla umreniz tamamlanmıştır. Allah kabul etsin."
+    }
+  }
+}

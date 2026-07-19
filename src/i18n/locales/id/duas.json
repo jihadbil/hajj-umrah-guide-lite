@@ -1,0 +1,75 @@
+{
+  "eyebrow": "Doa & Zikir",
+  "title": "Doa-Doa Ma'tsur untuk Umrah",
+  "description": "Kumpulan doa dan zikir pilihan yang bersumber dari Nabi ﷺ untuk setiap tahapan perjalanan ibadah Anda.",
+  "groups": {
+    "talbiyah": {
+      "title": "Talbiyah",
+      "items": [
+        {
+          "title": "Talbiyah Nabi ﷺ",
+          "arabic": "لبّيك اللهم لبّيك، لبّيك لا شريك لك لبّيك، إنّ الحمد والنعمة لك والملك، لا شريك لك.",
+          "translation": "Aku penuhi panggilan-Mu, ya Allah, aku penuhi panggilan-Mu. Aku penuhi panggilan-Mu, tidak ada sekutu bagi-Mu, aku penuhi panggilan-Mu. Sesungguhnya segala puji, nikmat, dan kerajaan adalah milik-Mu, tidak ada sekutu bagi-Mu.",
+          "source": "Muttafaq 'alaih"
+        }
+      ]
+    },
+    "tawf": {
+      "title": "Doa Tawaf",
+      "items": [
+        {
+          "title": "Awal Setiap Putaran",
+          "arabic": "بسم الله، والله أكبر، اللهم إيماناً بك، وتصديقاً بكتابك، ووفاءً بعهدك، واتّباعاً لسنّة نبيك محمد ﷺ.",
+          "translation": "Dengan nama Allah, dan Allah Maha Besar. Ya Allah, demi keimanan kepada-Mu, pembenaran terhadap kitab-Mu, penunaian janji kepada-Mu, dan mengikuti Sunnah Nabi-Mu Muhammad ﷺ.",
+          "source": "Atsar dari Ibnu Umar"
+        },
+        {
+          "title": "Antara Rukun Yamani dan Hajar Aswad",
+          "arabic": "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾",
+          "translation": "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari azab neraka.",
+          "source": "Al-Baqarah 201"
+        }
+      ]
+    },
+    "sai": {
+      "title": "Doa Sa'i",
+      "items": [
+        {
+          "title": "Saat Mendaki Safa dan Marwah",
+          "arabic": "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾ أبدأ بما بدأ الله به.",
+          "translation": "Sesungguhnya Safa dan Marwah adalah sebagian dari syiar Allah. Aku memulai dengan apa yang Allah memulai dengannya.",
+          "source": "HR. Muslim"
+        },
+        {
+          "title": "Di Safa dan Marwah",
+          "arabic": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، لا إله إلا الله وحده، أنجز وعده، ونصر عبده، وهزم الأحزاب وحده.",
+          "translation": "Tidak ada sesembahan yang berhak disembah selain Allah semata, tidak ada sekutu bagi-Nya. Milik-Nya kerajaan dan bagi-Nya segala puji, dan Dia Maha Kuasa atas segala sesuatu. Tidak ada sesembahan yang berhak disembah selain Allah semata, Dia menepati janji-Nya, menolong hamba-Nya, dan mengalahkan golongan-golongan musuh dengan sendiri-Nya.",
+          "source": "HR. Muslim"
+        }
+      ]
+    },
+    "general": {
+      "title": "Zikir Umum Jamaah",
+      "items": [
+        {
+          "title": "Masuk Masjid",
+          "arabic": "اللهم افتح لي أبواب رحمتك.",
+          "translation": "Ya Allah, bukakanlah untukku pintu-pintu rahmat-Mu.",
+          "source": "HR. Muslim"
+        },
+        {
+          "title": "Melihat Ka'bah",
+          "arabic": "اللهم زد هذا البيت تشريفاً وتعظيماً وتكريماً ومهابة، وزد من شرّفه وكرّمه ممن حجّه أو اعتمره تشريفاً وتكريماً وتعظيماً وبرّاً.",
+          "translation": "Ya Allah, tambahkanlah kemuliaan, keagungan, kehormatan, dan kehebatan pada Baitullah ini. Dan tambahkanlah kepada orang yang memuliakan dan menghormatinya di antara orang yang berhaji atau berumrah kemuliaan, kehormatan, keagungan, dan kebaikan.",
+          "source": "Atsar"
+        },
+        {
+          "title": "Saat Minum Air Zamzam",
+          "arabic": "اللهم إني أسألك علماً نافعاً، ورزقاً واسعاً، وشفاءً من كل داء.",
+          "translation": "Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang luas, dan kesembuhan dari segala penyakit.",
+          "source": "Atsar dari Ibnu Abbas"
+        }
+      ]
+    }
+  }
+}

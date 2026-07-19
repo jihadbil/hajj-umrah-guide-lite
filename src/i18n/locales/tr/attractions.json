@@ -1,0 +1,124 @@
+{
+  "eyebrow": "Ziyaret Yerleri",
+  "title": "Mekke ve Medine'deki Tarihi Mekanlar",
+  "description": "Mekke ve Medine'de ziyaret edilebilecek en önemli tarihi mekanlar ve bunların şer'i hükümleri.",
+  "cities": {
+    "all": "Hepsi",
+    "makkah": "Mekke-i Mükerreme",
+    "madinah": "Medine-i Münevvere"
+  },
+  "labels": {
+    "viewDetails": "Detayları Göster ←",
+    "distanceFromHaram": "Harem'e Uzaklık",
+    "bestTimeToVisit": "En Uygun Ziyaret Zamanı",
+    "city": "Şehir",
+    "backToAll": "← Tüm Ziyaret Yerlerine Dön",
+    "historyTitle": "Tarihi Özet",
+    "visitHowTitle": "Nasıl Gidilir?",
+    "notFoundTitle": "Mekan Bulunamadı",
+    "notFoundDesc": "İstenen tarihi mekan bulunamadı.",
+    "notFoundBack": "Geri Dön"
+  },
+  "items": {
+    "a1": {
+      "name": "Nur Dağı ve Hira Mağarası",
+      "city": "Mekke-i Mükerreme",
+      "description": "Peygamberimiz'in ﷺ nübüvvetten önce ibadet ettiği ve ilk vahyin indiği dağ ve mağara.",
+      "tip": "Burayı ziyaret etmek umre menasikinden değildir. İsteyenlerin ibret almak amacıyla çıkması caizdir, ancak tırmanıştaki fiziksel zorluk dikkate alınmalıdır.",
+      "distance": "Harem'e yaklaşık 4 km",
+      "history": "Peygamberimiz ﷺ peygamberlikten önce bu mağarada inzivaya çekilirdi. İlk vahiy 'Yaratan Rabbinin adıyla oku' ayeti burada inmiştir.",
+      "howToVisit": "Ziyaretçiler dik merdivenlerden yaklaşık 1-1.5 saatte tırmanırlar. Yanınıza su almanız ve öğle sıcağından kaçınmanız tavsiye edilir.",
+      "bestTime": "Güneş sıcağından ve merdiven kalabalığından kaçınmak için sabah erken saatler veya ikindiden sonra."
+    },
+    "a2": {
+      "name": "Sevr Dağı ve Mağarası",
+      "city": "Mekke-i Mükerreme",
+      "description": "Peygamberimiz ﷺ ve Hz. Ebubekir'in hicret esnasında gizlendikleri mağara.",
+      "tip": "Tırmanış oldukça zorludur ve saatler sürer. Umre menasikiyle ilişkisi olmayan isteğe bağlı bir ziyarettir.",
+      "distance": "Harem'in yaklaşık 6 km güneyinde",
+      "history": "Hicret esnasında Peygamberimiz ﷺ ve Hz. Ebubekir burada üç gece gizlenmiş, Tevbe Suresi 40. ayeti 'Hani onlar mağaradaydılar' burada inmiştir.",
+      "howToVisit": "Tırmanış gidiş-dönüş yaklaşık 3-4 saat sürer ve iyi bir fiziksel kondisyon gerektirir.",
+      "bestTime": "Sıcaktan kaçınmak için güneş doğmadan önce."
+    },
+    "a3": {
+      "name": "Cîrâne Mescidi",
+      "city": "Mekke-i Mükerreme",
+      "description": "Peygamberimiz'in ﷺ Huneyn Savaşı dönüşünde ihrama girdiği mikat yeri.",
+      "tip": "Bugün Mekke'de ikamet edenlerin yeni bir umre için ihrama girdikleri mikat yerlerinden biridir.",
+      "distance": "Harem'e yaklaşık 26 km",
+      "history": "Peygamber Efendimiz ﷺ Huneyn Savaşı ganimetlerini dağıttıktan sonra bu mevkiden ihrama girip umre yapmıştır.",
+      "howToVisit": "Geniş abdesthaneleri ve otoparkı mevcuttur. Taksi veya otobüslerle kolayca ulaşılabilir.",
+      "bestTime": "Günün her saati, ancak sabah erken saatler daha sakin olur."
+    },
+    "a4": {
+      "name": "Ten'im Mescidi (Hz. Aişe Mescidi)",
+      "city": "Mekke-i Mükerreme",
+      "description": "Harem sınırına en yakın mikat yeri. Hz. Aişe validemiz Peygamberimiz'in ﷺ emriyle buradan ihrama girmiştir.",
+      "tip": "Mekke'de bulunanların ekstra umre yapmak için en çok tercih ettiği mikat yeridir.",
+      "distance": "Harem'e yaklaşık 7 km",
+      "history": "Peygamberimiz ﷺ, Veda Haccı sonrasında Hz. Aişe validemizin kardeşiyle buraya gidip ihrama girmesini istemiştir.",
+      "howToVisit": "İhram hazırlığı için her türlü tesis mevcuttur. Günde binlerce umreciyi ağırlar.",
+      "bestTime": "Hac ve Ramazan gibi yoğun sezonlarda akşam saatlerindeki yoğunluktan kaçınılmalıdır."
+    },
+    "a5": {
+      "name": "Kutsal Emanetler ve Harem Müzesi",
+      "city": "Mekke-i Mükerreme",
+      "description": "Haremeyni Şerifeyn'in tarihi mimarisini, eski el yazmalarını ve Kabe örtülerini sergileyen müze.",
+      "tip": "Mescid-i Haram'ın tarihi genişlemelerini anlamak adına faydalı bir kültürel ziyarettir.",
+      "distance": "Mescid-i Haram'ın yakınında",
+      "history": "Müze, nebevi dönemden modern Suudi genişlemelerine kadar Harem mimarisini belgeler ve eski Kabe kapıları gibi nadide eserleri barındırır.",
+      "howToVisit": "Girişler genellikle ücretsizdir. Gezi yaklaşık 1-2 saat sürer.",
+      "bestTime": "Fecr namazından sonra veya namaz aralarında."
+    },
+    "a6": {
+      "name": "Mescid-i Nebevi",
+      "city": "Medine-i Münevvere",
+      "description": "İkinci kutsal haremimiz. İçinde Ravza-i Mutahhara ve Peygamberimiz'in ﷺ kabri şerifi yer alır.",
+      "tip": "Ravza'da namaz kılmak ve Efendimiz'e ﷺ selam vermek müstehaptır. Kabre el sürülmez veya tavaf edilmez.",
+      "distance": "Medine'nin merkezinde",
+      "history": "Peygamber Efendimiz ﷺ tarafından bizzat inşa edilmiştir. Efendimiz ﷺ Ravza için 'Evimle minberim arası cennet bahçelerinden bir bahçedir' buyurmuştur.",
+      "howToVisit": "Ravza-i Mutahhara ziyareti için Nusuk uygulaması üzerinden randevu alınması zorunludur.",
+      "bestTime": "Sakin saatler olan sabah namazı sonrası veya yatsı namazı sonrası."
+    },
+    "a7": {
+      "name": "Kuba Mescidi",
+      "city": "Medine-i Münevvere",
+      "description": "İslam'da inşa edilen ilk mescit. Peygamberimiz ﷺ her Cumartesi burayı ziyaret ederdi.",
+      "tip": "Burada iki rekat namaz kılmak sünnettir; hadis-i şerifte burada kılınan namazın umre sevabına denk olduğu müjdelenmiştir.",
+      "distance": "Mescid-i Nebevi'ye yaklaşık 5 km",
+      "history": "Takva üzerine kurulan ilk mescittir. Hicret esnasında Kuba'ya ulaşıldığında Peygamberimiz ﷺ bizzat taş taşıyarak inşa etmiştir.",
+      "howToVisit": "Mescid-i Nebevi'den kalkan otobüslerle veya taksiyle kolayca ulaşılabilir.",
+      "bestTime": "Peygamberimiz'in ﷺ sünnetine uyarak Cumartesi günleri."
+    },
+    "a8": {
+      "name": "Kıbleteyn Mescidi (Çift Kıbleli Mescit)",
+      "city": "Medine-i Münevvere",
+      "description": "Kıblenin Kudüs'teki Mescid-i Aksa'dan Mekke'deki Kabe'ye çevrildiği mescit.",
+      "tip": "Hicretin ikinci yılında gerçekleşen kıble değişimi olayını gösteren tarihi bir mekandır.",
+      "distance": "Mescid-i Nebevi'ye yaklaşık 4 km",
+      "history": "Peygamberimiz ﷺ öğle namazını kıldırırken gelen vahiy üzerine yönünü namazı bozmadan Kabe'ye çevirmiş, cemaat de ona uymuştur.",
+      "howToVisit": "İki kıble yönünü gösteren tasarımlarıyla Medine'de en çok ziyaret edilen yerlerdendir.",
+      "bestTime": "Namaz vakitleri dışındaki herhangi bir saat."
+    },
+    "a9": {
+      "name": "Uhud Dağı ve Şehitliği",
+      "city": "Medine-i Münevvere",
+      "description": "Uhud Savaşı'nın yapıldığı mekan. Başta Hz. Hamza r.a. olmak üzere Uhud şehitlerinin kabirleri buradadır.",
+      "tip": "Şehitlere selam verilip dua edilir. Kabirlere el sürülmesi veya tabarruk aranması caiz değildir.",
+      "distance": "Mescid-i Nebevi'ye yaklaşık 5 km",
+      "history": "İslam tarihinin en büyük savaşlarından birine sahne olmuş, aralarında Hz. Hamza'nın da bulunduğu 70 sahabi burada şehit düşmüştür.",
+      "howToVisit": "Dağın eteğinde durularak şehitlik ziyaret edilir, kabir ziyareti adabına riayet edilir.",
+      "bestTime": "Havanın daha serin olduğu ikindi vakti veya gün batımına doğru."
+    },
+    "a10": {
+      "name": "Cennetü'l-Baki Mezarlığı",
+      "city": "Medine-i Münevvere",
+      "description": "Medine'nin ilk mezarlığı. Birçok sahabi, peygamber eşleri ve ehli beyt buraya defnedilmiştir.",
+      "tip": "Peygamberimiz'in ﷺ yaptığı gibi buradaki müminlere selam verip bağışlanma dilemek sünnettir.",
+      "distance": "Mescid-i Nebevi'nin hemen yanında",
+      "history": "Peygamber Efendimiz ﷺ geceleri burayı ziyaret eder ve yatan sahabiler için istiğfarda bulunurdu.",
+      "howToVisit": "Sadece erkeklerin girişine izin verilen belirli saatlerde (genellikle namaz sonraları) açılır.",
+      "bestTime": "Kapıların açık olduğu sabah namazı sonrası."
+    }
+  }
+}

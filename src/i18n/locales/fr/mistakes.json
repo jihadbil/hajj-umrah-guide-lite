@@ -1,0 +1,115 @@
+{
+  "eyebrow": "Avertissements & Conseils",
+  "title": "Erreurs Courantes dans l'Umrah",
+  "description": "Les erreurs les plus fréquentes commises par les pèlerins, avec l'explication correcte et les preuves religieuses.",
+  "quote": "Abdullah ibn Mas'ud (qu'Allah l'agrée) a dit : 'Suivez et n'innovez pas, car on vous a épargné la peine.' Plus le pèlerin veille à suivre la guidée du Prophète ﷺ, plus ses rites seront parfaits.",
+  "groups": {
+    "ihram": {
+      "category": "Erreurs de l'Ihram",
+      "mistakes": [
+        {
+          "title": "Franchir le Miqat sans Ihram",
+          "wrong": "Certains pèlerins franchissent le Miqat sans entrer en Ihram, puis se sacralisent après l'avoir dépassé.",
+          "right": "Quiconque veut faire l'Umrah doit entrer en Ihram depuis le Miqat par lequel il passe.",
+          "daleel": "Le Prophète ﷺ a dit : 'Ils sont pour eux, et pour quiconque y passe en dehors de leurs habitants, parmi ceux qui veulent accomplir le Hajj et l'Umrah.' — Rapporté par Al-Bukhari et Muslim."
+        },
+        {
+          "title": "Croire que l'Ihram se limite aux deux tissus",
+          "wrong": "Certains pensent que l'Ihram est le simple fait de porter le pagne et la cape.",
+          "right": "L'Ihram est l'intention d'entrer dans les rites. Porter les vêtements d'Ihram est une forme extérieure, non l'essence même de la sacralisation."
+        },
+        {
+          "title": "Délaisser la Talbiyah ou s'en détourner",
+          "wrong": "Certains délaissent la Talbiyah après l'Ihram ou se laissent distraire par les discussions et les téléphones.",
+          "right": "Il est recommandé de répéter fréquemment la Talbiyah jusqu'au début du Tawaf."
+        }
+      ]
+    },
+    "tawaf": {
+      "category": "Erreurs du Tawaf",
+      "mistakes": [
+        {
+          "title": "Débuter le Tawaf avant ou après la Pierre Noire",
+          "wrong": "Certains commencent le Tawaf avant d'être alignés avec la Pierre Noire ou après l'avoir dépassée.",
+          "right": "Chaque tour commence précisément face à la Pierre Noire et se termine à ce même niveau."
+        },
+        {
+          "title": "Bousculer les gens pour toucher la Pierre Noire",
+          "wrong": "Certains pèlerins se bousculent violemment au point de nuire aux autres musulmans.",
+          "right": "S'il est possible de la toucher sans nuire à autrui, c'est une Sunnah ; sinon, on fait un signe de la main et on dit 'Allahu Akbar'. Toucher la Pierre est une Sunnah, tandis que nuire aux musulmans est interdit."
+        },
+        {
+          "title": "Croire qu'il y a une doua spécifique pour chaque tour",
+          "wrong": "Certains portent des livrets qui attribuent une invocation à chaque tour et pensent que c'est une Sunnah.",
+          "right": "Aucune invocation spécifique à chaque tour n'est rapportée du Prophète ﷺ. Le musulman invoque comme il veut, fait du dhikr ou lit le Coran."
+        },
+        {
+          "title": "Élever la voix en groupe pour invoquer",
+          "wrong": "Certains groupes répètent une même invocation à voix haute derrière leur guide.",
+          "right": "Chaque pèlerin doit invoquer pour lui-même, car élever la voix perturbe la concentration des autres pèlerins."
+        },
+        {
+          "title": "Toucher tous les coins de la Kaaba",
+          "wrong": "Certains touchent tous les coins de la Kaaba ou essuient ses murs.",
+          "right": "Il est établi que le Prophète ﷺ ne touchait que la Pierre Noire et le Coin Yéménite."
+        }
+      ]
+    },
+    "sai": {
+      "category": "Erreurs du Sa'i",
+      "mistakes": [
+        {
+          "title": "Croire que les ablutions sont obligatoires pour le Sa'i",
+          "wrong": "Certains pensent que le Sa'i n'est pas valide sans woudou.",
+          "right": "Être en état de pureté est recommandé pour le Sa'i, mais le Sa'i reste valide sans cela selon la majorité des savants."
+        },
+        {
+          "title": "Les femmes courant entre les deux repères verts",
+          "wrong": "Certaines femmes courent entre les repères verts à l'instar des hommes.",
+          "right": "Courir légèrement (hervele) entre les repères verts est réservé aux hommes. La femme marche normalement tout au long du Sa'i."
+        },
+        {
+          "title": "Erreur dans le décompte des trajets",
+          "wrong": "Certains comptent un aller-retour (Safa-Marwah-Safa) comme un seul trajet.",
+          "right": "Aller de Safa à Marwah compte comme 1 trajet, et retourner de Marwah à Safa comme un 2ème trajet. Le Sa'i compte 7 trajets, débutant à Safa et finissant à Marwah."
+        }
+      ]
+    },
+    "halq": {
+      "category": "Erreurs du Rasage & Coupe",
+      "mistakes": [
+        {
+          "title": "Couper seulement quelques cheveux",
+          "wrong": "Certains hommes coupent juste quelques mèches à l'avant et pensent que cela suffit.",
+          "right": "La coupe de cheveux réglementaire doit englober l'ensemble de la tête."
+        },
+        {
+          "title": "La femme se rasant la tête",
+          "wrong": "Certaines femmes se rasent la tête en pensant que c'est préférable.",
+          "right": "La femme ne se rase pas la tête, elle rassemble ses cheveux et coupe l'équivalent d'une phalange de doigt à leurs extrémités.",
+          "daleel": "Le Prophète ﷺ a dit : 'Il n'y a pas de rasage pour les femmes, il n'y a pour elles que la coupe.' — Rapporté par Abu Dawud."
+        }
+      ]
+    },
+    "general": {
+      "category": "Erreurs Générales",
+      "mistakes": [
+        {
+          "title": "La distraction par la photo",
+          "wrong": "Certains pèlerins passent leur temps à prendre des photos ou faire des directs au détriment de l'adoration.",
+          "right": "Le but de l'Umrah est le recueillement. La prise de photos doit être minime sans distraire le cœur ni gêner autrui."
+        },
+        {
+          "title": "Nuire aux autres musulmans",
+          "wrong": "Certains poussent, crient, coupent les files ou bousculent les personnes âgées et les femmes.",
+          "right": "Le Prophète ﷺ a dit : 'Le musulman est celui dont les gens sont à l'abri de sa langue et de sa main.' — Rapporté par Al-Bukhari."
+        },
+        {
+          "title": "Parler de choses mondaines pendant les rites",
+          "wrong": "Certains parlent abondamment d'affaires d'ici-bas durant le Tawaf et le Sa'i.",
+          "right": "Ce sont des lieux sacrés à exploiter pour l'obéissance, le dhikr et l'invocation, et on ne doit pas en gaspiller la valeur."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "eyebrow": "Rules of Ihram",
+  "title": "Prohibitions of Ihram",
+  "description": "Matters from which the pilgrim is barred after entering the state of devotion until exiting it, with evidences and notes.",
+  "warning_title": "Important Shariah Notice for the Pilgrim",
+  "warning_body": "Whoever commits a prohibition of Ihram intentionally, knowing the ruling, and by choice, has sinned, and some prohibitions require a ransom (fidya) depending on the type. However, whoever falls into the prohibition out of forgetfulness, ignorance, or coercion, this issue has details that differ based on the type of prohibition.",
+  "labels": {
+    "daleel": "Shariah Evidence",
+    "note": "💡 Exception & Warning: ",
+    "faqTitle": "Common Questions & Notices"
+  },
+  "items": {
+    "p1": {
+      "n": "1",
+      "title": "Hair Removal",
+      "body": "It is forbidden for a person in Ihram to remove hair from their head or body intentionally by shaving, plucking, or other means, except for a Shariah excuse, such as an injury that necessitates hair removal.",
+      "daleel": "“And do not shave your heads until the sacrificial animal has reached its place of slaughter.” [Al-Baqarah: 196]",
+      "note": "If hair falls out unintentionally during wudu, bathing, or combing, there is no harm in that."
+    },
+    "p2": {
+      "n": "2",
+      "title": "Clipping Nails",
+      "body": "It is forbidden for a person in Ihram to intentionally clip the fingernails or toenails until they exit their Ihram.",
+      "note": "However, if a nail breaks and causes pain, there is no harm in removing the painful part."
+    },
+    "p3": {
+      "n": "3",
+      "title": "Using Perfume",
+      "body": "It is forbidden for a person in Ihram to use perfume after assuming Ihram on their body, clothing, or head. This includes: perfumes, oud oil, musk, and incense for the purpose of perfuming.",
+      "note": "As for perfume applied before assuming Ihram, it does not harm even if its trace remains after Ihram; because the Prophet ﷺ perfumed himself before assuming Ihram."
+    },
+    "p4": {
+      "n": "4",
+      "title": "Wearing Tailored Clothes (For Men)",
+      "body": "It is forbidden for a male pilgrim in Ihram to wear anything fitted to the body or part of it, such as shirts, pants, turbans, hooded cloaks, socks, and closed shoes.",
+      "note": "He is allowed to wear sandals; if sandals are not found, he may wear slippers. As for women, they do not have a specific dress for Ihram, and they wear whatever covering, non-revealing clothes they wish."
+    },
+    "p5": {
+      "n": "5",
+      "title": "Covering the Head (For Men)",
+      "body": "It is forbidden for men to cover their heads with anything directly touching it, such as caps, ghutras, or turbans.",
+      "note": "Seeking shade under an umbrella, a car roof, or a tent is permissible; because it is not considered covering the head in the forbidden sense."
+    },
+    "p6": {
+      "n": "6",
+      "title": "Wearing Niqab & Gloves (For Women)",
+      "body": "A woman must not wear a niqab (face veil) or gloves while in Ihram.",
+      "note": "If she is in the presence of non-mahram men, it is prescribed for her to draw her headscarf over her face without wearing a niqab."
+    },
+    "p7": {
+      "n": "7",
+      "title": "Marriage Contract",
+      "body": "It is not permissible for a person in Ihram to marry or marry off others, nor to propose to a woman until they exit Ihram."
+    },
+    "p8": {
+      "n": "8",
+      "title": "Sexual Intercourse & Its Preludes",
+      "body": "Sexual intercourse is one of the gravest prohibitions of Ihram. Similarly, anything leading to it, such as foreplay, kissing, or touching with desire, is forbidden."
+    },
+    "p9": {
+      "n": "9",
+      "title": "Hunting Land Game",
+      "body": "It is forbidden for a person in Ihram to hunt permissible land animals, assist in hunting them, or point them out.",
+      "note": "Sea fishing is not included in this ruling."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Is it permissible to use soap or shampoo?",
+      "a": "It is permissible to use soap and shampoo if they are unscented. If they contain perfume meant for scenting, they should be avoided during Ihram."
+    },
+    {
+      "q": "Is it permissible to wear a watch or glasses?",
+      "a": "Yes, it is permissible to wear a watch, glasses, earbuds, belt, fitness tracker, and carry and use a phone; because they are not among the prohibitions of Ihram."
+    },
+    {
+      "q": "Is it permissible to use an umbrella?",
+      "a": "Yes, it is permissible to seek shade under an umbrella, a car roof, or the umbrellas in the Grand Mosque, and it does not affect the Ihram."
+    },
+    {
+      "q": "Is it permissible to change Ihram clothes?",
+      "a": "It is permissible for the pilgrim to change their Ihram clothes if they become dirty or if they need other clothes, and they can also be washed."
+    },
+    {
+      "q": "Is it permissible to take a bath while in Ihram?",
+      "a": "It is permissible for a person in Ihram to take a bath, wash their head, and perform wudu, as long as they do not intentionally remove hair."
+    }
+  ]
+}

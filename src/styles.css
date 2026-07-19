@@ -2,6 +2,38 @@
 @source "../src";
 @import "tw-animate-css";
 
+/* تعريفات خط زين (Zain Mobile) للغة العربية */
+@font-face {
+  font-family: 'Zain';
+  src: url('/fonts/ZAIN mob variable 200 .ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Zain';
+  src: url('/fonts/ZAIN mob variable 400 .ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Zain';
+  src: url('/fonts/ZAIN mob variable 600.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Zain';
+  src: url('/fonts/ZAIN mob variable 800.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Zain Swashes';
+  src: url('/fonts/zainmobileswashes-VF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
@@ -33,13 +65,48 @@
   --color-ring: var(--ring);
   --color-gold: var(--gold);
   --color-dark-green: var(--dark-green);
-  --font-display: "Amiri", serif;
-  --font-sans: "Tajawal", sans-serif;
+  --color-warning-surface: var(--warning-surface);
+  --color-warning-foreground: var(--warning-foreground);
+  --color-warning-border: var(--warning-border);
+  --color-success-surface: var(--success-surface);
+  --color-success-foreground: var(--success-foreground);
+  --color-success-border: var(--success-border);
+  --color-error-surface: var(--error-surface);
+  --color-error-foreground: var(--error-foreground);
+  --color-error-border: var(--error-border);
+  --color-info-surface: var(--info-surface);
+  --color-info-foreground: var(--info-foreground);
+  --color-info-border: var(--info-border);
+  --font-display: "Zain", sans-serif;
+  --font-sans: "Zain", sans-serif;
+  --font-serif: "Amiri", serif;
 }
+
+:root[dir="ltr"] {
+  --font-display: "Inter", sans-serif;
+  --font-sans: "Inter", sans-serif;
+  --font-serif: "Lora", serif;
+}
+
+:root[lang="id"] {
+  --font-display: "Plus Jakarta Sans", sans-serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+:root[lang="fr"] {
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Source Sans 3", sans-serif;
+}
+
+:root[lang="ur"] {
+  --font-display: "Noto Nastaliq Urdu", "Amiri", serif;
+  --font-sans: "Noto Sans Arabic", "Tajawal", sans-serif;
+}
+
 
 :root {
   --radius: 0.75rem;
-  --dark-green: #1B4332;
+  --dark-green: #1b4332;
   --background: oklch(0.98 0.004 100);
   --foreground: oklch(0.2 0.03 155);
   --card: oklch(1 0 0);
@@ -61,6 +128,56 @@
   --input: oklch(0.92 0.015 150);
   --ring: oklch(0.38 0.1 155);
   --gold: oklch(0.72 0.14 85);
+
+  --warning-surface: oklch(0.98 0.04 85);
+  --warning-foreground: oklch(0.35 0.08 60);
+  --warning-border: oklch(0.9 0.06 85);
+  --success-surface: oklch(0.98 0.04 155);
+  --success-foreground: oklch(0.25 0.08 155);
+  --success-border: oklch(0.9 0.06 155);
+  --error-surface: oklch(0.98 0.04 27);
+  --error-foreground: oklch(0.35 0.1 27);
+  --error-border: oklch(0.9 0.06 27);
+  --info-surface: oklch(0.98 0.03 250);
+  --info-foreground: oklch(0.35 0.08 250);
+  --info-border: oklch(0.9 0.04 250);
+}
+
+.dark {
+  --background: oklch(0.12 0.02 155);
+  --foreground: oklch(0.95 0.01 155);
+  --card: oklch(0.16 0.02 155);
+  --card-foreground: oklch(0.95 0.01 155);
+  --popover: oklch(0.16 0.02 155);
+  --popover-foreground: oklch(0.95 0.01 155);
+  --primary: oklch(0.55 0.11 150);
+  --primary-foreground: oklch(0.12 0.02 155);
+  --primary-soft: oklch(0.2 0.035 155);
+  --secondary: oklch(0.2 0.02 150);
+  --secondary-foreground: oklch(0.85 0.05 155);
+  --muted: oklch(0.2 0.02 150);
+  --muted-foreground: oklch(0.65 0.02 155);
+  --accent: oklch(0.22 0.04 155);
+  --accent-foreground: oklch(0.9 0.04 155);
+  --destructive: oklch(0.62 0.2 27);
+  --destructive-foreground: oklch(0.99 0 0);
+  --border: oklch(0.24 0.02 155);
+  --input: oklch(0.24 0.02 155);
+  --ring: oklch(0.55 0.11 150);
+  --gold: oklch(0.78 0.12 85);
+
+  --warning-surface: oklch(0.22 0.04 85);
+  --warning-foreground: oklch(0.85 0.06 85);
+  --warning-border: oklch(0.32 0.05 85);
+  --success-surface: oklch(0.22 0.04 155);
+  --success-foreground: oklch(0.85 0.06 155);
+  --success-border: oklch(0.32 0.05 155);
+  --error-surface: oklch(0.22 0.04 27);
+  --error-foreground: oklch(0.85 0.06 27);
+  --error-border: oklch(0.32 0.05 27);
+  --info-surface: oklch(0.22 0.03 250);
+  --info-foreground: oklch(0.85 0.05 250);
+  --info-border: oklch(0.32 0.04 250);
 }
 
 @layer base {
@@ -74,8 +191,15 @@
     background-color: var(--color-background);
     color: var(--color-foreground);
     font-family: var(--font-sans);
+    transition:
+      background-color 0.3s ease,
+      color 0.3s ease,
+      border-color 0.3s ease;
   }
-  h1, h2, h3, h4 {
+  h1,
+  h2,
+  h3,
+  h4 {
     font-family: var(--font-display);
     letter-spacing: 0;
   }
@@ -127,15 +251,19 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .ticker-track {
-    animation: none;
+  .ticker-track,
+  .animate-gold-pulse,
+  .animate-float,
+  .animate-fade-in-up {
+    animation: none !important;
   }
 }
 
 /* --- لمسات جمالية مخصصة --- */
 
 @keyframes gold-pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 0.85;
     filter: drop-shadow(0 0 2px oklch(0.72 0.14 85 / 0.5));
   }
@@ -146,7 +274,8 @@
 }
 
 @keyframes float {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -178,23 +307,32 @@
 }
 
 @utility bg-islamic-pattern {
-  background-image: 
+  background-image:
     radial-gradient(oklch(0.72 0.14 85 / 0.06) 1.2px, transparent 1.2px),
     radial-gradient(oklch(0.72 0.14 85 / 0.06) 1.2px, transparent 1.2px);
   background-size: 24px 24px;
-  background-position: 0 0, 12px 12px;
+  background-position:
+    0 0,
+    12px 12px;
 }
 
 @utility bg-islamic-pattern-dark {
-  background-image: 
+  background-image:
     radial-gradient(oklch(0.72 0.14 85 / 0.12) 1.5px, transparent 1.5px),
     radial-gradient(oklch(0.72 0.14 85 / 0.12) 1.5px, transparent 1.5px);
   background-size: 32px 32px;
-  background-position: 0 0, 16px 16px;
+  background-position:
+    0 0,
+    16px 16px;
 }
 
 @utility bg-gradient-gold-green {
-  background-image: linear-gradient(135deg, oklch(0.38 0.1 155) 0%, oklch(0.45 0.09 150) 50%, oklch(0.72 0.14 85) 100%);
+  background-image: linear-gradient(
+    135deg,
+    oklch(0.38 0.1 155) 0%,
+    oklch(0.45 0.09 150) 50%,
+    oklch(0.72 0.14 85) 100%
+  );
 }
 
 @utility bg-gradient-gold {
@@ -206,7 +344,7 @@
   position: relative;
 }
 .nav-link-hover::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -220,4 +358,3 @@
 .nav-link-hover.active::after {
   width: 80%;
 }
-

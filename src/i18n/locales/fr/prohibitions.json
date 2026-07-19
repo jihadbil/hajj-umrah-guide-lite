@@ -1,0 +1,89 @@
+{
+  "eyebrow": "Règles de l'Ihram",
+  "title": "Interdictions de l'Ihram",
+  "description": "Les choses interdites au pèlerin après l'entrée en état de consécration rituelle (Ihram) jusqu'à sa désacralisation (tahallul), avec preuves et remarques.",
+  "warning_title": "Avis Juridique Important pour le Pèlerin",
+  "warning_body": "Quiconque commet délibérément, en connaissance de cause et par choix, une interdiction de l'Ihram commet un péché, et certaines interdictions nécessitent une compensation (fidya) selon leur nature. Cependant, pour celui qui commet une infraction par oubli, ignorance ou contrainte, la règle varie selon le type d'interdiction.",
+  "labels": {
+    "daleel": "Preuve Shari'ah",
+    "note": "💡 Exception & Avertissement : ",
+    "faqTitle": "Questions Fréquentes & Remarques"
+  },
+  "items": {
+    "p1": {
+      "n": "1",
+      "title": "Élimination des Cheveux et Poils",
+      "body": "Il est interdit au pèlerin de couper, raser ou épiler délibérément les cheveux ou les poils du corps, sauf pour une excuse valable, comme une blessure nécessitant des soins.",
+      "daleel": "« Et ne rasez pas vos têtes tant que la victime n'est pas parvenue à son lieu d'immolation. » [Al-Baqarah: 196]",
+      "note": "Si des cheveux tombent involontairement lors des ablutions (woudou), de la douche ou en se peignant, il n'y a aucun péché."
+    },
+    "p2": {
+      "n": "2",
+      "title": "Coupe des Ongles",
+      "body": "Il est interdit au pèlerin de couper ou limer volontairement ses ongles des mains ou des pieds jusqu'à ce qu'il se désacralise.",
+      "note": "Cependant, si un ongle se casse et cause de la douleur, il est permis d'enlever la partie cassée."
+    },
+    "p3": {
+      "n": "3",
+      "title": "Utilisation du Parfum",
+      "body": "Il est interdit de se parfumer le corps, les vêtements ou les cheveux après être entré en Ihram. Sont inclus les parfums, l'huile de oud, le musc et l'encens à but de parfum.",
+      "note": "Le parfum appliqué sur le corps avant d'entrer en Ihram ne nuit pas, même si son odeur persiste après l'Ihram, car le Prophète ﷺ s'est parfumé avant d'entrer en Ihram."
+    },
+    "p4": {
+      "n": "4",
+      "title": "Port de Vêtements Cousus (Hommes)",
+      "body": "Il est interdit à l'homme en Ihram de porter des vêtements coupés ou cousus à la forme du corps, comme des chemises, pantalons, turbans, chaussettes et chaussures fermées.",
+      "note": "Il est permis de porter des sandales. Pour la femme, il n'y a pas d'habit spécifique, elle s'habille comme elle veut avec des vêtements couvrants et non provocants."
+    },
+    "p5": {
+      "n": "5",
+      "title": "Couvrir la Tête (Hommes)",
+      "body": "Il est interdit à l'homme de couvrir sa tête avec un couvre-chef adhérent ou posé dessus, comme une calotte, un chapeau ou un turban.",
+      "note": "S'abriter sous un parapluie, le toit d'une voiture ou une tente est autorisé, car cela ne rentre pas dans la catégorie des couvre-chefs interdits."
+    },
+    "p6": {
+      "n": "6",
+      "title": "Port du Voile Intégral et des Gants (Femmes)",
+      "body": "La femme en état d'Ihram ne doit pas porter de niqab (voile intégral) ni de gants.",
+      "note": "En présence d'hommes qui ne sont pas des mahrams, elle rabat son voile sur son visage sans utiliser de niqab."
+    },
+    "p7": {
+      "n": "7",
+      "title": "Contrat de Mariage",
+      "body": "Le pèlerin en Ihram ne peut pas contracter de mariage pour lui-même ou pour autrui, ni faire de demande en mariage."
+    },
+    "p8": {
+      "n": "8",
+      "title": "Rapports Sexuels et Leurs Préliminaires",
+      "body": "Les rapports sexuels sont la plus grave des interdictions. De même, tout acte menant au désir (caresses, baisers, attouchements) est interdit."
+    },
+    "p9": {
+      "n": "9",
+      "title": "Chasse du Gibier Terrestre",
+      "body": "Il est interdit au pèlerin de chasser des animaux terrestres sauvages comestibles, d'aider à les chasser ou de les indiquer.",
+      "note": "La pêche en mer (poissons) n'est pas incluse dans cette interdiction et reste autorisée."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Peut-on utiliser du savon ou du shampoing ?",
+      "a": "Il est permis d'utiliser du savon et du shampoing s'ils ne contiennent aucun parfum. S'ils sont parfumés, ils doivent être évités pendant l'Ihram."
+    },
+    {
+      "q": "Peut-on porter une montre ou des lunettes ?",
+      "a": "Oui, il est permis de porter une montre, des lunettes, des écouteurs, une ceinture, un podomètre et d'utiliser un téléphone, car cela ne fait pas partie des interdictions."
+    },
+    {
+      "q": "Peut-on utiliser un parapluie ?",
+      "a": "Oui, s'abriter sous un parapluie, le toit d'une voiture ou les parasols de la mosquée est permis et n'affecte pas l'Ihram."
+    },
+    {
+      "q": "Peut-on changer de vêtements d'Ihram ?",
+      "a": "Il est permis de changer les tissus d'Ihram s'ils sont sales ou si besoin, et on peut également les laver."
+    },
+    {
+      "q": "Peut-on se doucher pendant l'Ihram ?",
+      "a": "Oui, se doucher, se laver la tête et faire le woudou est permis, à condition de ne pas arracher de cheveux volontairement."
+    }
+  ]
+}

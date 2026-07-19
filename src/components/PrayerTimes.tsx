@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import { LucideIcon } from "@/lib/icons";
+import { useTranslation } from "react-i18next";
 
 interface PrayerInfo {
   name: string;
@@ -18,7 +20,7 @@ interface PrayerTimesSet {
 type City = "makkah" | "madinah";
 
 // دالة لحساب مواقيت الصلاة لمكة والمدينة بشكل تقريبي ودقيق فلكياً بناءً على اليوم من السنة
-function calculatePrayerTimes(date: Date, city: City): PrayerTimesSet {
+function calculatePrayerTimes(date: Date, city: City, t: any): PrayerTimesSet {
   const start = new Date(date.getFullYear(), 0, 0);
   const diff = date.getTime() - start.getTime();
   const oneDay = 1000 * 60 * 60 * 24;
@@ -50,21 +52,22 @@ function calculatePrayerTimes(date: Date, city: City): PrayerTimesSet {
     const minutes = Math.floor(totalMinutes % 60);
     const displayHours = hours % 12 === 0 ? 12 : hours % 12;
     const formattedMinutes = minutes.toString().padStart(2, "0");
-    const period = hours >= 12 ? "م" : "ص";
+    const period = hours >= 12 ? t("am_pm.pm") : t("am_pm.am");
     return `${displayHours}:${formattedMinutes} ${period}`;
   };
 
   return {
-    fajr: { name: "الفجر", minutes: fajrMin, formatted: formatTime(fajrMin) },
-    sunrise: { name: "الشروق", minutes: shuruqMin, formatted: formatTime(shuruqMin) },
-    dhuhr: { name: "الظهر", minutes: dhuhrMin, formatted: formatTime(dhuhrMin) },
-    asr: { name: "العصر", minutes: asrMin, formatted: formatTime(asrMin) },
-    maghrib: { name: "المغرب", minutes: maghribMin, formatted: formatTime(maghribMin) },
-    isha: { name: "العشاء", minutes: ishaMin, formatted: formatTime(ishaMin) },
+    fajr: { name: t("prayers.fajr"), minutes: fajrMin, formatted: formatTime(fajrMin) },
+    sunrise: { name: t("prayers.sunrise"), minutes: shuruqMin, formatted: formatTime(shuruqMin) },
+    dhuhr: { name: t("prayers.dhuhr"), minutes: dhuhrMin, formatted: formatTime(dhuhrMin) },
+    asr: { name: t("prayers.asr"), minutes: asrMin, formatted: formatTime(asrMin) },
+    maghrib: { name: t("prayers.maghrib"), minutes: maghribMin, formatted: formatTime(maghribMin) },
+    isha: { name: t("prayers.isha"), minutes: ishaMin, formatted: formatTime(ishaMin) },
   };
 }
 
 export function PrayerTimes() {
+  const { t } = useTranslation("prayer");
   const [city, setCity] = useState<City>("makkah");
   const [currentTime, setCurrentTime] = useState(new Date());
   const [prayerTimes, setPrayerTimes] = useState<PrayerTimesSet | null>(null);
@@ -80,7 +83,7 @@ export function PrayerTimes() {
 
   // إعادة حساب المواقيت وتحديد الصلاة القادمة عند تغير المدينة أو الوقت
   useEffect(() => {
-    const times = calculatePrayerTimes(currentTime, city);
+    const times = calculatePrayerTimes(currentTime, city, t);
     setPrayerTimes(times);
 
     // حساب الوقت الحالي بالدقائق والثواني من منتصف الليل
@@ -91,11 +94,11 @@ export function PrayerTimes() {
 
     // قائمة الصلوات لحساب الصلاة القادمة (باستثناء الشروق)
     const prayers = [
-      { key: "fajr", name: "الفجر", seconds: times.fajr.minutes * 60 },
-      { key: "dhuhr", name: "الظهر", seconds: times.dhuhr.minutes * 60 },
-      { key: "asr", name: "العصر", seconds: times.asr.minutes * 60 },
-      { key: "maghrib", name: "المغرب", seconds: times.maghrib.minutes * 60 },
-      { key: "isha", name: "العشاء", seconds: times.isha.minutes * 60 },
+      { key: "fajr", name: t("prayers.fajr"), seconds: times.fajr.minutes * 60 },
+      { key: "dhuhr", name: t("prayers.dhuhr"), seconds: times.dhuhr.minutes * 60 },
+      { key: "asr", name: t("prayers.asr"), seconds: times.asr.minutes * 60 },
+      { key: "maghrib", name: t("prayers.maghrib"), seconds: times.maghrib.minutes * 60 },
+      { key: "isha", name: t("prayers.isha"), seconds: times.isha.minutes * 60 },
     ];
 
     let targetPrayer = prayers[0];
@@ -115,7 +118,7 @@ export function PrayerTimes() {
     let diffSeconds = 0;
     if (isNextDay) {
       const secondsInDay = 24 * 60 * 60;
-      diffSeconds = (secondsInDay - nowTotalSeconds) + targetPrayer.seconds;
+      diffSeconds = secondsInDay - nowTotalSeconds + targetPrayer.seconds;
     } else {
       diffSeconds = targetPrayer.seconds - nowTotalSeconds;
     }
@@ -130,17 +133,17 @@ export function PrayerTimes() {
       name: targetPrayer.name,
       timeLeft: formattedTime,
     });
-  }, [currentTime, city]);
+  }, [currentTime, city, t]);
 
   if (!prayerTimes || !nextPrayer) return null;
 
   const prayerList = [
-    { key: "fajr", name: "الفجر", info: prayerTimes.fajr, icon: "🌅" },
-    { key: "sunrise", name: "الشروق", info: prayerTimes.sunrise, icon: "☀️" },
-    { key: "dhuhr", name: "الظهر", info: prayerTimes.dhuhr, icon: "☀️" },
-    { key: "asr", name: "العصر", info: prayerTimes.asr, icon: "🌤️" },
-    { key: "maghrib", name: "المغرب", info: prayerTimes.maghrib, icon: "🌇" },
-    { key: "isha", name: "العشاء", info: prayerTimes.isha, icon: "🌙" },
+    { key: "fajr", name: t("prayers.fajr"), info: prayerTimes.fajr, icon: "🌅" },
+    { key: "sunrise", name: t("prayers.sunrise"), info: prayerTimes.sunrise, icon: "☀️" },
+    { key: "dhuhr", name: t("prayers.dhuhr"), info: prayerTimes.dhuhr, icon: "☀️" },
+    { key: "asr", name: t("prayers.asr"), info: prayerTimes.asr, icon: "🌤️" },
+    { key: "maghrib", name: t("prayers.maghrib"), info: prayerTimes.maghrib, icon: "🌇" },
+    { key: "isha", name: t("prayers.isha"), info: prayerTimes.isha, icon: "🌙" },
   ];
 
   return (
@@ -148,59 +151,79 @@ export function PrayerTimes() {
       {/* رأس اللوحة */}
       <div className="px-5 py-4 bg-[#1B4332] bg-islamic-pattern text-right relative border-b border-[#C5A85C]/20 flex items-center justify-between">
         <div>
-          <h3 className="font-display text-lg font-bold text-white">مواقيت الصلوات</h3>
-          <p className="text-[10px] text-white/60 mt-0.5">في الرحاب الطاهرة للمسجد الحرام</p>
+          <h3 className="font-display text-lg font-bold text-white">{t("title")}</h3>
+          <p className="text-[10px] text-white/60 mt-0.5">
+            {city === "makkah" ? t("makkah_subtitle") : t("madinah_subtitle")}
+          </p>
         </div>
         {/* مفتاح تبديل المدن */}
         <div className="flex bg-white/10 rounded-xl p-0.5 border border-white/5">
           <button
             onClick={() => setCity("makkah")}
             className={`rounded-lg px-3 py-1.5 text-[10px] font-bold transition-all ${
-              city === "makkah" ? "bg-gradient-gold text-[#14342A] shadow-sm" : "text-white/70 hover:text-white"
+              city === "makkah"
+                ? "bg-gradient-gold text-[#14342A] shadow-sm animate-pulse-subtle"
+                : "text-white/70 hover:text-white"
             }`}
           >
-            مكة
+            {t("makkah")}
           </button>
           <button
             onClick={() => setCity("madinah")}
             className={`rounded-lg px-3 py-1.5 text-[10px] font-bold transition-all ${
-              city === "madinah" ? "bg-gradient-gold text-[#14342A] shadow-sm" : "text-white/70 hover:text-white"
+              city === "madinah"
+                ? "bg-gradient-gold text-[#14342A] shadow-sm animate-pulse-subtle"
+                : "text-white/70 hover:text-white"
             }`}
           >
-            المدينة
+            {t("madinah")}
           </button>
         </div>
       </div>
 
       {/* العداد التنازلي الفاخر */}
       <div className="p-5 text-center border-b border-border/40 bg-primary-soft/10">
-        <span className="text-[10px] font-bold text-gold uppercase tracking-wider block mb-1">
-          ⏳ المتبقي لأذان صلاة {nextPrayer.name}
-        </span>
-        <div className="font-mono text-3xl font-extrabold text-[#1B4332] tracking-wider animate-pulse direction-ltr select-none">
+        <div className="flex items-center justify-center gap-1.5 text-[10px] font-bold text-gold uppercase tracking-wider mb-1">
+          <LucideIcon name="⏳" size={12} className="text-gold" />
+          <span>{t("timeLeftText", { name: nextPrayer.name })}</span>
+        </div>
+        <div className="font-mono text-3xl font-extrabold text-[#1B4332] dark:text-[#C5A85C] tracking-wider animate-pulse direction-ltr select-none">
           {nextPrayer.timeLeft}
         </div>
         <p className="text-[10px] text-muted-foreground mt-1.5">
-          مواقيت الأذان بحسب التوقيت المحلي للمملكة العربية السعودية (جرينتش +3)
+          {t("timezoneNote")}
         </p>
       </div>
 
       {/* قائمة أوقات الصلوات - ممتدة أفقياً من اليسار إلى اليمين */}
-      <div dir="ltr" className="grid grid-cols-2 divide-x divide-border/40 sm:grid-cols-3 md:grid-cols-6 md:divide-y-0">
+      <div
+        dir="ltr"
+        className="grid grid-cols-2 divide-x divide-border/40 sm:grid-cols-3 md:grid-cols-6 md:divide-y-0"
+      >
         {prayerList.map((p) => {
           const isActive = nextPrayer.name === p.name;
           return (
             <div
               key={p.key}
               className={`flex flex-col items-center justify-center gap-1.5 px-3 py-4 text-center transition-colors border-b border-border/40 md:border-b-0 ${
-                isActive ? "bg-primary-soft/30 border-t-4 border-t-gold font-semibold" : "hover:bg-primary-soft/5"
+                isActive
+                  ? "bg-primary-soft/30 border-t-4 border-t-gold font-semibold"
+                  : "hover:bg-primary-soft/5"
               }`}
             >
-              <span className="text-lg">{p.icon}</span>
-              <span className={`text-sm ${isActive ? "text-primary font-bold" : "text-foreground"}`}>
+              <LucideIcon
+                name={p.icon}
+                size={18}
+                className={isActive ? "text-primary" : "text-muted-foreground"}
+              />
+              <span
+                className={`text-sm ${isActive ? "text-primary font-bold" : "text-foreground"}`}
+              >
                 {p.name}
               </span>
-              <span className={`text-sm font-mono ${isActive ? "text-primary font-bold" : "text-muted-foreground"}`}>
+              <span
+                className={`text-sm font-mono ${isActive ? "text-primary font-bold" : "text-muted-foreground"}`}
+              >
                 {p.info.formatted}
               </span>
             </div>

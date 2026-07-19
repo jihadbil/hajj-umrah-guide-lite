@@ -18,8 +18,10 @@ import { Route as HotelsRouteImport } from './routes/hotels'
 import { Route as FidyaRouteImport } from './routes/fidya'
 import { Route as FazahRouteImport } from './routes/fazah'
 import { Route as DuasRouteImport } from './routes/duas'
+import { Route as ContactRouteImport } from './routes/contact'
 import { Route as AttractionsRouteImport } from './routes/attractions'
 import { Route as ArkaanRouteImport } from './routes/arkaan'
+import { Route as AboutRouteImport } from './routes/about'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as HotelsHotelIdRouteImport } from './routes/hotels_.$hotelId'
 import { Route as AttractionsAttractionIdRouteImport } from './routes/attractions_.$attractionId'
@@ -69,6 +71,11 @@ const DuasRoute = DuasRouteImport.update({
   path: '/duas',
   getParentRoute: () => rootRouteImport,
 } as any)
+const ContactRoute = ContactRouteImport.update({
+  id: '/contact',
+  path: '/contact',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const AttractionsRoute = AttractionsRouteImport.update({
   id: '/attractions',
   path: '/attractions',
@@ -77,6 +84,11 @@ const AttractionsRoute = AttractionsRouteImport.update({
 const ArkaanRoute = ArkaanRouteImport.update({
   id: '/arkaan',
   path: '/arkaan',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -97,8 +109,10 @@ const AttractionsAttractionIdRoute = AttractionsAttractionIdRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/arkaan': typeof ArkaanRoute
   '/attractions': typeof AttractionsRoute
+  '/contact': typeof ContactRoute
   '/duas': typeof DuasRoute
   '/fazah': typeof FazahRoute
   '/fidya': typeof FidyaRoute
@@ -113,8 +127,10 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/arkaan': typeof ArkaanRoute
   '/attractions': typeof AttractionsRoute
+  '/contact': typeof ContactRoute
   '/duas': typeof DuasRoute
   '/fazah': typeof FazahRoute
   '/fidya': typeof FidyaRoute
@@ -130,8 +146,10 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
   '/arkaan': typeof ArkaanRoute
   '/attractions': typeof AttractionsRoute
+  '/contact': typeof ContactRoute
   '/duas': typeof DuasRoute
   '/fazah': typeof FazahRoute
   '/fidya': typeof FidyaRoute
@@ -148,8 +166,10 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/about'
     | '/arkaan'
     | '/attractions'
+    | '/contact'
     | '/duas'
     | '/fazah'
     | '/fidya'
@@ -164,8 +184,10 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/about'
     | '/arkaan'
     | '/attractions'
+    | '/contact'
     | '/duas'
     | '/fazah'
     | '/fidya'
@@ -180,8 +202,10 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/about'
     | '/arkaan'
     | '/attractions'
+    | '/contact'
     | '/duas'
     | '/fazah'
     | '/fidya'
@@ -197,8 +221,10 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
   ArkaanRoute: typeof ArkaanRoute
   AttractionsRoute: typeof AttractionsRoute
+  ContactRoute: typeof ContactRoute
   DuasRoute: typeof DuasRoute
   FazahRoute: typeof FazahRoute
   FidyaRoute: typeof FidyaRoute
@@ -277,6 +303,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DuasRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/contact': {
+      id: '/contact'
+      path: '/contact'
+      fullPath: '/contact'
+      preLoaderRoute: typeof ContactRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/attractions': {
       id: '/attractions'
       path: '/attractions'
@@ -289,6 +322,13 @@ declare module '@tanstack/react-router' {
       path: '/arkaan'
       fullPath: '/arkaan'
       preLoaderRoute: typeof ArkaanRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -317,8 +357,10 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
   ArkaanRoute: ArkaanRoute,
   AttractionsRoute: AttractionsRoute,
+  ContactRoute: ContactRoute,
   DuasRoute: DuasRoute,
   FazahRoute: FazahRoute,
   FidyaRoute: FidyaRoute,

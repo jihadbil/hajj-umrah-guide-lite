@@ -1,0 +1,124 @@
+{
+  "eyebrow": "Lieux Historiques",
+  "title": "Lieux Historiques de La Mecque & Médine",
+  "description": "Découvrez les monuments historiques les plus importants à visiter à La Mecque et à Médine, avec leurs règles juridiques.",
+  "cities": {
+    "all": "Tous",
+    "makkah": "La Mecque",
+    "madinah": "Médine"
+  },
+  "labels": {
+    "viewDetails": "Voir les Détails ←",
+    "distanceFromHaram": "Distance du Haram",
+    "bestTimeToVisit": "Meilleur Moment pour Visiter",
+    "city": "Ville",
+    "backToAll": "← Retour à tous les Lieux",
+    "historyTitle": "Résumé Historique",
+    "visitHowTitle": "Comment Visiter",
+    "notFoundTitle": "Lieu non trouvé",
+    "notFoundDesc": "Impossible de trouver le lieu historique demandé.",
+    "notFoundBack": "Retour"
+  },
+  "items": {
+    "a1": {
+      "name": "Mont Noor & Grotte de Hira",
+      "city": "La Mecque",
+      "description": "La montagne où le Prophète ﷺ méditait avant sa mission, et la grotte de Hira où la révélation est descendue pour la première fois.",
+      "tip": "Sa visite ne fait pas partie des rites de l'Umrah ; c'est une visite historique permise pour la méditation, en tenant compte de l'effort physique.",
+      "distance": "Environ 4 km du Haram",
+      "history": "Dans la grotte de Hira, au sommet du mont Noor, le Prophète ﷺ adorait Allah avant de recevoir le message. C'est là que l'ange Jibril lui a dit : « Lis, au nom de ton Seigneur qui a créé ».",
+      "howToVisit": "Les visiteurs grimpent un escalier en pierre escarpé qui prend environ 1h à 1h30. Il est conseillé d'apporter de l'eau et d'éviter les après-midi chauds.",
+      "bestTime": "Tôt le matin ou après le Asr pour éviter la chaleur et la foule."
+    },
+    "a2": {
+      "name": "Mont Thawr (Grotte de Tsur)",
+      "city": "La Mecque",
+      "description": "La montagne où le Prophète ﷺ et son compagnon Abu Bakr se sont cachés lors de l'hégire vers Médine.",
+      "tip": "L'ascension est difficile et prend des heures ; c'est une visite facultative sans rapport avec les rites de l'Umrah.",
+      "distance": "Environ 6 km au sud du Haram",
+      "history": "Dans la grotte de Thawr, le Prophète ﷺ et Abu Bakr se sont cachés pendant trois nuits. C'est là qu'a été révélé le verset : « le deuxième de deux, quand ils étaient dans la grotte ».",
+      "howToVisit": "L'ascension prend 3 à 4 heures aller-retour via un sentier escarpé. Exige une bonne condition physique.",
+      "bestTime": "Avant le lever du soleil pour éviter la chaleur torride."
+    },
+    "a3": {
+      "name": "Mosquée de Ji'ranah",
+      "city": "La Mecque",
+      "description": "L'un des Miqats d'où le Prophète ﷺ est entré en Ihram pour son Umrah après la bataille de Hunayn.",
+      "tip": "Utilisé aujourd'hui comme Miqat pour les résidents de La Mecque souhaitant accomplir une nouvelle Umrah.",
+      "distance": "Environ 26 km du Haram",
+      "history": "Le Prophète ﷺ y a revêtu l'Ihram après la bataille de Hunayn, après la distribution du butin.",
+      "howToVisit": "Équipée d'installations d'ablution et d'un parking. Facilement accessible en voiture ou en bus.",
+      "bestTime": "À tout moment, de préférence tôt le matin."
+    },
+    "a4": {
+      "name": "Mosquée de Taneem (Mosquée d'Aïcha)",
+      "city": "La Mecque",
+      "description": "Le Miqat le plus proche du Haram, d'où Aïcha est entrée en Ihram sur ordre du Prophète ﷺ.",
+      "tip": "Le Miqat le plus couramment utilisé par les résidents de La Mecque pour faire une Umrah supplémentaire.",
+      "distance": "Environ 7 km du Haram",
+      "history": "Appelée mosquée d'Aïcha car le Prophète ﷺ a ordonné à son frère de l'emmener à Taneem pour se sacraliser après le pèlerinage d'adieu.",
+      "howToVisit": "Très fréquentée par des milliers de pèlerins chaque jour, avec toutes les installations nécessaires.",
+      "bestTime": "Éviter les heures de pointe en soirée lors des grandes saisons."
+    },
+    "a5": {
+      "name": "Musée des Deux Saintes Mosquées",
+      "city": "La Mecque",
+      "description": "Musée présentant l'histoire de l'architecture des Deux Saintes Mosquées, des manuscrits et d'anciennes kiswahs de la Kaaba.",
+      "tip": "Une visite culturelle enrichissante pour comprendre l'histoire de la Mosquée Sacrée.",
+      "distance": "À côté de la Mosquée Sacrée",
+      "history": "Documente les phases de construction et les extensions des Deux Saintes Mosquées. Contient des pièces historiques rares.",
+      "howToVisit": "L'entrée est généralement gratuite. La visite dure entre 1 et 2 heures.",
+      "bestTime": "Après le Fajr ou entre les prières."
+    },
+    "a6": {
+      "name": "La Mosquée Sacrée du Prophète",
+      "city": "Médine",
+      "description": "La deuxième mosquée sainte de l'Islam, contenant la Rawdah et le tombeau du Prophète ﷺ.",
+      "tip": "Il est recommandé de prier dans la Rawdah et de saluer le Prophète ﷺ sans essuyer les murs de la tombe.",
+      "distance": "Cœur de Médine",
+      "history": "Bâtie par le Prophète ﷺ. Elle contient la Rawdah : « Ce qu'il y a entre ma maison et mon minbar est un jardin parmi les jardins du Paradis ».",
+      "howToVisit": "La réservation pour visiter la Rawdah doit être faite via l'application Nusuk.",
+      "bestTime": "Après le Fajr ou après l'Isha pour éviter l'affluence."
+    },
+    "a7": {
+      "name": "Mosquée de Quba",
+      "city": "Médine",
+      "description": "La première mosquée construite en Islam, que le Prophète ﷺ visitait chaque samedi.",
+      "tip": "Il est Sunnah d'y prier deux rak'ahs ; la récompense y est équivalente à celle d'une Umrah.",
+      "distance": "Environ 5 km de la Mosquée du Prophète",
+      "history": "Première mosquée bâtie sur la piété. Le Prophète ﷺ a participé à sa construction lors de son arrivée à Quba pendant l'hégire.",
+      "howToVisit": "Facile d'accès en bus ou en taxi depuis la Mosquée du Prophète.",
+      "bestTime": "Le samedi, conformément à la pratique du Prophète ﷺ."
+    },
+    "a8": {
+      "name": "Mosquée des Deux Qiblas (Qiblatain)",
+      "city": "Médine",
+      "description": "La mosquée où les musulmans ont changé de direction pendant la prière, passant de Jérusalem à la Kaaba.",
+      "tip": "Un lieu historique marquant le changement de direction de la Qibla en l'an 2 de l'Hégire.",
+      "distance": "Environ 4 km de la Mosquée du Prophète",
+      "history": "Pendant que le Prophète ﷺ y priait, la révélation est descendue pour changer la direction de la prière de Jérusalem vers la Kaaba.",
+      "howToVisit": "Dispose d'une architecture moderne montrant les deux directions. Destination fréquente.",
+      "bestTime": "À tout moment en journée."
+    },
+    "a9": {
+      "name": "Mont Uhud & Cimetière des Martyrs",
+      "city": "Médine",
+      "description": "Le site de la célèbre bataille d'Uhud, abritant la tombe de martyrs dont Hamzah.",
+      "tip": "Il est recommandé de saluer les martyrs et de prier pour eux, sans rechercher de bénédiction auprès des tombes.",
+      "distance": "Environ 5 km de la Mosquée du Prophète",
+      "history": "Lieu de la grande bataille d'Uhud où 70 compagnons sont morts en martyrs, dont Hamzah l'oncle du Prophète.",
+      "howToVisit": "On s'arrête au pied de la colline et près du cimetière pour prier avec calme.",
+      "bestTime": "En fin d'après-midi lorsque le climat est plus doux."
+    },
+    "a10": {
+      "name": "Cimetière d'Al-Baqi",
+      "city": "Médine",
+      "description": "Le cimetière principal de Médine où reposent de nombreux compagnons et membres de la famille du Prophète ﷺ.",
+      "tip": "Recommandé de s'y rendre pour saluer les morts et prier pour leur pardon.",
+      "distance": "Adjacent à la Mosquée du Prophète",
+      "history": "De nombreux compagnons y sont enterrés. Le Prophète ﷺ s'y rendait souvent de nuit pour invoquer en leur faveur.",
+      "howToVisit": "Ouvert à des horaires précis après les prières, principalement réservé aux hommes.",
+      "bestTime": "Après la prière du Fajr, lors de l'ouverture."
+    }
+  }
+}

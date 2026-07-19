@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Tips & Panduan",
+  "title": "Panduan & Tas Perlengkapan",
+  "description": "Tips praktis dan panduan syariat, serta tas elektronik interaktif untuk menyiapkan semua perlengkapan perjalanan Anda dengan tenang.",
+  "bag": {
+    "title": "Tas Elektronik Jamaah",
+    "badge": "Alat Interaktif",
+    "subtitle": "Siapkan kebutuhan perjalanan Anda langkah demi langkah, dan progres Anda akan disimpan otomatis.",
+    "resetBtn": "🔄 Atur Ulang Daftar",
+    "progressTitle": "Kesiapan Tas Perlengkapan",
+    "progressLabel": "{{percent}}% ({{count}} dari {{total}} barang siap)",
+    "progressCompleted": "🎉 Selamat! Tas perlengkapan Anda siap sepenuhnya untuk perjalanan Umrah yang diberkahi. Kami memohon kemudahan dan penerimaan amal dari Allah.",
+    "categories": {
+      "documents": {
+        "title": "Dokumen & Surat Penting",
+        "items": [
+          { "id": "doc-passport", "text": "Paspor dan visa Umrah (cetak dan salinan digital)" },
+          { "id": "doc-id", "text": "KTP atau kartu izin tinggal (Iqama)" },
+          { "id": "doc-flights", "text": "Tiket pesawat, konfirmasi hotel, dan transportasi" },
+          { "id": "doc-cash", "text": "Uang tunai secukupnya dan kartu ATM/debit/kredit" },
+          { "id": "doc-medical", "text": "Obat-obatan pribadi beserta surat keterangan medis jika ada" }
+        ]
+      },
+      "worship": {
+        "title": "Kebutuhan Ihram & Ibadah",
+        "items": [
+          { "id": "worship-ihram", "text": "Kain ihram pria (sarung dan selendang putih) / pakaian syar'i nyaman untuk wanita" },
+          { "id": "worship-belt", "text": "Sabuk ihram pria (dengan kantong penyimpanan uang dan kartu)" },
+          { "id": "worship-shoes", "text": "Sandal/sepatu nyaman untuk Tawaf dan Sa'i (tanpa jahitan bagi laki-laki)" },
+          { "id": "worship-duas", "text": "Buku doa saku atau aplikasi doa di handphone" },
+          { "id": "worship-clipper", "text": "Gunting kecil atau alat cukur rambut untuk Tahallul" }
+        ]
+      },
+      "hygiene": {
+        "title": "Kebersihan & Perawatan Pribadi (Tanpa Parfum)",
+        "items": [
+          { "id": "care-soap", "text": "Sampo dan sabun tanpa pewangi (khusus selama Ihram)" },
+          { "id": "care-teeth", "text": "Sikat gigi, pasta gigi, dan siwak" },
+          { "id": "care-vaseline", "text": "Petroleum jelly/pelembap untuk melindungi paha dari lecet akibat berjalan jauh" },
+          { "id": "care-umbrella", "text": "Payung lipat ringan untuk berlindung dari matahari Makkah" },
+          { "id": "care-clipper", "text": "Gunting kuku kecil untuk memotong kuku sebelum ihram" }
+        ]
+      },
+      "tech": {
+        "title": "Kebutuhan Teknis & Umum",
+        "items": [
+          { "id": "tech-phone", "text": "Handphone dengan charger yang sesuai" },
+          { "id": "tech-powerbank", "text": "Powerbank portabel untuk mengisi baterai di Masjidil Haram" },
+          { "id": "tech-plug", "text": "Steker colokan kaki tiga untuk di Arab Saudi" },
+          { "id": "tech-bag", "text": "Tas ransel kecil atau tas pinggang untuk menyimpan sandal/sepatu dan barang bawaan" }
+        ]
+      }
+    }
+  },
+  "tips": {
+    "health": {
+      "title": "Tips Kesehatan & Organisasi",
+      "items": [
+        "Perbanyak minum air Zamzam dingin dan hangat untuk menghindari dehidrasi dan kelelahan.",
+        "Gunakan alas kaki yang nyaman selama perjalanan dan istirahatlah di antara manasik.",
+        "Gunakan masker saat berada di kerumunan padat seperti di area Tawaf dan Sa'i untuk menghindari infeksi.",
+        "Pakai kartu identitas atau gelang dengan detail rombongan dan nomor telepon agar tidak tersesat.",
+        "Tentukan titik kumpul yang jelas (seperti pintu gerbang tertentu) bersama keluarga jika terpisah."
+      ]
+    },
+    "spiritual": {
+      "title": "Bimbingan Spiritual & Perilaku",
+      "items": [
+        "Ikhlaskan niat semata-mata karena Allah, jauhi sifat riya dan berfoto berlebihan saat manasik.",
+        "Tunjukkan akhlak mulia, kesabaran, dan kebaikan kepada lansia serta orang lemah di tengah kerumunan.",
+        "Jauhi perkataan kotor, kefasikan, perdebatan, dan pertengkaran yang merusak pahala ibadah.",
+        "Manfaatkan waktu-waktu mustajab seperti sepertiga malam terakhir dan berdiam diri di Masjidil Haram.",
+        "Khususkan waktu tertentu untuk mendoakan keluarga, kerabat, dan umat Islam seluruhnya."
+      ]
+    }
+  },
+  "dialog": {
+    "title": "Apakah Anda yakin ingin mengatur ulang tas?",
+    "desc": "Tindakan ini akan menghapus semua barang yang telah Anda centang. Tindakan ini tidak dapat dibatalkan.",
+    "cancel": "Batal",
+    "confirm": "Ya, Atur Ulang"
+  }
+}

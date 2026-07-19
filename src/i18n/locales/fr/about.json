@@ -1,0 +1,43 @@
+{
+  "eyebrow": "À propos de notre plateforme",
+  "title": "À Propos",
+  "description": "Découvrez la mission et les objectifs de Morshid pour servir les invités du Tout Miséricordieux et leur fournir une assistance d'orientation intégrée dans leur voyage béni.",
+  "mission": {
+    "badge": "✨ Une Noble Mission",
+    "title": "Votre portail d'orientation numérique vers la Maison Antique",
+    "p1": "La plateforme Morshid a été créée pour être le compagnon numérique fidèle de chaque pèlerin effectuant le Hajj et l'Umrah. Grâce à notre application simplifiée et visuellement attrayante, nous visons à faciliter les étapes de l'Umrah et à clarifier ses règles religieuses en utilisant une méthode moderne qui allie authenticité et technologie.",
+    "p2": "Notre objectif est de permettre aux invités du Tout Miséricordieux d'accomplir leurs rituels en toute sérénité et certitude, en leur fournissant une feuille de route interactive, une référence complète pour les invocations authentiques, des alertes sur les erreurs courantes et un annuaire d'hôtels et de guides."
+  },
+  "card": {
+    "title": "L'honneur du service",
+    "quote": "\"Servir les pèlerins et les invités d'Allah est un grand honneur et une responsabilité que nous nous efforçons d'assumer avec le plus haut degré d'honnêteté et de perfection.\"",
+    "badge1": "✓ Interactif",
+    "badge2": "✓ Fiable",
+    "badge3": "✓ Gratuit"
+  },
+  "values": {
+    "title": "Nos règles d'or et valeurs",
+    "subtitle": "Les principes et fondements sur lesquels nous construisons chaque détail de ce guide.",
+    "v1_title": "Honnêteté scientifique",
+    "v1_body": "Nous veillons à ce que toutes les règles, Sunnahs et invocations soient issues du Saint Coran et de la Sunnah prophétique authentique, avec un examen rigoureux du contenu scientifique et religieux.",
+    "v2_title": "Simplification & Clarté",
+    "v2_body": "Simplifier les termes jurisprudentiels et les clarifier via des interfaces visuelles interactives pour faciliter la compréhension pour toutes les catégories de pèlerins de tous âges.",
+    "v3_title": "Innovation continue",
+    "v3_body": "Exploiter les dernières technologies numériques et solutions intelligentes pour fournir des outils d'assistance pendant le voyage, tels que le compteur de Tawaf et le sac du pèlerin interactif."
+  },
+  "features": {
+    "title": "Que vous offre Morshid ?",
+    "f1_title": "Parcours interactif du voyage",
+    "f1_body": "Un guide séquentiel qui vous accompagne de l'intention et du Miqat, en passant par le Tawaf et le Sa'i, jusqu'au rasage/coupe complet.",
+    "f2_title": "Invocations authentiques",
+    "f2_body": "Une fenêtre pour les invocations établies avec la possibilité de les lire dans une police grande et claire, confortable pour les yeux.",
+    "f3_title": "Alertes sur les erreurs courantes",
+    "f3_body": "Clarification des infractions et des erreurs possibles afin de les éviter et de protéger le rite de l'invalidité.",
+    "f4_title": "Sac du pèlerin interactif",
+    "f4_body": "Une liste de contrôle intelligente pour passer en revue tout ce dont vous avez besoin avant de voyager afin de vous assurer de ne pas oublier l'essentiel."
+  },
+  "footer": {
+    "text": "Avez-vous des questions ou des suggestions pour améliorer la plateforme ?",
+    "button": "Aller à la page Contact"
+  }
+}

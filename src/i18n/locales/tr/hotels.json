@@ -1,0 +1,153 @@
+{
+  "eyebrow": "Oteller ve Rehberler",
+  "title": "Umreci İçin Konaklama ve Rehberlik",
+  "description": "Haremeyni Şerifeyn'e yakın oteller arasından seçim yapın ve ibadetlerinizde size eşlik edecek sertifikalı rehberlerle tanışın.",
+  "demoNotice": "⚠️ Bu veriler tanıtım amaçlı taslak verilerdir. Gerçek veriler sağlandığında güncellenecektir.",
+  "fazahBanner": {
+    "badge": "YENİ — Desantralize Yardım Ağı",
+    "title": "Fazah Hizmeti: Her umreciyi en yakın rehbere veya otel resepsiyonuna bağlayan kart",
+    "desc": "QR kartının ve acil durumlarda anında uyarı zincirinin nasıl çalıştığını öğrenin.",
+    "btn": "Fazah'ı Keşfet ←"
+  },
+  "sections": {
+    "hotelsTitle": "Harem'e Yakın Oteller",
+    "guidesTitle": "Sertifikalı Rehberler"
+  },
+  "labels": {
+    "reviewsCount": "{{count}} değerlendirme",
+    "startFrom": "Başlangıç",
+    "pricePerNight": "{{price}} / gecelik",
+    "viewDetails": "Detayları Göster",
+    "experienceYears": "{{count}} yıl deneyim",
+    "languages": "Diller: {{list}}",
+    "licensedGuide": "Sertifikalı Rehber ✓",
+    "aboutHotel": "Otel Hakkında",
+    "amenities": "Hizmet ve Olanaklar",
+    "address": "Adres",
+    "checkIn": "Giriş Saati",
+    "checkOut": "Çıkış Saati",
+    "contact": "İletişim",
+    "bookRequest": "Rezervasyon Talebi",
+    "backToAll": "← Tüm Otellere Dön",
+    "notFoundTitle": "Otel Bulunamadı",
+    "notFoundDesc": "İstenen otel bulunamadı.",
+    "notFoundBack": "Otellere Dön"
+  },
+  "hotelsItems": {
+    "h1": {
+      "name": "Fairmont Makkah Clock Royal Tower",
+      "city": "Mekke-i Mükerreme",
+      "distance": "Harem'e birkaç adım mesafede",
+      "price": "1200 SAR",
+      "amenities": ["Harem Manzaralı", "Çoklu Restoranlar", "Transfer Servisi"],
+      "description": "Mescid-i Haram'ın hemen yanında yer alan bu ikonik otel, odalarının çoğundan Kabe manzarası sunar ve Harem'e doğrudan erişim sağlar.",
+      "address": "Abraj Al Bait, Ajyad, Mekke",
+      "checkIn": "4:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h2": {
+      "name": "Swissôtel Al Maqam Makkah",
+      "city": "Mekke-i Mükerreme",
+      "distance": "Harem'e 200 metre",
+      "price": "850 SAR",
+      "amenities": ["Ücretsiz Kahvaltı", "Ücretsiz Wi-Fi", "Özel Mescit"],
+      "description": "İsviçre misafirperverliğini yerel motiflerle harmanlayan lüks otel, misafirlere özel kapalı geçitler aracılığıyla Harem'e birkaç adım mesafededir.",
+      "address": "Abraj Al Bait Kompleksi, Mekke",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h3": {
+      "name": "Hilton Suites Makkah",
+      "city": "Mekke-i Mükerreme",
+      "distance": "Harem'e 400 metre",
+      "price": "750 SAR",
+      "amenities": ["Aile Odaları", "Küçük Mutfak", "Çamaşırhane Hizmeti"],
+      "description": "Geniş süitleri ve mutfak nişiyle aileler için ideal bir konaklama alternatifi. Gün boyu Harem'e düzenli transfer servisi sunmaktadır.",
+      "address": "Ash Shuhada Bölgesi, Mekke",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h4": {
+      "name": "Dar Al Tawhid InterContinental Makkah",
+      "city": "Mekke-i Mükerreme",
+      "distance": "Harem'e sıfır konumda",
+      "price": "1500 SAR",
+      "amenities": ["Kabe Manzaralı", "Konsiyerj Hizmeti", "Lüks Restoranlar"],
+      "description": "Mekke'nin en köklü ve prestijli otellerinden biri. Özel restoran ve süitlerinden doğrudan Kabe manzarası sunar.",
+      "address": "Ajyad, Mekke",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h5": {
+      "name": "Mövenpick Anwar Al Madinah",
+      "city": "Medine-i Münevvere",
+      "distance": "Mescid-i Nebevi'ye 100 metre",
+      "price": "650 SAR",
+      "amenities": ["Mescid-i Nebevi Manzaralı", "Zengin Açık Büfe", "Otopark"],
+      "description": "Medine'nin merkezi bölgesinde, doğrudan Mescid-i Nebevi avlularına bakan lüks konaklama ve zengin açık büfe kahvaltı hizmeti.",
+      "address": "Merkez Bölgesi, Medine",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h6": {
+      "name": "Dar Al Iman InterContinental Madinah",
+      "city": "Medine-i Münevvere",
+      "distance": "Mescid-i Nebevi'ye 50 metre",
+      "price": "800 SAR",
+      "amenities": ["Kapalı Harem Geçidi", "Havalimanı Transferi", "Aile Odaları"],
+      "description": "Mescid-i Nebevi avlusuna doğrudan kapalı bir geçitle bağlanarak sıcaktan veya kalabalıktan etkilenmeden ibadete ulaşım kolaylığı sağlar.",
+      "address": "Merkez Bölgesi, Medine",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h7": {
+      "name": "Pullman Zamzam Madinah",
+      "city": "Medine-i Münevvere",
+      "distance": "Mescid-i Nebevi'ye 150 metre",
+      "price": "500 SAR",
+      "amenities": ["Arap ve Dünya Mutfağı", "Ücretsiz Wi-Fi", "Spor Salonu"],
+      "description": "Mescid-i Nebevi'ye kısmi manzarası olan, bünyesinde fitness salonu ve her damak tadına uygun restoranlar barındıran modern otel.",
+      "address": "Merkez Bölgesi, Medine",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    }
+  },
+  "guidesItems": {
+    "g1": {
+      "name": "Şeyh Abdullah el-Harbi",
+      "city": "Mekke ve Medine",
+      "specialty": "Umre ibadetleri için kapsamlı fıkhi danışmanlık",
+      "languages": ["Arapça", "İngilizce"]
+    },
+    "g2": {
+      "name": "Muhammed ez-Zahrani",
+      "city": "Mekke-i Mükerreme",
+      "specialty": "Umre kafilelerine eşlik ve tavaf rehberliği",
+      "languages": ["Arapça", "İngilizce", "Urduca"]
+    },
+    "g3": {
+      "name": "Amal el-Kahtani",
+      "city": "Mekke-i Mükerreme",
+      "specialty": "Kadınlar ve aileler için rehberlik",
+      "languages": ["Arapça", "İngilizce"]
+    },
+    "g4": {
+      "name": "Şeyh Halid el-Uteybi",
+      "city": "Medine-i Münevvere",
+      "specialty": "Mescid-i Nebevi ve tarihi yerler rehberi",
+      "languages": ["Arapça", "Fransızca"]
+    },
+    "g5": {
+      "name": "Yusuf el-Maliki",
+      "city": "Mekke ve Medine",
+      "specialty": "Asya kökenli kafileler için rehberlik",
+      "languages": ["Arapça", "İngilizce", "Malayca"]
+    },
+    "g6": {
+      "name": "Hind ed-Devseri",
+      "city": "Medine-i Münevvere",
+      "specialty": "Yaşlılar ve engelli misafirler için refakat hizmeti",
+      "languages": ["Arapça", "İngilizce"]
+    }
+  }
+}

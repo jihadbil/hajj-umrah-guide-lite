@@ -1,0 +1,153 @@
+{
+  "eyebrow": "Hotels & Guides",
+  "title": "Accommodation & Guidance",
+  "description": "Choose from hotels close to the Two Holy Mosques, and connect with certified guides to accompany you during the rituals.",
+  "demoNotice": "⚠️ This is dummy data for presentation purposes. It will be replaced with real, live data when available.",
+  "fazahBanner": {
+    "badge": "NEW — Decentralized Relief Network",
+    "title": "Fazah Service: A card connecting every pilgrim to the nearest guide or hotel reception",
+    "desc": "Learn how the QR card and instant emergency alert chain work.",
+    "btn": "Learn about Fazah ←"
+  },
+  "sections": {
+    "hotelsTitle": "Hotels Near the Two Holy Mosques",
+    "guidesTitle": "Certified Guides"
+  },
+  "labels": {
+    "reviewsCount": "{{count}} reviews",
+    "startFrom": "Starts from",
+    "pricePerNight": "{{price}} / night",
+    "viewDetails": "View Details",
+    "experienceYears": "{{count}} years experience",
+    "languages": "Languages: {{list}}",
+    "licensedGuide": "Certified Guide ✓",
+    "aboutHotel": "About the Hotel",
+    "amenities": "Facilities & Services",
+    "address": "Address",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "contact": "Contact",
+    "bookRequest": "Request Booking",
+    "backToAll": "← Back to All Hotels",
+    "notFoundTitle": "Hotel Not Found",
+    "notFoundDesc": "Could not find the requested hotel.",
+    "notFoundBack": "Back to Hotels"
+  },
+  "hotelsItems": {
+    "h1": {
+      "name": "Makkah Clock Royal Tower, A Fairmont Hotel",
+      "city": "Makkah",
+      "distance": "Steps away from the Haram",
+      "price": "1200 SAR",
+      "amenities": ["Haram View", "Multiple Restaurants", "Shuttle Service"],
+      "description": "Located directly adjacent to the Grand Mosque, this iconic hotel offers panoramic views of the Haram and Kaaba from most rooms, featuring luxury services and direct access.",
+      "address": "Abraj Al Bait, Ajyad, Makkah",
+      "checkIn": "4:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h2": {
+      "name": "Swissôtel Al Maqam Makkah",
+      "city": "Makkah",
+      "distance": "200 meters from Haram",
+      "price": "850 SAR",
+      "amenities": ["Free Breakfast", "Free Wi-Fi", "Private Prayer Room"],
+      "description": "A luxury hotel combining Swiss hospitality with local character, just steps away from the Haram courtyards via covered corridors for guests.",
+      "address": "Abraj Al Bait Complex, Makkah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h3": {
+      "name": "Hilton Suites Makkah",
+      "city": "Makkah",
+      "distance": "400 meters from Haram",
+      "price": "750 SAR",
+      "amenities": ["Family Rooms", "Kitchenette", "Laundry Service"],
+      "description": "An ideal choice for families with spacious suites and a kitchenette in each room, offering regular shuttle service to the Haram throughout the day.",
+      "address": "Ash Shuhada District, Makkah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h4": {
+      "name": "Dar Al Tawhid InterContinental Makkah",
+      "city": "Makkah",
+      "distance": "Adjacent to the Haram",
+      "price": "1500 SAR",
+      "amenities": ["Kaaba View", "Concierge Service", "Fine Dining"],
+      "description": "One of Makkah's oldest and most prestigious hotels, offering direct views of the Holy Kaaba from its restaurants and suites, with 24/7 concierge service.",
+      "address": "Ajyad, Makkah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h5": {
+      "name": "Mövenpick Anwar Al Madinah",
+      "city": "Madinah",
+      "distance": "100 meters from Prophet's Mosque",
+      "price": "650 SAR",
+      "amenities": ["Prophet's Mosque View", "Full Breakfast", "Parking"],
+      "description": "Located in the heart of the central area in Madinah, directly overlooking the courtyards of the Prophet's Holy Mosque, with inclusive buffet breakfast.",
+      "address": "Central Area, Madinah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h6": {
+      "name": "Dar Al Iman InterContinental Madinah",
+      "city": "Madinah",
+      "distance": "50 meters from Prophet's Haram",
+      "price": "800 SAR",
+      "amenities": ["Covered Path to Haram", "Airport Shuttle", "Family Rooms"],
+      "description": "Connected by a direct covered walkway to the Prophet's Mosque courtyard, making it easy to access prayers in time without direct sun exposure.",
+      "address": "Central Area, Madinah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h7": {
+      "name": "Pullman Zamzam Madinah",
+      "city": "Madinah",
+      "distance": "150 meters from Prophet's Mosque",
+      "price": "500 SAR",
+      "amenities": ["Arabic & International Restaurant", "Free Wi-Fi", "Gym"],
+      "description": "A modern, reasonably priced hotel offering partial views of the Prophet's Mosque, featuring a fitness center and diverse restaurants to suit all tastes.",
+      "address": "Central Area, Madinah",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    }
+  },
+  "guidesItems": {
+    "g1": {
+      "name": "Sheikh Abdullah Al-Harbi",
+      "city": "Makkah & Madinah",
+      "specialty": "Comprehensive jurisprudential guidance for Umrah rituals",
+      "languages": ["Arabic", "English"]
+    },
+    "g2": {
+      "name": "Mr. Mohammed Al-Zahrani",
+      "city": "Makkah",
+      "specialty": "Accompanying Umrah groups and Tawaf guidance",
+      "languages": ["Arabic", "English", "Urdu"]
+    },
+    "g3": {
+      "name": "Ms. Amal Al-Qahtani",
+      "city": "Makkah",
+      "specialty": "Guidance for women and families",
+      "languages": ["Arabic", "English"]
+    },
+    "g4": {
+      "name": "Sheikh Khalid Al-Otaibi",
+      "city": "Madinah",
+      "specialty": "Historical tours of the Prophet's Mosque and landmarks",
+      "languages": ["Arabic", "French"]
+    },
+    "g5": {
+      "name": "Mr. Yusuf Al-Malki",
+      "city": "Makkah & Madinah",
+      "specialty": "Guidance for Asian delegations",
+      "languages": ["Arabic", "English", "Malay"]
+    },
+    "g6": {
+      "name": "Ms. Hind Al-Dossari",
+      "city": "Madinah",
+      "specialty": "Accompanying elderly and people of determination",
+      "languages": ["Arabic", "English"]
+    }
+  }
+}

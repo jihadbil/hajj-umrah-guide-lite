@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À Propos",
+    "umrah": "Voyage d'Umrah",
+    "sections": "Rubriques",
+    "contact": "Contact",
+    "arkaan": "Piliers",
+    "wajibaat": "Obligations & Sunnahs",
+    "prohibitions": "Interdictions",
+    "fidya": "Fidya (Compensation)",
+    "mistakes": "Erreurs Courantes",
+    "duas": "Invocations",
+    "tips": "Sac du Pèlerin",
+    "attractions": "Sites Historiques",
+    "hotels": "Hôtels & Guides",
+    "fazah": "Fazah Assistance"
+  },
+  "brand": {
+    "name": "Morshid",
+    "subtitle": "Guide Complet de l'Umrah"
+  },
+  "footer": {
+    "description": "Une plateforme d'orientation interactive visant à faciliter les rituels de l'Umrah et des visites étape par étape, clarifiant les piliers, les obligations et les interdictions basés sur le Coran et la Sunnah purifiée de manière simplifiée et visuellement attrayante.",
+    "sectionsTitle": "Sections du Guide",
+    "duaTitle": "Douas & Supplications",
+    "duaText": "\"Ô Allah, fais de cette Umrah une œuvre acceptée, un péché pardonné et un effort apprécié.\"",
+    "duaAccept": "— Qu'Allah accepte vos adorations",
+    "rights": "Tous droits réservés",
+    "tagline": "Créé pour servir les invités du Tout Miséricordieux"
+  },
+  "errors": {
+    "404": "404",
+    "pageNotFound": "Page Non Trouvée",
+    "pageNotFoundDesc": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "backHome": "Retour à l'Accueil",
+    "errorOccurred": "Une Erreur est Survenue",
+    "errorLoadFailed": "Impossible de charger la page, veuillez réessayer.",
+    "tryAgain": "Réessayer",
+    "home": "Accueil"
+  },
+  "theme": {
+    "light": "Activer le Mode Clair",
+    "dark": "Activer le Mode Sombre"
+  },
+  "buttons": {
+    "next": "Suivant",
+    "prev": "Précédent",
+    "close": "Fermer",
+    "submit": "Envoyer"
+  },
+  "ticker": {
+    "title": "Invocations & Versets",
+    "items": [
+      { "text": "Labbayk Allahumma Labbayk, Labbayka la sharika laka Labbayk, Innal-hamda wan-ni'mata laka wal-mulk, la sharika lak", "source": "Unanimement approuvé" },
+      { "text": "Et accomplissez pour Allah le pèlerinage et l'Umrah", "source": "Al-Baqarah: 196" },
+      { "text": "Notre Seigneur! Donne-nous en ce monde un bien et dans l'au-delà un bien et préserve-nous du châtiment du Feu", "source": "Al-Baqarah: 201" },
+      { "text": "Une Umrah à une autre Umrah efface les péchés commis entre elles, et le pèlerinage accepté n'a d'autre récompense que le Paradis", "source": "Unanimement approuvé" },
+      { "text": "Ô Allah, ouvre-moi les portes de Ta miséricorde", "source": "Invocation d'entrée à la mosquée" },
+      { "text": "Certes, As-Safa et Al-Marwah sont parmi les rites d'Allah", "source": "Al-Baqarah: 158" },
+      { "text": "Ô Allah, augmente cette Demeure en honneur, en grandeur, en respect et en prestige", "source": "Athar" },
+      { "text": "Ô Allah, je Te demande une science bénéfique, une subsistance abondante et une guérison contre toute maladie", "source": "Invocation en buvant l'eau de Zamzam" },
+      { "text": "Il n'y a de divinité d'autre qu'Allah Seul, sans associé. À Lui la royauté et à Lui la louange, et Il est Omnipotent", "source": "Rapporté par Muslim" },
+      { "text": "Les pèlerins du Hajj et de l'Umrah sont les invités d'Allah, Il les a appelés et ils Lui ont répondu, ils Lui ont demandé et Il leur a donné", "source": "Rapporté par Ibn Majah" }
+    ]
+  }
+}

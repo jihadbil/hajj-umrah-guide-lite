@@ -1,0 +1,43 @@
+{
+  "eyebrow": "Platformumuz Hakkında",
+  "title": "Hakkımızda",
+  "description": "Morshid'in Rahman'ın misafirlerine hizmet etme ve mübarek yolculuklarında entegre rehberlik desteği sağlama misyonu ve hedefleri hakkında bilgi edinin.",
+  "mission": {
+    "badge": "✨ Soylu Bir Misyon",
+    "title": "Kabe'ye Açılan Dijital Rehberlik Portalınız",
+    "p1": "Mürşid platformu, Hac ve Umre yapan her hacının sadık dijital yoldaşı olmak üzere kurulmuştur. Sadeleştirilmiş ve görsel olarak çekici uygulamamızla, özgünlük ve teknolojiyi birleştiren modern bir yöntem kullanarak Umre adımlarını kolaylaştırmayı ve dini hükümleri netleştirmeyi amaçlıyoruz.",
+    "p2": "Etkileşimli bir yol haritası, sahih dualar için kapsamlı bir referans, sık yapılan hatalara karşı uyarılar ve oteller ile rehberlerden oluşan bir dizin sunarak Rahman'ın misafirlerinin ibadetlerini tam bir gönül huzuru ve güvenle yerine getirmelerini sağlamayı amaçlıyoruz."
+  },
+  "card": {
+    "title": "Hizmet Etme Onuru",
+    "quote": "\"Hacılara ve Allah'ın misafirlerine hizmet etmek, en yüksek derecede dürüstlük ve kusursuzlukla yerine getirmeye çalıştığımız büyük bir onur ve sorumluluktur.\"",
+    "badge1": "✓ Etkileşimli",
+    "badge2": "✓ Güvenilir",
+    "badge3": "✓ Ücretsiz"
+  },
+  "values": {
+    "title": "Altın Kurallarımız ve Değerlerimiz",
+    "subtitle": "Bu rehberdeki her bir detayı üzerine inşa ettiğimiz ilkeler ve temeller.",
+    "v1_title": "İlmi Güvenilirlik",
+    "v1_body": "Tüm hükümlerin, sünnetlerin ve duaların Kur'an-ı Kerim ve sahih Nebevi Sünnet'ten türetildiğinden emin oluyor, ilmi ve dini içeriği titizlikle gözden geçiriyoruz.",
+    "v2_title": "Kolaylaştırma ve Açıklık",
+    "v2_body": "Her yaştan hacının anlamasını kolaylaştırmak için fıkhi terimleri basitleştirmek ve etkileşimli görsel arayüzlerle açıklamak.",
+    "v3_title": "Sürekli İnovasyon",
+    "v3_body": "Tavaf sayacı ve etkileşimli hacı çantası gibi yolculuk sırasında yardımcı araçlar sunmak için en son dijital teknolojilerden ve akıllı çözümlerden yararlanmak."
+  },
+  "features": {
+    "title": "Mürşid size ne sunuyor?",
+    "f1_title": "Etkileşimli Yolculuk Güzergahı",
+    "f1_body": "Niyet ve Mikat'tan başlayıp, Tavaf ve Sa'y üzerinden tam tıraş/kesime kadar sizi yönlendiren sıralı bir rehber.",
+    "f2_title": "Sahih Dualar",
+    "f2_body": "Gözü yormayan büyük ve net bir yazı tipiyle okuma seçeneği sunan, kabul görmüş dualar için bir pencere.",
+    "f3_title": "Sık Yapılan Hatalar Uyarıları",
+    "f3_body": "İhlallerin ve olası hataların açıklanması, bunlardan kaçınılması ve ibadetin geçersiz olmaktan korunması.",
+    "f4_title": "Etkileşimli Hacı Çantası",
+    "f4_body": "Yolculuktan önce ihtiyacınız olan her şeyi gözden geçirmek ve temel şeyleri unutmadığınızdan emin olmak için akıllı bir kontrol listesi."
+  },
+  "footer": {
+    "text": "Platformu geliştirmek için sorularınız veya önerileriniz var mı?",
+    "button": "İletişim sayfasına git"
+  }
+}

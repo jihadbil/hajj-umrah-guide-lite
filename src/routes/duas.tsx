@@ -4,6 +4,8 @@
 
 import { createFileRoute } from "@tanstack/react-router";
 import { PageHeader, DuaCard } from "@/components/PageHeader";
+import { useTranslation } from "react-i18next";
+import { useEffect } from "react";
 
 // تعريف مسار الصفحة وبيانات SEO الخاصة بها
 export const Route = createFileRoute("/duas")({
@@ -11,102 +13,80 @@ export const Route = createFileRoute("/duas")({
   head: () => ({
     meta: [
       { title: "الأدعية والأذكار — مرشد" },
-      { name: "description", content: "مجموعة من الأدعية والأذكار المأثورة للعمرة: التلبية، دعاء الطواف، دعاء الصفا والمروة، وأذكار عامة." },
+      {
+        name: "description",
+        content:
+          "مجموعة من الأدعية والأذكار المأثورة للعمرة: التلبية، دعاء الطواف، دعاء الصفا والمروة، وأذكار عامة.",
+      },
     ],
   }),
 });
 
-// ---- مجموعات الأدعية مصنّفة حسب المرحلة ----
-// كل مجموعة تحتوي على عنوان وقائمة من الأدعية
-const groups = [
-  {
-    title: "التلبية",
-    items: [
-      {
-        title: "تلبية النبي ﷺ",
-        arabic: "لبّيك اللهم لبّيك، لبّيك لا شريك لك لبّيك، إنّ الحمد والنعمة لك والملك، لا شريك لك.",
-        source: "متفق عليه",
-      },
-    ],
-  },
-  {
-    title: "أدعية الطواف",
-    items: [
-      {
-        title: "بداية كل شوط",
-        arabic: "بسم الله، والله أكبر، اللهم إيماناً بك، وتصديقاً بكتابك، ووفاءً بعهدك، واتّباعاً لسنّة نبيك محمد ﷺ.",
-        source: "أثر عن ابن عمر",
-      },
-      {
-        title: "بين الركن اليماني والحجر الأسود",
-        arabic: "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾",
-        source: "البقرة ٢٠١",
-      },
-    ],
-  },
-  {
-    title: "أدعية السعي",
-    items: [
-      {
-        title: "عند الصعود على الصفا والمروة",
-        arabic: "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾ أبدأ بما بدأ الله به.",
-        source: "رواه مسلم",
-      },
-      {
-        title: "على الصفا والمروة",
-        arabic: "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، لا إله إلا الله وحده، أنجز وعده، ونصر عبده، وهزم الأحزاب وحده.",
-        source: "رواه مسلم",
-      },
-    ],
-  },
-  {
-    title: "أذكار عامة للمعتمر",
-    items: [
-      {
-        title: "دخول المسجد",
-        arabic: "اللهم افتح لي أبواب رحمتك.",
-        source: "رواه مسلم",
-      },
-      {
-        title: "رؤية الكعبة",
-        arabic: "اللهم زد هذا البيت تشريفاً وتعظيماً وتكريماً ومهابة، وزد من شرّفه وكرّمه ممن حجّه أو اعتمره تشريفاً وتكريماً وتعظيماً وبرّاً.",
-        source: "أثر",
-      },
-      {
-        title: "عند شرب ماء زمزم",
-        arabic: "اللهم إني أسألك علماً نافعاً، ورزقاً واسعاً، وشفاءً من كل داء.",
-        source: "أثر عن ابن عباس",
-      },
-    ],
-  },
-];
+const groupsKeys = [
+  { key: "talbiyah" },
+  { key: "tawaf" },
+  { key: "sai" },
+  { key: "general" },
+] as const;
 
 // ---- مكوّن صفحة الأدعية ----
 function DuasPage() {
+  const { t } = useTranslation("duas");
+
+  // تحديث عنوان تبويب المتصفح ديناميكياً
+  useEffect(() => {
+    const brandName = t("brand.name", { ns: "common", defaultValue: "مرشد" });
+    document.title = `${t("title")} — ${brandName}`;
+  }, [t]);
+
+  const groupsList = groupsKeys.map((group) => {
+    const groupKey = `groups.${group.key}`;
+    const itemsRaw = t(`${groupKey}.items`, { returnObjects: true }) as any[];
+    const items = Array.isArray(itemsRaw) ? itemsRaw.map((item) => ({
+      title: item.title,
+      arabic: item.arabic,
+      translation: item.translation || undefined,
+      source: item.source || undefined,
+    })) : [];
+
+    return {
+      title: t(`${groupKey}.title`),
+      items,
+    };
+  });
+
   return (
     <div>
       {/* رأس الصفحة مع العنوان والوصف */}
       <PageHeader
-        eyebrow="الأدعية والأذكار"
-        title="أدعية مأثورة للعمرة"
-        description="مجموعة منتقاة من الأدعية والأذكار الثابتة عن النبي ﷺ لكل موقف من مواقف الرحلة."
+        eyebrow={t("eyebrow")}
+        title={t("title")}
+        description={t("description")}
       />
 
       {/* قائمة المجموعات — كل مجموعة في قسم مستقل */}
-      <div className="mx-auto max-w-5xl px-4 py-12 space-y-14">
-        {groups.map((g) => (
+      <div className="mx-auto max-w-5xl px-4 py-12 space-y-10">
+        {groupsList.map((g) => (
           <section key={g.title}>
             {/* عنوان المجموعة مع خط فاصل على الجانبين */}
             <div className="mb-6 flex items-center gap-3">
               <div className="h-px flex-1 bg-border" />
-              <h2 className="font-display text-2xl font-bold text-primary md:text-3xl">{g.title}</h2>
+              <h2 className="font-display text-2xl font-bold text-primary md:text-3xl">
+                {g.title}
+              </h2>
               <div className="h-px flex-1 bg-border" />
             </div>
 
             {/* بطاقات الأدعية — شبكتين في الشاشات الكبيرة */}
             <div className="grid gap-5 md:grid-cols-2">
               {g.items.map((d) => (
-                <DuaCard key={d.title} title={d.title} arabic={d.arabic} source={d.source} />
+                <DuaCard
+                  key={d.title}
+                  title={d.title}
+                  arabic={d.arabic}
+                  translation={d.translation}
+                  source={d.source}
+                />
               ))}
             </div>
           </section>

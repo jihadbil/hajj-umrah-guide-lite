@@ -1,338 +1,777 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>مرشد — نظام الفزعة</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;900&family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">
-<style>
-  :root{
-    --ink:#0E2321; --ink-2:#123A37; --ink-3:#164843;
-    --gold:#B9873C; --gold-light:#D9B36C;
-    --teal:#1F6F6B; --teal-light:#3E9C96;
-    --sand:#F1E9D8; --sand-2:#E7DBC0; --cream:#FAF6EC;
-    --text-dark:#1B2422; --text-light:#F5EFE0; --muted:#6E7A72;
-    --clay:#B15A46;
-  }
-  *{box-sizing:border-box; margin:0; padding:0;}
-  body{
-    background:var(--cream); color:var(--text-dark);
-    font-family:'Tajawal', sans-serif; line-height:1.6;
-    padding:60px 20px 100px;
-  }
-  h1,h2,.display{font-family:'Aref Ruqaa', serif; font-weight:700;}
-  .mono{font-family:'IBM Plex Mono', monospace;}
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مرشد — نظام الفزعة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Tajawal:wght@300;400;500;700;900&family=IBM+Plex+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --ink: #0e2321;
+        --ink-2: #123a37;
+        --ink-3: #164843;
+        --gold: #b9873c;
+        --gold-light: #d9b36c;
+        --teal: #1f6f6b;
+        --teal-light: #3e9c96;
+        --sand: #f1e9d8;
+        --sand-2: #e7dbc0;
+        --cream: #faf6ec;
+        --text-dark: #1b2422;
+        --text-light: #f5efe0;
+        --muted: #6e7a72;
+        --clay: #b15a46;
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background: var(--cream);
+        color: var(--text-dark);
+        font-family: "Tajawal", sans-serif;
+        line-height: 1.6;
+        padding: 60px 20px 100px;
+      }
+      h1,
+      h2,
+      .display {
+        font-family: "Aref Ruqaa", serif;
+        font-weight: 700;
+      }
+      .mono {
+        font-family: "IBM Plex Mono", monospace;
+      }
 
-  .intro{max-width:640px; margin:0 auto 64px; text-align:center;}
-  .eyebrow{
-    display:inline-block; font-size:13px; font-weight:700; color:var(--teal);
-    background:rgba(31,111,107,.1); padding:6px 16px; border-radius:999px; margin-bottom:18px;
-  }
-  .intro h1{font-size:34px; color:var(--ink); margin-bottom:14px;}
-  .intro p{color:var(--muted); font-size:15.5px;}
+      .intro {
+        max-width: 640px;
+        margin: 0 auto 64px;
+        text-align: center;
+      }
+      .eyebrow {
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--teal);
+        background: rgba(31, 111, 107, 0.1);
+        padding: 6px 16px;
+        border-radius: 999px;
+        margin-bottom: 18px;
+      }
+      .intro h1 {
+        font-size: 34px;
+        color: var(--ink);
+        margin-bottom: 14px;
+      }
+      .intro p {
+        color: var(--muted);
+        font-size: 15.5px;
+      }
 
-  .flow{
-    max-width:1180px; margin:0 auto;
-    display:flex; align-items:flex-start; justify-content:center;
-    gap:34px; flex-wrap:wrap;
-  }
-  .stage{display:flex; flex-direction:column; align-items:center; width:300px;}
-  .stage-label{
-    font-size:13px; font-weight:700; color:var(--gold); margin-bottom:16px;
-    display:flex; align-items:center; gap:8px;
-  }
-  .stage-num{
-    width:22px; height:22px; border-radius:50%; background:var(--ink);
-    color:var(--text-light); font-size:11.5px; display:flex; align-items:center; justify-content:center;
-    font-family:'Tajawal', sans-serif; font-weight:700;
-  }
-  .arrow{
-    align-self:center; margin-top:130px; color:var(--sand-2); font-size:28px;
-  }
-  @media (max-width:1020px){.arrow{display:none;}}
+      .flow {
+        max-width: 1180px;
+        margin: 0 auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 34px;
+        flex-wrap: wrap;
+      }
+      .stage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 300px;
+      }
+      .stage-label {
+        font-size: 13px;
+        font-weight: 700;
+        color: var(--gold);
+        margin-bottom: 16px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .stage-num {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: var(--ink);
+        color: var(--text-light);
+        font-size: 11.5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Tajawal", sans-serif;
+        font-weight: 700;
+      }
+      .arrow {
+        align-self: center;
+        margin-top: 130px;
+        color: var(--sand-2);
+        font-size: 28px;
+      }
+      @media (max-width: 1020px) {
+        .arrow {
+          display: none;
+        }
+      }
 
-  /* phone frame */
-  .phone{
-    width:300px; height:620px; background:var(--ink); border-radius:38px;
-    padding:12px; box-shadow:0 30px 60px -20px rgba(14,35,33,.35);
-    position:relative;
-  }
-  .screen{
-    width:100%; height:100%; border-radius:28px; overflow:hidden;
-    background:var(--cream); position:relative; display:flex; flex-direction:column;
-  }
-  .notch{
-    position:absolute; top:12px; left:50%; transform:translateX(-50%);
-    width:80px; height:18px; background:var(--ink); border-radius:12px; z-index:5;
-  }
+      /* phone frame */
+      .phone {
+        width: 300px;
+        height: 620px;
+        background: var(--ink);
+        border-radius: 38px;
+        padding: 12px;
+        box-shadow: 0 30px 60px -20px rgba(14, 35, 33, 0.35);
+        position: relative;
+      }
+      .screen {
+        width: 100%;
+        height: 100%;
+        border-radius: 28px;
+        overflow: hidden;
+        background: var(--cream);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+      }
+      .notch {
+        position: absolute;
+        top: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 18px;
+        background: var(--ink);
+        border-radius: 12px;
+        z-index: 5;
+      }
 
-  /* ---- Screen 1: card ---- */
-  .card-screen{
-    background:radial-gradient(120% 100% at 50% 0%, var(--ink-3), var(--ink) 60%);
-    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
-    padding:34px 22px; color:var(--text-light);
-  }
-  .card-title{font-size:12px; color:var(--gold-light); letter-spacing:.08em; margin-bottom:22px;}
-  .fazaa-card{
-    width:100%; background:var(--cream); border-radius:18px; padding:20px;
-    color:var(--text-dark); position:relative; cursor:pointer;
-    box-shadow:0 16px 30px -10px rgba(0,0,0,.4);
-    transition:transform .5s ease;
-    transform-style:preserve-3d;
-  }
-  .fazaa-card.flipped{transform:rotateY(180deg);}
-  .card-face{backface-visibility:hidden;}
-  .card-face.back{
-    position:absolute; inset:0; padding:20px; transform:rotateY(180deg);
-    display:flex; flex-direction:column; align-items:center; justify-content:center;
-    background:var(--cream); border-radius:18px;
-  }
-  .card-top{display:flex; align-items:center; gap:8px; margin-bottom:14px;}
-  .card-mark{position:relative; width:20px; height:20px; color:var(--gold);}
-  .ring{position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); border:1.5px solid currentColor; border-radius:50%; opacity:.5;}
-  .card-mark .ring:nth-child(1){width:20px; height:20px;}
-  .card-mark .ring:nth-child(2){width:11px; height:11px;}
-  .card-brand{font-family:'Aref Ruqaa', serif; font-size:16px; color:var(--ink);}
-  .card-name{font-weight:700; font-size:19px; color:var(--ink); margin-bottom:2px;}
-  .card-sub{font-size:12px; color:var(--muted); margin-bottom:16px;}
-  .card-row{display:flex; justify-content:space-between; font-size:12px; padding:7px 0; border-top:1px dashed var(--sand-2);}
-  .card-row span:first-child{color:var(--muted);}
-  .card-row span:last-child{font-weight:700; color:var(--ink-2);}
-  .card-note{
-    margin-top:12px; background:rgba(177,90,70,.1); color:var(--clay);
-    font-size:11.5px; padding:8px 10px; border-radius:8px; font-weight:500;
-  }
-  .qr-box{
-    width:150px; height:150px; margin:0 auto 14px; background:#fff; border-radius:14px;
-    display:flex; align-items:center; justify-content:center; border:1px solid var(--sand-2);
-  }
-  .qr-mock{width:118px; height:118px; background:
-    repeating-linear-gradient(0deg, var(--ink) 0 6px, transparent 6px 12px),
-    repeating-linear-gradient(90deg, var(--ink) 0 6px, transparent 6px 12px);
-    background-blend-mode:multiply; opacity:.88; border-radius:4px;}
-  .qr-hint{font-size:12px; color:var(--muted); text-align:center;}
-  .card-hint{font-size:11px; color:var(--muted); margin-top:16px; text-align:center;}
+      /* ---- Screen 1: card ---- */
+      .card-screen {
+        background: radial-gradient(120% 100% at 50% 0%, var(--ink-3), var(--ink) 60%);
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 34px 22px;
+        color: var(--text-light);
+      }
+      .card-title {
+        font-size: 12px;
+        color: var(--gold-light);
+        letter-spacing: 0.08em;
+        margin-bottom: 22px;
+      }
+      .fazaa-card {
+        width: 100%;
+        background: var(--cream);
+        border-radius: 18px;
+        padding: 20px;
+        color: var(--text-dark);
+        position: relative;
+        cursor: pointer;
+        box-shadow: 0 16px 30px -10px rgba(0, 0, 0, 0.4);
+        transition: transform 0.5s ease;
+        transform-style: preserve-3d;
+      }
+      .fazaa-card.flipped {
+        transform: rotateY(180deg);
+      }
+      .card-face {
+        backface-visibility: hidden;
+      }
+      .card-face.back {
+        position: absolute;
+        inset: 0;
+        padding: 20px;
+        transform: rotateY(180deg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: var(--cream);
+        border-radius: 18px;
+      }
+      .card-top {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 14px;
+      }
+      .card-mark {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        color: var(--gold);
+      }
+      .ring {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 1.5px solid currentColor;
+        border-radius: 50%;
+        opacity: 0.5;
+      }
+      .card-mark .ring:nth-child(1) {
+        width: 20px;
+        height: 20px;
+      }
+      .card-mark .ring:nth-child(2) {
+        width: 11px;
+        height: 11px;
+      }
+      .card-brand {
+        font-family: "Aref Ruqaa", serif;
+        font-size: 16px;
+        color: var(--ink);
+      }
+      .card-name {
+        font-weight: 700;
+        font-size: 19px;
+        color: var(--ink);
+        margin-bottom: 2px;
+      }
+      .card-sub {
+        font-size: 12px;
+        color: var(--muted);
+        margin-bottom: 16px;
+      }
+      .card-row {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        padding: 7px 0;
+        border-top: 1px dashed var(--sand-2);
+      }
+      .card-row span:first-child {
+        color: var(--muted);
+      }
+      .card-row span:last-child {
+        font-weight: 700;
+        color: var(--ink-2);
+      }
+      .card-note {
+        margin-top: 12px;
+        background: rgba(177, 90, 70, 0.1);
+        color: var(--clay);
+        font-size: 11.5px;
+        padding: 8px 10px;
+        border-radius: 8px;
+        font-weight: 500;
+      }
+      .qr-box {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto 14px;
+        background: #fff;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid var(--sand-2);
+      }
+      .qr-mock {
+        width: 118px;
+        height: 118px;
+        background:
+          repeating-linear-gradient(0deg, var(--ink) 0 6px, transparent 6px 12px),
+          repeating-linear-gradient(90deg, var(--ink) 0 6px, transparent 6px 12px);
+        background-blend-mode: multiply;
+        opacity: 0.88;
+        border-radius: 4px;
+      }
+      .qr-hint {
+        font-size: 12px;
+        color: var(--muted);
+        text-align: center;
+      }
+      .card-hint {
+        font-size: 11px;
+        color: var(--muted);
+        margin-top: 16px;
+        text-align: center;
+      }
 
-  /* ---- Screen 2: scanner ---- */
-  .scan-screen{
-    flex:1; background:#081918; position:relative; display:flex; flex-direction:column;
-    align-items:center; justify-content:center; overflow:hidden;
-  }
-  .scan-top{
-    position:absolute; top:44px; right:0; left:0; text-align:center; color:var(--text-light); z-index:3;
-  }
-  .scan-top .t1{font-size:14px; font-weight:700;}
-  .scan-top .t2{font-size:12px; color:#9FAEA8; margin-top:4px;}
-  .viewfinder{
-    width:200px; height:200px; position:relative;
-  }
-  .corner{position:absolute; width:34px; height:34px; border-color:var(--gold-light); border-style:solid;}
-  .corner.tl{top:0; left:0; border-width:3px 0 0 3px; border-top-left-radius:12px;}
-  .corner.tr{top:0; right:0; border-width:3px 3px 0 0; border-top-right-radius:12px;}
-  .corner.bl{bottom:0; left:0; border-width:0 0 3px 3px; border-bottom-left-radius:12px;}
-  .corner.br{bottom:0; right:0; border-width:0 3px 3px 0; border-bottom-right-radius:12px;}
-  .scan-line{
-    position:absolute; right:6px; left:6px; height:2px; background:var(--gold-light);
-    box-shadow:0 0 10px var(--gold-light); animation:scan 2.2s ease-in-out infinite;
-  }
-  @keyframes scan{0%{top:8px; opacity:.9;} 50%{top:190px; opacity:.9;} 51%{opacity:0;} 52%{top:8px; opacity:0;} 60%{opacity:.9;} 100%{top:190px;}}
-  .scan-btn-wrap{position:absolute; bottom:40px; right:0; left:0; display:flex; justify-content:center; z-index:4;}
-  .btn{
-    display:inline-flex; align-items:center; gap:8px; padding:13px 24px; border-radius:999px;
-    font-weight:700; font-size:14px; cursor:pointer; border:none; transition:transform .2s ease;
-  }
-  .btn:hover{transform:translateY(-2px);}
-  .btn-gold{background:var(--gold); color:#1B1204;}
-  .btn-outline{background:rgba(245,239,224,.1); color:var(--text-light); border:1px solid rgba(245,239,224,.3);}
+      /* ---- Screen 2: scanner ---- */
+      .scan-screen {
+        flex: 1;
+        background: #081918;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      .scan-top {
+        position: absolute;
+        top: 44px;
+        right: 0;
+        left: 0;
+        text-align: center;
+        color: var(--text-light);
+        z-index: 3;
+      }
+      .scan-top .t1 {
+        font-size: 14px;
+        font-weight: 700;
+      }
+      .scan-top .t2 {
+        font-size: 12px;
+        color: #9faea8;
+        margin-top: 4px;
+      }
+      .viewfinder {
+        width: 200px;
+        height: 200px;
+        position: relative;
+      }
+      .corner {
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        border-color: var(--gold-light);
+        border-style: solid;
+      }
+      .corner.tl {
+        top: 0;
+        left: 0;
+        border-width: 3px 0 0 3px;
+        border-top-left-radius: 12px;
+      }
+      .corner.tr {
+        top: 0;
+        right: 0;
+        border-width: 3px 3px 0 0;
+        border-top-right-radius: 12px;
+      }
+      .corner.bl {
+        bottom: 0;
+        left: 0;
+        border-width: 0 0 3px 3px;
+        border-bottom-left-radius: 12px;
+      }
+      .corner.br {
+        bottom: 0;
+        right: 0;
+        border-width: 0 3px 3px 0;
+        border-bottom-right-radius: 12px;
+      }
+      .scan-line {
+        position: absolute;
+        right: 6px;
+        left: 6px;
+        height: 2px;
+        background: var(--gold-light);
+        box-shadow: 0 0 10px var(--gold-light);
+        animation: scan 2.2s ease-in-out infinite;
+      }
+      @keyframes scan {
+        0% {
+          top: 8px;
+          opacity: 0.9;
+        }
+        50% {
+          top: 190px;
+          opacity: 0.9;
+        }
+        51% {
+          opacity: 0;
+        }
+        52% {
+          top: 8px;
+          opacity: 0;
+        }
+        60% {
+          opacity: 0.9;
+        }
+        100% {
+          top: 190px;
+        }
+      }
+      .scan-btn-wrap {
+        position: absolute;
+        bottom: 40px;
+        right: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        z-index: 4;
+      }
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 13px 24px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 14px;
+        cursor: pointer;
+        border: none;
+        transition: transform 0.2s ease;
+      }
+      .btn:hover {
+        transform: translateY(-2px);
+      }
+      .btn-gold {
+        background: var(--gold);
+        color: #1b1204;
+      }
+      .btn-outline {
+        background: rgba(245, 239, 224, 0.1);
+        color: var(--text-light);
+        border: 1px solid rgba(245, 239, 224, 0.3);
+      }
 
-  /* ---- Screen 3: alert result ---- */
-  .result-screen{flex:1; background:var(--cream); padding:26px 20px 20px; display:flex; flex-direction:column;}
-  .result-status{
-    display:flex; align-items:center; gap:10px; background:rgba(31,111,107,.12);
-    color:var(--teal); padding:10px 14px; border-radius:12px; font-size:12.5px; font-weight:700; margin-bottom:18px;
-  }
-  .status-rings{position:relative; width:16px; height:16px;}
-  .status-rings .ring{border-color:var(--teal); animation:pulse 1.6s ease-in-out infinite;}
-  .status-rings .ring:nth-child(1){width:16px; height:16px;}
-  .status-rings .ring:nth-child(2){width:8px; height:8px; animation-delay:.3s;}
-  @keyframes pulse{0%,100%{opacity:.3; transform:translate(-50%,-50%) scale(.9);} 50%{opacity:.9; transform:translate(-50%,-50%) scale(1.1);}}
+      /* ---- Screen 3: alert result ---- */
+      .result-screen {
+        flex: 1;
+        background: var(--cream);
+        padding: 26px 20px 20px;
+        display: flex;
+        flex-direction: column;
+      }
+      .result-status {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: rgba(31, 111, 107, 0.12);
+        color: var(--teal);
+        padding: 10px 14px;
+        border-radius: 12px;
+        font-size: 12.5px;
+        font-weight: 700;
+        margin-bottom: 18px;
+      }
+      .status-rings {
+        position: relative;
+        width: 16px;
+        height: 16px;
+      }
+      .status-rings .ring {
+        border-color: var(--teal);
+        animation: pulse 1.6s ease-in-out infinite;
+      }
+      .status-rings .ring:nth-child(1) {
+        width: 16px;
+        height: 16px;
+      }
+      .status-rings .ring:nth-child(2) {
+        width: 8px;
+        height: 8px;
+        animation-delay: 0.3s;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          opacity: 0.3;
+          transform: translate(-50%, -50%) scale(0.9);
+        }
+        50% {
+          opacity: 0.9;
+          transform: translate(-50%, -50%) scale(1.1);
+        }
+      }
 
-  .result-person{display:flex; align-items:center; gap:12px; margin-bottom:18px;}
-  .result-avatar{
-    width:52px; height:52px; border-radius:50%; background:var(--sand-2);
-    display:flex; align-items:center; justify-content:center; font-family:'Aref Ruqaa', serif;
-    font-size:19px; color:var(--ink-2); flex-shrink:0;
-  }
-  .result-name{font-weight:700; font-size:16px; color:var(--ink);}
-  .result-meta{font-size:12px; color:var(--muted);}
+      .result-person {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 18px;
+      }
+      .result-avatar {
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: var(--sand-2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: "Aref Ruqaa", serif;
+        font-size: 19px;
+        color: var(--ink-2);
+        flex-shrink: 0;
+      }
+      .result-name {
+        font-weight: 700;
+        font-size: 16px;
+        color: var(--ink);
+      }
+      .result-meta {
+        font-size: 12px;
+        color: var(--muted);
+      }
 
-  .map-mock{
-    height:100px; border-radius:14px; margin-bottom:16px; position:relative; overflow:hidden;
-    background:
-      linear-gradient(var(--sand) 1px, transparent 1px) 0 0/20px 20px,
-      linear-gradient(90deg, var(--sand) 1px, transparent 1px) 0 0/20px 20px,
-      var(--sand-2);
-  }
-  .map-pin{
-    position:absolute; top:50%; left:50%; transform:translate(-50%,-100%);
-    width:14px; height:14px; background:var(--clay); border-radius:50% 50% 50% 0; transform-origin:bottom;
-    rotate:-45deg; box-shadow:0 0 0 4px rgba(177,90,70,.18);
-  }
+      .map-mock {
+        height: 100px;
+        border-radius: 14px;
+        margin-bottom: 16px;
+        position: relative;
+        overflow: hidden;
+        background:
+          linear-gradient(var(--sand) 1px, transparent 1px) 0 0/20px 20px,
+          linear-gradient(90deg, var(--sand) 1px, transparent 1px) 0 0/20px 20px,
+          var(--sand-2);
+      }
+      .map-pin {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -100%);
+        width: 14px;
+        height: 14px;
+        background: var(--clay);
+        border-radius: 50% 50% 50% 0;
+        transform-origin: bottom;
+        rotate: -45deg;
+        box-shadow: 0 0 0 4px rgba(177, 90, 70, 0.18);
+      }
 
-  .info-list{background:#fff; border:1px solid var(--sand-2); border-radius:14px; padding:14px 16px; margin-bottom:16px;}
-  .info-row{display:flex; justify-content:space-between; font-size:12.5px; padding:8px 0;}
-  .info-row + .info-row{border-top:1px solid var(--sand);}
-  .info-row span:first-child{color:var(--muted);}
-  .info-row span:last-child{font-weight:700; color:var(--ink-2);}
-  .note-alert{
-    background:rgba(177,90,70,.1); color:var(--clay); font-size:12px; font-weight:600;
-    padding:9px 12px; border-radius:10px; margin-bottom:18px;
-  }
+      .info-list {
+        background: #fff;
+        border: 1px solid var(--sand-2);
+        border-radius: 14px;
+        padding: 14px 16px;
+        margin-bottom: 16px;
+      }
+      .info-row {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12.5px;
+        padding: 8px 0;
+      }
+      .info-row + .info-row {
+        border-top: 1px solid var(--sand);
+      }
+      .info-row span:first-child {
+        color: var(--muted);
+      }
+      .info-row span:last-child {
+        font-weight: 700;
+        color: var(--ink-2);
+      }
+      .note-alert {
+        background: rgba(177, 90, 70, 0.1);
+        color: var(--clay);
+        font-size: 12px;
+        font-weight: 600;
+        padding: 9px 12px;
+        border-radius: 10px;
+        margin-bottom: 18px;
+      }
 
-  .notify-chain{margin-bottom:20px;}
-  .notify-item{display:flex; align-items:center; gap:10px; font-size:12.5px; color:var(--ink-2); padding:5px 0;}
-  .notify-check{
-    width:16px; height:16px; border-radius:50%; background:var(--teal); color:#fff; font-size:10px;
-    display:flex; align-items:center; justify-content:center; flex-shrink:0;
-  }
+      .notify-chain {
+        margin-bottom: 20px;
+      }
+      .notify-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 12.5px;
+        color: var(--ink-2);
+        padding: 5px 0;
+      }
+      .notify-check {
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: var(--teal);
+        color: #fff;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+      }
 
-  .result-actions{margin-top:auto; display:flex; flex-direction:column; gap:10px;}
-  .btn-full{width:100%; justify-content:center;}
-  .btn-dark{background:var(--ink); color:var(--text-light);}
-  .btn-ghost2{background:transparent; border:1px solid var(--sand-2); color:var(--ink-2);}
+      .result-actions {
+        margin-top: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .btn-full {
+        width: 100%;
+        justify-content: center;
+      }
+      .btn-dark {
+        background: var(--ink);
+        color: var(--text-light);
+      }
+      .btn-ghost2 {
+        background: transparent;
+        border: 1px solid var(--sand-2);
+        color: var(--ink-2);
+      }
 
-  .caption{text-align:center; font-size:12.5px; color:var(--muted); margin-top:16px; max-width:280px;}
-</style>
-</head>
-<body>
+      .caption {
+        text-align: center;
+        font-size: 12.5px;
+        color: var(--muted);
+        margin-top: 16px;
+        max-width: 280px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="intro">
+      <span class="eyebrow">فكرة مبتكرة · نظام الفزعة</span>
+      <h1>لا يحتاج تائه جوالًا، يحتاج من يراه</h1>
+      <p>
+        بطاقة فزعة بسيطة يحملها كل معتمر، يمسحها أي مرشد أو موظف فندق قريب، فتتحرك الشبكة كلها
+        لمساعدته — دون أن يطلب هو شيئًا.
+      </p>
+    </div>
 
-<div class="intro">
-  <span class="eyebrow">فكرة مبتكرة · نظام الفزعة</span>
-  <h1>لا يحتاج تائه جوالًا، يحتاج من يراه</h1>
-  <p>بطاقة فزعة بسيطة يحملها كل معتمر، يمسحها أي مرشد أو موظف فندق قريب، فتتحرك الشبكة كلها لمساعدته — دون أن يطلب هو شيئًا.</p>
-</div>
-
-<div class="flow">
-
-  <div class="stage">
-    <div class="stage-label"><span class="stage-num">١</span> بطاقة الفزعة</div>
-    <div class="phone">
-      <div class="notch"></div>
-      <div class="screen">
-        <div class="card-screen">
-          <div class="card-title">بطاقتك — اطبعها أو علّقها كسوار</div>
-          <div class="fazaa-card" id="fazaaCard" onclick="this.classList.toggle('flipped')">
-            <div class="card-face front">
-              <div class="card-top">
-                <div class="card-mark"><div class="ring"></div><div class="ring"></div></div>
-                <span class="card-brand">مرشد · فزعة</span>
+    <div class="flow">
+      <div class="stage">
+        <div class="stage-label"><span class="stage-num">١</span> بطاقة الفزعة</div>
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="screen">
+            <div class="card-screen">
+              <div class="card-title">بطاقتك — اطبعها أو علّقها كسوار</div>
+              <div class="fazaa-card" id="fazaaCard" onclick="this.classList.toggle('flipped')">
+                <div class="card-face front">
+                  <div class="card-top">
+                    <div class="card-mark">
+                      <div class="ring"></div>
+                      <div class="ring"></div>
+                    </div>
+                    <span class="card-brand">مرشد · فزعة</span>
+                  </div>
+                  <div class="card-name">خالد الحربي</div>
+                  <div class="card-sub">معتمر — المجموعة الثالثة</div>
+                  <div class="card-row"><span>الفندق</span><span>أنوار الحرم</span></div>
+                  <div class="card-row">
+                    <span>قائد المجموعة</span><span class="mono">05X XXX 214</span>
+                  </div>
+                  <div class="card-row"><span>اللغة</span><span>عربي</span></div>
+                  <div class="card-note">⚠ يعاني من ضغط الدم</div>
+                </div>
+                <div class="card-face back">
+                  <div class="qr-box"><div class="qr-mock"></div></div>
+                  <div class="qr-hint">امسح هذا الرمز عند الحاجة</div>
+                </div>
               </div>
-              <div class="card-name">خالد الحربي</div>
-              <div class="card-sub">معتمر — المجموعة الثالثة</div>
-              <div class="card-row"><span>الفندق</span><span>أنوار الحرم</span></div>
-              <div class="card-row"><span>قائد المجموعة</span><span class="mono">05X XXX 214</span></div>
-              <div class="card-row"><span>اللغة</span><span>عربي</span></div>
-              <div class="card-note">⚠ يعاني من ضغط الدم</div>
+              <div class="card-hint">اضغط على البطاقة لمشاهدة الرمز ↺</div>
             </div>
-            <div class="card-face back">
-              <div class="qr-box"><div class="qr-mock"></div></div>
-              <div class="qr-hint">امسح هذا الرمز عند الحاجة</div>
-            </div>
-          </div>
-          <div class="card-hint">اضغط على البطاقة لمشاهدة الرمز ↺</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="arrow">←</div>
-
-  <div class="stage">
-    <div class="stage-label"><span class="stage-num">٢</span> مرشد يمسح الرمز</div>
-    <div class="phone">
-      <div class="notch"></div>
-      <div class="screen">
-        <div class="scan-screen">
-          <div class="scan-top">
-            <div class="t1">فزعة سريعة</div>
-            <div class="t2">وجّه الكاميرا نحو رمز البطاقة</div>
-          </div>
-          <div class="viewfinder">
-            <div class="corner tl"></div><div class="corner tr"></div>
-            <div class="corner bl"></div><div class="corner br"></div>
-            <div class="scan-line"></div>
-          </div>
-          <div class="scan-btn-wrap">
-            <button class="btn btn-gold" onclick="revealResult()">تم المسح — عرض البيانات</button>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <div class="arrow">←</div>
+      <div class="arrow">←</div>
 
-  <div class="stage">
-    <div class="stage-label"><span class="stage-num">٣</span> تُبلَّغ الشبكة تلقائيًا</div>
-    <div class="phone">
-      <div class="notch"></div>
-      <div class="screen">
-        <div class="result-screen">
-          <div class="result-status">
-            <span class="status-rings"><span class="ring"></span><span class="ring"></span></span>
-            تم تفعيل الفزعة بنجاح
-          </div>
-
-          <div class="result-person">
-            <div class="result-avatar">خح</div>
-            <div>
-              <div class="result-name">خالد الحربي</div>
-              <div class="result-meta">معتمر · المجموعة الثالثة</div>
+      <div class="stage">
+        <div class="stage-label"><span class="stage-num">٢</span> مرشد يمسح الرمز</div>
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="screen">
+            <div class="scan-screen">
+              <div class="scan-top">
+                <div class="t1">فزعة سريعة</div>
+                <div class="t2">وجّه الكاميرا نحو رمز البطاقة</div>
+              </div>
+              <div class="viewfinder">
+                <div class="corner tl"></div>
+                <div class="corner tr"></div>
+                <div class="corner bl"></div>
+                <div class="corner br"></div>
+                <div class="scan-line"></div>
+              </div>
+              <div class="scan-btn-wrap">
+                <button class="btn btn-gold" onclick="revealResult()">
+                  تم المسح — عرض البيانات
+                </button>
+              </div>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="map-mock"><div class="map-pin"></div></div>
+      <div class="arrow">←</div>
 
-          <div class="note-alert">⚠ ملاحظة صحية: يعاني من ضغط الدم</div>
+      <div class="stage">
+        <div class="stage-label"><span class="stage-num">٣</span> تُبلَّغ الشبكة تلقائيًا</div>
+        <div class="phone">
+          <div class="notch"></div>
+          <div class="screen">
+            <div class="result-screen">
+              <div class="result-status">
+                <span class="status-rings"
+                  ><span class="ring"></span><span class="ring"></span
+                ></span>
+                تم تفعيل الفزعة بنجاح
+              </div>
 
-          <div class="info-list">
-            <div class="info-row"><span>الفندق</span><span>أنوار الحرم</span></div>
-            <div class="info-row"><span>اللغة</span><span>عربي</span></div>
-            <div class="info-row"><span>آخر تحديث للموقع</span><span>الآن</span></div>
-          </div>
+              <div class="result-person">
+                <div class="result-avatar">خح</div>
+                <div>
+                  <div class="result-name">خالد الحربي</div>
+                  <div class="result-meta">معتمر · المجموعة الثالثة</div>
+                </div>
+              </div>
 
-          <div class="notify-chain">
-            <div class="notify-item"><span class="notify-check">✓</span> إشعار قائد المجموعة</div>
-            <div class="notify-item"><span class="notify-check">✓</span> إرسال الموقع الحالي</div>
-            <div class="notify-item"><span class="notify-check">✓</span> تنبيه استقبال الفندق</div>
-          </div>
+              <div class="map-mock"><div class="map-pin"></div></div>
 
-          <div class="result-actions">
-            <button class="btn btn-gold btn-full">اتصال بقائد المجموعة</button>
-            <button class="btn btn-ghost2 btn-full">تحديد الحالة كـ "آمن"</button>
+              <div class="note-alert">⚠ ملاحظة صحية: يعاني من ضغط الدم</div>
+
+              <div class="info-list">
+                <div class="info-row"><span>الفندق</span><span>أنوار الحرم</span></div>
+                <div class="info-row"><span>اللغة</span><span>عربي</span></div>
+                <div class="info-row"><span>آخر تحديث للموقع</span><span>الآن</span></div>
+              </div>
+
+              <div class="notify-chain">
+                <div class="notify-item">
+                  <span class="notify-check">✓</span> إشعار قائد المجموعة
+                </div>
+                <div class="notify-item">
+                  <span class="notify-check">✓</span> إرسال الموقع الحالي
+                </div>
+                <div class="notify-item">
+                  <span class="notify-check">✓</span> تنبيه استقبال الفندق
+                </div>
+              </div>
+
+              <div class="result-actions">
+                <button class="btn btn-gold btn-full">اتصال بقائد المجموعة</button>
+                <button class="btn btn-ghost2 btn-full">تحديد الحالة كـ "آمن"</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-</div>
+    <div style="text-align: center">
+      <p class="caption" style="margin: 40px auto 0">
+        جرّب: اضغط على البطاقة الأولى لقلبها ورؤية الرمز، أو اضغط زر "تم المسح" في الشاشة الوسطى.
+      </p>
+    </div>
 
-<div style="text-align:center;">
-  <p class="caption" style="margin:40px auto 0;">جرّب: اضغط على البطاقة الأولى لقلبها ورؤية الرمز، أو اضغط زر "تم المسح" في الشاشة الوسطى.</p>
-</div>
-
-<script>
-  function revealResult(){
-    document.querySelector('.result-screen').style.animation = 'none';
-    const el = document.querySelector('.stage:last-child .phone');
-    el.style.transition = 'transform .4s ease, box-shadow .4s ease';
-    el.style.transform = 'scale(1.03)';
-    el.style.boxShadow = '0 30px 70px -15px rgba(185,135,60,.5)';
-    setTimeout(()=>{ el.style.transform='scale(1)'; el.style.boxShadow='0 30px 60px -20px rgba(14,35,33,.35)'; }, 500);
-  }
-</script>
-
-</body>
+    <script>
+      function revealResult() {
+        document.querySelector(".result-screen").style.animation = "none";
+        const el = document.querySelector(".stage:last-child .phone");
+        el.style.transition = "transform .4s ease, box-shadow .4s ease";
+        el.style.transform = "scale(1.03)";
+        el.style.boxShadow = "0 30px 70px -15px rgba(185,135,60,.5)";
+        setTimeout(() => {
+          el.style.transform = "scale(1)";
+          el.style.boxShadow = "0 30px 60px -20px rgba(14,35,33,.35)";
+        }, 500);
+      }
+    </script>
+  </body>
 </html>

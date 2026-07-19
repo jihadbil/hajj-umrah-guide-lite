@@ -1,0 +1,21 @@
+{
+  "title": "Jadwal Shalat",
+  "makkah_subtitle": "Di lingkungan suci Masjidil Haram",
+  "madinah_subtitle": "Di lingkungan suci Masjid Nabawi",
+  "makkah": "Makkah",
+  "madinah": "Madinah",
+  "timeLeftText": "Waktu tersisa untuk shalat {{name}}",
+  "timezoneNote": "Waktu Adzan berdasarkan zona waktu Arab Saudi (GMT +3)",
+  "am_pm": {
+    "am": "AM",
+    "pm": "PM"
+  },
+  "prayers": {
+    "fajr": "Subuh",
+    "sunrise": "Terbit",
+    "dhuhr": "Dzuhur",
+    "asr": "Ashar",
+    "maghrib": "Maghrib",
+    "isha": "Isya"
+  }
+}

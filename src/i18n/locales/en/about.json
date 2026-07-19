@@ -1,0 +1,43 @@
+{
+  "eyebrow": "About Our Platform",
+  "title": "About Us",
+  "description": "Learn about Morshid's mission and goals to serve the guests of the Most Merciful and provide integrated guiding support in their blessed journey.",
+  "mission": {
+    "badge": "✨ A Noble Mission",
+    "title": "Your Digital Guiding Portal to the Ancient House",
+    "p1": "Morshid platform was established to be the faithful digital companion for every pilgrim performing Hajj and Umrah. Through our simplified and visually appealing application, we aim to facilitate the steps of Umrah and clarify its religious rulings using a modern method that combines authenticity and technology.",
+    "p2": "We aim to enable the guests of the Most Merciful to perform their rituals with complete peace of mind and certainty, by providing an interactive roadmap, a comprehensive reference for authentic supplications, alerts on common mistakes, and a directory of hotels and guides."
+  },
+  "card": {
+    "title": "The Honor of Service",
+    "quote": "\"Serving the pilgrims and guests of Allah is a great honor and responsibility that we strive to perform with the highest degrees of honesty and perfection.\"",
+    "badge1": "✓ Interactive",
+    "badge2": "✓ Reliable",
+    "badge3": "✓ Free"
+  },
+  "values": {
+    "title": "Our Golden Rules & Values",
+    "subtitle": "The principles and foundations on which we build every detail in this guide.",
+    "v1_title": "Scientific Honesty",
+    "v1_body": "We make sure that all rulings, Sunnahs, and supplications are derived from the Holy Quran and the correct Prophetic Sunnah, with rigorous review of the scientific and religious content.",
+    "v2_title": "Facilitation & Clarity",
+    "v2_body": "Simplifying jurisprudential terms and clarifying them through interactive visual interfaces to make understanding easier for all groups of pilgrims of various ages.",
+    "v3_title": "Continuous Innovation",
+    "v3_body": "Harnessing the latest digital technologies and smart solutions to provide helper tools during the journey, such as the Tawaf counter and the interactive pilgrim's bag."
+  },
+  "features": {
+    "title": "What does Morshid offer you?",
+    "f1_title": "Interactive Journey Path",
+    "f1_body": "A sequential guide that takes you from intention and Miqat, through Tawaf and Sa'i, to complete shaving/cutting.",
+    "f2_title": "Authentic Supplications",
+    "f2_body": "A window for established supplications with the option to read them in a large, clear font that is comfortable for the eyes.",
+    "f3_title": "Alerts on Common Mistakes",
+    "f3_body": "Clarification of violations and possible mistakes to avoid them and protect the ritual from invalidity.",
+    "f4_title": "Interactive Pilgrim's Bag",
+    "f4_body": "A smart checklist to review everything you need before traveling to make sure you don't forget the essentials."
+  },
+  "footer": {
+    "text": "Do you have inquiries or suggestions to improve the platform?",
+    "button": "Go to Contact Us page"
+  }
+}

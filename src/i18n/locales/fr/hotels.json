@@ -1,0 +1,153 @@
+{
+  "eyebrow": "Hôtels & Guides",
+  "title": "Hébergement & Accompagnement",
+  "description": "Choisissez parmi les hôtels proches des Deux Saintes Mosquées, et découvrez des guides certifiés pour vous accompagner dans l'accomplissement de vos rites.",
+  "demoNotice": "⚠️ Ces données sont fictives et servent uniquement d'illustration. Elles seront remplacées par des données réelles dès qu'elles seront disponibles.",
+  "fazahBanner": {
+    "badge": "NOUVEAU — Réseau d'Assistance Décentralisé",
+    "title": "Service Fazah : Une carte reliant chaque pèlerin au guide ou à la réception d'hôtel la plus proche",
+    "desc": "Découvrez comment fonctionne la carte QR et la chaîne d'alerte d'urgence instantanée.",
+    "btn": "Découvrir Fazah ←"
+  },
+  "sections": {
+    "hotelsTitle": "Hôtels Proches des Deux Saintes Mosquées",
+    "guidesTitle": "Guides Certifiés"
+  },
+  "labels": {
+    "reviewsCount": "{{count}} avis",
+    "startFrom": "À partir de",
+    "pricePerNight": "{{price}} / nuit",
+    "viewDetails": "Voir les Détails",
+    "experienceYears": "{{count}} ans d'expérience",
+    "languages": "Langues : {{list}}",
+    "licensedGuide": "Guide Certifié ✓",
+    "aboutHotel": "À propos de l'Hôtel",
+    "amenities": "Services & Équipements",
+    "address": "Adresse",
+    "checkIn": "Arrivée",
+    "checkOut": "Départ",
+    "contact": "Contact",
+    "bookRequest": "Demande de Réservation",
+    "backToAll": "← Retour à tous les Hôtels",
+    "notFoundTitle": "Hôtel non trouvé",
+    "notFoundDesc": "Impossible de trouver l'hôtel demandé.",
+    "notFoundBack": "Retour aux Hôtels"
+  },
+  "hotelsItems": {
+    "h1": {
+      "name": "Makkah Clock Royal Tower, A Fairmont Hotel",
+      "city": "La Mecque",
+      "distance": "À quelques pas du Haram",
+      "price": "1200 SAR",
+      "amenities": ["Vue sur le Haram", "Plusieurs Restos", "Service Navette"],
+      "description": "Situé juste à côté de la Mosquée Sacrée, cet hôtel emblématique offre des vues panoramiques sur le Haram et la Kaaba depuis la plupart de ses chambres.",
+      "address": "Abraj Al Bait, Ajyad, La Mecque",
+      "checkIn": "4:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h2": {
+      "name": "Swissôtel Al Maqam Makkah",
+      "city": "La Mecque",
+      "distance": "200 mètres du Haram",
+      "price": "850 SAR",
+      "amenities": ["Petit Déj Inclus", "Wi-Fi Gratuit", "Lieu de Prière Privé"],
+      "description": "Hôtel de luxe alliant hospitalité suisse et caractère local, situé à quelques pas des cours du Haram via des couloirs couverts réservés aux clients.",
+      "address": "Complexe Abraj Al Bait, La Mecque",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h3": {
+      "name": "Hilton Suites Makkah",
+      "city": "La Mecque",
+      "distance": "400 mètres du Haram",
+      "price": "750 SAR",
+      "amenities": ["Chambres Famille", "Kitchenette", "Service Blanchisserie"],
+      "description": "Un choix idéal pour les familles avec des suites spacieuses et une kitchenette dans chaque chambre, offrant un service de navette régulier vers le Haram.",
+      "address": "Quartier Ash Shuhada, La Mecque",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h4": {
+      "name": "Dar Al Tawhid InterContinental Makkah",
+      "city": "La Mecque",
+      "distance": "Adjacent au Haram",
+      "price": "1500 SAR",
+      "amenities": ["Vue sur la Kaaba", "Service de Concierge", "Dîner de Luxe"],
+      "description": "L'un des hôtels les plus anciens et prestigieux de La Mecque, offrant une vue directe sur la Sainte Kaaba depuis ses restaurants et ses suites de luxe.",
+      "address": "Ajyad, La Mecque",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h5": {
+      "name": "Mövenpick Anwar Al Madinah",
+      "city": "Médine",
+      "distance": "100 mètres de la Mosquée du Prophète",
+      "price": "650 SAR",
+      "amenities": ["Vue sur la Mosquée", "Petit-Déjeuner Buffet", "Parking"],
+      "description": "Situé au cœur de la zone centrale de Médine, surplombant directement les cours de la Mosquée du Prophète, avec un buffet de petit-déjeuner complet.",
+      "address": "Zone Centrale, Médine",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h6": {
+      "name": "Dar Al Iman InterContinental Madinah",
+      "city": "Médine",
+      "distance": "50 mètres du Haram du Prophète",
+      "price": "800 SAR",
+      "amenities": ["Passage Couvert au Haram", "Navette Aéroport", "Chambres Famille"],
+      "description": "Relié par une passerelle couverte directe à la cour de la Mosquée du Prophète, facilitant l'accès aux prières sans exposition au soleil chaud.",
+      "address": "Zone Centrale, Médine",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    },
+    "h7": {
+      "name": "Pullman Zamzam Madinah",
+      "city": "Médine",
+      "distance": "150 mètres de la Mosquée du Prophète",
+      "price": "500 SAR",
+      "amenities": ["Resto Arabe & International", "Wi-Fi Gratuit", "Salle de Sport"],
+      "description": "Hôtel moderne à prix raisonnable offrant une vue partielle sur la Mosquée du Prophète, doté d'un centre de fitness et de restaurants variés.",
+      "address": "Zone Centrale, Médine",
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM"
+    }
+  },
+  "guidesItems": {
+    "g1": {
+      "name": "Cheikh Abdullah Al-Harbi",
+      "city": "La Mecque & Médine",
+      "specialty": "Accompagnement juridique complet pour les rites de l'Umrah",
+      "languages": ["Arabe", "Anglais"]
+    },
+    "g2": {
+      "name": "M. Mohammed Al-Zahrani",
+      "city": "La Mecque",
+      "specialty": "Accompagnement des groupes et conseils pour le Tawaf",
+      "languages": ["Arabe", "Anglais", "Ourdou"]
+    },
+    "g3": {
+      "name": "Mme Amal Al-Qahtani",
+      "city": "La Mecque",
+      "specialty": "Accompagnement des femmes et des familles",
+      "languages": ["Arabe", "Anglais"]
+    },
+    "g4": {
+      "name": "Cheikh Khalid Al-Otaibi",
+      "city": "Médine",
+      "specialty": "Visites historiques de la Mosquée du Prophète",
+      "languages": ["Arabe", "Français"]
+    },
+    "g5": {
+      "name": "M. Yusuf Al-Malki",
+      "city": "La Mecque & Médine",
+      "specialty": "Accompagnement des délégations asiatiques",
+      "languages": ["Arabe", "Anglais", "Malais"]
+    },
+    "g6": {
+      "name": "Mme Hind Al-Dossari",
+      "city": "Médine",
+      "specialty": "Accompagnement des personnes âgées et à mobilité réduite",
+      "languages": ["Arabe", "Anglais"]
+    }
+  }
+}

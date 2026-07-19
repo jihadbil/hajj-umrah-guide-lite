@@ -1,0 +1,89 @@
+{
+  "eyebrow": "İhram Hükümleri",
+  "title": "İhram Yasakları",
+  "description": "İhrama girdikten sonra ihramdan çıkana (tahallül) kadar umrecinin yapması yasak olan ameller, delilleri ve uyarıları.",
+  "warning_title": "Umreci İçin Önemli Fıkhi Uyarı",
+  "warning_body": "İhram yasaklarından birini bilerek, isteyerek ve hükmünü bilerek ihlal eden kişi günahkar olur ve bazı yasaklar türüne göre fidye gerektirir. Ancak yasağı unutarak, bilmeyerek veya zorlama altında ihlal eden kişi için hükümler yasağın türüne göre değişiklik gösterir.",
+  "labels": {
+    "daleel": "Şer'i Delil",
+    "note": "💡 İstisna ve Uyarı: ",
+    "faqTitle": "Sıkça Sorulan Sorular ve Uyarılar"
+  },
+  "items": {
+    "p1": {
+      "n": "1",
+      "title": "Saç ve Vücut Kıllarını Kesmek",
+      "body": "İhramlının saçını veya vücut kıllarını bilerek kesmesi, tıraş etmesi veya koparması yasaktır. Ancak tıbbi bir zorunluluk gibi şer'i bir mazeret durumunda kesilebilir.",
+      "daleel": "“Kurbanlık, yerine varıncaya kadar başlarınızı tıraş etmeyin.” [Bakara Suresi: 196]",
+      "note": "Abdest alırken, yıkanırken veya saç taranırken kendiliğinden dökülen kıllarda bir günah veya ceza yoktur."
+    },
+    "p2": {
+      "n": "2",
+      "title": "Tırnak Kesmek",
+      "body": "İhramlının ihramdan çıkana kadar el veya ayak tırnaklarını bilerek kesmesi yasaktır.",
+      "note": "Ancak tırnak kırılır ve kişiye acı verirse, sadece acı veren kısmın kesilmesinde sakınca yoktur."
+    },
+    "p3": {
+      "n": "3",
+      "title": "Koku Sürünmek",
+      "body": "İhrama girdikten sonra ihramlının vücuduna, saçına veya ihram örtüsüne koku sürmesi yasaktır. Parfümler, öd yağları, misk ve tütsüler bu yasağa dahildir.",
+      "note": "İhrama niyet etmeden önce sürülen kokunun izinin ihramdan sonra kalması zarar vermez; çünkü Peygamberimiz ﷺ ihrama girmeden önce koku sürünmüştür."
+    },
+    "p4": {
+      "n": "4",
+      "title": "Dikişli Elbise Giymek (Erkekler İçin)",
+      "body": "Erkek ihramlının pantolon, gömlek, iç çamaşırı, cübbe, çorap ve kapalı ayakkabı gibi vücut azalarını saran dikişli elbiseler giymesi yasaktır.",
+      "note": "Sandalet giyebilir; sandalet bulamazsa topuksuz terlik giyer. Kadınların ihrama özel bir kıyafeti yoktur; vücut hatlarını belli etmeyen tesettüre uygun elbiseler giyerler."
+    },
+    "p5": {
+      "n": "5",
+      "title": "Baş Örtmek (Erkekler İçin)",
+      "body": "Erkek ihramlının başını takke, sarık, şapka veya sarılacak örtülerle örtmesi yasaktır.",
+      "note": "Şemsiye kullanmak, araç tavanı altında gitmek veya çadırda gölgelenmek yasak değildir; çünkü bunlar başı doğrudan örten yasak kapsamında değildir."
+    },
+    "p6": {
+      "n": "6",
+      "title": "Peçe ve Eldiven Takmak (Kadınlar İçin)",
+      "body": "Kadın ihramlıyken yüzünü örten peçe (nikab) takamaz ve eldiven giyemez.",
+      "note": "Yabancı erkeklerin varlığında, peçe takmaksızın başörtüsünün ucunu yüzünün üzerine sarkıtabilir."
+    },
+    "p7": {
+      "n": "7",
+      "title": "Nikah Kıymak",
+      "body": "İhramlının kendisi veya başkası için nikah kıyması, nikah şahidi olması veya evlilik teklif etmesi yasaktır."
+    },
+    "p8": {
+      "n": "8",
+      "title": "Cinsel İlişki ve Öncülleri",
+      "body": "Cinsel ilişki en büyük ihram yasaklarındandır. Aynı şekilde şehvetle öpmek, dokunmak ve ilişkiye yol açacak diğer öncül davranışlar da yasaktır."
+    },
+    "p9": {
+      "n": "9",
+      "title": "Kara Avı Yapmak",
+      "body": "İhramlının eti yenen yabani kara hayvanlarını avlaması, avlanmasına yardım etmesi veya avı göstermesi yasaktır.",
+      "note": "Deniz avcılığı (balık tutmak) bu yasağa girmez, serbesttir."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Sabun veya şampuan kullanılabilir mi?",
+      "a": "Kokusuz sabun ve şampuanlar kullanılabilir. Ancak parfümlü ve hoş koku amacıyla üretilenlerden ihram süresince kaçınılmalıdır."
+    },
+    {
+      "q": "Saat, gözlük veya kemer takılabilir mi?",
+      "a": "Evet; kol saati, gözlük, işitme cihazı, kemer, adım sayıcı takılabilir ve cep telefonu taşınabilir. Bunlar ihram yasaklarından değildir."
+    },
+    {
+      "q": "Şemsiye kullanılabilir mi?",
+      "a": "Evet, güneşten korunmak amacıyla şemsiye kullanmak, araba tavanı veya Harem'deki gölgelikler altında durmak ihramı etkilemez."
+    },
+    {
+      "q": "İhram elbiseleri değiştirilebilir mi?",
+      "a": "İhram örtüleri kirlendiğinde veya ihtiyaç duyulduğunda temiz bir ihramla değiştirilebilir veya yıkanabilir."
+    },
+    {
+      "q": "İhramlıyken banyo yapılabilir mi?",
+      "a": "Saç ve vücut kıllarını bilerek dökmemek kaydıyla ihramlının banyo yapmasında, başını yıkamasında ve abdest almasında sakınca yoktur."
+    }
+  ]
+}

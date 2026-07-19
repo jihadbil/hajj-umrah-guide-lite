@@ -1,0 +1,124 @@
+{
+  "eyebrow": "Historic Sites",
+  "title": "Historical Sites of Makkah & Madinah",
+  "description": "Discover the most prominent historical landmarks to visit in Makkah and Madinah, with their Shariah ruling.",
+  "cities": {
+    "all": "All",
+    "makkah": "Makkah",
+    "madinah": "Madinah"
+  },
+  "labels": {
+    "viewDetails": "View Details ←",
+    "distanceFromHaram": "Distance from Haram",
+    "bestTimeToVisit": "Best Time to Visit",
+    "city": "City",
+    "backToAll": "← Back to All Sites",
+    "historyTitle": "Historical Summary",
+    "visitHowTitle": "How to Visit",
+    "notFoundTitle": "Site Not Found",
+    "notFoundDesc": "Could not find the requested historic site.",
+    "notFoundBack": "Back to Sites"
+  },
+  "items": {
+    "a1": {
+      "name": "Mount Noor & Hira Cave",
+      "city": "Makkah",
+      "description": "The mount where the Prophet ﷺ used to worship before the mission, and Hira Cave where revelation first descended.",
+      "tip": "Visiting it is not part of the Umrah rituals; it is a permissible historical visit for reflection, taking into account the physical effort.",
+      "distance": "About 4 km from Haram",
+      "history": "In Hira Cave at the top of Mount Noor, the Prophet ﷺ worshiped before the message. Revelation descended first with: 'Read in the name of your Lord who created.'",
+      "howToVisit": "Visitors climb a steep stone staircase taking about 1 to 1.5 hours. It is advised to bring water and avoid hot afternoons.",
+      "bestTime": "Early morning or after Asr to avoid heat and crowding."
+    },
+    "a2": {
+      "name": "Mount Thawr",
+      "city": "Makkah",
+      "description": "The mount where the Prophet ﷺ and Abu Bakr hid during migration to Madinah.",
+      "tip": "Climbing it is strenuous and takes hours; it is an optional visit.",
+      "distance": "About 6 km south of Haram",
+      "history": "In Thawr Cave, the Prophet ﷺ and Abu Bakr hid for three nights during migration. The verse 'the second of two, when they were in the cave' was revealed.",
+      "howToVisit": "Climbing takes 3 to 4 hours round trip. Requires good fitness.",
+      "bestTime": "Before sunrise to avoid heat."
+    },
+    "a3": {
+      "name": "Ji'ranah Mosque",
+      "city": "Makkah",
+      "description": "One of the Miqats from which the Prophet ﷺ assumed Ihram after the Battle of Hunayn.",
+      "tip": "Used today as a Miqat for residents of Makkah intending a new Umrah.",
+      "distance": "About 26 km from Haram",
+      "history": "The Prophet ﷺ assumed Ihram for Umrah here upon returning from Battle of Hunayn. Named after the location.",
+      "howToVisit": "Equipped with large ablution facilities. Easily accessible by car or bus.",
+      "bestTime": "Any time, early morning is preferred."
+    },
+    "a4": {
+      "name": "Taneem Mosque (Aisha Mosque)",
+      "city": "Makkah",
+      "description": "The nearest Miqat to the Haram, from where Aisha assumed Ihram by order of the Prophet ﷺ.",
+      "tip": "The most commonly used Miqat for Makkah residents to perform an extra Umrah.",
+      "distance": "About 7 km from Haram",
+      "history": "Named Aisha Mosque because the Prophet ﷺ ordered her brother to take her to Taneem to assume Ihram after the Farewell Pilgrimage.",
+      "howToVisit": "Equipped with parking and facilities. Visited by thousands daily.",
+      "bestTime": "Avoid peak hours during busy seasons."
+    },
+    "a5": {
+      "name": "Two Holy Mosques Museum",
+      "city": "Makkah",
+      "description": "A museum showcasing the history of the architecture of the Two Holy Mosques, manuscripts, and old Kaaba covers.",
+      "tip": "A useful cultural visit to understand the history of the Grand Mosque and expansions.",
+      "distance": "Next to the Grand Mosque",
+      "history": "Documents the phases of construction of the Two Holy Mosques. Features rare relics.",
+      "howToVisit": "Admission is usually free. Take 1 to 2 hours.",
+      "bestTime": "After Fajr or between prayers."
+    },
+    "a6": {
+      "name": "The Prophet's Holy Mosque",
+      "city": "Madinah",
+      "description": "The second of the Two Holy Mosques, containing the Rawdah and the Prophet's ﷺ grave.",
+      "tip": "It is recommended to pray in the Rawdah and greet the Prophet ﷺ and his companions without wiping the walls.",
+      "distance": "Heart of Madinah",
+      "history": "Built by the Prophet ﷺ. Contains the Rawdah: 'Between my house and my pulpit is a garden from the gardens of Paradise.'",
+      "howToVisit": "Book a slot for Rawdah via the Nusuk app.",
+      "bestTime": "After Fajr or after Isha."
+    },
+    "a7": {
+      "name": "Quba Mosque",
+      "city": "Madinah",
+      "description": "The first mosque built in Islam, which the Prophet ﷺ visited every Saturday.",
+      "tip": "It is Sunnah to pray two rak'ahs in it; the reward is equivalent to an Umrah.",
+      "distance": "About 5 km from Prophet's Mosque",
+      "history": "First mosque established on piety. Built by the Prophet ﷺ upon arrival in Quba.",
+      "howToVisit": "Easy to reach by buses or taxis.",
+      "bestTime": "Saturday, following the Prophet's ﷺ practice."
+    },
+    "a8": {
+      "name": "Qiblatain Mosque",
+      "city": "Madinah",
+      "description": "The mosque where Muslims changed direction during prayer from Jerusalem to the Kaaba.",
+      "tip": "An important historical landmark showing the event in the 2nd year of Hijrah.",
+      "distance": "About 4 km from Prophet's Mosque",
+      "history": "While the Prophet ﷺ was praying, revelation came to change direction. He turned and the congregation followed.",
+      "howToVisit": "Features two mihrabs showing the event. Common visitor destination.",
+      "bestTime": "Any time of day."
+    },
+    "a9": {
+      "name": "Mount Uhud & Martyrs Cemetery",
+      "city": "Madinah",
+      "description": "The site of the famous Battle of Uhud, containing the cemetery of martyrs including Hamzah.",
+      "tip": "It is recommended to greet the martyrs and pray for them, without seeking blessings from the graves.",
+      "distance": "About 5 km from Prophet's Mosque",
+      "history": "Witnessed the great Battle of Uhud. 70 companions were martyred.",
+      "howToVisit": "Stand at the foot of the mount and cemetery. Observe proper graveside manners.",
+      "bestTime": "Late afternoon when it is cooler."
+    },
+    "a10": {
+      "name": "Al-Baqi Cemetery",
+      "city": "Madinah",
+      "description": "The cemetery of Madinah where many companions and family of the Prophet ﷺ are buried.",
+      "tip": "Recommended to visit to greet the deceased and pray for them.",
+      "distance": "Adjacent to the Prophet's Mosque",
+      "history": "Many companions and family are buried here. The Prophet ﷺ used to visit and pray for them.",
+      "howToVisit": "Open at specific times, mostly for men.",
+      "bestTime": "After Fajr when it is usually open."
+    }
+  }
+}

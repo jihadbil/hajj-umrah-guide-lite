@@ -1,0 +1,327 @@
+{
+  "eyebrow": "Panduan Umrah",
+  "title": "Panduan Umrah Langkah demi Langkah",
+  "description": "Panduan lengkap dan praktis untuk melaksanakan ibadah Umrah secara detail dari awal hingga akhir.",
+  "labels": {
+    "recommended": "Dianjurkan",
+    "disliked": "Makruh",
+    "mistakes": "Kesalahan Umum",
+    "duas": "Doa & Zikir",
+    "guide": "Panduan",
+    "warningTitle": "Pemberitahuan Penting untuk Jamaah",
+    "nextStep": "Langkah Berikutnya",
+    "stepLabel": "Langkah {{id}}",
+    "stepOf": "Langkah {{id}} dari {{total}}",
+    "stepsCount": "{{count}} langkah"
+  },
+  "banners": {
+    "recommended": "Amalan ini dianjurkan (Mustahabb) pada tahap ini. Mengerjakannya berpahala meneladani Nabi ﷺ, dan meninggalkannya tidak berdosa.",
+    "disliked": "Perkara ini makruh atau sebaiknya dihindari karena mengurangi pahala atau mengurangi kesempurnaan ibadah.",
+    "mistakes": "Kesalahan umum yang sering terjadi pada tahap ini, disertai dengan praktik yang benar dari Sunnah.",
+    "duas": "Doa dan zikir yang dianjurkan pada tahap ini sesuai dengan Sunnah yang shahih."
+  },
+  "steps": {
+    "step1": {
+      "title": "Sebelum Ihram",
+      "subtitle": "Persiapan Perjalanan Umrah",
+      "intro": "Sebelum memulai Umrah, dianjurkan untuk mempersiapkan diri sebelum berihram agar berada dalam kondisi terbaik. Persiapan ini termasuk Sunnah yang dicontohkan oleh Nabi ﷺ.",
+      "sections": [
+        {
+          "heading": "Cara Mempersiapkan Diri",
+          "body": "Jika Anda menuju Miqat, dianjurkan melakukan hal-hal berikut:",
+          "list": [
+            "Mandi sebelum ihram jika memungkinkan.",
+            "Membersihkan badan, memotong kuku, dan mencukur rambut yang perlu dirapikan.",
+            "Memakai wewangian di badan (hanya untuk laki-laki), hindari parfum pada kain ihram.",
+            "Jika tidak sempat mandi di Miqat, mandi setelah tiba di Makkah sebelum Tawaf diperbolehkan."
+          ]
+        },
+        {
+          "heading": "Pakaian Ihram Laki-laki",
+          "body": "Mengenakan kain sarung (izar) dan kain selendang (rida) berwarna putih dan bersih."
+        },
+        {
+          "heading": "Pakaian Ihram Wanita",
+          "body": "Mengenakan pakaian biasa yang menutup aurat dan tidak menarik perhatian. Tidak diperbolehkan memakai cadar (niqab) atau sarung tangan selama ihram."
+        }
+      ],
+      "recommended": [
+        "Mandi sebelum ihram — Sunnah muakkad.",
+        "Memotong kuku dan merapikan rambut sebelum berihram.",
+        "Memakai wewangian di badan bagi laki-laki sebelum niat ihram.",
+        "Mengenakan kain ihram putih yang bersih.",
+        "Shalat dua rakaat di Miqat jika ada masjid."
+      ],
+      "disliked": [
+        "Meninggalkan mandi padahal mampu sebelum ihram.",
+        "Melalaikan potong kuku lalu mencukurnya saat ihram.",
+        "Menunggu terlalu lama di Miqat tanpa persiapan."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Menganggap pakaian putih bagi wanita adalah wajib.",
+          "right": "Wanita boleh mengenakan pakaian warna apa saja yang menutup aurat."
+        },
+        {
+          "wrong": "Menyemprotkan parfum langsung ke kain ihram.",
+          "right": "Parfum hanya untuk badan sebelum berniat ihram."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Niat Ihram Umrah",
+          "arabic": "اللَّهُمَّ لَبَّيْكَ عُمْرَةً",
+          "translation": "Ya Allah, aku penuhi panggilan-Mu untuk berumrah.",
+          "source": "Dianjurkan dilafalkan saat berniat ihram."
+        },
+        {
+          "title": "Persyaratan (Isytirat)",
+          "arabic": "فَإِنْ حَبَسَنِي حَابِسٌ فَمَحِلِّي حَيْثُ حَبَسْتَنِي",
+          "translation": "Jika aku terhalang oleh suatu halangan, maka tempat tahallulku adalah di mana aku terhalang.",
+          "source": "Muttafaq 'alaih — bagi yang khawatir terhalang uzhur."
+        }
+      ],
+      "note": "Persiapan ihram adalah Sunnah yang dianjurkan, bukan syarat sahnya Umrah.",
+      "nextStep": "Ihram"
+    },
+    "step2": {
+      "title": "Ihram",
+      "subtitle": "Awal Manasik",
+      "intro": "Anda telah sampai di Miqat. Dari sini Anda memulai ibadah dengan niat Umrah dan mulai menaati ketentuan ihram.",
+      "sections": [
+        {
+          "heading": "Cara Berihram",
+          "body": "Setelah mengenakan kain ihram, niatkan Umrah dalam hati dan lafalkan: 'Labbayk 'Umrah' atau 'Allahumma Labbayk 'Umrah'. Sejak saat itu, larangan ihram mulai berlaku."
+        }
+      ],
+      "recommended": [
+        "Mulai membaca Talbiyah segera setelah niat.",
+        "Menghadap kiblat saat berniat jika memungkinkan."
+      ],
+      "disliked": [
+        "Menunda membaca Talbiyah setelah berniat."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Menganggap ihram baru sah jika shalat sunnah ihram.",
+          "right": "Tidak ada shalat khusus ihram, cukup shalat fardhu atau shalat sunnah mutlak."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Talbiyah",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "translation": "Aku penuhi panggilan-Mu, ya Allah, aku penuhi panggilan-Mu. Aku penuhi panggilan-Mu, tidak ada sekutu bagi-Mu, aku penuhi panggilan-Mu. Sesungguhnya segala puji, nikmat, dan kerajaan adalah milik-Mu, tidak ada sekutu bagi-Mu.",
+          "source": "Muttafaq 'alaih"
+        }
+      ],
+      "note": "Jangan melewati Miqat tanpa berihram jika berniat Umrah.",
+      "nextStep": "Talbiyah"
+    },
+    "step3": {
+      "title": "Talbiyah",
+      "subtitle": "Menjawab Panggilan Allah",
+      "intro": "Membaca Talbiyah sepanjang perjalanan menuju Makkah sebagai syiar agung ketauhidan.",
+      "sections": [
+        {
+          "heading": "Kapan Mulai dan Berhenti?",
+          "body": "Dibaca terus-menerus sejak ihram hingga melihat Ka'bah untuk memulai Tawaf."
+        }
+      ],
+      "recommended": [
+        "Mengeraskan suara bagi laki-laki secara wajar.",
+        "Memperbanyak zikir dan doa selama perjalanan."
+      ],
+      "disliked": [
+        "Mengeraskan suara Talbiyah bagi wanita di depan laki-laki asing."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Membaca Talbiyah bersama-sama dengan satu komando secara koor.",
+          "right": "Disunnahkan masing-masing membaca Talbiyah sendiri-sendiri."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Talbiyah",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "translation": "Aku penuhi panggilan-Mu, ya Allah, aku penuhi panggilan-Mu...",
+          "source": "Muttafaq 'alaih"
+        }
+      ],
+      "note": "Bagi laki-laki disunnahkan mengeraskan suara, wanita melembutkan suara.",
+      "nextStep": "Masuk Masjidil Haram"
+    },
+    "step4": {
+      "title": "Masuk Masjidil Haram",
+      "subtitle": "Pertemuan Pertama dengan Ka'bah",
+      "intro": "Masuk ke tempat paling suci di bumi dengan penuh ketenangan, kekhusyukan, dan doa.",
+      "sections": [
+        {
+          "heading": "Adab Masuk",
+          "body": "Masuk dengan kaki kanan, membaca doa masjid, lalu berjalan tenang menuju Ka'bah."
+        }
+      ],
+      "recommended": [
+        "Masuk melalui Bab السلام (Pintu Salam) jika mudah.",
+        "Berdoa apa saja saat pertama kali melihat Ka'bah."
+      ],
+      "disliked": [
+        "Sibuk berfoto atau siaran langsung saat masuk Masjidil Haram."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Menganggap ada doa khusus yang wajib dibaca saat melihat Ka'bah.",
+          "right": "Tidak ada doa wajib, berdoa apa saja untuk kebaikan dunia dan akhirat."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Doa Masuk Masjid",
+          "arabic": "بِسْمِ اللَّهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ، أَعُوذُ بِاللَّهِ الْعَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+          "translation": "Dengan nama Allah, shalawat dan salam atas Rasulullah. Aku berlindung kepada Allah Yang Maha Agung, dengan wajah-Nya Yang Mulia dan kekuasaan-Nya yang qadim dari setan yang terkutuk. Ya Allah, bukakanlah pintu-pintu rahmat-Mu.",
+          "source": "HR. Muslim"
+        }
+      ],
+      "note": "Jangan berdesak-desakan, utamakan keselamatan orang lain.",
+      "nextStep": "Tawaf"
+    },
+    "step5": {
+      "title": "Tawaf",
+      "subtitle": "Mengelilingi Ka'bah 7 Putaran",
+      "intro": "Tawaf dimulai dari Hajar Aswad dan berakhir di sana sebanyak 7 kali putaran dengan Ka'bah di sebelah kiri Anda.",
+      "sections": [
+        {
+          "heading": "Cara Memulai",
+          "body": "Sejajar dengan Hajar Aswad, menghadapnya, lalu beri isyarat dengan tangan kanan sambil membaca 'Allahu Akbar'."
+        }
+      ],
+      "recommended": [
+        "Idhtiba' (membuka bahu kanan) bagi laki-laki selama Tawaf.",
+        "Ramal (berlari-lari kecil) pada 3 putaran pertama bagi laki-laki.",
+        "Membaca zikir di antara Rukun Yamani & Hajar Aswad."
+      ],
+      "disliked": [
+        "Mengusap semua sudut Ka'bah (hanya Hajar Aswad & Rukun Yamani yang diusap)."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Mencium Hajar Aswad dengan paksaan dan menyakiti orang lain.",
+          "right": "Mencium adalah sunnah, sedangkan menyakiti muslim lain adalah haram. Cukup beri isyarat."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Zikir di antara Rukun Yamani & Hajar Aswad",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "translation": "Ya Tuhan kami, berilah kami kebaikan di dunia dan kebaikan di akhirat, dan lindungilah kami dari azab neraka.",
+          "source": "HR. Abu Dawud"
+        }
+      ],
+      "note": "Tawaf harus dalam keadaan suci dari hadas (berwudhu).",
+      "nextStep": "Shalat Tawaf & Air Zamzam"
+    },
+    "step6": {
+      "title": "Shalat Tawaf & Air Zamzam",
+      "subtitle": "Setelah Menyelesaikan Tawaf",
+      "intro": "Melakukan shalat sunnah dua rakaat setelah Tawaf dan memperbanyak minum air Zamzam.",
+      "sections": [
+        {
+          "heading": "Shalat Dua Rakaat",
+          "body": "Lakukan di belakang Maqam Ibrahim jika memungkinkan, atau di bagian mana saja dari masjid jika penuh."
+        }
+      ],
+      "recommended": [
+        "Merapikan kembali kain ihram (tidak lagi idhtiba') sebelum shalat.",
+        "Minum air Zamzam dan berdoa setelah shalat."
+      ],
+      "disliked": [
+        "Memaksakan shalat di dekat Maqam Ibrahim hingga menghalangi orang yang tawaf."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Tetap membuka bahu kanan (idhtiba') saat shalat.",
+          "right": "Bahu kanan harus ditutup kembali sebelum memulai shalat."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Doa Minum Air Zamzam",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا وَاسِعًا، وَشِفَاءً مِنْ كُلِّ دَاءٍ",
+          "translation": "Ya Allah, aku memohon kepada-Mu ilmu yang bermanfaat, rezeki yang luas, dan kesembuhan dari segala penyakit.",
+          "source": "HR. Al-Hakim"
+        }
+      ],
+      "note": "Air Zamzam sangat berkah, minumlah sampai kenyang.",
+      "nextStep": "Sa'i antara Safa & Marwah"
+    },
+    "step7": {
+      "title": "Sa'i antara Safa & Marwah",
+      "subtitle": "Berjalan 7 Kali di antara Safa dan Marwah",
+      "intro": "Sa'i merupakan rukun Umrah yang dimulai dari bukit Safa dan berakhir di bukit Marwah sebanyak 7 kali perjalanan.",
+      "sections": [
+        {
+          "heading": "Cara Melaksanakan",
+          "body": "Naik ke bukit Safa, menghadap kiblat, membaca doa/zikir, lalu berjalan menuju Marwah. Laki-laki berlari kecil di antara lampu hijau."
+        }
+      ],
+      "recommended": [
+        "Mendaki Safa & Marwah saat memulainya.",
+        "Berlari kecil di antara pilar hijau (hanya bagi laki-laki).",
+        "Menjaga wudhu selama Sa'i."
+      ],
+      "disliked": [
+        "Wanita ikut berlari kecil di antara lampu hijau."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Menghitung jalan bolak-balik Safa-Marwah-Safa sebagai satu putaran.",
+          "right": "Safa ke Marwah dihitung 1 putaran, Marwah ke Safa dihitung putaran ke-2."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Zikir di Bukit Safa & Marwah",
+          "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ، أَنْجَزَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ",
+          "translation": "Tidak ada sesembahan yang berhak disembah selain Allah semata, tidak ada sekutu bagi-Nya. Milik-Nya kerajaan dan bagi-Nya segala puji, dan Dia Maha Kuasa atas segala sesuatu. Tidak ada sesembahan yang berhak disembah selain Allah semata, Dia menepati janji-Nya, menolong hamba-Nya, dan mengalahkan golongan-golongan musuh dengan sendiri-Nya.",
+          "source": "HR. Muslim"
+        }
+      ],
+      "note": "Sa'i tidak memerlukan wudhu sebagai syarat sah, namun menjaganya tetap dianjurkan.",
+      "nextStep": "Mencukur Rambut"
+    },
+    "step8": {
+      "title": "Mencukur Rambut",
+      "subtitle": "Tahallul dan Akhir Ibadah Umrah",
+      "intro": "Langkah terakhir Umrah yaitu mencukur rambut (Halaq) atau memotongnya (Taqsir) untuk bertahallul penuh dari ihram.",
+      "sections": [
+        {
+          "heading": "Ketentuan Mencukur",
+          "body": "Bagi laki-laki mencukur gundul lebih utama, atau memotong rambut secara merata. Bagi wanita cukup memotong sepanjang ujung jari (sekitar 2 cm)."
+        }
+      ],
+      "recommended": [
+        "Mencukur habis bagi laki-laki.",
+        "Memotong rambut merata dari seluruh kepala."
+      ],
+      "disliked": [
+        "Memotong kain ihram sebelum mencukur rambut."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Hanya memotong beberapa helai rambut saja bagi laki-laki.",
+          "right": "Memotong harus merata dari sebagian besar kepala, mencukur gundul adalah yang terbaik."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Doa untuk yang Mencukur Rambut",
+          "arabic": "اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ وَالْمُقَصِّرِينَ",
+          "translation": "Ya Allah, ampunilah mereka yang mencukur gundul rambutnya, Ya Allah ampunilah mereka yang mencukur gundul rambutnya. Ya Allah ampunilah mereka yang mencukur gundul rambutnya dan mereka yang memotong sebagian rambutnya.",
+          "source": "Muttafaq 'alaih"
+        }
+      ],
+      "note": "Dengan mencukur/memotong rambut, Anda telah menyelesaikan seluruh rangkaian ibadah Umrah. Semoga Allah menerima amal ibadah Anda."
+    }
+  }
+}

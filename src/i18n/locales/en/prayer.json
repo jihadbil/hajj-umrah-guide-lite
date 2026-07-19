@@ -1,0 +1,21 @@
+{
+  "title": "Prayer Times",
+  "makkah_subtitle": "In the sacred precincts of the Grand Mosque",
+  "madinah_subtitle": "In the sacred precincts of the Prophet's Mosque",
+  "makkah": "Makkah",
+  "madinah": "Madinah",
+  "timeLeftText": "Time remaining until {{name}} prayer",
+  "timezoneNote": "Athan times are in Saudi Arabia local time (GMT +3)",
+  "am_pm": {
+    "am": "AM",
+    "pm": "PM"
+  },
+  "prayers": {
+    "fajr": "Fajr",
+    "sunrise": "Sunrise",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha"
+  }
+}

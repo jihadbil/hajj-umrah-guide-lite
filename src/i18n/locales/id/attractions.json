@@ -1,0 +1,124 @@
+{
+  "eyebrow": "Situs Bersejarah",
+  "title": "Situs Bersejarah di Makkah & Madinah",
+  "description": "Kenali tempat-tempat bersejarah yang patut dikunjungi di Makkah dan Madinah, beserta penjelasan hukum ziarah menurut syariat.",
+  "cities": {
+    "all": "Semua",
+    "makkah": "Makkah",
+    "madinah": "Madinah"
+  },
+  "labels": {
+    "viewDetails": "Lihat Detail ←",
+    "distanceFromHaram": "Jarak dari Haram",
+    "bestTimeToVisit": "Waktu Terbaik Kunjungan",
+    "city": "Kota",
+    "backToAll": "← Kembali ke Semua Tempat",
+    "historyTitle": "Latar Belakang Sejarah",
+    "visitHowTitle": "Cara Berkunjung",
+    "notFoundTitle": "Tempat Tidak Ditemukan",
+    "notFoundDesc": "Maaf, tempat bersejarah yang Anda cari tidak ditemukan.",
+    "notFoundBack": "Kembali"
+  },
+  "items": {
+    "a1": {
+      "name": "Gunung Nur & Gua Hira",
+      "city": "Makkah",
+      "description": "Gunung tempat Nabi ﷺ beribadah sebelum diutus menjadi Rasul, dan Gua Hira tempat turunnya wahyu pertama.",
+      "tip": "Mengunjunginya bukan bagian dari ibadah Umrah, melainkan ziarah sejarah yang diperbolehkan untuk mengambil pelajaran dengan memperhatikan kemampuan fisik.",
+      "distance": "Sekitar 4 km dari Haram",
+      "history": "Di Gua Hira yang terletak di puncak Jabal Nur, Nabi ﷺ menyendiri dan beribadah sebelum masa kerasulan. Di tempat inilah wahyu pertama turun berupa firman Allah: 'Iqra bismi Rabbika alladzi khalaq'.",
+      "howToVisit": "Pengunjung menaiki anak tangga batu yang terjal selama 1 hingga 1.5 jam. Disarankan membawa air minum yang cukup dan menghindari siang hari yang panas.",
+      "bestTime": "Pagi hari sekali atau setelah Ashar untuk menghindari panas matahari dan antrean yang sempit."
+    },
+    "a2": {
+      "name": "Jabal Thawr (Gunung Tsur)",
+      "city": "Makkah",
+      "description": "Gunung tempat bersembunyinya Nabi ﷺ dan sahabatnya Abu Bakar As-Siddiq r.a. saat hijrah ke Madinah.",
+      "tip": "Pendakian ke atas sangat melelahkan dan memakan waktu berjam-jam; ini adalah ziarah pilihan yang tidak terkait dengan ibadah Umrah.",
+      "distance": "Sekitar 6 km di selatan Haram",
+      "history": "Di Gua Tsur, Nabi ﷺ dan Abu Bakar bersembunyi selama tiga malam saat hijrah. Di sinilah turun ayat: 'salah seorang dari dua orang ketika keduanya berada dalam gua'.",
+      "howToVisit": "Perjalanan naik turun membutuhkan waktu 3 hingga 4 jam melalui jalur gunung yang terjal. Memerlukan kondisi fisik yang prima.",
+      "bestTime": "Sebelum matahari terbit untuk menghindari panas terik."
+    },
+    "a3": {
+      "name": "Masjid Ji'ranah",
+      "city": "Makkah",
+      "description": "Salah satu Miqat tempat Nabi ﷺ berihram untuk Umrah beliau setelah perang Hunain.",
+      "tip": "Digunakan saat ini sebagai tempat Miqat bagi penduduk Makkah yang ingin melakukan ibadah Umrah baru.",
+      "distance": "Sekitar 26 km dari Haram",
+      "history": "Nabi ﷺ mengambil miqat ihram di sini sekembalinya dari perang Hunain setelah pembagian ghanimah.",
+      "howToVisit": "Masjid dilengkapi fasilitas wudhu dan parkir yang luas untuk memudahkan para peziarah yang ingin mengambil miqat.",
+      "bestTime": "Kapan saja, pagi hari lebih disukai."
+    },
+    "a4": {
+      "name": "Masjid Taneem (Masjid Aisyah)",
+      "city": "Makkah",
+      "description": "Miqat terdekat dari Haram, tempat Ummul Mukminin Aisyah r.a. berihram atas perintah Nabi ﷺ.",
+      "tip": "Miqat yang paling sering digunakan oleh penduduk Makkah dan mukimin untuk melaksanakan Umrah tambahan.",
+      "distance": "Sekitar 7 km dari Haram",
+      "history": "Dinamakan Masjid Aisyah karena Nabi ﷺ memerintahkan saudara laki-lakinya untuk mengantar Aisyah r.a. berihram dari tempat ini setelah Haji Wada'.",
+      "howToVisit": "Masjid ini ramai dikunjungi ribuan jamaah setiap hari, dilengkapi dengan area mandi dan persiapan ihram yang memadai.",
+      "bestTime": "Hindari jam-jam sibuk di malam hari selama musim ramai."
+    },
+    "a5": {
+      "name": "Museum Dua Masjid Suci",
+      "city": "Makkah",
+      "description": "Museum yang menampilkan sejarah arsitektur Dua Masjid Suci, manuskrip, dan kiswah Ka'bah dari zaman ke zaman.",
+      "tip": "Kunjungan budaya yang sangat bermanfaat untuk memahami sejarah perluasan Masjidil Haram.",
+      "distance": "Dekat Masjidil Haram",
+      "history": "Mendokumentasikan fase-fase pembangunan Dua Masjid Suci sejak zaman Nabawi hingga perluasan modern Saudi. Menyimpan barang antik yang langka.",
+      "howToVisit": "Masuk biasanya gratis. Waktu kunjungan berkisar antara 1 hingga 2 jam.",
+      "bestTime": "Setelah Fajr atau di antara waktu shalat."
+    },
+    "a6": {
+      "name": "Masjid Nabawi Syarif",
+      "city": "Madinah",
+      "description": "Masjid suci kedua di dunia, di dalamnya terdapat Raudhah Syarifah dan makam Nabi ﷺ.",
+      "tip": "Disunnahkan shalat di Raudhah dan memberi salam kepada Nabi ﷺ dan kedua sahabatnya tanpa mengusap dinding makam.",
+      "distance": "Pusat Kota Madinah",
+      "history": "Masjid yang dibangun langsung oleh Nabi ﷺ. Di dalamnya terdapat Raudhah: 'Di antara rumahku dan mimbarku adalah taman dari taman-taman surga'.",
+      "howToVisit": "Pemesanan jadwal ziarah ke Raudhah harus dilakukan melalui aplikasi Nusuk.",
+      "bestTime": "Setelah shalat Subuh atau setelah Isya saat kerumunan mulai berkurang."
+    },
+    "a7": {
+      "name": "Masjid Quba",
+      "city": "Madinah",
+      "description": "Masjid pertama yang dibangun dalam sejarah Islam, yang sering dikunjungi Nabi ﷺ setiap hari Sabtu.",
+      "tip": "Disunnahkan shalat dua rakaat di dalamnya; pahalanya setara dengan pahala satu kali Umrah.",
+      "distance": "Sekitar 5 km dari Masjid Nabawi",
+      "history": "Masjid pertama yang didirikan atas dasar takwa. Dibangun oleh Nabi ﷺ saat tiba di Quba dalam perjalanan hijrah.",
+      "howToVisit": "Mudah diakses dengan taksi atau bus wisata dari Masjid Nabawi. Memiliki halaman yang luas.",
+      "bestTime": "Hari Sabtu, mengikuti kebiasaan Rasulullah ﷺ."
+    },
+    "a8": {
+      "name": "Masjid Qiblatain",
+      "city": "Madinah",
+      "description": "Masjid tempat perpindahan arah kiblat kaum muslimin dari Baitul Maqdis (Yerusalem) ke Ka'bah di Makkah.",
+      "tip": "Situs sejarah penting yang merekam peristiwa perpindahan kiblat pada tahun ke-2 Hijriah.",
+      "distance": "Sekitar 4 km dari Masjid Nabawi",
+      "history": "Saat Nabi ﷺ memimpin shalat, turun wahyu untuk memindahkan kiblat. Beliau langsung berputar arah diikuti para sahabat.",
+      "howToVisit": "Kini masjid memiliki arsitektur modern yang indah dan menjadi destinasi ziarah favorit di Madinah.",
+      "bestTime": "Kapan saja di siang hari."
+    },
+    "a9": {
+      "name": "Jabal Uhud & Pemakaman Syuhada",
+      "city": "Madinah",
+      "description": "Lokasi pertempuran Uhud yang bersejarah, terdapat makam para syuhada termasuk paman Nabi, Hamzah r.a.",
+      "tip": "Disunnahkan memberi salam kepada para syuhada dan mendoakan mereka tanpa bertabarruk pada kuburan.",
+      "distance": "Sekitar 5 km dari Masjid Nabawi",
+      "history": "Menjadi saksi pertempuran Uhud yang dahsyat. Sebanyak 70 sahabat gugur sebagai syuhada dipimpin oleh Hamzah bin Abdul Muthalib.",
+      "howToVisit": "Peziarah dapat berdiri di kaki bukit atau di dekat area pemakaman syuhada untuk berdoa dengan tenang.",
+      "bestTime": "Sore hari menjelang matahari terbenam saat cuaca lebih sejuk."
+    },
+    "a10": {
+      "name": "Pemakaman Al-Baqi",
+      "city": "Madinah",
+      "description": "Pekuburan utama di Madinah tempat dimakamkannya ribuan sahabat dan keluarga Nabi ﷺ.",
+      "tip": "Disunnahkan berkunjung untuk memberi salam dan memohon ampunan bagi para penghuninya seperti yang dicontohkan Nabi ﷺ.",
+      "distance": "Bersebelahan dengan Masjid Nabawi",
+      "history": "Tempat peristirahatan terakhir keluarga, istri-istri, dan sahabat Nabi ﷺ. Rasulullah ﷺ sering mengunjunginya di malam hari untuk berdoa bagi mereka.",
+      "howToVisit": "Dibuka hanya pada waktu-waktu tertentu setelah shalat wajib, khusus untuk jamaah pria.",
+      "bestTime": "Setelah shalat Subuh saat pintu gerbang pekuburan dibuka."
+    }
+  }
+}

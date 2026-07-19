@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Tips & Directives",
+  "title": "Guidelines & Pilgrim's Bag",
+  "description": "Practical tips and Shariah guidelines, as well as an interactive packing checklist to prepare all travel necessities with peace of mind.",
+  "bag": {
+    "title": "Electronic Pilgrim's Bag",
+    "badge": "Interactive Tool",
+    "subtitle": "Prepare travel necessities step-by-step, and we will save your progress automatically.",
+    "resetBtn": "🔄 Reset Checklist",
+    "progressTitle": "Bag Readiness Progress",
+    "progressLabel": "{{percent}}% ({{count}} of {{total}} items ready)",
+    "progressCompleted": "🎉 Congratulations! Your bag is fully ready for the blessed Umrah journey. We ask Allah to make it easy and accept it from you.",
+    "categories": {
+      "documents": {
+        "title": "Important Documents & Papers",
+        "items": [
+          { "id": "doc-passport", "text": "Passport and Umrah visa (printed and digital copy)" },
+          { "id": "doc-id", "text": "National ID or personal residence permit (Iqama)" },
+          { "id": "doc-flights", "text": "Flight tickets, hotel and transport confirmations" },
+          { "id": "doc-cash", "text": "Small amount of cash and Mada/Visa bank card" },
+          { "id": "doc-medical", "text": "Essential medicines with your special medical reports" }
+        ]
+      },
+      "worship": {
+        "title": "Ihram & Worship Necessities",
+        "items": [
+          { "id": "worship-ihram", "text": "Ihram clothing for men (two white sheets) / modest comfortable clothes for women" },
+          { "id": "worship-belt", "text": "Ihram belt for men (with pockets to keep ID and money)" },
+          { "id": "worship-shoes", "text": "Comfortable shoes for Tawaf and Sa'i (preferably seamless for men)" },
+          { "id": "worship-duas", "text": "A small booklet of supplications and dhikr or mobile application" },
+          { "id": "worship-clipper", "text": "Small scissors or shaver to use at tahallul (de-consecration)" }
+        ]
+      },
+      "hygiene": {
+        "title": "Personal Care & Hygiene (Fragrance-Free)",
+        "items": [
+          { "id": "care-soap", "text": "Unscented shampoo and soap (for Ihram days)" },
+          { "id": "care-teeth", "text": "Toothbrush, toothpaste, and miswak" },
+          { "id": "care-vaseline", "text": "Vaseline or moisturizer to protect thighs and skin from chafing" },
+          { "id": "care-umbrella", "text": "Light umbrella to protect you from the hot Makkah sun" },
+          { "id": "care-clipper", "text": "Small nail clipper to prepare Sunnahs before Ihram" }
+        ]
+      },
+      "tech": {
+        "title": "Technical & General Necessities",
+        "items": [
+          { "id": "tech-phone", "text": "Mobile phone with its suitable chargers" },
+          { "id": "tech-powerbank", "text": "Portable power bank to charge the phone at the Haram" },
+          { "id": "tech-plug", "text": "Three-pin electrical plug suitable for the Kingdom" },
+          { "id": "tech-bag", "text": "Light backpack or waist bag to keep shoes and belongings" }
+        ]
+      }
+    }
+  },
+  "tips": {
+    "health": {
+      "title": "Health & Organizational Tips",
+      "items": [
+        "Drink plenty of cold and warm Zamzam water to avoid dehydration and fatigue.",
+        "Wear comfortable shoes during travel and take rest between rituals.",
+        "Carry a mask when it is very crowded in the Tawaf area or Sa'i path to avoid infection.",
+        "Keep an ID card or bracelet with campaign details and phone number to avoid getting lost.",
+        "Determine a clear meeting point (such as a specific gate) with your family in case of separation."
+      ]
+    },
+    "spiritual": {
+      "title": "Spiritual & Behavioral Guidelines",
+      "items": [
+        "Evoke sincere intention for Allah and stay away from showing off and excessive photography in rituals.",
+        "Display good manners, patience, and kindness to the elderly and weak during crowding.",
+        "Keep completely away from obscene language, wickedness, disputes, and quarrels that spoil the reward.",
+        "Seize the noble times such as the last third of the night and sitting in the Sacred Mosque.",
+        "Allocate a specific time to supplicate for all family, relatives, and general Muslims."
+      ]
+    }
+  },
+  "dialog": {
+    "title": "Are you sure you want to reset the bag?",
+    "desc": "This action will delete all checked items and start over. This action cannot be undone.",
+    "cancel": "Cancel",
+    "confirm": "Yes, reset checklist"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "eyebrow": "Ihram-Regeln",
+  "title": "Verbote im Ihram",
+  "description": "Handlungen, die nach dem Eintritt in den Ihram verboten sind, mit Beweisen und Hinweisen.",
+  "warning_title": "Wichtiger fiqh-Hinweis",
+  "warning_body": "Wer absichtlich ein Verbot bricht, sündigt und muss evtl. Sühne leisten. Wer es aus Vergessenheit oder Unwissenheit tut, unterliegt anderen Regeln.",
+  "labels": {
+    "daleel": "Religiöser Beweis",
+    "note": "💡 Ausnahme & Hinweis: ",
+    "faqTitle": "Häufige Fragen & Hinweise"
+  },
+  "items": {
+    "p1": {
+      "n": "1",
+      "title": "Haarentfernung",
+      "body": "Es ist verboten, Körper- oder Kopfhaare absichtlich zu rasieren, zupfen oder entfernen.",
+      "daleel": "﴿ Und rasiert euch nicht die Köpfe, bis die Opfertiere ihren Bestimmungsort erreicht haben ﴾ [Al-Baqara: 196]",
+      "note": "Unabsichtlicher Ausfall beim Waschen ist keine Sünde."
+    },
+    "p2": {
+      "n": "2",
+      "title": "Nägel schneiden",
+      "body": "Es ist verboten, Finger- oder Fußnägel absichtlich zu schneiden.",
+      "note": "Ein abgebrochener, schmerzender Nagel darf entfernt werden."
+    },
+    "p3": {
+      "n": "3",
+      "title": "Verwendung von Parfüm",
+      "body": "Es ist verboten, Parfüm (auch Moschus, Oud, Weihrauch) auf Körper oder Kleidung aufzutragen.",
+      "note": "Parfüm, das VOR dem Ihram auf den Körper aufgetragen wurde, ist erlaubt, auch wenn der Duft bleibt."
+    },
+    "p4": {
+      "n": "4",
+      "title": "Genähte Kleidung (Männer)",
+      "body": "Männern ist es verboten, körperbetonte (genähte) Kleidung wie Hemden, Hosen, Turbane, Socken oder geschlossene Schuhe zu tragen.",
+      "note": "Frauen haben keine spezielle Ihram-Kleidung und dürfen ihre gewohnte, bedeckende Kleidung tragen."
+    },
+    "p5": {
+      "n": "5",
+      "title": "Kopfbedeckung (Männer)",
+      "body": "Männer dürfen den Kopf nicht direkt bedecken (z.B. mit Hut, Turban).",
+      "note": "Schatten durch Regenschirm oder Autodach ist erlaubt."
+    },
+    "p6": {
+      "n": "6",
+      "title": "Niqab und Handschuhe (Frauen)",
+      "body": "Frauen im Ihram dürfen keinen Gesichtsschleier (Niqab) oder Handschuhe tragen.",
+      "note": "Bei Anwesenheit fremder Männer können sie ein normales Kopftuch über das Gesicht fallen lassen."
+    },
+    "p7": {
+      "n": "7",
+      "title": "Heiratsvertrag",
+      "body": "Ein Pilger im Ihram darf keinen Heiratsvertrag schließen oder sich verloben."
+    },
+    "p8": {
+      "n": "8",
+      "title": "Geschlechtsverkehr",
+      "body": "Geschlechtsverkehr und Vorspiel sind streng verboten und können die Umrah ungültig machen."
+    },
+    "p9": {
+      "n": "9",
+      "title": "Jagd",
+      "body": "Das Jagen von Landtieren ist verboten.",
+      "note": "Fischerei (Meerestiere) ist von diesem Verbot ausgenommen."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Darf man Seife oder Shampoo verwenden?",
+      "a": "Ja, unparfümierte Seife ist erlaubt. Stark parfümierte Seifen, die als Parfüm dienen, sollten vermieden werden."
+    },
+    {
+      "q": "Darf man Uhr und Brille tragen?",
+      "a": "Ja, Brillen, Uhren, Kopfhörer und Gürtel sind erlaubt."
+    },
+    {
+      "q": "Darf man einen Regenschirm nutzen?",
+      "a": "Ja, Schattenspender berühren den Kopf nicht direkt und sind erlaubt."
+    },
+    {
+      "q": "Darf man die Ihram-Kleidung wechseln?",
+      "a": "Ja, bei Bedarf darf die Kleidung gewechselt oder gewaschen werden."
+    },
+    {
+      "q": "Darf man im Ihram baden?",
+      "a": "Ja, Duschen/Baden ist erlaubt, solange man nicht absichtlich Haare ausreißt."
+    }
+  ]
+}

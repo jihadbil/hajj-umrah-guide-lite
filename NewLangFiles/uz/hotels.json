@@ -1,0 +1,153 @@
+{
+  "eyebrow": "Mehmonxonalar va gidlar",
+  "title": "Umra ziyoratchisi uchun turar joy va yo'l-yo'riq",
+  "description": "Ikki Harom-Sharifga yaqin mehmonxonalardan tanlang va amallarni ado etishda sizga hamrohlik qiladigan akkreditatsiyalangan gidlar bilan tanishing.",
+  "demoNotice": "⚠️ Bu faqat namoyish maqsadida keltirilgan sinov ma'lumotlari bo'lib, mavjud bo'lganda haqiqiy va yangilangan ma'lumotlar bilan almashtiriladi.",
+  "fazahBanner": {
+    "badge": "Yangi — markazlashtirilmagan yordam tarmog'i",
+    "title": "Faza'a xizmati: har bir umra ziyoratchisini eng yaqin gid yoki mehmonxona qabulxonasi bilan bog'laydigan karta",
+    "desc": "Tezkor javob kartasi va favqulodda vaziyatlarda zudlik bilan ogohlantirish zanjiri qanday ishlashini bilib oling.",
+    "btn": "Faza'a bilan tanishish ←"
+  },
+  "sections": {
+    "hotelsTitle": "Ikki Harom-Sharifga yaqin mehmonxonalar",
+    "guidesTitle": "Akkreditatsiyalangan gidlar"
+  },
+  "labels": {
+    "reviewsCount": "{{count}} baho",
+    "startFrom": "Boshlang'ich narx",
+    "pricePerNight": "{{price}} / kecha",
+    "viewDetails": "Tafsilotlarni ko'rish",
+    "experienceYears": "{{count}} yillik tajriba",
+    "languages": "Tillar: {{list}}",
+    "licensedGuide": "Akkreditatsiyalangan gid ✓",
+    "aboutHotel": "Mehmonxona haqida",
+    "amenities": "Qulayliklar va xizmatlar",
+    "address": "Manzil",
+    "checkIn": "Ro'yxatdan o'tish (check-in)",
+    "checkOut": "Chiqish (check-out)",
+    "contact": "Bog'lanish uchun",
+    "bookRequest": "Bron qilish so'rovi",
+    "backToAll": "← Barcha mehmonxonalarga qaytish",
+    "notFoundTitle": "Mehmonxona topilmadi",
+    "notFoundDesc": "So'ralgan mehmonxona topilmadi.",
+    "notFoundBack": "Mehmonxonalarga qaytish"
+  },
+  "hotelsItems": {
+    "h1": {
+      "name": "Fairmont Makka Klok Tauer mehmonxonasi",
+      "city": "Makkai Mukarrama",
+      "distance": "Harom-Sharifdan bir necha qadam narida",
+      "price": "1200 SR",
+      "amenities": ["Harom-Sharif manzarasi", "Ko'plab restoranlar", "Transport xizmati"],
+      "description": "Mehmonxona to'g'ridan-to'g'ri soat minorasi tepasida joylashgani bilan ajralib turadi, aksariyat xona va apartamentlaridan Masjidi Haram va muazzam Ka'baning to'g'ridan-to'g'ri panoramali manzarasi ochiladi, Harom-Sharifga bepul transport xizmati bilan.",
+      "address": "Abraj Al-Bayt, Ajyad, Makkai Mukarrama",
+      "checkIn": "16:00",
+      "checkOut": "12:00"
+    },
+    "h2": {
+      "name": "Swissotel Al Maqam Makka",
+      "city": "Makkai Mukarrama",
+      "distance": "Harom-Sharifdan 200 metr",
+      "price": "850 SR",
+      "amenities": ["Bepul nonushta", "Bepul Wi-Fi", "Alohida namozxona"],
+      "description": "Shveytsariya mehmondo'stligi va mahalliy uslubni birlashtiruvchi hashamatli mehmonxona; mehmonlar uchun maxsus yopiq yo'laklar orqali Harom-Sharif hovlisidan bir necha qadam narida joylashgan.",
+      "address": "Abraj Al-Bayt hududi, Makkai Mukarrama",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h3": {
+      "name": "Hilton Suites Makka",
+      "city": "Makkai Mukarrama",
+      "distance": "Harom-Sharifdan 400 metr",
+      "price": "750 SR",
+      "amenities": ["Oilaviy xonalar", "Kichik oshxona", "Kir yuvish xizmati"],
+      "description": "Har bir xonadagi keng apartamentlari va kichik oshxonasi bilan oilalar uchun ideal tanlov; kun bo'yi Harom-Sharifga muntazam transport xizmati mavjud.",
+      "address": "Ash-Shuhada mahallasi, Makkai Mukarrama",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h4": {
+      "name": "Dar At-Tawhid InterContinental",
+      "city": "Makkai Mukarrama",
+      "distance": "Harom-Sharifga tutash",
+      "price": "1500 SR",
+      "amenities": ["Ka'ba manzarasi", "Konsierj xizmati", "Hashamatli restoranlar"],
+      "description": "Makkai Mukarramaning eng qadimgi va eng nufuzli mehmonxonalaridan biri; hashamatli restoranlari va apartamentlaridan muazzam Ka'baning to'g'ridan-to'g'ri manzarasi ochiladi, kecha-kunduz konsierj xizmati bilan.",
+      "address": "Ajyad, Makkai Mukarrama",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h5": {
+      "name": "Movenpick Anwar Al Madinah",
+      "city": "Madinai Munavvara",
+      "distance": "Masjidi Nabaviydan 100 metr",
+      "price": "650 SR",
+      "amenities": ["Masjidi Nabaviy manzarasi", "To'liq nonushta", "Avtoturargoh"],
+      "description": "Madinai Munavvaraning markaziy hududi qoq o'rtasida joylashgan bo'lib, to'g'ridan-to'g'ri Masjidi Nabaviy Sharif hovlisiga qaraydi, to'liq nonushta va aeroportga transport xizmati bilan.",
+      "address": "Markaziy hudud, Madinai Munavvara",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h6": {
+      "name": "Dar Al Iman InterContinental",
+      "city": "Madinai Munavvara",
+      "distance": "Nabaviy Harom-Sharifdan 50 metr",
+      "price": "800 SR",
+      "amenities": ["Harom-Sharifga yopiq yo'lak", "Aeroport transporti", "Oilaviy xonalar"],
+      "description": "Mehmonxona yopiq yo'lak orqali Masjidi Nabaviy hovlisi bilan bevosita bog'langan bo'lib, bu quyosh issig'i yoki tashqi izdihomga duch kelmasdan namoz vaqtida yetib borishni osonlashtiradi.",
+      "address": "Markaziy hudud, Madinai Munavvara",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h7": {
+      "name": "Pullman Zamzam Madinah",
+      "city": "Madinai Munavvara",
+      "distance": "Masjidi Nabaviydan 150 metr",
+      "price": "500 SR",
+      "amenities": ["Arab va xalqaro restoran", "Bepul Wi-Fi", "Sport zali"],
+      "description": "Nisbatan qulay narxli zamonaviy mehmonxona bo'lib, Nabaviy Harom-Sharifning qisman manzarasini taqdim etadi, turli didlarga mos sport zali va turli restoranlarga ega.",
+      "address": "Markaziy hudud, Madinai Munavvara",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    }
+  },
+  "guidesItems": {
+    "g1": {
+      "name": "Shayx Abdulloh al-Harbiy",
+      "city": "Makka va Madina",
+      "specialty": "Umra amallari bo'yicha yaxlit fiqhiy yo'l-yo'riq",
+      "languages": ["Arab tili", "Ingliz tili"]
+    },
+    "g2": {
+      "name": "Ustoz Muhammad az-Zahroniy",
+      "city": "Makkai Mukarrama",
+      "specialty": "Umra guruhlari va tavofga hamrohlik",
+      "languages": ["Arab tili", "Ingliz tili", "Urdu tili"]
+    },
+    "g3": {
+      "name": "Ustoza Amal al-Qahtoniy",
+      "city": "Makkai Mukarrama",
+      "specialty": "Ayollar va oilalarga yo'l-yo'riq",
+      "languages": ["Arab tili", "Ingliz tili"]
+    },
+    "g4": {
+      "name": "Shayx Xolid al-Utaybiy",
+      "city": "Madinai Munavvara",
+      "specialty": "Masjidi Nabaviy va uning yodgorliklari bo'yicha tarixiy sayohatlar",
+      "languages": ["Arab tili", "Fransuz tili"]
+    },
+    "g5": {
+      "name": "Ustoz Yusuf al-Malikiy",
+      "city": "Makka va Madina",
+      "specialty": "Osiyo guruhlariga yo'l-yo'riq",
+      "languages": ["Arab tili", "Ingliz tili", "Malay tili"]
+    },
+    "g6": {
+      "name": "Ustoza Hind ad-Dawsariy",
+      "city": "Madinai Munavvara",
+      "specialty": "Keksalar va maxsus ehtiyojli shaxslarga hamrohlik",
+      "languages": ["Arab tili", "Ingliz tili"]
+    }
+  }
+}

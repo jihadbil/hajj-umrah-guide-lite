@@ -1,0 +1,117 @@
+{
+  "eyebrow": "Shar'iy hukmlar",
+  "title": "Umrada fidya hukmlari",
+  "description": "Fidya qachon vojib bo'ladi va u qanday ado etiladi — Qur'oni Karim, Payg'ambar sunnati va ilm ahli fatvolaridan olingan.",
+  "warningTitle": "Muhim fiqhiy ogohlantirish",
+  "warningBody": "Fidya haj va umraning eng nozik bo'limlaridan biridir. Umra ziyoratchisi qurbonlik yoki fidya talab qiladigan masalalarda o'zi fatvo bermasligi, balki masala murakkab bo'lsa ilm ahli yoki rasmiy fatvo idoralariga murojaat qilishi lozim.",
+  "labels": {
+    "daleel": "Kitob va Sunnatdan dalil",
+    "note": "💡 Fiqhiy izoh: ",
+    "warning": "⚠️ Ogohlantirish: ",
+    "faqTitle": "Muhim masala va tarmoqlar",
+    "referenceTitle": "Ilmiy va shar'iy manbalar"
+  },
+  "sections": {
+    "sec1": {
+      "title": "Fidya nima?",
+      "content": [
+        "Fidya — ehromdagi kishi ibodat vojiblaridan birini tark etgan yoki ehrom taqiqlaridan ba'zisini bajargan hollarda, Qur'oni Karim va Payg'ambar sunnati bayon qilgan tafsilotga ko'ra shariat unga majburiy qilgan narsadir.",
+        "Har bir buzilish fidyani talab qilmaydi, balki buzilish turi va uni sodir etgan shaxsning holatiga qarab hukmlar farqlanadi. Shu sababli fidya haj va umra fiqhining eng nozik bo'limlaridan biri hisoblanadi."
+      ],
+      "warning": "Fidya haj va umraning eng nozik bo'limlaridan biridir. Umra ziyoratchisi qurbonlik yoki fidya talab qiladigan masalalarda o'zi fatvo bermasligi, balki ilm ahliga murojaat qilishi lozim."
+    },
+    "sec2": {
+      "title": "Birinchidan: umra ruknlaridan birini tark etgan kishi",
+      "content": [
+        "Agar umra ziyoratchisi umra ruknlaridan birini — masalan tavof yoki sa'yni — tark etsa, fidya buni umuman qoplamaydi, balki o'sha ruknni ado etishi shart; chunki umra faqat u bilan to'g'ri bo'ladi."
+      ],
+      "list": [
+        "Tavofni tark etish — umra to'g'ri bo'lmaydi va uni ado etish shart.",
+        "Sa'yni tark etish — umra to'g'ri bo'lmaydi va uni ado etish shart."
+      ],
+      "note": "Umra ziyoratchisi tark etgan ruknni ado etmagunicha ehromdan chiqmaydi."
+    },
+    "sec3": {
+      "title": "Ikkinchidan: umra vojiblaridan birini tark etgan kishi",
+      "content": [
+        "Agar umra ziyoratchisi umra vojiblaridan birini — masalan miqotdan ehromga kirish yoki soch oldirish yoxud qisqartirishni — tark etsa, ko'pchilik fuqahoning fikricha, agar vojibni qayta bajarish imkoni bo'lmasa, unga qurbonlik lozim bo'ladi."
+      ],
+      "list": [
+        "Miqotni ehromsiz o'tib ketish va unga qaytmaslik.",
+        "Soch oldirish yoki qisqartirishni tark etish."
+      ],
+      "daleel": [
+        "Olimlar Abdulloh ibn Abbos (r.a.) dan rivoyat qilingan gapga tayanadilar: «Kim ibodatidan biror narsani unutsa yoki tark etsa, qurbonlik keltirsin» — Muvatta'dan rivoyat qilingan, buni ko'pchilik olimlar qabul qilgan."
+      ],
+      "note": "Qurbonlik — Makkai Mukarramaning kambag'allariga taqsimlanadigan qo'y so'yishdir."
+    },
+    "sec4": {
+      "title": "Uchinchidan: azob-uqubat fidyasi",
+      "content": [
+        "Agar ehromdagi kishiga uzr sababli — masalan kasallik yoki bit yoxud azob-uqubat mavjudligi sababli — ehrom taqiqlaridan birini bajarish zarur bo'lsa, unga bu ruxsat etiladi va unga azob-uqubat fidyasi lozim bo'ladi."
+      ],
+      "daleel": [
+        "Alloh taolo aytadi: ﴿فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِ أَذًى مِّن رَّأْسِهِ فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ﴾ [Baqara: 196]",
+        "Payg'ambar ﷺ Ka'b ibn Ujraga (r.a.) bit uni bezovta qilganda shunday degani sobit: «Boshingni oldir, uch kun ro'za tut, yoki olti miskinga taom ber, yoki bir qo'y so'y» — ittifoq qilingan (Buxoriy va Muslim)."
+      ],
+      "options": [
+        { "title": "Qo'y so'yish", "desc": "Va Harom-Sharif kambag'allariga taqsimlash" },
+        { "title": "Olti miskinni ovqatlantirish", "desc": "Har bir miskinga yarim so' ovqat" },
+        { "title": "Uch kun ro'za tutish", "desc": "Ketma-ket yoki alohida-alohida" }
+      ],
+      "note": "Ehromdagi kishi ushbu variantlardan istaganini tanlash huquqiga ega, ma'lum tartibga rioya qilish shart emas."
+    },
+    "sec5": {
+      "title": "To'rtinchidan: unutib yoki bilmasdan taqiqni buzgan kishi",
+      "content": [
+        "Kim ehrom taqiqlaridan birini unutib, bilmasdan yoki majburan qilsa, unga gunoh yo'q.",
+        "Fidyaga kelsak, unda taqiq turi va mukallaf holatiga qarab olimlar orasida ixtilof mavjud."
+      ],
+      "daleel": [
+        "Alloh taolo aytadi: ﴿رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا أَوْ أَخْطَأْنَا﴾ [Baqara: 286]",
+        "Va yana aytadi: ﴿وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَا أَخْطَأْتُم بِهِ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ﴾ [Ahzob: 5]"
+      ],
+      "warning": "Shayx Ibn Boz unutib yoki bilmasdan taqiqni buzgan kishiga fidya yo'qligini tanlagan. Tafsilotlar uchun ilm ahliga murojaat qilish lozim."
+    },
+    "sec6": {
+      "title": "Beshinchidan: taqiqni ataylab buzgan kishi",
+      "content": [
+        "Kim hukmni bilib turib, ehrom taqiqlaridan birini ataylab bajarsa, gunohkor bo'ladi va taqiq turiga qarab ba'zi taqiqlar uchun fidya lozim bo'ladi.",
+        "Barcha taqiqlarning hukmi bir xil emas, shu sababli ularning turiga qarab hukmlar farqlanadi."
+      ],
+      "list": [
+        "Erkak uchun tikilgan kiyim kiyish — uchlik azob-uqubat fidyasi (qo'y / ovqatlantirish / ro'za).",
+        "Xushbo'y hid ishlatish — uchlik azob-uqubat fidyasi.",
+        "Soch oldirish — uchlik azob-uqubat fidyasi.",
+        "Ehromdan chiqishdan oldingi jinsiy aloqa — ko'pchilik fikricha ibodatni buzadi va kaffarat lozim qiladi."
+      ],
+      "warning": "Bu umumiy tafsilot. Qurbonlik yoki fidya talab qiladigan har bir masalada ilm ahliga murojaat qilish shart."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Unutib tikilgan kiyim kiygan kishiga fidya vojibmi?",
+      "a": "Agar u hukmni bilmasdan yoki unutib kiygan bo'lsa, unga gunoh yo'q. Fidyaga kelsak, unda ixtilof bor; Shayx Ibn Boz unutish yoki bilmaslik uzri bilan fidya yo'qligini tanlagan."
+    },
+    {
+      "q": "Unutib xushbo'y hid surtgan kishiga fidya vojibmi?",
+      "a": "Agar u unutib yoki bilmasdan qilgan bo'lsa, unga gunoh yo'q va esiga tushganda hidni tozalaydi. Fidyaga kelsak, tikilgan kiyim masalasidagi kabi ixtilof mavjud."
+    },
+    {
+      "q": "Shar'iy uzr bilan soch oldirgan kishiga fidya vojibmi?",
+      "a": "Ha. Agar kasallik kabi shar'iy uzr bilan soch oldirsa, unga bu ruxsat etiladi va oyatda zikr qilingan azob-uqubat fidyasi lozim bo'ladi: qo'y so'yish, olti miskinni ovqatlantirish yoki uch kun ro'za tutishdan birini tanlaydi."
+    },
+    {
+      "q": "Qurbonlik qayerda ado etiladi?",
+      "a": "Eng yaxshisi — qurbonlikni Makkai Mukarramada so'yib, uning kambag'allariga taqsimlashdir. Ba'zi olimlar buni boshqa birovga vakolat berish jоiz deb hisoblaydilar."
+    }
+  ],
+  "references": [
+    "Qur'oni Karim",
+    "Sahih Buxoriy va Sahih Muslim",
+    "Imom Molik ibn Anasning Muvatta'si",
+    "At-Tahqiq val-Iydoh — Shayx Ibn Boz",
+    "Haj, umra va ziyorat fatvolari — Shayx Ibn Boz",
+    "Zodul-Mustaqni' bo'yicha Ash-Sharhul-Mumti' — Shayx Ibn Usaymin"
+  ]
+}

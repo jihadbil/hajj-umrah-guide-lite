@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Pagina principale",
+    "about": "Chi siamo",
+    "umrah": "Il viaggio dell'Umrah",
+    "sections": "Sezioni del sito",
+    "contact": "Contattaci",
+    "arkaan": "Pilastri",
+    "wajibaat": "Obblighi e Sunnah",
+    "prohibitions": "Divieti",
+    "fidya": "Espiazione (Fidya)",
+    "mistakes": "Errori Comuni",
+    "duas": "Suppliche",
+    "tips": "Valigia del Pellegrino",
+    "attractions": "Luoghi da visitare",
+    "hotels": "Hotel e Guide",
+    "fazah": "Fazah"
+  },
+  "brand": {
+    "name": "Murshid",
+    "subtitle": "Guida Completa del Pellegrino"
+  },
+  "footer": {
+    "description": "Una piattaforma interattiva di guida che mira a facilitare i riti dell'Umrah e la visita passo dopo passo, chiarendo i Pilastri, gli Obblighi e i Divieti in base al Corano e alla Sunnah, in uno stile semplificato e visivamente piacevole.",
+    "sectionsTitle": "Sezioni della Guida",
+    "duaTitle": "Supplica e Invocazione",
+    "duaText": "\"O Allah, rendi questa un'Umrah accettata, un peccato perdonato e uno sforzo ricompensato.\"",
+    "duaAccept": "— Che Allah accetti le vostre azioni",
+    "rights": "Tutti i diritti riservati",
+    "tagline": "Creato per servire gli ospiti del Misericordioso"
+  },
+  "errors": {
+    "404": "404",
+    "pageNotFound": "Pagina non trovata",
+    "pageNotFoundDesc": "La pagina che stai cercando non esiste o è stata spostata.",
+    "backHome": "Torna alla Home",
+    "errorOccurred": "Si è verificato un errore",
+    "errorLoadFailed": "Impossibile caricare la pagina, riprova.",
+    "tryAgain": "Riprova",
+    "home": "Pagina principale"
+  },
+  "theme": {
+    "light": "Attiva Modalità Chiara",
+    "dark": "Attiva Modalità Scura"
+  },
+  "buttons": {
+    "next": "Avanti",
+    "prev": "Indietro",
+    "close": "Chiudi",
+    "submit": "Invia"
+  },
+  "ticker": {
+    "title": "Tra Suppliche e Versetti",
+    "items": [
+      {
+        "text": "Eccomi, o Allah, eccomi. Eccomi, non hai associati, eccomi. In verità la lode, la grazia e il dominio appartengono a Te, non hai associati",
+        "source": "Concordato"
+      },
+      {
+        "text": "﴿ E portate a termine il Hajj e l'Umrah per Allah ﴾",
+        "source": "Al-Baqarah: 196"
+      },
+      {
+        "text": "﴿ Signor nostro, dacci il bene in questo mondo e il bene nell'Altra Vita e salvaci dal castigo del Fuoco ﴾",
+        "source": "Al-Baqarah: 201"
+      },
+      {
+        "text": "Un'Umrah fino all'Umrah successiva è un'espiazione per ciò che vi è in mezzo, e il Hajj Mabrur (accettato) non ha altra ricompensa se non il Paradiso",
+        "source": "Concordato"
+      },
+      {
+        "text": "O Allah, aprimi le porte della Tua misericordia",
+        "source": "Supplica per l'ingresso in moschea"
+      },
+      {
+        "text": "﴿ In verità, As-Safa e Al-Marwah sono tra i segni di Allah ﴾",
+        "source": "Al-Baqarah: 158"
+      },
+      {
+        "text": "O Allah, accresci questa Casa in onore, grandezza, nobiltà e reverenza",
+        "source": "Tradizione (Athar)"
+      },
+      {
+        "text": "O Allah, Ti chiedo una conoscenza utile, una provvigione abbondante e una cura per ogni malattia",
+        "source": "Supplica quando si beve acqua di Zamzam"
+      },
+      {
+        "text": "Non c'è divinità all'infuori di Allah, Unico, senza associati. A Lui appartiene la sovranità e a Lui la lode, ed Egli è Onnipotente",
+        "source": "Riportato da Muslim"
+      },
+      {
+        "text": "I pellegrini dell'Hajj e dell'Umrah sono la delegazione di Allah; li ha chiamati e hanno risposto, Gli hanno chiesto e ha dato loro",
+        "source": "Riportato da Ibn Majah"
+      }
+    ]
+  }
+}

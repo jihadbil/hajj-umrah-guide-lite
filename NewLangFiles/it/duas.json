@@ -1,0 +1,67 @@
+{
+  "eyebrow": "Suppliche e Ricordi (Dhikr)",
+  "title": "Suppliche Autentiche per l'Umrah",
+  "description": "Una selezione accurata di suppliche e ricordi autentici del Profeta ﷺ per ogni momento del viaggio.",
+  "groups": {
+    "talbiyah": {
+      "title": "La Talbiyah",
+      "items": [
+        {
+          "title": "La Talbiyah del Profeta ﷺ",
+          "arabic": "لبّيك اللهم لبّيك، لبّيك لا شريك لك لبّيك، إنّ الحمد والنعمة لك والملك، لا شريك لك.",
+          "source": "Concordato"
+        }
+      ]
+    },
+    "tawaf": {
+      "title": "Suppliche del Tawaf",
+      "items": [
+        {
+          "title": "All'inizio di ogni giro",
+          "arabic": "بسم الله، والله أكبر، اللهم إيماناً بك، وتصديقاً بكتابك، ووفاءً بعهدك، واتّباعاً لسنّة نبيك محمد ﷺ.",
+          "source": "Tradizione da Ibn Umar"
+        },
+        {
+          "title": "Tra l'Angolo Yemenita e la Pietra Nera",
+          "arabic": "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾",
+          "source": "Al-Baqarah 201"
+        }
+      ]
+    },
+    "sai": {
+      "title": "Suppliche del Sa'i",
+      "items": [
+        {
+          "title": "Salendo su Safa e Marwa",
+          "arabic": "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾ أبدأ بما بدأ الله به.",
+          "source": "Riportato da Muslim"
+        },
+        {
+          "title": "Sopra Safa e Marwa",
+          "arabic": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، لا إله إلا الله وحده، أنجز وعده، ونصر عبده، وهزم الأحزاب وحده.",
+          "source": "Riportato da Muslim"
+        }
+      ]
+    },
+    "general": {
+      "title": "Ricordi generali per il pellegrino",
+      "items": [
+        {
+          "title": "Ingresso in moschea",
+          "arabic": "اللهم افتح لي أبواب رحمتك.",
+          "source": "Riportato da Muslim"
+        },
+        {
+          "title": "Alla vista della Kaaba",
+          "arabic": "اللهم زد هذا البيت تشريفاً وتعظيماً وتكريماً ومهابة، وزد من شرّفه وكرّمه ممن حجّه أو اعتمره تشريفاً وتكريماً وتعظيماً وبرّاً.",
+          "source": "Tradizione (Athar)"
+        },
+        {
+          "title": "Quando si beve l'acqua di Zamzam",
+          "arabic": "اللهم إني أسألك علماً نافعاً، ورزقاً واسعاً، وشفاءً من كل داء.",
+          "source": "Tradizione da Ibn Abbas"
+        }
+      ]
+    }
+  }
+}

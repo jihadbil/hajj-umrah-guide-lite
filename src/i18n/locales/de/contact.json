@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Kontaktiere uns",
+  "title": "Kontakt",
+  "description": "Wir freuen uns auf Ihre Meinungen und Vorschläge zur Weiterentwicklung der Plattform.",
+  "channels": {
+    "title": "Direkte Kommunikationskanäle",
+    "email_title": "E-Mail der Plattform",
+    "email_sub": "Wir antworten in der Regel innerhalb von 24 Stunden",
+    "support_title": "Technischer und islamischer Support",
+    "support_sub": "Während der gesamten Umrah-Saison verfügbar",
+    "address_title": "Hauptsitz",
+    "address_body": "Mekka — Saudi-Arabien",
+    "quote": "\"Der beste Mensch ist der, der seinen Mitmenschen am nützlichsten ist\"",
+    "quote_sub": "— Wir streben immer nach dem Besten"
+  },
+  "form": {
+    "title": "Senden Sie eine Nachricht an das Team",
+    "success_title": "Nachricht erfolgreich gesendet!",
+    "success_desc": "Vielen Dank für Ihre Kontaktaufnahme. Unser Team wird Ihnen so schnell wie möglich antworten.",
+    "send_another": "Weitere Nachricht senden",
+    "name": "Vollständiger Name",
+    "name_placeholder": "Geben Sie Ihren Namen ein",
+    "email": "E-Mail-Adresse",
+    "email_placeholder": "beispiel@mail.com",
+    "subject": "Betreff",
+    "subject_options": {
+      "suggestion": "💡 Entwicklungsvorschlag",
+      "bug": "⚠️ Technische Anmerkung / Fehler melden",
+      "fiqh": "🏛️ Fiqh- oder islamische Frage",
+      "other": "💬 Sonstiges"
+    },
+    "message": "Nachricht",
+    "message_placeholder": "Schreiben Sie hier Ihre Nachricht...",
+    "submit": "Nachricht senden",
+    "sending": "Wird gesendet..."
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "eyebrow": "Lugares de interés",
+  "title": "Lugares de interés y monumentos de La Meca y Medina",
+  "description": "Descubra los monumentos históricos más importantes que puede visitar en La Meca y Medina, con una explicación de la norma legal de la visita.",
+  "cities": {
+    "all": "Todos",
+    "makkah": "La Meca",
+    "madinah": "Medina"
+  },
+  "labels": {
+    "viewDetails": "Ver detalles ←",
+    "distanceFromHaram": "Distancia al Haram",
+    "bestTimeToVisit": "Mejor momento para visitar",
+    "city": "Ciudad",
+    "backToAll": "← Volver a todos los lugares de interés",
+    "historyTitle": "Resumen histórico",
+    "visitHowTitle": "Cómo visitar",
+    "notFoundTitle": "Lugar de interés no encontrado",
+    "notFoundDesc": "No se pudo encontrar el lugar de interés solicitado.",
+    "notFoundBack": "Volver a los lugares de interés"
+  },
+  "items": {
+    "a1": {
+      "name": "Monte de la Luz y Cueva de Hira",
+      "city": "La Meca",
+      "description": "El monte donde el Profeta ﷺ solía adorar antes de su misión, y que contiene la Cueva de Hira, donde descendió la revelación por primera vez.",
+      "tip": "Su visita no forma parte de los ritos de la Umrah; es una visita histórica permitida para quien desee reflexionar, teniendo en cuenta el esfuerzo físico para ascender.",
+      "distance": "Aproximadamente 4 km del Haram",
+      "history": "En la Cueva de Hira, en la cima del Monte de la Luz, el Profeta ﷺ adoraba antes de su misión. Allí descendió la revelación por primera vez con el versículo: ﴿¡Lee en el nombre de tu Señor que ha creado!﴾, dando inicio al mensaje del Islam.",
+      "howToVisit": "Los visitantes suben por una empinada escalera de piedra que tarda entre una hora y una hora y media. Se recomienda llevar suficiente agua y evitar las horas calurosas del mediodía.",
+      "bestTime": "Temprano en la mañana o después del Asr para evitar el calor del sol y la congestión en las estrechas escaleras."
+    },
+    "a2": {
+      "name": "Monte Thawr",
+      "city": "La Meca",
+      "description": "El monte donde el Profeta ﷺ y su compañero Abu Bakr Al-Siddiq (que Allah esté complacido con él) se escondieron durante la migración a Medina.",
+      "tip": "El ascenso es extenuante y toma horas. Es una visita opcional y no tiene relación con los ritos de la Umrah.",
+      "distance": "Aproximadamente 6 km al sur del Haram",
+      "history": "En la cueva de Thawr, el Profeta ﷺ y su compañero Abu Bakr se escondieron durante tres noches durante la Hégira a Medina, donde descendió el versículo: ﴿El segundo de dos, cuando estaban ambos en la cueva...﴾.",
+      "howToVisit": "El viaje de ascenso toma de 3 a 4 horas de ida y vuelta a través de un sendero de montaña accidentado. Requiere buena condición física y calzado de escalada adecuado.",
+      "bestTime": "Antes del amanecer para evitar el calor extremo y contemplar el atardecer desde la cima."
+    },
+    "a3": {
+      "name": "Mezquita de Al-Ji'ranah",
+      "city": "La Meca",
+      "description": "Uno de los Miqats desde donde el Profeta ﷺ asumió el Ihram para su Umrah بعد غزوة حنين.",
+      "tip": "Hoy en día se utiliza como Miqat para los residentes de La Meca que desean iniciar una nueva Umrah.",
+      "distance": "Aproximadamente 26 km del Haram",
+      "history": "El Profeta ﷺ asumió el Ihram desde aquí para su Umrah al regresar de la batalla de Hunayn, y fue llamada Al-Ji'ranah en referencia al lugar donde se detuvo.",
+      "howToVisit": "La mezquita cuenta con un espacio para la oración y amplias instalaciones de ablución para recibir a los peregrinos. Se puede acceder fácilmente en coche o en autobuses dedicados.",
+      "bestTime": "Cualquier hora del día, prefiriéndose temprano en la mañana para evitar las horas pico."
+    },
+    "a4": {
+      "name": "Mezquita de Taneem (Mezquita de Aisha)",
+      "city": "La Meca",
+      "description": "El Miqat más cercano al Haram, desde donde la Madre de los Creyentes Aisha (que Allah esté complacido con ella) asumió el Ihram por orden del Profeta ﷺ.",
+      "tip": "El Miqat más utilizado por los residentes de La Meca y los visitantes que desean realizar una Umrah adicional.",
+      "distance": "Aproximadamente 7 km del Haram",
+      "history": "Llamada Mezquita de Aisha porque el Profeta ﷺ ordenó a Abdul Rahman ibn Abi Bakr que acompañara a su hermana Aisha a asumir el Ihram desde este lugar después de la Peregrinación de Despedida.",
+      "howToVisit": "La mezquita está equipada con amplias áreas de aparcamiento e instalaciones para facilitar el Ihram, siendo visitada por miles de peregrinos diariamente.",
+      "bestTime": "Se recomienda evitar las horas pico de la tarde en temporadas de mucha afluencia como Ramadán y Hajj."
+    },
+    "a5": {
+      "name": "Museo de las Dos Sagradas Mezquitas",
+      "city": "La Meca",
+      "description": "Un museo que exhibe la historia de la arquitectura de las Dos Sagradas Mezquitas, manuscritos y la cubierta de la Kaaba a lo largo de las eras.",
+      "tip": "Una visita cultural útil para comprender la historia de la Mezquita Sagrada y sus sucesivas ampliaciones.",
+      "distance": "Junto a la Mezquita Sagrada",
+      "history": "El museo documenta las etapas de la arquitectura de las Dos Sagradas Mezquitas desde la época del Profeta hasta las ampliaciones saudíes modernas, albergando piezas raras como antiguas cubiertas y puertas de la Kaaba.",
+      "howToVisit": "La entrada suele ser gratuita. El recorrido dura de una a dos horas y es adecuado para familias.",
+      "bestTime": "Después de la oración del Fajr o entre oraciones, cuando el Haram está menos concurrido."
+    },
+    "a6": {
+      "name": "La Mezquita del Profeta (Al-Masjid An-Nabawi)",
+      "city": "Medina",
+      "description": "La segunda mezquita más sagrada del Islam, que alberga la Rawdah y la tumba del Profeta ﷺ.",
+      "tip": "Se recomienda rezar en la Rawdah y visitar la tumba del Profeta ﷺ y sus dos compañeros con saludos, sin frotarse contra ella ni dar vueltas alrededor.",
+      "distance": "En el corazón de Medina",
+      "history": "Construida por el Profeta ﷺ mismo tras su migración a Medina, se ha ampliado a lo largo de los siglos hasta convertirse en una obra maestra de la arquitectura que alberga la Rawdah, sobre la cual el Profeta ﷺ dijo: «El espacio entre mi casa y mi púlpito es uno de los jardines del Paraíso».",
+      "howToVisit": "Se debe reservar una cita previa para visitar la Rawdah a través de la aplicación Nusuk. Se deben respetar las normas de silencio y orden.",
+      "bestTime": "Inmediatamente después de la oración del Fajr o después del Isha, cuando hay menos afluencia."
+    },
+    "a7": {
+      "name": "Mezquita de Quba",
+      "city": "Medina",
+      "description": "La primera mezquita construida en el Islam, que el Profeta ﷺ solía visitar a pie o a caballo cada sábado.",
+      "tip": "Es Sunnah rezar dos Rakaats en ella, ya que se ha confirmado que la recompensa por rezar allí equivale a una Umrah.",
+      "distance": "Aproximadamente 5 km de la Mezquita del Profeta",
+      "history": "La primera mezquita fundada sobre la piedad en la historia del Islam, construida por el Profeta ﷺ al llegar a Quba como emigrante.",
+      "howToVisit": "Es fácil de llegar en autobuses especiales o en taxi desde la Mezquita del Profeta, teniendo capacidad para una gran cantidad de fieles.",
+      "bestTime": "Los sábados, siguiendo la práctica del Profeta ﷺ que solía visitarla cada sábado."
+    },
+    "a8": {
+      "name": "Mezquita de las Dos Qiblas (Al-Qiblatayn)",
+      "city": "Medina",
+      "description": "La mezquita donde los musulmanes cambiaron de dirección de oración desde Jerusalén hacia la Kaaba.",
+      "tip": "Un monumento histórico importante que muestra el suceso del cambio de la Qibla en el segundo año de la Hégira.",
+      "distance": "Aproximadamente 4 km de la Mezquita del Profeta",
+      "history": "Mientras el Profeta ﷺ dirigía la oración del Dhuhr a sus compañeros, recibió la revelación de cambiar de dirección hacia la Kaaba, girando en plena oración junto a los fieles.",
+      "howToVisit": "La mezquita contiene dos nichos (qiblas) visibles que reflejan este suceso histórico, siendo un destino muy concurrido.",
+      "bestTime": "Cualquier momento del día, recomendándose evitar las horas de oración directa para poder recorrerla con tranquilidad."
+    },
+    "a9": {
+      "name": "Monte Uhud y Cementerio de los Mártires",
+      "city": "Medina",
+      "description": "El sitio de la famosa Batalla de Uhud, que contiene las tumbas de los mártires de la batalla, encabezados por Hamza ibn Abd al-Muttalib.",
+      "tip": "Se recomienda saludar a los mártires y rezar por ellos, sin buscar bendiciones de las tumbas.",
+      "distance": "Aproximadamente 5 km de la Mezquita del Profeta",
+      "history": "Uhud fue testigo de una de las batallas más grandes del Islam, donde setenta compañeros cayeron mártires, encabezados por el tío del Profeta, Hamza.",
+      "howToVisit": "Se puede visitar al pie del monte y el cementerio contiguo, guardando el debido respeto de las visitas a cementerios.",
+      "bestTime": "Por la tarde o poco antes del anochecer cuando el clima es más templado."
+    },
+    "a10": {
+      "name": "Al-Baqi",
+      "city": "Medina",
+      "description": "El cementerio de la gente de Medina donde están enterrados muchos de los compañeros y miembros de la familia del Profeta ﷺ.",
+      "tip": "Se recomienda visitarlo para saludar a los fallecidos y pedir perdón por ellos, tal como solía hacer el Profeta ﷺ.",
+      "distance": "Contiguo a la Mezquita del Profeta",
+      "history": "En Al-Baqi están enterrados numerosos compañeros y miembros de la familia del Profeta ﷺ. Él solía visitarlo de noche y pedir misericordia por ellos.",
+      "howToVisit": "La entrada está limitada a horarios específicos, normalmente para hombres, debiéndose guardar silencio y respeto.",
+      "bestTime": "Después de la oración del Fajr, cuando suele abrir sus puertas durante un periodo corto."
+    }
+  }
+}

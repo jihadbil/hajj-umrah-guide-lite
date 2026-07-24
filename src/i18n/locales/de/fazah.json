@@ -1,0 +1,82 @@
+{
+  "eyebrow": "Fazah Service",
+  "title": "Fazah — Dezentrales Rettungsnetzwerk für Pilger",
+  "description": "Jeder Pilger trägt eine Karte mit QR-Code, die ihn sofort mit dem nächsten Reiseleiter oder der Hotelrezeption verbindet, ohne eigenes Telefon oder Internet.",
+  "demoNotice": "Dies ist eine Demoseite des Servicekonzepts. Die angezeigten Daten sind nur zu Illustrationszwecken.",
+  "why": {
+    "badge": "Warum Fazah?",
+    "title": "Wenn ein Pilger Hilfe braucht, darf keine Zeit verloren gehen",
+    "desc": "Im Gedränge kann sich ein Pilger verlaufen oder gesundheitliche Probleme haben. Fazah ist ein Netzwerk aus Reiseleitern und Hotelrezeptionisten, die den QR-Code scannen können, um Hilfe zu holen."
+  },
+  "how": {
+    "title": "Wie funktioniert der Service?",
+    "desc": "Drei einfache Schritte verbinden den Pilger mit dem Netzwerk."
+  },
+  "simulator": {
+    "title": "Simulation des Scan- und Alarmvorgangs",
+    "badge": "Demo-Erfahrung",
+    "idleDesc": "Klicken Sie auf die Schaltfläche unten, um das Scannen zu simulieren.",
+    "idleBtn": "Kartenscan simulieren",
+    "doneText": "Gruppenleiter und Hotelrezeption wurden über den aktuellen Standort informiert.",
+    "resetBtn": "Simulation zurücksetzen",
+    "chain": {
+      "step1": "Identifikation des Pilgers",
+      "step2": "Gruppenleiter benachrichtigen",
+      "step3": "Aktuellen Standort teilen",
+      "step4": "Hotelrezeption informieren"
+    }
+  },
+  "cardLabels": {
+    "title": "Fazah-Karte",
+    "pilgrimName": "Name des Pilgers",
+    "hotel": "Hotel",
+    "roomNumber": "Zimmernummer",
+    "groupLeaderPhone": "Telefon des Gruppenleiters",
+    "bloodType": "Blutgruppe",
+    "qrDesc": "Scannen Sie diesen Code, um Pilgerdaten anzuzeigen und das Netzwerk zu benachrichtigen.",
+    "flipQr": "QR-Code auf der Rückseite anzeigen",
+    "flipFront": "Vorderseite der Karte anzeigen"
+  },
+  "sampleCard": {
+    "name": "Abdul Rahman Saeed Al-Mutairi",
+    "hotel": "Swissôtel Al Maqam Makkah",
+    "groupLeaderName": "Scheich Abdullah Al-Harbi",
+    "groupLeaderPhone": "055 444 2211",
+    "roomNumber": "Zimmer 714",
+    "bloodType": "O+",
+    "healthNote": "Bluthochdruckpatient, Medikamente im Rucksack",
+    "language": "Arabisch"
+  },
+  "steps": {
+    "s1": {
+      "title": "Persönliche Fazah-Karte",
+      "desc": "Jeder Pilger erhält eine Karte/Armband mit QR-Code. Kein Internet nötig."
+    },
+    "s2": {
+      "title": "Scannen durch Reiseleiter oder Rezeptionist",
+      "desc": "Im Notfall scannt ein Helfer den Code, um sofort Daten abzurufen."
+    },
+    "s3": {
+      "title": "Sofortige Benachrichtigung",
+      "desc": "Das Netzwerk sendet automatisch einen Alarm und Standort an den Verantwortlichen."
+    }
+  },
+  "benefits": {
+    "b1": {
+      "title": "Kein Telefon oder Internet nötig",
+      "desc": "Funktioniert komplett passiv über die Karte."
+    },
+    "b2": {
+      "title": "Dezentrales Netzwerk",
+      "desc": "Jeder registrierte Helfer kann helfen."
+    },
+    "b3": {
+      "title": "Wichtige Gesundheitsdaten",
+      "desc": "Blutgruppe und Hinweise sind in Sekunden verfügbar."
+    },
+    "b4": {
+      "title": "Für Senioren geeignet",
+      "desc": "Einfache Lösung ohne technisches Wissen."
+    }
+  }
+}

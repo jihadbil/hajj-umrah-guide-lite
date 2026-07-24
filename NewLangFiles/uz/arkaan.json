@@ -1,0 +1,145 @@
+{
+  "eyebrow": "Umra fiqhi",
+  "title": "Umraning arkonlari (ruknlari)",
+  "description": "Ruknlar — umra shular ustiga qurilgan asosiy amallar bo'lib, ularning barchasisiz umra to'g'ri bo'lmaydi.",
+  "intro": {
+    "title": "Rukn, vojib va sunnat o'rtasidagi farq nima?",
+    "rukn_title": "Rukn",
+    "rukn_body": "Umra faqat u bilangina to'g'ri bo'ladigan narsa; kim uni tark etsa, uni ado etmagunicha ehromida qoladi.",
+    "wajib_title": "Vojib",
+    "wajib_body": "Bajarilishi shart bo'lgan narsa; kim uni tark etsa, gunohkor bo'ladi va ko'pchilik fuqaholarga ko'ra unga qurbonlik (dam) lozim bo'ladi, biroq umrasi to'g'ri hisoblanadi.",
+    "sunnah_title": "Sunnat",
+    "sunnah_body": "Payg'ambar ﷺ ga ergashib bajarish mustahab bo'lgan narsa; u majburiy emas va uni tark etish hech qanday oqibat keltirmaydi."
+  },
+  "tabs": {
+    "details": "Tafsilotlar",
+    "mustahabb": "Mustahablar",
+    "makrooh": "Makruhlar"
+  },
+  "labels": {
+    "ruling": "Hukm: ",
+    "ruknLabel": "{{num}}-rukn",
+    "noteLabel": "💡 Diqqat: ",
+    "mustahabbSub": "Uni bajaruvchi Payg'ambar ﷺ ga ergashgani uchun savob oladi, tark etuvchi esa gunohkor bo'lmaydi.",
+    "makroohSub": "Savobni kamaytirgani yoki ibodat kamolotiga zid kelgani uchun ulardan qochish tavsiya etiladigan narsalar."
+  },
+  "conclusion": {
+    "verse": "﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾",
+    "source": "Baqara surasi — 196-oyat"
+  },
+  "rukn1": {
+    "arabicNum": "1",
+    "title": "Ehrom",
+    "definition": "Ibodatga kirish niyati bo'lib, umra shu rukn bilan boshlanadi. Belgilangan miqotdan ehromga kirmasdan turib umra to'g'ri bo'lmaydi.",
+    "ruling": "Rukn — usiz umra to'g'ri bo'lmaydi; ehromga kirmagan kishining umrasi umuman boshlanmagan hisoblanadi.",
+    "details": [
+      "Ehrom niyat bilan boshlanadi; kishi umraga kirishni niyat qilib, buni izhor qilsa, ibodatga kirgan hisoblanadi.",
+      "Umra ziyoratchisi miqotdan ehromga kiradi, miqotni ehromsiz o'tib ketish mumkin emas.",
+      "Erkak uchun ehromdan oldin g'usl qilish va oq izor hamda rido kiyish mustahab.",
+      "Ayol o'zining odatdagi, tanani yopuvchi kiyimida ehromga kiradi va niqob hamda qo'lqopdan saqlanadi.",
+      "Talbiya ehromdan darhol boshlanadi va tavof boshlangunga qadar davom etadi."
+    ],
+    "mustahabb": [
+      "Ehromdan oldin g'usl qilish — janobat bo'lmasa ham qat'iy sunnat.",
+      "Erkak uchun toza oq izor va rido kiyish.",
+      "Ehromdan oldin erkak tanasiga xushbo'y hid surtish; ehromdan keyin uning izi qolsa, ayb emas.",
+      "Imkon bo'lsa, talbiya aytishda qiblaga yuzlanish.",
+      "Erkak uchun talbiyani me'yorida baland ovozda aytish.",
+      "To'siq bo'lishidan xavfsiraydigan kishi uchun shart qo'yish: «Agar meni biror to'siq to'ssa, to'siq bo'lgan joyimda halol bo'laman».",
+      "Masjidi Haramga boradigan yo'lda talbiyani ko'p aytish."
+    ],
+    "makrooh": [
+      "Ehrom niyatidan keyin uzrsiz talbiyani kechiktirish.",
+      "Ehromga kirgandan so'ng talbiyani boshlashdan oldin telefon va suhbat bilan band bo'lish.",
+      "Ayolning begona erkaklar oldida baland ovozda talbiya aytishi.",
+      "Ehtiyoj bo'lmasa shart qo'yish — bu to'siq bo'lmagan kishi uchun tavsiya etilmaydigan ruxsatdir.",
+      "Niyatdan keyin ehrom kiyimiga xushbo'y hid surtish."
+    ],
+    "note": "Ehrom — bu niyat, shunchaki ikki mato kiyish emas. Kim niyat qilmasdan izor va rido kiysa, uning ehromi bo'lmaydi."
+  },
+  "rukn2": {
+    "arabicNum": "2",
+    "title": "Tavof",
+    "definition": "Muazzam Ka'ba atrofida yetti to'liq marta aylanish; Qora toshdan boshlanib, unga qaytib tugaydi, butun vaqt davomida Ka'ba tavof qiluvchining chap tomonida bo'ladi.",
+    "ruling": "Rukn — usiz umra to'g'ri bo'lmaydi; kim tavofni tark etsa, uning umrasi to'liq bo'lmaydi va uni ado etmagunicha halol bo'lmaydi.",
+    "details": [
+      "Har bir aylanish Qora tosh qarshisidan boshlanadi va takbir aytib uni ushlab yoki ishora qilib o'tiladi.",
+      "Barcha aylanishlarda Ka'ba tavof qiluvchining chap tomonida bo'lishi shart.",
+      "Tavof yetti to'liq aylanishdan iborat bo'lib, Ismoil hijrining ichidan aylanish to'g'ri emas.",
+      "Tavof uchun kichik va katta hadasdan poklanish shart qilinadi.",
+      "Idtibo' va raml faqat erkak uchun va faqat umra tavofida sunnatdir."
+    ],
+    "mustahabb": [
+      "Erkak uchun butun tavof davomida idtibo' — o'ng yelkani ochib, ridoni qo'ltiq ostidan o'tkazish.",
+      "Erkak uchun dastlabki uch aylanishda raml — qadamlarni yaqinlashtirib tez yurish.",
+      "Har bir aylanish boshida Qora toshni takbir bilan ushlash yoki unga ishora qilish.",
+      "Zarar yetkazmasdan imkon bo'lsa, har bir aylanishda o'ng qo'l bilan Yamaniy rukni ushlash.",
+      "Yamaniy rukn va Qora tosh o'rtasida «Robbana otina fid-dunyo hasanah» oyatini o'qish.",
+      "Butun tavof davomida ko'proq zikr, duo va Qur'on tilovat qilish.",
+      "Xushu' va sokinlikni saqlash, dunyoviy ishlar bilan band bo'lmaslik."
+    ],
+    "makrooh": [
+      "Yetakchi ortidan jamoa bo'lib baland ovozda duo qilish, bu esa boshqa tavof qiluvchilarni bezovta qiladi.",
+      "Qora toshga yoki Yamaniy ruknga yetish uchun odamlarni turtib, ularga zarar yetkazish.",
+      "Ka'baning barcha burchaklarini ushlash yoki devorlarini siypalash — sunnat faqat Qora tosh va Yamaniy ruknni ushlashdir.",
+      "Tavof davomida dunyoviy suhbat bilan band bo'lish.",
+      "Yamaniy ruknni ushlashning iloji bo'lmasa unga ishora qilish — sunnat unga ishora qilmaslikdir.",
+      "Barcha aylanishlarda yugurish — raml faqat dastlabki uchtasida bo'ladi."
+    ],
+    "note": "Qora toshga ishora qilgandan keyin qo'lni o'pish Payg'ambar ﷺ dan sobit emas, faqat takbir bilan ishora qilish sobitdir."
+  },
+  "rukn3": {
+    "arabicNum": "3",
+    "title": "Safo va Marva o'rtasida sa'y qilish",
+    "definition": "Safo va Marva tog'lari o'rtasida yetti marta yurish; Safodan boshlanib, Marvada tugaydi.",
+    "ruling": "Rukn — usiz umra to'g'ri bo'lmaydi. Kim sa'yni tark etsa, uning ibodati to'liq bo'lmaydi va uni ado etmagunicha halol bo'lmaydi.",
+    "details": [
+      "Sa'y yetti martadan iborat: Safodan Marvaga borish bir marta, qaytish esa yana bir marta hisoblanadi.",
+      "Sa'y Safodan boshlanib, yettinchi martada Marvada tugaydi.",
+      "Imkon bo'lsa, har bir martada Safo va Marvaga chiqish mustahab.",
+      "Poklik sa'y uchun mustahab bo'lib, uning to'g'riligi uchun shart emas.",
+      "Ikki yashil belgi o'rtasida tez yurish faqat erkaklar uchun sunnat, ayollar uchun emas."
+    ],
+    "mustahabb": [
+      "Safoga chiqishda «Albatta, Safo va Marva Allohning shior-belgilaridandir» oyatini o'qish.",
+      "Safo va Marvada qiblaga yuzlanib, zikr va duoni uch marta takrorlash.",
+      "Ikki yashil belgi o'rtasida faqat erkak uchun tez yurish.",
+      "Imkon qadar ko'proq zikr, duo va Qur'on tilovat qilish.",
+      "Poklik — mustahab, garchi sa'y unsiz ham to'g'ri bo'lsa-da.",
+      "Imkon bo'lsa, har bir martada Safo va Marvaga chiqish."
+    ],
+    "makrooh": [
+      "Ayolning ikki yashil belgi o'rtasida tez yurishi — sunnat oddiy qadamda yurishdir.",
+      "Butun sa'y davomida yugurish — sunnat faqat ikki belgi o'rtasida tez yurishdir.",
+      "Safodan oldin Marvadan boshlash — sunnat Safodan boshlashdir.",
+      "Suhbat bilan band bo'lib, zikr va duoni tark etish.",
+      "Har bir marta uchun maxsus duo o'qishni o'ziga majburiy qilib olish — bu Payg'ambar ﷺ dan sobit emas."
+    ],
+    "note": "Ko'pchilik olimlarga ko'ra, sa'y poklik bo'lmasa ham to'g'ri bo'ladi, ammo poklik afzalroq va mukammalroqdir."
+  },
+  "rukn4": {
+    "arabicNum": "4",
+    "title": "Soch oldirish yoki qisqartirish",
+    "definition": "Sa'ydan keyin butun boshdagi sochni oldirish yoki qisqartirish; shu bilan umra ziyoratchisi ibodatini yakunlaydi va ehromdan chiqadi.",
+    "ruling": "Ko'pchilik fuqaholarga ko'ra vojib — garchi ba'zilari uni rukn deb hisoblasalar-da. Kim uni tark etsa, ehromdan chiqmagan hisoblanadi.",
+    "details": [
+      "Erkak uchun: soch olish afzalroq va mukammalroq, qisqartirish esa yetarli. Bu butun boshni qamrab olishi shart.",
+      "Ayol uchun: sochining uchidan taxminan bir barmoq uzunligida qisqartiradi va boshini oldirmaydi.",
+      "Haj mavsumiga yaqin bo'lib, haj qilmoqchi bo'lgan kishi uchun sochni qisqartirish afzalroq, keyin hajda oldirish uchun.",
+      "Faqat boshning old qismidan bir nechta soch qirqish yetarli emas.",
+      "Soch oldirish yoki qisqartirish tugallangach, umra ziyoratchisi halol bo'ladi va unga taqiqlangan hamma narsa mubohdir."
+    ],
+    "mustahabb": [
+      "Erkak uchun to'liq soch oldirish, agar u yaqin orada haj qilmoqchi bo'lmasa.",
+      "Sa'y tugagan zahoti soch oldirish yoki qisqartirishga shoshilish.",
+      "Soch oldirgandan keyin duo qilish va ibodatni tugatgani uchun Allohga hamd aytish."
+    ],
+    "makrooh": [
+      "Faqat boshning old qismidan bir necha soch qirqish bilan cheklanish.",
+      "Boshning qolgan qismini qoldirib, faqat bir tomondan qisqartirish.",
+      "Soch oldirish yoki qisqartirish tugamasdan oldin ehromdan chiqish yoki ehrom kiyimini yechish.",
+      "Ayolning boshidagi sochni oldirishi."
+    ],
+    "note": "Soch oldirish yoki qisqartirish tugallanishi bilan umrangiz yakunlanadi va siz ehromdan chiqasiz. Allohdan qabul bo'lishini so'raymiz."
+  }
+}

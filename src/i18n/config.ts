@@ -18,7 +18,7 @@ i18n
   .use(initReactI18next)
   .init({
     fallbackLng: "ar",
-    supportedLngs: ["ar", "en", "id", "tr", "fr", "ur"],
+    supportedLngs: ["ar", "en", "id", "tr", "fr", "ur", "de", "es", "it", "uz", "bn", "hi"],
     defaultNS: "common",
     ns: ["common"], // سيتم تحميل الـ namespaces الأخرى تلقائياً عند طلبها في المكونات
     debug: false,

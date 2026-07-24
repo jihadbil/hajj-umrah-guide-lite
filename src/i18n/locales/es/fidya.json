@@ -1,0 +1,117 @@
+{
+  "eyebrow": "Disposiciones legales",
+  "title": "Disposiciones de Fidyah en Umrah",
+  "description": "Cuándo es obligatoria Fidyah y cómo se realiza — extraído del Noble Corán, la Sunnah profética y los dictámenes de los eruditos.",
+  "warningTitle": "Alerta jurídica importante",
+  "warningBody": "Fidyah es uno de los capítulos más precisos de Hajj y Umrah. No conviene que el peregrino se dicte fatwa a sí mismo en asuntos que resulten en sacrificio o Fidyah, sino que regrese a los eruditos o entidades oficiales de fatwa si el asunto le resulta confuso.",
+  "labels": {
+    "daleel": "Evidencia del Libro y la Sunnah",
+    "note": "💡 Nota jurídica: ",
+    "warning": "⚠️ Alerta: ",
+    "faqTitle": "Asuntos y detalles importantes",
+    "referenceTitle": "Referencias académicas y legales"
+  },
+  "sections": {
+    "sec1": {
+      "title": "¿Qué se entiende por Fidyah?",
+      "content": [
+        "Fidyah es lo que la ley prescribió sobre el Muhrim en algunos casos en los que omite una obligación de los ritos, o hace algunas prohibiciones del Ihram, según los detalles que explicaron el Noble Corán y la Sunnah profética.",
+        "No toda violación requiere Fidyah, las reglas difieren según el tipo de violación y la condición de su autor. Por eso Fidyah se considera uno de los capítulos más precisos de la jurisprudencia de Hajj y Umrah."
+      ],
+      "warning": "Fidyah es uno de los capítulos más precisos de Hajj y Umrah. No conviene que el peregrino se dicte fatwa a sí mismo en asuntos que resulten en sacrificio o Fidyah, sino que regrese a los eruditos."
+    },
+    "sec2": {
+      "title": "Primero: Quien omita un pilar de los pilares de Umrah",
+      "content": [
+        "Si el peregrino omite un pilar de los pilares de Umrah — como Tawaf o Sa'i — Fidyah no lo compensa en absoluto, sino que debe realizarlo; porque Umrah no es válida sin él."
+      ],
+      "list": [
+        "Omitir Tawaf — Umrah no es válida y debe realizarlo.",
+        "Omitir Sa'i — Umrah no es válida y debe realizarlo."
+      ],
+      "note": "El peregrino no se desacraliza de su Umrah hasta que realice lo que omitió de los pilares."
+    },
+    "sec3": {
+      "title": "Segundo: Quien omita una obligación de las obligaciones de Umrah",
+      "content": [
+        "Si el peregrino omite una obligación de las obligaciones de Umrah — como entrar en Ihram desde el Miqat o afeitar o acortar — la mayoría de los juristas opinaron que debe un Dam si no puede remediar la obligación."
+      ],
+      "list": [
+        "Pasar el Miqat sin Ihram sin volver a él.",
+        "Omitir afeitar o acortar."
+      ],
+      "daleel": [
+        "Los eruditos se basaron en lo confirmado de Abdullah ibn Abbas رضي الله عنهما que dijo: «من نسي من نسكه شيئًا أو تركه فليهرق دمًا» — Narrado en Al-Muwatta, y la mayoría de los eruditos lo adoptaron."
+      ],
+      "note": "Y Dam es sacrificar una oveja que se distribuye a los pobres de La Meca honorable."
+    },
+    "sec4": {
+      "title": "Tercero: Fidyah por daño",
+      "content": [
+        "Si el Muhrim necesita hacer algunas prohibiciones del Ihram por una excusa — como afeitar la cabeza debido a enfermedad o presencia de piojos o daño — está permitido para él, y debe Fidyah por daño."
+      ],
+      "daleel": [
+        "Allah el Altísimo dijo: ﴿فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِ أَذًى مِّن رَّأْسِهِ فَفِدْيَةٌ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍ﴾ [Al-Baqarah: 196]",
+        "Y está confirmado que el Profeta ﷺ dijo a Ka'b ibn Ujrah رضي الله عنه cuando los piojos le molestaban: «احلق رأسك، وصم ثلاثة أيام، أو أطعم ستة مساكين، أو انسك شاة» — Acordado."
+      ],
+      "options": [
+        { "title": "Sacrificar una oveja", "desc": "Y se distribuye a los pobres del Haram" },
+        { "title": "Alimentar a seis pobres", "desc": "A cada pobre medio Sa' de comida" },
+        { "title": "Ayunar tres días", "desc": "Consecutivos o separados" }
+      ],
+      "note": "Y el Muhrim puede elegir cualquiera de estas opciones que quiera, y no está restringido por orden."
+    },
+    "sec5": {
+      "title": "Cuarto: Quien haga una prohibición por olvido o ignorancia",
+      "content": [
+        "Quien haga una prohibición de las prohibiciones del Ihram por olvido, ignorancia o coacción no tiene pecado sobre él.",
+        "En cuanto a Fidyah, hay diferencia entre los eruditos según el tipo de prohibición y la condición del obligado."
+      ],
+      "daleel": [
+        "Allah el Altísimo dijo: ﴿رَبَّنَا لَا تُؤَاخِذْنَا إِن نَّسِينَا أَوْ أَخْطَأْنَا﴾ [Al-Baqarah: 286]",
+        "Y dijo el Altísimo: ﴿وَلَيْسَ عَلَيْكُمْ جُنَاحٌ فِيمَا أَخْطَأْتُم بِهِ وَلَٰكِن مَّا تَعَمَّدَتْ قُلُوبُكُمْ﴾ [Al-Ahzab: 5]"
+      ],
+      "warning": "El Jeque Ibn Baz eligió que no hay Fidyah sobre quien haga la prohibición por olvido o ignorancia. Y conviene regresar a los eruditos en los detalles."
+    },
+    "sec6": {
+      "title": "Quinto: Quien cometa deliberadamente una prohibición",
+      "content": [
+        "Quien cometa deliberadamente una prohibición de las prohibiciones del Ihram sabiendo la regla ha pecado, y algunas prohibiciones resultan en Fidyah, según el tipo de prohibición.",
+        "Y no todas las prohibiciones tienen la misma regla, por eso sus reglas difieren según su tipo."
+      ],
+      "list": [
+        "Usar ropa cosida para el hombre — Fidyah triple por daño (oveja / alimentar / ayunar).",
+        "Usar perfume — Fidyah triple por daño.",
+        "Afeitar vello — Fidyah triple por daño.",
+        "Relaciones íntimas antes de desacralizar — Invalida el rito según la mayoría y obliga expiación."
+      ],
+      "warning": "Este es un detalle resumido. Debe regresar a los eruditos en cada asunto que resulte en sacrificio o Fidyah."
+    }
+  },
+  "faqs": [
+    {
+      "q": "¿Es obligatoria Fidyah sobre quien use ropa cosida por olvido?",
+      "a": "Si la usó por olvido o ignorancia de la regla, no tiene pecado sobre él. En cuanto a Fidyah, hay diferencia; y el Jeque Ibn Baz eligió que no tiene Fidyah sobre él si estaba excusado por olvido o ignorancia."
+    },
+    {
+      "q": "¿Es obligatoria Fidyah sobre quien se perfume por olvido?",
+      "a": "Si fue por olvido o ignorancia, no tiene pecado sobre él, y elimina el perfume cuando recuerde. En cuanto a Fidyah, hay diferencia como en el asunto de usar ropa cosida."
+    },
+    {
+      "q": "¿Es obligatoria Fidyah sobre quien afeite su vello por excusa legal?",
+      "a": "Sí. Si afeita su vello por excusa legal como enfermedad, está permitido para él, y debe Fidyah por daño mencionada en el verso noble: elige entre sacrificar una oveja, alimentar a seis pobres o ayunar tres días."
+    },
+    {
+      "q": "¿Dónde se realiza el Dam?",
+      "a": "Es mejor que el Dam se sacrifique en La Meca honorable y se distribuya a sus pobres. Y algunos eruditos ven permisible autorizar a quien lo haga."
+    }
+  ],
+  "references": [
+    "El Noble Corán",
+    "Sahih Al-Bujari y Sahih Muslim",
+    "Al-Muwatta del Imam Malik ibn Anas",
+    "At-Tahqiq wal-Idah — Jeque Ibn Baz",
+    "Fatawa de Hajj, Umrah y visita — Jeque Ibn Baz",
+    "Ash-Sharh Al-Mumti' 'ala Zad Al-Mustaqni' — Jeque Ibn Uzaymin"
+  ]
+}

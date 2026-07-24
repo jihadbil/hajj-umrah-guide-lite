@@ -1,0 +1,43 @@
+{
+  "eyebrow": "Sobre nuestra plataforma",
+  "title": "Sobre nosotros",
+  "description": "Conozca la misión de la plataforma Murshid y sus objetivos en servir a los invitados del Misericordioso y proporcionar apoyo de orientación integral en su bendito viaje.",
+  "mission": {
+    "badge": "✨ Misión noble",
+    "title": "Su portal digital de orientación hacia la Casa Sagrada de Allah",
+    "p1": "La plataforma Murshid fue fundada para ser el compañero digital confiable de cada peregrino de Umrah y Hajj. A través de nuestra aplicación simplificada y visualmente atractiva, buscamos facilitar los pasos de Umrah y aclarar sus disposiciones legales con un estilo moderno que combina autenticidad con tecnología.",
+    "p2": "Nuestro objetivo es capacitar a los invitados del Misericordioso para realizar sus ritos con total tranquilidad y certeza, proporcionando una hoja de ruta interactiva, una referencia completa de súplicas narradas, alertas sobre errores comunes y una guía de hoteles y guías."
+  },
+  "card": {
+    "title": "El honor del servicio",
+    "quote": "\"Servir a los peregrinos de Umrah y Hajj de la Casa Sagrada de Allah es un honor valioso y una responsabilidad que buscamos cumplir con los más altos grados de confianza y perfección.\"",
+    "badge1": "✓ Interactivo",
+    "badge2": "✓ Confiable",
+    "badge3": "✓ Gratuito"
+  },
+  "values": {
+    "title": "Nuestros valores y reglas de oro",
+    "subtitle": "Los principios y fundamentos sobre los cuales construimos cada detalle de esta guía.",
+    "v1_title": "Integridad académica",
+    "v1_body": "Nos aseguramos de que todas las disposiciones, Sunnah y súplicas se deriven del Noble Corán y la Sunnah profética auténtica, con revisión cuidadosa del contenido académico y legal.",
+    "v2_title": "Facilitar y aclarar",
+    "v2_body": "Simplificar la terminología jurídica y aclararla a través de interfaces visuales interactivas para facilitar la comprensión para todos los segmentos de peregrinos de diferentes grupos de edad.",
+    "v3_title": "Innovación continua",
+    "v3_body": "Aprovechar las últimas tecnologías digitales y soluciones inteligentes para proporcionar herramientas de ayuda durante el viaje como contador de vueltas y kit inteligente del peregrino."
+  },
+  "features": {
+    "title": "¿Qué le ofrece la plataforma Murshid?",
+    "f1_title": "Ruta de viaje interactiva",
+    "f1_body": "Guía secuencial que lo lleva desde la intención y el Miqat, pasando por el Tawaf y Sa'i, hasta la desacralización completa.",
+    "f2_title": "Súplicas narradas y útiles",
+    "f2_body": "Ventana de súplicas confirmadas y narradas con opción de leerlas en letra grande clara y cómoda para la vista.",
+    "f3_title": "Alerta sobre errores comunes",
+    "f3_body": "Aclaración de transgresiones y posibles errores para evitarlos y proteger el rito de invalidación.",
+    "f4_title": "Kit interactivo del peregrino",
+    "f4_body": "Lista inteligente para revisar todo lo que necesita antes de viajar para asegurarse de no olvidar lo esencial."
+  },
+  "footer": {
+    "text": "¿Tiene preguntas o sugerencias para desarrollar la plataforma?",
+    "button": "Ir a página de contacto"
+  }
+}

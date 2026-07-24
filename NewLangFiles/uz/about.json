@@ -1,0 +1,43 @@
+{
+  "eyebrow": "Platformamiz haqida",
+  "title": "Biz haqimizda",
+  "description": "Murshid platformasining Rahmonning mehmonlariga xizmat qilish va ularning muborak safarida yaxlit yo'l-yo'riq ko'rsatish borasidagi maqsad va vazifalari bilan tanishing.",
+  "mission": {
+    "badge": "✨ Ulug' maqsad",
+    "title": "Allohning qadimiy Uyi sari sizning raqamli yo'l-yo'riq darvozangiz",
+    "p1": "Murshid platformasi har bir umra va haj ziyoratchisining ishonchli raqamli hamrohi bo'lish maqsadida tashkil etilgan. Biz sodda va vizual jihatdan yoqimli ilovamiz orqali umra qadamlarini osonlashtirish va uning shar'iy hukmlarini asllik bilan texnologiyani birlashtiruvchi zamonaviy uslubda tushuntirishga intilamiz.",
+    "p2": "Biz Rahmonning mehmonlari o'z ibodatlarini to'liq xotirjamlik va ishonch bilan ado etishlariga ko'maklashishni maqsad qilganmiz — buning uchun interaktiv yo'l xaritasi, ishonchli duolarning to'liq to'plami, keng tarqalgan xatolar haqida ogohlantirishlar va mehmonxonalar hamda gidlar bo'yicha qo'llanma taqdim etamiz."
+  },
+  "card": {
+    "title": "Xizmat sharafi",
+    "quote": "\"Umra va haj ziyoratchilariga xizmat qilish — qadrli sharaf va biz uni eng yuqori sadoqat va mahorat bilan ado etishga intilayotgan mas'uliyatdir.\"",
+    "badge1": "✓ Interaktiv",
+    "badge2": "✓ Ishonchli",
+    "badge3": "✓ Bepul"
+  },
+  "values": {
+    "title": "Bizning qadriyatlarimiz va oltin qoidalarimiz",
+    "subtitle": "Ushbu qo'llanmaning har bir tafsilotini quramizga asos bo'lgan tamoyil va negizlar.",
+    "v1_title": "Ilmiy ishonchlilik",
+    "v1_body": "Barcha hukm, sunnat va duolar Qur'oni Karim hamda sahih Payg'ambar sunnatidan olinishini, ilmiy va shar'iy mazmun aniqlik bilan tekshirilishini ta'minlashga alohida e'tibor qaratamiz.",
+    "v2_title": "Osonlashtirish va aniqlik",
+    "v2_body": "Turli yosh guruhlaridagi barcha umra ziyoratchilariga tushunarli bo'lishi uchun fiqhiy atamalarni interaktiv vizual interfeyslar orqali soddalashtirish va aniqlashtirish.",
+    "v3_title": "Uzluksiz innovatsiya",
+    "v3_body": "Safar davomida yordam beruvchi vositalar, masalan tavof hisoblagichi va aqlli umra sumkasi kabi imkoniyatlarni taqdim etish uchun eng so'nggi raqamli texnologiyalar va aqlli yechimlardan foydalanish."
+  },
+  "features": {
+    "title": "Murshid platformasi sizga nima taklif etadi?",
+    "f1_title": "Interaktiv safar yo'nalishi",
+    "f1_body": "Niyat va miqotdan boshlab, tavof va sa'y orqali to'liq ehromdan chiqishgacha bo'lgan izchil qo'llanma.",
+    "f2_title": "Ishonchli va foydali duolar",
+    "f2_body": "Doimiy va rivoyat qilingan duolarga oyna, ularni yirik, aniq va ko'z uchun qulay shriftda o'qish imkoniyati bilan.",
+    "f3_title": "Keng tarqalgan xatolar haqida ogohlantirish",
+    "f3_body": "Ularni oldini olish va ibodatni bekor bo'lishdan himoya qilish uchun mumkin bo'lgan chetlanish va xatolarni aniqlashtirish.",
+    "f4_title": "Interaktiv umra sumkasi",
+    "f4_body": "Zarur narsalarni unutmasligingiz uchun safar oldidan barcha kerakli narsalarni tekshirish uchun aqlli ro'yxat."
+  },
+  "footer": {
+    "text": "Platformani rivojlantirish bo'yicha savol yoki takliflaringiz bormi?",
+    "button": "Biz bilan bog'lanish sahifasiga o'ting"
+  }
+}

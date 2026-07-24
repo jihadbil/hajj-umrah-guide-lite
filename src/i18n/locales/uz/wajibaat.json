@@ -1,0 +1,140 @@
+{
+  "eyebrow": "Umra fiqhi",
+  "title": "Vojiblar, sunnatlar va mustahablar",
+  "description": "Umra ziyoratchisiga fiqhiy jihatdan zarur bo'lgan barcha narsa: tark etilsa gunoh bo'ladigan vojiblar, bajarilsa savob beriladigan sunnatlar va saqlanish lozim bo'lgan makruhlar.",
+  "tabs": {
+    "wajibaat": "Vojiblar",
+    "sunan": "Sunnatlar",
+    "mustahabbat": "Mustahablar",
+    "makrohaat": "Makruhlar"
+  },
+  "banners": {
+    "wajibaat": "Vojiblar — shariat umrada majburiy qilgan amallar bo'lib, ularni tark etgan kishi ko'pchilik fuqahoning fikricha gunohkor bo'ladi va unga qurbonlik (qo'y so'yish) lozim bo'ladi, biroq gunoh bilan birga umra to'g'ri hisoblanadi — bu usiz umra to'g'ri bo'lmaydigan ruknlardan farqlidir.",
+    "sunan": "Sunnatlar — Payg'ambar ﷺ qilgan yoki tasdiqlagan ishlar bo'lib, ularni bajaruvchi savob oladi, tark etuvchi esa gunohkor bo'lmaydi. Ularga rioya qilish umrani mukammallashtiradi va savobni oshiradi.",
+    "mustahabbat": "Mustahablar — Alloh bajarilishini yaxshi ko'radigan, savob va Unga yaqinlikni oshiradigan amallar bo'lib, ular sunnatlardan kengroq bo'lib, Kitob va Sunnatning umumiy nasslarida kelgan narsalarni ham o'z ichiga oladi.",
+    "makrohaat": "Makruhlar — savobni kamaytirgani yoki ibodat kamolotiga zid kelgani uchun, ammo harom darajasiga yetmagan holda, ulardan saqlanish tavsiya etiladigan narsalardir."
+  },
+  "labels": {
+    "daleel": "Shar'iy dalil",
+    "consequence": "Tark etilganda hukmi"
+  },
+  "wajibaat_items": {
+    "miqat": {
+      "title": "Miqotdan ehromga kirish",
+      "body": "Umra qilmoqchi bo'lgan har bir kishi o'tayotgan miqotidan ehromga kirishi shart. Kim miqotni ehromsiz o'tib ketsa, unga qaytishi shart, aks holda ko'pchilik fuqahoning fikricha unga qurbonlik lozim bo'ladi.",
+      "daleel": "U ﷺ dedi: «Bular ular uchundir va ulardan bo'lmagan, haj va umrani niyat qilib o'sha joylardan o'tuvchilar uchundir» — ittifoq qilingan (Buxoriy va Muslim).",
+      "consequence": "Kim miqotni ehromsiz o'tib ketib, unga qaytmasa, ko'pchilik ilm ahlining fikricha unga qurbonlik (qo'y so'yish) lozim bo'ladi."
+    },
+    "halq": {
+      "title": "Soch oldirish yoki qisqartirish",
+      "body": "Ko'pchilik fuqahoning fikricha soch oldirish yoki qisqartirish umra vojiblaridan biri bo'lib, u bilan ehromdan chiqish amalga oshadi. Sochning faqat bir qismi bilan cheklanish yetarli emas.",
+      "daleel": "Alloh taolo aytadi: ﴿مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ﴾ [Fath: 27]",
+      "consequence": "Kim soch oldirish va qisqartirishning ikkalasini ham tark etsa, ehromdan chiqmagan hisoblanadi va ba'zi olimlarning fikricha unga qurbonlik lozim bo'ladi."
+    }
+  },
+  "sunan_items": {
+    "ihram": {
+      "title": "Ehrom sunnatlari",
+      "items": [
+        "Ehromdan oldin g'usl qilish — janobat bo'lmasa ham qat'iy sunnat.",
+        "Erkak uchun toza oq izor va rido kiyish.",
+        "Ehromdan oldin erkak tanasiga xushbo'y hid surtish, kiyimiga emas.",
+        "Agar miqotda masjid bo'lsa, ikki rakat namoz o'qish.",
+        "Umra niyatini og'zaki aytish va darhol talbiya boshlash.",
+        "To'siq bo'lishidan xavfsiraydigan kishi uchun shart qo'yish: «Agar meni biror to'siq to'ssa, to'siq bo'lgan joyimda halol bo'laman».",
+        "Erkak uchun talbiyani baland ovozda, ayol uchun esa past ovozda aytish."
+      ]
+    },
+    "tawaf": {
+      "title": "Tavof sunnatlari",
+      "items": [
+        "Umra tavofida erkak uchun idtibo' — o'ng yelkani ochish.",
+        "Erkak uchun dastlabki uch aylanishda raml — qadamlarni yaqinlashtirib tez yurish.",
+        "Har bir aylanish boshida Qora toshni takbir bilan ushlash yoki unga ishora qilish.",
+        "Zarar yetkazmasdan imkon bo'lsa, har bir aylanishda qo'l bilan Yamaniy rukni ushlash.",
+        "Yamaniy rukn va Qora tosh o'rtasida «Robbana otina fid-dunyo hasanah» oyatini o'qish.",
+        "Tavofdan keyin Ibrohim maqomi ortida ikki rakat namoz o'qish — bu masjidning istalgan joyida ham yetarli.",
+        "Tavofning ikki rakatidan keyin Zamzam suvidan ichish va duo qilish."
+      ]
+    },
+    "sai": {
+      "title": "Sa'y sunnatlari",
+      "items": [
+        "Safo va Marvaga yetganda ularga chiqish.",
+        "Safoga chiqishda «Albatta, Safo va Marva Allohning shior-belgilaridandir» oyatini o'qish.",
+        "Qiblaga yuzlanib, Safo va Marvada zikr, tahlil va duoni uch marta takrorlash.",
+        "Faqat erkak uchun ikki yashil belgi orasida tez yurish.",
+        "Sa'y davomida poklik — mustahab, garchi sa'y unsiz ham to'g'ri bo'lsa-da."
+      ]
+    },
+    "halq": {
+      "title": "Soch oldirish va qisqartirish sunnatlari",
+      "items": [
+        "Agar erkak yaqin orada haj qilmoqchi bo'lmasa, to'liq soch oldirish qisqartirishdan afzal.",
+        "Sochni bir tomondan emas, boshning barcha qismidan qisqartirish.",
+        "Sa'y tugagan zahoti soch oldirish yoki qisqartirishga shoshilish."
+      ]
+    }
+  },
+  "mustahabbat_items": {
+    "haram": {
+      "category": "Masjidi Haromda",
+      "items": [
+        "Payg'ambar ﷺ ga ergashib, Banu Shayba darvozasi (Salom darvozasi) dan kirish.",
+        "Masjidga kirish duosi bilan o'ng oyoq bilan kirish.",
+        "Ka'bani ko'rganda xushu' va sokinlikni saqlash hamda duoga berilish.",
+        "Nafl tavofini ko'p qilish.",
+        "Makkada turib, Masjidi Haromda ko'p namoz o'qish."
+      ]
+    },
+    "worship": {
+      "category": "Ibodatda umuman",
+      "items": [
+        "Safarning barcha vaqtlarida ko'proq zikr, tilovat va duo qilish.",
+        "Ushbu muborak kunlarda kechani namoz va zikr bilan tiriltirish.",
+        "Makkai Mukarramaning kambag'al va muhtojlariga sadaqa berish.",
+        "Sharafli joylarda ota-ona, qarindoshlar va musulmonlar uchun duo qilish.",
+        "Yaxshi xulq bilan bezanish va azob-uqubatga sabr qilish.",
+        "Behuda gap, buzuqlik, tortishuv va dunyoviy ishlardan uzoq bo'lish."
+      ]
+    }
+  },
+  "makrohaat_items": {
+    "ihram": {
+      "category": "Ehromda",
+      "items": [
+        "Ehrom niyatidan keyin uzrsiz talbiyani kechiktirish.",
+        "Niyatdan keyin ehrom kiyimiga xushbo'y hid surtish.",
+        "Ayolning begona erkaklar oldida baland ovozda talbiya aytishi.",
+        "Talbiya va zikr o'rniga telefon va suhbat bilan band bo'lish."
+      ]
+    },
+    "tawaf": {
+      "category": "Tavofda",
+      "items": [
+        "Jamoa bo'lib baland ovozda duo qilish, bu esa boshqa tavof qiluvchilarni bezovta qiladi.",
+        "Yamaniy ruknni ushlashning iloji bo'lmasa unga ishora qilish — sunnat unga ishora qilmaslikdir.",
+        "Tavof tugagach, ikki rakat namozdan oldin idtibo'da davom etish.",
+        "Xushu' va hozirlikni yo'qotib, uzun duolarni yodlash bilan band bo'lish."
+      ]
+    },
+    "sai": {
+      "category": "Sa'yda",
+      "items": [
+        "Ayolning ikki yashil belgi orasida tez yurishi.",
+        "Ikki belgi orasida me'yorida tez yurish o'rniga butun masjo davomida yugurish.",
+        "Safodan emas, Marvadan boshlash.",
+        "Safo va Marvada duo hamda zikrni tark etib, faqat o'tishga cheklanish."
+      ]
+    },
+    "general": {
+      "category": "Umuman",
+      "items": [
+        "Xushu' hisobiga rasmga tushirish va jonli translatsiya bilan bandlik.",
+        "Turtish, itarish va ovoz ko'tarish orqali ularga zarar yetkazish.",
+        "Sharafli joylarda dunyoviy ishlar haqida ko'p gapirish.",
+        "Namozlarni o'z vaqtida ado etishda beparvolik qilish."
+      ]
+    }
+  }
+}

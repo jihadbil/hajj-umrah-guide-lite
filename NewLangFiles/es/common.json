@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "umrah": "Viaje de Umrah",
+    "sections": "Secciones del sitio",
+    "contact": "Contáctenos",
+    "arkaan": "Pilares",
+    "wajibaat": "Obligaciones y Sunnah",
+    "prohibitions": "Prohibiciones",
+    "fidya": "Fidyah",
+    "mistakes": "Errores comunes",
+    "duas": "Súplicas",
+    "tips": "Kit del peregrino",
+    "attractions": "Lugares de interés",
+    "hotels": "Hoteles y guías",
+    "fazah": "Fazah"
+  },
+  "brand": {
+    "name": "Murshid",
+    "subtitle": "Guía completa del peregrino"
+  },
+  "footer": {
+    "description": "Plataforma interactiva de orientación que tiene como objetivo facilitar los ritos de Umrah y visita paso a paso, explicando los pilares, obligaciones y prohibiciones basados en el Corán y la Sunnah pura, con un estilo simple y visualmente agradable.",
+    "sectionsTitle": "Secciones de la guía",
+    "duaTitle": "Súplica y ruego",
+    "duaText": "\"اللَّهُمَّ اجْعَلْهَا عُمْرَةً مَقْبُولَةً، وَذَنْباً مَغْفُوراً، وَسَعْياً مَشْكُوراً.\"",
+    "duaAccept": "— Que Allah acepte su adoración",
+    "rights": "Todos los derechos reservados",
+    "tagline": "Hecho para servir a los invitados del Misericordioso"
+  },
+  "errors": {
+    "404": "404",
+    "pageNotFound": "Página no encontrada",
+    "pageNotFoundDesc": "La página que busca no existe o ha sido movida.",
+    "backHome": "Volver al inicio",
+    "errorOccurred": "Ocurrió un error",
+    "errorLoadFailed": "No se pudo cargar la página, por favor intente nuevamente.",
+    "tryAgain": "Intentar de nuevo",
+    "home": "Inicio"
+  },
+  "theme": {
+    "light": "Activar modo claro",
+    "dark": "Activar modo oscuro"
+  },
+  "buttons": {
+    "next": "Siguiente",
+    "prev": "Anterior",
+    "close": "Cerrar",
+    "submit": "Enviar"
+  },
+  "ticker": {
+    "title": "De las súplicas y versos",
+    "items": [
+      { "text": "لبّيك اللهم لبّيك، لبّيك لا شريك لك لبّيك، إنّ الحمد والنعمة لك والملك، لا شريك لك", "source": "Acordado" },
+      { "text": "﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾", "source": "Al-Baqarah: 196" },
+      { "text": "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾", "source": "Al-Baqarah: 201" },
+      { "text": "العمرة إلى العمرة كفارة لما بينهما، والحج المبرور ليس له جزاء إلا الجنة", "source": "Acordado" },
+      { "text": "اللهم افتح لي أبواب رحمتك", "source": "Súplica al entrar a la mezquita" },
+      { "text": "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾", "source": "Al-Baqarah: 158" },
+      { "text": "اللهم زد هذا البيت تشريفاً وتعظيماً وتكريماً ومهابة", "source": "Narración" },
+      { "text": "اللهم إني أسألك علماً نافعاً، ورزقاً واسعاً، وشفاءً من كل داء", "source": "Súplica al beber agua de Zamzam" },
+      { "text": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير", "source": "Narrado por Muslim" },
+      { "text": "الحجاج والعمار وفد الله، دعاهم فأجابوه، وسألوه فأعطاهم", "source": "Narrado por Ibn Majah" }
+    ]
+  }
+}

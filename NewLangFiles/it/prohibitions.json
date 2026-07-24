@@ -1,0 +1,89 @@
+{
+  "eyebrow": "Regole dell'Ihram",
+  "title": "Divieti dell'Ihram",
+  "description": "Le azioni vietate al pellegrino dopo l'ingresso nel rito finché non se ne libera, con relative prove e avvertenze.",
+  "warning_title": "Importante avviso giurisprudenziale per il pellegrino",
+  "warning_body": "Chi commette intenzionalmente uno dei divieti dell'Ihram, conoscendone la regola e per libera scelta, commette peccato; alcuni divieti comportano un'espiazione (Fidya) a seconda del tipo. Per chi invece cade nel divieto per dimenticanza, ignoranza o costrizione, la questione prevede dettagli che variano a seconda del divieto stesso.",
+  "labels": {
+    "daleel": "Prova religiosa",
+    "note": "💡 Eccezione e Avviso: ",
+    "faqTitle": "Domande frequenti e Avvertenze"
+  },
+  "items": {
+    "p1": {
+      "n": "1",
+      "title": "Rimozione dei peli",
+      "body": "È vietato al Muhrim rimuovere intenzionalmente i capelli o i peli del corpo radendo, strappando o in altri modi, a meno che non ci sia una scusa legittima, come un disturbo che richiede la rimozione dei capelli.",
+      "daleel": "﴿ E non radetevi le teste finché l'offerta non sia giunta al luogo del sacrificio ﴾ [Al-Baqarah: 196]",
+      "note": "Se i capelli cadono involontariamente durante le abluzioni, il bagno o pettinandosi, non c'è alcun peccato."
+    },
+    "p2": {
+      "n": "2",
+      "title": "Taglio delle unghie",
+      "body": "È vietato al Muhrim tagliare intenzionalmente le unghie delle mani o dei piedi finché non si scioglie dall'Ihram.",
+      "note": "Tuttavia, se l'unghia si rompe e causa dolore, non c'è problema a rimuovere la parte che fa male."
+    },
+    "p3": {
+      "n": "3",
+      "title": "Uso del profumo",
+      "body": "È vietato al Muhrim usare profumo sul corpo, sui vestiti o sui capelli dopo essere entrato in Ihram. Tra i profumi rientrano: profumi generici, olio di Oud, muschio e incenso usati per profumarsi.",
+      "note": "Per quanto riguarda il profumo usato prima dell'Ihram, non è dannoso anche se il suo effetto permane; poiché il Profeta ﷺ si profumò prima dell'Ihram."
+    },
+    "p4": {
+      "n": "4",
+      "title": "Indossare abiti cuciti (per gli uomini)",
+      "body": "È vietato all'uomo in Ihram indossare capi cuciti su misura per il corpo o parte di esso, come camicie, pantaloni, turbanti, mantelli con cappuccio, calzini e scarpe chiuse (Khuff).",
+      "note": "Gli è permesso indossare i sandali; se non trova sandali, può indossare i Khuff. La donna, invece, non ha un abito specifico per l'Ihram e può indossare gli abiti coprenti che desidera, purché non siano appariscenti (Tabarruj)."
+    },
+    "p5": {
+      "n": "5",
+      "title": "Coprire la testa (per gli uomini)",
+      "body": "È vietato all'uomo coprirsi la testa con qualcosa che aderisce normalmente ad essa, come il berretto, la Ghutra o il turbante.",
+      "note": "Tuttavia, ripararsi all'ombra di un ombrello, del tetto di un'auto o di una tenda non è un problema, in quanto non è considerato una copertura della testa proibita."
+    },
+    "p6": {
+      "n": "6",
+      "title": "Indossare Niqab e guanti (per le donne)",
+      "body": "La donna in stato di Ihram non deve indossare il Niqab (velo che copre il volto lasciando scoperti gli occhi) né i guanti.",
+      "note": "Se si trova in presenza di uomini estranei, le è consentito far scendere il velo (Khimar) sul viso senza indossare il Niqab."
+    },
+    "p7": {
+      "n": "7",
+      "title": "Contratto di matrimonio",
+      "body": "Non è consentito al Muhrim stipulare un contratto di matrimonio per sé o per altri, né proporre il matrimonio a una donna finché non si scioglie dall'Ihram."
+    },
+    "p8": {
+      "n": "8",
+      "title": "Rapporti sessuali e i loro preliminari",
+      "body": "Il rapporto sessuale è uno dei divieti più gravi dell'Ihram, ed è proibito anche tutto ciò che vi conduce, come carezze con desiderio, baci o tocchi sensuali."
+    },
+    "p9": {
+      "n": "9",
+      "title": "Caccia di animali terrestri",
+      "body": "È vietato al Muhrim cacciare animali terrestri leciti, aiutare a cacciarli o indicarne la posizione.",
+      "note": "La pesca (animali marini) non rientra in questo divieto."
+    }
+  },
+  "faqs": [
+    {
+      "q": "È permesso usare sapone o shampoo?",
+      "a": "È permesso usare sapone e shampoo se non sono profumati. Se contengono un profumo destinato a profumare, dovrebbero essere evitati durante l'Ihram."
+    },
+    {
+      "q": "È permesso indossare orologio e occhiali?",
+      "a": "Sì, è permesso indossare orologio, occhiali, auricolari, cintura, contapassi, e portare e usare il telefono; perché non fanno parte dei divieti dell'Ihram."
+    },
+    {
+      "q": "È permesso usare l'ombrello?",
+      "a": "Sì, è permesso ripararsi all'ombra di un ombrello, del tetto di un'auto o degli ombrelloni nell'Haram, e questo non influisce sull'Ihram."
+    },
+    {
+      "q": "È permesso cambiare i vestiti dell'Ihram?",
+      "a": "È permesso al Muhrim cambiare i vestiti dell'Ihram se si sporcano o se ha bisogno di cambiarli, ed è anche permesso lavarli."
+    },
+    {
+      "q": "È permesso fare il bagno durante l'Ihram?",
+      "a": "È permesso al Muhrim fare il bagno, lavare la testa e compiere le abluzioni (Wudu), a condizione che non rimuova intenzionalmente i peli."
+    }
+  ]
+}

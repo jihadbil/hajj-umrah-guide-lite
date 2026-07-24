@@ -1,0 +1,82 @@
+{
+  "eyebrow": "Faza'a xizmati",
+  "title": "Faza'a — umra ziyoratchisi uchun markazlashtirilmagan yordam tarmog'i",
+  "description": "Har bir umra ziyoratchisi o'zida telefon yoki internetga ehtiyoj sezmasdan, uni bir zumda eng yaqin gid yoki mehmonxona qabulxonasi bilan bog'laydigan tezkor javob kartasini olib yuradi.",
+  "demoNotice": "Bu taklif etilgan xizmat kontseptsiyasi uchun namoyish sahifasi bo'lib, ko'rsatilgan ma'lumotlar (umra ziyoratchisi kartasi va ogohlantirish simulyatsiyasi) faqat tushuntirish maqsadida to'liq sinov tarzida keltirilgan.",
+  "why": {
+    "badge": "Nima uchun Faza'a?",
+    "title": "Umra ziyoratchisiga yordam kerak bo'lganda, isrof qiladigan vaqt yo'q",
+    "desc": "Ikki Harom-Sharifdagi izdihom va guruhlar ko'pligi orasida, umra ziyoratchisi adashib qolishi yoki o'z guruhidan uzoqda sog'liq muammosiga duch kelishi mumkin. Faza'a — akkreditatsiyalangan gidlar va mehmonxona qabulxonasi xodimlarini birlashtiruvchi ko'ngilli tarmoq bo'lib, ularning har biri xizmat kartasini olib yurgan har qanday umra ziyoratchisini tanib, uning mas'ullariga darhol ogohlantirish yubora oladi."
+  },
+  "how": {
+    "title": "Xizmat qanday ishlaydi?",
+    "desc": "Umra ziyoratchisini murakkablikka duch qilmasdan yordam tarmog'i bilan bog'laydigan uchta sodda bosqich."
+  },
+  "simulator": {
+    "title": "Skanerlash va ogohlantirish jarayoni simulyatsiyasi",
+    "badge": "Namoyish tajribasi",
+    "idleDesc": "Yuqoridagi namunaviy umra ziyoratchisining Faza'a kartasini gid skanerlashini simulyatsiya qilish uchun quyidagi tugmani bosing.",
+    "idleBtn": "Karta skanerlashni simulyatsiya qilish",
+    "doneText": "Guruh rahbari va mehmonxona qabulxonasiga umra ziyoratchisining hozirgi joylashuvi haqida xabar berildi.",
+    "resetBtn": "Simulyatsiyani qayta boshlash",
+    "chain": {
+      "step1": "Umra ziyoratchisining shaxsini aniqlash",
+      "step2": "Guruh rahbarini ogohlantirish",
+      "step3": "Hozirgi joylashuvni ulashish",
+      "step4": "Mehmonxona qabulxonasini xabardor qilish"
+    }
+  },
+  "cardLabels": {
+    "title": "Faza'a kartasi",
+    "pilgrimName": "Umra ziyoratchisining ismi",
+    "hotel": "Mehmonxona",
+    "roomNumber": "Xona raqami",
+    "groupLeaderPhone": "Guruh rahbarining telefoni",
+    "bloodType": "Qon guruhi",
+    "qrDesc": "Ro'yxatdan o'tgan har qanday gid yoki qabulxona xodimi ushbu kodni skanerlab, umra ziyoratchisi ma'lumotlarini ko'rish va darhol yordam tarmog'ini ogohlantirish imkoniyatiga ega.",
+    "flipQr": "Orqa tomondagi QR kodni ko'rish",
+    "flipFront": "Kartaning old tomonini ko'rish"
+  },
+  "sampleCard": {
+    "name": "Abdurahmon Sa'id al-Mutayri",
+    "hotel": "Swissotel Al Maqam Makka mehmonxonasi",
+    "groupLeaderName": "Shayx Abdulloh al-Harbiy",
+    "groupLeaderPhone": "055 444 2211",
+    "roomNumber": "714-xona",
+    "bloodType": "O+",
+    "healthNote": "Bosim bilan og'rigan, sumkasida dori olib yuradi",
+    "language": "Arab tili"
+  },
+  "steps": {
+    "s1": {
+      "title": "Shaxsiy Faza'a kartasi",
+      "desc": "Har bir umra ziyoratchisi bosma QR kodli karta yoki bilaguzuk oladi, unga o'zidan telefon yoki internet talab qilinmaydi. Kartada uning ismi, mehmonxonasi nomi, xona raqami, guruh rahbarining telefon raqami, qon guruhi va sog'liq bilan bog'liq eslatmalari mavjud."
+    },
+    "s2": {
+      "title": "Istalgan gid yoki qabulxona xodimi tomonidan skanerlash",
+      "desc": "Zarurat tug'ilganda, eng yaqin akkreditatsiyalangan gid yoki tarmoqqa ro'yxatdan o'tgan mehmonxona qabulxonasi xodimi telefon kamerasi orqali karta kodini skanerlaydi, natijada maxsus ilovaga ehtiyoj sezmasdan umra ziyoratchisi ma'lumotlari darhol ko'rsatiladi."
+    },
+    "s3": {
+      "title": "Zudlik bilan ogohlantirish va yordam zanjiri",
+      "desc": "Skanerlash bilanoq, tarmoq guruh rahbariga va favqulodda vaziyat aloqa shaxsiga avtomatik ogohlantirish yuboradi, umra ziyoratchisining hozirgi joylashuvini ulashadi va mehmonxona qabulxonasini xabardor qiladi, shu bilan yordam zanjiri kechikmasdan boshlanadi."
+    }
+  },
+  "benefits": {
+    "b1": {
+      "title": "Telefon yoki internet talab qilinmaydi",
+      "desc": "Karta umra ziyoratchisi tomonidan hech qanday qurilmasiz ishlaydi; uni karta yoki bilaguzuk sifatida olib yurish yetarli."
+    },
+    "b2": {
+      "title": "Ko'ngillilarning taqsimlangan tarmog'i",
+      "desc": "Tarmoqqa ro'yxatdan o'tgan istalgan gid yoki qabulxona xodimi umra ziyoratchisi qayerda bo'lishidan qat'i nazar yordam bera oladi."
+    },
+    "b3": {
+      "title": "Zarurat paytida nozik sog'liq ma'lumotlari",
+      "desc": "Qon guruhi va sog'liq bilan bog'liq eslatmalar birinchi yordam ko'rsatuvchi shaxsga bir necha soniyada yetib boradi."
+    },
+    "b4": {
+      "title": "Keksalar va maxsus ehtiyojli shaxslar uchun mos",
+      "desc": "Texnik bilim talab qilmaydigan sodda yechim bo'lib, barcha yosh va holatlar uchun mos keladi."
+    }
+  }
+}

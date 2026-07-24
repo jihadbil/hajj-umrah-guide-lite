@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge": "Su portal de orientación hacia la Casa Sagrada de Allah",
+    "title": "Murshid",
+    "subtitle": "Su guía completa e interactiva para realizar los ritos de Umrah y visita con total tranquilidad y facilidad, según la orientación profética.",
+    "btnStart": "Comenzar viaje de Umrah",
+    "btnDuas": "Súplicas y recuerdos"
+  },
+  "quickLinks": {
+    "title": "Guía de ritos y servicios",
+    "subtitle": "Elija la sección apropiada para explorar las disposiciones jurídicas y detalles del viaje."
+  },
+  "quickCards": {
+    "umrah": { "label": "Viaje de Umrah", "desc": "Paso a paso" },
+    "arkaan": { "label": "Pilares de Umrah", "desc": "Lo recomendado y lo no preferido" },
+    "wajibaat": { "label": "Obligaciones y Sunnah", "desc": "Lo obligatorio y lo recomendado" },
+    "prohibitions": { "label": "Prohibiciones del Ihram", "desc": "Lo que debe evitarse" },
+    "fidya": { "label": "Disposiciones de Fidyah", "desc": "Cuándo es obligatorio y cómo se realiza" },
+    "mistakes": { "label": "Errores comunes", "desc": "Evite los errores" },
+    "duas": { "label": "Súplicas y recuerdos", "desc": "Súplicas narradas" },
+    "tips": { "label": "Kit del peregrino", "desc": "Lista de preparativos y consejos" },
+    "attractions": { "label": "Lugares de interés", "desc": "Monumentos de La Meca y Medina" },
+    "hotels": { "label": "Hoteles y guías", "desc": "Alojamiento y acompañamiento" },
+    "fazah": { "label": "Fazah", "desc": "Red de ayuda descentralizada" }
+  },
+  "stepper": {
+    "badge": "🗺️ Hoja de ruta interactiva",
+    "title": "Ruta de Umrah paso a paso",
+    "subtitle": "Siga los ritos y pasos en detalle y conozca las súplicas y actos recomendados en cada etapa.",
+    "stepLabel": "Paso {{id}}",
+    "stepOf": "Paso {{id}} de {{total}}",
+    "recommendedLabel": "💡 Los actos Sunnah y recomendados más importantes:",
+    "duasLabel": "De las súplicas de esta etapa:",
+    "duasEmpty": "Elija de las súplicas lo que desee del bien de este mundo y del más allá y aumente el arrepentimiento.",
+    "viewFullBtn": "Ver la guía completa, Sunnah y errores"
+  }
+}

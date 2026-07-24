@@ -1,0 +1,140 @@
+{
+  "eyebrow": "Giurisprudenza dell'Umrah",
+  "title": "Gli Obblighi, le Sunnah e le Azioni Raccomandate",
+  "description": "Tutto ciò di cui il pellegrino ha bisogno dal punto di vista giurisprudenziale: gli Obblighi (Wajibaat) per la cui omissione commette peccato, le Sunnah per cui è ricompensato e le Azioni Sconsigliate (Makrohat) che dovrebbe evitare.",
+  "tabs": {
+    "wajibaat": "Gli Obblighi (Wajibaat)",
+    "sunan": "Le Sunnah",
+    "mustahabbat": "Azioni Raccomandate (Mustahabbat)",
+    "makrohaat": "Azioni Sconsigliate (Makrohat)"
+  },
+  "banners": {
+    "wajibaat": "Gli Obblighi sono le azioni che la Legge Islamica ha reso necessarie nell'Umrah; chi ne omette una commette peccato e deve un'offerta sacrificale (Dam - sacrificare una pecora) secondo la maggioranza degli studiosi, ma l'Umrah è comunque valida pur col peccato — a differenza dei Pilastri, senza i quali l'Umrah non è valida.",
+    "sunan": "Le Sunnah sono le azioni che il Profeta ﷺ compiva o approvava, chi le fa è ricompensato e chi le omette non pecca. L'impegno nel seguirle perfeziona l'Umrah ed eleva la ricompensa.",
+    "mustahabbat": "I Mustahabbat (azioni raccomandate) sono atti che Allah ama e che aumentano la ricompensa e la vicinanza a Lui; sono un concetto più ampio delle Sunnah, comprendendo ciò che è indicato in testi generali del Corano e della Sunnah.",
+    "makrohaat": "I Makrohat (azioni sconsigliate) sono cose da evitare perché diminuiscono la ricompensa o contraddicono la perfezione del rito, senza arrivare ad essere proibite (Haram)."
+  },
+  "labels": {
+    "daleel": "La Prova Religiosa",
+    "consequence": "Conseguenza dell'omissione"
+  },
+  "wajibaat_items": {
+    "miqat": {
+      "title": "Entrare in Ihram dal Miqat",
+      "body": "Chiunque intenda compiere l'Umrah deve entrare in Ihram dal Miqat che attraversa. Chioltrepassa il Miqat senza Ihram deve tornarvi, altrimenti dovrà sacrificare una pecora (Dam) secondo la maggioranza degli studiosi.",
+      "daleel": "Il Profeta ﷺ disse: «Essi (i Miqat) sono per loro (i residenti) e per chiunque passi da essi tra i non residenti che desiderano compiere Hajj e Umrah» — Concordato.",
+      "consequence": "Chi oltrepassa il Miqat senza Ihram e non fa ritorno per eseguirlo è tenuto a offrire un sacrificio (Dam) secondo la maggioranza degli studiosi."
+    },
+    "halq": {
+      "title": "La Rasatura o l'Accorciamento (Halq o Taqseer)",
+      "body": "La rasatura o l'accorciamento è uno degli obblighi dell'Umrah per la maggioranza degli studiosi, e attraverso di esso ci si scioglie dall'Ihram. Non è sufficiente tagliare solo una parte dei capelli.",
+      "daleel": "Allah l'Altissimo dice: ﴿ [Entrerete nella Sacra Moschea] con le teste rasate e i capelli accorciati ﴾ [Al-Fath: 27]",
+      "consequence": "Chi omette la rasatura e l'accorciamento non è uscito dal suo stato di Ihram, ed è tenuto ad offrire un sacrificio secondo alcuni studiosi."
+    }
+  },
+  "sunan_items": {
+    "ihram": {
+      "title": "Le Sunnah dell'Ihram",
+      "items": [
+        "Il bagno (Ghusl) prima dell'Ihram — Sunnah confermata anche se non si è in stato di Janabah.",
+        "Indossare per gli uomini un Izar e un Rida bianchi e puliti.",
+        "Profumare il corpo dell'uomo (ma non i vestiti) prima dell'Ihram.",
+        "Pregare due Rak'ah al Miqat se vi è una moschea.",
+        "Pronunciare l'intenzione di compiere l'Umrah e iniziare immediatamente la Talbiyah.",
+        "La condizione (Ishtirat) per chi teme un impedimento: «Se qualcosa mi trattiene, il mio luogo di uscita è dove mi hai trattenuto».",
+        "Alzare la voce per gli uomini con la Talbiyah, e abbassarla per le donne."
+      ]
+    },
+    "tawaf": {
+      "title": "Le Sunnah del Tawaf",
+      "items": [
+        "L'Idtiba' per l'uomo nel Tawaf dell'Umrah — Scoprire la spalla destra.",
+        "Il Ramal nei primi tre giri per gli uomini — Camminare velocemente con passi corti.",
+        "Toccare la Pietra Nera o indicarla recitando il Takbir all'inizio di ogni giro.",
+        "Toccare l'Angolo Yemenita con la mano ad ogni giro, se possibile e senza disturbare.",
+        "Recitare «Rabbana atina fid-dunya hasanatan» tra l'Angolo Yemenita e la Pietra Nera.",
+        "Pregare due Rak'ah dietro al Maqam Ibrahim dopo il Tawaf — preghiera che è valida anche in un qualsiasi punto della moschea.",
+        "Bere l'acqua di Zamzam e supplicare dopo le due Rak'ah del Tawaf."
+      ]
+    },
+    "sai": {
+      "title": "Le Sunnah del Sa'i",
+      "items": [
+        "Salire sui monti Safa e Marwa quando li si raggiunge.",
+        "Recitare «In verità Safa e Marwa sono tra i segni di Allah» salendo su Safa.",
+        "Rivolgersi verso la Qiblah, ripetendo il Dhikr, il Tahlil e le suppliche per tre volte su Safa e Marwa.",
+        "Accelerare il passo tra i due segnali verdi, ma solo per gli uomini.",
+        "Mantenere lo stato di purità rituale (Taharah) durante il Sa'i — sebbene esso resti valido anche senza."
+      ]
+    },
+    "halq": {
+      "title": "Le Sunnah della rasatura e dell'accorciamento",
+      "items": [
+        "La rasatura completa è migliore per gli uomini rispetto all'accorciamento, a meno che non si voglia compiere l'Hajj a breve.",
+        "Accorciare in modo uniforme su tutta la testa, non solo in un lato.",
+        "Affrettarsi a eseguire la rasatura o l'accorciamento non appena concluso il Sa'i."
+      ]
+    }
+  },
+  "mustahabbat_items": {
+    "haram": {
+      "category": "Nella Sacra Moschea",
+      "items": [
+        "Entrare dalla porta Bani Shaibah (Bab As-Salam) in ossequio al Profeta ﷺ.",
+        "Entrare con il piede destro recitando la supplica d'ingresso alla moschea.",
+        "Mantenere devozione e tranquillità alla vista della Kaaba, dedicandosi alle preghiere.",
+        "Moltiplicare i Tawaf volontari.",
+        "Alloggiare alla Mecca e moltiplicare le preghiere nella Sacra Moschea."
+      ]
+    },
+    "worship": {
+      "category": "Nel Culto in generale",
+      "items": [
+        "Intensificare i Dhikr, le recitazioni coraniche e le suppliche in ogni momento del viaggio.",
+        "Passare la notte pregando e facendo Dhikr in questi giorni benedetti.",
+        "Fare beneficenza (Sadaqah) a poveri e bisognosi alla Mecca.",
+        "Pregare per i genitori, i parenti e i musulmani nei luoghi sacri.",
+        "Mostrare buon carattere e pazienza di fronte agli ostacoli.",
+        "Evitare conversazioni inutili, futilità, discussioni e affari mondani."
+      ]
+    }
+  },
+  "makrohaat_items": {
+    "ihram": {
+      "category": "Nell'Ihram",
+      "items": [
+        "Ritardare l'inizio della Talbiyah dopo l'intenzione dell'Ihram senza motivo valido.",
+        "Applicare profumo sulle vesti dell'Ihram dopo aver formulato l'intenzione.",
+        "Le donne che alzano la voce con la Talbiyah davanti ad uomini estranei.",
+        "Distrarsi con il telefono o con le conversazioni, abbandonando la Talbiyah e il Dhikr."
+      ]
+    },
+    "tawaf": {
+      "category": "Nel Tawaf",
+      "items": [
+        "Pregare a voce alta in gruppo creando scompiglio tra gli altri fedeli.",
+        "Indicare l'Angolo Yemenita quando è impossibile toccarlo — La Sunnah richiede di non indicarlo.",
+        "Continuare a fare l'Idtiba' dopo aver finito il Tawaf, prima di pregare le due Rak'ah.",
+        "Concentrarsi per memorizzare lunghe suppliche, perdendo devozione e presenza d'animo."
+      ]
+    },
+    "sai": {
+      "category": "Nel Sa'i",
+      "items": [
+        "Le donne che accelerano il passo tra i due segnali verdi.",
+        "Correre per tutto l'intero percorso, anziché solo nel tratto indicato dai segnali verdi.",
+        "Iniziare da Marwa anziché da Safa.",
+        "Tralasciare le preghiere e i Dhikr stando sopra Safa e Marwa, accontentandosi di superarle."
+      ]
+    },
+    "general": {
+      "category": "In Generale",
+      "items": [
+        "Distrarsi in modo eccesivo per fare fotografie e dirette, sacrificando così la concentrazione spirituale.",
+        "Danneggiare gli altri spingendo, causando assembramenti o alzando il tono della voce.",
+        "L'eccesso nel discutere di argomenti terreni in luoghi sacri e dedicati al culto.",
+        "Dimostrare lassismo nel compiere le preghiere (Salah) nei giusti orari prescritti."
+      ]
+    }
+  }
+}

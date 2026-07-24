@@ -1,0 +1,37 @@
+{
+  "hero": {
+    "badge": "Allohning qadimiy Uyi sari sizning yo'l-yo'riq darvozangiz",
+    "title": "Murshid",
+    "subtitle": "Nabaviy yo'l-yo'riqqa muvofiq, umra va ziyorat amallarini to'liq xotirjamlik va yengillik bilan ado etish uchun sizning yaxlit va interaktiv qo'llanmangiz.",
+    "btnStart": "Umra safarini boshlash",
+    "btnDuas": "Duo va zikrlar"
+  },
+  "quickLinks": {
+    "title": "Amallar va xizmatlar qo'llanmasi",
+    "subtitle": "Fiqhiy hukmlar va safar tafsilotlarini ko'rish uchun mos bo'limni tanlang."
+  },
+  "quickCards": {
+    "umrah": { "label": "Umra safari", "desc": "Bosqichma-bosqich" },
+    "arkaan": { "label": "Umra ruknlari", "desc": "Mustahablar va makruhlar" },
+    "wajibaat": { "label": "Vojiblar va sunnatlar", "desc": "Farzlar va mustahablar" },
+    "prohibitions": { "label": "Ehrom taqiqlari", "desc": "Nimalardan saqlanish kerak" },
+    "fidya": { "label": "Fidya hukmlari", "desc": "Qachon vojib bo'ladi va qanday ado etiladi" },
+    "mistakes": { "label": "Keng tarqalgan xatolar", "desc": "Xatolardan saqlaning" },
+    "duas": { "label": "Duo va zikrlar", "desc": "Ishonchli duolar" },
+    "tips": { "label": "Umra sumkasi", "desc": "Jihoz va maslahatlar ro'yxati" },
+    "attractions": { "label": "Ziyoratgohlar", "desc": "Makka va Madina yodgorliklari" },
+    "hotels": { "label": "Mehmonxonalar va gidlar", "desc": "Turar joy va hamrohlik" },
+    "fazah": { "label": "Faza'a", "desc": "Markazlashtirilmagan yordam tarmog'i" }
+  },
+  "stepper": {
+    "badge": "🗺️ Interaktiv yo'l xaritasi",
+    "title": "Umra yo'nalishi bosqichma-bosqich",
+    "subtitle": "Amallar va bosqichlarni batafsil kuzatib boring, har bir bosqichning duolari va mustahab ishlarini bilib oling.",
+    "stepLabel": "{{id}}-bosqich",
+    "stepOf": "{{total}} dan {{id}}-bosqich",
+    "recommendedLabel": "💡 Eng muhim sunnat va mustahablar:",
+    "duasLabel": "Ushbu bosqich duolaridan:",
+    "duasEmpty": "Dunyo va oxiratning yaxshiliklaridan istagan duoingizni tanlang va ko'proq istig'for ayting.",
+    "viewFullBtn": "To'liq qo'llanma, sunnat va xatolarni ko'rish"
+  }
+}

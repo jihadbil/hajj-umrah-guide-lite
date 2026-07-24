@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "badge": "Ihr Portal zum Heiligen Haus",
+    "title": "Murshid",
+    "subtitle": "Ihr interaktiver und umfassender Leitfaden für eine friedliche und einfache Umrah-Reise, geleitet von der prophetischen Sunnah.",
+    "btnStart": "Umrah-Reise beginnen",
+    "btnDuas": "Bittgebete (Dua)"
+  },
+  "quickLinks": {
+    "title": "Leitfaden für Riten und Services",
+    "subtitle": "Wählen Sie den entsprechenden Bereich aus."
+  },
+  "quickCards": {
+    "umrah": {
+      "label": "Die Umrah-Reise",
+      "desc": "Schritt für Schritt"
+    },
+    "arkaan": {
+      "label": "Säulen der Umrah",
+      "desc": "Grundlagen und Regeln"
+    },
+    "wajibaat": {
+      "label": "Pflichten & Sunnahs",
+      "desc": "Obligatorisches & Empfohlenes"
+    },
+    "prohibitions": {
+      "label": "Ihram-Verbote",
+      "desc": "Was zu vermeiden ist"
+    },
+    "fidya": {
+      "label": "Fidya (Sühne)",
+      "desc": "Wann und wie"
+    },
+    "mistakes": {
+      "label": "Häufige Fehler",
+      "desc": "Fehler vermeiden"
+    },
+    "duas": {
+      "label": "Bittgebete",
+      "desc": "Authentische Duas"
+    },
+    "tips": {
+      "label": "Pilgerkoffer",
+      "desc": "Packliste & Tipps"
+    },
+    "attractions": {
+      "label": "Sehenswürdigkeiten",
+      "desc": "Mekka & Medina"
+    },
+    "hotels": {
+      "label": "Hotels & Reiseleiter",
+      "desc": "Unterkunft & Begleitung"
+    },
+    "fazah": {
+      "label": "Fazah",
+      "desc": "Rettungsnetzwerk"
+    }
+  },
+  "stepper": {
+    "badge": "🗺️ Interaktiver Pfad",
+    "title": "Die Umrah Schritt für Schritt",
+    "subtitle": "Verfolgen Sie die Riten im Detail.",
+    "stepLabel": "Schritt {{id}}",
+    "stepOf": "Schritt {{id}} von {{total}}",
+    "recommendedLabel": "💡 Wichtige Sunnahs:",
+    "duasLabel": "Bittgebete für diese Phase:",
+    "duasEmpty": "Wählen Sie Bittgebete Ihrer Wahl und bitten Sie um Vergebung.",
+    "viewFullBtn": "Vollständigen Leitfaden anzeigen"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "eyebrow": "Ehrom hukmlari",
+  "title": "Ehrom taqiqlari",
+  "description": "Ehromdagi kishi ibodatga kirgandan so'ng, undan chiqquniga qadar taqiqlanadigan narsalar, dalillar va ogohlantirishlar bilan birga.",
+  "warning_title": "Umra ziyoratchisi uchun muhim fiqhiy ogohlantirish",
+  "warning_body": "Kim hukmni bilib, o'z ixtiyori bilan ataylab ehrom taqiqlaridan birini bajarsa, gunohkor bo'ladi va ba'zi taqiqlar uchun turiga qarab fidya lozim bo'ladi. Kim taqiqqa unutib, bilmasdan yoki majburan tushib qolsa, bu masala taqiq turiga qarab farqlanadigan tafsilotga ega.",
+  "labels": {
+    "daleel": "Shar'iy dalil",
+    "note": "💡 Istisno va ogohlantirish: ",
+    "faqTitle": "Ko'p so'raladigan savollar va ogohlantirishlar"
+  },
+  "items": {
+    "p1": {
+      "n": "1",
+      "title": "Sochni olib tashlash",
+      "body": "Ehromdagi kishi uchun boshi yoki tanasidagi sochni ataylab oldirish, yulish yoki boshqa yo'l bilan olib tashlash harom, faqat sochni olib tashlashni talab qiladigan azob-uqubat kabi shar'iy uzr bo'lsa, bundan mustasno.",
+      "daleel": "﴿وَلَا تَحْلِقُوا رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ الْهَدْيُ مَحِلَّهُ﴾ [Baqara: 196]",
+      "note": "Agar taharat, g'usl olish yoki sochni tarash paytida beixtiyor soch to'kilsa, unda hech qanday ayb yo'q."
+    },
+    "p2": {
+      "n": "2",
+      "title": "Tirnoq olish",
+      "body": "Ehromdagi kishi ehromdan chiqmaguncha qo'l yoki oyoq tirnoqlarini ataylab qirqishi harom.",
+      "note": "Agar tirnoq singib ketib, undan zarar ko'rsa, zarar yetkazuvchi qismini olib tashlashda hech qanday ayb yo'q."
+    },
+    "p3": {
+      "n": "3",
+      "title": "Xushbo'y hid ishlatish",
+      "body": "Ehromdagi kishi ehromga kirgandan so'ng tanasi, kiyimi yoki boshiga xushbo'y hid ishlatishi harom. Xushbo'y hidga: atirlar, ud yog'i, mushk va xushbo'y hid uchun ishlatiladigan is kiradi.",
+      "note": "Ehromdan oldin ishlatilgan xushbo'y hid esa, ehromdan keyin ham izi qolsa, zarar keltirmaydi; chunki Payg'ambar ﷺ ehromga kirishidan oldin xushbo'y hid surtgan."
+    },
+    "p4": {
+      "n": "4",
+      "title": "Tikilgan kiyim kiyish (erkak uchun)",
+      "body": "Ehromdagi erkak uchun tananing yoki uning biror qismining o'lchamiga qarab tikilgan kiyim — masalan ko'ylak, shim, salla, burnus, paypoq va mahsi kiyish harom.",
+      "note": "Unga sandal kiyish ruxsat etilgan, agar sandal topmasa, mahsi kiyishi mumkin. Ayolga esa ehrom uchun maxsus kiyim yo'q, u tanasini yopuvchi va ochiq-sochiq bo'lmagan istagan kiyimini kiyishi mumkin."
+    },
+    "p5": {
+      "n": "5",
+      "title": "Boshni yopish (erkak uchun)",
+      "body": "Erkak uchun boshini odatda unga yopishib turadigan narsa bilan — masalan do'ppi, g'utra yoki salla bilan yopish harom.",
+      "note": "Soyabon, mashina tomi yoki chodir bilan soyalanish esa hech qanday ayb emas; chunki bu taqiqlangan boshni yopish hisoblanmaydi."
+    },
+    "p6": {
+      "n": "6",
+      "title": "Niqob va qo'lqop kiyish (ayol uchun)",
+      "body": "Ayol ehromda ekan niqob taqmaydi va qo'lqop kiymaydi.",
+      "note": "Agar u begona erkaklar huzurida bo'lsa, unga niqob taqmasdan ro'molini yuziga tushirishi shar'an ruxsat etilgan."
+    },
+    "p7": {
+      "n": "7",
+      "title": "Nikoh shartnomasi tuzish",
+      "body": "Ehromdagi kishi o'zi uchun ham, boshqa kishi uchun ham nikoh shartnomasi tuzishi, shuningdek ehromdan chiqmaguncha biror ayolga sovchi qo'yishi mumkin emas."
+    },
+    "p8": {
+      "n": "8",
+      "title": "Jinsiy aloqa va unga olib boruvchi sabablar",
+      "body": "Jinsiy aloqa ehromning eng katta taqiqlaridan biri bo'lib, unga olib boradigan barcha sabablar, masalan shahvat bilan yaqinlashish, o'pish yoki shahvat bilan teginish ham harom."
+    },
+    "p9": {
+      "n": "9",
+      "title": "Yovvoyi hayvonni ov qilish",
+      "body": "Ehromdagi kishi uchun mubоh yovvoyi hayvonlarni ovlash, ovga ko'maklashish yoki ularning joyini ko'rsatib berish harom.",
+      "note": "Dengiz ovi esa bu hukmga kirmaydi."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Sovun yoki shampun ishlatish mumkinmi?",
+      "a": "Agar sovun va shampunda xushbo'y hid bo'lmasa, ularni ishlatish mumkin. Agar ularda xushbo'y hidlantirish maqsadida qo'shilgan atir bo'lsa, ehrom davomida ulardan saqlanish lozim."
+    },
+    {
+      "q": "Soat va ko'zoynak taqish mumkinmi?",
+      "a": "Ha, soat, ko'zoynak, quloq naushniklari, kamar, qadam sanovchi soat taqish va telefon olib yurish hamda undan foydalanish mumkin; chunki bular ehrom taqiqlariga kirmaydi."
+    },
+    {
+      "q": "Soyabondan foydalanish mumkinmi?",
+      "a": "Ha, soyabon yoki mashina tomi yoxud Harom-Sharifdagi soyaliklardan foydalanib soyalanish mumkin, bu ehromga hech qanday ta'sir qilmaydi."
+    },
+    {
+      "q": "Ehrom kiyimini almashtirish mumkinmi?",
+      "a": "Ehromdagi kishi ehrom kiyimi kirlansa yoki boshqasiga ehtiyoj sezsa, uni almashtirishi mumkin, shuningdek uni yuvishi ham mumkin."
+    },
+    {
+      "q": "Ehrom davomida cho'milish mumkinmi?",
+      "a": "Ehromdagi kishi ataylab soch olib tashlamas ekan, cho'milishi, boshini yuvishi va tahorat qilishi mumkin."
+    }
+  ]
+}

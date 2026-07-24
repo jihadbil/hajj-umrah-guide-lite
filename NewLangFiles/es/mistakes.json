@@ -1,0 +1,118 @@
+{
+  "eyebrow": "Alertas y orientación",
+  "title": "Errores comunes en Umrah",
+  "description": "Los errores más destacados en los que caen muchos peregrinos, con explicación de lo correcto y la evidencia legal.",
+  "quote": "Abdullah ibn Mas'ud رضي الله عنه dijo: «Sigan y no innoven, pues han sido suficientes». Cuanto más se esfuerce el peregrino en seguir la guía del Profeta ﷺ, más completo será su rito y más cerca de la aceptación con el permiso de Allah.",
+  "groups": {
+    "ihram": {
+      "category": "Errores del Ihram",
+      "mistakes": [
+        {
+          "title": "Pasar el Miqat sin Ihram",
+          "wrong": "Algunos peregrinos pasan el Miqat sin entrar en Ihram, luego lo hacen después de él.",
+          "right": "Quien quiera hacer Umrah debe entrar en Ihram desde el Miqat por el que pase.",
+          "daleel": "El Profeta ﷺ dijo: «Estos son para ellos y para quien venga a través de ellos sin ser de su gente quien quiera Hajj o Umrah» — Acordado."
+        },
+        {
+          "title": "Creer que el Ihram es solo usar las dos piezas de ropa",
+          "wrong": "Algunas personas piensan que el Ihram es simplemente usar el Izar y el Rida'.",
+          "right": "El Ihram es la intención de entrar en el rito. En cuanto a usar la ropa de Ihram, es parte de su descripción, no su realidad."
+        },
+        {
+          "title": "Omitir o distraerse de la Talbiyah",
+          "wrong": "Algunos peregrinos omiten la Talbiyah después del Ihram o se distraen de ella con conversaciones y el teléfono.",
+          "right": "Es recomendable aumentar la Talbiyah hasta comenzar el Tawaf.",
+          "daleel": "Está confirmado que el Profeta ﷺ hizo Talbiyah desde que entró en Ihram hasta que comenzó el Tawaf — Acordado."
+        }
+      ]
+    },
+    "tawaf": {
+      "category": "Errores del Tawaf",
+      "mistakes": [
+        {
+          "title": "Comenzar el Tawaf antes o después de la Piedra Negra",
+          "wrong": "Algunos peregrinos comienzan el Tawaf antes de alinearse con la Piedra Negra o después de pasarla.",
+          "right": "Cada vuelta comienza desde la alineación con la Piedra Negra y termina en ella."
+        },
+        {
+          "title": "Empujar a la gente para tocar la Piedra Negra",
+          "wrong": "Algunos peregrinos insisten en empujar hasta lastimar a los musulmanes.",
+          "right": "Si es posible tocarla sin causar daño, eso es Sunnah, de lo contrario señalarla y hacer Takbir. Llegar a la Piedra Negra es Sunnah, y lastimar a los musulmanes es prohibido."
+        },
+        {
+          "title": "Creer que hay una súplica para cada vuelta",
+          "wrong": "Algunos peregrinos llevan folletos que asignan una súplica específica a cada vuelta y piensan que eso es Sunnah.",
+          "right": "No está confirmado del Profeta ﷺ asignar una súplica específica a cada vuelta, el musulmán suplica con lo que quiera y aumenta el recuerdo y recitación del Corán."
+        },
+        {
+          "title": "Elevar la voz con súplicas en grupo",
+          "wrong": "Algunas personas se reúnen para una súplica con voz alta detrás de un líder del grupo.",
+          "right": "Lo básico es que cada peregrino suplique por sí mismo; porque elevar las voces molesta a los que hacen Tawaf."
+        },
+        {
+          "title": "Tocar todas las esquinas de la Kaaba",
+          "wrong": "Algunos peregrinos tocan todas las esquinas de la Kaaba o frotan sus paredes.",
+          "right": "Está confirmado del Profeta ﷺ que solo tocaba la Piedra Negra y el Rukn Yamani.",
+          "daleel": "Narrado por Bujari y Muslim."
+        }
+      ]
+    },
+    "sai": {
+      "category": "Errores del Sa'i",
+      "mistakes": [
+        {
+          "title": "Creer que la pureza es condición para la validez del Sa'i",
+          "wrong": "Algunos piensan que el Sa'i no es válido sin pureza.",
+          "right": "La pureza es recomendable para el Sa'i, pero el Sa'i es válido sin ella según la mayoría de los eruditos."
+        },
+        {
+          "title": "Que las mujeres caminen rápido entre las señales verdes",
+          "wrong": "Algunas mujeres caminan rápido entre las señales verdes como hacen los hombres.",
+          "right": "Caminar rápido entre las señales verdes es Sunnah solo para los hombres. En cuanto a la mujer, camina normalmente en todo el Sa'i."
+        },
+        {
+          "title": "Error en el número de vueltas",
+          "wrong": "Algunas personas cuentan ir y volver como una sola vuelta.",
+          "right": "Ir de Safa a Marwah es una vuelta, y volver de Marwah a Safa es otra vuelta. El Sa'i son siete vueltas que comienzan en Safa y terminan en Marwah."
+        }
+      ]
+    },
+    "halq": {
+      "category": "Errores del afeitado y acortado",
+      "mistakes": [
+        {
+          "title": "Cortar una pequeña parte del cabello",
+          "wrong": "Algunos peregrinos toman unos pocos cabellos de la parte delantera de la cabeza y piensan que eso es suficiente.",
+          "right": "El acortado prescrito es de todo el cabello de la cabeza.",
+          "daleel": "Esto es lo que dictaminaron los dos jeques Ibn Baz e Ibn Uzaymin."
+        },
+        {
+          "title": "Que la mujer afeite su cabello",
+          "wrong": "Algunas mujeres afeitan sus cabezas pensando que eso es mejor.",
+          "right": "La mujer junta su cabello y toma de sus puntas aproximadamente la longitud de una falange, y no afeita su cabeza.",
+          "daleel": "El Profeta ﷺ dijo: «No hay afeitado para las mujeres, solo acortado para las mujeres» — Narrado por Sunan Abu Dawud y autenticado por los eruditos."
+        }
+      ]
+    },
+    "general": {
+      "category": "Errores generales",
+      "mistakes": [
+        {
+          "title": "Ocuparse con la fotografía",
+          "wrong": "Algunos peregrinos se ocupan más con fotografiar y transmisión en vivo que con la adoración.",
+          "right": "El propósito de Umrah es lograr humildad y acercamiento a Allah, la fotografía debe ser según la necesidad sin ocupar el corazón ni lastimar a otros."
+        },
+        {
+          "title": "Lastimar a los musulmanes",
+          "wrong": "Algunos caen en empujar, gritar, romper filas y empujar a ancianos y mujeres.",
+          "right": "El Profeta ﷺ dijo: «El musulmán es aquel del que otros musulmanes están a salvo de su lengua y su mano» — Acordado. Lastimar a los musulmanes es prohibido en todo momento, ¿cómo en la Casa Sagrada de Allah?"
+        },
+        {
+          "title": "Ocuparse con conversaciones durante Tawaf y Sa'i",
+          "wrong": "Algunos hablan mucho sobre asuntos mundanos durante Tawaf y Sa'i.",
+          "right": "Estos son lugares nobles que deben aprovecharse con adoración, recuerdo y súplicas, no desperdiciar su mérito con mucha conversación."
+        }
+      ]
+    }
+  }
+}

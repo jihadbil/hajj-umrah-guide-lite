@@ -1,0 +1,140 @@
+{
+  "eyebrow": "Tipps & Richtlinien",
+  "title": "Reiseführer & Koffer des Pilgers",
+  "description": "Praktische Tipps und ein interaktiver Koffer für eine sorgenfreie Reise.",
+  "bag": {
+    "title": "Elektronischer Pilgerkoffer",
+    "badge": "Interaktives Tool",
+    "subtitle": "Packliste – wir speichern Ihren Fortschritt automatisch.",
+    "resetBtn": "🔄 Liste zurücksetzen",
+    "progressTitle": "Fortschritt",
+    "progressLabel": "{{percent}}% ({{count}} von {{total}} Elementen bereit)",
+    "progressCompleted": "🎉 Herzlichen Glückwunsch! Ihr Koffer ist gepackt. Möge Allah Ihre Reise erleichtern.",
+    "categories": {
+      "documents": {
+        "title": "Wichtige Dokumente",
+        "items": [
+          {
+            "id": "doc-passport",
+            "text": "Reisepass & Visum (gedruckt und digital)"
+          },
+          {
+            "id": "doc-id",
+            "text": "Personalausweis oder Aufenthaltstitel"
+          },
+          {
+            "id": "doc-flights",
+            "text": "Flugtickets & Hotelbuchungen"
+          },
+          {
+            "id": "doc-cash",
+            "text": "Bargeld & Bank-/Kreditkarten"
+          },
+          {
+            "id": "doc-medical",
+            "text": "Wichtige Medikamente & Arztberichte"
+          }
+        ]
+      },
+      "worship": {
+        "title": "Ihram & Gebetsbedarf",
+        "items": [
+          {
+            "id": "worship-ihram",
+            "text": "Ihram-Kleidung (Männer) / Bedeckende Kleidung (Frauen)"
+          },
+          {
+            "id": "worship-belt",
+            "text": "Ihram-Gürtel (Männer)"
+          },
+          {
+            "id": "worship-shoes",
+            "text": "Bequeme Schuhe für Tawaf und Sa'i"
+          },
+          {
+            "id": "worship-duas",
+            "text": "Dua-Buch oder App"
+          },
+          {
+            "id": "worship-clipper",
+            "text": "Schere für Tahalul"
+          }
+        ]
+      },
+      "hygiene": {
+        "title": "Hygiene (unparfümiert)",
+        "items": [
+          {
+            "id": "care-soap",
+            "text": "Unparfümierte Seife & Shampoo"
+          },
+          {
+            "id": "care-teeth",
+            "text": "Zahnbürste & Miswak"
+          },
+          {
+            "id": "care-vaseline",
+            "text": "Vaseline gegen Wundreiben"
+          },
+          {
+            "id": "care-umbrella",
+            "text": "Regenschirm gegen die Sonne Mekkas"
+          },
+          {
+            "id": "care-clipper",
+            "text": "Nagelknipser (für die Zeit VOR dem Ihram)"
+          }
+        ]
+      },
+      "tech": {
+        "title": "Technik & Allgemeines",
+        "items": [
+          {
+            "id": "tech-phone",
+            "text": "Smartphone & Ladekabel"
+          },
+          {
+            "id": "tech-powerbank",
+            "text": "Powerbank"
+          },
+          {
+            "id": "tech-plug",
+            "text": "Reiseadapter für Saudi-Arabien"
+          },
+          {
+            "id": "tech-bag",
+            "text": "Kleiner Rucksack oder Schuhtasche"
+          }
+        ]
+      }
+    }
+  },
+  "tips": {
+    "health": {
+      "title": "Gesundheit & Organisation",
+      "items": [
+        "Trinken Sie viel Zamzam-Wasser, um Dehydrierung zu vermeiden.",
+        "Tragen Sie bequeme Schuhe und ruhen Sie sich zwischen den Riten aus.",
+        "Nutzen Sie im dichten Gedränge evtl. eine Maske.",
+        "Haben Sie stets Kontaktinformationen Ihrer Gruppe bei sich.",
+        "Vereinbaren Sie einen Treffpunkt mit Ihrer Familie, falls Sie sich verlieren."
+      ]
+    },
+    "spiritual": {
+      "title": "Verhalten & Spiritualität",
+      "items": [
+        "Behalten Sie eine reine Absicht für Allah und vermeiden Sie übermäßiges Fotografieren.",
+        "Zeigen Sie Geduld und gute Manieren, besonders gegenüber Älteren.",
+        "Vermeiden Sie Streitereien und Sünden vollständig.",
+        "Nutzen Sie das letzte Drittel der Nacht für das Gebet im Haram.",
+        "Beten Sie für Ihre Familie und alle Muslime."
+      ]
+    }
+  },
+  "dialog": {
+    "title": "Sind Sie sicher, dass Sie den Koffer zurücksetzen wollen?",
+    "desc": "Alle ausgewählten Elemente werden gelöscht.",
+    "cancel": "Abbrechen",
+    "confirm": "Ja, zurücksetzen"
+  }
+}

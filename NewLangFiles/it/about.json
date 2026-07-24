@@ -1,0 +1,43 @@
+{
+  "eyebrow": "Riguardo alla nostra piattaforma",
+  "title": "Chi siamo",
+  "description": "Scopri la missione della piattaforma Murshid e i suoi obiettivi nel servire gli ospiti del Misericordioso e fornire un supporto di guida integrato nel loro sacro viaggio.",
+  "mission": {
+    "badge": "✨ Nobile missione",
+    "title": "Il tuo portale digitale per la Sacra Casa di Dio",
+    "p1": "La piattaforma Murshid è stata fondata per essere il fedele compagno digitale di ogni pellegrino. Attraverso la nostra applicazione, semplice e visivamente piacevole, cerchiamo di facilitare le fasi dell'Umrah e chiarire le sue regole islamiche in uno stile moderno che unisce autenticità e tecnologia.",
+    "p2": "Miriamo a consentire agli ospiti del Misericordioso di compiere i loro riti con completa tranquillità e certezza, offrendo una mappa interattiva, un riferimento completo per le suppliche, avvisi sugli errori comuni e una guida per hotel e accompagnatori."
+  },
+  "card": {
+    "title": "L'onore del servizio",
+    "quote": "\"Servire i pellegrini e i visitatori della Sacra Casa di Dio è un onore inestimabile e una responsabilità che cerchiamo di adempiere con i massimi livelli di integrità ed eccellenza.\"",
+    "badge1": "✓ Interattivo",
+    "badge2": "✓ Affidabile",
+    "badge3": "✓ Gratuito"
+  },
+  "values": {
+    "title": "I nostri valori e le regole d'oro",
+    "subtitle": "I principi e le fondamenta su cui costruiamo ogni dettaglio in questa guida.",
+    "v1_title": "Integrità scientifica",
+    "v1_body": "Ci assicuriamo che tutte le regole, le Sunnah e le suppliche derivino dal Sacro Corano e dalla Sunnah autentica del Profeta, con un'attenta revisione del contenuto scientifico e islamico.",
+    "v2_title": "Semplificazione e chiarezza",
+    "v2_body": "Semplificare e chiarire la terminologia giurisprudenziale (Fiqh) attraverso interfacce visive interattive per facilitare la comprensione a tutti i pellegrini di varie fasce d'età.",
+    "v3_title": "Innovazione continua",
+    "v3_body": "Sfruttare le ultime tecnologie digitali e soluzioni intelligenti per fornire strumenti di assistenza durante il viaggio, come il contatore del Tawaf e la valigia intelligente del pellegrino."
+  },
+  "features": {
+    "title": "Cosa ti offre la piattaforma Murshid?",
+    "f1_title": "Itinerario interattivo",
+    "f1_body": "Una guida sequenziale che ti accompagna dall'intenzione e dal Miqat, passando per Tawaf e Sa'i, fino al completo scioglimento (Tahalul).",
+    "f2_title": "Suppliche tradizionali e utili",
+    "f2_body": "Una finestra per le suppliche autentiche con l'opzione di leggerle in un font grande e chiaro, riposante per gli occhi.",
+    "f3_title": "Avvisi sugli errori comuni",
+    "f3_body": "Chiarimento delle possibili trasgressioni ed errori per evitarli e proteggere i riti dall'invalidazione.",
+    "f4_title": "Valigia interattiva del pellegrino",
+    "f4_body": "Una lista intelligente per rivedere tutto il necessario prima del viaggio, per assicurarsi di non dimenticare gli elementi essenziali."
+  },
+  "footer": {
+    "text": "Hai domande o suggerimenti per migliorare la piattaforma?",
+    "button": "Vai alla pagina Contattaci"
+  }
+}

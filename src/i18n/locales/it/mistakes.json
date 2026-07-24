@@ -1,0 +1,118 @@
+{
+  "eyebrow": "Avvertenze e Linee Guida",
+  "title": "Errori comuni nell'Umrah",
+  "description": "Gli errori più evidenti commessi da molti pellegrini, con la spiegazione corretta e la prova religiosa.",
+  "quote": "Abdullah bin Masoud (che Allah si compiaccia di lui) disse: «Seguite e non innovate, poiché vi è stato dato ciò che basta». Più il pellegrino è attento a seguire la guida del Profeta ﷺ, più il suo rito sarà completo e vicino all'accettazione, a Dio piacendo.",
+  "groups": {
+    "ihram": {
+      "category": "Errori dell'Ihram",
+      "mistakes": [
+        {
+          "title": "Oltrepassare il Miqat senza Ihram",
+          "wrong": "Alcuni pellegrini oltrepassano il Miqat senza entrare in Ihram, per poi farlo successivamente.",
+          "right": "Chi desidera compiere l'Umrah deve entrare in Ihram dal Miqat da cui passa.",
+          "daleel": "Il Profeta ﷺ disse: «Essi (i Miqat) sono per loro (i residenti) e per chiunque passi da essi tra i non residenti che desiderano compiere Hajj e Umrah» — Concordato."
+        },
+        {
+          "title": "Credere che l'Ihram sia solo indossare le due vesti",
+          "wrong": "Alcune persone pensano che l'Ihram sia semplicemente indossare l'Izar e il Rida.",
+          "right": "L'Ihram è l'intenzione di entrare nel rito. Indossare le vesti dell'Ihram è una sua caratteristica, non la sua essenza."
+        },
+        {
+          "title": "Omettere la Talbiyah o distrarsi da essa",
+          "wrong": "Alcuni pellegrini abbandonano la Talbiyah dopo l'Ihram o si distraggono con conversazioni e telefoni.",
+          "right": "È raccomandato pronunciare spesso la Talbiyah finché non inizia il Tawaf.",
+          "daleel": "È stato confermato che il Profeta ﷺ pronunciò la Talbiyah dal momento in cui entrò in Ihram fino all'inizio del Tawaf — Concordato."
+        }
+      ]
+    },
+    "tawaf": {
+      "category": "Errori del Tawaf",
+      "mistakes": [
+        {
+          "title": "Iniziare il Tawaf prima o dopo la Pietra Nera",
+          "wrong": "Alcuni pellegrini iniziano il Tawaf prima di allinearsi con la Pietra Nera o dopo averla oltrepassata.",
+          "right": "Ogni giro inizia all'altezza della Pietra Nera e termina ad essa."
+        },
+        {
+          "title": "Spingere le persone per toccare la Pietra Nera",
+          "wrong": "Alcuni pellegrini si accalcano così tanto da far del male agli altri musulmani.",
+          "right": "Se è possibile toccarla senza causare danni, questa è una Sunnah; altrimenti, basta indicarla e pronunciare il Takbir. Raggiungere la Pietra Nera è una Sunnah, ma danneggiare i musulmani è proibito (Haram)."
+        },
+        {
+          "title": "Credere che ci sia una supplica specifica per ogni giro",
+          "wrong": "Alcuni pellegrini portano libretti che assegnano una supplica specifica a ogni giro e pensano che sia una Sunnah.",
+          "right": "Non è stato confermato dal Profeta ﷺ l'assegnazione di una supplica specifica per ogni giro; il musulmano può supplicare come desidera e moltiplicare i ricordi (Dhikr) e la lettura del Corano."
+        },
+        {
+          "title": "Alzare la voce pregando in gruppo",
+          "wrong": "Alcune persone si riuniscono per una supplica ad alta voce dietro a un leader del gruppo.",
+          "right": "Il principio è che ogni pellegrino preghi per sé; alzare le voci disturba chi sta compiendo il Tawaf."
+        },
+        {
+          "title": "Toccare tutti gli angoli della Kaaba",
+          "wrong": "Alcuni pellegrini toccano tutti gli angoli della Kaaba o accarezzano le sue pareti.",
+          "right": "È stato confermato che il Profeta ﷺ ha toccato solo la Pietra Nera e l'Angolo Yemenita.",
+          "daleel": "Riportato da Al-Bukhari e Muslim."
+        }
+      ]
+    },
+    "sai": {
+      "category": "Errori del Sa'i",
+      "mistakes": [
+        {
+          "title": "Credere che la purità sia una condizione per la validità del Sa'i",
+          "wrong": "Alcuni pensano che il Sa'i non sia valido senza purità rituale (Taharah).",
+          "right": "La purità è raccomandata per il Sa'i, ma il Sa'i è valido anche senza di essa secondo la maggioranza degli studiosi."
+        },
+        {
+          "title": "Le donne che affrettano il passo tra i due segnali verdi",
+          "wrong": "Alcune donne affrettano il passo tra i due segnali verdi proprio come fanno gli uomini.",
+          "right": "Affrettare il passo tra i segnali verdi è una Sunnah solo per gli uomini. La donna deve camminare con un passo normale durante tutto il Sa'i."
+        },
+        {
+          "title": "Errore nel conteggio dei percorsi (Ashwat)",
+          "wrong": "Alcune persone contano l'andata e il ritorno come un solo percorso.",
+          "right": "Andare da Safa a Marwa è un percorso, e tornare da Marwa a Safa è un altro percorso. Il Sa'i è di sette percorsi che iniziano da Safa e terminano a Marwa."
+        }
+      ]
+    },
+    "halq": {
+      "category": "Errori della rasatura e dell'accorciamento",
+      "mistakes": [
+        {
+          "title": "Tagliare una piccolissima parte dei capelli",
+          "wrong": "Alcuni pellegrini prendono pochi peli dalla parte anteriore della testa pensando che sia sufficiente.",
+          "right": "L'accorciamento prescritto deve includere tutti i capelli della testa.",
+          "daleel": "Questa è la fatwa degli sceicchi Ibn Baz e Ibn Uthaymin."
+        },
+        {
+          "title": "La donna che rade i suoi capelli",
+          "wrong": "Alcune donne si radono la testa pensando che sia meglio.",
+          "right": "La donna deve raccogliere i suoi capelli e tagliare dalle punte circa la lunghezza di un polpastrello (falange), e non deve radersi la testa.",
+          "daleel": "Il Profeta ﷺ disse: «Non c'è rasatura per le donne, per le donne c'è solo l'accorciamento» — Riportato da Sunan Abi Dawud e autenticato dagli studiosi."
+        }
+      ]
+    },
+    "general": {
+      "category": "Errori generali",
+      "mistakes": [
+        {
+          "title": "Distrarsi con la fotografia",
+          "wrong": "Alcuni pellegrini sono più occupati a fotografare e fare dirette streaming che a pregare.",
+          "right": "Lo scopo dell'Umrah è raggiungere la devozione (Khushu') e rivolgersi a Dio, quindi la fotografia dovrebbe essere limitata al necessario senza distrarre il cuore o infastidire gli altri."
+        },
+        {
+          "title": "Infastidire i musulmani",
+          "wrong": "Alcuni spingono, urlano, rompono le file e si accalcano su anziani e donne.",
+          "right": "Il Profeta ﷺ disse: «Il musulmano è colui dal quale i musulmani sono al sicuro, dalla sua lingua e dalla sua mano» — Concordato. Infastidire i musulmani è sempre vietato, figuriamoci nella Sacra Casa di Dio."
+        },
+        {
+          "title": "Distrarsi con le conversazioni durante Tawaf e Sa'i",
+          "wrong": "Alcuni parlano molto di questioni mondane durante il Tawaf e il Sa'i.",
+          "right": "Questi sono luoghi nobili che dovrebbero essere sfruttati per l'obbedienza, il ricordo (Dhikr) e la preghiera, e la loro virtù non dovrebbe essere persa parlando troppo."
+        }
+      ]
+    }
+  }
+}

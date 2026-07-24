@@ -1,0 +1,43 @@
+{
+  "eyebrow": "Über unsere Plattform",
+  "title": "Wer wir sind",
+  "description": "Erfahren Sie mehr über die Mission der Murshid-Plattform und ihre Ziele, den Gästen des Allerbarmers zu dienen und umfassende Unterstützung auf ihrer gesegneten Reise zu bieten.",
+  "mission": {
+    "badge": "✨ Eine edle Mission",
+    "title": "Ihr digitales Portal zum Heiligen Haus Gottes",
+    "p1": "Die Murshid-Plattform wurde gegründet, um ein treuer digitaler Begleiter für jeden Pilger zu sein. Mit unserer vereinfachten und optisch ansprechenden App möchten wir die Schritte der Umrah erleichtern und ihre islamischen Regeln in einem modernen Stil erklären, der Authentizität mit Technologie verbindet.",
+    "p2": "Unser Ziel ist es, den Gästen des Allerbarmers zu ermöglichen, ihre Riten mit völliger Ruhe und Gewissheit durchzuführen, indem wir eine interaktive Karte, ein umfassendes Nachschlagewerk für Bittgebete, Warnungen vor häufigen Fehlern und ein Verzeichnis für Hotels und Reiseleiter bereitstellen."
+  },
+  "card": {
+    "title": "Die Ehre des Dienstes",
+    "quote": "\"Den Pilgern und Besuchern des Heiligen Hauses Gottes zu dienen, ist eine unschätzbare Ehre und eine Verantwortung, die wir mit höchster Integrität und Perfektion erfüllen wollen.\"",
+    "badge1": "✓ Interaktiv",
+    "badge2": "✓ Zuverlässig",
+    "badge3": "✓ Kostenlos"
+  },
+  "values": {
+    "title": "Unsere Werte und goldenen Regeln",
+    "subtitle": "Die Prinzipien und Grundlagen, auf denen jedes Detail in diesem Leitfaden aufbaut.",
+    "v1_title": "Wissenschaftliche Integrität",
+    "v1_body": "Wir stellen sicher, dass alle Regeln, Sunnahs und Bittgebete aus dem Koran und der authentischen Sunnah stammen, mit sorgfältiger wissenschaftlicher Überprüfung.",
+    "v2_title": "Vereinfachung und Klarheit",
+    "v2_body": "Vereinfachung rechtswissenschaftlicher Begriffe durch interaktive visuelle Schnittstellen, um das Verständnis für Pilger aller Altersgruppen zu erleichtern.",
+    "v3_title": "Kontinuierliche Innovation",
+    "v3_body": "Nutzung modernster digitaler Technologien zur Bereitstellung von Hilfsmitteln wie dem Tawaf-Zähler und dem intelligenten Koffer."
+  },
+  "features": {
+    "title": "Was bietet Ihnen die Murshid-Plattform?",
+    "f1_title": "Interaktiver Reiseverlauf",
+    "f1_body": "Ein sequenzieller Leitfaden, der Sie von der Absicht und dem Miqat über Tawaf und Sa'i bis hin zur vollständigen Entweihung (Tahalul) begleitet.",
+    "f2_title": "Authentische Bittgebete",
+    "f2_body": "Ein Fenster für authentische Bittgebete mit der Option, sie in großer, klarer und augenfreundlicher Schrift zu lesen.",
+    "f3_title": "Warnung vor häufigen Fehlern",
+    "f3_body": "Erklärung möglicher Übertretungen, um diese zu vermeiden und die Riten vor Ungültigkeit zu schützen.",
+    "f4_title": "Interaktiver Pilgerkoffer",
+    "f4_body": "Eine intelligente Liste, um alles Nötige vor der Reise zu überprüfen und sicherzustellen, dass nichts vergessen wird."
+  },
+  "footer": {
+    "text": "Haben Sie Fragen oder Vorschläge zur Entwicklung der Plattform?",
+    "button": "Gehen Sie zur Kontaktseite"
+  }
+}

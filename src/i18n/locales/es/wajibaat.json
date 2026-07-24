@@ -1,0 +1,140 @@
+{
+  "eyebrow": "Jurisprudencia de Umrah",
+  "title": "Obligaciones, Sunnah y recomendaciones",
+  "description": "Todo lo que el peregrino necesita desde el punto de vista jurídico: obligaciones por cuya omisión peca, Sunnah por cuya realización se recompensa, y actos no preferidos que deben evitarse.",
+  "tabs": {
+    "wajibaat": "Obligaciones",
+    "sunan": "Sunnah",
+    "mustahabbat": "Recomendaciones",
+    "makrohaat": "No preferido"
+  },
+  "banners": {
+    "wajibaat": "Las obligaciones son los actos que la ley prescribió en Umrah, y quien las omita peca y debe un sacrificio (Dam - sacrificar una oveja) según la mayoría de los juristas, aunque Umrah es válida con el pecado — a diferencia de los pilares sin los cuales Umrah no es válida.",
+    "sunan": "La Sunnah es lo que el Profeta ﷺ hizo o aprobó, se recompensa a quien la hace y no peca quien la omite. Esforzarse por ella completa Umrah y eleva la recompensa.",
+    "mustahabbat": "Las recomendaciones son actos que Allah ama que se hagan y aumentan la recompensa y cercanía a Él, y son más amplias que la Sunnah al incluir lo que vino con textos generales del Libro y la Sunnah.",
+    "makrohaat": "Los actos no preferidos son asuntos que se aconseja evitar porque disminuyen la recompensa o contradicen la perfección de la adoración, sin llegar al grado de prohibición."
+  },
+  "labels": {
+    "daleel": "Evidencia legal",
+    "consequence": "Regla al omitirlo"
+  },
+  "wajibaat_items": {
+    "miqat": {
+      "title": "Entrar en Ihram desde el Miqat",
+      "body": "Todo el que quiera hacer Umrah debe entrar en Ihram desde el Miqat por el que pase. Quien pase el Miqat sin Ihram debe volver a él, de lo contrario debe un Dam según la mayoría de los juristas.",
+      "daleel": "El Profeta ﷺ dijo: «Estos son para ellos y para quien venga a través de ellos sin ser de su gente quien quiera Hajj o Umrah» — Acordado.",
+      "consequence": "Quien pase el Miqat sin Ihram y no vuelva a él debe un Dam (sacrificar una oveja) según la mayoría de los eruditos."
+    },
+    "halq": {
+      "title": "Afeitar o acortar",
+      "body": "Afeitar o acortar es una obligación de Umrah según la mayoría de los juristas, y es con lo que se completa la desacralización del Ihram. No es suficiente limitarse a una parte del cabello.",
+      "daleel": "Allah el Altísimo dijo: ﴿مُحَلِّقِينَ رُءُوسَكُمْ وَمُقَصِّرِينَ﴾ [Al-Fath: 27]",
+      "consequence": "Quien omita afeitar y acortar no se ha desacralizado de su Ihram, y debe un Dam según algunos eruditos."
+    }
+  },
+  "sunan_items": {
+    "ihram": {
+      "title": "Sunnah del Ihram",
+      "items": [
+        "Bañarse antes del Ihram — Sunnah confirmada incluso sin impureza mayor.",
+        "Usar Izar y Rida' blancos y limpios para el hombre.",
+        "Usar perfume en el cuerpo del hombre antes del Ihram, no en la ropa.",
+        "Orar dos rakaat en el Miqat si hay una mezquita.",
+        "Pronunciar la intención de Ihram para Umrah y comenzar Talbiyah inmediatamente.",
+        "Hacer condición para quien tema impedimento: «فإن حبسني حابس فمحلي حيث حبستني»",
+        "Elevar la voz con Talbiyah para el hombre, bajar la voz para la mujer."
+      ]
+    },
+    "tawaf": {
+      "title": "Sunnah del Tawaf",
+      "items": [
+        "Idtiba' para el hombre en Tawaf de Umrah — descubrir el hombro derecho.",
+        "Raml en las primeras tres vueltas para el hombre — caminar rápido con pasos cortos.",
+        "Tocar la Piedra Negra o señalarla con Takbir al comienzo de cada vuelta.",
+        "Tocar el Rukn Yamani con la mano en cada vuelta si es posible sin daño.",
+        "Recitar «ربنا آتنا في الدنيا حسنة» entre el Rukn Yamani y la Piedra Negra.",
+        "Orar dos rakaat detrás de Maqam Ibrahim después del Tawaf — es suficiente en cualquier lugar de la mezquita.",
+        "Beber agua de Zamzam y suplicar después de dos rakaat del Tawaf."
+      ]
+    },
+    "sai": {
+      "title": "Sunnah del Sa'i",
+      "items": [
+        "Subir a Safa y Marwah al llegar a ellas.",
+        "Recitar «إن الصفا والمروة من شعائر الله» al subir a Safa.",
+        "Enfrentar la Qibla y repetir Dhikr, Tahlil y súplica en Safa y Marwah tres veces.",
+        "Caminar rápido entre las señales verdes solo para el hombre.",
+        "Pureza durante Sa'i — recomendable aunque Sa'i es válido sin ella."
+      ]
+    },
+    "halq": {
+      "title": "Sunnah del afeitado y acortado",
+      "items": [
+        "Afeitado completo es mejor para el hombre que acortar a menos que quiera hacer Hajj pronto.",
+        "Acortar de todas las partes de la cabeza, no de un solo lado.",
+        "Apresurarse a afeitar o acortar inmediatamente después de terminar Sa'i."
+      ]
+    }
+  },
+  "mustahabbat_items": {
+    "haram": {
+      "category": "En Masjid al-Haram",
+      "items": [
+        "Entrar por la puerta de Bani Shaybah (Puerta de la Paz) siguiendo al Profeta ﷺ.",
+        "Entrar con el pie derecho con súplica de entrada a la mezquita.",
+        "Humildad y tranquilidad al ver la Kaaba y dedicarse a la súplica.",
+        "Aumentar el Tawaf voluntario.",
+        "Permanecer en La Meca y aumentar la oración en Masjid al-Haram."
+      ]
+    },
+    "worship": {
+      "category": "En adoración en general",
+      "items": [
+        "Aumentar Dhikr, recitación y súplicas en todos los momentos del viaje.",
+        "Pasar la noche en oración y recuerdo en estos días benditos.",
+        "Dar caridad a pobres y necesitados en La Meca honorable.",
+        "Suplicar por padres, parientes y musulmanes en lugares nobles.",
+        "Caracterizarse por buenos modales y paciencia ante el daño.",
+        "Alejarse de habla inútil, obscenidad, discusión y asuntos mundanos."
+      ]
+    }
+  },
+  "makrohaat_items": {
+    "ihram": {
+      "category": "En Ihram",
+      "items": [
+        "Retrasar Talbiyah después de la intención de Ihram sin excusa.",
+        "Poner perfume en la ropa de Ihram después de hacer la intención.",
+        "Que la mujer eleve su voz con Talbiyah frente a hombres extraños.",
+        "Ocuparse con teléfono y conversaciones en lugar de Talbiyah y Dhikr."
+      ]
+    },
+    "tawaf": {
+      "category": "En Tawaf",
+      "items": [
+        "Elevar la voz con súplicas en grupo de manera que moleste a los que hacen Tawaf.",
+        "Señalar al Rukn Yamani cuando no se puede tocarlo — la Sunnah es no señalarlo.",
+        "Continuar con Idtiba' después de terminar Tawaf y antes de orar dos rakaat.",
+        "Ocuparse con memorizar súplicas largas a costa de humildad y presencia."
+      ]
+    },
+    "sai": {
+      "category": "En Sa'i",
+      "items": [
+        "Que la mujer camine rápido entre las señales verdes.",
+        "Correr en todo el Mas'a en lugar de caminar rápido moderadamente entre las señales.",
+        "Comenzar desde Marwah en lugar de Safa.",
+        "Omitir súplica y Dhikr en Safa y Marwah contentándose con pasar."
+      ]
+    },
+    "general": {
+      "category": "En general",
+      "items": [
+        "Ocuparse con fotografía y transmisión en vivo a costa de humildad.",
+        "Lastimarlos con empujones, aglomeraciones y elevar voces.",
+        "Hablar mucho sobre asuntos mundanos en lugares nobles.",
+        "Negligencia en mantener oraciones en sus tiempos."
+      ]
+    }
+  }
+}

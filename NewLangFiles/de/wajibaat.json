@@ -1,0 +1,110 @@
+{
+  "eyebrow": "Umrah Fiqh",
+  "title": "Pflichten, Sunnahs und empfohlene Handlungen",
+  "description": "Alles, was der Pilger rechtlich wissen muss.",
+  "tabs": {
+    "wajibaat": "Pflichten (Wajibaat)",
+    "sunan": "Sunnahs",
+    "mustahabbat": "Empfohlenes",
+    "makrohaat": "Verpöntes"
+  },
+  "banners": {
+    "wajibaat": "Pflichten müssen erfüllt werden. Auslassen erfordert ein Sühneopfer, aber die Umrah bleibt gültig.",
+    "sunan": "Taten des Propheten ﷺ, belohnt, aber ohne Strafe beim Auslassen.",
+    "mustahabbat": "Allgemein empfohlene gute Taten.",
+    "makrohaat": "Handlungen, die den Lohn verringern, aber nicht streng verboten sind."
+  },
+  "labels": {
+    "daleel": "Beweis",
+    "consequence": "Konsequenz bei Auslassung"
+  },
+  "wajibaat_items": {
+    "miqat": {
+      "title": "Ihram vom Miqat",
+      "body": "Eintritt in den Ihram am festgelegten Ort.",
+      "daleel": "Hadith der Miqats.",
+      "consequence": "Schlachten eines Schafes bei absichtlichem Vorbeigehen."
+    },
+    "halq": {
+      "title": "Rasieren oder Kürzen",
+      "body": "Zum Beenden des Ihram.",
+      "daleel": "Koran Al-Fath: 27",
+      "consequence": "Ihram bleibt bestehen bis zur Durchführung."
+    }
+  },
+  "sunan_items": {
+    "ihram": {
+      "title": "Sunnahs des Ihram",
+      "items": [
+        "Ghusl",
+        "Weiße Kleidung",
+        "Parfüm vor dem Ihram",
+        "Zwei Rak'ah"
+      ]
+    },
+    "tawaf": {
+      "title": "Sunnahs des Tawaf",
+      "items": [
+        "Idtiba",
+        "Ramal",
+        "Berühren des Schwarzen Steins"
+      ]
+    },
+    "sai": {
+      "title": "Sunnahs des Sa'i",
+      "items": [
+        "Safa/Marwa besteigen",
+        "Schnelles Gehen"
+      ]
+    },
+    "halq": {
+      "title": "Sunnahs der Rasur",
+      "items": [
+        "Rasur ist besser als Kürzen"
+      ]
+    }
+  },
+  "mustahabbat_items": {
+    "haram": {
+      "category": "In der Moschee",
+      "items": [
+        "Eintritt durch Bab As-Salam",
+        "Viel Tawaf"
+      ]
+    },
+    "worship": {
+      "category": "Anbetung allgemein",
+      "items": [
+        "Viel Dhikr",
+        "Spenden (Sadaqah)"
+      ]
+    }
+  },
+  "makrohaat_items": {
+    "ihram": {
+      "category": "Im Ihram",
+      "items": [
+        "Frauen sprechen Talbiyah laut vor Männern"
+      ]
+    },
+    "tawaf": {
+      "category": "Im Tawaf",
+      "items": [
+        "Laute Gruppengebete"
+      ]
+    },
+    "sai": {
+      "category": "Im Sa'i",
+      "items": [
+        "Rennen bei Frauen"
+      ]
+    },
+    "general": {
+      "category": "Allgemein",
+      "items": [
+        "Zu viele Fotos",
+        "Drängeln"
+      ]
+    }
+  }
+}

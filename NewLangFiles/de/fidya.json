@@ -1,0 +1,125 @@
+{
+  "eyebrow": "Islamische Regeln",
+  "title": "Regeln der Fidya bei der Umrah",
+  "description": "Wann Fidya verpflichtend ist und wie sie erbracht wird — basierend auf Koran und Sunnah.",
+  "warningTitle": "Wichtiger fiqh-Hinweis",
+  "warningBody": "Die Fidya ist ein komplexes Thema. Pilger sollten bei Unklarheiten immer Gelehrte oder offizielle Fatwa-Stellen konsultieren.",
+  "labels": {
+    "daleel": "Beweis aus Koran und Sunnah",
+    "note": "💡 Hinweis: ",
+    "warning": "⚠️ Warnung: ",
+    "faqTitle": "Häufige Fragen",
+    "referenceTitle": "Wissenschaftliche Referenzen"
+  },
+  "sections": {
+    "sec1": {
+      "title": "Was bedeutet Fidya?",
+      "content": [
+        "Fidya ist die gesetzliche Sühne für einen Pilger im Ihram, wenn er eine Pflicht unterlässt oder ein Verbot begeht.",
+        "Nicht jeder Fehler erfordert Fidya. Die Urteile hängen von der Art des Verstoßes ab."
+      ],
+      "warning": "Konsultieren Sie immer Gelehrte bei Fidya-Fragen."
+    },
+    "sec2": {
+      "title": "Erstens: Das Auslassen einer Säule (Rukn)",
+      "content": [
+        "Wer eine Säule wie Tawaf oder Sa'i auslässt, kann dies nicht mit Fidya sühnen. Die Säule muss nachgeholt werden."
+      ],
+      "list": [
+        "Tawaf auslassen — Umrah ungültig, muss nachgeholt werden.",
+        "Sa'i auslassen — Umrah ungültig, muss nachgeholt werden."
+      ],
+      "note": "Der Pilger kann den Ihram nicht verlassen, bevor die Säulen vollendet sind."
+    },
+    "sec3": {
+      "title": "Zweitens: Das Auslassen einer Pflicht (Wajib)",
+      "content": [
+        "Das Auslassen einer Pflicht (z.B. Ihram am Miqat) erfordert ein Sühneopfer (Dam/Blut) bei der Mehrheit der Gelehrten."
+      ],
+      "list": [
+        "Miqat überschreiten ohne Ihram.",
+        "Rasieren/Kürzen auslassen."
+      ],
+      "daleel": [
+        "Ibn Abbas sagte: «Wer einen Teil seiner Riten vergisst, soll Blut fließen lassen»."
+      ],
+      "note": "Das 'Blut' (Dam) bedeutet das Schlachten eines Schafes in Mekka für die Armen."
+    },
+    "sec4": {
+      "title": "Drittens: Fidya für Beschwerden",
+      "content": [
+        "Wenn ein Pilger im Ihram aus medizinischen Gründen (z.B. Krankheit, Läuse) ein Verbot brechen muss (z.B. Kopf rasieren), ist dies erlaubt, aber er muss Fidya leisten."
+      ],
+      "daleel": [
+        "Koran Al-Baqara: 196",
+        "Der Prophet ﷺ sagte zu Ka'b bin 'Ujrah: «Rasiere deinen Kopf und faste drei Tage oder speise sechs Arme oder schlachte ein Schaf»."
+      ],
+      "options": [
+        {
+          "title": "Schlachten eines Schafes",
+          "desc": "Für die Armen in Mekka"
+        },
+        {
+          "title": "Sechs Arme speisen",
+          "desc": "Ein halber Sa' pro Person"
+        },
+        {
+          "title": "Drei Tage fasten",
+          "desc": "Zusammenhängend oder getrennt"
+        }
+      ],
+      "note": "Der Pilger kann frei zwischen diesen Optionen wählen."
+    },
+    "sec5": {
+      "title": "Viertens: Verbot aus Vergesslichkeit",
+      "content": [
+        "Keine Sünde für jemanden, der aus Vergesslichkeit oder Unwissenheit ein Verbot begeht.",
+        "Bezüglich der Fidya gibt es Meinungsverschiedenheiten."
+      ],
+      "daleel": [
+        "Koran Al-Baqara: 286",
+        "Koran Al-Ahzab: 5"
+      ],
+      "warning": "Scheich Ibn Baz sagt, dass bei Vergesslichkeit/Unwissenheit keine Fidya fällig ist."
+    },
+    "sec6": {
+      "title": "Fünftens: Absichtlicher Verstoß",
+      "content": [
+        "Wer absichtlich ein Verbot bricht, sündigt. Einige Verbote erfordern Fidya.",
+        "Die Regeln variieren je nach Verbot."
+      ],
+      "list": [
+        "Genähte Kleidung (Männer) — 3-fache Fidya Option.",
+        "Parfüm — 3-fache Fidya Option.",
+        "Haare schneiden — 3-fache Fidya Option.",
+        "Geschlechtsverkehr — Macht die Umrah ungültig (Kaffarah)."
+      ],
+      "warning": "Bitte Gelehrte fragen."
+    }
+  },
+  "faqs": [
+    {
+      "q": "Gibt es Fidya für genähte Kleidung aus Vergesslichkeit?",
+      "a": "Keine Sünde bei Vergesslichkeit. Nach Scheich Ibn Baz ist keine Fidya fällig."
+    },
+    {
+      "q": "Gibt es Fidya für Parfüm aus Vergesslichkeit?",
+      "a": "Keine Sünde. Das Parfüm sofort entfernen, sobald man sich erinnert."
+    },
+    {
+      "q": "Gibt es Fidya für Haar-Rasur aus medizinischen Gründen?",
+      "a": "Ja, erlaubt aus Gründen, aber Fidya (Schaf/Speisen/Fasten) ist Pflicht."
+    },
+    {
+      "q": "Wo wird das Opfertier geschlachtet?",
+      "a": "Am besten in Mekka und an die dortigen Armen verteilt."
+    }
+  ],
+  "references": [
+    "Heiliger Koran",
+    "Sahih Al-Bukhari & Muslim",
+    "Al-Muwatta",
+    "Scheich Ibn Baz",
+    "Scheich Ibn Uthaymin"
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Consejos y orientación",
+  "title": "Orientación y kit del peregrino",
+  "description": "Consejos prácticos y orientación legal, además de un kit interactivo para preparar todos los requisitos del viaje con total tranquilidad.",
+  "bag": {
+    "title": "Kit electrónico del peregrino",
+    "badge": "Herramienta interactiva",
+    "subtitle": "Prepare los requisitos de viaje paso a paso, y guardaremos su progreso automáticamente.",
+    "resetBtn": "🔄 Restablecer lista",
+    "progressTitle": "Barra de preparación del kit",
+    "progressLabel": "{{percent}}% ({{count}} de {{total}} elementos listos)",
+    "progressCompleted": "🎉 ¡Felicidades! Su kit está completamente listo para el bendito viaje de Umrah. Pedimos a Allah facilidad y aceptación.",
+    "categories": {
+      "documents": {
+        "title": "Documentos y papeles importantes",
+        "items": [
+          { "id": "doc-passport", "text": "Pasaporte y visa de Umrah (copia impresa y digital)" },
+          { "id": "doc-id", "text": "Identificación nacional o residencia personal" },
+          { "id": "doc-flights", "text": "Boletos de avión y confirmaciones de hoteles y transporte" },
+          { "id": "doc-cash", "text": "Pequeñas cantidades de efectivo y tarjeta bancaria débito/crédito" },
+          { "id": "doc-medical", "text": "Medicamentos importantes con sus informes médicos" }
+        ]
+      },
+      "worship": {
+        "title": "Ihram y requisitos de adoración",
+        "items": [
+          { "id": "worship-ihram", "text": "Ropa de Ihram para hombres (Izar y Rida' blancos) / Ropa cubierta cómoda para mujeres" },
+          { "id": "worship-belt", "text": "Cinturón de Ihram para hombres (con bolsillos para guardar identificación y dinero)" },
+          { "id": "worship-shoes", "text": "Calzado cómodo para Tawaf y Sa'i (preferiblemente sin costuras para hombres)" },
+          { "id": "worship-duas", "text": "Pequeño folleto de recuerdos y súplicas o aplicación móvil" },
+          { "id": "worship-clipper", "text": "Pequeñas tijeras o máquina de afeitar para usar al desacralizarse" }
+        ]
+      },
+      "hygiene": {
+        "title": "Cuidado personal e higiene (sin perfume)",
+        "items": [
+          { "id": "care-soap", "text": "Champú y jabón sin perfume (para días de Ihram)" },
+          { "id": "care-teeth", "text": "Cepillo y pasta de dientes y Miswak" },
+          { "id": "care-vaseline", "text": "Vaselina o humectante para proteger muslos y piel de rozaduras" },
+          { "id": "care-umbrella", "text": "Paraguas ligero para protegerse del caliente sol de La Meca" },
+          { "id": "care-clipper", "text": "Cortaúñas pequeño para preparar Sunnah antes del Ihram" }
+        ]
+      },
+      "tech": {
+        "title": "Requisitos técnicos y generales",
+        "items": [
+          { "id": "tech-phone", "text": "Teléfono móvil con sus cargadores apropiados" },
+          { "id": "tech-powerbank", "text": "Cargador portátil (Powerbank) para cargar móvil en el Haram" },
+          { "id": "tech-plug", "text": "Adaptador eléctrico de tres clavijas apropiado para el Reino" },
+          { "id": "tech-bag", "text": "Mochila ligera o riñonera para guardar zapatos y pertenencias" }
+        ]
+      }
+    }
+  },
+  "tips": {
+    "health": {
+      "title": "Consejos de salud y organizativos",
+      "items": [
+        "Beber mucha agua de Zamzam fría y tibia para evitar deshidratación y fatiga.",
+        "Usar calzado cómodo durante el viaje y tomar descanso entre los ritos.",
+        "Llevar mascarilla durante aglomeraciones severas en patio de Tawaf o Mas'a para evitar infecciones.",
+        "Guardar tarjeta de identificación o pulsera con datos de la campaña y número de teléfono para evitar perderse.",
+        "Determinar punto de encuentro claro (como puerta específica) con miembros de su familia en caso de separación."
+      ]
+    },
+    "spiritual": {
+      "title": "Orientación espiritual y conductual",
+      "items": [
+        "Tener intención sincera para Allah y alejarse de ostentación y fotografía excesiva en los ritos.",
+        "Caracterizarse por buenos modales, paciencia y gentileza con ancianos y débiles durante aglomeraciones.",
+        "Alejarse completamente de obscenidad, maldad, discusión y disputas que arruinan la recompensa.",
+        "Aprovechar momentos nobles como último tercio de la noche y sentarse en Masjid al-Haram.",
+        "Dedicar tiempo específico para súplicas por toda la familia, parientes y todos los musulmanes."
+      ]
+    }
+  },
+  "dialog": {
+    "title": "¿Está seguro de restablecer el kit?",
+    "desc": "Esta acción eliminará todos los elementos marcados y comenzará de nuevo. Esta acción no se puede deshacer.",
+    "cancel": "Cancelar",
+    "confirm": "Sí, reiniciar lista"
+  }
+}

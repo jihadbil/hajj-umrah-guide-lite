@@ -1,0 +1,140 @@
+{
+  "eyebrow": "Consigli e Direttive",
+  "title": "Linee guida e Valigia del Pellegrino",
+  "description": "Consigli pratici e linee guida religiose, oltre a una valigia interattiva per preparare tutto il necessario per il viaggio in totale tranquillità.",
+  "bag": {
+    "title": "Valigia elettronica del pellegrino",
+    "badge": "Strumento interattivo",
+    "subtitle": "Prepara le forniture di viaggio passo dopo passo, noi salveremo i tuoi progressi automaticamente.",
+    "resetBtn": "🔄 Reimposta la lista",
+    "progressTitle": "Barra di preparazione della valigia",
+    "progressLabel": "{{percent}}% ({{count}} di {{total}} elementi pronti)",
+    "progressCompleted": "🎉 Congratulazioni! La tua valigia è completamente pronta per il viaggio benedetto dell'Umrah. Chiediamo ad Allah di facilitarti e di accettarlo.",
+    "categories": {
+      "documents": {
+        "title": "Documenti e carte importanti",
+        "items": [
+          {
+            "id": "doc-passport",
+            "text": "Passaporto e visto Umrah (copia stampata e digitale)"
+          },
+          {
+            "id": "doc-id",
+            "text": "Carta d'identità nazionale o permesso di soggiorno personale"
+          },
+          {
+            "id": "doc-flights",
+            "text": "Biglietti aerei, prenotazioni alberghiere e trasporti"
+          },
+          {
+            "id": "doc-cash",
+            "text": "Piccole somme in contanti e carta di credito/debito"
+          },
+          {
+            "id": "doc-medical",
+            "text": "Farmaci importanti con i tuoi referti medici"
+          }
+        ]
+      },
+      "worship": {
+        "title": "Ihram e forniture per il culto",
+        "items": [
+          {
+            "id": "worship-ihram",
+            "text": "Vesti dell'Ihram per gli uomini (Izar e Rida bianchi) / Abito comodo e coprente per le donne"
+          },
+          {
+            "id": "worship-belt",
+            "text": "Cintura dell'Ihram per gli uomini (con tasche per ID e denaro)"
+          },
+          {
+            "id": "worship-shoes",
+            "text": "Scarpe comode per Tawaf e Sa'i (preferibilmente senza cuciture per gli uomini)"
+          },
+          {
+            "id": "worship-duas",
+            "text": "Un piccolo libretto di suppliche (Dhikr) o app per cellulare"
+          },
+          {
+            "id": "worship-clipper",
+            "text": "Piccole forbici o rasoio da usare per lo scioglimento (Tahalul)"
+          }
+        ]
+      },
+      "hygiene": {
+        "title": "Cura personale e igiene (senza profumo)",
+        "items": [
+          {
+            "id": "care-soap",
+            "text": "Shampoo e sapone non profumati (per i giorni di Ihram)"
+          },
+          {
+            "id": "care-teeth",
+            "text": "Spazzolino, dentifricio e Miswak"
+          },
+          {
+            "id": "care-vaseline",
+            "text": "Vaselina o crema idratante per proteggere le cosce e la pelle dalle irritazioni"
+          },
+          {
+            "id": "care-umbrella",
+            "text": "Ombrello leggero per proteggerti dal caldo sole della Mecca"
+          },
+          {
+            "id": "care-clipper",
+            "text": "Piccolo tagliaunghie per compiere le Sunnah prima dell'Ihram"
+          }
+        ]
+      },
+      "tech": {
+        "title": "Forniture tecniche e generali",
+        "items": [
+          {
+            "id": "tech-phone",
+            "text": "Telefono cellulare con caricabatterie adatti"
+          },
+          {
+            "id": "tech-powerbank",
+            "text": "Caricabatterie portatile (Powerbank) per caricare il cellulare nell'Haram"
+          },
+          {
+            "id": "tech-plug",
+            "text": "Adattatore a tre poli adatto all'Arabia Saudita"
+          },
+          {
+            "id": "tech-bag",
+            "text": "Zaino leggero o marsupio per conservare scarpe ed effetti personali"
+          }
+        ]
+      }
+    }
+  },
+  "tips": {
+    "health": {
+      "title": "Consigli per la salute e l'organizzazione",
+      "items": [
+        "Bevi abbondante acqua di Zamzam, fredda e calda, per evitare disidratazione e affaticamento.",
+        "Indossa scarpe comode durante il viaggio e riposati tra un rito e l'altro.",
+        "Porta una mascherina per l'eccessivo affollamento nell'area del Tawaf o del Sa'i per evitare infezioni.",
+        "Conserva un badge o un braccialetto con i dettagli del gruppo e un numero di telefono per non perderti.",
+        "Stabilisci un punto di ritrovo chiaro (es. un determinato cancello) con i tuoi familiari in caso di separazione."
+      ]
+    },
+    "spiritual": {
+      "title": "Direttive spirituali e comportamentali",
+      "items": [
+        "Mantenere un'intenzione pura per Allah ed evitare l'ostentazione e le fotografie eccessive durante i riti.",
+        "Mostrare buone maniere, pazienza e gentilezza verso gli anziani e i deboli durante l'affollamento.",
+        "Evitare completamente oscenità, iniquità, litigi e alterchi che rovinano la ricompensa.",
+        "Approfittare dei tempi nobili come l'ultimo terzo della notte e stare seduti nella Sacra Moschea.",
+        "Dedicare un tempo specifico per pregare per tutti i familiari, i parenti e i musulmani in generale."
+      ]
+    }
+  },
+  "dialog": {
+    "title": "Sei sicuro di voler reimpostare la valigia?",
+    "desc": "Questa azione eliminerà tutti gli elementi selezionati e ricomincerà da capo. L'azione è irreversibile.",
+    "cancel": "Annulla",
+    "confirm": "Sì, azzera la lista"
+  }
+}

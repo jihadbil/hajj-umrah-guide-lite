@@ -1,0 +1,21 @@
+{
+  "title": "Namoz vaqtlari",
+  "makkah_subtitle": "Masjidi Haromning pok hovlisida",
+  "madinah_subtitle": "Masjidi Nabaviyning pok hovlisida",
+  "makkah": "Makkai Mukarrama",
+  "madinah": "Madinai Munavvara",
+  "timeLeftText": "{{name}} namoziga qolgan vaqt",
+  "timezoneNote": "Azon vaqtlari Saudiya Arabistoni Qirolligining mahalliy vaqtiga muvofiq (Grinvichdan +3)",
+  "am_pm": {
+    "am": "TO",
+    "pm": "TK"
+  },
+  "prayers": {
+    "fajr": "Bomdod",
+    "sunrise": "Quyosh chiqishi",
+    "dhuhr": "Peshin",
+    "asr": "Asr",
+    "maghrib": "Shom",
+    "isha": "Xufton"
+  }
+}

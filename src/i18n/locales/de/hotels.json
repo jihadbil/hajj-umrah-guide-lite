@@ -1,0 +1,201 @@
+{
+  "eyebrow": "Hotels & Reiseleiter",
+  "title": "Unterkunft & Reiseleiter für Pilger",
+  "description": "Wählen Sie Hotels in der Nähe der Heiligen Moscheen und finden Sie zertifizierte Reiseleiter.",
+  "demoNotice": "⚠️ Diese Daten sind nur zu Demonstrationszwecken.",
+  "fazahBanner": {
+    "badge": "Neu — Dezentrales Rettungsnetzwerk",
+    "title": "Fazah Service: Verbindet Pilger mit Helfern",
+    "desc": "Erfahren Sie, wie die QR-Karte funktioniert.",
+    "btn": "Entdecken Sie Fazah ←"
+  },
+  "sections": {
+    "hotelsTitle": "Hotels in der Nähe der Harams",
+    "guidesTitle": "Zertifizierte Reiseleiter"
+  },
+  "labels": {
+    "reviewsCount": "{{count}} Bewertungen",
+    "startFrom": "Ab",
+    "pricePerNight": "{{price}} / Nacht",
+    "viewDetails": "Details ansehen",
+    "experienceYears": "{{count}} Jahre Erfahrung",
+    "languages": "Sprachen: {{list}}",
+    "licensedGuide": "Zertifiziert ✓",
+    "aboutHotel": "Über das Hotel",
+    "amenities": "Ausstattung",
+    "address": "Adresse",
+    "checkIn": "Check-In",
+    "checkOut": "Check-Out",
+    "contact": "Kontakt",
+    "bookRequest": "Buchungsanfrage",
+    "backToAll": "← Zurück zu allen Hotels",
+    "notFoundTitle": "Hotel nicht gefunden",
+    "notFoundDesc": "Das gewünschte Hotel wurde nicht gefunden.",
+    "notFoundBack": "Zurück"
+  },
+  "hotelsItems": {
+    "h1": {
+      "name": "Fairmont Makkah Clock Royal Tower",
+      "city": "Mekka",
+      "distance": "Wenige Schritte vom Haram",
+      "price": "1200 SAR",
+      "amenities": [
+        "Blick auf das Haram",
+        "Mehrere Restaurants",
+        "Shuttle-Service"
+      ],
+      "description": "Luxuriöses Hotel im Clock Tower mit Panoramablick auf die Kaaba.",
+      "address": "Abraj Al Bait, Ajyad, Mekka",
+      "checkIn": "16:00",
+      "checkOut": "12:00"
+    },
+    "h2": {
+      "name": "Swissôtel Al Maqam Makkah",
+      "city": "Mekka",
+      "distance": "200 Meter vom Haram",
+      "price": "850 SAR",
+      "amenities": [
+        "Kostenloses Frühstück",
+        "Free Wi-Fi",
+        "Gebetsraum"
+      ],
+      "description": "Verbindet Schweizer Gastfreundschaft mit lokaler Tradition.",
+      "address": "Abraj Al Bait, Mekka",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h3": {
+      "name": "Hilton Suites Makkah",
+      "city": "Mekka",
+      "distance": "400 Meter vom Haram",
+      "price": "750 SAR",
+      "amenities": [
+        "Familienzimmer",
+        "Küchenzeile",
+        "Wäscheservice"
+      ],
+      "description": "Ideal für Familien, mit Shuttle zum Haram.",
+      "address": "Jabal Omar, Mekka",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h4": {
+      "name": "Dar Al Tawhid InterContinental",
+      "city": "Mekka",
+      "distance": "Angrenzend ans Haram",
+      "price": "1500 SAR",
+      "amenities": [
+        "Blick auf die Kaaba",
+        "Concierge",
+        "Luxusrestaurants"
+      ],
+      "description": "Eines der ältesten und prestigeträchtigsten Hotels.",
+      "address": "Ajyad, Mekka",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h5": {
+      "name": "Mövenpick Hotel Anwar Al Madinah",
+      "city": "Medina",
+      "distance": "100 Meter zur Prophetenmoschee",
+      "price": "650 SAR",
+      "amenities": [
+        "Blick auf die Moschee",
+        "Frühstück",
+        "Parkplatz"
+      ],
+      "description": "Im Herzen von Medina gelegen.",
+      "address": "Zentraler Bereich, Medina",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h6": {
+      "name": "Dar Al Iman InterContinental",
+      "city": "Medina",
+      "distance": "50 Meter zur Prophetenmoschee",
+      "price": "800 SAR",
+      "amenities": [
+        "Überdachter Zugang",
+        "Flughafentransfer",
+        "Familienzimmer"
+      ],
+      "description": "Direkter Zugang zum Platz der Moschee.",
+      "address": "Zentraler Bereich, Medina",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h7": {
+      "name": "Pullman Zamzam Madina",
+      "city": "Medina",
+      "distance": "150 Meter zur Prophetenmoschee",
+      "price": "500 SAR",
+      "amenities": [
+        "Arabisches Restaurant",
+        "Free Wi-Fi",
+        "Fitnessstudio"
+      ],
+      "description": "Modernes Hotel mit erschwinglichen Preisen.",
+      "address": "Zentraler Bereich, Medina",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    }
+  },
+  "guidesItems": {
+    "g1": {
+      "name": "Scheich Abdullah Al-Harbi",
+      "city": "Mekka & Medina",
+      "specialty": "Fiqh-Beratung für die Umrah",
+      "languages": [
+        "Arabisch",
+        "Englisch"
+      ]
+    },
+    "g2": {
+      "name": "Herr Mohammed Al-Zahrani",
+      "city": "Mekka",
+      "specialty": "Umrah-Gruppen Begleitung",
+      "languages": [
+        "Arabisch",
+        "Englisch",
+        "Urdu"
+      ]
+    },
+    "g3": {
+      "name": "Frau Amal Al-Qahtani",
+      "city": "Mekka",
+      "specialty": "Frauen und Familien",
+      "languages": [
+        "Arabisch",
+        "Englisch"
+      ]
+    },
+    "g4": {
+      "name": "Scheich Khalid Al-Otaibi",
+      "city": "Medina",
+      "specialty": "Historische Touren",
+      "languages": [
+        "Arabisch",
+        "Französisch"
+      ]
+    },
+    "g5": {
+      "name": "Herr Yousef Al-Maliki",
+      "city": "Mekka & Medina",
+      "specialty": "Asiatische Gruppen",
+      "languages": [
+        "Arabisch",
+        "Englisch",
+        "Malaiisch"
+      ]
+    },
+    "g6": {
+      "name": "Frau Hind Al-Dossari",
+      "city": "Medina",
+      "specialty": "Senioren und Menschen mit Behinderung",
+      "languages": [
+        "Arabisch",
+        "Englisch"
+      ]
+    }
+  }
+}

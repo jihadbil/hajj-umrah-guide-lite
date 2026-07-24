@@ -1,0 +1,137 @@
+{
+  "eyebrow": "Umrah Fiqh",
+  "title": "Säulen der Umrah",
+  "description": "Die Säulen sind die grundlegenden Handlungen, auf denen die Umrah aufbaut, und sie ist nur gültig, wenn alle erfüllt sind.",
+  "intro": {
+    "title": "Was ist der Unterschied zwischen Säule (Rukn), Pflicht (Wajib) und Sunnah?",
+    "rukn_title": "Die Säule (Rukn)",
+    "rukn_body": "Das, ohne das die Umrah ungültig ist. Wer sie auslässt, bleibt im Ihram-Zustand, bis er sie nachholt.",
+    "wajib_title": "Die Pflicht (Wajib)",
+    "wajib_body": "Das, was getan werden muss. Wer sie auslässt, sündigt und muss nach den meisten Gelehrten ein Sühneopfer erbringen, aber die Umrah bleibt gültig.",
+    "sunnah_title": "Die Sunnah",
+    "sunnah_body": "Das, was empfohlen ist, um dem Propheten ﷺ zu folgen. Es ist nicht bindend und das Auslassen hat keine Konsequenzen."
+  },
+  "tabs": {
+    "details": "Details",
+    "mustahabb": "Empfohlenes",
+    "makrooh": "Verpöntes"
+  },
+  "labels": {
+    "ruling": "Regel: ",
+    "ruknLabel": "Säule {{num}}",
+    "noteLabel": "💡 Hinweis: ",
+    "mustahabbSub": "Wird belohnt für das Befolgen des Propheten ﷺ, das Auslassen ist keine Sünde.",
+    "makroohSub": "Dinge, die vermieden werden sollten, da sie die Belohnung mindern."
+  },
+  "conclusion": {
+    "verse": "﴿ Und vollzieht die Hajj und die Umrah für Allah ﴾",
+    "source": "Sura Al-Baqara — Vers 196"
+  },
+  "rukn1": {
+    "arabicNum": "1",
+    "title": "Der Ihram",
+    "definition": "Die Absicht, in den Ritus einzutreten. Die Umrah ist ohne den Ihram am festgelegten Miqat nicht gültig.",
+    "ruling": "Säule — Die Umrah ist ohne ihn nicht gültig. Ohne Ihram hat die Umrah nicht begonnen.",
+    "details": [
+      "Der Ihram wird durch die Absicht gültig. Wenn man die Absicht fasst und ausspricht, tritt man ein.",
+      "Der Pilger tritt am Miqat in den Ihram ein, es ist nicht erlaubt, ihn ohne Ihram zu überschreiten.",
+      "Ghusl (Ganzkörperwaschung) und das Tragen von Izar und Rida sind vor dem Ihram für Männer empfohlen.",
+      "Frauen tragen ihre gewöhnliche, bedeckende Kleidung und meiden Niqab und Handschuhe.",
+      "Die Talbiyah beginnt sofort und dauert bis zum Beginn des Tawaf."
+    ],
+    "mustahabb": [
+      "Ghusl vor dem Ihram.",
+      "Das Tragen sauberer weißer Kleidung für Männer.",
+      "Parfümieren des Körpers des Mannes vor dem Ihram.",
+      "Sich bei der Talbiyah der Qibla zuwenden.",
+      "Erhöhung der Stimme bei der Talbiyah für Männer.",
+      "Aussprechen einer Bedingung, falls ein Hindernis befürchtet wird.",
+      "Vermehrtes Sprechen der Talbiyah auf dem Weg."
+    ],
+    "makrooh": [
+      "Verzögerung der Talbiyah ohne Grund.",
+      "Ablenkung durch das Telefon sofort nach dem Ihram.",
+      "Erhöhung der Stimme der Frau vor fremden Männern.",
+      "Bedingung aussprechen ohne Notwendigkeit.",
+      "Auftragen von Parfüm auf die Ihram-Kleidung."
+    ],
+    "note": "Ihram ist die Absicht, nicht nur die Kleidung."
+  },
+  "rukn2": {
+    "arabicNum": "2",
+    "title": "Der Tawaf",
+    "definition": "Sieben Runden um die Kaaba, beginnend und endend am Schwarzen Stein, die Kaaba auf der linken Seite.",
+    "ruling": "Säule — Die Umrah ist ohne ihn nicht gültig.",
+    "details": [
+      "Jede Runde beginnt am Schwarzen Stein mit einem Takbir.",
+      "Die Kaaba muss links vom Pilger sein.",
+      "Sieben vollständige Runden; Tawaf im Hijr Ismail ist ungültig.",
+      "Rituelle Reinheit ist erforderlich.",
+      "Idtiba und Ramal sind nur für Männer im Umrah-Tawaf Sunnah."
+    ],
+    "mustahabb": [
+      "Idtiba (Entblößung der rechten Schulter) für Männer.",
+      "Ramal (schnelles Gehen) in den ersten drei Runden für Männer.",
+      "Den Schwarzen Stein berühren oder mit Takbir darauf zeigen.",
+      "Die Jemenitische Ecke berühren.",
+      "Dua zwischen der Jemenitischen Ecke und dem Schwarzen Stein.",
+      "Viel Dhikr und Koranlesen.",
+      "Ehrfurcht und Ruhe."
+    ],
+    "makrooh": [
+      "Laute Gruppengebete.",
+      "Drängeln am Schwarzen Stein.",
+      "Berühren aller Ecken der Kaaba.",
+      "Weltliche Gespräche.",
+      "Rennen in allen Runden."
+    ],
+    "note": "Die Hand nach dem Zeigen auf den Stein zu küssen, ist nicht vom Propheten ﷺ überliefert."
+  },
+  "rukn3": {
+    "arabicNum": "3",
+    "title": "Der Sa'i",
+    "definition": "Sieben Runden zwischen Safa und Marwa.",
+    "ruling": "Säule — Die Umrah ist ohne ihn ungültig.",
+    "details": [
+      "Von Safa nach Marwa ist eine Runde, der Rückweg eine zweite.",
+      "Beginnt bei Safa, endet bei Marwa.",
+      "Rituelle Reinheit ist empfohlen, aber keine Pflicht.",
+      "Schnelles Gehen zwischen den grünen Markierungen (für Männer)."
+    ],
+    "mustahabb": [
+      "Rezitieren des entsprechenden Koranverses.",
+      "Sich der Qibla zuwenden und Dhikr sprechen.",
+      "Schnelles Gehen zwischen den Markierungen (nur Männer).",
+      "Besteigen von Safa und Marwa."
+    ],
+    "makrooh": [
+      "Rennen der Frauen.",
+      "Rennen auf der gesamten Strecke.",
+      "Mit Marwa statt Safa beginnen.",
+      "Ablenkung durch Gespräche."
+    ],
+    "note": "Sa'i ist nach der Mehrheit der Gelehrten auch ohne rituelle Reinheit gültig."
+  },
+  "rukn4": {
+    "arabicNum": "4",
+    "title": "Rasieren oder Kürzen",
+    "definition": "Das Rasieren oder Kürzen der Kopfhaare nach dem Sa'i zur Beendigung des Ihram.",
+    "ruling": "Pflicht (Wajib) bei der Mehrheit der Gelehrten.",
+    "details": [
+      "Männer: Rasieren ist besser, Kürzen reicht aus.",
+      "Frauen: Schneiden etwa eine Fingerkuppe ab.",
+      "Kürzen reicht nicht, wenn nur wenige Haare vorne geschnitten werden."
+    ],
+    "mustahabb": [
+      "Komplette Rasur für Männer (außer kurz vor der Hajj).",
+      "Sofortiges Rasieren/Kürzen nach dem Sa'i.",
+      "Dua nach dem Rasieren."
+    ],
+    "makrooh": [
+      "Nur wenige Haare abschneiden.",
+      "Den Ihram ablegen, bevor geschnitten wurde.",
+      "Rasieren des Kopfes für Frauen."
+    ],
+    "note": "Damit ist die Umrah vollendet."
+  }
+}

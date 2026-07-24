@@ -1,0 +1,89 @@
+{
+  "eyebrow": "Disposiciones del Ihram",
+  "title": "Prohibiciones del Ihram",
+  "description": "Los asuntos de los que se prohíbe al Muhrim después de entrar en el rito hasta desacralizarse de él, con evidencias y alertas.",
+  "warning_title": "Alerta jurídica importante para el peregrino",
+  "warning_body": "Quien cometa una prohibición del Ihram deliberadamente, sabiendo la regla, voluntariamente, peca, y algunas prohibiciones tienen Fidyah según su tipo. En cuanto a quien cae en la prohibición por olvido, ignorancia o coacción, este asunto tiene detalles que varían según el tipo de prohibición.",
+  "labels": {
+    "daleel": "Evidencia legal",
+    "note": "💡 Excepción y alerta: ",
+    "faqTitle": "Preguntas frecuentes y alertas"
+  },
+  "items": {
+    "p1": {
+      "n": "١",
+      "title": "Eliminar vello",
+      "body": "Está prohibido para el Muhrim eliminar deliberadamente el vello de su cabeza o cuerpo por afeitado, arrancar u otros medios, excepto por una excusa legal como la presencia de daño que requiera eliminar el vello.",
+      "daleel": "﴿وَلَا تَحْلِقُوا رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ الْهَدْيُ مَحِلَّهُ﴾ [Al-Baqarah: 196]",
+      "note": "Si el vello cae sin intención durante ablución, baño o peinado, no hay problema."
+    },
+    "p2": {
+      "n": "٢",
+      "title": "Cortar uñas",
+      "body": "Está prohibido para el Muhrim cortar deliberadamente las uñas de las manos o pies hasta desacralizarse de su Ihram.",
+      "note": "Si la uña se rompe y le causa daño, no hay problema en eliminar la parte dañina."
+    },
+    "p3": {
+      "n": "٣",
+      "title": "Usar perfume",
+      "body": "Está prohibido para el Muhrim usar perfume después del Ihram en su cuerpo, ropa o cabeza. El perfume incluye: fragancias, aceite de oud, almizcle e incienso con intención de perfumarse.",
+      "note": "En cuanto al perfume que usó antes del Ihram, no le perjudica incluso si su efecto permanece después del Ihram; porque el Profeta ﷺ se perfumó antes de su Ihram."
+    },
+    "p4": {
+      "n": "٤",
+      "title": "Usar ropa cosida (para hombres)",
+      "body": "Está prohibido para el hombre Muhrim usar lo que está cortado según el tamaño del cuerpo o parte de él, como camisa, pantalones, turbante, capucha, calcetines y zapatos.",
+      "note": "Se le permite usar sandalias, si no encuentra sandalias usa zapatos. En cuanto a la mujer, no tiene ropa específica para el Ihram, usa lo que quiera de ropa que cubra sin ser provocativa."
+    },
+    "p5": {
+      "n": "٥",
+      "title": "Cubrir la cabeza (para hombres)",
+      "body": "Está prohibido para el hombre cubrir su cabeza con lo que generalmente se adhiere a ella, como gorra, turbante o kufiyah.",
+      "note": "En cuanto a protegerse con paraguas, techo de coche o tienda, no hay problema; porque no se considera cubrir la cabeza prohibido."
+    },
+    "p6": {
+      "n": "٦",
+      "title": "Usar Niqab y guantes (para mujeres)",
+      "body": "La mujer no debe usar Niqab mientras está en Ihram, ni usar guantes.",
+      "note": "Si está en presencia de hombres extraños, se le prescribe bajar su Jimar sobre su rostro sin usar Niqab."
+    },
+    "p7": {
+      "n": "٧",
+      "title": "Contrato de matrimonio",
+      "body": "No está permitido para el Muhrim contraer para sí mismo o para otros un contrato de matrimonio, ni pedir la mano de una mujer hasta desacralizarse de su Ihram."
+    },
+    "p8": {
+      "n": "٨",
+      "title": "Relaciones íntimas y sus preliminares",
+      "body": "Las relaciones íntimas son una de las mayores prohibiciones del Ihram, así como está prohibido todo lo que sea causa de ello como contacto con deseo, besar o tocar con deseo."
+    },
+    "p9": {
+      "n": "٩",
+      "title": "Cazar animales terrestres",
+      "body": "Está prohibido para el Muhrim cazar animales terrestres permitidos, ayudar en su caza o indicar hacia ellos.",
+      "note": "En cuanto a cazar del mar, no entra en esta regla."
+    }
+  },
+  "faqs": [
+    {
+      "q": "¿Está permitido usar jabón o champú?",
+      "a": "Está permitido usar jabón y champú si no están perfumados. En cuanto a si contienen perfume con el que se pretende perfumarse, deben evitarse durante el Ihram."
+    },
+    {
+      "q": "¿Está permitido usar reloj y gafas?",
+      "a": "Sí, está permitido usar reloj, gafas, audífonos, cinturón, reloj de pasos, llevar teléfono y usarlo; porque no son de las prohibiciones del Ihram."
+    },
+    {
+      "q": "¿Está permitido usar paraguas?",
+      "a": "Sí, está permitido protegerse con paraguas, techo de coche o paraguas en el Haram, y eso no afecta el Ihram."
+    },
+    {
+      "q": "¿Está permitido cambiar la ropa de Ihram?",
+      "a": "Está permitido para el Muhrim cambiar la ropa de Ihram si se ensucia o necesita otra, así como está permitido lavarla."
+    },
+    {
+      "q": "¿Está permitido bañarse durante el Ihram?",
+      "a": "Está permitido para el Muhrim bañarse, lavar la cabeza y hacer ablución, siempre que no elimine deliberadamente el vello."
+    }
+  ]
+}

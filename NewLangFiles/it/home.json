@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "badge": "Il tuo portale guida per la Sacra Casa di Dio",
+    "title": "Murshid",
+    "subtitle": "La tua guida interattiva e completa per compiere i riti dell'Umrah e la visita con totale tranquillità e facilità, in accordo con la guida del Profeta.",
+    "btnStart": "Inizia il viaggio dell'Umrah",
+    "btnDuas": "Suppliche e Ricordi"
+  },
+  "quickLinks": {
+    "title": "Guida ai Riti e ai Servizi",
+    "subtitle": "Scegli la sezione appropriata per esplorare le regole religiose e i dettagli del viaggio."
+  },
+  "quickCards": {
+    "umrah": {
+      "label": "Il viaggio dell'Umrah",
+      "desc": "Passo dopo passo"
+    },
+    "arkaan": {
+      "label": "Pilastri dell'Umrah",
+      "desc": "Azioni raccomandate e sconsigliate"
+    },
+    "wajibaat": {
+      "label": "Obblighi e Sunnah",
+      "desc": "Prescrizioni obbligatorie e raccomandate"
+    },
+    "prohibitions": {
+      "label": "Divieti dell'Ihram",
+      "desc": "Cosa deve essere evitato"
+    },
+    "fidya": {
+      "label": "Regole dell'Espiazione",
+      "desc": "Quando è dovuta e come si paga"
+    },
+    "mistakes": {
+      "label": "Errori Comuni",
+      "desc": "Evitare gli errori"
+    },
+    "duas": {
+      "label": "Suppliche e Ricordi",
+      "desc": "Suppliche tradizionali"
+    },
+    "tips": {
+      "label": "Valigia del Pellegrino",
+      "desc": "Lista dell'equipaggiamento e consigli"
+    },
+    "attractions": {
+      "label": "Luoghi da visitare",
+      "desc": "Monumenti di Mecca e Medina"
+    },
+    "hotels": {
+      "label": "Hotel e Guide",
+      "desc": "Luoghi di soggiorno ed accompagnamento"
+    },
+    "fazah": {
+      "label": "Fazah",
+      "desc": "Rete di Soccorso Decentralizzata"
+    }
+  },
+  "stepper": {
+    "badge": "🗺️ Mappa stradale interattiva",
+    "title": "Il percorso dell'Umrah passo dopo passo",
+    "subtitle": "Segui dettagliatamente i riti e i passaggi e impara le suppliche e le azioni raccomandate in ogni fase.",
+    "stepLabel": "Passaggio {{id}}",
+    "stepOf": "Passaggio {{id}} di {{total}}",
+    "recommendedLabel": "💡 Principali Sunnah e azioni raccomandate:",
+    "duasLabel": "Dalle suppliche per questa fase:",
+    "duasEmpty": "Scegli la supplica che desideri per il bene di questo mondo e dell'Altra Vita e moltiplica le richieste di perdono.",
+    "viewFullBtn": "Visualizza la guida completa, le Sunnah e gli errori"
+  }
+}

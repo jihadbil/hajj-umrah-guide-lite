@@ -1,0 +1,540 @@
+{
+  "eyebrow": "Umra safari",
+  "title": "Bosqichma-bosqich Umra qo'llanmasi",
+  "description": "Umra amallarini boshidan to to'liq ehromdan chiqishgacha tafsilotlari bilan bajarish uchun keng qamrovli va amaliy qo'llanma.",
+  "labels": {
+    "recommended": "Mustahablar (Tavsiya etilgan amallar)",
+    "disliked": "Makruhlar (Yoqtirilmagan amallar)",
+    "mistakes": "Xatolar va To'g'rilashlar",
+    "duas": "Duo va Zikrlar",
+    "guide": "Qo'llanma",
+    "warningTitle": "Ziyoratchilar uchun muhim ogohlantirish",
+    "nextStep": "Keyingi qadam",
+    "stepLabel": "{{id}}-qadam",
+    "stepOf": "{{id}} / {{total}} qadam",
+    "stepsCount": "{{count}} qadam"
+  },
+  "steps": {
+    "step1": {
+      "title": "Ehromdan oldin",
+      "subtitle": "Umra safariga tayyorgarlik",
+      "intro": "Umrani boshlashdan oldin ibodatga eng mukammal holatda kirishishingiz uchun ehromga tayyorgarlik ko'rish mustahabdir. Bu tayyorgarliklar Payg'ambarimiz ﷺ qilgan sunnatlardan bo'lib, Umrani qulaylik va xotirjamlik bilan bajarishga yordam beradi.",
+      "sections": [
+        {
+          "heading": "Qanday tayyorgarlik ko'rasiz?",
+          "body": "Agar miyqat tomon ketayotgan bo'lsangiz, quyidagilarni qilish mustahabdir:",
+          "list": [
+            "Imkoni bo'lsa g'usl qilish.",
+            "Badanni tozalash, tirnoqlarni olish va ehromdan oldin tozalanishi kerak bo'lgan tuklarni olish.",
+            "Faqat erkaklar uchun badanga xushbo'ylik surtish, ammo ehrom kiyimiga xushbo'ylik tegishidan saqlanish.",
+            "Agar miyqatda g'usl qila olmasangiz, hech qisi yo'q. Makkaga yetib borgach, tavofdan oldin imkoni bo'lsa g'usl qilish mustahabdir."
+          ]
+        },
+        {
+          "heading": "Erkaklar uchun ehrom kiyimi",
+          "body": "Izor va rido kiyiladi, ularning oq va toza bo'lishi mustahabdir."
+        },
+        {
+          "heading": "Ayollar uchun ehrom kiyimi",
+          "body": "Ayollar avratni yopadigan va e'tiborni tortmaydigan o'zining odatiy kiyimida ehromga kiradi. Ehrom holatida yuziga niqob va qo'liga qo'lqop kiymaydi. Agar begona erkaklardan yuzini to'sishga ehtiyoj tug'ilsa, niqobdan boshqa narsa bilan to'sadi."
+        }
+      ],
+      "recommended": [
+        "Ehromdan oldin g'usl qilish (garchi g'usl vojib bo'lmasa ham) — bu ta'kidlangan sunnatdir.",
+        "Keyinchalik ehtiyoj tug'ilmasligi uchun ehromdan oldin tirnoqlarni olinishi va ortiqcha tuklarni tozalanishi.",
+        "Erkaklar uchun ehromdan oldin badanga xushbo'ylik surtish (uning isi ehromdan keyin ham qolsa zarari yo'q).",
+        "Oq va toza izor va rido kiyish.",
+        "Miyqatda masjid bo'lsa, ikki rakat namoz o'qish."
+      ],
+      "disliked": [
+        "Imkoni bo'la turib ehromdan oldin g'uslni tark etish.",
+        "Tirnoq va tuklarni tozalashda e'tiborsizlik qilib, keyin ehrom holatida qiyinchilikka tushish.",
+        "Safar tayyorgarligini ko'rib bo'lgach, miyqatda besabab uzoq kutish."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Oq kiyim kiyish shart va unsiz Umra bo'lmaydi deb hisoblash.",
+          "right": "Oq kiyim kiyish mustahab, vojib emas. Har qanday toza izor va rido bilan Umra durust bo'ladi."
+        },
+        {
+          "wrong": "Xushbo'ylikni to'g'ridan-to'g'ri ehrom kiyimiga surtish.",
+          "right": "Xushbo'ylik kiyimga emas, badanga surtiladi va bu ehrom niyatidan oldin qilinishi kerak."
+        },
+        {
+          "wrong": "Tirnoqlarni olish yoki ortiqcha tuklarni tozalashni ehromdan keyinga qoldirish.",
+          "right": "Bularning barchasi ehromdan oldin qilinishi kerak, chunki ehromdan keyin ularni qilish taqiqlanadi."
+        },
+        {
+          "wrong": "Ayollarning ehrom uchun maxsus kiyim kerak deb o'ylashi.",
+          "right": "Ayollar avratni yopadigan har qanday odatiy kiyimda ehromga kirishi mumkin, faqat niqob va qo'lqop kiymasliklari kerak."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Umra uchun ehrom niyati",
+          "arabic": "اللَّهُمَّ لَبَّيْكَ عُمْرَةً",
+          "source": "Ehromga kirayotganda buni tilda aytish mustahabdir"
+        },
+        {
+          "title": "To'siqdan qo'rqqanda shart qilish (Ishtirot)",
+          "arabic": "فَإِنْ حَبَسَنِي حَابِسٌ فَمَحِلِّي حَيْثُ حَبَسْتَنِي",
+          "source": "Muttafaqun alayh — biror to'siq bo'lishidan qo'rqqan kishi uchun mustahabdir"
+        }
+      ],
+      "note": "Ehromga tayyorgarlik ko'rish mustahab sunnat bo'lib, Umra sahih bo'lishining sharti emas. Agar g'usl qila olmasangiz yoki oq kiyim kiya olmasangiz, bu ibodatingizga ta'sir qilmaydi.",
+      "nextStep": "Ehrom"
+    },
+    "step2": {
+      "title": "Ehrom",
+      "subtitle": "Ibodatning boshlanishi",
+      "intro": "Endi siz Umra boshlanadigan joy – miyqatga yetib keldingiz. Bu yerdan ibodat va zikrga to'la muborak safarni boshlash uchun Umra niyati bilan ehromga kirasiz.",
+      "sections": [
+        {
+          "heading": "Ehromga qanday kirasiz?",
+          "body": "Ehrom kiyimini kiyib, tayyor bo'lganingizdan so'ng, dilingizda Umrani niyat qiling, so'ng: «Labbayk umratan» yoki «Allohumma labbayk umratan» deb ayting. Niyat qilib, uni tilda aytishingiz bilan ehromga kirgan hisoblanasiz va Umrangizni tugatmaguningizcha uning hukmlariga rioya qilishingiz kerak bo'ladi."
+        },
+        {
+          "heading": "Agar Umrani tugata olmaslikdan qo'rqsangiz",
+          "body": "Agar kasal bo'lsangiz yoki kutilmagan holat sizni ibodatni yakunlashdan to'sishidan qo'rqsangiz, ehrom vaqtida shart qilishingiz mustahabdir. Siz: «Fa in habasani habisun fa mahilli haysu habastani» (Agar biror to'siq meni ushlab qolsa, chiqish joyim Sen meni ushlab qolgan joydadir) deysiz. Bu shariatdagi yengillik bo'lib, agar biror uzr sababli Umrani tugata olmasangiz, sizga hech qanday gunoh yoki jarima bo'lmaydi."
+        }
+      ],
+      "recommended": [
+        "Ehromdan keyin kechiktirmasdan darhol talbiyani boshlash.",
+        "Niyat qilish vaqtida imkon bo'lsa qiblaga yuzlanish.",
+        "Umra ehromi niyatini biroz ovoz chiqarib aytish.",
+        "Umrani tugatishdan to'sib qo'yadigan holatdan qo'rqqan kishining shart qilishi."
+      ],
+      "disliked": [
+        "Ehrom niyatidan keyin uzrsiz talbiyani kechiktirish.",
+        "Ehromdan keyin talbiyani boshlashdan oldin suhbatlashish yoki telefon bilan chalg'ish.",
+        "Sog'lom kishi uchun mustahab bo'lmagani uchun ehtiyojsiz holda shart qilish."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Ehrom faqat ikkita kiyimni kiyish bilan boshlanadi deb o'ylash.",
+          "right": "Ehrom ibodatga kirish niyatidir, kiyim kiyish uning ko'rinishi, asosi emas."
+        },
+        {
+          "wrong": "Miyqatdan ehromsiz o'tib ketib, keyin ehromga kirish.",
+          "right": "Miyqatga qaytib, u yerdan ehromga kirish kerak, aks holda ko'pchilik ulamolarga ko'ra qurbonlik (dam) vojib bo'ladi."
+        },
+        {
+          "wrong": "Hojat bo'lmasa ham har doim shart qilish.",
+          "right": "Shart qilish faqat to'siqdan qo'rqqanda berilgan shariat ruxsatidir, hammaga sunnat emas."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Talbiya — Ehromdan darhol keyin aytiladi",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "source": "Muttafaqun alayh"
+        },
+        {
+          "title": "Talbiyadan keyin Payg'ambarimizga ﷺ salovat aytish",
+          "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ",
+          "source": "Talbiyadan keyin buni aytish mustahabdir"
+        },
+        {
+          "title": "Talbiya va salovatdan keyingi duo",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ رِضَاكَ وَالْجَنَّةَ، وَأَعُوذُ بِكَ مِنْ سَخَطِكَ وَالنَّارِ",
+          "source": "Mustahab — Mashhur duolardan biri"
+        }
+      ],
+      "note": "Umrani niyat qilgan kishiga miyqatdan ehromsiz o'tish joiz emas, shuning uchun safardan oldin o'z miyqatingizni bilib oling.",
+      "nextStep": "Talbiya"
+    },
+    "step3": {
+      "title": "Talbiya",
+      "subtitle": "Allohning nidosiga javob bering",
+      "intro": "Ehromga kirganingizdan so'ng siz ibodatning eng buyuk shiorlaridan bo'lgan talbiyani boshlaysiz. Unda Allohning nidosiga javob berish, Tavhid va Unga bo'ysunishni izhor qilish bordir. Talbiya Masjidul Haramga yo'l davomida, to tavofni boshlaguningizcha sizning hamrohingiz bo'ladi.",
+      "sections": [
+        {
+          "heading": "Qachon boshlanadi va to'xtatiladi?",
+          "body": "Talbiyani ehromdan keyin darhol boshlang va Makka yo'lida ko'proq ayting. Masjidul Haramga yetib borguningizcha talbiyani davom ettirasiz. Ka'baga yetib borib, tavofni boshlamoqchi bo'lganingizda talbiyani to'xtatasiz va tavofning birinchi aylanmasini boshlaysiz."
+        },
+        {
+          "heading": "Zikr va duoni ko'paytiring",
+          "body": "Faqat talbiya bilan cheklanib qolmang, balki Allohning zikrini va dunyo-yu oxirat yaxshiliklarini so'rab duo qilishni ko'paytiring. Chunki bu vaqtlar Allohga yuzlanish mustahab bo'lgan muborak vaqtlardir."
+        }
+      ],
+      "recommended": [
+        "Erkak kishining talbiyani o'rtacha baland ovozda aytishi — ta'kidlangan sunnat.",
+        "Masjidul Haramgacha bo'lgan yo'l davomida talbiyani ko'paytirish.",
+        "Holat o'zgarganda talbiyani yangilash: ulovga minganda, tushganda, balandlikka ko'tarilganda yoki boshqa musofir bilan uchrashganda.",
+        "Talbiya bilan birga Payg'ambarimizga ﷺ salovat va duo qo'shib aytish.",
+        "Ka'baga yetib borish va uni ko'rish bilan talbiyani to'xtatish."
+      ],
+      "disliked": [
+        "Ayollarning begona erkaklar oldida talbiyani baland ovozda aytishi.",
+        "Gaplashish yoki telefon sababli talbiyadan uzoq vaqt chalg'ish.",
+        "Erkaklarning talbiyani hatto o'zi eshitmaydigan darajada past ovozda aytishi."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Talbiyani ma'lum bir marta aytish kerak deb hisoblash.",
+          "right": "Talbiyaning aniq soni yo'q, aksincha Masjidul Haramga yetib borguncha uni ko'paytirish kerak."
+        },
+        {
+          "wrong": "Talbiyaga to'qima so'zlar qo'shish yoki uni o'zgartirish.",
+          "right": "Shariatdagi talbiya Payg'ambarimizdan ﷺ sobit bo'lgan talbiyadir, unga hech narsa qo'shilmaydi."
+        },
+        {
+          "wrong": "Hech qanday sababsiz Masjidul Haramga yetib bormasdan oldin talbiyani to'xtatish.",
+          "right": "Talbiya Ka'baga yetib borib, tavofga tayyorgarlik ko'rgungacha davom etishi kerak."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Talbiya — Tez-tez takrorlanadi",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "source": "Muttafaqun alayh"
+        },
+        {
+          "title": "Talbiyalar orasida aytiladigan duo",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ رِضَاكَ وَالْجَنَّةَ",
+          "source": "Talbiyalar orasida aytish mustahabdir"
+        },
+        {
+          "title": "Talbiyalar orasida istig'for (kechirim so'rash)",
+          "arabic": "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ وَأَتُوبُ إِلَيْهِ",
+          "source": "Barcha vaqtlarda aytish mustahabdir"
+        }
+      ],
+      "note": "Agar siz erkak bo'lsangiz, atrofdagilarga ozor bermasdan talbiyani o'rtacha baland ovozda aytishingiz sunnatdir. Ayollar esa faqat o'zi eshitadigan darajada aytadi.",
+      "nextStep": "Masjidul Haramga kirish"
+    },
+    "step4": {
+      "title": "Masjidul Haramga kirish",
+      "subtitle": "Muqaddas Ka'ba bilan ilk uchrashuv",
+      "intro": "Siz Allohning baytiga yetib keldingiz va endi yer yuzidagi eng ulug' joy oldida turibsiz. Shunday ekan, bu joyning ulug'ligini his etib, xotirjamlik va viqor bilan kiring. Bu lahzani xushu' va xotirjamlikka to'la ibodatning boshlanishiga aylantiring.",
+      "sections": [
+        {
+          "heading": "Masjidga kirishda",
+          "body": "Masjidul Haramga o'ng oyoq bilan kiring, masjidga kirish duosini o'qing va Ka'ba tomon xotirjam qadam tashlang."
+        },
+        {
+          "heading": "Ka'bani ko'rganda",
+          "body": "Ka'baga birinchi marta ko'zingiz tushganda, musulmonlarning qiblasi va Allohning ibodati uchun qurilgan eng ulug' uy oldida ekanligingizni eslang. Ka'bani birinchi marta ko'rganda Payg'ambarimizdan ﷺ maxsus duo sobit bo'lmagan, shuning uchun dunyo va oxirat yaxshiliklaridan xohlaganingizni so'rab duo qilavering."
+        },
+        {
+          "heading": "Tavofni boshlashdan oldin",
+          "body": "Agar siz hali ham talbiya aytayotgan bo'lsangiz, Ka'baga yetib kelib tavofga tayyorlanganingizda talbiyani to'xtating. Keyin Qora tosh (Hajarul asvad) tomon yo'l oling; tavofning birinchi aylanmasi shu yerdan boshlanadi."
+        }
+      ],
+      "recommended": [
+        "Payg'ambarimiz ﷺ ga ergashib Bobu Bani Shayba (Bobus-Salom) orqali kirish.",
+        "Masjidga kirish duosini o'qib, o'ng oyoq bilan kirish.",
+        "Ka'bani birinchi marta ko'rganda xushu' va xotirjamlikni saqlab, duo bilan mashg'ul bo'lish.",
+        "Ka'bani ko'rganda o'zi xohlagan duoni qilish, chunki bu duo qabul bo'ladigan vaqtdir.",
+        "Tavofga tayyorgarlik ko'rayotganda talbiyani to'xtatish."
+      ],
+      "disliked": [
+        "Masjidga kirish bilanoq rasmga olish yoki jonli efir bilan mashg'ul bo'lib qolish.",
+        "Ka'ba tomon tezlashish va odamlarni itarish.",
+        "Masjid ichida ovozni baland qilish va shovqin ko'tarish.",
+        "Ka'baga yaqinlashish maqsadida boshqalarga ozor berish."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Ka'bani birinchi marta ko'rganda maxsus bir duo o'qish kerak deb hisoblash.",
+          "right": "Payg'ambarimizdan ﷺ maxsus duo sobit bo'lmagan, dunyo va oxirat yaxshiliklaridan o'zingiz xohlagan duoni qilishingiz mumkin."
+        },
+        {
+          "wrong": "Ka'baga yetib borib, tavofni boshlaganda ham talbiyani davom ettirish.",
+          "right": "Tavofni boshlash vaqtida talbiyani to'xtatish kerak."
+        },
+        {
+          "wrong": "Qora toshga tezroq yetib borish uchun odamlarni itarish.",
+          "right": "Xotirjamlik bilan yaqinlashing, agar imkoni bo'lmasa, uzoqdan ishora qilib takbir ayting."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Masjidga kirish duosi",
+          "arabic": "بِسْمِ اللَّهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ، أَعُوذُ بِاللَّهِ الْعَظِيمِ، وَبِوَجْهِهِ الْكَرِيمِ، وَسُلْطَانِهِ الْقَدِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ، اللَّهُمَّ افْتَحْ لِي أَبْوَابَ رَحْمَتِكَ",
+          "source": "Sahih Muslim"
+        },
+        {
+          "title": "Ka'bani ko'rganda o'qiladigan duo (ixtiyoriy)",
+          "arabic": "اللَّهُمَّ زِدْ هَذَا الْبَيْتَ تَشْرِيفًا وَتَعْظِيمًا وَتَكْرِيمًا وَمَهَابَةً، وَزِدْ مَنْ شَرَّفَهُ وَكَرَّمَهُ مِمَّنْ حَجَّهُ أَوِ اعْتَمَرَهُ تَشْرِيفًا وَتَكْرِيمًا وَتَعْظِيمًا وَبِرًّا",
+          "source": "Salaf zotlardan naql qilingan duolardan biri"
+        }
+      ],
+      "note": "Masjidul Haramda odam juda ko'p bo'lishi mumkin, shuning uchun Ka'baga tez yetib borishga urinmang yoki odamlarni itarmang. Xotirjam va muloyim bo'ling.",
+      "nextStep": "Tavof"
+    },
+    "step5": {
+      "title": "Tavof",
+      "subtitle": "Ka'ba atrofida yetti aylanma",
+      "intro": "Masjidul Haramga kirib, Matafga (tavof maydoniga) yetib borgach, Qora tosh (Hajarul asvad) tomon yo'l oling, chunki tavofning har bir aylanmasi shu yerdan boshlanib, shu yerda tugaydi. Niyat va xushu' uchun bir oz vaqt ajrating, so'ngra tavofingizni xotirjamlik bilan boshlang.",
+      "sections": [
+        {
+          "heading": "Tavofni qanday boshlaysiz?",
+          "body": "Qora toshning ro'parasida turing va Ka'bani chap tomoningizga oling, so'ngra birinchi aylanmani boshlang. Sizning tavofingiz Qora toshdan boshlanib, yana o'sha yerda tugaydigan yetti to'liq aylanmadan iborat bo'ladi."
+        },
+        {
+          "heading": "Qora tosh oldida nima qilasiz?",
+          "body": "Agar hech kimga ozor bermasdan Qora toshga yetib bora olsangiz, uni o'ng qo'lingiz bilan silang va o'ping, so'ng: «Bismillahi, vallohu akbar» deng. Agar o'pishning iloji bo'lmasa, qo'lingiz bilan ishora qilib: «Allohu akbar» deng."
+        },
+        {
+          "heading": "Erkaklar uchun iztibo' va ramal",
+          "body": "Erkaklar uchun Umra tavofida iztibo' qilish (ya'ni, ridoning o'rtasini o'ng qo'ltiq ostidan o'tkazib, uning ikki uchini chap yelka ustiga tashlash) va dastlabki uch aylanmada ramal qilish (qadamlarni qisqa tashlab, tez yurish) sunnatdir. Qolgan to'rtta aylanmada oddiy holatda yuriladi."
+        }
+      ],
+      "recommended": [
+        "Erkaklar uchun butun tavof davomida iztibo' qilish va tavofning ikki rakat namozidan oldin ridoni asl holatiga qaytarish.",
+        "Erkaklar uchun dastlabki uch aylanmada ramal qilish.",
+        "Har bir aylanmaning boshida Qora toshni silash yoki ishora qilish.",
+        "Imkoni bo'lsa, har bir aylanmada Rukni Yamaniyni qo'l bilan silash.",
+        "Rukni Yamaniy va Qora tosh orasida «Robbana atina fid-dunya hasanatan» o'qish.",
+        "Butun tavof davomida zikr, duo va Qur'on tilovatini ko'paytirish.",
+        "Tavofdan keyin Maqomi Ibrohim orqasida ikki rakat namoz o'qish.",
+        "Tavof namozidan so'ng Zamzam suvi ichish va duo qilish."
+      ],
+      "disliked": [
+        "Boshqa tavof qiluvchilarni chalg'itadigan darajada jamoat bo'lib ovozni baland qilib duo qilish.",
+        "Tirbandlikda Qora toshga yetish uchun qattiq tirbandlik hosil qilish.",
+        "Tavof davomida dunyoviy suhbatlar bilan mashg'ul bo'lish.",
+        "Qora tosh va Rukni Yamaniydan tashqari Ka'baning boshqa burchaklarini silash."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Tavofni Qora tosh ro'parasiga kelmasdan oldin yoki uni o'tib ketgandan keyin boshlash.",
+          "right": "Har bir aylanma Qora tosh ro'parasidan boshlanib, yana o'sha yerda tugashi kerak."
+        },
+        {
+          "wrong": "Yettita aylanmaning har biri uchun maxsus duo bor deb ishonish.",
+          "right": "Payg'ambarimizdan ﷺ har bir aylanma uchun maxsus duo sobit bo'lmagan, xohlagan duongizni qilaverasiz."
+        },
+        {
+          "wrong": "Qora toshga ishora qilgandan keyin qo'lni o'pish yoki surtish.",
+          "right": "Faqat ishora qilishning o'zi kifoya, bu holatda qo'lni o'pish Payg'ambarimizdan ﷺ sobit bo'lmagan."
+        },
+        {
+          "wrong": "Ka'baning barcha to'rtta burchagini silash yoki devorlariga surkash.",
+          "right": "Payg'ambarimizdan ﷺ faqat Qora tosh va Rukni Yamaniyni silash sobit bo'lgan."
+        },
+        {
+          "wrong": "Qora toshga yetish uchun odamlarni itarish va ozor berish.",
+          "right": "Silash va o'pish sunnat, lekin musulmonlarga ozor berish haromdir. Tirbandlikda ishora qilishning o'zi yetarli."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Qora toshni silash yoki ishora qilish vaqtida",
+          "arabic": "بِسْمِ اللَّهِ، وَاللَّهُ أَكْبَرُ",
+          "source": "Sahih Buxoriy"
+        },
+        {
+          "title": "Rukni Yamaniy va Qora tosh orasida — har aylanmada",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "source": "Sunan Abu Dovud (ulamoarga ko'ra hasan)"
+        },
+        {
+          "title": "Butun tavof davomida o'qiladigan umumiy duo",
+          "arabic": "سُبْحَانَ اللَّهِ، وَالْحَمْدُ لِلَّهِ، وَلَا إِلَهَ إِلَّا اللَّهُ، وَاللَّهُ أَكْبَرُ",
+          "source": "Har qanday vaqt uchun eng yaxshi zikr"
+        },
+        {
+          "title": "Zamzam suvi ichganda o'qiladigan duo",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا وَاسِعًا، وَشِفَاءً مِنْ كُلِّ دَاءٍ",
+          "source": "Al-Hokim — Zamzam suvi nima niyatda ichilsa, shunga shifo bo'ladi"
+        }
+      ],
+      "note": "Tavofni boshlashdan oldin tahoratli (kichik va katta nopoklikdan pok) ekanligingizga ishonch hosil qiling, chunki tahoratsiz tavof sahih bo'lmaydi.",
+      "nextStep": "Tavofning ikki rakat namozi va Zamzam suvi"
+    },
+    "step6": {
+      "title": "Tavofning ikki rakat namozi va Zamzam suvi",
+      "subtitle": "Yetti aylanma tugagandan keyin",
+      "intro": "Yetti aylanmani tugatganingizdan so'ng, tavofingiz yakuniga yetdi. Agar tavof paytida iztibo' (o'ng yelkani ochiq qoldirish) qilgan bo'lsangiz, endi ridoyingizni (choynagingizni) odatiy holatiga keltiring. So'ngra Maqomi Ibrohim tomonga borib tavofning ikki rakat namozini o'qing, shundan keyin muborak Zamzam suvidan iching.",
+      "sections": [
+        {
+          "heading": "Tavofning ikki rakat namozini o'qish",
+          "body": "Agar imkoningiz bo'lsa, Maqomi Ibrohim orqasida ikki rakat namoz o'qing. Agar tirbandlik tufayli buning iloji bo'lmasa, Masjidul Haramning istalgan joyida o'qishingiz mumkin, Maqomga yetib borish uchun o'zingizni qiynamang yoki boshqalarga ozor bermang. Birinchi rakatda Fotiha surasidan keyin Kofirun surasini, ikkinchi rakatda esa Ixlosh surasini o'qish mustahabdir. Agar boshqa suralarni o'qisangiz ham, namozingiz sahih bo'ladi, hech qanday muammo yo'q."
+        },
+        {
+          "heading": "Namozdan keyin",
+          "body": "Ikki rakat namozni tugatgach, agar qiyinchiliksiz va odamlarga ozor bermasdan Qora toshga (Hajarul asvad) yetib bora olsangiz, uni yana bir bor silang. So'ngra Sa'yni boshlash uchun Safo tog'i tomon yurishda davom eting."
+        },
+        {
+          "heading": "Zamzam suvi iching",
+          "body": "Safo tog'i tomon yurishdan oldin Zamzam suvidan ichib, Allohning fazlini so'rash mustahabdir. Bu Alloh o'z bandalariga rahmat qilib bergan muborak suvidir. Zamzam suvi ichganda Payg'ambarimizdan ﷺ maxsus bir duo sobit bo'lmagan, shuning uchun dunyo va oxirat yaxshiliklarini so'rab duo qilavering. Ammo Payg'ambarimizning ﷺ: «Zamzam suvi nima maqsadda ichilsa, shunga foyda qiladi» degan so'zlarini esga olish mustahabdir."
+        }
+      ],
+      "recommended": [
+        "Tavof tugashi bilan darhol, namoz o'qishdan oldin ridoni (choynagini) odatiy holatiga keltirish.",
+        "Qiyinchilik bo'lmasa, Maqomi Ibrohim orqasida namoz o'qish.",
+        "Birinchi rakatda Kofirun surasi, ikkinchi rakatda Ixlosh surasini o'qish.",
+        "Xolis niyat bilan Zamzam suvi ichib, dunyo va oxirat yaxshiliklarini so'rab duo qilish.",
+        "Namozdan so'ng imkon bo'lsa, birovga ozor bermasdan Qora toshni silash."
+      ],
+      "disliked": [
+        "Tavof tugagandan keyin va namoz o'qishdan oldin ham iztibo' (o'ng yelkani ochiq qoldirish) holatini davom ettirish.",
+        "Namoz albatta Maqomi Ibrohim orqasida o'qilishi kerak deb ishonish va odamlarga ozor berib u yerga intilish.",
+        "Namozdan so'ng Maqom yoki Qora toshga yetib borish uchun odamlar orasida tirbandlik hosil qilish."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Namoz albatta Maqomi Ibrohim orqasida o'qilishi kerak deb ishonish.",
+          "right": "Maqom oldida imkon bo'lmasa, Masjidul Haramning istalgan joyida namoz o'qish joizdir."
+        },
+        {
+          "wrong": "Ikki rakat namoz vaqtida iztibo' (o'ng yelka ochiq) holatida bo'lish.",
+          "right": "Namozdan oldin erkaklar ridolarini odatiy holatiga qaytarib, ikki yelkalarini yopishlari sunnatdir."
+        },
+        {
+          "wrong": "Zamzam suvi ichmaslik yoki bu yerda buning shariatga daxli yo'q deb o'ylash.",
+          "right": "Tavof va namozdan keyin Zamzam suvi ichish mustahabdir va bu vaqtdagi duolar qabul bo'ladi."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Zamzam suvi ichganda o'qiladigan duo",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا وَاسِعًا، وَشِفَاءً مِنْ كُلِّ دَاءٍ",
+          "source": "Al-Hokim — Zamzam suvi qanday niyatda ichilsa, o'shanga xosdir"
+        },
+        {
+          "title": "Tavofning ikki rakat namozidan keyin o'qiladigan duo",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "source": "Baqara surasi 201 — Qur'ondagi eng mukammal duolardan biri"
+        }
+      ],
+      "note": "Maqomi Ibrohim yoki Qora toshga yetib borish uchun o'zingizni qiynamang. Odamlarga qiyinchilik tug'dirmaslik va ularga ozor bermaslik mashaqqat bilan sunnatni bajarishdan muhimroqdir.",
+      "nextStep": "Safo va Marva orasida sa'y qilish"
+    },
+    "step7": {
+      "title": "Safo va Marva orasida sa'y qilish",
+      "subtitle": "Yetti bor borib kelish — Umra rukni",
+      "intro": "Tavof va tavofning ikki rakat namozini tugatganingizdan so'ng, sa'yni boshlash uchun Safo tog'iga borish sunnatdir. Safo va Marva o'rtasida sa'y qilish Umraning asosiy ruknlaridan biri bo'lib, unsiz Umra to'liq bo'lmaydi. Sa'y — Hojar onamizning (a.s.) suv izlab bu ikki tog' orasida yugurganliklari xotirasini jonlantirishdir.",
+      "sections": [
+        {
+          "heading": "Safo tog'iga ko'tarilganda",
+          "body": "Safo tog'iga yetib kelgach, imkon qadar uning ustiga ko'tarilish afzaldir. So'ngra Allohning ushbu so'zlarini tilovat qilasiz: «﴿إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ﴾» (Albatta, Safo va Marva Allohning nishonlaridandir), va «Aba'u bima bada'allohu bihi» (Alloh nimadan boshlagan bo'lsa, men ham o'shandan boshlayman) deysiz. Keyin Qiblaga yuzlanib, qo'llaringizni ko'tarib, Allohga hamd, takbir va tahlil aytib, xohlagan duongizni qilasiz. Payg'ambarimiz ﷺ sunnatlariga ko'ra bu zikrni uch marta takrorlash mustahabdir."
+        },
+        {
+          "heading": "Marva tomon yo'l olish va aylanmalar",
+          "body": "Duoni tugatgach, Safodan tushib, Marva tomon harakatlaning. Birinchi yashil chiroqqa (belgiga) yetganingizda, erkaklar ikkinchi yashil chiroqqacha tezroq yurishlari sunnatdir, shundan keyin yana oddiy tezlikda Marvagacha boradilar. Ayollar uchun tez yurish yo'q, ular butun sa'y davomida odatiy tezlikda yuradilar."
+        },
+        {
+          "heading": "Aylanmalar soni",
+          "body": "Sa'y yetti marta borib kelishdan iborat: Safodan Marvaga borish – bir, Marvadan Safoga qaytish – ikki hisoblanadi. Yettinchi aylanma Marvada tugaydi. Har gal Safo yoki Marvaga yetganda to'xtab, xuddi birinchisidagidek zikr va duo qilish mustahabdir."
+        }
+      ],
+      "recommended": [
+        "Har safar Safo va Marvaga chiqqanda Qur'on oyatini va zikrlarni o'qish.",
+        "Ikki yashil chiroq orasida faqat erkaklarning tez yurishi.",
+        "Sa'y davomida zikr, duo va Qur'on tilovatini ko'paytirish.",
+        "Sa'y davomida tahoratli bo'lish — shart bo'lmasa-da, mustahabdir.",
+        "Har aylanmada Safo va Marvada to'xtab, Qiblaga yuzlanib duo qilish."
+      ],
+      "disliked": [
+        "Ayollarning ikki yashil chiroq orasida tez yurishi.",
+        "Faqat yashil chiroqlar orasida emas, balki butun sa'y masofasida yugurish.",
+        "Dunyoviy gaplar bilan mashg'ul bo'lib, zikr va duo qilish imkoniyatini boy berish.",
+        "O'zini qiynab Safo va Marvaning eng tepasiga chiqishga urinish."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Har bir aylanma uchun maxsus duo bor deb ishonish.",
+          "right": "Payg'ambarimizdan ﷺ har bir aylanma uchun maxsus duo sobit bo'lmagan, musulmon xohlagan duosini qilishi mumkin."
+        },
+        {
+          "wrong": "Butun sa'y masofasida yugurishni sunnat deb bilish.",
+          "right": "Erkaklar uchun faqat ikki yashil chiroq orasida tez yurish sunnat, qolgan joylarda oddiy yurish kerak."
+        },
+        {
+          "wrong": "Erkaklarga taqlid qilib ayollarning ham yashil chiroqlar orasida tez yurishi.",
+          "right": "Tez yurish faqat erkaklar uchun sunnat, ayollar butun sa'y davomida oddiy tezlikda yuradilar."
+        },
+        {
+          "wrong": "Sa'y paytida tahorat buzilsa, sa'y ham buziladi deb o'ylash.",
+          "right": "Sa'y uchun tahoratli bo'lish mustahab, ammo ulamolarning ko'pchiligi tahoratsiz ham sa'y qabul bo'lishini aytishgan."
+        },
+        {
+          "wrong": "Sa'yni Safo o'rniga Marvadan boshlash.",
+          "right": "Sunnat – Safodan boshlab Marvada tugatish, Marvadan boshlangan aylanma hisobga olinmaydi."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Safo va Marvada — uch marta takrorlanadi",
+          "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ، أَنْجَزَ وَعْدَهُ، وَنَصَرَ عَبْدَهُ، وَهَزَمَ الْأَحْزَابَ وَحْدَهُ",
+          "source": "Sahih Muslim — Qiblaga yuzlangandan keyin o'qiladi"
+        },
+        {
+          "title": "Safo tog'iga ko'tarilganda",
+          "arabic": "﴿إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ﴾ أَبْدَأُ بِمَا بَدَأَ اللَّهُ بِهِ",
+          "source": "Jobirning (r.a.) hadisidan Sahih Muslim"
+        },
+        {
+          "title": "Sa'y paytida o'qiladigan umumiy duo",
+          "arabic": "رَبِّ اغْفِرْ وَارْحَمْ، إِنَّكَ أَنْتَ الْأَعَزُّ الْأَكْرَمُ",
+          "source": "Sa'y davomida o'qish mustahab bo'lgan duolardan"
+        }
+      ],
+      "note": "Sa'y Umraning ruknlaridan biri bo'lib, unsiz Umra to'liq bo'lmaydi. Tahoratli bo'lish mustahab, biroq sa'yning to'g'ri bo'lishi uchun shart emas.",
+      "nextStep": "Sochni qirdirish yoki qisqartirish"
+    },
+    "step8": {
+      "title": "Sochni qirdirish yoki qisqartirish",
+      "subtitle": "Umra yakuni va ehromdan chiqish",
+      "intro": "Sa'yni yetti aylanma qilib tugatganingizdan so'ng, Umraning oxirgi amali – sochni qirdirish (taqir qilib olish) yoki qisqartirish qoladi. Ushbu qadamni bajarish orqali sizning Umrangiz yakunlanadi, ehromdan chiqasiz va ehrom sababli harom qilingan narsalar sizga yana halol bo'ladi. Alloh qabul qilsin.",
+      "sections": [
+        {
+          "heading": "Sochni qirdirish yoki qisqartirish hukmi",
+          "body": "Sochni qirdirish yoki qisqartirish Umraning vojiblaridan biridir, bularsiz ehromdan chiqib bo'lmaydi."
+        },
+        {
+          "heading": "Erkaklar uchun",
+          "body": "Erkak kishiga ikkita ishdan biri buyurilgan: barcha sochini qirdirish (bu afzal va to'liqroqdir) yoki barcha sochini qisqartirish. Ulamolar sochni qirdirish afzalligini ta'kidlaganlar. Ammo ziyoratchi Haj mavsumiga yaqin kelgan bo'lsa va Haj qilishni niyat qilgan bo'lsa, unda Hajda qirdirishi uchun sochlarini qisqartirishi afzaldir. Ogohlantirish: Boshning old qismidan bir necha tola sochni qirqish yetarli emas, balki qirdirish yoki qisqartirish butun boshni o'z ichiga olishi kerak."
+        },
+        {
+          "heading": "Ayollar uchun",
+          "body": "Ayollar uchun sochini qirdirish mumkin emas, ular faqat sochlarini qisqartiradilar. Ular sochlarini yig'ib, uchidan barmoq uchi (bir santimetrcha) miqdorida qirqadilar, ibodatni yakunlash uchun shuning o'zi yetarli."
+        }
+      ],
+      "recommended": [
+        "Haj mavsumiga yaqin bo'lmasa, erkaklar uchun sochni to'liq qirdirish (afzal va mukammalroqdir).",
+        "Sochni faqat bir tomondan emas, balki butun bosh bo'ylab teng qisqartirish.",
+        "Sa'y tugashi bilanoq darhol sochni qirdirish yoki qisqartirishga kirishish."
+      ],
+      "disliked": [
+        "Faqat boshning old qismidan bir necha tola soch kesish bilan cheklanish.",
+        "Butun boshni qoldirib, faqat bir tomondan sochni qisqartirish.",
+        "Sochni qirdirish yoki qisqartirishdan oldin Masjidul Haramni tark etish yoki ehrom kiyimini yechish."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Boshning old qismidan bir necha tola soch kesish yetarli deb o'ylash.",
+          "right": "Qisqartirish butun boshdagi sochni o'z ichiga olishi kerak, faqat bir qismini emas."
+        },
+        {
+          "wrong": "Har doim qisqartirish qirdirishdan afzal deb hisoblash.",
+          "right": "Erkaklar uchun qirdirish afzal, faqat yaqinda Haj qilmoqchi bo'lsalar, qisqartirish yaxshiroqdir."
+        },
+        {
+          "wrong": "Ayollarning sochini qirdirishi.",
+          "right": "Ayollar sochlarini qirdirmaydilar, balki sochlari uchidan faqat barmoq uchi miqdorida kesadilar."
+        },
+        {
+          "wrong": "Sochni qirdirish yoki qisqartirishdan oldin ehromdan chiqish yoki kiyimni yechib qo'yish.",
+          "right": "Ziyoratchi sochini qirdirmasdan yoki qisqartirmasdan ehromdan chiqa olmaydi."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Sochni qirdirish yoki qisqartirish vaqtidagi duo",
+          "arabic": "اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ، اللَّهُمَّ اغْفِرْ لِلْمُحَلِّقِينَ وَالْمُقَصِّرِينَ",
+          "source": "Muttafaqun alayh — Hojilar uchun Payg'ambarimizning ﷺ duosi, bu Umra ziyoratchilariga ham tegishli"
+        },
+        {
+          "title": "Umra yakunidagi duo",
+          "arabic": "رَبَّنَا تَقَبَّلْ مِنَّا، إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+          "source": "Baqara surasi 127 — Ibrohim va Ismoil alayhimassalomlarning duosi"
+        }
+      ],
+      "note": "Sochingizni qirdirish yoki qisqartirish orqali Umra amallarini to'liq ado etdingiz va ehromingizdan chiqdingiz. Alloh taolo qabul qilsin, Umrangizni mabrur, sa'yingizni mashkur va gunohlaringizni mag'fur qilsin."
+    }
+  }
+}

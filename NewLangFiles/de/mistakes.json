@@ -1,0 +1,118 @@
+{
+  "eyebrow": "Warnungen & Richtlinien",
+  "title": "Häufige Fehler bei der Umrah",
+  "description": "Die häufigsten Fehler, die Pilger begehen, zusammen mit der korrekten Regelung und Beweisen.",
+  "quote": "Abdullah bin Masud sagte: «Folgt und führt keine Neuerungen ein, denn es ist euch genug gegeben».",
+  "groups": {
+    "ihram": {
+      "category": "Fehler beim Ihram",
+      "mistakes": [
+        {
+          "title": "Miqat ohne Ihram passieren",
+          "wrong": "Einige Pilger passieren den Miqat und treten erst später in den Ihram ein.",
+          "right": "Wer die Umrah beabsichtigt, muss am Miqat in den Ihram eintreten.",
+          "daleel": "Der Prophet ﷺ sagte über die Miqats: «Sie sind für ihre Bewohner und für diejenigen, die sie passieren...»"
+        },
+        {
+          "title": "Glaube, dass Ihram nur Kleidung ist",
+          "wrong": "Manche denken, Ihram sei nur das Tragen der weißen Tücher.",
+          "right": "Ihram ist die Absicht (Niyyah). Die Kleidung ist nur eine äußere Eigenschaft."
+        },
+        {
+          "title": "Talbiyah vernachlässigen",
+          "wrong": "Talbiyah wird oft für Gespräche am Handy vernachlässigt.",
+          "right": "Es ist empfohlen, bis zum Beginn des Tawaf ständig Talbiyah zu sprechen.",
+          "daleel": "Bestätigt durch das Vorbild des Propheten ﷺ."
+        }
+      ]
+    },
+    "tawaf": {
+      "category": "Fehler beim Tawaf",
+      "mistakes": [
+        {
+          "title": "Start vor/nach dem Schwarzen Stein",
+          "wrong": "Manche beginnen den Tawaf nicht genau beim Schwarzen Stein.",
+          "right": "Jede Runde muss genau beim Schwarzen Stein beginnen und enden."
+        },
+        {
+          "title": "Drängeln am Schwarzen Stein",
+          "wrong": "Hartes Drängeln, das andere Muslime verletzt.",
+          "right": "Das Berühren ist Sunnah, aber andere verletzen ist Haram."
+        },
+        {
+          "title": "Feste Bittgebete für jede Runde",
+          "wrong": "Glaube an spezielle Duas für jede der 7 Runden.",
+          "right": "Dies ist nicht vom Propheten ﷺ überliefert. Man kann jedes gute Dua sprechen."
+        },
+        {
+          "title": "Laute Gruppengebete",
+          "wrong": "Laute Duas in Gruppen hinter einem Anführer.",
+          "right": "Jeder betet für sich, lautes Rufen stört andere."
+        },
+        {
+          "title": "Alle Kaaba-Ecken berühren",
+          "wrong": "Berühren aller Ecken oder Wände der Kaaba.",
+          "right": "Sunnah ist nur das Berühren des Schwarzen Steins und der Jemenitischen Ecke.",
+          "daleel": "Bukhari und Muslim."
+        }
+      ]
+    },
+    "sai": {
+      "category": "Fehler beim Sa'i",
+      "mistakes": [
+        {
+          "title": "Glaube, Wudu sei Pflicht für Sa'i",
+          "wrong": "Glaube, dass Sa'i ohne Waschung ungültig ist.",
+          "right": "Rituelle Reinheit ist empfohlen, aber keine zwingende Pflicht für Sa'i."
+        },
+        {
+          "title": "Rennen der Frauen bei den grünen Lichtern",
+          "wrong": "Frauen rennen genau wie Männer.",
+          "right": "Das schnelle Gehen (Ramal) ist hier nur für Männer."
+        },
+        {
+          "title": "Falsche Rundenzählung",
+          "wrong": "Hin- und Rückweg als eine Runde zählen.",
+          "right": "Von Safa nach Marwa ist EINE Runde. Zurück ist ZWEI."
+        }
+      ]
+    },
+    "halq": {
+      "category": "Fehler bei Rasur/Kürzen",
+      "mistakes": [
+        {
+          "title": "Nur kleine Haarsträhnen schneiden",
+          "wrong": "Nur wenige Haare abschneiden.",
+          "right": "Das Kürzen muss alle Bereiche des Kopfes umfassen.",
+          "daleel": "Fatwa von Ibn Baz und Ibn Uthaymin."
+        },
+        {
+          "title": "Rasieren für Frauen",
+          "wrong": "Frauen, die den Kopf rasieren.",
+          "right": "Frauen kürzen nur etwa eine Fingerkuppe ab.",
+          "daleel": "Der Prophet ﷺ verbot das Rasieren für Frauen."
+        }
+      ]
+    },
+    "general": {
+      "category": "Allgemeine Fehler",
+      "mistakes": [
+        {
+          "title": "Ablenkung durch Fotos",
+          "wrong": "Mehr Zeit für Selfies als für Gebete aufwenden.",
+          "right": "Fokus sollte auf Ehrfurcht (Khushu) liegen."
+        },
+        {
+          "title": "Verletzung anderer Muslime",
+          "wrong": "Drängeln und Schreien.",
+          "right": "Es ist absolut verboten, anderen Schaden zuzufügen."
+        },
+        {
+          "title": "Weltliche Gespräche",
+          "wrong": "Zu viel Reden während Tawaf und Sa'i.",
+          "right": "Nutzen Sie die Zeit für Gedenken und Dua."
+        }
+      ]
+    }
+  }
+}

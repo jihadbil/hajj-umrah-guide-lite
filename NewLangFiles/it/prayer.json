@@ -1,0 +1,21 @@
+{
+  "title": "Orari delle Preghiere",
+  "makkah_subtitle": "Nei puri cortili della Sacra Moschea",
+  "madinah_subtitle": "Nei puri cortili della Moschea del Profeta",
+  "makkah": "La Mecca",
+  "madinah": "Medina",
+  "timeLeftText": "Tempo rimanente per l'Adhan di {{name}}",
+  "timezoneNote": "Gli orari dell'Adhan sono calcolati in base all'ora locale dell'Arabia Saudita (GMT+3)",
+  "am_pm": {
+    "am": "AM",
+    "pm": "PM"
+  },
+  "prayers": {
+    "fajr": "Fajr",
+    "sunrise": "Alba",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha"
+  }
+}

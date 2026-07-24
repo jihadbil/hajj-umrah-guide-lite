@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "umrah": "Die Umrah-Reise",
+    "sections": "Bereiche",
+    "contact": "Kontakt",
+    "arkaan": "Säulen",
+    "wajibaat": "Pflichten & Sunnahs",
+    "prohibitions": "Verbote",
+    "fidya": "Fidya (Sühne)",
+    "mistakes": "Häufige Fehler",
+    "duas": "Bittgebete",
+    "tips": "Pilgerkoffer",
+    "attractions": "Sehenswürdigkeiten",
+    "hotels": "Hotels & Reiseleiter",
+    "fazah": "Fazah"
+  },
+  "brand": {
+    "name": "Murshid",
+    "subtitle": "Umfassender Pilgerführer"
+  },
+  "footer": {
+    "description": "Eine interaktive Plattform zur Erleichterung der Umrah-Riten, basierend auf Koran und Sunnah, präsentiert in einem modernen und einfachen Stil.",
+    "sectionsTitle": "Bereiche des Leitfadens",
+    "duaTitle": "Dua & Anrufung",
+    "duaText": "\"O Allah, mache es zu einer angenommenen Umrah, vergib unsere Sünden und belohne unsere Bemühungen.\"",
+    "duaAccept": "— Möge Allah Ihre Taten annehmen",
+    "rights": "Alle Rechte vorbehalten",
+    "tagline": "Gemacht, um den Gästen des Allerbarmers zu dienen"
+  },
+  "errors": {
+    "404": "404",
+    "pageNotFound": "Seite nicht gefunden",
+    "pageNotFoundDesc": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "backHome": "Zurück zur Startseite",
+    "errorOccurred": "Ein Fehler ist aufgetreten",
+    "errorLoadFailed": "Seite konnte nicht geladen werden, bitte versuchen Sie es erneut.",
+    "tryAgain": "Erneut versuchen",
+    "home": "Startseite"
+  },
+  "theme": {
+    "light": "Hellen Modus aktivieren",
+    "dark": "Dunklen Modus aktivieren"
+  },
+  "buttons": {
+    "next": "Weiter",
+    "prev": "Zurück",
+    "close": "Schließen",
+    "submit": "Senden"
+  },
+  "ticker": {
+    "title": "Bittgebete und Verse",
+    "items": [
+      {
+        "text": "Hier bin ich, o Allah, hier bin ich. Hier bin ich, Du hast keinen Teilhaber. Wahrlich, alles Lob, alle Gnade und die Herrschaft gehören Dir.",
+        "source": "Übereinstimmend"
+      },
+      {
+        "text": "﴿ Und vollzieht die Hajj und die Umrah für Allah ﴾",
+        "source": "Al-Baqara: 196"
+      },
+      {
+        "text": "﴿ Unser Herr, gib uns im Diesseits Gutes und im Jenseits Gutes und bewahre uns vor der Strafe des Höllenfeuers ﴾",
+        "source": "Al-Baqara: 201"
+      },
+      {
+        "text": "Eine Umrah zur nächsten ist eine Sühne für das, was dazwischen liegt.",
+        "source": "Übereinstimmend"
+      },
+      {
+        "text": "O Allah, öffne mir die Tore Deiner Barmherzigkeit",
+        "source": "Dua beim Betreten der Moschee"
+      },
+      {
+        "text": "﴿ Wahrlich, As-Safa und Al-Marwa gehören zu den Zeichen Allahs ﴾",
+        "source": "Al-Baqara: 158"
+      },
+      {
+        "text": "O Allah, mehre dieses Haus an Ehre, Größe und Ehrfurcht",
+        "source": "Überlieferung"
+      },
+      {
+        "text": "O Allah, ich bitte Dich um nützliches Wissen, reichliche Versorgung und Heilung von jeder Krankheit",
+        "source": "Dua beim Trinken von Zamzam"
+      },
+      {
+        "text": "Es gibt keinen Gott außer Allah allein, Er hat keinen Partner.",
+        "source": "Muslim"
+      },
+      {
+        "text": "Die Pilger der Hajj und Umrah sind die Gesandten Allahs.",
+        "source": "Ibn Majah"
+      }
+    ]
+  }
+}

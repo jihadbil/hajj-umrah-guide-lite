@@ -1,0 +1,21 @@
+{
+  "title": "Gebetszeiten",
+  "makkah_subtitle": "In den heiligen Höfen der Heiligen Moschee",
+  "madinah_subtitle": "In den heiligen Höfen der Prophetenmoschee",
+  "makkah": "Mekka",
+  "madinah": "Medina",
+  "timeLeftText": "Verbleibende Zeit bis zum {{name}}",
+  "timezoneNote": "Gebetszeiten gemäß der lokalen Zeit Saudi-Arabiens (GMT+3)",
+  "am_pm": {
+    "am": "AM",
+    "pm": "PM"
+  },
+  "prayers": {
+    "fajr": "Fajr",
+    "sunrise": "Sonnenaufgang",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha"
+  }
+}

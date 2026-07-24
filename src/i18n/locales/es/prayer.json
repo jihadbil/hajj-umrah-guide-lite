@@ -1,0 +1,21 @@
+{
+  "title": "Horarios de oración",
+  "makkah_subtitle": "En los patios puros de Masjid al-Haram",
+  "madinah_subtitle": "En los patios puros de la Mezquita del Profeta",
+  "makkah": "La Meca honorable",
+  "madinah": "Medina iluminada",
+  "timeLeftText": "Queda para el adhan de la oración de {{name}}",
+  "timezoneNote": "Horarios de adhan según la hora local del Reino de Arabia Saudita (GMT +3)",
+  "am_pm": {
+    "am": "AM",
+    "pm": "PM"
+  },
+  "prayers": {
+    "fajr": "Fajr",
+    "sunrise": "Amanecer",
+    "dhuhr": "Dhuhr",
+    "asr": "Asr",
+    "maghrib": "Maghrib",
+    "isha": "Isha"
+  }
+}

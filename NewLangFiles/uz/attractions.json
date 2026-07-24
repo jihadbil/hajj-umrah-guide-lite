@@ -1,0 +1,124 @@
+{
+  "eyebrow": "Ziyoratgohlar",
+  "title": "Makka va Madina ziyoratgohlari va yodgorliklari",
+  "description": "Makkai Mukarrama va Madinai Munavvarada tashrif buyurish mumkin bo'lgan eng muhim tarixiy joylar bilan tanishing, ularga tashrif buyurishning shar'iy hukmi bilan birga.",
+  "cities": {
+    "all": "Barchasi",
+    "makkah": "Makkai Mukarrama",
+    "madinah": "Madinai Munavvara"
+  },
+  "labels": {
+    "viewDetails": "Tafsilotlarni ko'rish ←",
+    "distanceFromHaram": "Harom-Sharifdan masofa",
+    "bestTimeToVisit": "Tashrif buyurish uchun eng qulay vaqt",
+    "city": "Shahar",
+    "backToAll": "← Barcha ziyoratgohlarga qaytish",
+    "historyTitle": "Tarixiy ma'lumot",
+    "visitHowTitle": "Qanday tashrif buyurish",
+    "notFoundTitle": "Ziyoratgoh topilmadi",
+    "notFoundDesc": "So'ralgan ziyoratgoh topilmadi.",
+    "notFoundBack": "Ziyoratgohlarga qaytish"
+  },
+  "items": {
+    "a1": {
+      "name": "Nur tog'i va Hiro g'ori",
+      "city": "Makkai Mukarrama",
+      "description": "Payg'ambar ﷺ payg'ambarlikdan oldin ibodat qilib turgan tog', unda birinchi marta vahiy nozil bo'lgan Hiro g'ori joylashgan.",
+      "tip": "Unga tashrif buyurish umra amallariga kirmaydi, balki ibrat olishni istaganlar uchun ruxsat etilgan tarixiy ziyorat bo'lib, chiqishdagi jismoniy zo'riqishni hisobga olish lozim.",
+      "distance": "Harom-Sharifdan taxminan 4 km",
+      "history": "Nur tog'ining tepasidagi Hiro g'orida Payg'ambar ﷺ payg'ambarlikdan oldin ibodat qilar edi va u yerda unga birinchi marta vahiy nozil bo'lgan: ﴿O'qi, seni yaratgan Robbingning nomi bilan﴾ — shu tariqa Islom da'vati boshlangan.",
+      "howToVisit": "Ziyoratchilar juda tik tosh zinapoyadan chiqishadi, bu taxminan bir-bir yarim soat vaqt oladi; yetarli suv olib borish va peshin issig'idan qochish tavsiya etiladi.",
+      "bestTime": "Quyosh issig'i va tor zinapoyadagi izdihomdan qochish uchun erta tong yoki asrdan keyin."
+    },
+    "a2": {
+      "name": "Savr tog'i",
+      "city": "Makkai Mukarrama",
+      "description": "Payg'ambar ﷺ va uning sherigi Abu Bakr Siddiq (r.a.) Madinaga hijrat paytida yashiringan tog'.",
+      "tip": "Unga chiqish og'ir bo'lib, bir necha soat vaqt oladi; bu umra amallariga aloqasi bo'lmagan ixtiyoriy ziyoratdir.",
+      "distance": "Harom-Sharifdan janubga taxminan 6 km",
+      "history": "Savr g'orida Payg'ambar ﷺ va uning sherigi Abu Bakr Siddiq (r.a.) Madinaga hijrat paytida uch kecha yashiringan, u yerda «ikkovidan ikkinchisi, ikkovi g'orda bo'lganida» oyati nozil bo'lgan.",
+      "howToVisit": "Tog' yo'li orqali borish-kelish 3-4 soat vaqt oladi, yaxshi jismoniy tayyorgarlik va tirmashish uchun mos poyabzal talab qiladi.",
+      "bestTime": "Qattiq issiqdan qochish va tepadan quyosh botishini kuzatish uchun quyosh chiqishidan oldin."
+    },
+    "a3": {
+      "name": "Ji'irrona masjidi",
+      "city": "Makkai Mukarrama",
+      "description": "Hunayn g'azvasidan keyin Payg'ambar ﷺ umrasi uchun ehromga kirgan miqotlardan biri.",
+      "tip": "Bugungi kunda Makka aholisi yangi umra uchun ehromga kirishni istagan taqdirda miqot sifatida ishlatiladi.",
+      "distance": "Harom-Sharifdan taxminan 26 km",
+      "history": "Hunayn g'azvasidan o'lja taqsimlangandan so'ng qaytishida Payg'ambar ﷺ shu yerdan umrasi uchun ehromga kirgan, u to'xtagan joy nomiga ko'ra Ji'irrona deb ataladi.",
+      "howToVisit": "Masjidda namozxona va u yerdan ehromga kirish uchun keluvchi umra ziyoratchilarini kutib olish uchun keng tahorat joylari mavjud; mashina yoki maxsus avtobuslarda osongina yetib borish mumkin.",
+      "bestTime": "Kunning istalgan vaqti, ammo band vaqtlardagi izdihomdan qochish uchun erta tong afzalroq."
+    },
+    "a4": {
+      "name": "Tan'im masjidi (Oyisha masjidi)",
+      "city": "Makkai Mukarrama",
+      "description": "Harom-Sharifga eng yaqin miqot; Mo'minlar onasi Oyisha (r.a.) Payg'ambar ﷺ ning buyrug'i bilan shu yerdan ehromga kirgan.",
+      "tip": "Makka aholisi va qo'shimcha umra ado etmoqchi bo'lgan muqimlar uchun eng ko'p ishlatiladigan miqot.",
+      "distance": "Harom-Sharifdan taxminan 7 km",
+      "history": "Oyisha masjidi deb atalishining sababi shundaki, Vido' hajidan keyin Payg'ambar ﷺ Abdurahmon ibn Abu Bakrga buyurib, singlisi Oyisha (r.a.) ni shu joydan umraga chiqarishni buyurgan.",
+      "howToVisit": "Masjidda ehromga kirishni osonlashtirish uchun keng avtoturargoh va inshoatlar mavjud, kunlik minglab umra ziyoratchilari, ayniqsa mavsumlarda, shu yerga tashrif buyuradi.",
+      "bestTime": "Ramazon va haj mavsumi kabi izdihom davrida kechqurun band vaqtlardan qochish tavsiya etiladi."
+    },
+    "a5": {
+      "name": "Haramayn muzeyi",
+      "city": "Makkai Mukarrama",
+      "description": "Har ikki Harom-Sharifning me'moriy tarixi, qo'lyozmalar va turli davrlardagi Ka'ba pardasini namoyish etuvchi muzey.",
+      "tip": "Masjidi Haromning tarixi va ketma-ket kengaytirilishini tushunish uchun foydali madaniy ziyorat.",
+      "distance": "Masjidi Haromning yonida",
+      "history": "Muzey Payg'ambar davridan zamonaviy Saudiya kengaytirishlarigacha bo'lgan Haramayn me'morchiligi bosqichlarini hujjatlashtiradi va Ka'ba pardasi hamda uning eski eshiklaridan noyob osori atiqalarni o'z ichiga oladi.",
+      "howToVisit": "Kirish ko'pincha bepul, aylanib chiqish bir-ikki soat vaqt oladi, oila a'zolarining barchasi uchun mos.",
+      "bestTime": "Bomdod namozidan keyin yoki namozlar oralig'ida, Harom-Sharif kamroq band bo'lgan paytda."
+    },
+    "a6": {
+      "name": "Masjidi Nabaviy Sharif",
+      "city": "Madinai Munavvara",
+      "description": "Ikkinchi Harom-Sharif bo'lib, unda Ravzai Sharif va Payg'ambar ﷺ ning qabri joylashgan.",
+      "tip": "Ravzai Sharifda namoz o'qish va Payg'ambar ﷺ hamda uning ikki sherigining qabriga salom berish mustahab, qabrni siypalab yoki uni tavof qilmasdan.",
+      "distance": "Madinai Munavvara markazi",
+      "history": "Uni Payg'ambar ﷺ Madinaga hijrat qilganda o'zi qurgan, keyinchalik turli davrlar davomida kengaytirilib, Ravzai Sharifni o'z ichiga olgan me'moriy durdonaga aylangan; u haqida u ﷺ shunday degan: «Uyim va minbarim orasi jannat bog'laridan biridir».",
+      "howToVisit": "Ravzai Sharifga tashrif buyurish uchun tashkillashtirish maqsadida Nusuk ilovasi orqali vaqt band qilinadi, tashrif odobiga — xotirjamlik, sokinlik va izdihom qilmaslikka rioya etiladi.",
+      "bestTime": "Bomdod namozidan darhol keyin yoki xufton namozidan keyin, izdihom nisbatan kamroq bo'lganda."
+    },
+    "a7": {
+      "name": "Quba masjidi",
+      "city": "Madinai Munavvara",
+      "description": "Islomda qurilgan birinchi masjid; Payg'ambar ﷺ har shanba kuni unga ulov bilan ham, piyoda ham kelar edi.",
+      "tip": "U yerda ikki rakat namoz o'qish sunnat; chunki u yerda namoz o'qishning savobi bir umra savobiga tengligi isbotlangan.",
+      "distance": "Masjidi Nabaviydan taxminan 5 km",
+      "history": "Islom tarixida taqvo asosida qurilgan birinchi masjid; Payg'ambar ﷺ Qubaga muhojir sifatida yetib kelgan zahoti uni qurdirgan va shaxsan uning qurilishida qatnashgan.",
+      "howToVisit": "Masjidi Nabaviydan maxsus avtobuslar yoki taksilarda osongina yetib borish mumkin, u katta miqdordagi namozxonlarni sig'diradi.",
+      "bestTime": "Payg'ambar ﷺ har shanba kuni unga ulov bilan va piyoda tashrif buyurgani sababli shanba kuni."
+    },
+    "a8": {
+      "name": "Ikki qibla masjidi",
+      "city": "Madinai Munavvara",
+      "description": "Musulmonlar namoz o'qiyotganda Baytul-Maqdisga qaragan holatdan muazzam Ka'baga qaray boshlagan masjid.",
+      "tip": "Hijratning ikkinchi yilida qibla o'zgarishi voqeasini aks ettiruvchi muhim tarixiy yodgorlik.",
+      "distance": "Masjidi Nabaviydan taxminan 4 km",
+      "history": "Payg'ambar ﷺ sahobalari bilan shu masjidda peshin namozini o'qiyotganida, unga Baytul-Maqdisdan Ka'baga qarab qibla o'zgartirish haqida vahiy kelgan, u namoz o'qiyotgan holida burilgan va ortidagi namozxonlar ham burilishgan.",
+      "howToVisit": "Masjidda ushbu tarixiy voqeani aks ettiruvchi ikkita ko'zga ko'rinadigan qibla bor, u Madinai Munavvara ziyoratchilarining mashhur manzillaridan biridir.",
+      "bestTime": "Kunning istalgan vaqti, biroq mulohaza yuritish va rasmga tushirish uchun yetarli vaqt olish maqsadida to'g'ridan-to'g'ri namoz vaqtlaridan qochish tavsiya etiladi."
+    },
+    "a9": {
+      "name": "Uhud tog'i va shahidlar qabristoni",
+      "city": "Madinai Munavvara",
+      "description": "Mashhur Uhud g'azvasi joyi bo'lib, unda g'azva shahidlari, ular orasida Hamza ibn Abdulmuttalib (r.a.) dafn etilgan qabriston bor.",
+      "tip": "Qabrlarni siypalash yoki ulardan baraka izlashsiz shahidlarga salom berish va ular uchun duo qilish mustahab.",
+      "distance": "Masjidi Nabaviydan taxminan 5 km",
+      "history": "Uhud tog'i musulmonlarning eng buyuk g'azvalaridan biriga guvoh bo'ldi, unda shahidlarning sardori Hamza ibn Abdulmuttalib (r.a.) boshchiligida yetmish sahoba shahid bo'ldi.",
+      "howToVisit": "Tog' etagida va unga tutash shahidlar qabristonida to'xtash mumkin, qabrlarni ziyorat qilish odobiga — ovoz ko'tarmasdan duo va salom berishga rioya qilingan holda.",
+      "bestTime": "Harorat pasayadigan asr vaqti yoki shomdan biroz oldin."
+    },
+    "a10": {
+      "name": "Baqi'",
+      "city": "Madinai Munavvara",
+      "description": "Madina aholisining qabristoni bo'lib, unda ko'plab sahobalar va Payg'ambar ﷺ ning oila a'zolari dafn etilgan.",
+      "tip": "Payg'ambar ﷺ qilganidek, uning aholisiga salom berish va ular uchun mag'firat so'rab duo qilish maqsadida tashrif buyurish mustahab.",
+      "distance": "Masjidi Nabaviyga tutash",
+      "history": "Baqi'da ko'plab sahobalar va Payg'ambar ﷺ ning oila a'zolari dafn etilgan; u ﷺ uni ziyorat qilib, uning aholisi uchun mag'firat va rahmat so'rab duo qilardi.",
+      "howToVisit": "Kirish ma'lum vaqtlar bilan cheklangan bo'lib, odatda faqat erkaklar uchun; ziyorat davomida xotirjamlik va vazminlikka rioya qilinishi lozim.",
+      "bestTime": "Bomdod namozidan keyin, uning eshiklari odatda qisqa vaqt ochiladigan payt."
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Contáctenos",
+  "title": "Contacto",
+  "description": "Nos complace recibir sus opiniones, consultas y observaciones que contribuyen a enriquecer y desarrollar la plataforma para servir a los invitados del Misericordioso.",
+  "channels": {
+    "title": "Canales de comunicación directa",
+    "email_title": "Correo electrónico de la plataforma",
+    "email_sub": "Generalmente respondemos dentro de 24 horas laborales",
+    "support_title": "Soporte técnico y legal directo",
+    "support_sub": "Disponible durante toda la temporada de Umrah",
+    "address_title": "Sede principal del servicio",
+    "address_body": "La Meca honorable — Reino de Arabia Saudita",
+    "quote": "\"Las mejores personas son las más útiles para las personas\"",
+    "quote_sub": "— Nos esforzamos por ofrecer siempre lo mejor"
+  },
+  "form": {
+    "title": "Enviar mensaje al equipo",
+    "success_title": "¡Su mensaje ha sido enviado con éxito!",
+    "success_desc": "Gracias por comunicarse con nosotros. Hemos recibido su mensaje y el equipo de desarrollo o soporte legal le responderá lo antes posible, si Allah quiere.",
+    "send_another": "Enviar otro mensaje",
+    "name": "Nombre completo",
+    "name_placeholder": "Ingrese su nombre",
+    "email": "Correo electrónico",
+    "email_placeholder": "ejemplo@mail.com",
+    "subject": "Asunto del mensaje",
+    "subject_options": {
+      "suggestion": "💡 Sugerencia de desarrollo",
+      "bug": "⚠️ Observación técnica / Reportar error",
+      "fiqh": "🏛️ Consulta jurídica o legal",
+      "other": "💬 Otro"
+    },
+    "message": "Texto del mensaje",
+    "message_placeholder": "Escriba su mensaje aquí en detalle...",
+    "submit": "Enviar mensaje",
+    "sending": "Enviando..."
+  }
+}

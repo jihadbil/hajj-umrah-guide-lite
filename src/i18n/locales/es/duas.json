@@ -1,0 +1,67 @@
+{
+  "eyebrow": "Súplicas y recuerdos",
+  "title": "Súplicas narradas para Umrah",
+  "description": "Colección seleccionada de súplicas y recuerdos confirmados del Profeta ﷺ para cada situación del viaje.",
+  "groups": {
+    "talbiyah": {
+      "title": "Talbiyah",
+      "items": [
+        {
+          "title": "Talbiyah del Profeta ﷺ",
+          "arabic": "لبّيك اللهم لبّيك، لبّيك لا شريك لك لبّيك، إنّ الحمد والنعمة لك والملك، لا شريك لك.",
+          "source": "Acordado"
+        }
+      ]
+    },
+    "tawaf": {
+      "title": "Súplicas del Tawaf",
+      "items": [
+        {
+          "title": "Al comienzo de cada vuelta",
+          "arabic": "بسم الله، والله أكبر، اللهم إيماناً بك، وتصديقاً بكتابك، ووفاءً بعهدك، واتّباعاً لسنّة نبيك محمد ﷺ.",
+          "source": "Narración de Ibn Umar"
+        },
+        {
+          "title": "Entre el Rukn Yamani y la Piedra Negra",
+          "arabic": "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾",
+          "source": "Al-Baqarah 201"
+        }
+      ]
+    },
+    "sai": {
+      "title": "Súplicas del Sa'i",
+      "items": [
+        {
+          "title": "Al subir a Safa y Marwah",
+          "arabic": "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾ أبدأ بما بدأ الله به.",
+          "source": "Narrado por Muslim"
+        },
+        {
+          "title": "En Safa y Marwah",
+          "arabic": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، لا إله إلا الله وحده، أنجز وعده، ونصر عبده، وهزم الأحزاب وحده.",
+          "source": "Narrado por Muslim"
+        }
+      ]
+    },
+    "general": {
+      "title": "Recuerdos generales para el peregrino",
+      "items": [
+        {
+          "title": "Al entrar a la mezquita",
+          "arabic": "اللهم افتح لي أبواب رحمتك.",
+          "source": "Narrado por Muslim"
+        },
+        {
+          "title": "Al ver la Kaaba",
+          "arabic": "اللهم زد هذا البيت تشريفاً وتعظيماً وتكريماً ومهابة، وزد من شرّفه وكرّمه ممن حجّه أو اعتمره تشريفاً وتكريماً وتعظيماً وبرّاً.",
+          "source": "Narración"
+        },
+        {
+          "title": "Al beber agua de Zamzam",
+          "arabic": "اللهم إني أسألك علماً نافعاً، ورزقاً واسعاً، وشفاءً من كل داء.",
+          "source": "Narración de Ibn Abbas"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "eyebrow": "Sehenswürdigkeiten",
+  "title": "Historische Stätten in Mekka und Medina",
+  "description": "Entdecken Sie die wichtigsten historischen Stätten in Mekka und Medina mit Erläuterungen zu den Besuchsregeln.",
+  "cities": {
+    "all": "Alle",
+    "makkah": "Mekka",
+    "madinah": "Medina"
+  },
+  "labels": {
+    "viewDetails": "Details anzeigen ←",
+    "distanceFromHaram": "Entfernung vom Haram",
+    "bestTimeToVisit": "Beste Besuchszeit",
+    "city": "Stadt",
+    "backToAll": "← Zurück zu allen Sehenswürdigkeiten",
+    "historyTitle": "Historischer Hintergrund",
+    "visitHowTitle": "Wie man besucht",
+    "notFoundTitle": "Ort nicht gefunden",
+    "notFoundDesc": "Der gewünschte Ort konnte nicht gefunden werden.",
+    "notFoundBack": "Zurück"
+  },
+  "items": {
+    "a1": {
+      "name": "Berg des Lichts (Jabal Al-Nour) & Hira-Höhle",
+      "city": "Mekka",
+      "description": "Der Berg, auf den sich der Prophet ﷺ vor der Offenbarung zurückzog.",
+      "tip": "Der Besuch gehört nicht zu den Umrah-Riten, sondern ist fakultativ.",
+      "distance": "Ca. 4 km vom Haram",
+      "history": "In der Hira-Höhle empfing der Prophet ﷺ die erste Offenbarung.",
+      "howToVisit": "Der Aufstieg über steile Steinstufen dauert ca. 1-1,5 Stunden.",
+      "bestTime": "Früher Morgen oder später Nachmittag."
+    },
+    "a2": {
+      "name": "Berg Thawr",
+      "city": "Mekka",
+      "description": "Der Berg, auf dem sich der Prophet ﷺ und Abu Bakr während der Auswanderung (Hidschra) versteckten.",
+      "tip": "Anstrengender Aufstieg, rein fakultativer historischer Besuch.",
+      "distance": "Ca. 6 km südlich vom Haram",
+      "history": "In der Thawr-Höhle versteckten sie sich drei Nächte.",
+      "howToVisit": "Wanderung dauert 3-4 Stunden hin und zurück.",
+      "bestTime": "Vor Sonnenaufgang."
+    },
+    "a3": {
+      "name": "Al-Ji'ranah-Moschee",
+      "city": "Mekka",
+      "description": "Ein Miqat, an dem der Prophet ﷺ für eine Umrah in den Ihram eintrat.",
+      "tip": "Wird heute von Einwohnern Mekkas für neue Umrahs genutzt.",
+      "distance": "Ca. 26 km vom Haram",
+      "history": "Nach der Schlacht von Hunayn trat der Prophet ﷺ hier in den Ihram ein.",
+      "howToVisit": "Große Moschee, leicht mit Auto/Bus erreichbar.",
+      "bestTime": "Jederzeit, am besten morgens."
+    },
+    "a4": {
+      "name": "Al-Taneem-Moschee (Aisha-Moschee)",
+      "city": "Mekka",
+      "description": "Der nächstgelegene Miqat zum Haram.",
+      "tip": "Häufigster Miqat für eine zusätzliche Umrah von Mekka aus.",
+      "distance": "Ca. 7 km vom Haram",
+      "history": "Aisha (Mutter der Gläubigen) trat hier auf Befehl des Propheten ﷺ in den Ihram ein.",
+      "howToVisit": "Gut ausgestattet mit Einrichtungen.",
+      "bestTime": "Stoßzeiten abends vermeiden."
+    },
+    "a5": {
+      "name": "Museum der beiden Heiligen Moscheen",
+      "city": "Mekka",
+      "description": "Zeigt die Baugeschichte und Relikte der beiden Moscheen.",
+      "tip": "Sehr informativer kultureller Besuch.",
+      "distance": "Neben der Heiligen Moschee",
+      "history": "Dokumentiert die Erweiterungen der Moscheen.",
+      "howToVisit": "Kostenloser Eintritt, dauert 1-2 Stunden.",
+      "bestTime": "Nach dem Fajr-Gebet."
+    },
+    "a6": {
+      "name": "Prophetenmoschee",
+      "city": "Medina",
+      "description": "Beinhaltet die Rawdah und das Grab des Propheten ﷺ.",
+      "tip": "Es wird empfohlen, in der Rawdah zu beten und das Grab mit Friedensgrüßen zu besuchen.",
+      "distance": "Zentrum von Medina",
+      "history": "Vom Propheten ﷺ selbst erbaut nach der Hidschra.",
+      "howToVisit": "Rawdah-Besuch muss über die Nusuk-App gebucht werden.",
+      "bestTime": "Nach Fajr oder Isha."
+    },
+    "a7": {
+      "name": "Quba-Moschee",
+      "city": "Medina",
+      "description": "Die erste im Islam erbaute Moschee.",
+      "tip": "Zwei Rak'ah hier beten entspricht der Belohnung einer Umrah.",
+      "distance": "Ca. 5 km von der Prophetenmoschee",
+      "history": "Vom Propheten ﷺ bei seiner Ankunft gegründet.",
+      "howToVisit": "Leicht mit Bussen/Taxis erreichbar.",
+      "bestTime": "Samstag, dem Vorbild des Propheten ﷺ folgend."
+    },
+    "a8": {
+      "name": "Moschee der zwei Qiblas",
+      "city": "Medina",
+      "description": "Hier wurde die Gebetsrichtung von Jerusalem zur Kaaba geändert.",
+      "tip": "Wichtige historische Stätte.",
+      "distance": "Ca. 4 km von der Prophetenmoschee",
+      "history": "Während des Gebets kam die Offenbarung zur Änderung der Qibla.",
+      "howToVisit": "Beliebtes Ziel für Besucher.",
+      "bestTime": "Tagsüber außerhalb der Gebetszeiten."
+    },
+    "a9": {
+      "name": "Berg Uhud & Friedhof der Märtyrer",
+      "city": "Medina",
+      "description": "Schauplatz der Uhud-Schlacht.",
+      "tip": "Es wird empfohlen, die Märtyrer zu grüßen.",
+      "distance": "Ca. 5 km von der Prophetenmoschee",
+      "history": "Hier fielen siebzig Gefährten, darunter Hamza.",
+      "howToVisit": "Friedhofsbesuch mit Respekt und ohne laute Stimmen.",
+      "bestTime": "Später Nachmittag."
+    },
+    "a10": {
+      "name": "Al-Baqi'",
+      "city": "Medina",
+      "description": "Der Hauptfriedhof von Medina für viele Gefährten und Familienmitglieder des Propheten.",
+      "tip": "Besuch zur Begrüßung der Bewohner.",
+      "distance": "Direkt neben der Prophetenmoschee",
+      "history": "Ruhestätte vieler Sahaba.",
+      "howToVisit": "Zu bestimmten Zeiten meist nur für Männer geöffnet.",
+      "bestTime": "Nach dem Fajr-Gebet."
+    }
+  }
+}

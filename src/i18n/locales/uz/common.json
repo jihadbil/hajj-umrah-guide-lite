@@ -1,0 +1,67 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "umrah": "Umra safari",
+    "sections": "Sayt bo'limlari",
+    "contact": "Bog'lanish",
+    "arkaan": "Ruknlar",
+    "wajibaat": "Vojiblar va sunnatlar",
+    "prohibitions": "Taqiqlangan amallar",
+    "fidya": "Fidya",
+    "mistakes": "Keng tarqalgan xatolar",
+    "duas": "Duolar",
+    "tips": "Umra sumkasi",
+    "attractions": "Ziyoratgohlar",
+    "hotels": "Mehmonxonalar va gidlar",
+    "fazah": "Faza'a"
+  },
+  "brand": {
+    "name": "Murshid",
+    "subtitle": "Umra ziyoratchisining yaxlit qo'llanmasi"
+  },
+  "footer": {
+    "description": "Kitob va pok Sunnatga asoslangan holda, ruknlar, vojiblar va taqiqlarni sodda hamda vizual jihatdan yoqimli uslubda tushuntirib, umra va ziyorat amallarini bosqichma-bosqich osonlashtirishga qaratilgan interaktiv yo'l-yo'riq platformasi.",
+    "sectionsTitle": "Qo'llanma bo'limlari",
+    "duaTitle": "Duo va iltijo",
+    "duaText": "\"Allohim, uni qabul bo'lgan umra, kechirilgan gunoh va minnatdorchilikka sazovor sa'y qilgin.\"",
+    "duaAccept": "— Alloh ibodatingizni qabul qilsin",
+    "rights": "Barcha huquqlar himoyalangan",
+    "tagline": "Rahmonning mehmonlariga xizmat qilish uchun yaratilgan"
+  },
+  "errors": {
+    "404": "404",
+    "pageNotFound": "Sahifa topilmadi",
+    "pageNotFoundDesc": "Siz qidirayotgan sahifa mavjud emas yoki ko'chirilgan.",
+    "backHome": "Bosh sahifaga qaytish",
+    "errorOccurred": "Xatolik yuz berdi",
+    "errorLoadFailed": "Sahifani yuklab bo'lmadi, qaytadan urinib ko'ring.",
+    "tryAgain": "Qaytadan urinib ko'ring",
+    "home": "Bosh sahifa"
+  },
+  "theme": {
+    "light": "Yorug' rejimni yoqish",
+    "dark": "Qorong'i rejimni yoqish"
+  },
+  "buttons": {
+    "next": "Keyingi",
+    "prev": "Oldingi",
+    "close": "Yopish",
+    "submit": "Yuborish"
+  },
+  "ticker": {
+    "title": "Duo va oyatlardan",
+    "items": [
+      { "text": "Labbayk, Allohumma labbayk, labbayka la sharika laka labbayk, innal-hamda van-ni'mata laka val-mulk, la sharika lak", "source": "Ittifoq qilingan (Buxoriy va Muslim)" },
+      { "text": "﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾", "source": "Baqara: 196" },
+      { "text": "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾", "source": "Baqara: 201" },
+      { "text": "Umradan umragacha bo'lgan gunohlarga kaffarat bo'ladi, qabul bo'lgan haj esa jannatdan boshqa mukofoti yo'q", "source": "Ittifoq qilingan (Buxoriy va Muslim)" },
+      { "text": "Allohim, menga rahmating eshiklarini och", "source": "Masjidga kirish duosi" },
+      { "text": "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾", "source": "Baqara: 158" },
+      { "text": "Allohim, bu Uyning sharafi, ulug'ligi, hurmati va haybatini oshirgin", "source": "Rivoyat" },
+      { "text": "Allohim, sendan foydali ilm, keng rizq va har qanday kasallikdan shifo so'rayman", "source": "Zamzam suvini ichishda o'qiladigan duo" },
+      { "text": "Allohdan boshqa iloh yo'q, yolg'iz Uning sherigi yo'q, mulk Uniki va hamd Uniki, U har narsaga qodirdir", "source": "Muslim" },
+      { "text": "Haj va umra ziyoratchilari Allohning elchilaridir, U ularni chaqirdi, ular labbay dedilar, ular so'radilar, U berdi", "source": "Ibn Moja" }
+    ]
+  }
+}

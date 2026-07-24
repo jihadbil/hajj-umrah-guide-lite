@@ -1,0 +1,83 @@
+{
+  "eyebrow": "Maslahat va yo'l-yo'riqlar",
+  "title": "Umra ziyoratchisi uchun yo'l-yo'riq va sumka",
+  "description": "Amaliy maslahatlar va shar'iy yo'l-yo'riqlar, shuningdek safar jihozlarining barchasini to'liq xotirjamlik bilan tayyorlash uchun interaktiv sumka.",
+  "bag": {
+    "title": "Elektron umra sumkasi",
+    "badge": "Interaktiv vosita",
+    "subtitle": "Safar jihozlarini bosqichma-bosqich tayyorlang, biz esa jarayoningizni avtomatik saqlab boramiz.",
+    "resetBtn": "🔄 Ro'yxatni qayta tiklash",
+    "progressTitle": "Sumka tayyorligi paneli",
+    "progressLabel": "{{percent}}% ({{total}} tadan {{count}} tasi tayyor)",
+    "progressCompleted": "🎉 Tabriklaymiz! Sumkangiz muborak umra safari uchun to'liq tayyor. Alloh sizga yengillik va qabullikni nasib etsin.",
+    "categories": {
+      "documents": {
+        "title": "Muhim hujjatlar va qog'ozlar",
+        "items": [
+          { "id": "doc-passport", "text": "Pasport va umra vizasi (bosma va raqamli nusxa)" },
+          { "id": "doc-id", "text": "Milliy shaxsiy guvohnoma yoki yashash ruxsatnomasi" },
+          { "id": "doc-flights", "text": "Aviachiptalar hamda mehmonxona va transport tasdiqnomalari" },
+          { "id": "doc-cash", "text": "Ozgina naqd pul va Mada/Visa bank kartasi" },
+          { "id": "doc-medical", "text": "Muhim dorilar va shaxsiy tibbiy hisobotlaringiz" }
+        ]
+      },
+      "worship": {
+        "title": "Ehrom va ibodat jihozlari",
+        "items": [
+          { "id": "worship-ihram", "text": "Erkaklar uchun ehrom kiyimi (oq izor va rido) / ayol uchun qulay tanani yopuvchi kiyim" },
+          { "id": "worship-belt", "text": "Erkak uchun ehrom kamari (shaxsiy guvohnoma va pul saqlash uchun cho'ntaklar bilan)" },
+          { "id": "worship-shoes", "text": "Tavof va sa'y uchun qulay poyabzal (erkaklar uchun tikilmagan bo'lishi afzal)" },
+          { "id": "worship-duas", "text": "Zikr va duolar uchun kichik risola yoki mobil ilova" },
+          { "id": "worship-clipper", "text": "Ehromdan chiqishda ishlatish uchun kichik qaychi yoki soch olish mashinasi" }
+        ]
+      },
+      "hygiene": {
+        "title": "Shaxsiy parvarish va tozalik (hidsiz)",
+        "items": [
+          { "id": "care-soap", "text": "Hidsiz shampun va sovun (ehrom kunlari uchun)" },
+          { "id": "care-teeth", "text": "Tish cho'tkasi, tish pastasi va misvak" },
+          { "id": "care-vaseline", "text": "Sonlar va terini ishqalanishdan himoya qilish uchun vazelin yoki namlovchi krem" },
+          { "id": "care-umbrella", "text": "Makkaning qattiq quyoshidan himoya qiluvchi yengil soyabon" },
+          { "id": "care-clipper", "text": "Ehromdan oldin sunnatlarni tayyorlash uchun kichik tirnoq qaychisi" }
+        ]
+      },
+      "tech": {
+        "title": "Texnik va umumiy jihozlar",
+        "items": [
+          { "id": "tech-phone", "text": "Tegishli zaryadlovchisi bilan mobil telefon" },
+          { "id": "tech-powerbank", "text": "Harom-Sharifda telefonni zaryadlash uchun quvvat banki (Powerbank)" },
+          { "id": "tech-plug", "text": "Qirollikka mos uch shtepselli elektr rozetka" },
+          { "id": "tech-bag", "text": "Poyabzal va buyumlarni saqlash uchun yengil ryukzak yoki bel sumkasi" }
+        ]
+      }
+    }
+  },
+  "tips": {
+    "health": {
+      "title": "Sog'liq va tashkiliy maslahatlar",
+      "items": [
+        "Suvsizlanish va charchoqning oldini olish uchun sovuq va issiq Zamzam suvini ko'proq iching.",
+        "Safar davomida qulay poyabzal kiying va amallar orasida dam oling.",
+        "Yuqumli kasalliklardan saqlanish uchun tavof yoki sa'y maydonidagi qattiq izdihomda niqob taqing.",
+        "Adashib qolmaslik uchun karvon ma'lumotlari va telefon raqami yozilgan tanish kartasi yoki bilaguzuk saqlang.",
+        "Ajralib qolgan taqdirda oila a'zolaringiz bilan aniq uchrashuv nuqtasi (masalan ma'lum bir darvoza) belgilab qo'ying."
+      ]
+    },
+    "spiritual": {
+      "title": "Ma'naviy va xulq-atvor bo'yicha yo'l-yo'riqlar",
+      "items": [
+        "Alloh uchun sof niyat qilib, amallarda ko'z-ko'z qilish va ortiqcha suratga olishdan uzoq bo'ling.",
+        "Izdihom paytida keksalar va zaif kishilarga nisbatan yaxshi xulq, sabr va mehribonlik bilan munosabatda bo'ling.",
+        "Savobni buzadigan bema'ni gap, buzuqlik, tortishuv va janjaldan butunlay uzoq bo'ling.",
+        "Kechaning oxirgi uchdan biri kabi sharafli vaqtlardan va Masjidi Haromda o'tirishdan bahramand bo'ling.",
+        "Barcha oila a'zolari, qarindoshlar va butun musulmonlar uchun duo qilish uchun alohida vaqt ajrating."
+      ]
+    }
+  },
+  "dialog": {
+    "title": "Sumkani qayta tiklashga ishonchingiz komilmi?",
+    "desc": "Bu amal belgilangan barcha buyumlarni o'chirib, yangidan boshlashga olib keladi. Bu amalni bekor qilib bo'lmaydi.",
+    "cancel": "Bekor qilish",
+    "confirm": "Ha, ro'yxatni tozalash"
+  }
+}

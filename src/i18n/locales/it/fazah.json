@@ -1,0 +1,82 @@
+{
+  "eyebrow": "Servizio Fazah",
+  "title": "Fazah — Rete di Soccorso Decentralizzata per i Pellegrini",
+  "description": "Ogni pellegrino porta una carta con codice a risposta rapida (QR) che lo collega alla guida più vicina o alla reception dell'hotel in pochi istanti, senza bisogno di un telefono o di internet da parte sua.",
+  "demoNotice": "Questa è una pagina dimostrativa del concetto di servizio proposto, e i dati visualizzati (carta del pellegrino e simulazione di allerta) sono puramente sperimentali a scopo illustrativo.",
+  "why": {
+    "badge": "Perché Fazah?",
+    "title": "Quando un pellegrino ha bisogno di aiuto, non c'è tempo da perdere",
+    "desc": "In mezzo alla folla delle Due Sacre Moschee e all'abbondanza di gruppi, un pellegrino può perdersi o avere un problema di salute lontano dal suo gruppo. Fazah è una rete di volontari che riunisce guide certificate e receptionist di hotel, in modo che chiunque di loro possa identificare un pellegrino che porta la carta del servizio e avvisare immediatamente i responsabili del suo gruppo."
+  },
+  "how": {
+    "title": "Come funziona il servizio?",
+    "desc": "Tre semplici passaggi collegano il pellegrino alla rete di soccorso senza complicazioni."
+  },
+  "simulator": {
+    "title": "Simulazione del Processo di Scansione e Allerta",
+    "badge": "Esperienza dimostrativa",
+    "idleDesc": "Premi il pulsante qui sotto per simulare la scansione della carta Fazah del pellegrino di esempio da parte di una guida.",
+    "idleBtn": "Simula la Scansione della Carta",
+    "doneText": "Il responsabile del gruppo e la reception dell'hotel sono stati informati della posizione attuale del pellegrino.",
+    "resetBtn": "Reimposta Simulazione",
+    "chain": {
+      "step1": "Identificazione del pellegrino",
+      "step2": "Allerta al responsabile del gruppo",
+      "step3": "Condivisione della posizione attuale",
+      "step4": "Notifica alla reception dell'hotel"
+    }
+  },
+  "cardLabels": {
+    "title": "Carta Fazah",
+    "pilgrimName": "Nome del Pellegrino",
+    "hotel": "Hotel",
+    "roomNumber": "Numero di Stanza",
+    "groupLeaderPhone": "Telefono Responsabile Gruppo",
+    "bloodType": "Gruppo Sanguigno",
+    "qrDesc": "Qualsiasi guida o receptionist registrato scansiona questo codice per visualizzare i dati del pellegrino e avvisare immediatamente la rete di soccorso.",
+    "flipQr": "Mostra il codice QR sul retro",
+    "flipFront": "Mostra la parte frontale della carta"
+  },
+  "sampleCard": {
+    "name": "Abdul Rahman Saeed Al-Mutairi",
+    "hotel": "Swissôtel Al Maqam Makkah",
+    "groupLeaderName": "Sheikh Abdullah Al-Harbi",
+    "groupLeaderPhone": "055 444 2211",
+    "roomNumber": "Stanza 714",
+    "bloodType": "O+",
+    "healthNote": "Paziente iperteso, porta le medicine nello zaino",
+    "language": "Arabo"
+  },
+  "steps": {
+    "s1": {
+      "title": "Carta personale Fazah",
+      "desc": "Ogni pellegrino riceve una carta o un braccialetto con stampato un codice a risposta rapida (QR), senza bisogno di un telefono o internet da parte sua. La carta contiene il suo nome, il nome del suo hotel, il numero di stanza, il telefono del leader del gruppo, il gruppo sanguigno e le note sanitarie."
+    },
+    "s2": {
+      "title": "Scansione da parte di qualsiasi guida o receptionist",
+      "desc": "In caso di necessità, la guida certificata più vicina o il receptionist dell'hotel registrato nella rete esegue la scansione del codice della carta tramite la fotocamera del suo telefono, e i dati del pellegrino appaiono immediatamente senza bisogno di un'app speciale."
+    },
+    "s3": {
+      "title": "Allerta immediata e catena di soccorso",
+      "desc": "Non appena scansionato, la rete invia automaticamente un avviso al leader del gruppo e al contatto di emergenza, condividendo la posizione attuale del pellegrino e informando la reception dell'hotel per avviare la catena di assistenza senza indugio."
+    }
+  },
+  "benefits": {
+    "b1": {
+      "title": "Nessun telefono o internet necessari",
+      "desc": "La carta funziona senza alcun dispositivo lato pellegrino; basta portarla come una carta o un braccialetto."
+    },
+    "b2": {
+      "title": "Rete distribuita di volontari",
+      "desc": "Qualsiasi guida o receptionist registrato nella rete può prestare assistenza ovunque si trovi il pellegrino."
+    },
+    "b3": {
+      "title": "Informazioni sanitarie sensibili nel momento del bisogno",
+      "desc": "Il gruppo sanguigno e le note mediche raggiungono i primi soccorritori in pochi secondi."
+    },
+    "b4": {
+      "title": "Adatto per anziani e persone con bisogni speciali",
+      "desc": "Una soluzione semplice che non richiede conoscenze tecniche, ed è adatta a tutte le età e condizioni."
+    }
+  }
+}

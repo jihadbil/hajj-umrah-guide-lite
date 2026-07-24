@@ -1,0 +1,201 @@
+{
+  "eyebrow": "Hotel e Guide",
+  "title": "Alloggi e Guide per il Pellegrino",
+  "description": "Scegli tra gli hotel vicini alle Due Sacre Moschee e scopri guide certificate in grado di accompagnarti nello svolgimento dei riti.",
+  "demoNotice": "⚠️ Questi sono dati di prova a puro scopo dimostrativo, e verranno sostituiti con dati reali e aggiornati non appena disponibili.",
+  "fazahBanner": {
+    "badge": "Nuovo — Rete di Soccorso Decentralizzata",
+    "title": "Servizio Fazah: una carta che collega ogni pellegrino alla guida o alla reception dell'hotel più vicina",
+    "desc": "Scopri come funziona la carta QR e la catena di allerta immediata in caso di emergenza.",
+    "btn": "Scopri Fazah ←"
+  },
+  "sections": {
+    "hotelsTitle": "Hotel vicini alle Sacre Moschee",
+    "guidesTitle": "Guide Certificate"
+  },
+  "labels": {
+    "reviewsCount": "{{count}} recensioni",
+    "startFrom": "A partire da",
+    "pricePerNight": "{{price}} / Notte",
+    "viewDetails": "Visualizza i Dettagli",
+    "experienceYears": "{{count}} anni di esperienza",
+    "languages": "Lingue: {{list}}",
+    "licensedGuide": "Guida Certificata ✓",
+    "aboutHotel": "Sull'Hotel",
+    "amenities": "Strutture e Servizi",
+    "address": "Indirizzo",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "contact": "Contatto",
+    "bookRequest": "Richiesta di Prenotazione",
+    "backToAll": "← Torna a tutti gli hotel",
+    "notFoundTitle": "Hotel non trovato",
+    "notFoundDesc": "Impossibile trovare l'hotel richiesto.",
+    "notFoundBack": "Torna agli hotel"
+  },
+  "hotelsItems": {
+    "h1": {
+      "name": "Fairmont Makkah Clock Royal Tower",
+      "city": "La Mecca",
+      "distance": "A pochi passi dall'Haram",
+      "price": "1200 SAR",
+      "amenities": [
+        "Vista sull'Haram",
+        "Molteplici ristoranti",
+        "Servizio navetta"
+      ],
+      "description": "L'hotel si distingue per la sua posizione unica direttamente in cima alla Torre dell'Orologio, e offre viste panoramiche dirette sulla Sacra Moschea di Mecca e sulla Kaaba dalla maggior parte delle sue camere e suite, con servizio navetta gratuito per l'Haram.",
+      "address": "Abraj Al Bait, Ajyad, La Mecca",
+      "checkIn": "16:00",
+      "checkOut": "12:00"
+    },
+    "h2": {
+      "name": "Swissôtel Al Maqam Makkah",
+      "city": "La Mecca",
+      "distance": "200 metri dall'Haram",
+      "price": "850 SAR",
+      "amenities": [
+        "Colazione gratuita",
+        "Wi-Fi gratuito",
+        "Area preghiera privata"
+      ],
+      "description": "Un hotel di lusso che combina l'ospitalità svizzera con il carattere locale, a pochi passi dalle piazze dell'Haram attraverso passaggi coperti dedicati agli ospiti.",
+      "address": "Complesso Abraj Al Bait, La Mecca",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h3": {
+      "name": "Hilton Suites Makkah",
+      "city": "La Mecca",
+      "distance": "400 metri dall'Haram",
+      "price": "750 SAR",
+      "amenities": [
+        "Camere per famiglie",
+        "Angolo cottura",
+        "Servizio lavanderia"
+      ],
+      "description": "Una scelta ideale per le famiglie con le sue ampie suite e un piccolo angolo cottura in ogni camera, con un servizio navetta regolare da e per l'Haram durante tutto il giorno.",
+      "address": "Distretto Ash Shubaikah, La Mecca",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h4": {
+      "name": "Dar Al Tawhid InterContinental",
+      "city": "La Mecca",
+      "distance": "Adiacente all'Haram",
+      "price": "1500 SAR",
+      "amenities": [
+        "Vista sulla Kaaba",
+        "Servizio concierge",
+        "Ristoranti di lusso"
+      ],
+      "description": "Uno degli hotel più antichi e prestigiosi della Mecca, offre viste dirette sulla Sacra Kaaba dai suoi ristoranti e lussuose suite, con servizio concierge 24 ore su 24.",
+      "address": "Ajyad, La Mecca",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h5": {
+      "name": "Mövenpick Hotel Anwar Al Madinah",
+      "city": "Medina",
+      "distance": "100 metri dalla Moschea del Profeta",
+      "price": "650 SAR",
+      "amenities": [
+        "Vista sulla Moschea del Profeta",
+        "Colazione inclusa",
+        "Parcheggio"
+      ],
+      "description": "Situato nel cuore dell'Area Centrale di Medina, si affaccia direttamente sui cortili della Moschea del Profeta, con colazione completa e servizio di trasferimento da e per l'aeroporto.",
+      "address": "Area Centrale, Medina",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h6": {
+      "name": "Dar Al Iman InterContinental",
+      "city": "Medina",
+      "distance": "50 metri dalla Moschea del Profeta",
+      "price": "800 SAR",
+      "amenities": [
+        "Passaggio coperto per l'Haram",
+        "Navetta aeroportuale",
+        "Camere familiari"
+      ],
+      "description": "L'hotel è collegato con un passaggio coperto diretto ai cortili della Moschea del Profeta, rendendo facile raggiungere le preghiere in orario senza esposizione al sole o alla folla esterna.",
+      "address": "Area Centrale, Medina",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    },
+    "h7": {
+      "name": "Pullman Zamzam Madina",
+      "city": "Medina",
+      "distance": "150 metri dalla Moschea del Profeta",
+      "price": "500 SAR",
+      "amenities": [
+        "Ristorante arabo e internazionale",
+        "Wi-Fi gratuito",
+        "Palestra"
+      ],
+      "description": "Un hotel moderno a prezzi relativamente ragionevoli che offre viste parziali sull'Haram del Profeta, dispone di una palestra e vari ristoranti per tutti i gusti.",
+      "address": "Area Centrale, Medina",
+      "checkIn": "15:00",
+      "checkOut": "12:00"
+    }
+  },
+  "guidesItems": {
+    "g1": {
+      "name": "Sheikh Abdullah Al-Harbi",
+      "city": "Mecca e Medina",
+      "specialty": "Guida giurisprudenziale completa ai riti dell'Umrah",
+      "languages": [
+        "Arabo",
+        "Inglese"
+      ]
+    },
+    "g2": {
+      "name": "Signor Mohammed Al-Zahrani",
+      "city": "La Mecca",
+      "specialty": "Accompagnamento per gruppi Umrah e Tawaf",
+      "languages": [
+        "Arabo",
+        "Inglese",
+        "Urdu"
+      ]
+    },
+    "g3": {
+      "name": "Signora Amal Al-Qahtani",
+      "city": "La Mecca",
+      "specialty": "Guida per donne e famiglie",
+      "languages": [
+        "Arabo",
+        "Inglese"
+      ]
+    },
+    "g4": {
+      "name": "Sheikh Khalid Al-Otaibi",
+      "city": "Medina",
+      "specialty": "Tour storici della Moschea del Profeta e dei suoi dintorni",
+      "languages": [
+        "Arabo",
+        "Francese"
+      ]
+    },
+    "g5": {
+      "name": "Signor Yousef Al-Maliki",
+      "city": "Mecca e Medina",
+      "specialty": "Guida per gruppi asiatici",
+      "languages": [
+        "Arabo",
+        "Inglese",
+        "Malese"
+      ]
+    },
+    "g6": {
+      "name": "Signora Hind Al-Dossari",
+      "city": "Medina",
+      "specialty": "Accompagnamento anziani e persone con bisogni speciali",
+      "languages": [
+        "Arabo",
+        "Inglese"
+      ]
+    }
+  }
+}

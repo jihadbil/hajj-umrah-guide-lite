@@ -1,0 +1,126 @@
+{
+  "eyebrow": "Regole Islamiche",
+  "title": "Regole dell'Espiazione (Fidya) nell'Umrah",
+  "description": "Quando è obbligatoria la Fidya e come va pagata — tratto dal Corano, dalla Sunnah del Profeta e dalle Fatwa degli studiosi.",
+  "warningTitle": "Importante Avviso Giurisprudenziale",
+  "warningBody": "La Fidya è uno degli argomenti più complessi del Hajj e dell'Umrah. Il pellegrino non dovrebbe emettere sentenze (fatwa) per se stesso su questioni che comportano il sacrificio di un animale (Dam) o la Fidya, ma dovrebbe consultare gli studiosi o le autorità competenti per le fatwa se la questione non è chiara.",
+  "labels": {
+    "daleel": "La prova dal Corano e dalla Sunnah",
+    "note": "💡 Nota Giurisprudenziale: ",
+    "warning": "⚠️ Avviso: ",
+    "faqTitle": "Questioni e Ramificazioni Importanti",
+    "referenceTitle": "Riferimenti Scientifici e Religiosi"
+  },
+  "sections": {
+    "sec1": {
+      "title": "Cosa si intende per Fidya?",
+      "content": [
+        "La Fidya è ciò che la Legge Islamica (Sharia) richiede al pellegrino in stato di Ihram (Muhrim) in alcuni casi, quando omette un obbligo (Wajib) dei riti o commette un divieto dell'Ihram, come dettagliato nel Sacro Corano e nella Sunnah del Profeta.",
+        "Non tutte le violazioni richiedono la Fidya, ma le regole variano in base al tipo di violazione e alle condizioni della persona. Pertanto, la Fidya è considerata uno dei capitoli più complessi della giurisprudenza di Hajj e Umrah."
+      ],
+      "warning": "La Fidya è uno dei capitoli più complessi del Hajj e dell'Umrah. Il pellegrino non dovrebbe emettere fatwa da solo, ma consultare le persone di conoscenza."
+    },
+    "sec2": {
+      "title": "Primo: Chi omette un Pilastro (Rukn) dell'Umrah",
+      "content": [
+        "Se il pellegrino omette un Pilastro dell'Umrah — come il Tawaf o il Sa'i — la Fidya non compensa affatto l'omissione, ma deve eseguire tale Pilastro, poiché l'Umrah non è valida senza di esso."
+      ],
+      "list": [
+        "Omissione del Tawaf — L'Umrah non è valida e deve essere eseguito.",
+        "Omissione del Sa'i — L'Umrah non è valida e deve essere eseguito."
+      ],
+      "note": "Il pellegrino non si scioglie dalla sua Umrah finché non compie i pilastri che ha omesso."
+    },
+    "sec3": {
+      "title": "Secondo: Chi omette un Obbligo (Wajib) dell'Umrah",
+      "content": [
+        "Se il pellegrino omette un Obbligo dell'Umrah — come entrare in Ihram dal Miqat, o la rasatura, o l'accorciamento dei capelli — la maggioranza dei giuristi ritiene che debba offrire un sacrificio (Dam) se non riesce a rimediare."
+      ],
+      "list": [
+        "Oltrepassare il Miqat senza Ihram e senza potervi fare ritorno.",
+        "Omissione della rasatura o dell'accorciamento."
+      ],
+      "daleel": [
+        "Gli studiosi si basano su quanto affermato da Abdullah bin Abbas (che Allah si compiaccia di lui): «Chi dimentica qualcosa dei suoi riti o la omette, versi del sangue (offra un sacrificio)» — Riportato da Al-Muwatta', ed è stato adottato dalla maggioranza degli studiosi."
+      ],
+      "note": "Il 'Sangue' (Dam) consiste nel sacrificio di una pecora da distribuire ai poveri della Mecca."
+    },
+    "sec4": {
+      "title": "Terzo: Fidya per disagi o disturbi (Fidyat Al-Adha)",
+      "content": [
+        "Se chi è in stato di Ihram ha bisogno di compiere alcuni divieti dell'Ihram per un valido motivo (come rasarsi la testa per malattia, presenza di pidocchi, o altri disagi), gli è consentito farlo, e deve pagare la Fidya per il disturbo."
+      ],
+      "daleel": [
+        "Allah l'Altissimo dice: ﴿ E chi di voi è malato o ha un disturbo alla testa, allora un riscatto (Fidya) di digiuno o carità o sacrificio ﴾ [Al-Baqarah: 196]",
+        "È stato confermato che il Profeta ﷺ disse a Ka'b bin 'Ujrah (che Allah si compiaccia di lui) quando era afflitto dai pidocchi: «Rasa la tua testa, e digiuna tre giorni, o sfama sei poveri, o sacrifica una pecora» — Concordato."
+      ],
+      "options": [
+        {
+          "title": "Sacrificare una pecora",
+          "desc": "Da distribuire ai poveri dell'Haram"
+        },
+        {
+          "title": "Sfamare sei poveri",
+          "desc": "Per ogni povero, mezza misura (Sa') di cibo"
+        },
+        {
+          "title": "Digiunare tre giorni",
+          "desc": "Consecutivi o separati"
+        }
+      ],
+      "note": "A chi è in Ihram è permesso scegliere una qualsiasi di queste opzioni, senza alcun ordine specifico."
+    },
+    "sec5": {
+      "title": "Quarto: Chi compie un divieto per dimenticanza o ignoranza",
+      "content": [
+        "Chi commette uno dei divieti dell'Ihram per dimenticanza, per ignoranza, o costretto, non commette peccato.",
+        "Per quanto riguarda la Fidya, c'è disaccordo tra gli studiosi a seconda del tipo di divieto e della condizione della persona."
+      ],
+      "daleel": [
+        "Allah l'Altissimo dice: ﴿ Signore, non punirci se dimentichiamo o commettiamo un errore ﴾ [Al-Baqarah: 286]",
+        "E l'Altissimo dice: ﴿ Non vi è colpa per voi negli errori che commettete, ma per ciò che i vostri cuori fanno intenzionalmente ﴾ [Al-Ahzab: 5]"
+      ],
+      "warning": "Lo Sheikh Ibn Baz ha stabilito che non vi è alcuna Fidya per chi compie il divieto per dimenticanza o ignoranza. Bisogna però riferirsi agli studiosi per i dettagli."
+    },
+    "sec6": {
+      "title": "Quinto: Chi commette intenzionalmente un divieto",
+      "content": [
+        "Chi compie intenzionalmente uno dei divieti dell'Ihram conoscendone la regola, ha peccato, e alcuni divieti comportano una Fidya, a seconda del tipo di divieto.",
+        "Non tutti i divieti hanno la stessa regola, quindi le sentenze variano in base al tipo."
+      ],
+      "list": [
+        "Indossare indumenti cuciti per gli uomini — Fidya del disturbo con tre opzioni (pecora / sfamare / digiunare).",
+        "Uso del profumo — Fidya del disturbo con tre opzioni.",
+        "Rasatura dei capelli — Fidya del disturbo con tre opzioni.",
+        "Rapporti sessuali prima dello scioglimento — Invalidano i riti secondo la maggioranza degli studiosi e richiedono un'espiazione maggiore (Kaffarah)."
+      ],
+      "warning": "Questo è un riassunto generale. Bisogna fare riferimento agli studiosi in ogni questione che comporta un sacrificio (Dam) o Fidya."
+    }
+  },
+  "faqs": [
+    {
+      "q": "La Fidya è obbligatoria per chi indossa abiti cuciti per dimenticanza?",
+      "a": "Se li indossa dimenticando o non conoscendo la regola, non vi è peccato su di lui. Per quanto riguarda la Fidya c'è una divergenza; lo Sheikh Ibn Baz sostiene che non vi sia alcuna Fidya se si è scusati dalla dimenticanza o dall'ignoranza."
+    },
+    {
+      "q": "La Fidya è obbligatoria per chi si profuma per dimenticanza?",
+      "a": "Se ha dimenticato o non conosceva la regola, non c'è peccato su di lui, e deve rimuovere il profumo appena se ne ricorda. Per la Fidya c'è divergenza come per la questione degli abiti cuciti."
+    },
+    {
+      "q": "La Fidya è obbligatoria per chi si rade i capelli per una valida ragione religiosa?",
+      "a": "Sì. Se si rade per un motivo valido come una malattia, è consentito, e deve pagare la Fidya del disturbo menzionata nel nobile versetto: può scegliere tra sacrificare una pecora, sfamare sei poveri o digiunare per tre giorni."
+    },
+    {
+      "q": "Dove deve essere offerto il sacrificio (Dam)?",
+      "a": "È meglio che il sacrificio avvenga alla Mecca e venga distribuito ai suoi poveri. Alcuni studiosi ritengono lecito delegare qualcun altro a farlo."
+    }
+  ],
+  "references": [
+    "Il Sacro Corano",
+    "Sahih Al-Bukhari e Sahih Muslim",
+    "Al-Muwatta' dell'Imam Malik bin Anas",
+    "Al-Tahqiq wal Idah — Sheikh Ibn Baz",
+    "Fatwa su Hajj, Umrah e Visite — Sheikh Ibn Baz",
+    "Al-Sharh Al-Mumti' 'ala Zad Al-Mustaqni' — Sheikh Ibn Uthaymin"
+  ]
+}

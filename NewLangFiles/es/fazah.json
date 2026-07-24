@@ -1,0 +1,82 @@
+{
+  "eyebrow": "Servicio Fazah",
+  "title": "Fazah — Red de Socorro Descentralizada para el Peregrino",
+  "description": "Cada peregrino lleva una tarjeta con código QR que lo conecta con el guía o recepción de hotel más cercano en segundos, sin necesidad de teléfono o internet por su parte.",
+  "demoNotice": "Esta es una página explicativa del concepto del servicio propuesto. Los datos mostrados (tarjeta de peregrino y simulación de alerta) son totalmente experimentales y con fines ilustrativos.",
+  "why": {
+    "badge": "¿Por qué Fazah?",
+    "title": "Cuando un peregrino necesita ayuda, no hay tiempo que perder",
+    "desc": "En medio de la multitud de las Dos Sagradas Mezquitas y el gran número de grupos, un peregrino puede perderse o sufrir un problema de salud lejos de su grupo. Fazah es una red voluntaria que reúne a guías certificados y personal de recepción de hoteles, de modo que cualquiera de ellos puede identificar a cualquier peregrino que lleve la tarjeta del servicio y alertar a sus responsables de inmediato."
+  },
+  "how": {
+    "title": "¿Cómo funciona el servicio?",
+    "desc": "Tres sencillos pasos que conectan al peregrino con la red de auxilio sin complicaciones."
+  },
+  "simulator": {
+    "title": "Simulación del proceso de escaneo y alerta",
+    "badge": "Experiencia ilustrativa",
+    "idleDesc": "Presione el botón de abajo para simular que un guía escanea la tarjeta Fazah del peregrino modelo anterior.",
+    "idleBtn": "Simular escaneo de tarjeta",
+    "doneText": "Se ha notificado al responsable del grupo y a la recepción del hotel sobre la ubicación actual del peregrino.",
+    "resetBtn": "Reiniciar simulación",
+    "chain": {
+      "step1": "Identificación del peregrino",
+      "step2": "Alerta al responsable del grupo",
+      "step3": "Compartir ubicación actual",
+      "step4": "Notificar a la recepción del hotel"
+    }
+  },
+  "cardLabels": {
+    "title": "Tarjeta Fazah",
+    "pilgrimName": "Nombre del Peregrino",
+    "hotel": "Hotel",
+    "roomNumber": "Número de Habitación",
+    "groupLeaderPhone": "Teléfono del Responsable",
+    "bloodType": "Grupo Sanguíneo",
+    "qrDesc": "Cualquier guía o recepcionista registrado puede escanear este código para ver los datos del peregrino y alertar a la red de socorro de inmediato.",
+    "flipQr": "Ver código QR trasero",
+    "flipFront": "Ver frente de la tarjeta"
+  },
+  "sampleCard": {
+    "name": "Abdulrahman Saeed Al-Mutairi",
+    "hotel": "Swissôtel Al Maqam Makkah",
+    "groupLeaderName": "Sheikh Abdullah Al-Harbi",
+    "groupLeaderPhone": "055 444 2211",
+    "roomNumber": "Habitación 714",
+    "bloodType": "O+",
+    "healthNote": "Paciente hipertenso, lleva medicamentos en su bolsa",
+    "language": "Árabe"
+  },
+  "steps": {
+    "s1": {
+      "title": "Tarjeta Fazah Personal",
+      "desc": "Cada peregrino recibe una tarjeta o pulsera impresa con un código QR, sin necesidad de tener un teléfono o conexión a internet. La tarjeta contiene su nombre, hotel, número de habitación, teléfono del responsable de grupo, tipo de sangre y notas de salud."
+    },
+    "s2": {
+      "title": "Escaneo por cualquier guía o recepcionista",
+      "desc": "En caso de necesidad, el guía certificado o el empleado de recepción registrado más cercano escanea el código con su cámara móvil, mostrando los datos del peregrino de inmediato sin necesidad de una aplicación especial."
+    },
+    "s3": {
+      "title": "Alerta inmediata y cadena de socorro",
+      "desc": "Al escanear, la red envía una alerta automática al responsable de grupo y al contacto de emergencia, compartiendo la ubicación actual del peregrino y notificando a la recepción del hotel para iniciar la ayuda sin demora."
+    }
+  },
+  "benefits": {
+    "b1": {
+      "title": "Sin necesidad de teléfono o internet",
+      "desc": "La tarjeta funciona sin ningún dispositivo por parte del peregrino; basta con llevarla como tarjeta o pulsera."
+    },
+    "b2": {
+      "title": "Red distribuida de voluntarios",
+      "desc": "Cualquier guía o recepcionista registrado en la red puede ayudar dondequiera que se encuentre el peregrino."
+    },
+    "b3": {
+      "title": "Información médica vital a la mano",
+      "desc": "El tipo de sangre y las notas médicas llegan a quien brinda la primera ayuda en cuestión de segundos."
+    },
+    "b4": {
+      "title": "Adecuado para ancianos y personas con discapacidad",
+      "desc": "Una solución simple que no requiere conocimientos tecnológicos, apta para todas las edades y condiciones."
+    }
+  }
+}

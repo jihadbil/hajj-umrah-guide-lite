@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Biz bilan bog'laning",
+  "title": "Bog'lanish",
+  "description": "Platformani boyitish va Rahmonning mehmonlariga xizmat qilish uchun uni takomillashtirishga yordam beradigan fikr-mulohaza, savol va takliflaringizni kutib olamiz.",
+  "channels": {
+    "title": "To'g'ridan-to'g'ri aloqa kanallari",
+    "email_title": "Platforma elektron pochtasi",
+    "email_sub": "Odatda 24 ish soati ichida javob beramiz",
+    "support_title": "To'g'ridan-to'g'ri texnik va shar'iy yordam",
+    "support_sub": "Umra mavsumi davomida mavjud",
+    "address_title": "Xizmatning bosh qarorgohi",
+    "address_body": "Makkai Mukarrama — Saudiya Arabistoni Qirolligi",
+    "quote": "\"Odamlarning eng yaxshisi — ularga eng ko'p foyda keltiruvchisidir\"",
+    "quote_sub": "— Biz doim eng yaxshisini taqdim etishga intilamiz"
+  },
+  "form": {
+    "title": "Jamoaga xabar yuboring",
+    "success_title": "Xabaringiz muvaffaqiyatli yuborildi!",
+    "success_desc": "Biz bilan bog'langaningiz uchun tashakkur. Xabaringizni qabul qildik va rivojlantirish yoki shar'iy yordam jamoasi imkon qadar tezroq, inshaalloh, sizga javob berishadi.",
+    "send_another": "Boshqa xabar yuborish",
+    "name": "To'liq ism",
+    "name_placeholder": "Hurmatli ismingizni kiriting",
+    "email": "Elektron pochta",
+    "email_placeholder": "example@mail.com",
+    "subject": "Xabar mavzusi",
+    "subject_options": {
+      "suggestion": "💡 Rivojlantirish taklifi",
+      "bug": "⚠️ Texnik fikr-mulohaza / xatolik haqida xabar",
+      "fiqh": "🏛️ Fiqhiy yoki shar'iy savol",
+      "other": "💬 Boshqa"
+    },
+    "message": "Xabar matni",
+    "message_placeholder": "Xabaringizni bu yerda batafsil yozing...",
+    "submit": "Xabarni yuborish",
+    "sending": "Yuborilmoqda..."
+  }
+}

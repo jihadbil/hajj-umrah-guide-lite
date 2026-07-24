@@ -1,0 +1,145 @@
+{
+  "eyebrow": "Jurisprudencia de Umrah",
+  "title": "Pilares de Umrah",
+  "description": "Los pilares son los actos esenciales sobre los cuales se basa Umrah, y no es válida excepto con todos ellos.",
+  "intro": {
+    "title": "¿Cuál es la diferencia entre pilar, obligación y Sunnah?",
+    "rukn_title": "El pilar (Rukn)",
+    "rukn_body": "Sin el cual Umrah no es válida, y quien lo omita permanece en su Ihram hasta que lo realice.",
+    "wajib_title": "La obligación (Wajib)",
+    "wajib_body": "Lo que debe hacerse, y quien lo omita peca y debe un sacrificio (Dam) según la mayoría de los juristas, pero su Umrah es válida.",
+    "sunnah_title": "La Sunnah",
+    "sunnah_body": "Lo que es recomendable hacer siguiendo al Profeta ﷺ, no es obligatorio y no tiene consecuencias por omitirlo."
+  },
+  "tabs": {
+    "details": "Detalles",
+    "mustahabb": "Recomendaciones",
+    "makrooh": "No preferido"
+  },
+  "labels": {
+    "ruling": "Regla: ",
+    "ruknLabel": "Pilar {{num}}",
+    "noteLabel": "💡 Nota: ",
+    "mustahabbSub": "Se recompensa a quien lo hace siguiendo al Profeta ﷺ, y no peca quien lo omite.",
+    "makroohSub": "Asuntos que se aconseja evitar porque disminuyen la recompensa o contradicen la perfección del acto de adoración."
+  },
+  "conclusion": {
+    "verse": "﴿ وَأَتِمُّوا الْحَجَّ وَالْعُمْرَةَ لِلَّهِ ﴾",
+    "source": "Sura Al-Baqarah — Verso 196"
+  },
+  "rukn1": {
+    "arabicNum": "١",
+    "title": "Ihram",
+    "definition": "La intención de entrar en el rito, que es el pilar con el cual comienza Umrah. Umrah no es válida excepto con Ihram desde el Miqat designado.",
+    "ruling": "Pilar — Umrah no es válida sin él, quien no entre en Ihram no habrá comenzado su Umrah en absoluto.",
+    "details": [
+      "El Ihram se establece con la intención, si uno tiene la intención de entrar en Umrah y la pronuncia, ha entrado en el rito.",
+      "El peregrino debe entrar en Ihram desde el Miqat, y no está permitido pasar el Miqat sin Ihram.",
+      "Es recomendable bañarse y usar Izar y Rida' blancos para el hombre antes del Ihram.",
+      "La mujer entra en Ihram con su ropa habitual que cubra, evitando el Niqab y los guantes.",
+      "La Talbiyah comienza inmediatamente después del Ihram y continúa hasta comenzar el Tawaf."
+    ],
+    "mustahabb": [
+      "Bañarse antes del Ihram — Sunnah confirmada incluso sin estado de impureza mayor.",
+      "Usar Izar y Rida' blancos y limpios para el hombre.",
+      "Usar perfume en el cuerpo del hombre antes del Ihram, incluso si su efecto permanece después.",
+      "Enfrentar la Qibla durante la Talbiyah si es posible.",
+      "Elevar la voz con Talbiyah para el hombre moderadamente.",
+      "Hacer condición para quien tema un impedimento: «فإن حبسني حابس فمحلي حيث حبستني»",
+      "Aumentar la Talbiyah en el camino a Masjid al-Haram."
+    ],
+    "makrooh": [
+      "Retrasar la Talbiyah después de la intención de Ihram sin excusa.",
+      "Ocuparse con el teléfono y conversaciones inmediatamente después del Ihram antes de comenzar la Talbiyah.",
+      "Que la mujer eleve su voz con Talbiyah frente a hombres extraños.",
+      "Hacer condición sin necesidad, ya que es una concesión que no es recomendable para quien está sano.",
+      "Poner perfume en la ropa de Ihram después de hacer la intención de Ihram."
+    ],
+    "note": "El Ihram es la intención, no solo usar las dos piezas de ropa. Quien usa el Izar y Rida' sin intención de entrar en Ihram no ha entrado en él."
+  },
+  "rukn2": {
+    "arabicNum": "٢",
+    "title": "Tawaf",
+    "definition": "Dar siete vueltas completas alrededor de la Kaaba, comenzando desde la Piedra Negra y terminando en ella, con la Kaaba a la izquierda del que hace Tawaf todo el tiempo.",
+    "ruling": "Pilar — Umrah no es válida sin él, quien omita el Tawaf no ha completado su Umrah y no se desacralizará hasta que lo realice.",
+    "details": [
+      "Cada vuelta comienza desde la alineación con la Piedra Negra y se toca o se señala con Takbir.",
+      "La Kaaba debe estar a la izquierda del que hace Tawaf en todas las vueltas.",
+      "El Tawaf incluye siete vueltas completas, y el Tawaf no es válido dentro de Hijr Ismail.",
+      "Se requiere pureza de impureza menor y mayor para el Tawaf.",
+      "Idtiba' (descubrir el hombro derecho) y Raml (caminar rápido) son Sunnah para el hombre solo en Tawaf de Umrah."
+    ],
+    "mustahabb": [
+      "Idtiba' durante todo el Tawaf para el hombre — descubrir el hombro derecho poniendo el Rida' bajo la axila.",
+      "Raml en las primeras tres vueltas para el hombre — caminar rápido con pasos cortos.",
+      "Tocar la Piedra Negra o señalarla con Takbir al comienzo de cada vuelta.",
+      "Tocar el Rukn Yamani con la mano derecha en cada vuelta si es posible sin causar daño.",
+      "Recitar «ربنا آتنا في الدنيا حسنة» entre el Rukn Yamani y la Piedra Negra.",
+      "Aumentar el Dhikr, súplicas y recitación del Corán durante el Tawaf.",
+      "Humildad y tranquilidad sin ocuparse de asuntos mundanos."
+    ],
+    "makrooh": [
+      "Elevar la voz con súplicas en grupo de manera que moleste a los que hacen Tawaf.",
+      "Empujar a la gente y lastimarlos para llegar a la Piedra Negra o al Rukn Yamani.",
+      "Tocar todas las esquinas de la Kaaba o tocar sus paredes — la Sunnah es tocar solo la Piedra Negra y el Rukn Yamani.",
+      "Ocuparse con conversaciones sobre asuntos mundanos durante el Tawaf.",
+      "Señalar al Rukn Yamani cuando no se puede tocarlo — la Sunnah es no señalarlo.",
+      "Correr en todas las vueltas — Raml solo en las primeras tres."
+    ],
+    "note": "Besar la mano después de señalar a la Piedra Negra no está confirmado del Profeta ﷺ, solo señalar con Takbir."
+  },
+  "rukn3": {
+    "arabicNum": "٣",
+    "title": "Sa'i entre Safa y Marwah",
+    "definition": "Caminar siete vueltas entre las montañas de Safa y Marwah, comenzando desde Safa y terminando en Marwah.",
+    "ruling": "Pilar — Umrah no es válida sin él. Quien omita Sa'i no ha completado su rito y no se desacralizará hasta que lo realice.",
+    "details": [
+      "Sa'i son siete vueltas: ir de Safa a Marwah es una vuelta, y regresar es otra vuelta.",
+      "Sa'i comienza desde Safa y termina en Marwah en la séptima vuelta.",
+      "Es recomendable subir a Safa y Marwah en cada vuelta si es posible.",
+      "La pureza es recomendable para Sa'i pero no es condición para su validez.",
+      "Caminar rápido entre las señales verdes es Sunnah para hombres, no para mujeres."
+    ],
+    "mustahabb": [
+      "Recitar el verso «إن الصفا والمروة من شعائر الله» al subir a Safa.",
+      "Enfrentar la Qibla en Safa y Marwah y repetir el Dhikr y súplica tres veces.",
+      "Caminar rápido entre las señales verdes solo para el hombre.",
+      "Aumentar Dhikr, súplicas y recitación del Corán.",
+      "La pureza — recomendable aunque Sa'i es válido sin ella.",
+      "Subir a Safa y Marwah en cada vuelta si es posible."
+    ],
+    "makrooh": [
+      "Que la mujer camine rápido entre las señales verdes — la Sunnah es que camine normalmente.",
+      "Correr en todo el Mas'a — la Sunnah es caminar rápido solo entre las señales.",
+      "Comenzar desde Marwah antes de Safa — la Sunnah es comenzar desde Safa.",
+      "Ocuparse con conversaciones y dejar el Dhikr y súplicas.",
+      "Obligarse con súplicas específicas para cada vuelta — esto no está confirmado del Profeta ﷺ."
+    ],
+    "note": "Sa'i es válido sin pureza según la mayoría de los eruditos, aunque la pureza es mejor y más completa."
+  },
+  "rukn4": {
+    "arabicNum": "٤",
+    "title": "Afeitar o acortar el cabello",
+    "definition": "Afeitar o acortar todo el cabello de la cabeza después de Sa'i, que es con lo que el peregrino completa su rito y se desacraliza de su Ihram.",
+    "ruling": "Obligatorio según la mayoría de los juristas — aunque algunos lo consideran un pilar. Quien lo omita no se desacralizará de su Ihram.",
+    "details": [
+      "Para el hombre: Afeitar completamente es mejor y más completo, acortar es suficiente. Debe incluir toda la cabeza.",
+      "Para la mujer: Toma de las puntas de su cabello aproximadamente la longitud de una falange, y no afeita su cabeza.",
+      "Quien esté cerca de la temporada de Hajj y quiera hacer Hajj, es mejor para él acortar para afeitar en Hajj.",
+      "No es suficiente cortar unos pocos cabellos solo de la parte delantera de la cabeza.",
+      "Al completar el afeitado o acortado, el peregrino se desacraliza y se le permite todo lo que estaba prohibido."
+    ],
+    "mustahabb": [
+      "Afeitar completamente para el hombre a menos que quiera hacer Hajj pronto.",
+      "Apresurarse a afeitar o acortar inmediatamente después de terminar Sa'i.",
+      "Súplica después del afeitado y agradecer a Allah por completar el rito."
+    ],
+    "makrooh": [
+      "Contentarse con cortar unos pocos cabellos solo de la parte delantera de la cabeza.",
+      "Acortar de un solo lado sin el resto de la cabeza.",
+      "Desacralizarse o quitarse la ropa de Ihram antes de completar el afeitado o acortado.",
+      "Que la mujer afeite el cabello de su cabeza."
+    ],
+    "note": "Al completar el afeitado o acortado termina su Umrah y se desacraliza de su Ihram. Pedimos a Allah la aceptación."
+  }
+}

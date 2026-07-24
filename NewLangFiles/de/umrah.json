@@ -1,0 +1,321 @@
+{
+  "eyebrow": "Die Umrah-Reise",
+  "title": "Schritt-für-Schritt Umrah-Leitfaden",
+  "description": "Ihr praktischer Leitfaden zur detaillierten Durchführung der Umrah, vom Anfang bis zur vollständigen Entweihung.",
+  "labels": {
+    "recommended": "Empfohlenes (Mustahabbat)",
+    "disliked": "Verpöntes (Makrohat)",
+    "mistakes": "Fehler & Korrekturen",
+    "duas": "Bittgebete (Duas)",
+    "guide": "Der Leitfaden",
+    "warningTitle": "Wichtiger Hinweis",
+    "nextStep": "Nächster Schritt",
+    "stepLabel": "Schritt {{id}}",
+    "stepOf": "Schritt {{id}} von {{total}}",
+    "stepsCount": "{{count}} Schritte"
+  },
+  "steps": {
+    "step1": {
+      "title": "Vor dem Ihram",
+      "subtitle": "Vorbereitung",
+      "intro": "Bevor Sie beginnen, sollten Sie sich reinigen und vorbereiten.",
+      "sections": [
+        {
+          "heading": "Wie bereiten Sie sich vor?",
+          "body": "Am Miqat wird empfohlen:",
+          "list": [
+            "Ghusl (Ganzkörperwaschung) vollziehen.",
+            "Körperpflege, Nägel schneiden.",
+            "Parfüm auf den Körper (Männer) auftragen, NICHT auf die Kleidung.",
+            "Wenn Ghusl am Miqat nicht möglich ist, kann es auch später vor dem Tawaf im Hotel in Mekka erfolgen."
+          ]
+        },
+        {
+          "heading": "Ihram-Kleidung für Männer",
+          "body": "Zwei ungenähte weiße Tücher (Izar und Rida)."
+        },
+        {
+          "heading": "Ihram-Kleidung für Frauen",
+          "body": "Ihre übliche bedeckende Kleidung, ohne Gesichtsschleier (Niqab) oder Handschuhe."
+        }
+      ],
+      "recommended": [
+        "Ghusl vor dem Ihram.",
+        "Nägel schneiden, Haare entfernen.",
+        "Körper parfümieren (nur Männer).",
+        "Weiße Kleidung (Männer).",
+        "Zwei Rak'ah im Miqat beten, falls eine Moschee vorhanden."
+      ],
+      "disliked": [
+        "Ghusl ohne Grund weglassen.",
+        "Verzögerung der Vorbereitung."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Glaube, dass weiße Kleidung zwingend Pflicht sei.",
+          "right": "Es ist Sunnah, nicht Wajib (Pflicht)."
+        },
+        {
+          "wrong": "Parfüm auf die Ihram-Kleidung sprühen.",
+          "right": "Nur auf den Körper vor der Absicht."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Absicht",
+          "arabic": "اللَّهُمَّ لَبَّيْكَ عُمْرَةً",
+          "source": "Empfohlen, dies laut auszusprechen"
+        }
+      ],
+      "note": "Vorbereitung ist Sunnah.",
+      "nextStep": "Der Ihram"
+    },
+    "step2": {
+      "title": "Der Ihram",
+      "subtitle": "Eintritt in den Ritus",
+      "intro": "Jetzt sind Sie am Miqat. Hier fassen Sie die Absicht.",
+      "sections": [
+        {
+          "heading": "Wie tritt man ein?",
+          "body": "Nach dem Anziehen der Kleidung fassen Sie die Absicht: «Labbayk Umrah». Damit sind Sie im Ihram."
+        },
+        {
+          "heading": "Bedingung (Ishtirat)",
+          "body": "Bei Krankheit oder Angst vor Hindernissen sagen Sie: «Fa-in habasani habisun famahilli haythu habastani»."
+        }
+      ],
+      "recommended": [
+        "Sofort mit der Talbiyah beginnen.",
+        "Richtung Qibla blicken.",
+        "Bedingung bei Angst vor Krankheit aussprechen."
+      ],
+      "disliked": [
+        "Talbiyah grundlos verzögern.",
+        "Bedingung ohne Grund aussprechen."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Glaube, Ihram sei nur das Tragen der Kleidung.",
+          "right": "Ihram ist die Absicht im Herzen."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Die Talbiyah",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ، لَبَّيْكَ لَا شَرِيكَ لَكَ لَبَّيْكَ، إِنَّ الْحَمْدَ وَالنِّعْمَةَ لَكَ وَالْمُلْكَ، لَا شَرِيكَ لَكَ",
+          "source": "Übereinstimmend"
+        }
+      ],
+      "note": "Der Miqat darf nicht ohne Ihram passiert werden.",
+      "nextStep": "Die Talbiyah"
+    },
+    "step3": {
+      "title": "Die Talbiyah",
+      "subtitle": "Der Ruf Allahs",
+      "intro": "Nach dem Ihram beginnen Sie mit der Talbiyah.",
+      "sections": [
+        {
+          "heading": "Dauer",
+          "body": "Bis Sie die Heilige Moschee erreichen und den Tawaf beginnen."
+        }
+      ],
+      "recommended": [
+        "Laute Talbiyah (für Männer).",
+        "Häufige Wiederholung."
+      ],
+      "disliked": [
+        "Frauen, die laut vor Männern sprechen."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Feste Anzahl der Talbiyah.",
+          "right": "Keine feste Zahl; einfach oft wiederholen."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Talbiyah",
+          "arabic": "لَبَّيْكَ اللَّهُمَّ لَبَّيْكَ...",
+          "source": "Übereinstimmend"
+        }
+      ],
+      "note": "Frauen flüstern die Talbiyah so, dass nur sie selbst es hören.",
+      "nextStep": "Betreten der Moschee"
+    },
+    "step4": {
+      "title": "Betreten der Heiligen Moschee",
+      "subtitle": "Das Haus Gottes",
+      "intro": "Betreten Sie die Moschee mit Respekt und dem rechten Fuß.",
+      "sections": [
+        {
+          "heading": "Betreten",
+          "body": "Mit dem rechten Fuß, Dua sprechen."
+        }
+      ],
+      "recommended": [
+        "Dua beim Anblick der Kaaba."
+      ],
+      "disliked": [
+        "Drängeln."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Talbiyah während des Tawaf fortsetzen.",
+          "right": "Sie stoppt beim Beginn des Tawaf."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Eintritt",
+          "arabic": "بِسْمِ اللَّهِ، وَالصَّلَاةُ وَالسَّلَامُ عَلَى رَسُولِ اللَّهِ...",
+          "source": "Muslim"
+        }
+      ],
+      "note": "Bleiben Sie ruhig.",
+      "nextStep": "Der Tawaf"
+    },
+    "step5": {
+      "title": "Der Tawaf",
+      "subtitle": "7 Runden um die Kaaba",
+      "intro": "Beginnen Sie am Schwarzen Stein.",
+      "sections": [
+        {
+          "heading": "Ablauf",
+          "body": "7 Runden gegen den Uhrzeigersinn."
+        },
+        {
+          "heading": "Idtiba & Ramal",
+          "body": "Männer legen die rechte Schulter frei (Idtiba) und gehen die ersten 3 Runden schnell (Ramal)."
+        }
+      ],
+      "recommended": [
+        "Den Schwarzen Stein und die Jemenitische Ecke berühren (wenn möglich)."
+      ],
+      "disliked": [
+        "Alle Ecken der Kaaba berühren."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Drängeln am Stein.",
+          "right": "Aus der Ferne zeigen reicht bei Menschenmengen aus."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Zwischen Jemenitische Ecke & Stein",
+          "arabic": "رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ",
+          "source": "Al-Baqara 201"
+        }
+      ],
+      "note": "Wudu (rituelle Reinheit) ist Pflicht.",
+      "nextStep": "Zwei Rak'ah & Zamzam"
+    },
+    "step6": {
+      "title": "Tawaf-Gebet & Zamzam",
+      "subtitle": "Nach dem Tawaf",
+      "intro": "Zwei Rak'ah hinter Maqam Ibrahim beten.",
+      "sections": [
+        {
+          "heading": "Das Gebet",
+          "body": "Zwei Rak'ah. Erste: Al-Kafirun, Zweite: Al-Ikhlas."
+        },
+        {
+          "heading": "Zamzam",
+          "body": "Zamzam-Wasser trinken und dabei beten."
+        }
+      ],
+      "recommended": [
+        "Gebet hinter dem Maqam, falls möglich."
+      ],
+      "disliked": [
+        "Die rechte Schulter (Idtiba) auch beim Gebet frei lassen."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Glaube, dass das Gebet ZWINGEND genau hinter dem Maqam sein muss.",
+          "right": "Überall in der Moschee gültig."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Beim Zamzam Trinken",
+          "arabic": "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا...",
+          "source": "Al-Hakim"
+        }
+      ],
+      "note": "Schulter vor dem Gebet bedecken.",
+      "nextStep": "Der Sa'i"
+    },
+    "step7": {
+      "title": "Der Sa'i",
+      "subtitle": "Zwischen Safa & Marwa",
+      "intro": "Sieben Runden laufen.",
+      "sections": [
+        {
+          "heading": "Start bei Safa",
+          "body": "Qibla anvisieren und Dua sprechen."
+        },
+        {
+          "heading": "Laufen",
+          "body": "Männer laufen schnell zwischen den grünen Lichtern."
+        }
+      ],
+      "recommended": [
+        "Dua auf den Hügeln."
+      ],
+      "disliked": [
+        "Rennen bei Frauen."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Start bei Marwa.",
+          "right": "Der erste Gang muss bei Safa starten."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Auf Safa & Marwa",
+          "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ...",
+          "source": "Muslim"
+        }
+      ],
+      "note": "Reinheit ist hier keine Pflicht, aber empfohlen.",
+      "nextStep": "Rasieren oder Kürzen"
+    },
+    "step8": {
+      "title": "Rasieren oder Kürzen",
+      "subtitle": "Beendigung",
+      "intro": "Die Umrah wird mit der Haarentfernung abgeschlossen.",
+      "sections": [
+        {
+          "heading": "Männer",
+          "body": "Rasieren (besser) oder alle Haare gleichmäßig kürzen."
+        },
+        {
+          "heading": "Frauen",
+          "body": "Nur die Haarspitzen kürzen."
+        }
+      ],
+      "recommended": [
+        "Komplette Rasur für Männer."
+      ],
+      "disliked": [
+        "Rasur für Frauen."
+      ],
+      "mistakeItems": [
+        {
+          "wrong": "Ablegen der Kleidung vor der Rasur.",
+          "right": "Man bleibt im Ihram, bis die Haare gekürzt sind."
+        }
+      ],
+      "duas": [
+        {
+          "title": "Schluss",
+          "arabic": "رَبَّنَا تَقَبَّلْ مِنَّا، إِنَّكَ أَنْتَ السَّمِيعُ الْعَلِيمُ",
+          "source": "Al-Baqara 127"
+        }
+      ],
+      "note": "Umrah abgeschlossen. Möge Allah sie annehmen!"
+    }
+  }
+}

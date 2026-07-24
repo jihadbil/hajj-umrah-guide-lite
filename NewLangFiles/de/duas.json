@@ -1,0 +1,67 @@
+{
+  "eyebrow": "Bittgebete & Dhikr",
+  "title": "Authentische Bittgebete für die Umrah",
+  "description": "Eine Auswahl authentischer Bittgebete (Duas) vom Propheten ﷺ für jeden Moment der Reise.",
+  "groups": {
+    "talbiyah": {
+      "title": "Die Talbiyah",
+      "items": [
+        {
+          "title": "Talbiyah des Propheten ﷺ",
+          "arabic": "لبّيك اللهم لبّيك، لبّيك لا شريك لك لبّيك، إنّ الحمد والنعمة لك والملك، لا شريك لك.",
+          "source": "Übereinstimmend"
+        }
+      ]
+    },
+    "tawaf": {
+      "title": "Bittgebete für den Tawaf",
+      "items": [
+        {
+          "title": "Zu Beginn jeder Runde",
+          "arabic": "بسم الله، والله أكبر، اللهم إيماناً بك، وتصديقاً بكتابك، ووفاءً بعهدك، واتّباعاً لسنّة نبيك محمد ﷺ.",
+          "source": "Überlieferung von Ibn Umar"
+        },
+        {
+          "title": "Zwischen der jemenitischen Ecke und dem Schwarzen Stein",
+          "arabic": "﴿ رَبَّنَا آتِنَا فِي الدُّنْيَا حَسَنَةً وَفِي الْآخِرَةِ حَسَنَةً وَقِنَا عَذَابَ النَّارِ ﴾",
+          "source": "Al-Baqara 201"
+        }
+      ]
+    },
+    "sai": {
+      "title": "Bittgebete für den Sa'i",
+      "items": [
+        {
+          "title": "Beim Besteigen von Safa und Marwa",
+          "arabic": "﴿ إِنَّ الصَّفَا وَالْمَرْوَةَ مِن شَعَائِرِ اللَّهِ ﴾ أبدأ بما بدأ الله به.",
+          "source": "Muslim"
+        },
+        {
+          "title": "Auf Safa und Marwa",
+          "arabic": "لا إله إلا الله وحده لا شريك له، له الملك وله الحمد، وهو على كل شيء قدير، لا إله إلا الله وحده، أنجز وعده، ونصر عبده، وهزم الأحزاب وحده.",
+          "source": "Muslim"
+        }
+      ]
+    },
+    "general": {
+      "title": "Allgemeine Dhikr für Pilger",
+      "items": [
+        {
+          "title": "Betreten der Moschee",
+          "arabic": "اللهم افتح لي أبواب رحمتك.",
+          "source": "Muslim"
+        },
+        {
+          "title": "Beim Anblick der Kaaba",
+          "arabic": "اللهم زد هذا البيت تشريفاً وتعظيماً وتكريماً ومهابة، وزد من شرّفه وكرّمه ممن حجّه أو اعتمره تشريفاً وتكريماً وتعظيماً وبرّاً.",
+          "source": "Überlieferung"
+        },
+        {
+          "title": "Beim Trinken von Zamzam",
+          "arabic": "اللهم إني أسألك علماً نافعاً، ورزقاً واسعاً، وشفاءً من كل داء.",
+          "source": "Überlieferung von Ibn Abbas"
+        }
+      ]
+    }
+  }
+}

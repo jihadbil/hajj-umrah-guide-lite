@@ -1,0 +1,37 @@
+{
+  "eyebrow": "Comunicazione",
+  "title": "Contattaci",
+  "description": "Siamo felici di ricevere le tue opinioni, le tue richieste e i tuoi commenti che contribuiscono ad arricchire e sviluppare la piattaforma per servire gli ospiti del Misericordioso.",
+  "channels": {
+    "title": "Canali di comunicazione diretti",
+    "email_title": "Email della piattaforma",
+    "email_sub": "Di solito rispondiamo entro 24 ore lavorative",
+    "support_title": "Supporto tecnico e religioso diretto",
+    "support_sub": "Disponibile durante tutta la stagione dell'Umrah",
+    "address_title": "Sede centrale del servizio",
+    "address_body": "La Mecca — Arabia Saudita",
+    "quote": "\"Il migliore tra le persone è colui che è più utile alle persone\"",
+    "quote_sub": "— Cerchiamo di offrire sempre il meglio"
+  },
+  "form": {
+    "title": "Invia un messaggio al team",
+    "success_title": "Il tuo messaggio è stato inviato con successo!",
+    "success_desc": "Ti ringraziamo per averci contattato. Abbiamo ricevuto il tuo messaggio e il team di sviluppo o di supporto religioso ti risponderà il prima possibile, a Dio piacendo.",
+    "send_another": "Invia un altro messaggio",
+    "name": "Nome e Cognome",
+    "name_placeholder": "Inserisci il tuo nome",
+    "email": "Indirizzo Email",
+    "email_placeholder": "esempio@mail.com",
+    "subject": "Oggetto del messaggio",
+    "subject_options": {
+      "suggestion": "💡 Suggerimento per lo sviluppo",
+      "bug": "⚠️ Segnalazione tecnica / Segnalazione bug",
+      "fiqh": "🏛️ Richiesta giurisprudenziale o religiosa",
+      "other": "💬 Altro"
+    },
+    "message": "Testo del messaggio",
+    "message_placeholder": "Scrivi il tuo messaggio qui in dettaglio...",
+    "submit": "Invia messaggio",
+    "sending": "Invio in corso..."
+  }
+}

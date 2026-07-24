@@ -1,0 +1,118 @@
+{
+  "eyebrow": "Ogohlantirish va yo'l-yo'riqlar",
+  "title": "Umrada keng tarqalgan xatolar",
+  "description": "Ko'plab umra ziyoratchilari duch keladigan asosiy xatolar, to'g'ri yo'l va shar'iy dalil bilan birga.",
+  "quote": "Abdulloh ibn Mas'ud (r.a.) shunday degan: «Ergashinglar, bid'at chiqarmanglar, sizlarga yetarli qilingan». Umra ziyoratchisi Payg'ambar ﷺ yo'l-yo'rig'iga qanchalik ko'p amal qilsa, ibodati shunchalik mukammal va Alloh izni bilan qabul bo'lishga yaqinroq bo'ladi.",
+  "groups": {
+    "ihram": {
+      "category": "Ehrom xatolari",
+      "mistakes": [
+        {
+          "title": "Miqotni ehromsiz o'tib ketish",
+          "wrong": "Ba'zi umra ziyoratchilari miqotni ehromga kirmasdan o'tib ketishadi, keyin undan so'ng ehromga kirishadi.",
+          "right": "Umra qilmoqchi bo'lgan kishi o'tayotgan miqotidan ehromga kirishi shart.",
+          "daleel": "U ﷺ dedi: «Bular ular uchundir va ulardan bo'lmagan, haj va umrani niyat qilib o'sha joylardan o'tuvchilar uchundir» — ittifoq qilingan (Buxoriy va Muslim)."
+        },
+        {
+          "title": "Ehromni faqat ikki mato kiyish deb bilish",
+          "wrong": "Ba'zi odamlar ehromni faqat izor va rido kiyish deb o'ylaydilar.",
+          "right": "Ehrom — bu ibodatga kirish niyatidir. Ehrom kiyimlarini kiyish esa uning sifati bo'lib, mohiyati emas."
+        },
+        {
+          "title": "Talbiyani tark etish yoki undan chalg'ish",
+          "wrong": "Ba'zi umra ziyoratchilari ehromdan keyin talbiyani tark etishadi yoki suhbat va telefon bilan bandlik tufayli undan chalg'ishadi.",
+          "right": "Tavof boshlangunga qadar talbiyani ko'p aytish mustahab.",
+          "daleel": "Payg'ambar ﷺ ehromga kirgan zahotidan tavofni boshlaguniga qadar talbiya aytgani sobit — ittifoq qilingan (Buxoriy va Muslim)."
+        }
+      ]
+    },
+    "tawaf": {
+      "category": "Tavof xatolari",
+      "mistakes": [
+        {
+          "title": "Tavofni Qora toshdan oldin yoki keyin boshlash",
+          "wrong": "Ba'zi umra ziyoratchilari tavofni Qora toshga yetmasdan yoki undan o'tib ketgandan keyin boshlashadi.",
+          "right": "Har bir aylanish Qora tosh qarshisidan boshlanadi va shu joyda tugaydi."
+        },
+        {
+          "title": "Qora toshni ushlash uchun odamlarni turtish",
+          "wrong": "Ba'zi umra ziyoratchilari musulmonlarga zarar yetkazguncha turtinishga urinishadi.",
+          "right": "Agar zarar keltirmasdan uni ushlash mumkin bo'lsa, bu sunnat, aks holda unga ishora qilib takbir aytiladi. Qora toshga yetish sunnat, musulmonlarga zarar yetkazish esa harom."
+        },
+        {
+          "title": "Har bir aylanish uchun maxsus duo bor deb o'ylash",
+          "wrong": "Ba'zi umra ziyoratchilari har bir aylanish uchun maxsus duo belgilangan risolachalarni olib yurib, buni sunnat deb hisoblashadi.",
+          "right": "Payg'ambar ﷺ dan har bir aylanish uchun maxsus duo belgilash sobit emas, balki musulmon istagan duosini o'qiydi va ko'proq zikr hamda Qur'on tilovat qiladi."
+        },
+        {
+          "title": "Jamoa bo'lib baland ovozda duo qilish",
+          "wrong": "Ba'zi odamlar guruh yetakchisi ortidan bir ovoz bilan baland ovozda duo qilish uchun to'planishadi.",
+          "right": "Asl qoida shuki, har bir umra ziyoratchisi o'zi duo qiladi; chunki ovozni baland ko'tarish boshqa tavof qiluvchilarni bezovta qiladi."
+        },
+        {
+          "title": "Ka'baning barcha burchaklarini ushlash",
+          "wrong": "Ba'zi umra ziyoratchilari Ka'baning barcha burchaklarini ushlab, devorlarini siypalab yurishadi.",
+          "right": "Payg'ambar ﷺ faqat Qora tosh va Yamaniy ruknni ushlagani sobit.",
+          "daleel": "Buxoriy va Muslim rivoyati."
+        }
+      ]
+    },
+    "sai": {
+      "category": "Sa'y xatolari",
+      "mistakes": [
+        {
+          "title": "Poklikni sa'y to'g'riligining sharti deb o'ylash",
+          "wrong": "Ba'zilar sa'y poklik bo'lmasa to'g'ri bo'lmaydi deb o'ylaydilar.",
+          "right": "Poklik sa'y uchun mustahab bo'lib, ko'pchilik olimlarga ko'ra sa'y usiz ham to'g'ri bo'ladi."
+        },
+        {
+          "title": "Ayollarning ikki yashil belgi orasida tez yurishi",
+          "wrong": "Ba'zi ayollar erkaklar kabi ikki yashil belgi orasida tez yurishadi.",
+          "right": "Ikki yashil belgi orasida tez yurish faqat erkaklar uchun sunnat. Ayol esa butun sa'y davomida odatdagidek yuradi."
+        },
+        {
+          "title": "Aylanishlar sonida xato qilish",
+          "wrong": "Ba'zi odamlar borish va qaytishni bitta aylanish deb hisoblashadi.",
+          "right": "Safodan Marvaga borish bitta aylanish, Marvadan Safoga qaytish esa yana bitta aylanish. Sa'y Safodan boshlanib Marvada tugaydigan yetti aylanishdan iborat."
+        }
+      ]
+    },
+    "halq": {
+      "category": "Soch oldirish va qisqartirish xatolari",
+      "mistakes": [
+        {
+          "title": "Sochning ozgina qismini qirqish",
+          "wrong": "Ba'zi umra ziyoratchilari boshning old qismidan bir necha soch olib, buni yetarli deb o'ylashadi.",
+          "right": "Shar'iy qisqartirish butun boshdagi sochni qamrab olishi kerak.",
+          "daleel": "Bu Shayx Ibn Boz va Shayx Ibn Usaymin bergan fatvo."
+        },
+        {
+          "title": "Ayolning boshidagi sochni oldirishi",
+          "wrong": "Ba'zi ayollar bu afzalroq deb o'ylab, boshlarini oldirishadi.",
+          "right": "Ayol sochini yig'ib, uchidan taxminan bir barmoq uzunligida oladi va boshini oldirmaydi.",
+          "daleel": "U ﷺ dedi: «Ayollarga soch olish emas, faqat qisqartirish bor» — Abu Dovud rivoyati, olimlar sahih deb topgan."
+        }
+      ]
+    },
+    "general": {
+      "category": "Umumiy xatolar",
+      "mistakes": [
+        {
+          "title": "Rasmga tushirish bilan bandlik",
+          "wrong": "Ba'zi umra ziyoratchilari ibodatdan ko'ra rasmga tushirish va jonli translatsiya bilan ko'proq band bo'lishadi.",
+          "right": "Umraning maqsadi — xushu' va Allohga yuzlanishga erishishdir, shu sababli rasmga tushirish yurakni band qilmaydigan yoki boshqalarga zarar yetkazmaydigan darajada, zarur bo'lganida bo'lishi kerak."
+        },
+        {
+          "title": "Musulmonlarga zarar yetkazish",
+          "wrong": "Ba'zilar turtish, baqirish, saflarni buzish, keksalar va ayollarni turtishga tushib qolishadi.",
+          "right": "U ﷺ dedi: «Musulmon — tili va qo'lidan musulmonlar tinch bo'lgan kishidir» — ittifoq qilingan (Buxoriy va Muslim). Musulmonlarga zarar yetkazish hamisha harom, Allohning Uyida esa yanada ko'proq."
+        },
+        {
+          "title": "Tavof va sa'y paytida suhbat bilan bandlik",
+          "wrong": "Ba'zilar tavof va sa'y davomida dunyoviy ishlar haqida ko'p gapirishadi.",
+          "right": "Bular sharafli joylar bo'lib, ularni ibodat, zikr va duo bilan qadrlash lozim, shuning uchun ortiqcha gapirish bilan ularning fazilatidan mahrum bo'lmaslik kerak."
+        }
+      ]
+    }
+  }
+}
